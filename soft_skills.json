@@ -1,0 +1,2802 @@
+[
+  {
+    "id": 1,
+    "question": "A rider named Heather writes: 'I am so frustrated! I have been waiting for my driver for 15 minutes in the heat. Your service is terrible.' What is the best soft skill response?",
+    "scenario": "Handling customer frustration and wait time",
+    "options": {
+      "A": "I understand your frustration, Heather. I apologize for the delay. Let me check the driver's current status and see how we can get this resolved for you right away.",
+      "B": "Please do not use that tone. The driver is stuck in traffic. Wait for some more time.",
+      "C": "The ride is only €15.00 so please do not worry. It is normal to wait in peak hours.",
+      "D": "I can cancel your ride if you want, but you will pay a fee."
+    },
+    "answer": "A",
+    "explanation": "Active empathy, sincere apology for the wait time, and taking immediate ownership of the check represents the best soft skill behavior. Never admonish the customer's tone.",
+    "skill": "Patience & Empathy"
+  },
+  {
+    "id": 2,
+    "question": "You must inform a customer that their request for a refund of a £12.00 fare has been denied because the trip was completed successfully. How do you deliver this bad news professionally?",
+    "scenario": "Delivering negative news",
+    "options": {
+      "A": "Your refund is denied. The driver completed the ride. Case closed.",
+      "B": "I understand this isn't the outcome you hoped for, James. After reviewing the trip details, we verified the route was completed successfully. Therefore, we are unable to process a refund. Thank you for your understanding.",
+      "C": "We cannot give you £12.00 because that would be a loss for our driver. Please pay.",
+      "D": "You completed the trip so why are you asking for a refund? That is not allowed."
+    },
+    "answer": "B",
+    "explanation": "Delivering bad news requires validation of feelings, transparency of decision-making, clear policy stating, and closing with professional courtesy.",
+    "skill": "Diplomacy & Tact"
+  },
+  {
+    "id": 3,
+    "question": "A driver messages: 'The passenger was extremely rude to me, slamming my doors and yelling.' What soft skill is critical here?",
+    "scenario": "De-escalating driver issues",
+    "options": {
+      "A": "Acknowledge the driver's distress: 'I am sorry to hear this, Driver Ali. Safety and respect are important to us. Let me log this on the rider's profile and ensure you aren't matched with them again.'",
+      "B": "Tell the driver to report it to the police and don't accept passengers who look rude.",
+      "C": "Tell them slamming doors is normal and they shouldn't worry about it.",
+      "D": "Ignore the ticket as it is a passenger rating dispute."
+    },
+    "answer": "A",
+    "explanation": "Drivers are our partners. Validating their feelings, reassuring them of safety rules, blocking matches, and noting the rider profile shows high-quality driver support.",
+    "skill": "Partner De-escalation"
+  },
+  {
+    "id": 4,
+    "question": "A customer says: 'The app shows my driver is 5 minutes away, but he is going in the wrong direction. I need to get to the airport immediately.' How do you show accountability?",
+    "scenario": "App GPS error support",
+    "options": {
+      "A": "Say: 'Let me look into this, James. I will contact the driver to verify their direction and ensure they are heading your way to the airport now.'",
+      "B": "Say: 'The GPS has a delay. Please wait for the driver to turn around.'",
+      "C": "Say: 'You should cancel the ride and book another one.'",
+      "D": "Say: 'The driver knows what he is doing, please do not interfere.'"
+    },
+    "answer": "A",
+    "explanation": "Accountability means taking charge, offering to verify with the driver directly, and giving the customer an active timeline.",
+    "skill": "Accountability & Solution"
+  },
+  {
+    "id": 5,
+    "question": "Which of these displays a 'Collaborative and Positive Tone' instead of a demanding one?",
+    "scenario": "Tone adjustment check",
+    "options": {
+      "A": "You must verify your email or I will close the chat.",
+      "B": "To help secure your account, could you please verify your registered email address? I'll be happy to assist you once that is confirmed.",
+      "C": "Verify your email now.",
+      "D": "It is our policy that you send email details first."
+    },
+    "answer": "B",
+    "explanation": "Using collaborative requests ('could you please...') and stating the positive reason ('to help secure your account...') improves CSAT significantly.",
+    "skill": "Positive Tone"
+  },
+  {
+    "id": 6,
+    "question": "A rider named Sarah writes: 'I am so frustrated! I have been waiting for my driver for 15 minutes in the heat. Your service is terrible.' What is the best soft skill response?",
+    "scenario": "Handling customer frustration and wait time",
+    "options": {
+      "A": "I understand your frustration, Sarah. I apologize for the delay. Let me check the driver's current status and see how we can get this resolved for you right away.",
+      "B": "Please do not use that tone. The driver is stuck in traffic. Wait for some more time.",
+      "C": "The ride is only €30.00 so please do not worry. It is normal to wait in peak hours.",
+      "D": "I can cancel your ride if you want, but you will pay a fee."
+    },
+    "answer": "A",
+    "explanation": "Active empathy, sincere apology for the wait time, and taking immediate ownership of the check represents the best soft skill behavior. Never admonish the customer's tone.",
+    "skill": "Patience & Empathy"
+  },
+  {
+    "id": 7,
+    "question": "You must inform a customer that their request for a refund of a €30.00 fare has been denied because the trip was completed successfully. How do you deliver this bad news professionally?",
+    "scenario": "Delivering negative news",
+    "options": {
+      "A": "Your refund is denied. The driver completed the ride. Case closed.",
+      "B": "I understand this isn't the outcome you hoped for, Jessica. After reviewing the trip details, we verified the route was completed successfully. Therefore, we are unable to process a refund. Thank you for your understanding.",
+      "C": "We cannot give you €30.00 because that would be a loss for our driver. Please pay.",
+      "D": "You completed the trip so why are you asking for a refund? That is not allowed."
+    },
+    "answer": "B",
+    "explanation": "Delivering bad news requires validation of feelings, transparency of decision-making, clear policy stating, and closing with professional courtesy.",
+    "skill": "Diplomacy & Tact"
+  },
+  {
+    "id": 8,
+    "question": "A driver messages: 'The passenger was extremely rude to me, slamming my doors and yelling.' What soft skill is critical here?",
+    "scenario": "De-escalating driver issues",
+    "options": {
+      "A": "Acknowledge the driver's distress: 'I am sorry to hear this, Driver Jose. Safety and respect are important to us. Let me log this on the rider's profile and ensure you aren't matched with them again.'",
+      "B": "Tell the driver to report it to the police and don't accept passengers who look rude.",
+      "C": "Tell them slamming doors is normal and they shouldn't worry about it.",
+      "D": "Ignore the ticket as it is a passenger rating dispute."
+    },
+    "answer": "A",
+    "explanation": "Drivers are our partners. Validating their feelings, reassuring them of safety rules, blocking matches, and noting the rider profile shows high-quality driver support.",
+    "skill": "Partner De-escalation"
+  },
+  {
+    "id": 9,
+    "question": "A customer says: 'The app shows my driver is 5 minutes away, but he is going in the wrong direction. I need to get to my hotel immediately.' How do you show accountability?",
+    "scenario": "App GPS error support",
+    "options": {
+      "A": "Say: 'Let me look into this, Nicole. I will contact the driver to verify their direction and ensure they are heading your way to my hotel now.'",
+      "B": "Say: 'The GPS has a delay. Please wait for the driver to turn around.'",
+      "C": "Say: 'You should cancel the ride and book another one.'",
+      "D": "Say: 'The driver knows what he is doing, please do not interfere.'"
+    },
+    "answer": "A",
+    "explanation": "Accountability means taking charge, offering to verify with the driver directly, and giving the customer an active timeline.",
+    "skill": "Accountability & Solution"
+  },
+  {
+    "id": 10,
+    "question": "Which of these displays a 'Collaborative and Positive Tone' instead of a demanding one?",
+    "scenario": "Tone adjustment check",
+    "options": {
+      "A": "You must verify your email or I will close the chat.",
+      "B": "To help secure your account, could you please verify your registered email address? I'll be happy to assist you once that is confirmed.",
+      "C": "Verify your email now.",
+      "D": "It is our policy that you send email details first."
+    },
+    "answer": "B",
+    "explanation": "Using collaborative requests ('could you please...') and stating the positive reason ('to help secure your account...') improves CSAT significantly.",
+    "skill": "Positive Tone"
+  },
+  {
+    "id": 11,
+    "question": "A rider named Amanda writes: 'I am so frustrated! I have been waiting for my driver for 15 minutes in the heat. Your service is terrible.' What is the best soft skill response?",
+    "scenario": "Handling customer frustration and wait time",
+    "options": {
+      "A": "I understand your frustration, Amanda. I apologize for the delay. Let me check the driver's current status and see how we can get this resolved for you right away.",
+      "B": "Please do not use that tone. The driver is stuck in traffic. Wait for some more time.",
+      "C": "The ride is only R120 so please do not worry. It is normal to wait in peak hours.",
+      "D": "I can cancel your ride if you want, but you will pay a fee."
+    },
+    "answer": "A",
+    "explanation": "Active empathy, sincere apology for the wait time, and taking immediate ownership of the check represents the best soft skill behavior. Never admonish the customer's tone.",
+    "skill": "Patience & Empathy"
+  },
+  {
+    "id": 12,
+    "question": "You must inform a customer that their request for a refund of a ₦4500 fare has been denied because the trip was completed successfully. How do you deliver this bad news professionally?",
+    "scenario": "Delivering negative news",
+    "options": {
+      "A": "Your refund is denied. The driver completed the ride. Case closed.",
+      "B": "I understand this isn't the outcome you hoped for, Sarah. After reviewing the trip details, we verified the route was completed successfully. Therefore, we are unable to process a refund. Thank you for your understanding.",
+      "C": "We cannot give you ₦4500 because that would be a loss for our driver. Please pay.",
+      "D": "You completed the trip so why are you asking for a refund? That is not allowed."
+    },
+    "answer": "B",
+    "explanation": "Delivering bad news requires validation of feelings, transparency of decision-making, clear policy stating, and closing with professional courtesy.",
+    "skill": "Diplomacy & Tact"
+  },
+  {
+    "id": 13,
+    "question": "A driver messages: 'The passenger was extremely rude to me, slamming my doors and yelling.' What soft skill is critical here?",
+    "scenario": "De-escalating driver issues",
+    "options": {
+      "A": "Acknowledge the driver's distress: 'I am sorry to hear this, Driver Ali. Safety and respect are important to us. Let me log this on the rider's profile and ensure you aren't matched with them again.'",
+      "B": "Tell the driver to report it to the police and don't accept passengers who look rude.",
+      "C": "Tell them slamming doors is normal and they shouldn't worry about it.",
+      "D": "Ignore the ticket as it is a passenger rating dispute."
+    },
+    "answer": "A",
+    "explanation": "Drivers are our partners. Validating their feelings, reassuring them of safety rules, blocking matches, and noting the rider profile shows high-quality driver support.",
+    "skill": "Partner De-escalation"
+  },
+  {
+    "id": 14,
+    "question": "A customer says: 'The app shows my driver is 5 minutes away, but he is going in the wrong direction. I need to get to the airport immediately.' How do you show accountability?",
+    "scenario": "App GPS error support",
+    "options": {
+      "A": "Say: 'Let me look into this, Robert. I will contact the driver to verify their direction and ensure they are heading your way to the airport now.'",
+      "B": "Say: 'The GPS has a delay. Please wait for the driver to turn around.'",
+      "C": "Say: 'You should cancel the ride and book another one.'",
+      "D": "Say: 'The driver knows what he is doing, please do not interfere.'"
+    },
+    "answer": "A",
+    "explanation": "Accountability means taking charge, offering to verify with the driver directly, and giving the customer an active timeline.",
+    "skill": "Accountability & Solution"
+  },
+  {
+    "id": 15,
+    "question": "Which of these displays a 'Collaborative and Positive Tone' instead of a demanding one?",
+    "scenario": "Tone adjustment check",
+    "options": {
+      "A": "You must verify your email or I will close the chat.",
+      "B": "To help secure your account, could you please verify your registered email address? I'll be happy to assist you once that is confirmed.",
+      "C": "Verify your email now.",
+      "D": "It is our policy that you send email details first."
+    },
+    "answer": "B",
+    "explanation": "Using collaborative requests ('could you please...') and stating the positive reason ('to help secure your account...') improves CSAT significantly.",
+    "skill": "Positive Tone"
+  },
+  {
+    "id": 16,
+    "question": "A rider named Robert writes: 'I am so frustrated! I have been waiting for my driver for 15 minutes in the heat. Your service is terrible.' What is the best soft skill response?",
+    "scenario": "Handling customer frustration and wait time",
+    "options": {
+      "A": "I understand your frustration, Robert. I apologize for the delay. Let me check the driver's current status and see how we can get this resolved for you right away.",
+      "B": "Please do not use that tone. The driver is stuck in traffic. Wait for some more time.",
+      "C": "The ride is only ₦8000 so please do not worry. It is normal to wait in peak hours.",
+      "D": "I can cancel your ride if you want, but you will pay a fee."
+    },
+    "answer": "A",
+    "explanation": "Active empathy, sincere apology for the wait time, and taking immediate ownership of the check represents the best soft skill behavior. Never admonish the customer's tone.",
+    "skill": "Patience & Empathy"
+  },
+  {
+    "id": 17,
+    "question": "You must inform a customer that their request for a refund of a R250 fare has been denied because the trip was completed successfully. How do you deliver this bad news professionally?",
+    "scenario": "Delivering negative news",
+    "options": {
+      "A": "Your refund is denied. The driver completed the ride. Case closed.",
+      "B": "I understand this isn't the outcome you hoped for, Brian. After reviewing the trip details, we verified the route was completed successfully. Therefore, we are unable to process a refund. Thank you for your understanding.",
+      "C": "We cannot give you R250 because that would be a loss for our driver. Please pay.",
+      "D": "You completed the trip so why are you asking for a refund? That is not allowed."
+    },
+    "answer": "B",
+    "explanation": "Delivering bad news requires validation of feelings, transparency of decision-making, clear policy stating, and closing with professional courtesy.",
+    "skill": "Diplomacy & Tact"
+  },
+  {
+    "id": 18,
+    "question": "A driver messages: 'The passenger was extremely rude to me, slamming my doors and yelling.' What soft skill is critical here?",
+    "scenario": "De-escalating driver issues",
+    "options": {
+      "A": "Acknowledge the driver's distress: 'I am sorry to hear this, Driver Carlos. Safety and respect are important to us. Let me log this on the rider's profile and ensure you aren't matched with them again.'",
+      "B": "Tell the driver to report it to the police and don't accept passengers who look rude.",
+      "C": "Tell them slamming doors is normal and they shouldn't worry about it.",
+      "D": "Ignore the ticket as it is a passenger rating dispute."
+    },
+    "answer": "A",
+    "explanation": "Drivers are our partners. Validating their feelings, reassuring them of safety rules, blocking matches, and noting the rider profile shows high-quality driver support.",
+    "skill": "Partner De-escalation"
+  },
+  {
+    "id": 19,
+    "question": "A customer says: 'The app shows my driver is 5 minutes away, but he is going in the wrong direction. I need to get to the airport immediately.' How do you show accountability?",
+    "scenario": "App GPS error support",
+    "options": {
+      "A": "Say: 'Let me look into this, Matthew. I will contact the driver to verify their direction and ensure they are heading your way to the airport now.'",
+      "B": "Say: 'The GPS has a delay. Please wait for the driver to turn around.'",
+      "C": "Say: 'You should cancel the ride and book another one.'",
+      "D": "Say: 'The driver knows what he is doing, please do not interfere.'"
+    },
+    "answer": "A",
+    "explanation": "Accountability means taking charge, offering to verify with the driver directly, and giving the customer an active timeline.",
+    "skill": "Accountability & Solution"
+  },
+  {
+    "id": 20,
+    "question": "Which of these displays a 'Collaborative and Positive Tone' instead of a demanding one?",
+    "scenario": "Tone adjustment check",
+    "options": {
+      "A": "You must verify your email or I will close the chat.",
+      "B": "To help secure your account, could you please verify your registered email address? I'll be happy to assist you once that is confirmed.",
+      "C": "Verify your email now.",
+      "D": "It is our policy that you send email details first."
+    },
+    "answer": "B",
+    "explanation": "Using collaborative requests ('could you please...') and stating the positive reason ('to help secure your account...') improves CSAT significantly.",
+    "skill": "Positive Tone"
+  },
+  {
+    "id": 21,
+    "question": "A rider named John writes: 'I am so frustrated! I have been waiting for my driver for 15 minutes in the heat. Your service is terrible.' What is the best soft skill response?",
+    "scenario": "Handling customer frustration and wait time",
+    "options": {
+      "A": "I understand your frustration, John. I apologize for the delay. Let me check the driver's current status and see how we can get this resolved for you right away.",
+      "B": "Please do not use that tone. The driver is stuck in traffic. Wait for some more time.",
+      "C": "The ride is only ₦4500 so please do not worry. It is normal to wait in peak hours.",
+      "D": "I can cancel your ride if you want, but you will pay a fee."
+    },
+    "answer": "A",
+    "explanation": "Active empathy, sincere apology for the wait time, and taking immediate ownership of the check represents the best soft skill behavior. Never admonish the customer's tone.",
+    "skill": "Patience & Empathy"
+  },
+  {
+    "id": 22,
+    "question": "You must inform a customer that their request for a refund of a $75.00 fare has been denied because the trip was completed successfully. How do you deliver this bad news professionally?",
+    "scenario": "Delivering negative news",
+    "options": {
+      "A": "Your refund is denied. The driver completed the ride. Case closed.",
+      "B": "I understand this isn't the outcome you hoped for, Jessica. After reviewing the trip details, we verified the route was completed successfully. Therefore, we are unable to process a refund. Thank you for your understanding.",
+      "C": "We cannot give you $75.00 because that would be a loss for our driver. Please pay.",
+      "D": "You completed the trip so why are you asking for a refund? That is not allowed."
+    },
+    "answer": "B",
+    "explanation": "Delivering bad news requires validation of feelings, transparency of decision-making, clear policy stating, and closing with professional courtesy.",
+    "skill": "Diplomacy & Tact"
+  },
+  {
+    "id": 23,
+    "question": "A driver messages: 'The passenger was extremely rude to me, slamming my doors and yelling.' What soft skill is critical here?",
+    "scenario": "De-escalating driver issues",
+    "options": {
+      "A": "Acknowledge the driver's distress: 'I am sorry to hear this, Driver Ali. Safety and respect are important to us. Let me log this on the rider's profile and ensure you aren't matched with them again.'",
+      "B": "Tell the driver to report it to the police and don't accept passengers who look rude.",
+      "C": "Tell them slamming doors is normal and they shouldn't worry about it.",
+      "D": "Ignore the ticket as it is a passenger rating dispute."
+    },
+    "answer": "A",
+    "explanation": "Drivers are our partners. Validating their feelings, reassuring them of safety rules, blocking matches, and noting the rider profile shows high-quality driver support.",
+    "skill": "Partner De-escalation"
+  },
+  {
+    "id": 24,
+    "question": "A customer says: 'The app shows my driver is 5 minutes away, but he is going in the wrong direction. I need to get to the station immediately.' How do you show accountability?",
+    "scenario": "App GPS error support",
+    "options": {
+      "A": "Say: 'Let me look into this, Sarah. I will contact the driver to verify their direction and ensure they are heading your way to the station now.'",
+      "B": "Say: 'The GPS has a delay. Please wait for the driver to turn around.'",
+      "C": "Say: 'You should cancel the ride and book another one.'",
+      "D": "Say: 'The driver knows what he is doing, please do not interfere.'"
+    },
+    "answer": "A",
+    "explanation": "Accountability means taking charge, offering to verify with the driver directly, and giving the customer an active timeline.",
+    "skill": "Accountability & Solution"
+  },
+  {
+    "id": 25,
+    "question": "Which of these displays a 'Collaborative and Positive Tone' instead of a demanding one?",
+    "scenario": "Tone adjustment check",
+    "options": {
+      "A": "You must verify your email or I will close the chat.",
+      "B": "To help secure your account, could you please verify your registered email address? I'll be happy to assist you once that is confirmed.",
+      "C": "Verify your email now.",
+      "D": "It is our policy that you send email details first."
+    },
+    "answer": "B",
+    "explanation": "Using collaborative requests ('could you please...') and stating the positive reason ('to help secure your account...') improves CSAT significantly.",
+    "skill": "Positive Tone"
+  },
+  {
+    "id": 26,
+    "question": "A rider named Brian writes: 'I am so frustrated! I have been waiting for my driver for 15 minutes in the heat. Your service is terrible.' What is the best soft skill response?",
+    "scenario": "Handling customer frustration and wait time",
+    "options": {
+      "A": "I understand your frustration, Brian. I apologize for the delay. Let me check the driver's current status and see how we can get this resolved for you right away.",
+      "B": "Please do not use that tone. The driver is stuck in traffic. Wait for some more time.",
+      "C": "The ride is only $45.00 so please do not worry. It is normal to wait in peak hours.",
+      "D": "I can cancel your ride if you want, but you will pay a fee."
+    },
+    "answer": "A",
+    "explanation": "Active empathy, sincere apology for the wait time, and taking immediate ownership of the check represents the best soft skill behavior. Never admonish the customer's tone.",
+    "skill": "Patience & Empathy"
+  },
+  {
+    "id": 27,
+    "question": "You must inform a customer that their request for a refund of a £6.00 fare has been denied because the trip was completed successfully. How do you deliver this bad news professionally?",
+    "scenario": "Delivering negative news",
+    "options": {
+      "A": "Your refund is denied. The driver completed the ride. Case closed.",
+      "B": "I understand this isn't the outcome you hoped for, Sarah. After reviewing the trip details, we verified the route was completed successfully. Therefore, we are unable to process a refund. Thank you for your understanding.",
+      "C": "We cannot give you £6.00 because that would be a loss for our driver. Please pay.",
+      "D": "You completed the trip so why are you asking for a refund? That is not allowed."
+    },
+    "answer": "B",
+    "explanation": "Delivering bad news requires validation of feelings, transparency of decision-making, clear policy stating, and closing with professional courtesy.",
+    "skill": "Diplomacy & Tact"
+  },
+  {
+    "id": 28,
+    "question": "A driver messages: 'The passenger was extremely rude to me, slamming my doors and yelling.' What soft skill is critical here?",
+    "scenario": "De-escalating driver issues",
+    "options": {
+      "A": "Acknowledge the driver's distress: 'I am sorry to hear this, Driver Ken. Safety and respect are important to us. Let me log this on the rider's profile and ensure you aren't matched with them again.'",
+      "B": "Tell the driver to report it to the police and don't accept passengers who look rude.",
+      "C": "Tell them slamming doors is normal and they shouldn't worry about it.",
+      "D": "Ignore the ticket as it is a passenger rating dispute."
+    },
+    "answer": "A",
+    "explanation": "Drivers are our partners. Validating their feelings, reassuring them of safety rules, blocking matches, and noting the rider profile shows high-quality driver support.",
+    "skill": "Partner De-escalation"
+  },
+  {
+    "id": 29,
+    "question": "A customer says: 'The app shows my driver is 5 minutes away, but he is going in the wrong direction. I need to get to the airport immediately.' How do you show accountability?",
+    "scenario": "App GPS error support",
+    "options": {
+      "A": "Say: 'Let me look into this, Amanda. I will contact the driver to verify their direction and ensure they are heading your way to the airport now.'",
+      "B": "Say: 'The GPS has a delay. Please wait for the driver to turn around.'",
+      "C": "Say: 'You should cancel the ride and book another one.'",
+      "D": "Say: 'The driver knows what he is doing, please do not interfere.'"
+    },
+    "answer": "A",
+    "explanation": "Accountability means taking charge, offering to verify with the driver directly, and giving the customer an active timeline.",
+    "skill": "Accountability & Solution"
+  },
+  {
+    "id": 30,
+    "question": "Which of these displays a 'Collaborative and Positive Tone' instead of a demanding one?",
+    "scenario": "Tone adjustment check",
+    "options": {
+      "A": "You must verify your email or I will close the chat.",
+      "B": "To help secure your account, could you please verify your registered email address? I'll be happy to assist you once that is confirmed.",
+      "C": "Verify your email now.",
+      "D": "It is our policy that you send email details first."
+    },
+    "answer": "B",
+    "explanation": "Using collaborative requests ('could you please...') and stating the positive reason ('to help secure your account...') improves CSAT significantly.",
+    "skill": "Positive Tone"
+  },
+  {
+    "id": 31,
+    "question": "A rider named John writes: 'I am so frustrated! I have been waiting for my driver for 15 minutes in the heat. Your service is terrible.' What is the best soft skill response?",
+    "scenario": "Handling customer frustration and wait time",
+    "options": {
+      "A": "I understand your frustration, John. I apologize for the delay. Let me check the driver's current status and see how we can get this resolved for you right away.",
+      "B": "Please do not use that tone. The driver is stuck in traffic. Wait for some more time.",
+      "C": "The ride is only £6.00 so please do not worry. It is normal to wait in peak hours.",
+      "D": "I can cancel your ride if you want, but you will pay a fee."
+    },
+    "answer": "A",
+    "explanation": "Active empathy, sincere apology for the wait time, and taking immediate ownership of the check represents the best soft skill behavior. Never admonish the customer's tone.",
+    "skill": "Patience & Empathy"
+  },
+  {
+    "id": 32,
+    "question": "You must inform a customer that their request for a refund of a €15.00 fare has been denied because the trip was completed successfully. How do you deliver this bad news professionally?",
+    "scenario": "Delivering negative news",
+    "options": {
+      "A": "Your refund is denied. The driver completed the ride. Case closed.",
+      "B": "I understand this isn't the outcome you hoped for, Matthew. After reviewing the trip details, we verified the route was completed successfully. Therefore, we are unable to process a refund. Thank you for your understanding.",
+      "C": "We cannot give you €15.00 because that would be a loss for our driver. Please pay.",
+      "D": "You completed the trip so why are you asking for a refund? That is not allowed."
+    },
+    "answer": "B",
+    "explanation": "Delivering bad news requires validation of feelings, transparency of decision-making, clear policy stating, and closing with professional courtesy.",
+    "skill": "Diplomacy & Tact"
+  },
+  {
+    "id": 33,
+    "question": "A driver messages: 'The passenger was extremely rude to me, slamming my doors and yelling.' What soft skill is critical here?",
+    "scenario": "De-escalating driver issues",
+    "options": {
+      "A": "Acknowledge the driver's distress: 'I am sorry to hear this, Driver Liam. Safety and respect are important to us. Let me log this on the rider's profile and ensure you aren't matched with them again.'",
+      "B": "Tell the driver to report it to the police and don't accept passengers who look rude.",
+      "C": "Tell them slamming doors is normal and they shouldn't worry about it.",
+      "D": "Ignore the ticket as it is a passenger rating dispute."
+    },
+    "answer": "A",
+    "explanation": "Drivers are our partners. Validating their feelings, reassuring them of safety rules, blocking matches, and noting the rider profile shows high-quality driver support.",
+    "skill": "Partner De-escalation"
+  },
+  {
+    "id": 34,
+    "question": "A customer says: 'The app shows my driver is 5 minutes away, but he is going in the wrong direction. I need to get to the station immediately.' How do you show accountability?",
+    "scenario": "App GPS error support",
+    "options": {
+      "A": "Say: 'Let me look into this, Amanda. I will contact the driver to verify their direction and ensure they are heading your way to the station now.'",
+      "B": "Say: 'The GPS has a delay. Please wait for the driver to turn around.'",
+      "C": "Say: 'You should cancel the ride and book another one.'",
+      "D": "Say: 'The driver knows what he is doing, please do not interfere.'"
+    },
+    "answer": "A",
+    "explanation": "Accountability means taking charge, offering to verify with the driver directly, and giving the customer an active timeline.",
+    "skill": "Accountability & Solution"
+  },
+  {
+    "id": 35,
+    "question": "Which of these displays a 'Collaborative and Positive Tone' instead of a demanding one?",
+    "scenario": "Tone adjustment check",
+    "options": {
+      "A": "You must verify your email or I will close the chat.",
+      "B": "To help secure your account, could you please verify your registered email address? I'll be happy to assist you once that is confirmed.",
+      "C": "Verify your email now.",
+      "D": "It is our policy that you send email details first."
+    },
+    "answer": "B",
+    "explanation": "Using collaborative requests ('could you please...') and stating the positive reason ('to help secure your account...') improves CSAT significantly.",
+    "skill": "Positive Tone"
+  },
+  {
+    "id": 36,
+    "question": "A rider named Sarah writes: 'I am so frustrated! I have been waiting for my driver for 15 minutes in the heat. Your service is terrible.' What is the best soft skill response?",
+    "scenario": "Handling customer frustration and wait time",
+    "options": {
+      "A": "I understand your frustration, Sarah. I apologize for the delay. Let me check the driver's current status and see how we can get this resolved for you right away.",
+      "B": "Please do not use that tone. The driver is stuck in traffic. Wait for some more time.",
+      "C": "The ride is only $25.00 so please do not worry. It is normal to wait in peak hours.",
+      "D": "I can cancel your ride if you want, but you will pay a fee."
+    },
+    "answer": "A",
+    "explanation": "Active empathy, sincere apology for the wait time, and taking immediate ownership of the check represents the best soft skill behavior. Never admonish the customer's tone.",
+    "skill": "Patience & Empathy"
+  },
+  {
+    "id": 37,
+    "question": "You must inform a customer that their request for a refund of a R250 fare has been denied because the trip was completed successfully. How do you deliver this bad news professionally?",
+    "scenario": "Delivering negative news",
+    "options": {
+      "A": "Your refund is denied. The driver completed the ride. Case closed.",
+      "B": "I understand this isn't the outcome you hoped for, Nicole. After reviewing the trip details, we verified the route was completed successfully. Therefore, we are unable to process a refund. Thank you for your understanding.",
+      "C": "We cannot give you R250 because that would be a loss for our driver. Please pay.",
+      "D": "You completed the trip so why are you asking for a refund? That is not allowed."
+    },
+    "answer": "B",
+    "explanation": "Delivering bad news requires validation of feelings, transparency of decision-making, clear policy stating, and closing with professional courtesy.",
+    "skill": "Diplomacy & Tact"
+  },
+  {
+    "id": 38,
+    "question": "A driver messages: 'The passenger was extremely rude to me, slamming my doors and yelling.' What soft skill is critical here?",
+    "scenario": "De-escalating driver issues",
+    "options": {
+      "A": "Acknowledge the driver's distress: 'I am sorry to hear this, Driver Roger. Safety and respect are important to us. Let me log this on the rider's profile and ensure you aren't matched with them again.'",
+      "B": "Tell the driver to report it to the police and don't accept passengers who look rude.",
+      "C": "Tell them slamming doors is normal and they shouldn't worry about it.",
+      "D": "Ignore the ticket as it is a passenger rating dispute."
+    },
+    "answer": "A",
+    "explanation": "Drivers are our partners. Validating their feelings, reassuring them of safety rules, blocking matches, and noting the rider profile shows high-quality driver support.",
+    "skill": "Partner De-escalation"
+  },
+  {
+    "id": 39,
+    "question": "A customer says: 'The app shows my driver is 5 minutes away, but he is going in the wrong direction. I need to get to the station immediately.' How do you show accountability?",
+    "scenario": "App GPS error support",
+    "options": {
+      "A": "Say: 'Let me look into this, James. I will contact the driver to verify their direction and ensure they are heading your way to the station now.'",
+      "B": "Say: 'The GPS has a delay. Please wait for the driver to turn around.'",
+      "C": "Say: 'You should cancel the ride and book another one.'",
+      "D": "Say: 'The driver knows what he is doing, please do not interfere.'"
+    },
+    "answer": "A",
+    "explanation": "Accountability means taking charge, offering to verify with the driver directly, and giving the customer an active timeline.",
+    "skill": "Accountability & Solution"
+  },
+  {
+    "id": 40,
+    "question": "Which of these displays a 'Collaborative and Positive Tone' instead of a demanding one?",
+    "scenario": "Tone adjustment check",
+    "options": {
+      "A": "You must verify your email or I will close the chat.",
+      "B": "To help secure your account, could you please verify your registered email address? I'll be happy to assist you once that is confirmed.",
+      "C": "Verify your email now.",
+      "D": "It is our policy that you send email details first."
+    },
+    "answer": "B",
+    "explanation": "Using collaborative requests ('could you please...') and stating the positive reason ('to help secure your account...') improves CSAT significantly.",
+    "skill": "Positive Tone"
+  },
+  {
+    "id": 41,
+    "question": "A rider named Chris writes: 'I am so frustrated! I have been waiting for my driver for 15 minutes in the heat. Your service is terrible.' What is the best soft skill response?",
+    "scenario": "Handling customer frustration and wait time",
+    "options": {
+      "A": "I understand your frustration, Chris. I apologize for the delay. Let me check the driver's current status and see how we can get this resolved for you right away.",
+      "B": "Please do not use that tone. The driver is stuck in traffic. Wait for some more time.",
+      "C": "The ride is only $5.00 so please do not worry. It is normal to wait in peak hours.",
+      "D": "I can cancel your ride if you want, but you will pay a fee."
+    },
+    "answer": "A",
+    "explanation": "Active empathy, sincere apology for the wait time, and taking immediate ownership of the check represents the best soft skill behavior. Never admonish the customer's tone.",
+    "skill": "Patience & Empathy"
+  },
+  {
+    "id": 42,
+    "question": "You must inform a customer that their request for a refund of a $25.00 fare has been denied because the trip was completed successfully. How do you deliver this bad news professionally?",
+    "scenario": "Delivering negative news",
+    "options": {
+      "A": "Your refund is denied. The driver completed the ride. Case closed.",
+      "B": "I understand this isn't the outcome you hoped for, John. After reviewing the trip details, we verified the route was completed successfully. Therefore, we are unable to process a refund. Thank you for your understanding.",
+      "C": "We cannot give you $25.00 because that would be a loss for our driver. Please pay.",
+      "D": "You completed the trip so why are you asking for a refund? That is not allowed."
+    },
+    "answer": "B",
+    "explanation": "Delivering bad news requires validation of feelings, transparency of decision-making, clear policy stating, and closing with professional courtesy.",
+    "skill": "Diplomacy & Tact"
+  },
+  {
+    "id": 43,
+    "question": "A driver messages: 'The passenger was extremely rude to me, slamming my doors and yelling.' What soft skill is critical here?",
+    "scenario": "De-escalating driver issues",
+    "options": {
+      "A": "Acknowledge the driver's distress: 'I am sorry to hear this, Driver Jose. Safety and respect are important to us. Let me log this on the rider's profile and ensure you aren't matched with them again.'",
+      "B": "Tell the driver to report it to the police and don't accept passengers who look rude.",
+      "C": "Tell them slamming doors is normal and they shouldn't worry about it.",
+      "D": "Ignore the ticket as it is a passenger rating dispute."
+    },
+    "answer": "A",
+    "explanation": "Drivers are our partners. Validating their feelings, reassuring them of safety rules, blocking matches, and noting the rider profile shows high-quality driver support.",
+    "skill": "Partner De-escalation"
+  },
+  {
+    "id": 44,
+    "question": "A customer says: 'The app shows my driver is 5 minutes away, but he is going in the wrong direction. I need to get to the office immediately.' How do you show accountability?",
+    "scenario": "App GPS error support",
+    "options": {
+      "A": "Say: 'Let me look into this, Emily. I will contact the driver to verify their direction and ensure they are heading your way to the office now.'",
+      "B": "Say: 'The GPS has a delay. Please wait for the driver to turn around.'",
+      "C": "Say: 'You should cancel the ride and book another one.'",
+      "D": "Say: 'The driver knows what he is doing, please do not interfere.'"
+    },
+    "answer": "A",
+    "explanation": "Accountability means taking charge, offering to verify with the driver directly, and giving the customer an active timeline.",
+    "skill": "Accountability & Solution"
+  },
+  {
+    "id": 45,
+    "question": "Which of these displays a 'Collaborative and Positive Tone' instead of a demanding one?",
+    "scenario": "Tone adjustment check",
+    "options": {
+      "A": "You must verify your email or I will close the chat.",
+      "B": "To help secure your account, could you please verify your registered email address? I'll be happy to assist you once that is confirmed.",
+      "C": "Verify your email now.",
+      "D": "It is our policy that you send email details first."
+    },
+    "answer": "B",
+    "explanation": "Using collaborative requests ('could you please...') and stating the positive reason ('to help secure your account...') improves CSAT significantly.",
+    "skill": "Positive Tone"
+  },
+  {
+    "id": 46,
+    "question": "A rider named Sarah writes: 'I am so frustrated! I have been waiting for my driver for 15 minutes in the heat. Your service is terrible.' What is the best soft skill response?",
+    "scenario": "Handling customer frustration and wait time",
+    "options": {
+      "A": "I understand your frustration, Sarah. I apologize for the delay. Let me check the driver's current status and see how we can get this resolved for you right away.",
+      "B": "Please do not use that tone. The driver is stuck in traffic. Wait for some more time.",
+      "C": "The ride is only KSh 500 so please do not worry. It is normal to wait in peak hours.",
+      "D": "I can cancel your ride if you want, but you will pay a fee."
+    },
+    "answer": "A",
+    "explanation": "Active empathy, sincere apology for the wait time, and taking immediate ownership of the check represents the best soft skill behavior. Never admonish the customer's tone.",
+    "skill": "Patience & Empathy"
+  },
+  {
+    "id": 47,
+    "question": "You must inform a customer that their request for a refund of a KSh 500 fare has been denied because the trip was completed successfully. How do you deliver this bad news professionally?",
+    "scenario": "Delivering negative news",
+    "options": {
+      "A": "Your refund is denied. The driver completed the ride. Case closed.",
+      "B": "I understand this isn't the outcome you hoped for, Nicole. After reviewing the trip details, we verified the route was completed successfully. Therefore, we are unable to process a refund. Thank you for your understanding.",
+      "C": "We cannot give you KSh 500 because that would be a loss for our driver. Please pay.",
+      "D": "You completed the trip so why are you asking for a refund? That is not allowed."
+    },
+    "answer": "B",
+    "explanation": "Delivering bad news requires validation of feelings, transparency of decision-making, clear policy stating, and closing with professional courtesy.",
+    "skill": "Diplomacy & Tact"
+  },
+  {
+    "id": 48,
+    "question": "A driver messages: 'The passenger was extremely rude to me, slamming my doors and yelling.' What soft skill is critical here?",
+    "scenario": "De-escalating driver issues",
+    "options": {
+      "A": "Acknowledge the driver's distress: 'I am sorry to hear this, Driver Roger. Safety and respect are important to us. Let me log this on the rider's profile and ensure you aren't matched with them again.'",
+      "B": "Tell the driver to report it to the police and don't accept passengers who look rude.",
+      "C": "Tell them slamming doors is normal and they shouldn't worry about it.",
+      "D": "Ignore the ticket as it is a passenger rating dispute."
+    },
+    "answer": "A",
+    "explanation": "Drivers are our partners. Validating their feelings, reassuring them of safety rules, blocking matches, and noting the rider profile shows high-quality driver support.",
+    "skill": "Partner De-escalation"
+  },
+  {
+    "id": 49,
+    "question": "A customer says: 'The app shows my driver is 5 minutes away, but he is going in the wrong direction. I need to get to the office immediately.' How do you show accountability?",
+    "scenario": "App GPS error support",
+    "options": {
+      "A": "Say: 'Let me look into this, Jessica. I will contact the driver to verify their direction and ensure they are heading your way to the office now.'",
+      "B": "Say: 'The GPS has a delay. Please wait for the driver to turn around.'",
+      "C": "Say: 'You should cancel the ride and book another one.'",
+      "D": "Say: 'The driver knows what he is doing, please do not interfere.'"
+    },
+    "answer": "A",
+    "explanation": "Accountability means taking charge, offering to verify with the driver directly, and giving the customer an active timeline.",
+    "skill": "Accountability & Solution"
+  },
+  {
+    "id": 50,
+    "question": "Which of these displays a 'Collaborative and Positive Tone' instead of a demanding one?",
+    "scenario": "Tone adjustment check",
+    "options": {
+      "A": "You must verify your email or I will close the chat.",
+      "B": "To help secure your account, could you please verify your registered email address? I'll be happy to assist you once that is confirmed.",
+      "C": "Verify your email now.",
+      "D": "It is our policy that you send email details first."
+    },
+    "answer": "B",
+    "explanation": "Using collaborative requests ('could you please...') and stating the positive reason ('to help secure your account...') improves CSAT significantly.",
+    "skill": "Positive Tone"
+  },
+  {
+    "id": 51,
+    "question": "A rider named Brian writes: 'I am so frustrated! I have been waiting for my driver for 15 minutes in the heat. Your service is terrible.' What is the best soft skill response?",
+    "scenario": "Handling customer frustration and wait time",
+    "options": {
+      "A": "I understand your frustration, Brian. I apologize for the delay. Let me check the driver's current status and see how we can get this resolved for you right away.",
+      "B": "Please do not use that tone. The driver is stuck in traffic. Wait for some more time.",
+      "C": "The ride is only $45.00 so please do not worry. It is normal to wait in peak hours.",
+      "D": "I can cancel your ride if you want, but you will pay a fee."
+    },
+    "answer": "A",
+    "explanation": "Active empathy, sincere apology for the wait time, and taking immediate ownership of the check represents the best soft skill behavior. Never admonish the customer's tone.",
+    "skill": "Patience & Empathy"
+  },
+  {
+    "id": 52,
+    "question": "You must inform a customer that their request for a refund of a €30.00 fare has been denied because the trip was completed successfully. How do you deliver this bad news professionally?",
+    "scenario": "Delivering negative news",
+    "options": {
+      "A": "Your refund is denied. The driver completed the ride. Case closed.",
+      "B": "I understand this isn't the outcome you hoped for, Chris. After reviewing the trip details, we verified the route was completed successfully. Therefore, we are unable to process a refund. Thank you for your understanding.",
+      "C": "We cannot give you €30.00 because that would be a loss for our driver. Please pay.",
+      "D": "You completed the trip so why are you asking for a refund? That is not allowed."
+    },
+    "answer": "B",
+    "explanation": "Delivering bad news requires validation of feelings, transparency of decision-making, clear policy stating, and closing with professional courtesy.",
+    "skill": "Diplomacy & Tact"
+  },
+  {
+    "id": 53,
+    "question": "A driver messages: 'The passenger was extremely rude to me, slamming my doors and yelling.' What soft skill is critical here?",
+    "scenario": "De-escalating driver issues",
+    "options": {
+      "A": "Acknowledge the driver's distress: 'I am sorry to hear this, Driver Ken. Safety and respect are important to us. Let me log this on the rider's profile and ensure you aren't matched with them again.'",
+      "B": "Tell the driver to report it to the police and don't accept passengers who look rude.",
+      "C": "Tell them slamming doors is normal and they shouldn't worry about it.",
+      "D": "Ignore the ticket as it is a passenger rating dispute."
+    },
+    "answer": "A",
+    "explanation": "Drivers are our partners. Validating their feelings, reassuring them of safety rules, blocking matches, and noting the rider profile shows high-quality driver support.",
+    "skill": "Partner De-escalation"
+  },
+  {
+    "id": 54,
+    "question": "A customer says: 'The app shows my driver is 5 minutes away, but he is going in the wrong direction. I need to get to the office immediately.' How do you show accountability?",
+    "scenario": "App GPS error support",
+    "options": {
+      "A": "Say: 'Let me look into this, Heather. I will contact the driver to verify their direction and ensure they are heading your way to the office now.'",
+      "B": "Say: 'The GPS has a delay. Please wait for the driver to turn around.'",
+      "C": "Say: 'You should cancel the ride and book another one.'",
+      "D": "Say: 'The driver knows what he is doing, please do not interfere.'"
+    },
+    "answer": "A",
+    "explanation": "Accountability means taking charge, offering to verify with the driver directly, and giving the customer an active timeline.",
+    "skill": "Accountability & Solution"
+  },
+  {
+    "id": 55,
+    "question": "Which of these displays a 'Collaborative and Positive Tone' instead of a demanding one?",
+    "scenario": "Tone adjustment check",
+    "options": {
+      "A": "You must verify your email or I will close the chat.",
+      "B": "To help secure your account, could you please verify your registered email address? I'll be happy to assist you once that is confirmed.",
+      "C": "Verify your email now.",
+      "D": "It is our policy that you send email details first."
+    },
+    "answer": "B",
+    "explanation": "Using collaborative requests ('could you please...') and stating the positive reason ('to help secure your account...') improves CSAT significantly.",
+    "skill": "Positive Tone"
+  },
+  {
+    "id": 56,
+    "question": "A rider named Heather writes: 'I am so frustrated! I have been waiting for my driver for 15 minutes in the heat. Your service is terrible.' What is the best soft skill response?",
+    "scenario": "Handling customer frustration and wait time",
+    "options": {
+      "A": "I understand your frustration, Heather. I apologize for the delay. Let me check the driver's current status and see how we can get this resolved for you right away.",
+      "B": "Please do not use that tone. The driver is stuck in traffic. Wait for some more time.",
+      "C": "The ride is only ₦4500 so please do not worry. It is normal to wait in peak hours.",
+      "D": "I can cancel your ride if you want, but you will pay a fee."
+    },
+    "answer": "A",
+    "explanation": "Active empathy, sincere apology for the wait time, and taking immediate ownership of the check represents the best soft skill behavior. Never admonish the customer's tone.",
+    "skill": "Patience & Empathy"
+  },
+  {
+    "id": 57,
+    "question": "You must inform a customer that their request for a refund of a £6.00 fare has been denied because the trip was completed successfully. How do you deliver this bad news professionally?",
+    "scenario": "Delivering negative news",
+    "options": {
+      "A": "Your refund is denied. The driver completed the ride. Case closed.",
+      "B": "I understand this isn't the outcome you hoped for, David. After reviewing the trip details, we verified the route was completed successfully. Therefore, we are unable to process a refund. Thank you for your understanding.",
+      "C": "We cannot give you £6.00 because that would be a loss for our driver. Please pay.",
+      "D": "You completed the trip so why are you asking for a refund? That is not allowed."
+    },
+    "answer": "B",
+    "explanation": "Delivering bad news requires validation of feelings, transparency of decision-making, clear policy stating, and closing with professional courtesy.",
+    "skill": "Diplomacy & Tact"
+  },
+  {
+    "id": 58,
+    "question": "A driver messages: 'The passenger was extremely rude to me, slamming my doors and yelling.' What soft skill is critical here?",
+    "scenario": "De-escalating driver issues",
+    "options": {
+      "A": "Acknowledge the driver's distress: 'I am sorry to hear this, Driver Carlos. Safety and respect are important to us. Let me log this on the rider's profile and ensure you aren't matched with them again.'",
+      "B": "Tell the driver to report it to the police and don't accept passengers who look rude.",
+      "C": "Tell them slamming doors is normal and they shouldn't worry about it.",
+      "D": "Ignore the ticket as it is a passenger rating dispute."
+    },
+    "answer": "A",
+    "explanation": "Drivers are our partners. Validating their feelings, reassuring them of safety rules, blocking matches, and noting the rider profile shows high-quality driver support.",
+    "skill": "Partner De-escalation"
+  },
+  {
+    "id": 59,
+    "question": "A customer says: 'The app shows my driver is 5 minutes away, but he is going in the wrong direction. I need to get to the airport immediately.' How do you show accountability?",
+    "scenario": "App GPS error support",
+    "options": {
+      "A": "Say: 'Let me look into this, Ashley. I will contact the driver to verify their direction and ensure they are heading your way to the airport now.'",
+      "B": "Say: 'The GPS has a delay. Please wait for the driver to turn around.'",
+      "C": "Say: 'You should cancel the ride and book another one.'",
+      "D": "Say: 'The driver knows what he is doing, please do not interfere.'"
+    },
+    "answer": "A",
+    "explanation": "Accountability means taking charge, offering to verify with the driver directly, and giving the customer an active timeline.",
+    "skill": "Accountability & Solution"
+  },
+  {
+    "id": 60,
+    "question": "Which of these displays a 'Collaborative and Positive Tone' instead of a demanding one?",
+    "scenario": "Tone adjustment check",
+    "options": {
+      "A": "You must verify your email or I will close the chat.",
+      "B": "To help secure your account, could you please verify your registered email address? I'll be happy to assist you once that is confirmed.",
+      "C": "Verify your email now.",
+      "D": "It is our policy that you send email details first."
+    },
+    "answer": "B",
+    "explanation": "Using collaborative requests ('could you please...') and stating the positive reason ('to help secure your account...') improves CSAT significantly.",
+    "skill": "Positive Tone"
+  },
+  {
+    "id": 61,
+    "question": "A rider named James writes: 'I am so frustrated! I have been waiting for my driver for 15 minutes in the heat. Your service is terrible.' What is the best soft skill response?",
+    "scenario": "Handling customer frustration and wait time",
+    "options": {
+      "A": "I understand your frustration, James. I apologize for the delay. Let me check the driver's current status and see how we can get this resolved for you right away.",
+      "B": "Please do not use that tone. The driver is stuck in traffic. Wait for some more time.",
+      "C": "The ride is only £12.00 so please do not worry. It is normal to wait in peak hours.",
+      "D": "I can cancel your ride if you want, but you will pay a fee."
+    },
+    "answer": "A",
+    "explanation": "Active empathy, sincere apology for the wait time, and taking immediate ownership of the check represents the best soft skill behavior. Never admonish the customer's tone.",
+    "skill": "Patience & Empathy"
+  },
+  {
+    "id": 62,
+    "question": "You must inform a customer that their request for a refund of a €8.50 fare has been denied because the trip was completed successfully. How do you deliver this bad news professionally?",
+    "scenario": "Delivering negative news",
+    "options": {
+      "A": "Your refund is denied. The driver completed the ride. Case closed.",
+      "B": "I understand this isn't the outcome you hoped for, Amanda. After reviewing the trip details, we verified the route was completed successfully. Therefore, we are unable to process a refund. Thank you for your understanding.",
+      "C": "We cannot give you €8.50 because that would be a loss for our driver. Please pay.",
+      "D": "You completed the trip so why are you asking for a refund? That is not allowed."
+    },
+    "answer": "B",
+    "explanation": "Delivering bad news requires validation of feelings, transparency of decision-making, clear policy stating, and closing with professional courtesy.",
+    "skill": "Diplomacy & Tact"
+  },
+  {
+    "id": 63,
+    "question": "A driver messages: 'The passenger was extremely rude to me, slamming my doors and yelling.' What soft skill is critical here?",
+    "scenario": "De-escalating driver issues",
+    "options": {
+      "A": "Acknowledge the driver's distress: 'I am sorry to hear this, Driver Sam. Safety and respect are important to us. Let me log this on the rider's profile and ensure you aren't matched with them again.'",
+      "B": "Tell the driver to report it to the police and don't accept passengers who look rude.",
+      "C": "Tell them slamming doors is normal and they shouldn't worry about it.",
+      "D": "Ignore the ticket as it is a passenger rating dispute."
+    },
+    "answer": "A",
+    "explanation": "Drivers are our partners. Validating their feelings, reassuring them of safety rules, blocking matches, and noting the rider profile shows high-quality driver support.",
+    "skill": "Partner De-escalation"
+  },
+  {
+    "id": 64,
+    "question": "A customer says: 'The app shows my driver is 5 minutes away, but he is going in the wrong direction. I need to get to the office immediately.' How do you show accountability?",
+    "scenario": "App GPS error support",
+    "options": {
+      "A": "Say: 'Let me look into this, Robert. I will contact the driver to verify their direction and ensure they are heading your way to the office now.'",
+      "B": "Say: 'The GPS has a delay. Please wait for the driver to turn around.'",
+      "C": "Say: 'You should cancel the ride and book another one.'",
+      "D": "Say: 'The driver knows what he is doing, please do not interfere.'"
+    },
+    "answer": "A",
+    "explanation": "Accountability means taking charge, offering to verify with the driver directly, and giving the customer an active timeline.",
+    "skill": "Accountability & Solution"
+  },
+  {
+    "id": 65,
+    "question": "Which of these displays a 'Collaborative and Positive Tone' instead of a demanding one?",
+    "scenario": "Tone adjustment check",
+    "options": {
+      "A": "You must verify your email or I will close the chat.",
+      "B": "To help secure your account, could you please verify your registered email address? I'll be happy to assist you once that is confirmed.",
+      "C": "Verify your email now.",
+      "D": "It is our policy that you send email details first."
+    },
+    "answer": "B",
+    "explanation": "Using collaborative requests ('could you please...') and stating the positive reason ('to help secure your account...') improves CSAT significantly.",
+    "skill": "Positive Tone"
+  },
+  {
+    "id": 66,
+    "question": "A rider named Michael writes: 'I am so frustrated! I have been waiting for my driver for 15 minutes in the heat. Your service is terrible.' What is the best soft skill response?",
+    "scenario": "Handling customer frustration and wait time",
+    "options": {
+      "A": "I understand your frustration, Michael. I apologize for the delay. Let me check the driver's current status and see how we can get this resolved for you right away.",
+      "B": "Please do not use that tone. The driver is stuck in traffic. Wait for some more time.",
+      "C": "The ride is only ₦8000 so please do not worry. It is normal to wait in peak hours.",
+      "D": "I can cancel your ride if you want, but you will pay a fee."
+    },
+    "answer": "A",
+    "explanation": "Active empathy, sincere apology for the wait time, and taking immediate ownership of the check represents the best soft skill behavior. Never admonish the customer's tone.",
+    "skill": "Patience & Empathy"
+  },
+  {
+    "id": 67,
+    "question": "You must inform a customer that their request for a refund of a $75.00 fare has been denied because the trip was completed successfully. How do you deliver this bad news professionally?",
+    "scenario": "Delivering negative news",
+    "options": {
+      "A": "Your refund is denied. The driver completed the ride. Case closed.",
+      "B": "I understand this isn't the outcome you hoped for, Megan. After reviewing the trip details, we verified the route was completed successfully. Therefore, we are unable to process a refund. Thank you for your understanding.",
+      "C": "We cannot give you $75.00 because that would be a loss for our driver. Please pay.",
+      "D": "You completed the trip so why are you asking for a refund? That is not allowed."
+    },
+    "answer": "B",
+    "explanation": "Delivering bad news requires validation of feelings, transparency of decision-making, clear policy stating, and closing with professional courtesy.",
+    "skill": "Diplomacy & Tact"
+  },
+  {
+    "id": 68,
+    "question": "A driver messages: 'The passenger was extremely rude to me, slamming my doors and yelling.' What soft skill is critical here?",
+    "scenario": "De-escalating driver issues",
+    "options": {
+      "A": "Acknowledge the driver's distress: 'I am sorry to hear this, Driver Roger. Safety and respect are important to us. Let me log this on the rider's profile and ensure you aren't matched with them again.'",
+      "B": "Tell the driver to report it to the police and don't accept passengers who look rude.",
+      "C": "Tell them slamming doors is normal and they shouldn't worry about it.",
+      "D": "Ignore the ticket as it is a passenger rating dispute."
+    },
+    "answer": "A",
+    "explanation": "Drivers are our partners. Validating their feelings, reassuring them of safety rules, blocking matches, and noting the rider profile shows high-quality driver support.",
+    "skill": "Partner De-escalation"
+  },
+  {
+    "id": 69,
+    "question": "A customer says: 'The app shows my driver is 5 minutes away, but he is going in the wrong direction. I need to get to the airport immediately.' How do you show accountability?",
+    "scenario": "App GPS error support",
+    "options": {
+      "A": "Say: 'Let me look into this, Sarah. I will contact the driver to verify their direction and ensure they are heading your way to the airport now.'",
+      "B": "Say: 'The GPS has a delay. Please wait for the driver to turn around.'",
+      "C": "Say: 'You should cancel the ride and book another one.'",
+      "D": "Say: 'The driver knows what he is doing, please do not interfere.'"
+    },
+    "answer": "A",
+    "explanation": "Accountability means taking charge, offering to verify with the driver directly, and giving the customer an active timeline.",
+    "skill": "Accountability & Solution"
+  },
+  {
+    "id": 70,
+    "question": "Which of these displays a 'Collaborative and Positive Tone' instead of a demanding one?",
+    "scenario": "Tone adjustment check",
+    "options": {
+      "A": "You must verify your email or I will close the chat.",
+      "B": "To help secure your account, could you please verify your registered email address? I'll be happy to assist you once that is confirmed.",
+      "C": "Verify your email now.",
+      "D": "It is our policy that you send email details first."
+    },
+    "answer": "B",
+    "explanation": "Using collaborative requests ('could you please...') and stating the positive reason ('to help secure your account...') improves CSAT significantly.",
+    "skill": "Positive Tone"
+  },
+  {
+    "id": 71,
+    "question": "A rider named Megan writes: 'I am so frustrated! I have been waiting for my driver for 15 minutes in the heat. Your service is terrible.' What is the best soft skill response?",
+    "scenario": "Handling customer frustration and wait time",
+    "options": {
+      "A": "I understand your frustration, Megan. I apologize for the delay. Let me check the driver's current status and see how we can get this resolved for you right away.",
+      "B": "Please do not use that tone. The driver is stuck in traffic. Wait for some more time.",
+      "C": "The ride is only ₦8000 so please do not worry. It is normal to wait in peak hours.",
+      "D": "I can cancel your ride if you want, but you will pay a fee."
+    },
+    "answer": "A",
+    "explanation": "Active empathy, sincere apology for the wait time, and taking immediate ownership of the check represents the best soft skill behavior. Never admonish the customer's tone.",
+    "skill": "Patience & Empathy"
+  },
+  {
+    "id": 72,
+    "question": "You must inform a customer that their request for a refund of a $25.00 fare has been denied because the trip was completed successfully. How do you deliver this bad news professionally?",
+    "scenario": "Delivering negative news",
+    "options": {
+      "A": "Your refund is denied. The driver completed the ride. Case closed.",
+      "B": "I understand this isn't the outcome you hoped for, Amanda. After reviewing the trip details, we verified the route was completed successfully. Therefore, we are unable to process a refund. Thank you for your understanding.",
+      "C": "We cannot give you $25.00 because that would be a loss for our driver. Please pay.",
+      "D": "You completed the trip so why are you asking for a refund? That is not allowed."
+    },
+    "answer": "B",
+    "explanation": "Delivering bad news requires validation of feelings, transparency of decision-making, clear policy stating, and closing with professional courtesy.",
+    "skill": "Diplomacy & Tact"
+  },
+  {
+    "id": 73,
+    "question": "A driver messages: 'The passenger was extremely rude to me, slamming my doors and yelling.' What soft skill is critical here?",
+    "scenario": "De-escalating driver issues",
+    "options": {
+      "A": "Acknowledge the driver's distress: 'I am sorry to hear this, Driver Sam. Safety and respect are important to us. Let me log this on the rider's profile and ensure you aren't matched with them again.'",
+      "B": "Tell the driver to report it to the police and don't accept passengers who look rude.",
+      "C": "Tell them slamming doors is normal and they shouldn't worry about it.",
+      "D": "Ignore the ticket as it is a passenger rating dispute."
+    },
+    "answer": "A",
+    "explanation": "Drivers are our partners. Validating their feelings, reassuring them of safety rules, blocking matches, and noting the rider profile shows high-quality driver support.",
+    "skill": "Partner De-escalation"
+  },
+  {
+    "id": 74,
+    "question": "A customer says: 'The app shows my driver is 5 minutes away, but he is going in the wrong direction. I need to get to the airport immediately.' How do you show accountability?",
+    "scenario": "App GPS error support",
+    "options": {
+      "A": "Say: 'Let me look into this, Ashley. I will contact the driver to verify their direction and ensure they are heading your way to the airport now.'",
+      "B": "Say: 'The GPS has a delay. Please wait for the driver to turn around.'",
+      "C": "Say: 'You should cancel the ride and book another one.'",
+      "D": "Say: 'The driver knows what he is doing, please do not interfere.'"
+    },
+    "answer": "A",
+    "explanation": "Accountability means taking charge, offering to verify with the driver directly, and giving the customer an active timeline.",
+    "skill": "Accountability & Solution"
+  },
+  {
+    "id": 75,
+    "question": "Which of these displays a 'Collaborative and Positive Tone' instead of a demanding one?",
+    "scenario": "Tone adjustment check",
+    "options": {
+      "A": "You must verify your email or I will close the chat.",
+      "B": "To help secure your account, could you please verify your registered email address? I'll be happy to assist you once that is confirmed.",
+      "C": "Verify your email now.",
+      "D": "It is our policy that you send email details first."
+    },
+    "answer": "B",
+    "explanation": "Using collaborative requests ('could you please...') and stating the positive reason ('to help secure your account...') improves CSAT significantly.",
+    "skill": "Positive Tone"
+  },
+  {
+    "id": 76,
+    "question": "A rider named Sarah writes: 'I am so frustrated! I have been waiting for my driver for 15 minutes in the heat. Your service is terrible.' What is the best soft skill response?",
+    "scenario": "Handling customer frustration and wait time",
+    "options": {
+      "A": "I understand your frustration, Sarah. I apologize for the delay. Let me check the driver's current status and see how we can get this resolved for you right away.",
+      "B": "Please do not use that tone. The driver is stuck in traffic. Wait for some more time.",
+      "C": "The ride is only €15.00 so please do not worry. It is normal to wait in peak hours.",
+      "D": "I can cancel your ride if you want, but you will pay a fee."
+    },
+    "answer": "A",
+    "explanation": "Active empathy, sincere apology for the wait time, and taking immediate ownership of the check represents the best soft skill behavior. Never admonish the customer's tone.",
+    "skill": "Patience & Empathy"
+  },
+  {
+    "id": 77,
+    "question": "You must inform a customer that their request for a refund of a €15.00 fare has been denied because the trip was completed successfully. How do you deliver this bad news professionally?",
+    "scenario": "Delivering negative news",
+    "options": {
+      "A": "Your refund is denied. The driver completed the ride. Case closed.",
+      "B": "I understand this isn't the outcome you hoped for, Robert. After reviewing the trip details, we verified the route was completed successfully. Therefore, we are unable to process a refund. Thank you for your understanding.",
+      "C": "We cannot give you €15.00 because that would be a loss for our driver. Please pay.",
+      "D": "You completed the trip so why are you asking for a refund? That is not allowed."
+    },
+    "answer": "B",
+    "explanation": "Delivering bad news requires validation of feelings, transparency of decision-making, clear policy stating, and closing with professional courtesy.",
+    "skill": "Diplomacy & Tact"
+  },
+  {
+    "id": 78,
+    "question": "A driver messages: 'The passenger was extremely rude to me, slamming my doors and yelling.' What soft skill is critical here?",
+    "scenario": "De-escalating driver issues",
+    "options": {
+      "A": "Acknowledge the driver's distress: 'I am sorry to hear this, Driver Sam. Safety and respect are important to us. Let me log this on the rider's profile and ensure you aren't matched with them again.'",
+      "B": "Tell the driver to report it to the police and don't accept passengers who look rude.",
+      "C": "Tell them slamming doors is normal and they shouldn't worry about it.",
+      "D": "Ignore the ticket as it is a passenger rating dispute."
+    },
+    "answer": "A",
+    "explanation": "Drivers are our partners. Validating their feelings, reassuring them of safety rules, blocking matches, and noting the rider profile shows high-quality driver support.",
+    "skill": "Partner De-escalation"
+  },
+  {
+    "id": 79,
+    "question": "A customer says: 'The app shows my driver is 5 minutes away, but he is going in the wrong direction. I need to get to the station immediately.' How do you show accountability?",
+    "scenario": "App GPS error support",
+    "options": {
+      "A": "Say: 'Let me look into this, Brian. I will contact the driver to verify their direction and ensure they are heading your way to the station now.'",
+      "B": "Say: 'The GPS has a delay. Please wait for the driver to turn around.'",
+      "C": "Say: 'You should cancel the ride and book another one.'",
+      "D": "Say: 'The driver knows what he is doing, please do not interfere.'"
+    },
+    "answer": "A",
+    "explanation": "Accountability means taking charge, offering to verify with the driver directly, and giving the customer an active timeline.",
+    "skill": "Accountability & Solution"
+  },
+  {
+    "id": 80,
+    "question": "Which of these displays a 'Collaborative and Positive Tone' instead of a demanding one?",
+    "scenario": "Tone adjustment check",
+    "options": {
+      "A": "You must verify your email or I will close the chat.",
+      "B": "To help secure your account, could you please verify your registered email address? I'll be happy to assist you once that is confirmed.",
+      "C": "Verify your email now.",
+      "D": "It is our policy that you send email details first."
+    },
+    "answer": "B",
+    "explanation": "Using collaborative requests ('could you please...') and stating the positive reason ('to help secure your account...') improves CSAT significantly.",
+    "skill": "Positive Tone"
+  },
+  {
+    "id": 81,
+    "question": "A rider named Ashley writes: 'I am so frustrated! I have been waiting for my driver for 15 minutes in the heat. Your service is terrible.' What is the best soft skill response?",
+    "scenario": "Handling customer frustration and wait time",
+    "options": {
+      "A": "I understand your frustration, Ashley. I apologize for the delay. Let me check the driver's current status and see how we can get this resolved for you right away.",
+      "B": "Please do not use that tone. The driver is stuck in traffic. Wait for some more time.",
+      "C": "The ride is only $45.00 so please do not worry. It is normal to wait in peak hours.",
+      "D": "I can cancel your ride if you want, but you will pay a fee."
+    },
+    "answer": "A",
+    "explanation": "Active empathy, sincere apology for the wait time, and taking immediate ownership of the check represents the best soft skill behavior. Never admonish the customer's tone.",
+    "skill": "Patience & Empathy"
+  },
+  {
+    "id": 82,
+    "question": "You must inform a customer that their request for a refund of a R250 fare has been denied because the trip was completed successfully. How do you deliver this bad news professionally?",
+    "scenario": "Delivering negative news",
+    "options": {
+      "A": "Your refund is denied. The driver completed the ride. Case closed.",
+      "B": "I understand this isn't the outcome you hoped for, Jessica. After reviewing the trip details, we verified the route was completed successfully. Therefore, we are unable to process a refund. Thank you for your understanding.",
+      "C": "We cannot give you R250 because that would be a loss for our driver. Please pay.",
+      "D": "You completed the trip so why are you asking for a refund? That is not allowed."
+    },
+    "answer": "B",
+    "explanation": "Delivering bad news requires validation of feelings, transparency of decision-making, clear policy stating, and closing with professional courtesy.",
+    "skill": "Diplomacy & Tact"
+  },
+  {
+    "id": 83,
+    "question": "A driver messages: 'The passenger was extremely rude to me, slamming my doors and yelling.' What soft skill is critical here?",
+    "scenario": "De-escalating driver issues",
+    "options": {
+      "A": "Acknowledge the driver's distress: 'I am sorry to hear this, Driver Jose. Safety and respect are important to us. Let me log this on the rider's profile and ensure you aren't matched with them again.'",
+      "B": "Tell the driver to report it to the police and don't accept passengers who look rude.",
+      "C": "Tell them slamming doors is normal and they shouldn't worry about it.",
+      "D": "Ignore the ticket as it is a passenger rating dispute."
+    },
+    "answer": "A",
+    "explanation": "Drivers are our partners. Validating their feelings, reassuring them of safety rules, blocking matches, and noting the rider profile shows high-quality driver support.",
+    "skill": "Partner De-escalation"
+  },
+  {
+    "id": 84,
+    "question": "A customer says: 'The app shows my driver is 5 minutes away, but he is going in the wrong direction. I need to get to the office immediately.' How do you show accountability?",
+    "scenario": "App GPS error support",
+    "options": {
+      "A": "Say: 'Let me look into this, Megan. I will contact the driver to verify their direction and ensure they are heading your way to the office now.'",
+      "B": "Say: 'The GPS has a delay. Please wait for the driver to turn around.'",
+      "C": "Say: 'You should cancel the ride and book another one.'",
+      "D": "Say: 'The driver knows what he is doing, please do not interfere.'"
+    },
+    "answer": "A",
+    "explanation": "Accountability means taking charge, offering to verify with the driver directly, and giving the customer an active timeline.",
+    "skill": "Accountability & Solution"
+  },
+  {
+    "id": 85,
+    "question": "Which of these displays a 'Collaborative and Positive Tone' instead of a demanding one?",
+    "scenario": "Tone adjustment check",
+    "options": {
+      "A": "You must verify your email or I will close the chat.",
+      "B": "To help secure your account, could you please verify your registered email address? I'll be happy to assist you once that is confirmed.",
+      "C": "Verify your email now.",
+      "D": "It is our policy that you send email details first."
+    },
+    "answer": "B",
+    "explanation": "Using collaborative requests ('could you please...') and stating the positive reason ('to help secure your account...') improves CSAT significantly.",
+    "skill": "Positive Tone"
+  },
+  {
+    "id": 86,
+    "question": "A rider named James writes: 'I am so frustrated! I have been waiting for my driver for 15 minutes in the heat. Your service is terrible.' What is the best soft skill response?",
+    "scenario": "Handling customer frustration and wait time",
+    "options": {
+      "A": "I understand your frustration, James. I apologize for the delay. Let me check the driver's current status and see how we can get this resolved for you right away.",
+      "B": "Please do not use that tone. The driver is stuck in traffic. Wait for some more time.",
+      "C": "The ride is only €30.00 so please do not worry. It is normal to wait in peak hours.",
+      "D": "I can cancel your ride if you want, but you will pay a fee."
+    },
+    "answer": "A",
+    "explanation": "Active empathy, sincere apology for the wait time, and taking immediate ownership of the check represents the best soft skill behavior. Never admonish the customer's tone.",
+    "skill": "Patience & Empathy"
+  },
+  {
+    "id": 87,
+    "question": "You must inform a customer that their request for a refund of a £12.00 fare has been denied because the trip was completed successfully. How do you deliver this bad news professionally?",
+    "scenario": "Delivering negative news",
+    "options": {
+      "A": "Your refund is denied. The driver completed the ride. Case closed.",
+      "B": "I understand this isn't the outcome you hoped for, Sarah. After reviewing the trip details, we verified the route was completed successfully. Therefore, we are unable to process a refund. Thank you for your understanding.",
+      "C": "We cannot give you £12.00 because that would be a loss for our driver. Please pay.",
+      "D": "You completed the trip so why are you asking for a refund? That is not allowed."
+    },
+    "answer": "B",
+    "explanation": "Delivering bad news requires validation of feelings, transparency of decision-making, clear policy stating, and closing with professional courtesy.",
+    "skill": "Diplomacy & Tact"
+  },
+  {
+    "id": 88,
+    "question": "A driver messages: 'The passenger was extremely rude to me, slamming my doors and yelling.' What soft skill is critical here?",
+    "scenario": "De-escalating driver issues",
+    "options": {
+      "A": "Acknowledge the driver's distress: 'I am sorry to hear this, Driver Liam. Safety and respect are important to us. Let me log this on the rider's profile and ensure you aren't matched with them again.'",
+      "B": "Tell the driver to report it to the police and don't accept passengers who look rude.",
+      "C": "Tell them slamming doors is normal and they shouldn't worry about it.",
+      "D": "Ignore the ticket as it is a passenger rating dispute."
+    },
+    "answer": "A",
+    "explanation": "Drivers are our partners. Validating their feelings, reassuring them of safety rules, blocking matches, and noting the rider profile shows high-quality driver support.",
+    "skill": "Partner De-escalation"
+  },
+  {
+    "id": 89,
+    "question": "A customer says: 'The app shows my driver is 5 minutes away, but he is going in the wrong direction. I need to get to my hotel immediately.' How do you show accountability?",
+    "scenario": "App GPS error support",
+    "options": {
+      "A": "Say: 'Let me look into this, Sarah. I will contact the driver to verify their direction and ensure they are heading your way to my hotel now.'",
+      "B": "Say: 'The GPS has a delay. Please wait for the driver to turn around.'",
+      "C": "Say: 'You should cancel the ride and book another one.'",
+      "D": "Say: 'The driver knows what he is doing, please do not interfere.'"
+    },
+    "answer": "A",
+    "explanation": "Accountability means taking charge, offering to verify with the driver directly, and giving the customer an active timeline.",
+    "skill": "Accountability & Solution"
+  },
+  {
+    "id": 90,
+    "question": "Which of these displays a 'Collaborative and Positive Tone' instead of a demanding one?",
+    "scenario": "Tone adjustment check",
+    "options": {
+      "A": "You must verify your email or I will close the chat.",
+      "B": "To help secure your account, could you please verify your registered email address? I'll be happy to assist you once that is confirmed.",
+      "C": "Verify your email now.",
+      "D": "It is our policy that you send email details first."
+    },
+    "answer": "B",
+    "explanation": "Using collaborative requests ('could you please...') and stating the positive reason ('to help secure your account...') improves CSAT significantly.",
+    "skill": "Positive Tone"
+  },
+  {
+    "id": 91,
+    "question": "A rider named Matthew writes: 'I am so frustrated! I have been waiting for my driver for 15 minutes in the heat. Your service is terrible.' What is the best soft skill response?",
+    "scenario": "Handling customer frustration and wait time",
+    "options": {
+      "A": "I understand your frustration, Matthew. I apologize for the delay. Let me check the driver's current status and see how we can get this resolved for you right away.",
+      "B": "Please do not use that tone. The driver is stuck in traffic. Wait for some more time.",
+      "C": "The ride is only $15.00 so please do not worry. It is normal to wait in peak hours.",
+      "D": "I can cancel your ride if you want, but you will pay a fee."
+    },
+    "answer": "A",
+    "explanation": "Active empathy, sincere apology for the wait time, and taking immediate ownership of the check represents the best soft skill behavior. Never admonish the customer's tone.",
+    "skill": "Patience & Empathy"
+  },
+  {
+    "id": 92,
+    "question": "You must inform a customer that their request for a refund of a KSh 1200 fare has been denied because the trip was completed successfully. How do you deliver this bad news professionally?",
+    "scenario": "Delivering negative news",
+    "options": {
+      "A": "Your refund is denied. The driver completed the ride. Case closed.",
+      "B": "I understand this isn't the outcome you hoped for, Nicole. After reviewing the trip details, we verified the route was completed successfully. Therefore, we are unable to process a refund. Thank you for your understanding.",
+      "C": "We cannot give you KSh 1200 because that would be a loss for our driver. Please pay.",
+      "D": "You completed the trip so why are you asking for a refund? That is not allowed."
+    },
+    "answer": "B",
+    "explanation": "Delivering bad news requires validation of feelings, transparency of decision-making, clear policy stating, and closing with professional courtesy.",
+    "skill": "Diplomacy & Tact"
+  },
+  {
+    "id": 93,
+    "question": "A driver messages: 'The passenger was extremely rude to me, slamming my doors and yelling.' What soft skill is critical here?",
+    "scenario": "De-escalating driver issues",
+    "options": {
+      "A": "Acknowledge the driver's distress: 'I am sorry to hear this, Driver Marcus. Safety and respect are important to us. Let me log this on the rider's profile and ensure you aren't matched with them again.'",
+      "B": "Tell the driver to report it to the police and don't accept passengers who look rude.",
+      "C": "Tell them slamming doors is normal and they shouldn't worry about it.",
+      "D": "Ignore the ticket as it is a passenger rating dispute."
+    },
+    "answer": "A",
+    "explanation": "Drivers are our partners. Validating their feelings, reassuring them of safety rules, blocking matches, and noting the rider profile shows high-quality driver support.",
+    "skill": "Partner De-escalation"
+  },
+  {
+    "id": 94,
+    "question": "A customer says: 'The app shows my driver is 5 minutes away, but he is going in the wrong direction. I need to get to the office immediately.' How do you show accountability?",
+    "scenario": "App GPS error support",
+    "options": {
+      "A": "Say: 'Let me look into this, Matthew. I will contact the driver to verify their direction and ensure they are heading your way to the office now.'",
+      "B": "Say: 'The GPS has a delay. Please wait for the driver to turn around.'",
+      "C": "Say: 'You should cancel the ride and book another one.'",
+      "D": "Say: 'The driver knows what he is doing, please do not interfere.'"
+    },
+    "answer": "A",
+    "explanation": "Accountability means taking charge, offering to verify with the driver directly, and giving the customer an active timeline.",
+    "skill": "Accountability & Solution"
+  },
+  {
+    "id": 95,
+    "question": "Which of these displays a 'Collaborative and Positive Tone' instead of a demanding one?",
+    "scenario": "Tone adjustment check",
+    "options": {
+      "A": "You must verify your email or I will close the chat.",
+      "B": "To help secure your account, could you please verify your registered email address? I'll be happy to assist you once that is confirmed.",
+      "C": "Verify your email now.",
+      "D": "It is our policy that you send email details first."
+    },
+    "answer": "B",
+    "explanation": "Using collaborative requests ('could you please...') and stating the positive reason ('to help secure your account...') improves CSAT significantly.",
+    "skill": "Positive Tone"
+  },
+  {
+    "id": 96,
+    "question": "A rider named Nicole writes: 'I am so frustrated! I have been waiting for my driver for 15 minutes in the heat. Your service is terrible.' What is the best soft skill response?",
+    "scenario": "Handling customer frustration and wait time",
+    "options": {
+      "A": "I understand your frustration, Nicole. I apologize for the delay. Let me check the driver's current status and see how we can get this resolved for you right away.",
+      "B": "Please do not use that tone. The driver is stuck in traffic. Wait for some more time.",
+      "C": "The ride is only £12.00 so please do not worry. It is normal to wait in peak hours.",
+      "D": "I can cancel your ride if you want, but you will pay a fee."
+    },
+    "answer": "A",
+    "explanation": "Active empathy, sincere apology for the wait time, and taking immediate ownership of the check represents the best soft skill behavior. Never admonish the customer's tone.",
+    "skill": "Patience & Empathy"
+  },
+  {
+    "id": 97,
+    "question": "You must inform a customer that their request for a refund of a ₦8000 fare has been denied because the trip was completed successfully. How do you deliver this bad news professionally?",
+    "scenario": "Delivering negative news",
+    "options": {
+      "A": "Your refund is denied. The driver completed the ride. Case closed.",
+      "B": "I understand this isn't the outcome you hoped for, Matthew. After reviewing the trip details, we verified the route was completed successfully. Therefore, we are unable to process a refund. Thank you for your understanding.",
+      "C": "We cannot give you ₦8000 because that would be a loss for our driver. Please pay.",
+      "D": "You completed the trip so why are you asking for a refund? That is not allowed."
+    },
+    "answer": "B",
+    "explanation": "Delivering bad news requires validation of feelings, transparency of decision-making, clear policy stating, and closing with professional courtesy.",
+    "skill": "Diplomacy & Tact"
+  },
+  {
+    "id": 98,
+    "question": "A driver messages: 'The passenger was extremely rude to me, slamming my doors and yelling.' What soft skill is critical here?",
+    "scenario": "De-escalating driver issues",
+    "options": {
+      "A": "Acknowledge the driver's distress: 'I am sorry to hear this, Driver Roger. Safety and respect are important to us. Let me log this on the rider's profile and ensure you aren't matched with them again.'",
+      "B": "Tell the driver to report it to the police and don't accept passengers who look rude.",
+      "C": "Tell them slamming doors is normal and they shouldn't worry about it.",
+      "D": "Ignore the ticket as it is a passenger rating dispute."
+    },
+    "answer": "A",
+    "explanation": "Drivers are our partners. Validating their feelings, reassuring them of safety rules, blocking matches, and noting the rider profile shows high-quality driver support.",
+    "skill": "Partner De-escalation"
+  },
+  {
+    "id": 99,
+    "question": "A customer says: 'The app shows my driver is 5 minutes away, but he is going in the wrong direction. I need to get to the airport immediately.' How do you show accountability?",
+    "scenario": "App GPS error support",
+    "options": {
+      "A": "Say: 'Let me look into this, Michael. I will contact the driver to verify their direction and ensure they are heading your way to the airport now.'",
+      "B": "Say: 'The GPS has a delay. Please wait for the driver to turn around.'",
+      "C": "Say: 'You should cancel the ride and book another one.'",
+      "D": "Say: 'The driver knows what he is doing, please do not interfere.'"
+    },
+    "answer": "A",
+    "explanation": "Accountability means taking charge, offering to verify with the driver directly, and giving the customer an active timeline.",
+    "skill": "Accountability & Solution"
+  },
+  {
+    "id": 100,
+    "question": "Which of these displays a 'Collaborative and Positive Tone' instead of a demanding one?",
+    "scenario": "Tone adjustment check",
+    "options": {
+      "A": "You must verify your email or I will close the chat.",
+      "B": "To help secure your account, could you please verify your registered email address? I'll be happy to assist you once that is confirmed.",
+      "C": "Verify your email now.",
+      "D": "It is our policy that you send email details first."
+    },
+    "answer": "B",
+    "explanation": "Using collaborative requests ('could you please...') and stating the positive reason ('to help secure your account...') improves CSAT significantly.",
+    "skill": "Positive Tone"
+  },
+  {
+    "id": 101,
+    "question": "A rider named David writes: 'I am so frustrated! I have been waiting for my driver for 15 minutes in the heat. Your service is terrible.' What is the best soft skill response?",
+    "scenario": "Handling customer frustration and wait time",
+    "options": {
+      "A": "I understand your frustration, David. I apologize for the delay. Let me check the driver's current status and see how we can get this resolved for you right away.",
+      "B": "Please do not use that tone. The driver is stuck in traffic. Wait for some more time.",
+      "C": "The ride is only R250 so please do not worry. It is normal to wait in peak hours.",
+      "D": "I can cancel your ride if you want, but you will pay a fee."
+    },
+    "answer": "A",
+    "explanation": "Active empathy, sincere apology for the wait time, and taking immediate ownership of the check represents the best soft skill behavior. Never admonish the customer's tone.",
+    "skill": "Patience & Empathy"
+  },
+  {
+    "id": 102,
+    "question": "You must inform a customer that their request for a refund of a $75.00 fare has been denied because the trip was completed successfully. How do you deliver this bad news professionally?",
+    "scenario": "Delivering negative news",
+    "options": {
+      "A": "Your refund is denied. The driver completed the ride. Case closed.",
+      "B": "I understand this isn't the outcome you hoped for, Jessica. After reviewing the trip details, we verified the route was completed successfully. Therefore, we are unable to process a refund. Thank you for your understanding.",
+      "C": "We cannot give you $75.00 because that would be a loss for our driver. Please pay.",
+      "D": "You completed the trip so why are you asking for a refund? That is not allowed."
+    },
+    "answer": "B",
+    "explanation": "Delivering bad news requires validation of feelings, transparency of decision-making, clear policy stating, and closing with professional courtesy.",
+    "skill": "Diplomacy & Tact"
+  },
+  {
+    "id": 103,
+    "question": "A driver messages: 'The passenger was extremely rude to me, slamming my doors and yelling.' What soft skill is critical here?",
+    "scenario": "De-escalating driver issues",
+    "options": {
+      "A": "Acknowledge the driver's distress: 'I am sorry to hear this, Driver Sam. Safety and respect are important to us. Let me log this on the rider's profile and ensure you aren't matched with them again.'",
+      "B": "Tell the driver to report it to the police and don't accept passengers who look rude.",
+      "C": "Tell them slamming doors is normal and they shouldn't worry about it.",
+      "D": "Ignore the ticket as it is a passenger rating dispute."
+    },
+    "answer": "A",
+    "explanation": "Drivers are our partners. Validating their feelings, reassuring them of safety rules, blocking matches, and noting the rider profile shows high-quality driver support.",
+    "skill": "Partner De-escalation"
+  },
+  {
+    "id": 104,
+    "question": "A customer says: 'The app shows my driver is 5 minutes away, but he is going in the wrong direction. I need to get to the airport immediately.' How do you show accountability?",
+    "scenario": "App GPS error support",
+    "options": {
+      "A": "Say: 'Let me look into this, Amanda. I will contact the driver to verify their direction and ensure they are heading your way to the airport now.'",
+      "B": "Say: 'The GPS has a delay. Please wait for the driver to turn around.'",
+      "C": "Say: 'You should cancel the ride and book another one.'",
+      "D": "Say: 'The driver knows what he is doing, please do not interfere.'"
+    },
+    "answer": "A",
+    "explanation": "Accountability means taking charge, offering to verify with the driver directly, and giving the customer an active timeline.",
+    "skill": "Accountability & Solution"
+  },
+  {
+    "id": 105,
+    "question": "Which of these displays a 'Collaborative and Positive Tone' instead of a demanding one?",
+    "scenario": "Tone adjustment check",
+    "options": {
+      "A": "You must verify your email or I will close the chat.",
+      "B": "To help secure your account, could you please verify your registered email address? I'll be happy to assist you once that is confirmed.",
+      "C": "Verify your email now.",
+      "D": "It is our policy that you send email details first."
+    },
+    "answer": "B",
+    "explanation": "Using collaborative requests ('could you please...') and stating the positive reason ('to help secure your account...') improves CSAT significantly.",
+    "skill": "Positive Tone"
+  },
+  {
+    "id": 106,
+    "question": "A rider named Heather writes: 'I am so frustrated! I have been waiting for my driver for 15 minutes in the heat. Your service is terrible.' What is the best soft skill response?",
+    "scenario": "Handling customer frustration and wait time",
+    "options": {
+      "A": "I understand your frustration, Heather. I apologize for the delay. Let me check the driver's current status and see how we can get this resolved for you right away.",
+      "B": "Please do not use that tone. The driver is stuck in traffic. Wait for some more time.",
+      "C": "The ride is only $15.00 so please do not worry. It is normal to wait in peak hours.",
+      "D": "I can cancel your ride if you want, but you will pay a fee."
+    },
+    "answer": "A",
+    "explanation": "Active empathy, sincere apology for the wait time, and taking immediate ownership of the check represents the best soft skill behavior. Never admonish the customer's tone.",
+    "skill": "Patience & Empathy"
+  },
+  {
+    "id": 107,
+    "question": "You must inform a customer that their request for a refund of a £12.00 fare has been denied because the trip was completed successfully. How do you deliver this bad news professionally?",
+    "scenario": "Delivering negative news",
+    "options": {
+      "A": "Your refund is denied. The driver completed the ride. Case closed.",
+      "B": "I understand this isn't the outcome you hoped for, Heather. After reviewing the trip details, we verified the route was completed successfully. Therefore, we are unable to process a refund. Thank you for your understanding.",
+      "C": "We cannot give you £12.00 because that would be a loss for our driver. Please pay.",
+      "D": "You completed the trip so why are you asking for a refund? That is not allowed."
+    },
+    "answer": "B",
+    "explanation": "Delivering bad news requires validation of feelings, transparency of decision-making, clear policy stating, and closing with professional courtesy.",
+    "skill": "Diplomacy & Tact"
+  },
+  {
+    "id": 108,
+    "question": "A driver messages: 'The passenger was extremely rude to me, slamming my doors and yelling.' What soft skill is critical here?",
+    "scenario": "De-escalating driver issues",
+    "options": {
+      "A": "Acknowledge the driver's distress: 'I am sorry to hear this, Driver Ali. Safety and respect are important to us. Let me log this on the rider's profile and ensure you aren't matched with them again.'",
+      "B": "Tell the driver to report it to the police and don't accept passengers who look rude.",
+      "C": "Tell them slamming doors is normal and they shouldn't worry about it.",
+      "D": "Ignore the ticket as it is a passenger rating dispute."
+    },
+    "answer": "A",
+    "explanation": "Drivers are our partners. Validating their feelings, reassuring them of safety rules, blocking matches, and noting the rider profile shows high-quality driver support.",
+    "skill": "Partner De-escalation"
+  },
+  {
+    "id": 109,
+    "question": "A customer says: 'The app shows my driver is 5 minutes away, but he is going in the wrong direction. I need to get to the office immediately.' How do you show accountability?",
+    "scenario": "App GPS error support",
+    "options": {
+      "A": "Say: 'Let me look into this, Sarah. I will contact the driver to verify their direction and ensure they are heading your way to the office now.'",
+      "B": "Say: 'The GPS has a delay. Please wait for the driver to turn around.'",
+      "C": "Say: 'You should cancel the ride and book another one.'",
+      "D": "Say: 'The driver knows what he is doing, please do not interfere.'"
+    },
+    "answer": "A",
+    "explanation": "Accountability means taking charge, offering to verify with the driver directly, and giving the customer an active timeline.",
+    "skill": "Accountability & Solution"
+  },
+  {
+    "id": 110,
+    "question": "Which of these displays a 'Collaborative and Positive Tone' instead of a demanding one?",
+    "scenario": "Tone adjustment check",
+    "options": {
+      "A": "You must verify your email or I will close the chat.",
+      "B": "To help secure your account, could you please verify your registered email address? I'll be happy to assist you once that is confirmed.",
+      "C": "Verify your email now.",
+      "D": "It is our policy that you send email details first."
+    },
+    "answer": "B",
+    "explanation": "Using collaborative requests ('could you please...') and stating the positive reason ('to help secure your account...') improves CSAT significantly.",
+    "skill": "Positive Tone"
+  },
+  {
+    "id": 111,
+    "question": "A rider named Emily writes: 'I am so frustrated! I have been waiting for my driver for 15 minutes in the heat. Your service is terrible.' What is the best soft skill response?",
+    "scenario": "Handling customer frustration and wait time",
+    "options": {
+      "A": "I understand your frustration, Emily. I apologize for the delay. Let me check the driver's current status and see how we can get this resolved for you right away.",
+      "B": "Please do not use that tone. The driver is stuck in traffic. Wait for some more time.",
+      "C": "The ride is only $10.00 so please do not worry. It is normal to wait in peak hours.",
+      "D": "I can cancel your ride if you want, but you will pay a fee."
+    },
+    "answer": "A",
+    "explanation": "Active empathy, sincere apology for the wait time, and taking immediate ownership of the check represents the best soft skill behavior. Never admonish the customer's tone.",
+    "skill": "Patience & Empathy"
+  },
+  {
+    "id": 112,
+    "question": "You must inform a customer that their request for a refund of a £6.00 fare has been denied because the trip was completed successfully. How do you deliver this bad news professionally?",
+    "scenario": "Delivering negative news",
+    "options": {
+      "A": "Your refund is denied. The driver completed the ride. Case closed.",
+      "B": "I understand this isn't the outcome you hoped for, Nicole. After reviewing the trip details, we verified the route was completed successfully. Therefore, we are unable to process a refund. Thank you for your understanding.",
+      "C": "We cannot give you £6.00 because that would be a loss for our driver. Please pay.",
+      "D": "You completed the trip so why are you asking for a refund? That is not allowed."
+    },
+    "answer": "B",
+    "explanation": "Delivering bad news requires validation of feelings, transparency of decision-making, clear policy stating, and closing with professional courtesy.",
+    "skill": "Diplomacy & Tact"
+  },
+  {
+    "id": 113,
+    "question": "A driver messages: 'The passenger was extremely rude to me, slamming my doors and yelling.' What soft skill is critical here?",
+    "scenario": "De-escalating driver issues",
+    "options": {
+      "A": "Acknowledge the driver's distress: 'I am sorry to hear this, Driver Ali. Safety and respect are important to us. Let me log this on the rider's profile and ensure you aren't matched with them again.'",
+      "B": "Tell the driver to report it to the police and don't accept passengers who look rude.",
+      "C": "Tell them slamming doors is normal and they shouldn't worry about it.",
+      "D": "Ignore the ticket as it is a passenger rating dispute."
+    },
+    "answer": "A",
+    "explanation": "Drivers are our partners. Validating their feelings, reassuring them of safety rules, blocking matches, and noting the rider profile shows high-quality driver support.",
+    "skill": "Partner De-escalation"
+  },
+  {
+    "id": 114,
+    "question": "A customer says: 'The app shows my driver is 5 minutes away, but he is going in the wrong direction. I need to get to the airport immediately.' How do you show accountability?",
+    "scenario": "App GPS error support",
+    "options": {
+      "A": "Say: 'Let me look into this, Jessica. I will contact the driver to verify their direction and ensure they are heading your way to the airport now.'",
+      "B": "Say: 'The GPS has a delay. Please wait for the driver to turn around.'",
+      "C": "Say: 'You should cancel the ride and book another one.'",
+      "D": "Say: 'The driver knows what he is doing, please do not interfere.'"
+    },
+    "answer": "A",
+    "explanation": "Accountability means taking charge, offering to verify with the driver directly, and giving the customer an active timeline.",
+    "skill": "Accountability & Solution"
+  },
+  {
+    "id": 115,
+    "question": "Which of these displays a 'Collaborative and Positive Tone' instead of a demanding one?",
+    "scenario": "Tone adjustment check",
+    "options": {
+      "A": "You must verify your email or I will close the chat.",
+      "B": "To help secure your account, could you please verify your registered email address? I'll be happy to assist you once that is confirmed.",
+      "C": "Verify your email now.",
+      "D": "It is our policy that you send email details first."
+    },
+    "answer": "B",
+    "explanation": "Using collaborative requests ('could you please...') and stating the positive reason ('to help secure your account...') improves CSAT significantly.",
+    "skill": "Positive Tone"
+  },
+  {
+    "id": 116,
+    "question": "A rider named Megan writes: 'I am so frustrated! I have been waiting for my driver for 15 minutes in the heat. Your service is terrible.' What is the best soft skill response?",
+    "scenario": "Handling customer frustration and wait time",
+    "options": {
+      "A": "I understand your frustration, Megan. I apologize for the delay. Let me check the driver's current status and see how we can get this resolved for you right away.",
+      "B": "Please do not use that tone. The driver is stuck in traffic. Wait for some more time.",
+      "C": "The ride is only £6.00 so please do not worry. It is normal to wait in peak hours.",
+      "D": "I can cancel your ride if you want, but you will pay a fee."
+    },
+    "answer": "A",
+    "explanation": "Active empathy, sincere apology for the wait time, and taking immediate ownership of the check represents the best soft skill behavior. Never admonish the customer's tone.",
+    "skill": "Patience & Empathy"
+  },
+  {
+    "id": 117,
+    "question": "You must inform a customer that their request for a refund of a KSh 1200 fare has been denied because the trip was completed successfully. How do you deliver this bad news professionally?",
+    "scenario": "Delivering negative news",
+    "options": {
+      "A": "Your refund is denied. The driver completed the ride. Case closed.",
+      "B": "I understand this isn't the outcome you hoped for, Megan. After reviewing the trip details, we verified the route was completed successfully. Therefore, we are unable to process a refund. Thank you for your understanding.",
+      "C": "We cannot give you KSh 1200 because that would be a loss for our driver. Please pay.",
+      "D": "You completed the trip so why are you asking for a refund? That is not allowed."
+    },
+    "answer": "B",
+    "explanation": "Delivering bad news requires validation of feelings, transparency of decision-making, clear policy stating, and closing with professional courtesy.",
+    "skill": "Diplomacy & Tact"
+  },
+  {
+    "id": 118,
+    "question": "A driver messages: 'The passenger was extremely rude to me, slamming my doors and yelling.' What soft skill is critical here?",
+    "scenario": "De-escalating driver issues",
+    "options": {
+      "A": "Acknowledge the driver's distress: 'I am sorry to hear this, Driver Liam. Safety and respect are important to us. Let me log this on the rider's profile and ensure you aren't matched with them again.'",
+      "B": "Tell the driver to report it to the police and don't accept passengers who look rude.",
+      "C": "Tell them slamming doors is normal and they shouldn't worry about it.",
+      "D": "Ignore the ticket as it is a passenger rating dispute."
+    },
+    "answer": "A",
+    "explanation": "Drivers are our partners. Validating their feelings, reassuring them of safety rules, blocking matches, and noting the rider profile shows high-quality driver support.",
+    "skill": "Partner De-escalation"
+  },
+  {
+    "id": 119,
+    "question": "A customer says: 'The app shows my driver is 5 minutes away, but he is going in the wrong direction. I need to get to the airport immediately.' How do you show accountability?",
+    "scenario": "App GPS error support",
+    "options": {
+      "A": "Say: 'Let me look into this, Robert. I will contact the driver to verify their direction and ensure they are heading your way to the airport now.'",
+      "B": "Say: 'The GPS has a delay. Please wait for the driver to turn around.'",
+      "C": "Say: 'You should cancel the ride and book another one.'",
+      "D": "Say: 'The driver knows what he is doing, please do not interfere.'"
+    },
+    "answer": "A",
+    "explanation": "Accountability means taking charge, offering to verify with the driver directly, and giving the customer an active timeline.",
+    "skill": "Accountability & Solution"
+  },
+  {
+    "id": 120,
+    "question": "Which of these displays a 'Collaborative and Positive Tone' instead of a demanding one?",
+    "scenario": "Tone adjustment check",
+    "options": {
+      "A": "You must verify your email or I will close the chat.",
+      "B": "To help secure your account, could you please verify your registered email address? I'll be happy to assist you once that is confirmed.",
+      "C": "Verify your email now.",
+      "D": "It is our policy that you send email details first."
+    },
+    "answer": "B",
+    "explanation": "Using collaborative requests ('could you please...') and stating the positive reason ('to help secure your account...') improves CSAT significantly.",
+    "skill": "Positive Tone"
+  },
+  {
+    "id": 121,
+    "question": "A rider named Nicole writes: 'I am so frustrated! I have been waiting for my driver for 15 minutes in the heat. Your service is terrible.' What is the best soft skill response?",
+    "scenario": "Handling customer frustration and wait time",
+    "options": {
+      "A": "I understand your frustration, Nicole. I apologize for the delay. Let me check the driver's current status and see how we can get this resolved for you right away.",
+      "B": "Please do not use that tone. The driver is stuck in traffic. Wait for some more time.",
+      "C": "The ride is only $75.00 so please do not worry. It is normal to wait in peak hours.",
+      "D": "I can cancel your ride if you want, but you will pay a fee."
+    },
+    "answer": "A",
+    "explanation": "Active empathy, sincere apology for the wait time, and taking immediate ownership of the check represents the best soft skill behavior. Never admonish the customer's tone.",
+    "skill": "Patience & Empathy"
+  },
+  {
+    "id": 122,
+    "question": "You must inform a customer that their request for a refund of a ₦4500 fare has been denied because the trip was completed successfully. How do you deliver this bad news professionally?",
+    "scenario": "Delivering negative news",
+    "options": {
+      "A": "Your refund is denied. The driver completed the ride. Case closed.",
+      "B": "I understand this isn't the outcome you hoped for, David. After reviewing the trip details, we verified the route was completed successfully. Therefore, we are unable to process a refund. Thank you for your understanding.",
+      "C": "We cannot give you ₦4500 because that would be a loss for our driver. Please pay.",
+      "D": "You completed the trip so why are you asking for a refund? That is not allowed."
+    },
+    "answer": "B",
+    "explanation": "Delivering bad news requires validation of feelings, transparency of decision-making, clear policy stating, and closing with professional courtesy.",
+    "skill": "Diplomacy & Tact"
+  },
+  {
+    "id": 123,
+    "question": "A driver messages: 'The passenger was extremely rude to me, slamming my doors and yelling.' What soft skill is critical here?",
+    "scenario": "De-escalating driver issues",
+    "options": {
+      "A": "Acknowledge the driver's distress: 'I am sorry to hear this, Driver Marcus. Safety and respect are important to us. Let me log this on the rider's profile and ensure you aren't matched with them again.'",
+      "B": "Tell the driver to report it to the police and don't accept passengers who look rude.",
+      "C": "Tell them slamming doors is normal and they shouldn't worry about it.",
+      "D": "Ignore the ticket as it is a passenger rating dispute."
+    },
+    "answer": "A",
+    "explanation": "Drivers are our partners. Validating their feelings, reassuring them of safety rules, blocking matches, and noting the rider profile shows high-quality driver support.",
+    "skill": "Partner De-escalation"
+  },
+  {
+    "id": 124,
+    "question": "A customer says: 'The app shows my driver is 5 minutes away, but he is going in the wrong direction. I need to get to the office immediately.' How do you show accountability?",
+    "scenario": "App GPS error support",
+    "options": {
+      "A": "Say: 'Let me look into this, Sarah. I will contact the driver to verify their direction and ensure they are heading your way to the office now.'",
+      "B": "Say: 'The GPS has a delay. Please wait for the driver to turn around.'",
+      "C": "Say: 'You should cancel the ride and book another one.'",
+      "D": "Say: 'The driver knows what he is doing, please do not interfere.'"
+    },
+    "answer": "A",
+    "explanation": "Accountability means taking charge, offering to verify with the driver directly, and giving the customer an active timeline.",
+    "skill": "Accountability & Solution"
+  },
+  {
+    "id": 125,
+    "question": "Which of these displays a 'Collaborative and Positive Tone' instead of a demanding one?",
+    "scenario": "Tone adjustment check",
+    "options": {
+      "A": "You must verify your email or I will close the chat.",
+      "B": "To help secure your account, could you please verify your registered email address? I'll be happy to assist you once that is confirmed.",
+      "C": "Verify your email now.",
+      "D": "It is our policy that you send email details first."
+    },
+    "answer": "B",
+    "explanation": "Using collaborative requests ('could you please...') and stating the positive reason ('to help secure your account...') improves CSAT significantly.",
+    "skill": "Positive Tone"
+  },
+  {
+    "id": 126,
+    "question": "A rider named Emily writes: 'I am so frustrated! I have been waiting for my driver for 15 minutes in the heat. Your service is terrible.' What is the best soft skill response?",
+    "scenario": "Handling customer frustration and wait time",
+    "options": {
+      "A": "I understand your frustration, Emily. I apologize for the delay. Let me check the driver's current status and see how we can get this resolved for you right away.",
+      "B": "Please do not use that tone. The driver is stuck in traffic. Wait for some more time.",
+      "C": "The ride is only $10.00 so please do not worry. It is normal to wait in peak hours.",
+      "D": "I can cancel your ride if you want, but you will pay a fee."
+    },
+    "answer": "A",
+    "explanation": "Active empathy, sincere apology for the wait time, and taking immediate ownership of the check represents the best soft skill behavior. Never admonish the customer's tone.",
+    "skill": "Patience & Empathy"
+  },
+  {
+    "id": 127,
+    "question": "You must inform a customer that their request for a refund of a $45.00 fare has been denied because the trip was completed successfully. How do you deliver this bad news professionally?",
+    "scenario": "Delivering negative news",
+    "options": {
+      "A": "Your refund is denied. The driver completed the ride. Case closed.",
+      "B": "I understand this isn't the outcome you hoped for, Ashley. After reviewing the trip details, we verified the route was completed successfully. Therefore, we are unable to process a refund. Thank you for your understanding.",
+      "C": "We cannot give you $45.00 because that would be a loss for our driver. Please pay.",
+      "D": "You completed the trip so why are you asking for a refund? That is not allowed."
+    },
+    "answer": "B",
+    "explanation": "Delivering bad news requires validation of feelings, transparency of decision-making, clear policy stating, and closing with professional courtesy.",
+    "skill": "Diplomacy & Tact"
+  },
+  {
+    "id": 128,
+    "question": "A driver messages: 'The passenger was extremely rude to me, slamming my doors and yelling.' What soft skill is critical here?",
+    "scenario": "De-escalating driver issues",
+    "options": {
+      "A": "Acknowledge the driver's distress: 'I am sorry to hear this, Driver Liam. Safety and respect are important to us. Let me log this on the rider's profile and ensure you aren't matched with them again.'",
+      "B": "Tell the driver to report it to the police and don't accept passengers who look rude.",
+      "C": "Tell them slamming doors is normal and they shouldn't worry about it.",
+      "D": "Ignore the ticket as it is a passenger rating dispute."
+    },
+    "answer": "A",
+    "explanation": "Drivers are our partners. Validating their feelings, reassuring them of safety rules, blocking matches, and noting the rider profile shows high-quality driver support.",
+    "skill": "Partner De-escalation"
+  },
+  {
+    "id": 129,
+    "question": "A customer says: 'The app shows my driver is 5 minutes away, but he is going in the wrong direction. I need to get to the office immediately.' How do you show accountability?",
+    "scenario": "App GPS error support",
+    "options": {
+      "A": "Say: 'Let me look into this, Brian. I will contact the driver to verify their direction and ensure they are heading your way to the office now.'",
+      "B": "Say: 'The GPS has a delay. Please wait for the driver to turn around.'",
+      "C": "Say: 'You should cancel the ride and book another one.'",
+      "D": "Say: 'The driver knows what he is doing, please do not interfere.'"
+    },
+    "answer": "A",
+    "explanation": "Accountability means taking charge, offering to verify with the driver directly, and giving the customer an active timeline.",
+    "skill": "Accountability & Solution"
+  },
+  {
+    "id": 130,
+    "question": "Which of these displays a 'Collaborative and Positive Tone' instead of a demanding one?",
+    "scenario": "Tone adjustment check",
+    "options": {
+      "A": "You must verify your email or I will close the chat.",
+      "B": "To help secure your account, could you please verify your registered email address? I'll be happy to assist you once that is confirmed.",
+      "C": "Verify your email now.",
+      "D": "It is our policy that you send email details first."
+    },
+    "answer": "B",
+    "explanation": "Using collaborative requests ('could you please...') and stating the positive reason ('to help secure your account...') improves CSAT significantly.",
+    "skill": "Positive Tone"
+  },
+  {
+    "id": 131,
+    "question": "A rider named Megan writes: 'I am so frustrated! I have been waiting for my driver for 15 minutes in the heat. Your service is terrible.' What is the best soft skill response?",
+    "scenario": "Handling customer frustration and wait time",
+    "options": {
+      "A": "I understand your frustration, Megan. I apologize for the delay. Let me check the driver's current status and see how we can get this resolved for you right away.",
+      "B": "Please do not use that tone. The driver is stuck in traffic. Wait for some more time.",
+      "C": "The ride is only R250 so please do not worry. It is normal to wait in peak hours.",
+      "D": "I can cancel your ride if you want, but you will pay a fee."
+    },
+    "answer": "A",
+    "explanation": "Active empathy, sincere apology for the wait time, and taking immediate ownership of the check represents the best soft skill behavior. Never admonish the customer's tone.",
+    "skill": "Patience & Empathy"
+  },
+  {
+    "id": 132,
+    "question": "You must inform a customer that their request for a refund of a $15.00 fare has been denied because the trip was completed successfully. How do you deliver this bad news professionally?",
+    "scenario": "Delivering negative news",
+    "options": {
+      "A": "Your refund is denied. The driver completed the ride. Case closed.",
+      "B": "I understand this isn't the outcome you hoped for, Michael. After reviewing the trip details, we verified the route was completed successfully. Therefore, we are unable to process a refund. Thank you for your understanding.",
+      "C": "We cannot give you $15.00 because that would be a loss for our driver. Please pay.",
+      "D": "You completed the trip so why are you asking for a refund? That is not allowed."
+    },
+    "answer": "B",
+    "explanation": "Delivering bad news requires validation of feelings, transparency of decision-making, clear policy stating, and closing with professional courtesy.",
+    "skill": "Diplomacy & Tact"
+  },
+  {
+    "id": 133,
+    "question": "A driver messages: 'The passenger was extremely rude to me, slamming my doors and yelling.' What soft skill is critical here?",
+    "scenario": "De-escalating driver issues",
+    "options": {
+      "A": "Acknowledge the driver's distress: 'I am sorry to hear this, Driver Ali. Safety and respect are important to us. Let me log this on the rider's profile and ensure you aren't matched with them again.'",
+      "B": "Tell the driver to report it to the police and don't accept passengers who look rude.",
+      "C": "Tell them slamming doors is normal and they shouldn't worry about it.",
+      "D": "Ignore the ticket as it is a passenger rating dispute."
+    },
+    "answer": "A",
+    "explanation": "Drivers are our partners. Validating their feelings, reassuring them of safety rules, blocking matches, and noting the rider profile shows high-quality driver support.",
+    "skill": "Partner De-escalation"
+  },
+  {
+    "id": 134,
+    "question": "A customer says: 'The app shows my driver is 5 minutes away, but he is going in the wrong direction. I need to get to my hotel immediately.' How do you show accountability?",
+    "scenario": "App GPS error support",
+    "options": {
+      "A": "Say: 'Let me look into this, Michael. I will contact the driver to verify their direction and ensure they are heading your way to my hotel now.'",
+      "B": "Say: 'The GPS has a delay. Please wait for the driver to turn around.'",
+      "C": "Say: 'You should cancel the ride and book another one.'",
+      "D": "Say: 'The driver knows what he is doing, please do not interfere.'"
+    },
+    "answer": "A",
+    "explanation": "Accountability means taking charge, offering to verify with the driver directly, and giving the customer an active timeline.",
+    "skill": "Accountability & Solution"
+  },
+  {
+    "id": 135,
+    "question": "Which of these displays a 'Collaborative and Positive Tone' instead of a demanding one?",
+    "scenario": "Tone adjustment check",
+    "options": {
+      "A": "You must verify your email or I will close the chat.",
+      "B": "To help secure your account, could you please verify your registered email address? I'll be happy to assist you once that is confirmed.",
+      "C": "Verify your email now.",
+      "D": "It is our policy that you send email details first."
+    },
+    "answer": "B",
+    "explanation": "Using collaborative requests ('could you please...') and stating the positive reason ('to help secure your account...') improves CSAT significantly.",
+    "skill": "Positive Tone"
+  },
+  {
+    "id": 136,
+    "question": "A rider named Matthew writes: 'I am so frustrated! I have been waiting for my driver for 15 minutes in the heat. Your service is terrible.' What is the best soft skill response?",
+    "scenario": "Handling customer frustration and wait time",
+    "options": {
+      "A": "I understand your frustration, Matthew. I apologize for the delay. Let me check the driver's current status and see how we can get this resolved for you right away.",
+      "B": "Please do not use that tone. The driver is stuck in traffic. Wait for some more time.",
+      "C": "The ride is only R250 so please do not worry. It is normal to wait in peak hours.",
+      "D": "I can cancel your ride if you want, but you will pay a fee."
+    },
+    "answer": "A",
+    "explanation": "Active empathy, sincere apology for the wait time, and taking immediate ownership of the check represents the best soft skill behavior. Never admonish the customer's tone.",
+    "skill": "Patience & Empathy"
+  },
+  {
+    "id": 137,
+    "question": "You must inform a customer that their request for a refund of a $75.00 fare has been denied because the trip was completed successfully. How do you deliver this bad news professionally?",
+    "scenario": "Delivering negative news",
+    "options": {
+      "A": "Your refund is denied. The driver completed the ride. Case closed.",
+      "B": "I understand this isn't the outcome you hoped for, Emily. After reviewing the trip details, we verified the route was completed successfully. Therefore, we are unable to process a refund. Thank you for your understanding.",
+      "C": "We cannot give you $75.00 because that would be a loss for our driver. Please pay.",
+      "D": "You completed the trip so why are you asking for a refund? That is not allowed."
+    },
+    "answer": "B",
+    "explanation": "Delivering bad news requires validation of feelings, transparency of decision-making, clear policy stating, and closing with professional courtesy.",
+    "skill": "Diplomacy & Tact"
+  },
+  {
+    "id": 138,
+    "question": "A driver messages: 'The passenger was extremely rude to me, slamming my doors and yelling.' What soft skill is critical here?",
+    "scenario": "De-escalating driver issues",
+    "options": {
+      "A": "Acknowledge the driver's distress: 'I am sorry to hear this, Driver Liam. Safety and respect are important to us. Let me log this on the rider's profile and ensure you aren't matched with them again.'",
+      "B": "Tell the driver to report it to the police and don't accept passengers who look rude.",
+      "C": "Tell them slamming doors is normal and they shouldn't worry about it.",
+      "D": "Ignore the ticket as it is a passenger rating dispute."
+    },
+    "answer": "A",
+    "explanation": "Drivers are our partners. Validating their feelings, reassuring them of safety rules, blocking matches, and noting the rider profile shows high-quality driver support.",
+    "skill": "Partner De-escalation"
+  },
+  {
+    "id": 139,
+    "question": "A customer says: 'The app shows my driver is 5 minutes away, but he is going in the wrong direction. I need to get to the office immediately.' How do you show accountability?",
+    "scenario": "App GPS error support",
+    "options": {
+      "A": "Say: 'Let me look into this, Matthew. I will contact the driver to verify their direction and ensure they are heading your way to the office now.'",
+      "B": "Say: 'The GPS has a delay. Please wait for the driver to turn around.'",
+      "C": "Say: 'You should cancel the ride and book another one.'",
+      "D": "Say: 'The driver knows what he is doing, please do not interfere.'"
+    },
+    "answer": "A",
+    "explanation": "Accountability means taking charge, offering to verify with the driver directly, and giving the customer an active timeline.",
+    "skill": "Accountability & Solution"
+  },
+  {
+    "id": 140,
+    "question": "Which of these displays a 'Collaborative and Positive Tone' instead of a demanding one?",
+    "scenario": "Tone adjustment check",
+    "options": {
+      "A": "You must verify your email or I will close the chat.",
+      "B": "To help secure your account, could you please verify your registered email address? I'll be happy to assist you once that is confirmed.",
+      "C": "Verify your email now.",
+      "D": "It is our policy that you send email details first."
+    },
+    "answer": "B",
+    "explanation": "Using collaborative requests ('could you please...') and stating the positive reason ('to help secure your account...') improves CSAT significantly.",
+    "skill": "Positive Tone"
+  },
+  {
+    "id": 141,
+    "question": "A rider named Jessica writes: 'I am so frustrated! I have been waiting for my driver for 15 minutes in the heat. Your service is terrible.' What is the best soft skill response?",
+    "scenario": "Handling customer frustration and wait time",
+    "options": {
+      "A": "I understand your frustration, Jessica. I apologize for the delay. Let me check the driver's current status and see how we can get this resolved for you right away.",
+      "B": "Please do not use that tone. The driver is stuck in traffic. Wait for some more time.",
+      "C": "The ride is only KSh 1200 so please do not worry. It is normal to wait in peak hours.",
+      "D": "I can cancel your ride if you want, but you will pay a fee."
+    },
+    "answer": "A",
+    "explanation": "Active empathy, sincere apology for the wait time, and taking immediate ownership of the check represents the best soft skill behavior. Never admonish the customer's tone.",
+    "skill": "Patience & Empathy"
+  },
+  {
+    "id": 142,
+    "question": "You must inform a customer that their request for a refund of a ₦8000 fare has been denied because the trip was completed successfully. How do you deliver this bad news professionally?",
+    "scenario": "Delivering negative news",
+    "options": {
+      "A": "Your refund is denied. The driver completed the ride. Case closed.",
+      "B": "I understand this isn't the outcome you hoped for, Brian. After reviewing the trip details, we verified the route was completed successfully. Therefore, we are unable to process a refund. Thank you for your understanding.",
+      "C": "We cannot give you ₦8000 because that would be a loss for our driver. Please pay.",
+      "D": "You completed the trip so why are you asking for a refund? That is not allowed."
+    },
+    "answer": "B",
+    "explanation": "Delivering bad news requires validation of feelings, transparency of decision-making, clear policy stating, and closing with professional courtesy.",
+    "skill": "Diplomacy & Tact"
+  },
+  {
+    "id": 143,
+    "question": "A driver messages: 'The passenger was extremely rude to me, slamming my doors and yelling.' What soft skill is critical here?",
+    "scenario": "De-escalating driver issues",
+    "options": {
+      "A": "Acknowledge the driver's distress: 'I am sorry to hear this, Driver Roger. Safety and respect are important to us. Let me log this on the rider's profile and ensure you aren't matched with them again.'",
+      "B": "Tell the driver to report it to the police and don't accept passengers who look rude.",
+      "C": "Tell them slamming doors is normal and they shouldn't worry about it.",
+      "D": "Ignore the ticket as it is a passenger rating dispute."
+    },
+    "answer": "A",
+    "explanation": "Drivers are our partners. Validating their feelings, reassuring them of safety rules, blocking matches, and noting the rider profile shows high-quality driver support.",
+    "skill": "Partner De-escalation"
+  },
+  {
+    "id": 144,
+    "question": "A customer says: 'The app shows my driver is 5 minutes away, but he is going in the wrong direction. I need to get to my hotel immediately.' How do you show accountability?",
+    "scenario": "App GPS error support",
+    "options": {
+      "A": "Say: 'Let me look into this, Jessica. I will contact the driver to verify their direction and ensure they are heading your way to my hotel now.'",
+      "B": "Say: 'The GPS has a delay. Please wait for the driver to turn around.'",
+      "C": "Say: 'You should cancel the ride and book another one.'",
+      "D": "Say: 'The driver knows what he is doing, please do not interfere.'"
+    },
+    "answer": "A",
+    "explanation": "Accountability means taking charge, offering to verify with the driver directly, and giving the customer an active timeline.",
+    "skill": "Accountability & Solution"
+  },
+  {
+    "id": 145,
+    "question": "Which of these displays a 'Collaborative and Positive Tone' instead of a demanding one?",
+    "scenario": "Tone adjustment check",
+    "options": {
+      "A": "You must verify your email or I will close the chat.",
+      "B": "To help secure your account, could you please verify your registered email address? I'll be happy to assist you once that is confirmed.",
+      "C": "Verify your email now.",
+      "D": "It is our policy that you send email details first."
+    },
+    "answer": "B",
+    "explanation": "Using collaborative requests ('could you please...') and stating the positive reason ('to help secure your account...') improves CSAT significantly.",
+    "skill": "Positive Tone"
+  },
+  {
+    "id": 146,
+    "question": "A rider named Nicole writes: 'I am so frustrated! I have been waiting for my driver for 15 minutes in the heat. Your service is terrible.' What is the best soft skill response?",
+    "scenario": "Handling customer frustration and wait time",
+    "options": {
+      "A": "I understand your frustration, Nicole. I apologize for the delay. Let me check the driver's current status and see how we can get this resolved for you right away.",
+      "B": "Please do not use that tone. The driver is stuck in traffic. Wait for some more time.",
+      "C": "The ride is only $15.00 so please do not worry. It is normal to wait in peak hours.",
+      "D": "I can cancel your ride if you want, but you will pay a fee."
+    },
+    "answer": "A",
+    "explanation": "Active empathy, sincere apology for the wait time, and taking immediate ownership of the check represents the best soft skill behavior. Never admonish the customer's tone.",
+    "skill": "Patience & Empathy"
+  },
+  {
+    "id": 147,
+    "question": "You must inform a customer that their request for a refund of a ₦8000 fare has been denied because the trip was completed successfully. How do you deliver this bad news professionally?",
+    "scenario": "Delivering negative news",
+    "options": {
+      "A": "Your refund is denied. The driver completed the ride. Case closed.",
+      "B": "I understand this isn't the outcome you hoped for, Emily. After reviewing the trip details, we verified the route was completed successfully. Therefore, we are unable to process a refund. Thank you for your understanding.",
+      "C": "We cannot give you ₦8000 because that would be a loss for our driver. Please pay.",
+      "D": "You completed the trip so why are you asking for a refund? That is not allowed."
+    },
+    "answer": "B",
+    "explanation": "Delivering bad news requires validation of feelings, transparency of decision-making, clear policy stating, and closing with professional courtesy.",
+    "skill": "Diplomacy & Tact"
+  },
+  {
+    "id": 148,
+    "question": "A driver messages: 'The passenger was extremely rude to me, slamming my doors and yelling.' What soft skill is critical here?",
+    "scenario": "De-escalating driver issues",
+    "options": {
+      "A": "Acknowledge the driver's distress: 'I am sorry to hear this, Driver Dmitry. Safety and respect are important to us. Let me log this on the rider's profile and ensure you aren't matched with them again.'",
+      "B": "Tell the driver to report it to the police and don't accept passengers who look rude.",
+      "C": "Tell them slamming doors is normal and they shouldn't worry about it.",
+      "D": "Ignore the ticket as it is a passenger rating dispute."
+    },
+    "answer": "A",
+    "explanation": "Drivers are our partners. Validating their feelings, reassuring them of safety rules, blocking matches, and noting the rider profile shows high-quality driver support.",
+    "skill": "Partner De-escalation"
+  },
+  {
+    "id": 149,
+    "question": "A customer says: 'The app shows my driver is 5 minutes away, but he is going in the wrong direction. I need to get to the station immediately.' How do you show accountability?",
+    "scenario": "App GPS error support",
+    "options": {
+      "A": "Say: 'Let me look into this, Heather. I will contact the driver to verify their direction and ensure they are heading your way to the station now.'",
+      "B": "Say: 'The GPS has a delay. Please wait for the driver to turn around.'",
+      "C": "Say: 'You should cancel the ride and book another one.'",
+      "D": "Say: 'The driver knows what he is doing, please do not interfere.'"
+    },
+    "answer": "A",
+    "explanation": "Accountability means taking charge, offering to verify with the driver directly, and giving the customer an active timeline.",
+    "skill": "Accountability & Solution"
+  },
+  {
+    "id": 150,
+    "question": "Which of these displays a 'Collaborative and Positive Tone' instead of a demanding one?",
+    "scenario": "Tone adjustment check",
+    "options": {
+      "A": "You must verify your email or I will close the chat.",
+      "B": "To help secure your account, could you please verify your registered email address? I'll be happy to assist you once that is confirmed.",
+      "C": "Verify your email now.",
+      "D": "It is our policy that you send email details first."
+    },
+    "answer": "B",
+    "explanation": "Using collaborative requests ('could you please...') and stating the positive reason ('to help secure your account...') improves CSAT significantly.",
+    "skill": "Positive Tone"
+  },
+  {
+    "id": 151,
+    "question": "A rider named Heather writes: 'I am so frustrated! I have been waiting for my driver for 15 minutes in the heat. Your service is terrible.' What is the best soft skill response?",
+    "scenario": "Handling customer frustration and wait time",
+    "options": {
+      "A": "I understand your frustration, Heather. I apologize for the delay. Let me check the driver's current status and see how we can get this resolved for you right away.",
+      "B": "Please do not use that tone. The driver is stuck in traffic. Wait for some more time.",
+      "C": "The ride is only $45.00 so please do not worry. It is normal to wait in peak hours.",
+      "D": "I can cancel your ride if you want, but you will pay a fee."
+    },
+    "answer": "A",
+    "explanation": "Active empathy, sincere apology for the wait time, and taking immediate ownership of the check represents the best soft skill behavior. Never admonish the customer's tone.",
+    "skill": "Patience & Empathy"
+  },
+  {
+    "id": 152,
+    "question": "You must inform a customer that their request for a refund of a $10.00 fare has been denied because the trip was completed successfully. How do you deliver this bad news professionally?",
+    "scenario": "Delivering negative news",
+    "options": {
+      "A": "Your refund is denied. The driver completed the ride. Case closed.",
+      "B": "I understand this isn't the outcome you hoped for, Amanda. After reviewing the trip details, we verified the route was completed successfully. Therefore, we are unable to process a refund. Thank you for your understanding.",
+      "C": "We cannot give you $10.00 because that would be a loss for our driver. Please pay.",
+      "D": "You completed the trip so why are you asking for a refund? That is not allowed."
+    },
+    "answer": "B",
+    "explanation": "Delivering bad news requires validation of feelings, transparency of decision-making, clear policy stating, and closing with professional courtesy.",
+    "skill": "Diplomacy & Tact"
+  },
+  {
+    "id": 153,
+    "question": "A driver messages: 'The passenger was extremely rude to me, slamming my doors and yelling.' What soft skill is critical here?",
+    "scenario": "De-escalating driver issues",
+    "options": {
+      "A": "Acknowledge the driver's distress: 'I am sorry to hear this, Driver Sam. Safety and respect are important to us. Let me log this on the rider's profile and ensure you aren't matched with them again.'",
+      "B": "Tell the driver to report it to the police and don't accept passengers who look rude.",
+      "C": "Tell them slamming doors is normal and they shouldn't worry about it.",
+      "D": "Ignore the ticket as it is a passenger rating dispute."
+    },
+    "answer": "A",
+    "explanation": "Drivers are our partners. Validating their feelings, reassuring them of safety rules, blocking matches, and noting the rider profile shows high-quality driver support.",
+    "skill": "Partner De-escalation"
+  },
+  {
+    "id": 154,
+    "question": "A customer says: 'The app shows my driver is 5 minutes away, but he is going in the wrong direction. I need to get to the office immediately.' How do you show accountability?",
+    "scenario": "App GPS error support",
+    "options": {
+      "A": "Say: 'Let me look into this, Amanda. I will contact the driver to verify their direction and ensure they are heading your way to the office now.'",
+      "B": "Say: 'The GPS has a delay. Please wait for the driver to turn around.'",
+      "C": "Say: 'You should cancel the ride and book another one.'",
+      "D": "Say: 'The driver knows what he is doing, please do not interfere.'"
+    },
+    "answer": "A",
+    "explanation": "Accountability means taking charge, offering to verify with the driver directly, and giving the customer an active timeline.",
+    "skill": "Accountability & Solution"
+  },
+  {
+    "id": 155,
+    "question": "Which of these displays a 'Collaborative and Positive Tone' instead of a demanding one?",
+    "scenario": "Tone adjustment check",
+    "options": {
+      "A": "You must verify your email or I will close the chat.",
+      "B": "To help secure your account, could you please verify your registered email address? I'll be happy to assist you once that is confirmed.",
+      "C": "Verify your email now.",
+      "D": "It is our policy that you send email details first."
+    },
+    "answer": "B",
+    "explanation": "Using collaborative requests ('could you please...') and stating the positive reason ('to help secure your account...') improves CSAT significantly.",
+    "skill": "Positive Tone"
+  },
+  {
+    "id": 156,
+    "question": "A rider named Jessica writes: 'I am so frustrated! I have been waiting for my driver for 15 minutes in the heat. Your service is terrible.' What is the best soft skill response?",
+    "scenario": "Handling customer frustration and wait time",
+    "options": {
+      "A": "I understand your frustration, Jessica. I apologize for the delay. Let me check the driver's current status and see how we can get this resolved for you right away.",
+      "B": "Please do not use that tone. The driver is stuck in traffic. Wait for some more time.",
+      "C": "The ride is only ₦4500 so please do not worry. It is normal to wait in peak hours.",
+      "D": "I can cancel your ride if you want, but you will pay a fee."
+    },
+    "answer": "A",
+    "explanation": "Active empathy, sincere apology for the wait time, and taking immediate ownership of the check represents the best soft skill behavior. Never admonish the customer's tone.",
+    "skill": "Patience & Empathy"
+  },
+  {
+    "id": 157,
+    "question": "You must inform a customer that their request for a refund of a €15.00 fare has been denied because the trip was completed successfully. How do you deliver this bad news professionally?",
+    "scenario": "Delivering negative news",
+    "options": {
+      "A": "Your refund is denied. The driver completed the ride. Case closed.",
+      "B": "I understand this isn't the outcome you hoped for, Robert. After reviewing the trip details, we verified the route was completed successfully. Therefore, we are unable to process a refund. Thank you for your understanding.",
+      "C": "We cannot give you €15.00 because that would be a loss for our driver. Please pay.",
+      "D": "You completed the trip so why are you asking for a refund? That is not allowed."
+    },
+    "answer": "B",
+    "explanation": "Delivering bad news requires validation of feelings, transparency of decision-making, clear policy stating, and closing with professional courtesy.",
+    "skill": "Diplomacy & Tact"
+  },
+  {
+    "id": 158,
+    "question": "A driver messages: 'The passenger was extremely rude to me, slamming my doors and yelling.' What soft skill is critical here?",
+    "scenario": "De-escalating driver issues",
+    "options": {
+      "A": "Acknowledge the driver's distress: 'I am sorry to hear this, Driver Marcus. Safety and respect are important to us. Let me log this on the rider's profile and ensure you aren't matched with them again.'",
+      "B": "Tell the driver to report it to the police and don't accept passengers who look rude.",
+      "C": "Tell them slamming doors is normal and they shouldn't worry about it.",
+      "D": "Ignore the ticket as it is a passenger rating dispute."
+    },
+    "answer": "A",
+    "explanation": "Drivers are our partners. Validating their feelings, reassuring them of safety rules, blocking matches, and noting the rider profile shows high-quality driver support.",
+    "skill": "Partner De-escalation"
+  },
+  {
+    "id": 159,
+    "question": "A customer says: 'The app shows my driver is 5 minutes away, but he is going in the wrong direction. I need to get to the station immediately.' How do you show accountability?",
+    "scenario": "App GPS error support",
+    "options": {
+      "A": "Say: 'Let me look into this, Megan. I will contact the driver to verify their direction and ensure they are heading your way to the station now.'",
+      "B": "Say: 'The GPS has a delay. Please wait for the driver to turn around.'",
+      "C": "Say: 'You should cancel the ride and book another one.'",
+      "D": "Say: 'The driver knows what he is doing, please do not interfere.'"
+    },
+    "answer": "A",
+    "explanation": "Accountability means taking charge, offering to verify with the driver directly, and giving the customer an active timeline.",
+    "skill": "Accountability & Solution"
+  },
+  {
+    "id": 160,
+    "question": "Which of these displays a 'Collaborative and Positive Tone' instead of a demanding one?",
+    "scenario": "Tone adjustment check",
+    "options": {
+      "A": "You must verify your email or I will close the chat.",
+      "B": "To help secure your account, could you please verify your registered email address? I'll be happy to assist you once that is confirmed.",
+      "C": "Verify your email now.",
+      "D": "It is our policy that you send email details first."
+    },
+    "answer": "B",
+    "explanation": "Using collaborative requests ('could you please...') and stating the positive reason ('to help secure your account...') improves CSAT significantly.",
+    "skill": "Positive Tone"
+  },
+  {
+    "id": 161,
+    "question": "A rider named Robert writes: 'I am so frustrated! I have been waiting for my driver for 15 minutes in the heat. Your service is terrible.' What is the best soft skill response?",
+    "scenario": "Handling customer frustration and wait time",
+    "options": {
+      "A": "I understand your frustration, Robert. I apologize for the delay. Let me check the driver's current status and see how we can get this resolved for you right away.",
+      "B": "Please do not use that tone. The driver is stuck in traffic. Wait for some more time.",
+      "C": "The ride is only KSh 1200 so please do not worry. It is normal to wait in peak hours.",
+      "D": "I can cancel your ride if you want, but you will pay a fee."
+    },
+    "answer": "A",
+    "explanation": "Active empathy, sincere apology for the wait time, and taking immediate ownership of the check represents the best soft skill behavior. Never admonish the customer's tone.",
+    "skill": "Patience & Empathy"
+  },
+  {
+    "id": 162,
+    "question": "You must inform a customer that their request for a refund of a $25.00 fare has been denied because the trip was completed successfully. How do you deliver this bad news professionally?",
+    "scenario": "Delivering negative news",
+    "options": {
+      "A": "Your refund is denied. The driver completed the ride. Case closed.",
+      "B": "I understand this isn't the outcome you hoped for, Amanda. After reviewing the trip details, we verified the route was completed successfully. Therefore, we are unable to process a refund. Thank you for your understanding.",
+      "C": "We cannot give you $25.00 because that would be a loss for our driver. Please pay.",
+      "D": "You completed the trip so why are you asking for a refund? That is not allowed."
+    },
+    "answer": "B",
+    "explanation": "Delivering bad news requires validation of feelings, transparency of decision-making, clear policy stating, and closing with professional courtesy.",
+    "skill": "Diplomacy & Tact"
+  },
+  {
+    "id": 163,
+    "question": "A driver messages: 'The passenger was extremely rude to me, slamming my doors and yelling.' What soft skill is critical here?",
+    "scenario": "De-escalating driver issues",
+    "options": {
+      "A": "Acknowledge the driver's distress: 'I am sorry to hear this, Driver Ken. Safety and respect are important to us. Let me log this on the rider's profile and ensure you aren't matched with them again.'",
+      "B": "Tell the driver to report it to the police and don't accept passengers who look rude.",
+      "C": "Tell them slamming doors is normal and they shouldn't worry about it.",
+      "D": "Ignore the ticket as it is a passenger rating dispute."
+    },
+    "answer": "A",
+    "explanation": "Drivers are our partners. Validating their feelings, reassuring them of safety rules, blocking matches, and noting the rider profile shows high-quality driver support.",
+    "skill": "Partner De-escalation"
+  },
+  {
+    "id": 164,
+    "question": "A customer says: 'The app shows my driver is 5 minutes away, but he is going in the wrong direction. I need to get to the office immediately.' How do you show accountability?",
+    "scenario": "App GPS error support",
+    "options": {
+      "A": "Say: 'Let me look into this, John. I will contact the driver to verify their direction and ensure they are heading your way to the office now.'",
+      "B": "Say: 'The GPS has a delay. Please wait for the driver to turn around.'",
+      "C": "Say: 'You should cancel the ride and book another one.'",
+      "D": "Say: 'The driver knows what he is doing, please do not interfere.'"
+    },
+    "answer": "A",
+    "explanation": "Accountability means taking charge, offering to verify with the driver directly, and giving the customer an active timeline.",
+    "skill": "Accountability & Solution"
+  },
+  {
+    "id": 165,
+    "question": "Which of these displays a 'Collaborative and Positive Tone' instead of a demanding one?",
+    "scenario": "Tone adjustment check",
+    "options": {
+      "A": "You must verify your email or I will close the chat.",
+      "B": "To help secure your account, could you please verify your registered email address? I'll be happy to assist you once that is confirmed.",
+      "C": "Verify your email now.",
+      "D": "It is our policy that you send email details first."
+    },
+    "answer": "B",
+    "explanation": "Using collaborative requests ('could you please...') and stating the positive reason ('to help secure your account...') improves CSAT significantly.",
+    "skill": "Positive Tone"
+  },
+  {
+    "id": 166,
+    "question": "A rider named Chris writes: 'I am so frustrated! I have been waiting for my driver for 15 minutes in the heat. Your service is terrible.' What is the best soft skill response?",
+    "scenario": "Handling customer frustration and wait time",
+    "options": {
+      "A": "I understand your frustration, Chris. I apologize for the delay. Let me check the driver's current status and see how we can get this resolved for you right away.",
+      "B": "Please do not use that tone. The driver is stuck in traffic. Wait for some more time.",
+      "C": "The ride is only £6.00 so please do not worry. It is normal to wait in peak hours.",
+      "D": "I can cancel your ride if you want, but you will pay a fee."
+    },
+    "answer": "A",
+    "explanation": "Active empathy, sincere apology for the wait time, and taking immediate ownership of the check represents the best soft skill behavior. Never admonish the customer's tone.",
+    "skill": "Patience & Empathy"
+  },
+  {
+    "id": 167,
+    "question": "You must inform a customer that their request for a refund of a €30.00 fare has been denied because the trip was completed successfully. How do you deliver this bad news professionally?",
+    "scenario": "Delivering negative news",
+    "options": {
+      "A": "Your refund is denied. The driver completed the ride. Case closed.",
+      "B": "I understand this isn't the outcome you hoped for, Megan. After reviewing the trip details, we verified the route was completed successfully. Therefore, we are unable to process a refund. Thank you for your understanding.",
+      "C": "We cannot give you €30.00 because that would be a loss for our driver. Please pay.",
+      "D": "You completed the trip so why are you asking for a refund? That is not allowed."
+    },
+    "answer": "B",
+    "explanation": "Delivering bad news requires validation of feelings, transparency of decision-making, clear policy stating, and closing with professional courtesy.",
+    "skill": "Diplomacy & Tact"
+  },
+  {
+    "id": 168,
+    "question": "A driver messages: 'The passenger was extremely rude to me, slamming my doors and yelling.' What soft skill is critical here?",
+    "scenario": "De-escalating driver issues",
+    "options": {
+      "A": "Acknowledge the driver's distress: 'I am sorry to hear this, Driver Jose. Safety and respect are important to us. Let me log this on the rider's profile and ensure you aren't matched with them again.'",
+      "B": "Tell the driver to report it to the police and don't accept passengers who look rude.",
+      "C": "Tell them slamming doors is normal and they shouldn't worry about it.",
+      "D": "Ignore the ticket as it is a passenger rating dispute."
+    },
+    "answer": "A",
+    "explanation": "Drivers are our partners. Validating their feelings, reassuring them of safety rules, blocking matches, and noting the rider profile shows high-quality driver support.",
+    "skill": "Partner De-escalation"
+  },
+  {
+    "id": 169,
+    "question": "A customer says: 'The app shows my driver is 5 minutes away, but he is going in the wrong direction. I need to get to the airport immediately.' How do you show accountability?",
+    "scenario": "App GPS error support",
+    "options": {
+      "A": "Say: 'Let me look into this, Sarah. I will contact the driver to verify their direction and ensure they are heading your way to the airport now.'",
+      "B": "Say: 'The GPS has a delay. Please wait for the driver to turn around.'",
+      "C": "Say: 'You should cancel the ride and book another one.'",
+      "D": "Say: 'The driver knows what he is doing, please do not interfere.'"
+    },
+    "answer": "A",
+    "explanation": "Accountability means taking charge, offering to verify with the driver directly, and giving the customer an active timeline.",
+    "skill": "Accountability & Solution"
+  },
+  {
+    "id": 170,
+    "question": "Which of these displays a 'Collaborative and Positive Tone' instead of a demanding one?",
+    "scenario": "Tone adjustment check",
+    "options": {
+      "A": "You must verify your email or I will close the chat.",
+      "B": "To help secure your account, could you please verify your registered email address? I'll be happy to assist you once that is confirmed.",
+      "C": "Verify your email now.",
+      "D": "It is our policy that you send email details first."
+    },
+    "answer": "B",
+    "explanation": "Using collaborative requests ('could you please...') and stating the positive reason ('to help secure your account...') improves CSAT significantly.",
+    "skill": "Positive Tone"
+  },
+  {
+    "id": 171,
+    "question": "A rider named Emily writes: 'I am so frustrated! I have been waiting for my driver for 15 minutes in the heat. Your service is terrible.' What is the best soft skill response?",
+    "scenario": "Handling customer frustration and wait time",
+    "options": {
+      "A": "I understand your frustration, Emily. I apologize for the delay. Let me check the driver's current status and see how we can get this resolved for you right away.",
+      "B": "Please do not use that tone. The driver is stuck in traffic. Wait for some more time.",
+      "C": "The ride is only £12.00 so please do not worry. It is normal to wait in peak hours.",
+      "D": "I can cancel your ride if you want, but you will pay a fee."
+    },
+    "answer": "A",
+    "explanation": "Active empathy, sincere apology for the wait time, and taking immediate ownership of the check represents the best soft skill behavior. Never admonish the customer's tone.",
+    "skill": "Patience & Empathy"
+  },
+  {
+    "id": 172,
+    "question": "You must inform a customer that their request for a refund of a £12.00 fare has been denied because the trip was completed successfully. How do you deliver this bad news professionally?",
+    "scenario": "Delivering negative news",
+    "options": {
+      "A": "Your refund is denied. The driver completed the ride. Case closed.",
+      "B": "I understand this isn't the outcome you hoped for, Ashley. After reviewing the trip details, we verified the route was completed successfully. Therefore, we are unable to process a refund. Thank you for your understanding.",
+      "C": "We cannot give you £12.00 because that would be a loss for our driver. Please pay.",
+      "D": "You completed the trip so why are you asking for a refund? That is not allowed."
+    },
+    "answer": "B",
+    "explanation": "Delivering bad news requires validation of feelings, transparency of decision-making, clear policy stating, and closing with professional courtesy.",
+    "skill": "Diplomacy & Tact"
+  },
+  {
+    "id": 173,
+    "question": "A driver messages: 'The passenger was extremely rude to me, slamming my doors and yelling.' What soft skill is critical here?",
+    "scenario": "De-escalating driver issues",
+    "options": {
+      "A": "Acknowledge the driver's distress: 'I am sorry to hear this, Driver Ali. Safety and respect are important to us. Let me log this on the rider's profile and ensure you aren't matched with them again.'",
+      "B": "Tell the driver to report it to the police and don't accept passengers who look rude.",
+      "C": "Tell them slamming doors is normal and they shouldn't worry about it.",
+      "D": "Ignore the ticket as it is a passenger rating dispute."
+    },
+    "answer": "A",
+    "explanation": "Drivers are our partners. Validating their feelings, reassuring them of safety rules, blocking matches, and noting the rider profile shows high-quality driver support.",
+    "skill": "Partner De-escalation"
+  },
+  {
+    "id": 174,
+    "question": "A customer says: 'The app shows my driver is 5 minutes away, but he is going in the wrong direction. I need to get to the airport immediately.' How do you show accountability?",
+    "scenario": "App GPS error support",
+    "options": {
+      "A": "Say: 'Let me look into this, Brian. I will contact the driver to verify their direction and ensure they are heading your way to the airport now.'",
+      "B": "Say: 'The GPS has a delay. Please wait for the driver to turn around.'",
+      "C": "Say: 'You should cancel the ride and book another one.'",
+      "D": "Say: 'The driver knows what he is doing, please do not interfere.'"
+    },
+    "answer": "A",
+    "explanation": "Accountability means taking charge, offering to verify with the driver directly, and giving the customer an active timeline.",
+    "skill": "Accountability & Solution"
+  },
+  {
+    "id": 175,
+    "question": "Which of these displays a 'Collaborative and Positive Tone' instead of a demanding one?",
+    "scenario": "Tone adjustment check",
+    "options": {
+      "A": "You must verify your email or I will close the chat.",
+      "B": "To help secure your account, could you please verify your registered email address? I'll be happy to assist you once that is confirmed.",
+      "C": "Verify your email now.",
+      "D": "It is our policy that you send email details first."
+    },
+    "answer": "B",
+    "explanation": "Using collaborative requests ('could you please...') and stating the positive reason ('to help secure your account...') improves CSAT significantly.",
+    "skill": "Positive Tone"
+  },
+  {
+    "id": 176,
+    "question": "A rider named Robert writes: 'I am so frustrated! I have been waiting for my driver for 15 minutes in the heat. Your service is terrible.' What is the best soft skill response?",
+    "scenario": "Handling customer frustration and wait time",
+    "options": {
+      "A": "I understand your frustration, Robert. I apologize for the delay. Let me check the driver's current status and see how we can get this resolved for you right away.",
+      "B": "Please do not use that tone. The driver is stuck in traffic. Wait for some more time.",
+      "C": "The ride is only $15.00 so please do not worry. It is normal to wait in peak hours.",
+      "D": "I can cancel your ride if you want, but you will pay a fee."
+    },
+    "answer": "A",
+    "explanation": "Active empathy, sincere apology for the wait time, and taking immediate ownership of the check represents the best soft skill behavior. Never admonish the customer's tone.",
+    "skill": "Patience & Empathy"
+  },
+  {
+    "id": 177,
+    "question": "You must inform a customer that their request for a refund of a $15.00 fare has been denied because the trip was completed successfully. How do you deliver this bad news professionally?",
+    "scenario": "Delivering negative news",
+    "options": {
+      "A": "Your refund is denied. The driver completed the ride. Case closed.",
+      "B": "I understand this isn't the outcome you hoped for, Chris. After reviewing the trip details, we verified the route was completed successfully. Therefore, we are unable to process a refund. Thank you for your understanding.",
+      "C": "We cannot give you $15.00 because that would be a loss for our driver. Please pay.",
+      "D": "You completed the trip so why are you asking for a refund? That is not allowed."
+    },
+    "answer": "B",
+    "explanation": "Delivering bad news requires validation of feelings, transparency of decision-making, clear policy stating, and closing with professional courtesy.",
+    "skill": "Diplomacy & Tact"
+  },
+  {
+    "id": 178,
+    "question": "A driver messages: 'The passenger was extremely rude to me, slamming my doors and yelling.' What soft skill is critical here?",
+    "scenario": "De-escalating driver issues",
+    "options": {
+      "A": "Acknowledge the driver's distress: 'I am sorry to hear this, Driver Dmitry. Safety and respect are important to us. Let me log this on the rider's profile and ensure you aren't matched with them again.'",
+      "B": "Tell the driver to report it to the police and don't accept passengers who look rude.",
+      "C": "Tell them slamming doors is normal and they shouldn't worry about it.",
+      "D": "Ignore the ticket as it is a passenger rating dispute."
+    },
+    "answer": "A",
+    "explanation": "Drivers are our partners. Validating their feelings, reassuring them of safety rules, blocking matches, and noting the rider profile shows high-quality driver support.",
+    "skill": "Partner De-escalation"
+  },
+  {
+    "id": 179,
+    "question": "A customer says: 'The app shows my driver is 5 minutes away, but he is going in the wrong direction. I need to get to my hotel immediately.' How do you show accountability?",
+    "scenario": "App GPS error support",
+    "options": {
+      "A": "Say: 'Let me look into this, Emily. I will contact the driver to verify their direction and ensure they are heading your way to my hotel now.'",
+      "B": "Say: 'The GPS has a delay. Please wait for the driver to turn around.'",
+      "C": "Say: 'You should cancel the ride and book another one.'",
+      "D": "Say: 'The driver knows what he is doing, please do not interfere.'"
+    },
+    "answer": "A",
+    "explanation": "Accountability means taking charge, offering to verify with the driver directly, and giving the customer an active timeline.",
+    "skill": "Accountability & Solution"
+  },
+  {
+    "id": 180,
+    "question": "Which of these displays a 'Collaborative and Positive Tone' instead of a demanding one?",
+    "scenario": "Tone adjustment check",
+    "options": {
+      "A": "You must verify your email or I will close the chat.",
+      "B": "To help secure your account, could you please verify your registered email address? I'll be happy to assist you once that is confirmed.",
+      "C": "Verify your email now.",
+      "D": "It is our policy that you send email details first."
+    },
+    "answer": "B",
+    "explanation": "Using collaborative requests ('could you please...') and stating the positive reason ('to help secure your account...') improves CSAT significantly.",
+    "skill": "Positive Tone"
+  },
+  {
+    "id": 181,
+    "question": "A rider named Heather writes: 'I am so frustrated! I have been waiting for my driver for 15 minutes in the heat. Your service is terrible.' What is the best soft skill response?",
+    "scenario": "Handling customer frustration and wait time",
+    "options": {
+      "A": "I understand your frustration, Heather. I apologize for the delay. Let me check the driver's current status and see how we can get this resolved for you right away.",
+      "B": "Please do not use that tone. The driver is stuck in traffic. Wait for some more time.",
+      "C": "The ride is only £12.00 so please do not worry. It is normal to wait in peak hours.",
+      "D": "I can cancel your ride if you want, but you will pay a fee."
+    },
+    "answer": "A",
+    "explanation": "Active empathy, sincere apology for the wait time, and taking immediate ownership of the check represents the best soft skill behavior. Never admonish the customer's tone.",
+    "skill": "Patience & Empathy"
+  },
+  {
+    "id": 182,
+    "question": "You must inform a customer that their request for a refund of a €30.00 fare has been denied because the trip was completed successfully. How do you deliver this bad news professionally?",
+    "scenario": "Delivering negative news",
+    "options": {
+      "A": "Your refund is denied. The driver completed the ride. Case closed.",
+      "B": "I understand this isn't the outcome you hoped for, David. After reviewing the trip details, we verified the route was completed successfully. Therefore, we are unable to process a refund. Thank you for your understanding.",
+      "C": "We cannot give you €30.00 because that would be a loss for our driver. Please pay.",
+      "D": "You completed the trip so why are you asking for a refund? That is not allowed."
+    },
+    "answer": "B",
+    "explanation": "Delivering bad news requires validation of feelings, transparency of decision-making, clear policy stating, and closing with professional courtesy.",
+    "skill": "Diplomacy & Tact"
+  },
+  {
+    "id": 183,
+    "question": "A driver messages: 'The passenger was extremely rude to me, slamming my doors and yelling.' What soft skill is critical here?",
+    "scenario": "De-escalating driver issues",
+    "options": {
+      "A": "Acknowledge the driver's distress: 'I am sorry to hear this, Driver Ali. Safety and respect are important to us. Let me log this on the rider's profile and ensure you aren't matched with them again.'",
+      "B": "Tell the driver to report it to the police and don't accept passengers who look rude.",
+      "C": "Tell them slamming doors is normal and they shouldn't worry about it.",
+      "D": "Ignore the ticket as it is a passenger rating dispute."
+    },
+    "answer": "A",
+    "explanation": "Drivers are our partners. Validating their feelings, reassuring them of safety rules, blocking matches, and noting the rider profile shows high-quality driver support.",
+    "skill": "Partner De-escalation"
+  },
+  {
+    "id": 184,
+    "question": "A customer says: 'The app shows my driver is 5 minutes away, but he is going in the wrong direction. I need to get to the office immediately.' How do you show accountability?",
+    "scenario": "App GPS error support",
+    "options": {
+      "A": "Say: 'Let me look into this, Heather. I will contact the driver to verify their direction and ensure they are heading your way to the office now.'",
+      "B": "Say: 'The GPS has a delay. Please wait for the driver to turn around.'",
+      "C": "Say: 'You should cancel the ride and book another one.'",
+      "D": "Say: 'The driver knows what he is doing, please do not interfere.'"
+    },
+    "answer": "A",
+    "explanation": "Accountability means taking charge, offering to verify with the driver directly, and giving the customer an active timeline.",
+    "skill": "Accountability & Solution"
+  },
+  {
+    "id": 185,
+    "question": "Which of these displays a 'Collaborative and Positive Tone' instead of a demanding one?",
+    "scenario": "Tone adjustment check",
+    "options": {
+      "A": "You must verify your email or I will close the chat.",
+      "B": "To help secure your account, could you please verify your registered email address? I'll be happy to assist you once that is confirmed.",
+      "C": "Verify your email now.",
+      "D": "It is our policy that you send email details first."
+    },
+    "answer": "B",
+    "explanation": "Using collaborative requests ('could you please...') and stating the positive reason ('to help secure your account...') improves CSAT significantly.",
+    "skill": "Positive Tone"
+  },
+  {
+    "id": 186,
+    "question": "A rider named Sarah writes: 'I am so frustrated! I have been waiting for my driver for 15 minutes in the heat. Your service is terrible.' What is the best soft skill response?",
+    "scenario": "Handling customer frustration and wait time",
+    "options": {
+      "A": "I understand your frustration, Sarah. I apologize for the delay. Let me check the driver's current status and see how we can get this resolved for you right away.",
+      "B": "Please do not use that tone. The driver is stuck in traffic. Wait for some more time.",
+      "C": "The ride is only $45.00 so please do not worry. It is normal to wait in peak hours.",
+      "D": "I can cancel your ride if you want, but you will pay a fee."
+    },
+    "answer": "A",
+    "explanation": "Active empathy, sincere apology for the wait time, and taking immediate ownership of the check represents the best soft skill behavior. Never admonish the customer's tone.",
+    "skill": "Patience & Empathy"
+  },
+  {
+    "id": 187,
+    "question": "You must inform a customer that their request for a refund of a $5.00 fare has been denied because the trip was completed successfully. How do you deliver this bad news professionally?",
+    "scenario": "Delivering negative news",
+    "options": {
+      "A": "Your refund is denied. The driver completed the ride. Case closed.",
+      "B": "I understand this isn't the outcome you hoped for, Nicole. After reviewing the trip details, we verified the route was completed successfully. Therefore, we are unable to process a refund. Thank you for your understanding.",
+      "C": "We cannot give you $5.00 because that would be a loss for our driver. Please pay.",
+      "D": "You completed the trip so why are you asking for a refund? That is not allowed."
+    },
+    "answer": "B",
+    "explanation": "Delivering bad news requires validation of feelings, transparency of decision-making, clear policy stating, and closing with professional courtesy.",
+    "skill": "Diplomacy & Tact"
+  },
+  {
+    "id": 188,
+    "question": "A driver messages: 'The passenger was extremely rude to me, slamming my doors and yelling.' What soft skill is critical here?",
+    "scenario": "De-escalating driver issues",
+    "options": {
+      "A": "Acknowledge the driver's distress: 'I am sorry to hear this, Driver Sam. Safety and respect are important to us. Let me log this on the rider's profile and ensure you aren't matched with them again.'",
+      "B": "Tell the driver to report it to the police and don't accept passengers who look rude.",
+      "C": "Tell them slamming doors is normal and they shouldn't worry about it.",
+      "D": "Ignore the ticket as it is a passenger rating dispute."
+    },
+    "answer": "A",
+    "explanation": "Drivers are our partners. Validating their feelings, reassuring them of safety rules, blocking matches, and noting the rider profile shows high-quality driver support.",
+    "skill": "Partner De-escalation"
+  },
+  {
+    "id": 189,
+    "question": "A customer says: 'The app shows my driver is 5 minutes away, but he is going in the wrong direction. I need to get to the station immediately.' How do you show accountability?",
+    "scenario": "App GPS error support",
+    "options": {
+      "A": "Say: 'Let me look into this, Heather. I will contact the driver to verify their direction and ensure they are heading your way to the station now.'",
+      "B": "Say: 'The GPS has a delay. Please wait for the driver to turn around.'",
+      "C": "Say: 'You should cancel the ride and book another one.'",
+      "D": "Say: 'The driver knows what he is doing, please do not interfere.'"
+    },
+    "answer": "A",
+    "explanation": "Accountability means taking charge, offering to verify with the driver directly, and giving the customer an active timeline.",
+    "skill": "Accountability & Solution"
+  },
+  {
+    "id": 190,
+    "question": "Which of these displays a 'Collaborative and Positive Tone' instead of a demanding one?",
+    "scenario": "Tone adjustment check",
+    "options": {
+      "A": "You must verify your email or I will close the chat.",
+      "B": "To help secure your account, could you please verify your registered email address? I'll be happy to assist you once that is confirmed.",
+      "C": "Verify your email now.",
+      "D": "It is our policy that you send email details first."
+    },
+    "answer": "B",
+    "explanation": "Using collaborative requests ('could you please...') and stating the positive reason ('to help secure your account...') improves CSAT significantly.",
+    "skill": "Positive Tone"
+  },
+  {
+    "id": 191,
+    "question": "A rider named Jessica writes: 'I am so frustrated! I have been waiting for my driver for 15 minutes in the heat. Your service is terrible.' What is the best soft skill response?",
+    "scenario": "Handling customer frustration and wait time",
+    "options": {
+      "A": "I understand your frustration, Jessica. I apologize for the delay. Let me check the driver's current status and see how we can get this resolved for you right away.",
+      "B": "Please do not use that tone. The driver is stuck in traffic. Wait for some more time.",
+      "C": "The ride is only ₦4500 so please do not worry. It is normal to wait in peak hours.",
+      "D": "I can cancel your ride if you want, but you will pay a fee."
+    },
+    "answer": "A",
+    "explanation": "Active empathy, sincere apology for the wait time, and taking immediate ownership of the check represents the best soft skill behavior. Never admonish the customer's tone.",
+    "skill": "Patience & Empathy"
+  },
+  {
+    "id": 192,
+    "question": "You must inform a customer that their request for a refund of a R120 fare has been denied because the trip was completed successfully. How do you deliver this bad news professionally?",
+    "scenario": "Delivering negative news",
+    "options": {
+      "A": "Your refund is denied. The driver completed the ride. Case closed.",
+      "B": "I understand this isn't the outcome you hoped for, David. After reviewing the trip details, we verified the route was completed successfully. Therefore, we are unable to process a refund. Thank you for your understanding.",
+      "C": "We cannot give you R120 because that would be a loss for our driver. Please pay.",
+      "D": "You completed the trip so why are you asking for a refund? That is not allowed."
+    },
+    "answer": "B",
+    "explanation": "Delivering bad news requires validation of feelings, transparency of decision-making, clear policy stating, and closing with professional courtesy.",
+    "skill": "Diplomacy & Tact"
+  },
+  {
+    "id": 193,
+    "question": "A driver messages: 'The passenger was extremely rude to me, slamming my doors and yelling.' What soft skill is critical here?",
+    "scenario": "De-escalating driver issues",
+    "options": {
+      "A": "Acknowledge the driver's distress: 'I am sorry to hear this, Driver Ken. Safety and respect are important to us. Let me log this on the rider's profile and ensure you aren't matched with them again.'",
+      "B": "Tell the driver to report it to the police and don't accept passengers who look rude.",
+      "C": "Tell them slamming doors is normal and they shouldn't worry about it.",
+      "D": "Ignore the ticket as it is a passenger rating dispute."
+    },
+    "answer": "A",
+    "explanation": "Drivers are our partners. Validating their feelings, reassuring them of safety rules, blocking matches, and noting the rider profile shows high-quality driver support.",
+    "skill": "Partner De-escalation"
+  },
+  {
+    "id": 194,
+    "question": "A customer says: 'The app shows my driver is 5 minutes away, but he is going in the wrong direction. I need to get to the office immediately.' How do you show accountability?",
+    "scenario": "App GPS error support",
+    "options": {
+      "A": "Say: 'Let me look into this, Sarah. I will contact the driver to verify their direction and ensure they are heading your way to the office now.'",
+      "B": "Say: 'The GPS has a delay. Please wait for the driver to turn around.'",
+      "C": "Say: 'You should cancel the ride and book another one.'",
+      "D": "Say: 'The driver knows what he is doing, please do not interfere.'"
+    },
+    "answer": "A",
+    "explanation": "Accountability means taking charge, offering to verify with the driver directly, and giving the customer an active timeline.",
+    "skill": "Accountability & Solution"
+  },
+  {
+    "id": 195,
+    "question": "Which of these displays a 'Collaborative and Positive Tone' instead of a demanding one?",
+    "scenario": "Tone adjustment check",
+    "options": {
+      "A": "You must verify your email or I will close the chat.",
+      "B": "To help secure your account, could you please verify your registered email address? I'll be happy to assist you once that is confirmed.",
+      "C": "Verify your email now.",
+      "D": "It is our policy that you send email details first."
+    },
+    "answer": "B",
+    "explanation": "Using collaborative requests ('could you please...') and stating the positive reason ('to help secure your account...') improves CSAT significantly.",
+    "skill": "Positive Tone"
+  },
+  {
+    "id": 196,
+    "question": "A rider named Ashley writes: 'I am so frustrated! I have been waiting for my driver for 15 minutes in the heat. Your service is terrible.' What is the best soft skill response?",
+    "scenario": "Handling customer frustration and wait time",
+    "options": {
+      "A": "I understand your frustration, Ashley. I apologize for the delay. Let me check the driver's current status and see how we can get this resolved for you right away.",
+      "B": "Please do not use that tone. The driver is stuck in traffic. Wait for some more time.",
+      "C": "The ride is only ₦4500 so please do not worry. It is normal to wait in peak hours.",
+      "D": "I can cancel your ride if you want, but you will pay a fee."
+    },
+    "answer": "A",
+    "explanation": "Active empathy, sincere apology for the wait time, and taking immediate ownership of the check represents the best soft skill behavior. Never admonish the customer's tone.",
+    "skill": "Patience & Empathy"
+  },
+  {
+    "id": 197,
+    "question": "You must inform a customer that their request for a refund of a ₦4500 fare has been denied because the trip was completed successfully. How do you deliver this bad news professionally?",
+    "scenario": "Delivering negative news",
+    "options": {
+      "A": "Your refund is denied. The driver completed the ride. Case closed.",
+      "B": "I understand this isn't the outcome you hoped for, Megan. After reviewing the trip details, we verified the route was completed successfully. Therefore, we are unable to process a refund. Thank you for your understanding.",
+      "C": "We cannot give you ₦4500 because that would be a loss for our driver. Please pay.",
+      "D": "You completed the trip so why are you asking for a refund? That is not allowed."
+    },
+    "answer": "B",
+    "explanation": "Delivering bad news requires validation of feelings, transparency of decision-making, clear policy stating, and closing with professional courtesy.",
+    "skill": "Diplomacy & Tact"
+  },
+  {
+    "id": 198,
+    "question": "A driver messages: 'The passenger was extremely rude to me, slamming my doors and yelling.' What soft skill is critical here?",
+    "scenario": "De-escalating driver issues",
+    "options": {
+      "A": "Acknowledge the driver's distress: 'I am sorry to hear this, Driver Liam. Safety and respect are important to us. Let me log this on the rider's profile and ensure you aren't matched with them again.'",
+      "B": "Tell the driver to report it to the police and don't accept passengers who look rude.",
+      "C": "Tell them slamming doors is normal and they shouldn't worry about it.",
+      "D": "Ignore the ticket as it is a passenger rating dispute."
+    },
+    "answer": "A",
+    "explanation": "Drivers are our partners. Validating their feelings, reassuring them of safety rules, blocking matches, and noting the rider profile shows high-quality driver support.",
+    "skill": "Partner De-escalation"
+  },
+  {
+    "id": 199,
+    "question": "A customer says: 'The app shows my driver is 5 minutes away, but he is going in the wrong direction. I need to get to the station immediately.' How do you show accountability?",
+    "scenario": "App GPS error support",
+    "options": {
+      "A": "Say: 'Let me look into this, Sarah. I will contact the driver to verify their direction and ensure they are heading your way to the station now.'",
+      "B": "Say: 'The GPS has a delay. Please wait for the driver to turn around.'",
+      "C": "Say: 'You should cancel the ride and book another one.'",
+      "D": "Say: 'The driver knows what he is doing, please do not interfere.'"
+    },
+    "answer": "A",
+    "explanation": "Accountability means taking charge, offering to verify with the driver directly, and giving the customer an active timeline.",
+    "skill": "Accountability & Solution"
+  },
+  {
+    "id": 200,
+    "question": "Which of these displays a 'Collaborative and Positive Tone' instead of a demanding one?",
+    "scenario": "Tone adjustment check",
+    "options": {
+      "A": "You must verify your email or I will close the chat.",
+      "B": "To help secure your account, could you please verify your registered email address? I'll be happy to assist you once that is confirmed.",
+      "C": "Verify your email now.",
+      "D": "It is our policy that you send email details first."
+    },
+    "answer": "B",
+    "explanation": "Using collaborative requests ('could you please...') and stating the positive reason ('to help secure your account...') improves CSAT significantly.",
+    "skill": "Positive Tone"
+  }
+]

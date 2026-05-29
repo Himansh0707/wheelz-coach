@@ -1,0 +1,2802 @@
+[
+  {
+    "id": 1,
+    "question": "A customer sends a long message: 'I was on my way to my wedding anniversary dinner at the Grand Theater around 8 PM. The driver Marcus was nice but got lost near the highway. Also, I think I dropped my gold watch in the backseat. I need to get it back immediately because it was a gift.' What is the most critical/urgent issue to address first?",
+    "scenario": "Identifying core issue in verbose message",
+    "options": {
+      "A": "The driver getting lost on the highway.",
+      "B": "The wedding anniversary dinner.",
+      "C": "The lost gold watch in the backseat (urgent lost item recovery).",
+      "D": "The nice behavior of Driver Marcus."
+    },
+    "answer": "C",
+    "explanation": "Active reading requires distinguishing between background details (anniversary, nice driver, wrong route) and the urgent, actionable issue (a high-value lost item: a gold watch).",
+    "skill": "Core Issue Identification"
+  },
+  {
+    "id": 2,
+    "question": "A user writes: 'My card was charged €30.00 for a ride in Nairobi yesterday, but I was at home sleeping! I didn't authorize this! This is fraud! Lock my account!' What is the customer's emotional subtext and requested action?",
+    "scenario": "Reading emotional state & goal",
+    "options": {
+      "A": "The user is calm and wants a receipt.",
+      "B": "The user is highly anxious/angry about fraud, and wants their account secured and the charge investigated.",
+      "C": "The user is happy and wants to book another ride.",
+      "D": "The user is testing our system."
+    },
+    "answer": "B",
+    "explanation": "Active reading involves recognizing the emotional state (highly anxious/angry, using exclamation marks) and the explicit request (unauthorized charge check and account security).",
+    "skill": "Emotion & Goal Identification"
+  },
+  {
+    "id": 3,
+    "question": "A passenger messages: 'I requested a ride to the airport for my daughter named Emily. She is waiting near the Starbucks with a blue suitcase. The driver Carlos drove past without picking her up.' What are the key details for the driver search?",
+    "scenario": "Extracting pickup details",
+    "options": {
+      "A": "The passenger is the writer, waiting inside Starbucks.",
+      "B": "The passenger is Emily, waiting near Starbucks with a blue suitcase.",
+      "C": "The passenger is Carlos, waiting at the airport.",
+      "D": "The daughter has no luggage."
+    },
+    "answer": "B",
+    "explanation": "Active reading requires identifying that the account holder is not the passenger. The passenger is Emily, located near Starbucks with a blue suitcase.",
+    "skill": "Detail Extraction"
+  },
+  {
+    "id": 4,
+    "question": "A rider messages: 'I got into the car and it smelled like smoke. I asked the driver to roll down the windows, but he refused. Then he took a longer route which cost me €30.00 more than the upfront fare.' What are the two distinct issues here?",
+    "scenario": "Analyzing multi-issue complaints",
+    "options": {
+      "A": "Smell of smoke and driver's nice rating.",
+      "B": "Vehicle cleanliness/driver service issue (smoke and windows) AND a billing route dispute (overcharge).",
+      "C": "The app glitching and the weather.",
+      "D": "There is only one issue: the route detour."
+    },
+    "answer": "B",
+    "explanation": "The rider has complained about driver quality/behavior (refusing to open windows in a smoky car) and a financial discrepancy (route detour overcharge). Both must be addressed in your response.",
+    "skill": "Multi-issue Analysis"
+  },
+  {
+    "id": 5,
+    "question": "A customer writes: 'I need to dispute my fare for trip #665112. I was charged $25.00 for a cancellation fee, but the driver never arrived at the terminal.' What is the primary data you must pull up first?",
+    "scenario": "Action mapping from text",
+    "options": {
+      "A": "The customer's email subscription history.",
+      "B": "The GPS log and status of trip #665112 to verify if the driver reached the pickup pin.",
+      "C": "The driver's vehicle registration papers.",
+      "D": "A refund button."
+    },
+    "answer": "B",
+    "explanation": "Active reading maps the user's issue directly to the first support step: pulling up trip #{id} and checking the GPS logs to see if the driver waited at the correct spot.",
+    "skill": "Action Mapping"
+  },
+  {
+    "id": 6,
+    "question": "A customer sends a long message: 'I was on my way to my wedding anniversary dinner at the Grand Theater around 8 PM. The driver Marcus was nice but got lost near the highway. Also, I think I dropped my gold watch in the backseat. I need to get it back immediately because it was a gift.' What is the most critical/urgent issue to address first?",
+    "scenario": "Identifying core issue in verbose message",
+    "options": {
+      "A": "The driver getting lost on the highway.",
+      "B": "The wedding anniversary dinner.",
+      "C": "The lost gold watch in the backseat (urgent lost item recovery).",
+      "D": "The nice behavior of Driver Marcus."
+    },
+    "answer": "C",
+    "explanation": "Active reading requires distinguishing between background details (anniversary, nice driver, wrong route) and the urgent, actionable issue (a high-value lost item: a gold watch).",
+    "skill": "Core Issue Identification"
+  },
+  {
+    "id": 7,
+    "question": "A user writes: 'My card was charged ₦8000 for a ride in London yesterday, but I was at home sleeping! I didn't authorize this! This is fraud! Lock my account!' What is the customer's emotional subtext and requested action?",
+    "scenario": "Reading emotional state & goal",
+    "options": {
+      "A": "The user is calm and wants a receipt.",
+      "B": "The user is highly anxious/angry about fraud, and wants their account secured and the charge investigated.",
+      "C": "The user is happy and wants to book another ride.",
+      "D": "The user is testing our system."
+    },
+    "answer": "B",
+    "explanation": "Active reading involves recognizing the emotional state (highly anxious/angry, using exclamation marks) and the explicit request (unauthorized charge check and account security).",
+    "skill": "Emotion & Goal Identification"
+  },
+  {
+    "id": 8,
+    "question": "A passenger messages: 'I requested a ride to the airport for my daughter named Emily. She is waiting near the Starbucks with a blue suitcase. The driver Carlos drove past without picking her up.' What are the key details for the driver search?",
+    "scenario": "Extracting pickup details",
+    "options": {
+      "A": "The passenger is the writer, waiting inside Starbucks.",
+      "B": "The passenger is Emily, waiting near Starbucks with a blue suitcase.",
+      "C": "The passenger is Carlos, waiting at the airport.",
+      "D": "The daughter has no luggage."
+    },
+    "answer": "B",
+    "explanation": "Active reading requires identifying that the account holder is not the passenger. The passenger is Emily, located near Starbucks with a blue suitcase.",
+    "skill": "Detail Extraction"
+  },
+  {
+    "id": 9,
+    "question": "A rider messages: 'I got into the car and it smelled like smoke. I asked the driver to roll down the windows, but he refused. Then he took a longer route which cost me $25.00 more than the upfront fare.' What are the two distinct issues here?",
+    "scenario": "Analyzing multi-issue complaints",
+    "options": {
+      "A": "Smell of smoke and driver's nice rating.",
+      "B": "Vehicle cleanliness/driver service issue (smoke and windows) AND a billing route dispute (overcharge).",
+      "C": "The app glitching and the weather.",
+      "D": "There is only one issue: the route detour."
+    },
+    "answer": "B",
+    "explanation": "The rider has complained about driver quality/behavior (refusing to open windows in a smoky car) and a financial discrepancy (route detour overcharge). Both must be addressed in your response.",
+    "skill": "Multi-issue Analysis"
+  },
+  {
+    "id": 10,
+    "question": "A customer writes: 'I need to dispute my fare for trip #310626. I was charged ₦4500 for a cancellation fee, but the driver never arrived at the terminal.' What is the primary data you must pull up first?",
+    "scenario": "Action mapping from text",
+    "options": {
+      "A": "The customer's email subscription history.",
+      "B": "The GPS log and status of trip #310626 to verify if the driver reached the pickup pin.",
+      "C": "The driver's vehicle registration papers.",
+      "D": "A refund button."
+    },
+    "answer": "B",
+    "explanation": "Active reading maps the user's issue directly to the first support step: pulling up trip #{id} and checking the GPS logs to see if the driver waited at the correct spot.",
+    "skill": "Action Mapping"
+  },
+  {
+    "id": 11,
+    "question": "A customer sends a long message: 'I was on my way to my wedding anniversary dinner at the Grand Theater around 8 PM. The driver Marcus was nice but got lost near the highway. Also, I think I dropped my gold watch in the backseat. I need to get it back immediately because it was a gift.' What is the most critical/urgent issue to address first?",
+    "scenario": "Identifying core issue in verbose message",
+    "options": {
+      "A": "The driver getting lost on the highway.",
+      "B": "The wedding anniversary dinner.",
+      "C": "The lost gold watch in the backseat (urgent lost item recovery).",
+      "D": "The nice behavior of Driver Marcus."
+    },
+    "answer": "C",
+    "explanation": "Active reading requires distinguishing between background details (anniversary, nice driver, wrong route) and the urgent, actionable issue (a high-value lost item: a gold watch).",
+    "skill": "Core Issue Identification"
+  },
+  {
+    "id": 12,
+    "question": "A user writes: 'My card was charged KSh 500 for a ride in Berlin yesterday, but I was at home sleeping! I didn't authorize this! This is fraud! Lock my account!' What is the customer's emotional subtext and requested action?",
+    "scenario": "Reading emotional state & goal",
+    "options": {
+      "A": "The user is calm and wants a receipt.",
+      "B": "The user is highly anxious/angry about fraud, and wants their account secured and the charge investigated.",
+      "C": "The user is happy and wants to book another ride.",
+      "D": "The user is testing our system."
+    },
+    "answer": "B",
+    "explanation": "Active reading involves recognizing the emotional state (highly anxious/angry, using exclamation marks) and the explicit request (unauthorized charge check and account security).",
+    "skill": "Emotion & Goal Identification"
+  },
+  {
+    "id": 13,
+    "question": "A passenger messages: 'I requested a ride to the airport for my daughter named Emily. She is waiting near the Starbucks with a blue suitcase. The driver Carlos drove past without picking her up.' What are the key details for the driver search?",
+    "scenario": "Extracting pickup details",
+    "options": {
+      "A": "The passenger is the writer, waiting inside Starbucks.",
+      "B": "The passenger is Emily, waiting near Starbucks with a blue suitcase.",
+      "C": "The passenger is Carlos, waiting at the airport.",
+      "D": "The daughter has no luggage."
+    },
+    "answer": "B",
+    "explanation": "Active reading requires identifying that the account holder is not the passenger. The passenger is Emily, located near Starbucks with a blue suitcase.",
+    "skill": "Detail Extraction"
+  },
+  {
+    "id": 14,
+    "question": "A rider messages: 'I got into the car and it smelled like smoke. I asked the driver to roll down the windows, but he refused. Then he took a longer route which cost me KSh 1200 more than the upfront fare.' What are the two distinct issues here?",
+    "scenario": "Analyzing multi-issue complaints",
+    "options": {
+      "A": "Smell of smoke and driver's nice rating.",
+      "B": "Vehicle cleanliness/driver service issue (smoke and windows) AND a billing route dispute (overcharge).",
+      "C": "The app glitching and the weather.",
+      "D": "There is only one issue: the route detour."
+    },
+    "answer": "B",
+    "explanation": "The rider has complained about driver quality/behavior (refusing to open windows in a smoky car) and a financial discrepancy (route detour overcharge). Both must be addressed in your response.",
+    "skill": "Multi-issue Analysis"
+  },
+  {
+    "id": 15,
+    "question": "A customer writes: 'I need to dispute my fare for trip #443476. I was charged ₦8000 for a cancellation fee, but the driver never arrived at the terminal.' What is the primary data you must pull up first?",
+    "scenario": "Action mapping from text",
+    "options": {
+      "A": "The customer's email subscription history.",
+      "B": "The GPS log and status of trip #443476 to verify if the driver reached the pickup pin.",
+      "C": "The driver's vehicle registration papers.",
+      "D": "A refund button."
+    },
+    "answer": "B",
+    "explanation": "Active reading maps the user's issue directly to the first support step: pulling up trip #{id} and checking the GPS logs to see if the driver waited at the correct spot.",
+    "skill": "Action Mapping"
+  },
+  {
+    "id": 16,
+    "question": "A customer sends a long message: 'I was on my way to my wedding anniversary dinner at the Science Museum around 8 PM. The driver Marcus was nice but got lost near the highway. Also, I think I dropped my gold watch in the backseat. I need to get it back immediately because it was a gift.' What is the most critical/urgent issue to address first?",
+    "scenario": "Identifying core issue in verbose message",
+    "options": {
+      "A": "The driver getting lost on the highway.",
+      "B": "The wedding anniversary dinner.",
+      "C": "The lost gold watch in the backseat (urgent lost item recovery).",
+      "D": "The nice behavior of Driver Marcus."
+    },
+    "answer": "C",
+    "explanation": "Active reading requires distinguishing between background details (anniversary, nice driver, wrong route) and the urgent, actionable issue (a high-value lost item: a gold watch).",
+    "skill": "Core Issue Identification"
+  },
+  {
+    "id": 17,
+    "question": "A user writes: 'My card was charged KSh 500 for a ride in San Francisco yesterday, but I was at home sleeping! I didn't authorize this! This is fraud! Lock my account!' What is the customer's emotional subtext and requested action?",
+    "scenario": "Reading emotional state & goal",
+    "options": {
+      "A": "The user is calm and wants a receipt.",
+      "B": "The user is highly anxious/angry about fraud, and wants their account secured and the charge investigated.",
+      "C": "The user is happy and wants to book another ride.",
+      "D": "The user is testing our system."
+    },
+    "answer": "B",
+    "explanation": "Active reading involves recognizing the emotional state (highly anxious/angry, using exclamation marks) and the explicit request (unauthorized charge check and account security).",
+    "skill": "Emotion & Goal Identification"
+  },
+  {
+    "id": 18,
+    "question": "A passenger messages: 'I requested a ride to the airport for my daughter named Emily. She is waiting near the Starbucks with a blue suitcase. The driver Carlos drove past without picking her up.' What are the key details for the driver search?",
+    "scenario": "Extracting pickup details",
+    "options": {
+      "A": "The passenger is the writer, waiting inside Starbucks.",
+      "B": "The passenger is Emily, waiting near Starbucks with a blue suitcase.",
+      "C": "The passenger is Carlos, waiting at the airport.",
+      "D": "The daughter has no luggage."
+    },
+    "answer": "B",
+    "explanation": "Active reading requires identifying that the account holder is not the passenger. The passenger is Emily, located near Starbucks with a blue suitcase.",
+    "skill": "Detail Extraction"
+  },
+  {
+    "id": 19,
+    "question": "A rider messages: 'I got into the car and it smelled like smoke. I asked the driver to roll down the windows, but he refused. Then he took a longer route which cost me R120 more than the upfront fare.' What are the two distinct issues here?",
+    "scenario": "Analyzing multi-issue complaints",
+    "options": {
+      "A": "Smell of smoke and driver's nice rating.",
+      "B": "Vehicle cleanliness/driver service issue (smoke and windows) AND a billing route dispute (overcharge).",
+      "C": "The app glitching and the weather.",
+      "D": "There is only one issue: the route detour."
+    },
+    "answer": "B",
+    "explanation": "The rider has complained about driver quality/behavior (refusing to open windows in a smoky car) and a financial discrepancy (route detour overcharge). Both must be addressed in your response.",
+    "skill": "Multi-issue Analysis"
+  },
+  {
+    "id": 20,
+    "question": "A customer writes: 'I need to dispute my fare for trip #922978. I was charged $45.00 for a cancellation fee, but the driver never arrived at the terminal.' What is the primary data you must pull up first?",
+    "scenario": "Action mapping from text",
+    "options": {
+      "A": "The customer's email subscription history.",
+      "B": "The GPS log and status of trip #922978 to verify if the driver reached the pickup pin.",
+      "C": "The driver's vehicle registration papers.",
+      "D": "A refund button."
+    },
+    "answer": "B",
+    "explanation": "Active reading maps the user's issue directly to the first support step: pulling up trip #{id} and checking the GPS logs to see if the driver waited at the correct spot.",
+    "skill": "Action Mapping"
+  },
+  {
+    "id": 21,
+    "question": "A customer sends a long message: 'I was on my way to my wedding anniversary dinner at the Science Museum around 8 PM. The driver Marcus was nice but got lost near the highway. Also, I think I dropped my gold watch in the backseat. I need to get it back immediately because it was a gift.' What is the most critical/urgent issue to address first?",
+    "scenario": "Identifying core issue in verbose message",
+    "options": {
+      "A": "The driver getting lost on the highway.",
+      "B": "The wedding anniversary dinner.",
+      "C": "The lost gold watch in the backseat (urgent lost item recovery).",
+      "D": "The nice behavior of Driver Marcus."
+    },
+    "answer": "C",
+    "explanation": "Active reading requires distinguishing between background details (anniversary, nice driver, wrong route) and the urgent, actionable issue (a high-value lost item: a gold watch).",
+    "skill": "Core Issue Identification"
+  },
+  {
+    "id": 22,
+    "question": "A user writes: 'My card was charged $75.00 for a ride in Singapore yesterday, but I was at home sleeping! I didn't authorize this! This is fraud! Lock my account!' What is the customer's emotional subtext and requested action?",
+    "scenario": "Reading emotional state & goal",
+    "options": {
+      "A": "The user is calm and wants a receipt.",
+      "B": "The user is highly anxious/angry about fraud, and wants their account secured and the charge investigated.",
+      "C": "The user is happy and wants to book another ride.",
+      "D": "The user is testing our system."
+    },
+    "answer": "B",
+    "explanation": "Active reading involves recognizing the emotional state (highly anxious/angry, using exclamation marks) and the explicit request (unauthorized charge check and account security).",
+    "skill": "Emotion & Goal Identification"
+  },
+  {
+    "id": 23,
+    "question": "A passenger messages: 'I requested a ride to the airport for my daughter named Emily. She is waiting near the Starbucks with a blue suitcase. The driver Carlos drove past without picking her up.' What are the key details for the driver search?",
+    "scenario": "Extracting pickup details",
+    "options": {
+      "A": "The passenger is the writer, waiting inside Starbucks.",
+      "B": "The passenger is Emily, waiting near Starbucks with a blue suitcase.",
+      "C": "The passenger is Carlos, waiting at the airport.",
+      "D": "The daughter has no luggage."
+    },
+    "answer": "B",
+    "explanation": "Active reading requires identifying that the account holder is not the passenger. The passenger is Emily, located near Starbucks with a blue suitcase.",
+    "skill": "Detail Extraction"
+  },
+  {
+    "id": 24,
+    "question": "A rider messages: 'I got into the car and it smelled like smoke. I asked the driver to roll down the windows, but he refused. Then he took a longer route which cost me ₦8000 more than the upfront fare.' What are the two distinct issues here?",
+    "scenario": "Analyzing multi-issue complaints",
+    "options": {
+      "A": "Smell of smoke and driver's nice rating.",
+      "B": "Vehicle cleanliness/driver service issue (smoke and windows) AND a billing route dispute (overcharge).",
+      "C": "The app glitching and the weather.",
+      "D": "There is only one issue: the route detour."
+    },
+    "answer": "B",
+    "explanation": "The rider has complained about driver quality/behavior (refusing to open windows in a smoky car) and a financial discrepancy (route detour overcharge). Both must be addressed in your response.",
+    "skill": "Multi-issue Analysis"
+  },
+  {
+    "id": 25,
+    "question": "A customer writes: 'I need to dispute my fare for trip #920313. I was charged €30.00 for a cancellation fee, but the driver never arrived at the terminal.' What is the primary data you must pull up first?",
+    "scenario": "Action mapping from text",
+    "options": {
+      "A": "The customer's email subscription history.",
+      "B": "The GPS log and status of trip #920313 to verify if the driver reached the pickup pin.",
+      "C": "The driver's vehicle registration papers.",
+      "D": "A refund button."
+    },
+    "answer": "B",
+    "explanation": "Active reading maps the user's issue directly to the first support step: pulling up trip #{id} and checking the GPS logs to see if the driver waited at the correct spot.",
+    "skill": "Action Mapping"
+  },
+  {
+    "id": 26,
+    "question": "A customer sends a long message: 'I was on my way to my wedding anniversary dinner at the Central Plaza around 8 PM. The driver Marcus was nice but got lost near the highway. Also, I think I dropped my gold watch in the backseat. I need to get it back immediately because it was a gift.' What is the most critical/urgent issue to address first?",
+    "scenario": "Identifying core issue in verbose message",
+    "options": {
+      "A": "The driver getting lost on the highway.",
+      "B": "The wedding anniversary dinner.",
+      "C": "The lost gold watch in the backseat (urgent lost item recovery).",
+      "D": "The nice behavior of Driver Marcus."
+    },
+    "answer": "C",
+    "explanation": "Active reading requires distinguishing between background details (anniversary, nice driver, wrong route) and the urgent, actionable issue (a high-value lost item: a gold watch).",
+    "skill": "Core Issue Identification"
+  },
+  {
+    "id": 27,
+    "question": "A user writes: 'My card was charged £12.00 for a ride in Seoul yesterday, but I was at home sleeping! I didn't authorize this! This is fraud! Lock my account!' What is the customer's emotional subtext and requested action?",
+    "scenario": "Reading emotional state & goal",
+    "options": {
+      "A": "The user is calm and wants a receipt.",
+      "B": "The user is highly anxious/angry about fraud, and wants their account secured and the charge investigated.",
+      "C": "The user is happy and wants to book another ride.",
+      "D": "The user is testing our system."
+    },
+    "answer": "B",
+    "explanation": "Active reading involves recognizing the emotional state (highly anxious/angry, using exclamation marks) and the explicit request (unauthorized charge check and account security).",
+    "skill": "Emotion & Goal Identification"
+  },
+  {
+    "id": 28,
+    "question": "A passenger messages: 'I requested a ride to the airport for my daughter named Emily. She is waiting near the Starbucks with a blue suitcase. The driver Carlos drove past without picking her up.' What are the key details for the driver search?",
+    "scenario": "Extracting pickup details",
+    "options": {
+      "A": "The passenger is the writer, waiting inside Starbucks.",
+      "B": "The passenger is Emily, waiting near Starbucks with a blue suitcase.",
+      "C": "The passenger is Carlos, waiting at the airport.",
+      "D": "The daughter has no luggage."
+    },
+    "answer": "B",
+    "explanation": "Active reading requires identifying that the account holder is not the passenger. The passenger is Emily, located near Starbucks with a blue suitcase.",
+    "skill": "Detail Extraction"
+  },
+  {
+    "id": 29,
+    "question": "A rider messages: 'I got into the car and it smelled like smoke. I asked the driver to roll down the windows, but he refused. Then he took a longer route which cost me €8.50 more than the upfront fare.' What are the two distinct issues here?",
+    "scenario": "Analyzing multi-issue complaints",
+    "options": {
+      "A": "Smell of smoke and driver's nice rating.",
+      "B": "Vehicle cleanliness/driver service issue (smoke and windows) AND a billing route dispute (overcharge).",
+      "C": "The app glitching and the weather.",
+      "D": "There is only one issue: the route detour."
+    },
+    "answer": "B",
+    "explanation": "The rider has complained about driver quality/behavior (refusing to open windows in a smoky car) and a financial discrepancy (route detour overcharge). Both must be addressed in your response.",
+    "skill": "Multi-issue Analysis"
+  },
+  {
+    "id": 30,
+    "question": "A customer writes: 'I need to dispute my fare for trip #654990. I was charged £12.00 for a cancellation fee, but the driver never arrived at the terminal.' What is the primary data you must pull up first?",
+    "scenario": "Action mapping from text",
+    "options": {
+      "A": "The customer's email subscription history.",
+      "B": "The GPS log and status of trip #654990 to verify if the driver reached the pickup pin.",
+      "C": "The driver's vehicle registration papers.",
+      "D": "A refund button."
+    },
+    "answer": "B",
+    "explanation": "Active reading maps the user's issue directly to the first support step: pulling up trip #{id} and checking the GPS logs to see if the driver waited at the correct spot.",
+    "skill": "Action Mapping"
+  },
+  {
+    "id": 31,
+    "question": "A customer sends a long message: 'I was on my way to my wedding anniversary dinner at the Hilton Hotel around 8 PM. The driver Marcus was nice but got lost near the highway. Also, I think I dropped my gold watch in the backseat. I need to get it back immediately because it was a gift.' What is the most critical/urgent issue to address first?",
+    "scenario": "Identifying core issue in verbose message",
+    "options": {
+      "A": "The driver getting lost on the highway.",
+      "B": "The wedding anniversary dinner.",
+      "C": "The lost gold watch in the backseat (urgent lost item recovery).",
+      "D": "The nice behavior of Driver Marcus."
+    },
+    "answer": "C",
+    "explanation": "Active reading requires distinguishing between background details (anniversary, nice driver, wrong route) and the urgent, actionable issue (a high-value lost item: a gold watch).",
+    "skill": "Core Issue Identification"
+  },
+  {
+    "id": 32,
+    "question": "A user writes: 'My card was charged KSh 500 for a ride in Chicago yesterday, but I was at home sleeping! I didn't authorize this! This is fraud! Lock my account!' What is the customer's emotional subtext and requested action?",
+    "scenario": "Reading emotional state & goal",
+    "options": {
+      "A": "The user is calm and wants a receipt.",
+      "B": "The user is highly anxious/angry about fraud, and wants their account secured and the charge investigated.",
+      "C": "The user is happy and wants to book another ride.",
+      "D": "The user is testing our system."
+    },
+    "answer": "B",
+    "explanation": "Active reading involves recognizing the emotional state (highly anxious/angry, using exclamation marks) and the explicit request (unauthorized charge check and account security).",
+    "skill": "Emotion & Goal Identification"
+  },
+  {
+    "id": 33,
+    "question": "A passenger messages: 'I requested a ride to the airport for my daughter named Emily. She is waiting near the Starbucks with a blue suitcase. The driver Carlos drove past without picking her up.' What are the key details for the driver search?",
+    "scenario": "Extracting pickup details",
+    "options": {
+      "A": "The passenger is the writer, waiting inside Starbucks.",
+      "B": "The passenger is Emily, waiting near Starbucks with a blue suitcase.",
+      "C": "The passenger is Carlos, waiting at the airport.",
+      "D": "The daughter has no luggage."
+    },
+    "answer": "B",
+    "explanation": "Active reading requires identifying that the account holder is not the passenger. The passenger is Emily, located near Starbucks with a blue suitcase.",
+    "skill": "Detail Extraction"
+  },
+  {
+    "id": 34,
+    "question": "A rider messages: 'I got into the car and it smelled like smoke. I asked the driver to roll down the windows, but he refused. Then he took a longer route which cost me $25.00 more than the upfront fare.' What are the two distinct issues here?",
+    "scenario": "Analyzing multi-issue complaints",
+    "options": {
+      "A": "Smell of smoke and driver's nice rating.",
+      "B": "Vehicle cleanliness/driver service issue (smoke and windows) AND a billing route dispute (overcharge).",
+      "C": "The app glitching and the weather.",
+      "D": "There is only one issue: the route detour."
+    },
+    "answer": "B",
+    "explanation": "The rider has complained about driver quality/behavior (refusing to open windows in a smoky car) and a financial discrepancy (route detour overcharge). Both must be addressed in your response.",
+    "skill": "Multi-issue Analysis"
+  },
+  {
+    "id": 35,
+    "question": "A customer writes: 'I need to dispute my fare for trip #262156. I was charged KSh 500 for a cancellation fee, but the driver never arrived at the terminal.' What is the primary data you must pull up first?",
+    "scenario": "Action mapping from text",
+    "options": {
+      "A": "The customer's email subscription history.",
+      "B": "The GPS log and status of trip #262156 to verify if the driver reached the pickup pin.",
+      "C": "The driver's vehicle registration papers.",
+      "D": "A refund button."
+    },
+    "answer": "B",
+    "explanation": "Active reading maps the user's issue directly to the first support step: pulling up trip #{id} and checking the GPS logs to see if the driver waited at the correct spot.",
+    "skill": "Action Mapping"
+  },
+  {
+    "id": 36,
+    "question": "A customer sends a long message: 'I was on my way to my wedding anniversary dinner at the Science Museum around 8 PM. The driver Marcus was nice but got lost near the highway. Also, I think I dropped my gold watch in the backseat. I need to get it back immediately because it was a gift.' What is the most critical/urgent issue to address first?",
+    "scenario": "Identifying core issue in verbose message",
+    "options": {
+      "A": "The driver getting lost on the highway.",
+      "B": "The wedding anniversary dinner.",
+      "C": "The lost gold watch in the backseat (urgent lost item recovery).",
+      "D": "The nice behavior of Driver Marcus."
+    },
+    "answer": "C",
+    "explanation": "Active reading requires distinguishing between background details (anniversary, nice driver, wrong route) and the urgent, actionable issue (a high-value lost item: a gold watch).",
+    "skill": "Core Issue Identification"
+  },
+  {
+    "id": 37,
+    "question": "A user writes: 'My card was charged R250 for a ride in Berlin yesterday, but I was at home sleeping! I didn't authorize this! This is fraud! Lock my account!' What is the customer's emotional subtext and requested action?",
+    "scenario": "Reading emotional state & goal",
+    "options": {
+      "A": "The user is calm and wants a receipt.",
+      "B": "The user is highly anxious/angry about fraud, and wants their account secured and the charge investigated.",
+      "C": "The user is happy and wants to book another ride.",
+      "D": "The user is testing our system."
+    },
+    "answer": "B",
+    "explanation": "Active reading involves recognizing the emotional state (highly anxious/angry, using exclamation marks) and the explicit request (unauthorized charge check and account security).",
+    "skill": "Emotion & Goal Identification"
+  },
+  {
+    "id": 38,
+    "question": "A passenger messages: 'I requested a ride to the airport for my daughter named Emily. She is waiting near the Starbucks with a blue suitcase. The driver Carlos drove past without picking her up.' What are the key details for the driver search?",
+    "scenario": "Extracting pickup details",
+    "options": {
+      "A": "The passenger is the writer, waiting inside Starbucks.",
+      "B": "The passenger is Emily, waiting near Starbucks with a blue suitcase.",
+      "C": "The passenger is Carlos, waiting at the airport.",
+      "D": "The daughter has no luggage."
+    },
+    "answer": "B",
+    "explanation": "Active reading requires identifying that the account holder is not the passenger. The passenger is Emily, located near Starbucks with a blue suitcase.",
+    "skill": "Detail Extraction"
+  },
+  {
+    "id": 39,
+    "question": "A rider messages: 'I got into the car and it smelled like smoke. I asked the driver to roll down the windows, but he refused. Then he took a longer route which cost me $45.00 more than the upfront fare.' What are the two distinct issues here?",
+    "scenario": "Analyzing multi-issue complaints",
+    "options": {
+      "A": "Smell of smoke and driver's nice rating.",
+      "B": "Vehicle cleanliness/driver service issue (smoke and windows) AND a billing route dispute (overcharge).",
+      "C": "The app glitching and the weather.",
+      "D": "There is only one issue: the route detour."
+    },
+    "answer": "B",
+    "explanation": "The rider has complained about driver quality/behavior (refusing to open windows in a smoky car) and a financial discrepancy (route detour overcharge). Both must be addressed in your response.",
+    "skill": "Multi-issue Analysis"
+  },
+  {
+    "id": 40,
+    "question": "A customer writes: 'I need to dispute my fare for trip #335430. I was charged ₦8000 for a cancellation fee, but the driver never arrived at the terminal.' What is the primary data you must pull up first?",
+    "scenario": "Action mapping from text",
+    "options": {
+      "A": "The customer's email subscription history.",
+      "B": "The GPS log and status of trip #335430 to verify if the driver reached the pickup pin.",
+      "C": "The driver's vehicle registration papers.",
+      "D": "A refund button."
+    },
+    "answer": "B",
+    "explanation": "Active reading maps the user's issue directly to the first support step: pulling up trip #{id} and checking the GPS logs to see if the driver waited at the correct spot.",
+    "skill": "Action Mapping"
+  },
+  {
+    "id": 41,
+    "question": "A customer sends a long message: 'I was on my way to my wedding anniversary dinner at the Hilton Hotel around 8 PM. The driver Marcus was nice but got lost near the highway. Also, I think I dropped my gold watch in the backseat. I need to get it back immediately because it was a gift.' What is the most critical/urgent issue to address first?",
+    "scenario": "Identifying core issue in verbose message",
+    "options": {
+      "A": "The driver getting lost on the highway.",
+      "B": "The wedding anniversary dinner.",
+      "C": "The lost gold watch in the backseat (urgent lost item recovery).",
+      "D": "The nice behavior of Driver Marcus."
+    },
+    "answer": "C",
+    "explanation": "Active reading requires distinguishing between background details (anniversary, nice driver, wrong route) and the urgent, actionable issue (a high-value lost item: a gold watch).",
+    "skill": "Core Issue Identification"
+  },
+  {
+    "id": 42,
+    "question": "A user writes: 'My card was charged R250 for a ride in Los Angeles yesterday, but I was at home sleeping! I didn't authorize this! This is fraud! Lock my account!' What is the customer's emotional subtext and requested action?",
+    "scenario": "Reading emotional state & goal",
+    "options": {
+      "A": "The user is calm and wants a receipt.",
+      "B": "The user is highly anxious/angry about fraud, and wants their account secured and the charge investigated.",
+      "C": "The user is happy and wants to book another ride.",
+      "D": "The user is testing our system."
+    },
+    "answer": "B",
+    "explanation": "Active reading involves recognizing the emotional state (highly anxious/angry, using exclamation marks) and the explicit request (unauthorized charge check and account security).",
+    "skill": "Emotion & Goal Identification"
+  },
+  {
+    "id": 43,
+    "question": "A passenger messages: 'I requested a ride to the airport for my daughter named Emily. She is waiting near the Starbucks with a blue suitcase. The driver Carlos drove past without picking her up.' What are the key details for the driver search?",
+    "scenario": "Extracting pickup details",
+    "options": {
+      "A": "The passenger is the writer, waiting inside Starbucks.",
+      "B": "The passenger is Emily, waiting near Starbucks with a blue suitcase.",
+      "C": "The passenger is Carlos, waiting at the airport.",
+      "D": "The daughter has no luggage."
+    },
+    "answer": "B",
+    "explanation": "Active reading requires identifying that the account holder is not the passenger. The passenger is Emily, located near Starbucks with a blue suitcase.",
+    "skill": "Detail Extraction"
+  },
+  {
+    "id": 44,
+    "question": "A rider messages: 'I got into the car and it smelled like smoke. I asked the driver to roll down the windows, but he refused. Then he took a longer route which cost me KSh 500 more than the upfront fare.' What are the two distinct issues here?",
+    "scenario": "Analyzing multi-issue complaints",
+    "options": {
+      "A": "Smell of smoke and driver's nice rating.",
+      "B": "Vehicle cleanliness/driver service issue (smoke and windows) AND a billing route dispute (overcharge).",
+      "C": "The app glitching and the weather.",
+      "D": "There is only one issue: the route detour."
+    },
+    "answer": "B",
+    "explanation": "The rider has complained about driver quality/behavior (refusing to open windows in a smoky car) and a financial discrepancy (route detour overcharge). Both must be addressed in your response.",
+    "skill": "Multi-issue Analysis"
+  },
+  {
+    "id": 45,
+    "question": "A customer writes: 'I need to dispute my fare for trip #412114. I was charged £12.00 for a cancellation fee, but the driver never arrived at the terminal.' What is the primary data you must pull up first?",
+    "scenario": "Action mapping from text",
+    "options": {
+      "A": "The customer's email subscription history.",
+      "B": "The GPS log and status of trip #412114 to verify if the driver reached the pickup pin.",
+      "C": "The driver's vehicle registration papers.",
+      "D": "A refund button."
+    },
+    "answer": "B",
+    "explanation": "Active reading maps the user's issue directly to the first support step: pulling up trip #{id} and checking the GPS logs to see if the driver waited at the correct spot.",
+    "skill": "Action Mapping"
+  },
+  {
+    "id": 46,
+    "question": "A customer sends a long message: 'I was on my way to my wedding anniversary dinner at the Central Plaza around 8 PM. The driver Marcus was nice but got lost near the highway. Also, I think I dropped my gold watch in the backseat. I need to get it back immediately because it was a gift.' What is the most critical/urgent issue to address first?",
+    "scenario": "Identifying core issue in verbose message",
+    "options": {
+      "A": "The driver getting lost on the highway.",
+      "B": "The wedding anniversary dinner.",
+      "C": "The lost gold watch in the backseat (urgent lost item recovery).",
+      "D": "The nice behavior of Driver Marcus."
+    },
+    "answer": "C",
+    "explanation": "Active reading requires distinguishing between background details (anniversary, nice driver, wrong route) and the urgent, actionable issue (a high-value lost item: a gold watch).",
+    "skill": "Core Issue Identification"
+  },
+  {
+    "id": 47,
+    "question": "A user writes: 'My card was charged $75.00 for a ride in New York yesterday, but I was at home sleeping! I didn't authorize this! This is fraud! Lock my account!' What is the customer's emotional subtext and requested action?",
+    "scenario": "Reading emotional state & goal",
+    "options": {
+      "A": "The user is calm and wants a receipt.",
+      "B": "The user is highly anxious/angry about fraud, and wants their account secured and the charge investigated.",
+      "C": "The user is happy and wants to book another ride.",
+      "D": "The user is testing our system."
+    },
+    "answer": "B",
+    "explanation": "Active reading involves recognizing the emotional state (highly anxious/angry, using exclamation marks) and the explicit request (unauthorized charge check and account security).",
+    "skill": "Emotion & Goal Identification"
+  },
+  {
+    "id": 48,
+    "question": "A passenger messages: 'I requested a ride to the airport for my daughter named Emily. She is waiting near the Starbucks with a blue suitcase. The driver Carlos drove past without picking her up.' What are the key details for the driver search?",
+    "scenario": "Extracting pickup details",
+    "options": {
+      "A": "The passenger is the writer, waiting inside Starbucks.",
+      "B": "The passenger is Emily, waiting near Starbucks with a blue suitcase.",
+      "C": "The passenger is Carlos, waiting at the airport.",
+      "D": "The daughter has no luggage."
+    },
+    "answer": "B",
+    "explanation": "Active reading requires identifying that the account holder is not the passenger. The passenger is Emily, located near Starbucks with a blue suitcase.",
+    "skill": "Detail Extraction"
+  },
+  {
+    "id": 49,
+    "question": "A rider messages: 'I got into the car and it smelled like smoke. I asked the driver to roll down the windows, but he refused. Then he took a longer route which cost me KSh 1200 more than the upfront fare.' What are the two distinct issues here?",
+    "scenario": "Analyzing multi-issue complaints",
+    "options": {
+      "A": "Smell of smoke and driver's nice rating.",
+      "B": "Vehicle cleanliness/driver service issue (smoke and windows) AND a billing route dispute (overcharge).",
+      "C": "The app glitching and the weather.",
+      "D": "There is only one issue: the route detour."
+    },
+    "answer": "B",
+    "explanation": "The rider has complained about driver quality/behavior (refusing to open windows in a smoky car) and a financial discrepancy (route detour overcharge). Both must be addressed in your response.",
+    "skill": "Multi-issue Analysis"
+  },
+  {
+    "id": 50,
+    "question": "A customer writes: 'I need to dispute my fare for trip #119603. I was charged $75.00 for a cancellation fee, but the driver never arrived at the terminal.' What is the primary data you must pull up first?",
+    "scenario": "Action mapping from text",
+    "options": {
+      "A": "The customer's email subscription history.",
+      "B": "The GPS log and status of trip #119603 to verify if the driver reached the pickup pin.",
+      "C": "The driver's vehicle registration papers.",
+      "D": "A refund button."
+    },
+    "answer": "B",
+    "explanation": "Active reading maps the user's issue directly to the first support step: pulling up trip #{id} and checking the GPS logs to see if the driver waited at the correct spot.",
+    "skill": "Action Mapping"
+  },
+  {
+    "id": 51,
+    "question": "A customer sends a long message: 'I was on my way to my wedding anniversary dinner at the Hilton Hotel around 8 PM. The driver Marcus was nice but got lost near the highway. Also, I think I dropped my gold watch in the backseat. I need to get it back immediately because it was a gift.' What is the most critical/urgent issue to address first?",
+    "scenario": "Identifying core issue in verbose message",
+    "options": {
+      "A": "The driver getting lost on the highway.",
+      "B": "The wedding anniversary dinner.",
+      "C": "The lost gold watch in the backseat (urgent lost item recovery).",
+      "D": "The nice behavior of Driver Marcus."
+    },
+    "answer": "C",
+    "explanation": "Active reading requires distinguishing between background details (anniversary, nice driver, wrong route) and the urgent, actionable issue (a high-value lost item: a gold watch).",
+    "skill": "Core Issue Identification"
+  },
+  {
+    "id": 52,
+    "question": "A user writes: 'My card was charged £12.00 for a ride in Paris yesterday, but I was at home sleeping! I didn't authorize this! This is fraud! Lock my account!' What is the customer's emotional subtext and requested action?",
+    "scenario": "Reading emotional state & goal",
+    "options": {
+      "A": "The user is calm and wants a receipt.",
+      "B": "The user is highly anxious/angry about fraud, and wants their account secured and the charge investigated.",
+      "C": "The user is happy and wants to book another ride.",
+      "D": "The user is testing our system."
+    },
+    "answer": "B",
+    "explanation": "Active reading involves recognizing the emotional state (highly anxious/angry, using exclamation marks) and the explicit request (unauthorized charge check and account security).",
+    "skill": "Emotion & Goal Identification"
+  },
+  {
+    "id": 53,
+    "question": "A passenger messages: 'I requested a ride to the airport for my daughter named Emily. She is waiting near the Starbucks with a blue suitcase. The driver Carlos drove past without picking her up.' What are the key details for the driver search?",
+    "scenario": "Extracting pickup details",
+    "options": {
+      "A": "The passenger is the writer, waiting inside Starbucks.",
+      "B": "The passenger is Emily, waiting near Starbucks with a blue suitcase.",
+      "C": "The passenger is Carlos, waiting at the airport.",
+      "D": "The daughter has no luggage."
+    },
+    "answer": "B",
+    "explanation": "Active reading requires identifying that the account holder is not the passenger. The passenger is Emily, located near Starbucks with a blue suitcase.",
+    "skill": "Detail Extraction"
+  },
+  {
+    "id": 54,
+    "question": "A rider messages: 'I got into the car and it smelled like smoke. I asked the driver to roll down the windows, but he refused. Then he took a longer route which cost me $10.00 more than the upfront fare.' What are the two distinct issues here?",
+    "scenario": "Analyzing multi-issue complaints",
+    "options": {
+      "A": "Smell of smoke and driver's nice rating.",
+      "B": "Vehicle cleanliness/driver service issue (smoke and windows) AND a billing route dispute (overcharge).",
+      "C": "The app glitching and the weather.",
+      "D": "There is only one issue: the route detour."
+    },
+    "answer": "B",
+    "explanation": "The rider has complained about driver quality/behavior (refusing to open windows in a smoky car) and a financial discrepancy (route detour overcharge). Both must be addressed in your response.",
+    "skill": "Multi-issue Analysis"
+  },
+  {
+    "id": 55,
+    "question": "A customer writes: 'I need to dispute my fare for trip #284586. I was charged KSh 1200 for a cancellation fee, but the driver never arrived at the terminal.' What is the primary data you must pull up first?",
+    "scenario": "Action mapping from text",
+    "options": {
+      "A": "The customer's email subscription history.",
+      "B": "The GPS log and status of trip #284586 to verify if the driver reached the pickup pin.",
+      "C": "The driver's vehicle registration papers.",
+      "D": "A refund button."
+    },
+    "answer": "B",
+    "explanation": "Active reading maps the user's issue directly to the first support step: pulling up trip #{id} and checking the GPS logs to see if the driver waited at the correct spot.",
+    "skill": "Action Mapping"
+  },
+  {
+    "id": 56,
+    "question": "A customer sends a long message: 'I was on my way to my wedding anniversary dinner at the Science Museum around 8 PM. The driver Marcus was nice but got lost near the highway. Also, I think I dropped my gold watch in the backseat. I need to get it back immediately because it was a gift.' What is the most critical/urgent issue to address first?",
+    "scenario": "Identifying core issue in verbose message",
+    "options": {
+      "A": "The driver getting lost on the highway.",
+      "B": "The wedding anniversary dinner.",
+      "C": "The lost gold watch in the backseat (urgent lost item recovery).",
+      "D": "The nice behavior of Driver Marcus."
+    },
+    "answer": "C",
+    "explanation": "Active reading requires distinguishing between background details (anniversary, nice driver, wrong route) and the urgent, actionable issue (a high-value lost item: a gold watch).",
+    "skill": "Core Issue Identification"
+  },
+  {
+    "id": 57,
+    "question": "A user writes: 'My card was charged $75.00 for a ride in New York yesterday, but I was at home sleeping! I didn't authorize this! This is fraud! Lock my account!' What is the customer's emotional subtext and requested action?",
+    "scenario": "Reading emotional state & goal",
+    "options": {
+      "A": "The user is calm and wants a receipt.",
+      "B": "The user is highly anxious/angry about fraud, and wants their account secured and the charge investigated.",
+      "C": "The user is happy and wants to book another ride.",
+      "D": "The user is testing our system."
+    },
+    "answer": "B",
+    "explanation": "Active reading involves recognizing the emotional state (highly anxious/angry, using exclamation marks) and the explicit request (unauthorized charge check and account security).",
+    "skill": "Emotion & Goal Identification"
+  },
+  {
+    "id": 58,
+    "question": "A passenger messages: 'I requested a ride to the airport for my daughter named Emily. She is waiting near the Starbucks with a blue suitcase. The driver Carlos drove past without picking her up.' What are the key details for the driver search?",
+    "scenario": "Extracting pickup details",
+    "options": {
+      "A": "The passenger is the writer, waiting inside Starbucks.",
+      "B": "The passenger is Emily, waiting near Starbucks with a blue suitcase.",
+      "C": "The passenger is Carlos, waiting at the airport.",
+      "D": "The daughter has no luggage."
+    },
+    "answer": "B",
+    "explanation": "Active reading requires identifying that the account holder is not the passenger. The passenger is Emily, located near Starbucks with a blue suitcase.",
+    "skill": "Detail Extraction"
+  },
+  {
+    "id": 59,
+    "question": "A rider messages: 'I got into the car and it smelled like smoke. I asked the driver to roll down the windows, but he refused. Then he took a longer route which cost me ₦8000 more than the upfront fare.' What are the two distinct issues here?",
+    "scenario": "Analyzing multi-issue complaints",
+    "options": {
+      "A": "Smell of smoke and driver's nice rating.",
+      "B": "Vehicle cleanliness/driver service issue (smoke and windows) AND a billing route dispute (overcharge).",
+      "C": "The app glitching and the weather.",
+      "D": "There is only one issue: the route detour."
+    },
+    "answer": "B",
+    "explanation": "The rider has complained about driver quality/behavior (refusing to open windows in a smoky car) and a financial discrepancy (route detour overcharge). Both must be addressed in your response.",
+    "skill": "Multi-issue Analysis"
+  },
+  {
+    "id": 60,
+    "question": "A customer writes: 'I need to dispute my fare for trip #985434. I was charged ₦4500 for a cancellation fee, but the driver never arrived at the terminal.' What is the primary data you must pull up first?",
+    "scenario": "Action mapping from text",
+    "options": {
+      "A": "The customer's email subscription history.",
+      "B": "The GPS log and status of trip #985434 to verify if the driver reached the pickup pin.",
+      "C": "The driver's vehicle registration papers.",
+      "D": "A refund button."
+    },
+    "answer": "B",
+    "explanation": "Active reading maps the user's issue directly to the first support step: pulling up trip #{id} and checking the GPS logs to see if the driver waited at the correct spot.",
+    "skill": "Action Mapping"
+  },
+  {
+    "id": 61,
+    "question": "A customer sends a long message: 'I was on my way to my wedding anniversary dinner at the Grand Theater around 8 PM. The driver Marcus was nice but got lost near the highway. Also, I think I dropped my gold watch in the backseat. I need to get it back immediately because it was a gift.' What is the most critical/urgent issue to address first?",
+    "scenario": "Identifying core issue in verbose message",
+    "options": {
+      "A": "The driver getting lost on the highway.",
+      "B": "The wedding anniversary dinner.",
+      "C": "The lost gold watch in the backseat (urgent lost item recovery).",
+      "D": "The nice behavior of Driver Marcus."
+    },
+    "answer": "C",
+    "explanation": "Active reading requires distinguishing between background details (anniversary, nice driver, wrong route) and the urgent, actionable issue (a high-value lost item: a gold watch).",
+    "skill": "Core Issue Identification"
+  },
+  {
+    "id": 62,
+    "question": "A user writes: 'My card was charged R120 for a ride in Nairobi yesterday, but I was at home sleeping! I didn't authorize this! This is fraud! Lock my account!' What is the customer's emotional subtext and requested action?",
+    "scenario": "Reading emotional state & goal",
+    "options": {
+      "A": "The user is calm and wants a receipt.",
+      "B": "The user is highly anxious/angry about fraud, and wants their account secured and the charge investigated.",
+      "C": "The user is happy and wants to book another ride.",
+      "D": "The user is testing our system."
+    },
+    "answer": "B",
+    "explanation": "Active reading involves recognizing the emotional state (highly anxious/angry, using exclamation marks) and the explicit request (unauthorized charge check and account security).",
+    "skill": "Emotion & Goal Identification"
+  },
+  {
+    "id": 63,
+    "question": "A passenger messages: 'I requested a ride to the airport for my daughter named Emily. She is waiting near the Starbucks with a blue suitcase. The driver Carlos drove past without picking her up.' What are the key details for the driver search?",
+    "scenario": "Extracting pickup details",
+    "options": {
+      "A": "The passenger is the writer, waiting inside Starbucks.",
+      "B": "The passenger is Emily, waiting near Starbucks with a blue suitcase.",
+      "C": "The passenger is Carlos, waiting at the airport.",
+      "D": "The daughter has no luggage."
+    },
+    "answer": "B",
+    "explanation": "Active reading requires identifying that the account holder is not the passenger. The passenger is Emily, located near Starbucks with a blue suitcase.",
+    "skill": "Detail Extraction"
+  },
+  {
+    "id": 64,
+    "question": "A rider messages: 'I got into the car and it smelled like smoke. I asked the driver to roll down the windows, but he refused. Then he took a longer route which cost me £6.00 more than the upfront fare.' What are the two distinct issues here?",
+    "scenario": "Analyzing multi-issue complaints",
+    "options": {
+      "A": "Smell of smoke and driver's nice rating.",
+      "B": "Vehicle cleanliness/driver service issue (smoke and windows) AND a billing route dispute (overcharge).",
+      "C": "The app glitching and the weather.",
+      "D": "There is only one issue: the route detour."
+    },
+    "answer": "B",
+    "explanation": "The rider has complained about driver quality/behavior (refusing to open windows in a smoky car) and a financial discrepancy (route detour overcharge). Both must be addressed in your response.",
+    "skill": "Multi-issue Analysis"
+  },
+  {
+    "id": 65,
+    "question": "A customer writes: 'I need to dispute my fare for trip #885789. I was charged $75.00 for a cancellation fee, but the driver never arrived at the terminal.' What is the primary data you must pull up first?",
+    "scenario": "Action mapping from text",
+    "options": {
+      "A": "The customer's email subscription history.",
+      "B": "The GPS log and status of trip #885789 to verify if the driver reached the pickup pin.",
+      "C": "The driver's vehicle registration papers.",
+      "D": "A refund button."
+    },
+    "answer": "B",
+    "explanation": "Active reading maps the user's issue directly to the first support step: pulling up trip #{id} and checking the GPS logs to see if the driver waited at the correct spot.",
+    "skill": "Action Mapping"
+  },
+  {
+    "id": 66,
+    "question": "A customer sends a long message: 'I was on my way to my wedding anniversary dinner at the Science Museum around 8 PM. The driver Marcus was nice but got lost near the highway. Also, I think I dropped my gold watch in the backseat. I need to get it back immediately because it was a gift.' What is the most critical/urgent issue to address first?",
+    "scenario": "Identifying core issue in verbose message",
+    "options": {
+      "A": "The driver getting lost on the highway.",
+      "B": "The wedding anniversary dinner.",
+      "C": "The lost gold watch in the backseat (urgent lost item recovery).",
+      "D": "The nice behavior of Driver Marcus."
+    },
+    "answer": "C",
+    "explanation": "Active reading requires distinguishing between background details (anniversary, nice driver, wrong route) and the urgent, actionable issue (a high-value lost item: a gold watch).",
+    "skill": "Core Issue Identification"
+  },
+  {
+    "id": 67,
+    "question": "A user writes: 'My card was charged €15.00 for a ride in Berlin yesterday, but I was at home sleeping! I didn't authorize this! This is fraud! Lock my account!' What is the customer's emotional subtext and requested action?",
+    "scenario": "Reading emotional state & goal",
+    "options": {
+      "A": "The user is calm and wants a receipt.",
+      "B": "The user is highly anxious/angry about fraud, and wants their account secured and the charge investigated.",
+      "C": "The user is happy and wants to book another ride.",
+      "D": "The user is testing our system."
+    },
+    "answer": "B",
+    "explanation": "Active reading involves recognizing the emotional state (highly anxious/angry, using exclamation marks) and the explicit request (unauthorized charge check and account security).",
+    "skill": "Emotion & Goal Identification"
+  },
+  {
+    "id": 68,
+    "question": "A passenger messages: 'I requested a ride to the airport for my daughter named Emily. She is waiting near the Starbucks with a blue suitcase. The driver Carlos drove past without picking her up.' What are the key details for the driver search?",
+    "scenario": "Extracting pickup details",
+    "options": {
+      "A": "The passenger is the writer, waiting inside Starbucks.",
+      "B": "The passenger is Emily, waiting near Starbucks with a blue suitcase.",
+      "C": "The passenger is Carlos, waiting at the airport.",
+      "D": "The daughter has no luggage."
+    },
+    "answer": "B",
+    "explanation": "Active reading requires identifying that the account holder is not the passenger. The passenger is Emily, located near Starbucks with a blue suitcase.",
+    "skill": "Detail Extraction"
+  },
+  {
+    "id": 69,
+    "question": "A rider messages: 'I got into the car and it smelled like smoke. I asked the driver to roll down the windows, but he refused. Then he took a longer route which cost me €15.00 more than the upfront fare.' What are the two distinct issues here?",
+    "scenario": "Analyzing multi-issue complaints",
+    "options": {
+      "A": "Smell of smoke and driver's nice rating.",
+      "B": "Vehicle cleanliness/driver service issue (smoke and windows) AND a billing route dispute (overcharge).",
+      "C": "The app glitching and the weather.",
+      "D": "There is only one issue: the route detour."
+    },
+    "answer": "B",
+    "explanation": "The rider has complained about driver quality/behavior (refusing to open windows in a smoky car) and a financial discrepancy (route detour overcharge). Both must be addressed in your response.",
+    "skill": "Multi-issue Analysis"
+  },
+  {
+    "id": 70,
+    "question": "A customer writes: 'I need to dispute my fare for trip #151481. I was charged KSh 500 for a cancellation fee, but the driver never arrived at the terminal.' What is the primary data you must pull up first?",
+    "scenario": "Action mapping from text",
+    "options": {
+      "A": "The customer's email subscription history.",
+      "B": "The GPS log and status of trip #151481 to verify if the driver reached the pickup pin.",
+      "C": "The driver's vehicle registration papers.",
+      "D": "A refund button."
+    },
+    "answer": "B",
+    "explanation": "Active reading maps the user's issue directly to the first support step: pulling up trip #{id} and checking the GPS logs to see if the driver waited at the correct spot.",
+    "skill": "Action Mapping"
+  },
+  {
+    "id": 71,
+    "question": "A customer sends a long message: 'I was on my way to my wedding anniversary dinner at the Central Plaza around 8 PM. The driver Marcus was nice but got lost near the highway. Also, I think I dropped my gold watch in the backseat. I need to get it back immediately because it was a gift.' What is the most critical/urgent issue to address first?",
+    "scenario": "Identifying core issue in verbose message",
+    "options": {
+      "A": "The driver getting lost on the highway.",
+      "B": "The wedding anniversary dinner.",
+      "C": "The lost gold watch in the backseat (urgent lost item recovery).",
+      "D": "The nice behavior of Driver Marcus."
+    },
+    "answer": "C",
+    "explanation": "Active reading requires distinguishing between background details (anniversary, nice driver, wrong route) and the urgent, actionable issue (a high-value lost item: a gold watch).",
+    "skill": "Core Issue Identification"
+  },
+  {
+    "id": 72,
+    "question": "A user writes: 'My card was charged £6.00 for a ride in Austin yesterday, but I was at home sleeping! I didn't authorize this! This is fraud! Lock my account!' What is the customer's emotional subtext and requested action?",
+    "scenario": "Reading emotional state & goal",
+    "options": {
+      "A": "The user is calm and wants a receipt.",
+      "B": "The user is highly anxious/angry about fraud, and wants their account secured and the charge investigated.",
+      "C": "The user is happy and wants to book another ride.",
+      "D": "The user is testing our system."
+    },
+    "answer": "B",
+    "explanation": "Active reading involves recognizing the emotional state (highly anxious/angry, using exclamation marks) and the explicit request (unauthorized charge check and account security).",
+    "skill": "Emotion & Goal Identification"
+  },
+  {
+    "id": 73,
+    "question": "A passenger messages: 'I requested a ride to the airport for my daughter named Emily. She is waiting near the Starbucks with a blue suitcase. The driver Carlos drove past without picking her up.' What are the key details for the driver search?",
+    "scenario": "Extracting pickup details",
+    "options": {
+      "A": "The passenger is the writer, waiting inside Starbucks.",
+      "B": "The passenger is Emily, waiting near Starbucks with a blue suitcase.",
+      "C": "The passenger is Carlos, waiting at the airport.",
+      "D": "The daughter has no luggage."
+    },
+    "answer": "B",
+    "explanation": "Active reading requires identifying that the account holder is not the passenger. The passenger is Emily, located near Starbucks with a blue suitcase.",
+    "skill": "Detail Extraction"
+  },
+  {
+    "id": 74,
+    "question": "A rider messages: 'I got into the car and it smelled like smoke. I asked the driver to roll down the windows, but he refused. Then he took a longer route which cost me €8.50 more than the upfront fare.' What are the two distinct issues here?",
+    "scenario": "Analyzing multi-issue complaints",
+    "options": {
+      "A": "Smell of smoke and driver's nice rating.",
+      "B": "Vehicle cleanliness/driver service issue (smoke and windows) AND a billing route dispute (overcharge).",
+      "C": "The app glitching and the weather.",
+      "D": "There is only one issue: the route detour."
+    },
+    "answer": "B",
+    "explanation": "The rider has complained about driver quality/behavior (refusing to open windows in a smoky car) and a financial discrepancy (route detour overcharge). Both must be addressed in your response.",
+    "skill": "Multi-issue Analysis"
+  },
+  {
+    "id": 75,
+    "question": "A customer writes: 'I need to dispute my fare for trip #698162. I was charged €15.00 for a cancellation fee, but the driver never arrived at the terminal.' What is the primary data you must pull up first?",
+    "scenario": "Action mapping from text",
+    "options": {
+      "A": "The customer's email subscription history.",
+      "B": "The GPS log and status of trip #698162 to verify if the driver reached the pickup pin.",
+      "C": "The driver's vehicle registration papers.",
+      "D": "A refund button."
+    },
+    "answer": "B",
+    "explanation": "Active reading maps the user's issue directly to the first support step: pulling up trip #{id} and checking the GPS logs to see if the driver waited at the correct spot.",
+    "skill": "Action Mapping"
+  },
+  {
+    "id": 76,
+    "question": "A customer sends a long message: 'I was on my way to my wedding anniversary dinner at the Science Museum around 8 PM. The driver Marcus was nice but got lost near the highway. Also, I think I dropped my gold watch in the backseat. I need to get it back immediately because it was a gift.' What is the most critical/urgent issue to address first?",
+    "scenario": "Identifying core issue in verbose message",
+    "options": {
+      "A": "The driver getting lost on the highway.",
+      "B": "The wedding anniversary dinner.",
+      "C": "The lost gold watch in the backseat (urgent lost item recovery).",
+      "D": "The nice behavior of Driver Marcus."
+    },
+    "answer": "C",
+    "explanation": "Active reading requires distinguishing between background details (anniversary, nice driver, wrong route) and the urgent, actionable issue (a high-value lost item: a gold watch).",
+    "skill": "Core Issue Identification"
+  },
+  {
+    "id": 77,
+    "question": "A user writes: 'My card was charged $5.00 for a ride in New York yesterday, but I was at home sleeping! I didn't authorize this! This is fraud! Lock my account!' What is the customer's emotional subtext and requested action?",
+    "scenario": "Reading emotional state & goal",
+    "options": {
+      "A": "The user is calm and wants a receipt.",
+      "B": "The user is highly anxious/angry about fraud, and wants their account secured and the charge investigated.",
+      "C": "The user is happy and wants to book another ride.",
+      "D": "The user is testing our system."
+    },
+    "answer": "B",
+    "explanation": "Active reading involves recognizing the emotional state (highly anxious/angry, using exclamation marks) and the explicit request (unauthorized charge check and account security).",
+    "skill": "Emotion & Goal Identification"
+  },
+  {
+    "id": 78,
+    "question": "A passenger messages: 'I requested a ride to the airport for my daughter named Emily. She is waiting near the Starbucks with a blue suitcase. The driver Carlos drove past without picking her up.' What are the key details for the driver search?",
+    "scenario": "Extracting pickup details",
+    "options": {
+      "A": "The passenger is the writer, waiting inside Starbucks.",
+      "B": "The passenger is Emily, waiting near Starbucks with a blue suitcase.",
+      "C": "The passenger is Carlos, waiting at the airport.",
+      "D": "The daughter has no luggage."
+    },
+    "answer": "B",
+    "explanation": "Active reading requires identifying that the account holder is not the passenger. The passenger is Emily, located near Starbucks with a blue suitcase.",
+    "skill": "Detail Extraction"
+  },
+  {
+    "id": 79,
+    "question": "A rider messages: 'I got into the car and it smelled like smoke. I asked the driver to roll down the windows, but he refused. Then he took a longer route which cost me €30.00 more than the upfront fare.' What are the two distinct issues here?",
+    "scenario": "Analyzing multi-issue complaints",
+    "options": {
+      "A": "Smell of smoke and driver's nice rating.",
+      "B": "Vehicle cleanliness/driver service issue (smoke and windows) AND a billing route dispute (overcharge).",
+      "C": "The app glitching and the weather.",
+      "D": "There is only one issue: the route detour."
+    },
+    "answer": "B",
+    "explanation": "The rider has complained about driver quality/behavior (refusing to open windows in a smoky car) and a financial discrepancy (route detour overcharge). Both must be addressed in your response.",
+    "skill": "Multi-issue Analysis"
+  },
+  {
+    "id": 80,
+    "question": "A customer writes: 'I need to dispute my fare for trip #883473. I was charged ₦8000 for a cancellation fee, but the driver never arrived at the terminal.' What is the primary data you must pull up first?",
+    "scenario": "Action mapping from text",
+    "options": {
+      "A": "The customer's email subscription history.",
+      "B": "The GPS log and status of trip #883473 to verify if the driver reached the pickup pin.",
+      "C": "The driver's vehicle registration papers.",
+      "D": "A refund button."
+    },
+    "answer": "B",
+    "explanation": "Active reading maps the user's issue directly to the first support step: pulling up trip #{id} and checking the GPS logs to see if the driver waited at the correct spot.",
+    "skill": "Action Mapping"
+  },
+  {
+    "id": 81,
+    "question": "A customer sends a long message: 'I was on my way to my wedding anniversary dinner at the Grand Theater around 8 PM. The driver Marcus was nice but got lost near the highway. Also, I think I dropped my gold watch in the backseat. I need to get it back immediately because it was a gift.' What is the most critical/urgent issue to address first?",
+    "scenario": "Identifying core issue in verbose message",
+    "options": {
+      "A": "The driver getting lost on the highway.",
+      "B": "The wedding anniversary dinner.",
+      "C": "The lost gold watch in the backseat (urgent lost item recovery).",
+      "D": "The nice behavior of Driver Marcus."
+    },
+    "answer": "C",
+    "explanation": "Active reading requires distinguishing between background details (anniversary, nice driver, wrong route) and the urgent, actionable issue (a high-value lost item: a gold watch).",
+    "skill": "Core Issue Identification"
+  },
+  {
+    "id": 82,
+    "question": "A user writes: 'My card was charged €15.00 for a ride in Seoul yesterday, but I was at home sleeping! I didn't authorize this! This is fraud! Lock my account!' What is the customer's emotional subtext and requested action?",
+    "scenario": "Reading emotional state & goal",
+    "options": {
+      "A": "The user is calm and wants a receipt.",
+      "B": "The user is highly anxious/angry about fraud, and wants their account secured and the charge investigated.",
+      "C": "The user is happy and wants to book another ride.",
+      "D": "The user is testing our system."
+    },
+    "answer": "B",
+    "explanation": "Active reading involves recognizing the emotional state (highly anxious/angry, using exclamation marks) and the explicit request (unauthorized charge check and account security).",
+    "skill": "Emotion & Goal Identification"
+  },
+  {
+    "id": 83,
+    "question": "A passenger messages: 'I requested a ride to the airport for my daughter named Emily. She is waiting near the Starbucks with a blue suitcase. The driver Carlos drove past without picking her up.' What are the key details for the driver search?",
+    "scenario": "Extracting pickup details",
+    "options": {
+      "A": "The passenger is the writer, waiting inside Starbucks.",
+      "B": "The passenger is Emily, waiting near Starbucks with a blue suitcase.",
+      "C": "The passenger is Carlos, waiting at the airport.",
+      "D": "The daughter has no luggage."
+    },
+    "answer": "B",
+    "explanation": "Active reading requires identifying that the account holder is not the passenger. The passenger is Emily, located near Starbucks with a blue suitcase.",
+    "skill": "Detail Extraction"
+  },
+  {
+    "id": 84,
+    "question": "A rider messages: 'I got into the car and it smelled like smoke. I asked the driver to roll down the windows, but he refused. Then he took a longer route which cost me $25.00 more than the upfront fare.' What are the two distinct issues here?",
+    "scenario": "Analyzing multi-issue complaints",
+    "options": {
+      "A": "Smell of smoke and driver's nice rating.",
+      "B": "Vehicle cleanliness/driver service issue (smoke and windows) AND a billing route dispute (overcharge).",
+      "C": "The app glitching and the weather.",
+      "D": "There is only one issue: the route detour."
+    },
+    "answer": "B",
+    "explanation": "The rider has complained about driver quality/behavior (refusing to open windows in a smoky car) and a financial discrepancy (route detour overcharge). Both must be addressed in your response.",
+    "skill": "Multi-issue Analysis"
+  },
+  {
+    "id": 85,
+    "question": "A customer writes: 'I need to dispute my fare for trip #710710. I was charged R120 for a cancellation fee, but the driver never arrived at the terminal.' What is the primary data you must pull up first?",
+    "scenario": "Action mapping from text",
+    "options": {
+      "A": "The customer's email subscription history.",
+      "B": "The GPS log and status of trip #710710 to verify if the driver reached the pickup pin.",
+      "C": "The driver's vehicle registration papers.",
+      "D": "A refund button."
+    },
+    "answer": "B",
+    "explanation": "Active reading maps the user's issue directly to the first support step: pulling up trip #{id} and checking the GPS logs to see if the driver waited at the correct spot.",
+    "skill": "Action Mapping"
+  },
+  {
+    "id": 86,
+    "question": "A customer sends a long message: 'I was on my way to my wedding anniversary dinner at the Science Museum around 8 PM. The driver Marcus was nice but got lost near the highway. Also, I think I dropped my gold watch in the backseat. I need to get it back immediately because it was a gift.' What is the most critical/urgent issue to address first?",
+    "scenario": "Identifying core issue in verbose message",
+    "options": {
+      "A": "The driver getting lost on the highway.",
+      "B": "The wedding anniversary dinner.",
+      "C": "The lost gold watch in the backseat (urgent lost item recovery).",
+      "D": "The nice behavior of Driver Marcus."
+    },
+    "answer": "C",
+    "explanation": "Active reading requires distinguishing between background details (anniversary, nice driver, wrong route) and the urgent, actionable issue (a high-value lost item: a gold watch).",
+    "skill": "Core Issue Identification"
+  },
+  {
+    "id": 87,
+    "question": "A user writes: 'My card was charged €8.50 for a ride in Austin yesterday, but I was at home sleeping! I didn't authorize this! This is fraud! Lock my account!' What is the customer's emotional subtext and requested action?",
+    "scenario": "Reading emotional state & goal",
+    "options": {
+      "A": "The user is calm and wants a receipt.",
+      "B": "The user is highly anxious/angry about fraud, and wants their account secured and the charge investigated.",
+      "C": "The user is happy and wants to book another ride.",
+      "D": "The user is testing our system."
+    },
+    "answer": "B",
+    "explanation": "Active reading involves recognizing the emotional state (highly anxious/angry, using exclamation marks) and the explicit request (unauthorized charge check and account security).",
+    "skill": "Emotion & Goal Identification"
+  },
+  {
+    "id": 88,
+    "question": "A passenger messages: 'I requested a ride to the airport for my daughter named Emily. She is waiting near the Starbucks with a blue suitcase. The driver Carlos drove past without picking her up.' What are the key details for the driver search?",
+    "scenario": "Extracting pickup details",
+    "options": {
+      "A": "The passenger is the writer, waiting inside Starbucks.",
+      "B": "The passenger is Emily, waiting near Starbucks with a blue suitcase.",
+      "C": "The passenger is Carlos, waiting at the airport.",
+      "D": "The daughter has no luggage."
+    },
+    "answer": "B",
+    "explanation": "Active reading requires identifying that the account holder is not the passenger. The passenger is Emily, located near Starbucks with a blue suitcase.",
+    "skill": "Detail Extraction"
+  },
+  {
+    "id": 89,
+    "question": "A rider messages: 'I got into the car and it smelled like smoke. I asked the driver to roll down the windows, but he refused. Then he took a longer route which cost me €30.00 more than the upfront fare.' What are the two distinct issues here?",
+    "scenario": "Analyzing multi-issue complaints",
+    "options": {
+      "A": "Smell of smoke and driver's nice rating.",
+      "B": "Vehicle cleanliness/driver service issue (smoke and windows) AND a billing route dispute (overcharge).",
+      "C": "The app glitching and the weather.",
+      "D": "There is only one issue: the route detour."
+    },
+    "answer": "B",
+    "explanation": "The rider has complained about driver quality/behavior (refusing to open windows in a smoky car) and a financial discrepancy (route detour overcharge). Both must be addressed in your response.",
+    "skill": "Multi-issue Analysis"
+  },
+  {
+    "id": 90,
+    "question": "A customer writes: 'I need to dispute my fare for trip #526976. I was charged R120 for a cancellation fee, but the driver never arrived at the terminal.' What is the primary data you must pull up first?",
+    "scenario": "Action mapping from text",
+    "options": {
+      "A": "The customer's email subscription history.",
+      "B": "The GPS log and status of trip #526976 to verify if the driver reached the pickup pin.",
+      "C": "The driver's vehicle registration papers.",
+      "D": "A refund button."
+    },
+    "answer": "B",
+    "explanation": "Active reading maps the user's issue directly to the first support step: pulling up trip #{id} and checking the GPS logs to see if the driver waited at the correct spot.",
+    "skill": "Action Mapping"
+  },
+  {
+    "id": 91,
+    "question": "A customer sends a long message: 'I was on my way to my wedding anniversary dinner at the Hilton Hotel around 8 PM. The driver Marcus was nice but got lost near the highway. Also, I think I dropped my gold watch in the backseat. I need to get it back immediately because it was a gift.' What is the most critical/urgent issue to address first?",
+    "scenario": "Identifying core issue in verbose message",
+    "options": {
+      "A": "The driver getting lost on the highway.",
+      "B": "The wedding anniversary dinner.",
+      "C": "The lost gold watch in the backseat (urgent lost item recovery).",
+      "D": "The nice behavior of Driver Marcus."
+    },
+    "answer": "C",
+    "explanation": "Active reading requires distinguishing between background details (anniversary, nice driver, wrong route) and the urgent, actionable issue (a high-value lost item: a gold watch).",
+    "skill": "Core Issue Identification"
+  },
+  {
+    "id": 92,
+    "question": "A user writes: 'My card was charged R120 for a ride in Seoul yesterday, but I was at home sleeping! I didn't authorize this! This is fraud! Lock my account!' What is the customer's emotional subtext and requested action?",
+    "scenario": "Reading emotional state & goal",
+    "options": {
+      "A": "The user is calm and wants a receipt.",
+      "B": "The user is highly anxious/angry about fraud, and wants their account secured and the charge investigated.",
+      "C": "The user is happy and wants to book another ride.",
+      "D": "The user is testing our system."
+    },
+    "answer": "B",
+    "explanation": "Active reading involves recognizing the emotional state (highly anxious/angry, using exclamation marks) and the explicit request (unauthorized charge check and account security).",
+    "skill": "Emotion & Goal Identification"
+  },
+  {
+    "id": 93,
+    "question": "A passenger messages: 'I requested a ride to the airport for my daughter named Emily. She is waiting near the Starbucks with a blue suitcase. The driver Carlos drove past without picking her up.' What are the key details for the driver search?",
+    "scenario": "Extracting pickup details",
+    "options": {
+      "A": "The passenger is the writer, waiting inside Starbucks.",
+      "B": "The passenger is Emily, waiting near Starbucks with a blue suitcase.",
+      "C": "The passenger is Carlos, waiting at the airport.",
+      "D": "The daughter has no luggage."
+    },
+    "answer": "B",
+    "explanation": "Active reading requires identifying that the account holder is not the passenger. The passenger is Emily, located near Starbucks with a blue suitcase.",
+    "skill": "Detail Extraction"
+  },
+  {
+    "id": 94,
+    "question": "A rider messages: 'I got into the car and it smelled like smoke. I asked the driver to roll down the windows, but he refused. Then he took a longer route which cost me ₦8000 more than the upfront fare.' What are the two distinct issues here?",
+    "scenario": "Analyzing multi-issue complaints",
+    "options": {
+      "A": "Smell of smoke and driver's nice rating.",
+      "B": "Vehicle cleanliness/driver service issue (smoke and windows) AND a billing route dispute (overcharge).",
+      "C": "The app glitching and the weather.",
+      "D": "There is only one issue: the route detour."
+    },
+    "answer": "B",
+    "explanation": "The rider has complained about driver quality/behavior (refusing to open windows in a smoky car) and a financial discrepancy (route detour overcharge). Both must be addressed in your response.",
+    "skill": "Multi-issue Analysis"
+  },
+  {
+    "id": 95,
+    "question": "A customer writes: 'I need to dispute my fare for trip #512110. I was charged $5.00 for a cancellation fee, but the driver never arrived at the terminal.' What is the primary data you must pull up first?",
+    "scenario": "Action mapping from text",
+    "options": {
+      "A": "The customer's email subscription history.",
+      "B": "The GPS log and status of trip #512110 to verify if the driver reached the pickup pin.",
+      "C": "The driver's vehicle registration papers.",
+      "D": "A refund button."
+    },
+    "answer": "B",
+    "explanation": "Active reading maps the user's issue directly to the first support step: pulling up trip #{id} and checking the GPS logs to see if the driver waited at the correct spot.",
+    "skill": "Action Mapping"
+  },
+  {
+    "id": 96,
+    "question": "A customer sends a long message: 'I was on my way to my wedding anniversary dinner at the Hilton Hotel around 8 PM. The driver Marcus was nice but got lost near the highway. Also, I think I dropped my gold watch in the backseat. I need to get it back immediately because it was a gift.' What is the most critical/urgent issue to address first?",
+    "scenario": "Identifying core issue in verbose message",
+    "options": {
+      "A": "The driver getting lost on the highway.",
+      "B": "The wedding anniversary dinner.",
+      "C": "The lost gold watch in the backseat (urgent lost item recovery).",
+      "D": "The nice behavior of Driver Marcus."
+    },
+    "answer": "C",
+    "explanation": "Active reading requires distinguishing between background details (anniversary, nice driver, wrong route) and the urgent, actionable issue (a high-value lost item: a gold watch).",
+    "skill": "Core Issue Identification"
+  },
+  {
+    "id": 97,
+    "question": "A user writes: 'My card was charged ₦4500 for a ride in Lagos yesterday, but I was at home sleeping! I didn't authorize this! This is fraud! Lock my account!' What is the customer's emotional subtext and requested action?",
+    "scenario": "Reading emotional state & goal",
+    "options": {
+      "A": "The user is calm and wants a receipt.",
+      "B": "The user is highly anxious/angry about fraud, and wants their account secured and the charge investigated.",
+      "C": "The user is happy and wants to book another ride.",
+      "D": "The user is testing our system."
+    },
+    "answer": "B",
+    "explanation": "Active reading involves recognizing the emotional state (highly anxious/angry, using exclamation marks) and the explicit request (unauthorized charge check and account security).",
+    "skill": "Emotion & Goal Identification"
+  },
+  {
+    "id": 98,
+    "question": "A passenger messages: 'I requested a ride to the airport for my daughter named Emily. She is waiting near the Starbucks with a blue suitcase. The driver Carlos drove past without picking her up.' What are the key details for the driver search?",
+    "scenario": "Extracting pickup details",
+    "options": {
+      "A": "The passenger is the writer, waiting inside Starbucks.",
+      "B": "The passenger is Emily, waiting near Starbucks with a blue suitcase.",
+      "C": "The passenger is Carlos, waiting at the airport.",
+      "D": "The daughter has no luggage."
+    },
+    "answer": "B",
+    "explanation": "Active reading requires identifying that the account holder is not the passenger. The passenger is Emily, located near Starbucks with a blue suitcase.",
+    "skill": "Detail Extraction"
+  },
+  {
+    "id": 99,
+    "question": "A rider messages: 'I got into the car and it smelled like smoke. I asked the driver to roll down the windows, but he refused. Then he took a longer route which cost me KSh 500 more than the upfront fare.' What are the two distinct issues here?",
+    "scenario": "Analyzing multi-issue complaints",
+    "options": {
+      "A": "Smell of smoke and driver's nice rating.",
+      "B": "Vehicle cleanliness/driver service issue (smoke and windows) AND a billing route dispute (overcharge).",
+      "C": "The app glitching and the weather.",
+      "D": "There is only one issue: the route detour."
+    },
+    "answer": "B",
+    "explanation": "The rider has complained about driver quality/behavior (refusing to open windows in a smoky car) and a financial discrepancy (route detour overcharge). Both must be addressed in your response.",
+    "skill": "Multi-issue Analysis"
+  },
+  {
+    "id": 100,
+    "question": "A customer writes: 'I need to dispute my fare for trip #576703. I was charged R120 for a cancellation fee, but the driver never arrived at the terminal.' What is the primary data you must pull up first?",
+    "scenario": "Action mapping from text",
+    "options": {
+      "A": "The customer's email subscription history.",
+      "B": "The GPS log and status of trip #576703 to verify if the driver reached the pickup pin.",
+      "C": "The driver's vehicle registration papers.",
+      "D": "A refund button."
+    },
+    "answer": "B",
+    "explanation": "Active reading maps the user's issue directly to the first support step: pulling up trip #{id} and checking the GPS logs to see if the driver waited at the correct spot.",
+    "skill": "Action Mapping"
+  },
+  {
+    "id": 101,
+    "question": "A customer sends a long message: 'I was on my way to my wedding anniversary dinner at the Grand Theater around 8 PM. The driver Marcus was nice but got lost near the highway. Also, I think I dropped my gold watch in the backseat. I need to get it back immediately because it was a gift.' What is the most critical/urgent issue to address first?",
+    "scenario": "Identifying core issue in verbose message",
+    "options": {
+      "A": "The driver getting lost on the highway.",
+      "B": "The wedding anniversary dinner.",
+      "C": "The lost gold watch in the backseat (urgent lost item recovery).",
+      "D": "The nice behavior of Driver Marcus."
+    },
+    "answer": "C",
+    "explanation": "Active reading requires distinguishing between background details (anniversary, nice driver, wrong route) and the urgent, actionable issue (a high-value lost item: a gold watch).",
+    "skill": "Core Issue Identification"
+  },
+  {
+    "id": 102,
+    "question": "A user writes: 'My card was charged $45.00 for a ride in Berlin yesterday, but I was at home sleeping! I didn't authorize this! This is fraud! Lock my account!' What is the customer's emotional subtext and requested action?",
+    "scenario": "Reading emotional state & goal",
+    "options": {
+      "A": "The user is calm and wants a receipt.",
+      "B": "The user is highly anxious/angry about fraud, and wants their account secured and the charge investigated.",
+      "C": "The user is happy and wants to book another ride.",
+      "D": "The user is testing our system."
+    },
+    "answer": "B",
+    "explanation": "Active reading involves recognizing the emotional state (highly anxious/angry, using exclamation marks) and the explicit request (unauthorized charge check and account security).",
+    "skill": "Emotion & Goal Identification"
+  },
+  {
+    "id": 103,
+    "question": "A passenger messages: 'I requested a ride to the airport for my daughter named Emily. She is waiting near the Starbucks with a blue suitcase. The driver Carlos drove past without picking her up.' What are the key details for the driver search?",
+    "scenario": "Extracting pickup details",
+    "options": {
+      "A": "The passenger is the writer, waiting inside Starbucks.",
+      "B": "The passenger is Emily, waiting near Starbucks with a blue suitcase.",
+      "C": "The passenger is Carlos, waiting at the airport.",
+      "D": "The daughter has no luggage."
+    },
+    "answer": "B",
+    "explanation": "Active reading requires identifying that the account holder is not the passenger. The passenger is Emily, located near Starbucks with a blue suitcase.",
+    "skill": "Detail Extraction"
+  },
+  {
+    "id": 104,
+    "question": "A rider messages: 'I got into the car and it smelled like smoke. I asked the driver to roll down the windows, but he refused. Then he took a longer route which cost me £6.00 more than the upfront fare.' What are the two distinct issues here?",
+    "scenario": "Analyzing multi-issue complaints",
+    "options": {
+      "A": "Smell of smoke and driver's nice rating.",
+      "B": "Vehicle cleanliness/driver service issue (smoke and windows) AND a billing route dispute (overcharge).",
+      "C": "The app glitching and the weather.",
+      "D": "There is only one issue: the route detour."
+    },
+    "answer": "B",
+    "explanation": "The rider has complained about driver quality/behavior (refusing to open windows in a smoky car) and a financial discrepancy (route detour overcharge). Both must be addressed in your response.",
+    "skill": "Multi-issue Analysis"
+  },
+  {
+    "id": 105,
+    "question": "A customer writes: 'I need to dispute my fare for trip #230730. I was charged $5.00 for a cancellation fee, but the driver never arrived at the terminal.' What is the primary data you must pull up first?",
+    "scenario": "Action mapping from text",
+    "options": {
+      "A": "The customer's email subscription history.",
+      "B": "The GPS log and status of trip #230730 to verify if the driver reached the pickup pin.",
+      "C": "The driver's vehicle registration papers.",
+      "D": "A refund button."
+    },
+    "answer": "B",
+    "explanation": "Active reading maps the user's issue directly to the first support step: pulling up trip #{id} and checking the GPS logs to see if the driver waited at the correct spot.",
+    "skill": "Action Mapping"
+  },
+  {
+    "id": 106,
+    "question": "A customer sends a long message: 'I was on my way to my wedding anniversary dinner at the Hilton Hotel around 8 PM. The driver Marcus was nice but got lost near the highway. Also, I think I dropped my gold watch in the backseat. I need to get it back immediately because it was a gift.' What is the most critical/urgent issue to address first?",
+    "scenario": "Identifying core issue in verbose message",
+    "options": {
+      "A": "The driver getting lost on the highway.",
+      "B": "The wedding anniversary dinner.",
+      "C": "The lost gold watch in the backseat (urgent lost item recovery).",
+      "D": "The nice behavior of Driver Marcus."
+    },
+    "answer": "C",
+    "explanation": "Active reading requires distinguishing between background details (anniversary, nice driver, wrong route) and the urgent, actionable issue (a high-value lost item: a gold watch).",
+    "skill": "Core Issue Identification"
+  },
+  {
+    "id": 107,
+    "question": "A user writes: 'My card was charged $15.00 for a ride in Nairobi yesterday, but I was at home sleeping! I didn't authorize this! This is fraud! Lock my account!' What is the customer's emotional subtext and requested action?",
+    "scenario": "Reading emotional state & goal",
+    "options": {
+      "A": "The user is calm and wants a receipt.",
+      "B": "The user is highly anxious/angry about fraud, and wants their account secured and the charge investigated.",
+      "C": "The user is happy and wants to book another ride.",
+      "D": "The user is testing our system."
+    },
+    "answer": "B",
+    "explanation": "Active reading involves recognizing the emotional state (highly anxious/angry, using exclamation marks) and the explicit request (unauthorized charge check and account security).",
+    "skill": "Emotion & Goal Identification"
+  },
+  {
+    "id": 108,
+    "question": "A passenger messages: 'I requested a ride to the airport for my daughter named Emily. She is waiting near the Starbucks with a blue suitcase. The driver Carlos drove past without picking her up.' What are the key details for the driver search?",
+    "scenario": "Extracting pickup details",
+    "options": {
+      "A": "The passenger is the writer, waiting inside Starbucks.",
+      "B": "The passenger is Emily, waiting near Starbucks with a blue suitcase.",
+      "C": "The passenger is Carlos, waiting at the airport.",
+      "D": "The daughter has no luggage."
+    },
+    "answer": "B",
+    "explanation": "Active reading requires identifying that the account holder is not the passenger. The passenger is Emily, located near Starbucks with a blue suitcase.",
+    "skill": "Detail Extraction"
+  },
+  {
+    "id": 109,
+    "question": "A rider messages: 'I got into the car and it smelled like smoke. I asked the driver to roll down the windows, but he refused. Then he took a longer route which cost me $25.00 more than the upfront fare.' What are the two distinct issues here?",
+    "scenario": "Analyzing multi-issue complaints",
+    "options": {
+      "A": "Smell of smoke and driver's nice rating.",
+      "B": "Vehicle cleanliness/driver service issue (smoke and windows) AND a billing route dispute (overcharge).",
+      "C": "The app glitching and the weather.",
+      "D": "There is only one issue: the route detour."
+    },
+    "answer": "B",
+    "explanation": "The rider has complained about driver quality/behavior (refusing to open windows in a smoky car) and a financial discrepancy (route detour overcharge). Both must be addressed in your response.",
+    "skill": "Multi-issue Analysis"
+  },
+  {
+    "id": 110,
+    "question": "A customer writes: 'I need to dispute my fare for trip #191375. I was charged £6.00 for a cancellation fee, but the driver never arrived at the terminal.' What is the primary data you must pull up first?",
+    "scenario": "Action mapping from text",
+    "options": {
+      "A": "The customer's email subscription history.",
+      "B": "The GPS log and status of trip #191375 to verify if the driver reached the pickup pin.",
+      "C": "The driver's vehicle registration papers.",
+      "D": "A refund button."
+    },
+    "answer": "B",
+    "explanation": "Active reading maps the user's issue directly to the first support step: pulling up trip #{id} and checking the GPS logs to see if the driver waited at the correct spot.",
+    "skill": "Action Mapping"
+  },
+  {
+    "id": 111,
+    "question": "A customer sends a long message: 'I was on my way to my wedding anniversary dinner at the Hilton Hotel around 8 PM. The driver Marcus was nice but got lost near the highway. Also, I think I dropped my gold watch in the backseat. I need to get it back immediately because it was a gift.' What is the most critical/urgent issue to address first?",
+    "scenario": "Identifying core issue in verbose message",
+    "options": {
+      "A": "The driver getting lost on the highway.",
+      "B": "The wedding anniversary dinner.",
+      "C": "The lost gold watch in the backseat (urgent lost item recovery).",
+      "D": "The nice behavior of Driver Marcus."
+    },
+    "answer": "C",
+    "explanation": "Active reading requires distinguishing between background details (anniversary, nice driver, wrong route) and the urgent, actionable issue (a high-value lost item: a gold watch).",
+    "skill": "Core Issue Identification"
+  },
+  {
+    "id": 112,
+    "question": "A user writes: 'My card was charged $45.00 for a ride in Nairobi yesterday, but I was at home sleeping! I didn't authorize this! This is fraud! Lock my account!' What is the customer's emotional subtext and requested action?",
+    "scenario": "Reading emotional state & goal",
+    "options": {
+      "A": "The user is calm and wants a receipt.",
+      "B": "The user is highly anxious/angry about fraud, and wants their account secured and the charge investigated.",
+      "C": "The user is happy and wants to book another ride.",
+      "D": "The user is testing our system."
+    },
+    "answer": "B",
+    "explanation": "Active reading involves recognizing the emotional state (highly anxious/angry, using exclamation marks) and the explicit request (unauthorized charge check and account security).",
+    "skill": "Emotion & Goal Identification"
+  },
+  {
+    "id": 113,
+    "question": "A passenger messages: 'I requested a ride to the airport for my daughter named Emily. She is waiting near the Starbucks with a blue suitcase. The driver Carlos drove past without picking her up.' What are the key details for the driver search?",
+    "scenario": "Extracting pickup details",
+    "options": {
+      "A": "The passenger is the writer, waiting inside Starbucks.",
+      "B": "The passenger is Emily, waiting near Starbucks with a blue suitcase.",
+      "C": "The passenger is Carlos, waiting at the airport.",
+      "D": "The daughter has no luggage."
+    },
+    "answer": "B",
+    "explanation": "Active reading requires identifying that the account holder is not the passenger. The passenger is Emily, located near Starbucks with a blue suitcase.",
+    "skill": "Detail Extraction"
+  },
+  {
+    "id": 114,
+    "question": "A rider messages: 'I got into the car and it smelled like smoke. I asked the driver to roll down the windows, but he refused. Then he took a longer route which cost me £12.00 more than the upfront fare.' What are the two distinct issues here?",
+    "scenario": "Analyzing multi-issue complaints",
+    "options": {
+      "A": "Smell of smoke and driver's nice rating.",
+      "B": "Vehicle cleanliness/driver service issue (smoke and windows) AND a billing route dispute (overcharge).",
+      "C": "The app glitching and the weather.",
+      "D": "There is only one issue: the route detour."
+    },
+    "answer": "B",
+    "explanation": "The rider has complained about driver quality/behavior (refusing to open windows in a smoky car) and a financial discrepancy (route detour overcharge). Both must be addressed in your response.",
+    "skill": "Multi-issue Analysis"
+  },
+  {
+    "id": 115,
+    "question": "A customer writes: 'I need to dispute my fare for trip #761138. I was charged KSh 500 for a cancellation fee, but the driver never arrived at the terminal.' What is the primary data you must pull up first?",
+    "scenario": "Action mapping from text",
+    "options": {
+      "A": "The customer's email subscription history.",
+      "B": "The GPS log and status of trip #761138 to verify if the driver reached the pickup pin.",
+      "C": "The driver's vehicle registration papers.",
+      "D": "A refund button."
+    },
+    "answer": "B",
+    "explanation": "Active reading maps the user's issue directly to the first support step: pulling up trip #{id} and checking the GPS logs to see if the driver waited at the correct spot.",
+    "skill": "Action Mapping"
+  },
+  {
+    "id": 116,
+    "question": "A customer sends a long message: 'I was on my way to my wedding anniversary dinner at the Science Museum around 8 PM. The driver Marcus was nice but got lost near the highway. Also, I think I dropped my gold watch in the backseat. I need to get it back immediately because it was a gift.' What is the most critical/urgent issue to address first?",
+    "scenario": "Identifying core issue in verbose message",
+    "options": {
+      "A": "The driver getting lost on the highway.",
+      "B": "The wedding anniversary dinner.",
+      "C": "The lost gold watch in the backseat (urgent lost item recovery).",
+      "D": "The nice behavior of Driver Marcus."
+    },
+    "answer": "C",
+    "explanation": "Active reading requires distinguishing between background details (anniversary, nice driver, wrong route) and the urgent, actionable issue (a high-value lost item: a gold watch).",
+    "skill": "Core Issue Identification"
+  },
+  {
+    "id": 117,
+    "question": "A user writes: 'My card was charged R250 for a ride in New York yesterday, but I was at home sleeping! I didn't authorize this! This is fraud! Lock my account!' What is the customer's emotional subtext and requested action?",
+    "scenario": "Reading emotional state & goal",
+    "options": {
+      "A": "The user is calm and wants a receipt.",
+      "B": "The user is highly anxious/angry about fraud, and wants their account secured and the charge investigated.",
+      "C": "The user is happy and wants to book another ride.",
+      "D": "The user is testing our system."
+    },
+    "answer": "B",
+    "explanation": "Active reading involves recognizing the emotional state (highly anxious/angry, using exclamation marks) and the explicit request (unauthorized charge check and account security).",
+    "skill": "Emotion & Goal Identification"
+  },
+  {
+    "id": 118,
+    "question": "A passenger messages: 'I requested a ride to the airport for my daughter named Emily. She is waiting near the Starbucks with a blue suitcase. The driver Carlos drove past without picking her up.' What are the key details for the driver search?",
+    "scenario": "Extracting pickup details",
+    "options": {
+      "A": "The passenger is the writer, waiting inside Starbucks.",
+      "B": "The passenger is Emily, waiting near Starbucks with a blue suitcase.",
+      "C": "The passenger is Carlos, waiting at the airport.",
+      "D": "The daughter has no luggage."
+    },
+    "answer": "B",
+    "explanation": "Active reading requires identifying that the account holder is not the passenger. The passenger is Emily, located near Starbucks with a blue suitcase.",
+    "skill": "Detail Extraction"
+  },
+  {
+    "id": 119,
+    "question": "A rider messages: 'I got into the car and it smelled like smoke. I asked the driver to roll down the windows, but he refused. Then he took a longer route which cost me $25.00 more than the upfront fare.' What are the two distinct issues here?",
+    "scenario": "Analyzing multi-issue complaints",
+    "options": {
+      "A": "Smell of smoke and driver's nice rating.",
+      "B": "Vehicle cleanliness/driver service issue (smoke and windows) AND a billing route dispute (overcharge).",
+      "C": "The app glitching and the weather.",
+      "D": "There is only one issue: the route detour."
+    },
+    "answer": "B",
+    "explanation": "The rider has complained about driver quality/behavior (refusing to open windows in a smoky car) and a financial discrepancy (route detour overcharge). Both must be addressed in your response.",
+    "skill": "Multi-issue Analysis"
+  },
+  {
+    "id": 120,
+    "question": "A customer writes: 'I need to dispute my fare for trip #974273. I was charged €8.50 for a cancellation fee, but the driver never arrived at the terminal.' What is the primary data you must pull up first?",
+    "scenario": "Action mapping from text",
+    "options": {
+      "A": "The customer's email subscription history.",
+      "B": "The GPS log and status of trip #974273 to verify if the driver reached the pickup pin.",
+      "C": "The driver's vehicle registration papers.",
+      "D": "A refund button."
+    },
+    "answer": "B",
+    "explanation": "Active reading maps the user's issue directly to the first support step: pulling up trip #{id} and checking the GPS logs to see if the driver waited at the correct spot.",
+    "skill": "Action Mapping"
+  },
+  {
+    "id": 121,
+    "question": "A customer sends a long message: 'I was on my way to my wedding anniversary dinner at the Science Museum around 8 PM. The driver Marcus was nice but got lost near the highway. Also, I think I dropped my gold watch in the backseat. I need to get it back immediately because it was a gift.' What is the most critical/urgent issue to address first?",
+    "scenario": "Identifying core issue in verbose message",
+    "options": {
+      "A": "The driver getting lost on the highway.",
+      "B": "The wedding anniversary dinner.",
+      "C": "The lost gold watch in the backseat (urgent lost item recovery).",
+      "D": "The nice behavior of Driver Marcus."
+    },
+    "answer": "C",
+    "explanation": "Active reading requires distinguishing between background details (anniversary, nice driver, wrong route) and the urgent, actionable issue (a high-value lost item: a gold watch).",
+    "skill": "Core Issue Identification"
+  },
+  {
+    "id": 122,
+    "question": "A user writes: 'My card was charged $75.00 for a ride in Lagos yesterday, but I was at home sleeping! I didn't authorize this! This is fraud! Lock my account!' What is the customer's emotional subtext and requested action?",
+    "scenario": "Reading emotional state & goal",
+    "options": {
+      "A": "The user is calm and wants a receipt.",
+      "B": "The user is highly anxious/angry about fraud, and wants their account secured and the charge investigated.",
+      "C": "The user is happy and wants to book another ride.",
+      "D": "The user is testing our system."
+    },
+    "answer": "B",
+    "explanation": "Active reading involves recognizing the emotional state (highly anxious/angry, using exclamation marks) and the explicit request (unauthorized charge check and account security).",
+    "skill": "Emotion & Goal Identification"
+  },
+  {
+    "id": 123,
+    "question": "A passenger messages: 'I requested a ride to the airport for my daughter named Emily. She is waiting near the Starbucks with a blue suitcase. The driver Carlos drove past without picking her up.' What are the key details for the driver search?",
+    "scenario": "Extracting pickup details",
+    "options": {
+      "A": "The passenger is the writer, waiting inside Starbucks.",
+      "B": "The passenger is Emily, waiting near Starbucks with a blue suitcase.",
+      "C": "The passenger is Carlos, waiting at the airport.",
+      "D": "The daughter has no luggage."
+    },
+    "answer": "B",
+    "explanation": "Active reading requires identifying that the account holder is not the passenger. The passenger is Emily, located near Starbucks with a blue suitcase.",
+    "skill": "Detail Extraction"
+  },
+  {
+    "id": 124,
+    "question": "A rider messages: 'I got into the car and it smelled like smoke. I asked the driver to roll down the windows, but he refused. Then he took a longer route which cost me ₦8000 more than the upfront fare.' What are the two distinct issues here?",
+    "scenario": "Analyzing multi-issue complaints",
+    "options": {
+      "A": "Smell of smoke and driver's nice rating.",
+      "B": "Vehicle cleanliness/driver service issue (smoke and windows) AND a billing route dispute (overcharge).",
+      "C": "The app glitching and the weather.",
+      "D": "There is only one issue: the route detour."
+    },
+    "answer": "B",
+    "explanation": "The rider has complained about driver quality/behavior (refusing to open windows in a smoky car) and a financial discrepancy (route detour overcharge). Both must be addressed in your response.",
+    "skill": "Multi-issue Analysis"
+  },
+  {
+    "id": 125,
+    "question": "A customer writes: 'I need to dispute my fare for trip #236085. I was charged ₦8000 for a cancellation fee, but the driver never arrived at the terminal.' What is the primary data you must pull up first?",
+    "scenario": "Action mapping from text",
+    "options": {
+      "A": "The customer's email subscription history.",
+      "B": "The GPS log and status of trip #236085 to verify if the driver reached the pickup pin.",
+      "C": "The driver's vehicle registration papers.",
+      "D": "A refund button."
+    },
+    "answer": "B",
+    "explanation": "Active reading maps the user's issue directly to the first support step: pulling up trip #{id} and checking the GPS logs to see if the driver waited at the correct spot.",
+    "skill": "Action Mapping"
+  },
+  {
+    "id": 126,
+    "question": "A customer sends a long message: 'I was on my way to my wedding anniversary dinner at the Hilton Hotel around 8 PM. The driver Marcus was nice but got lost near the highway. Also, I think I dropped my gold watch in the backseat. I need to get it back immediately because it was a gift.' What is the most critical/urgent issue to address first?",
+    "scenario": "Identifying core issue in verbose message",
+    "options": {
+      "A": "The driver getting lost on the highway.",
+      "B": "The wedding anniversary dinner.",
+      "C": "The lost gold watch in the backseat (urgent lost item recovery).",
+      "D": "The nice behavior of Driver Marcus."
+    },
+    "answer": "C",
+    "explanation": "Active reading requires distinguishing between background details (anniversary, nice driver, wrong route) and the urgent, actionable issue (a high-value lost item: a gold watch).",
+    "skill": "Core Issue Identification"
+  },
+  {
+    "id": 127,
+    "question": "A user writes: 'My card was charged $45.00 for a ride in New York yesterday, but I was at home sleeping! I didn't authorize this! This is fraud! Lock my account!' What is the customer's emotional subtext and requested action?",
+    "scenario": "Reading emotional state & goal",
+    "options": {
+      "A": "The user is calm and wants a receipt.",
+      "B": "The user is highly anxious/angry about fraud, and wants their account secured and the charge investigated.",
+      "C": "The user is happy and wants to book another ride.",
+      "D": "The user is testing our system."
+    },
+    "answer": "B",
+    "explanation": "Active reading involves recognizing the emotional state (highly anxious/angry, using exclamation marks) and the explicit request (unauthorized charge check and account security).",
+    "skill": "Emotion & Goal Identification"
+  },
+  {
+    "id": 128,
+    "question": "A passenger messages: 'I requested a ride to the airport for my daughter named Emily. She is waiting near the Starbucks with a blue suitcase. The driver Carlos drove past without picking her up.' What are the key details for the driver search?",
+    "scenario": "Extracting pickup details",
+    "options": {
+      "A": "The passenger is the writer, waiting inside Starbucks.",
+      "B": "The passenger is Emily, waiting near Starbucks with a blue suitcase.",
+      "C": "The passenger is Carlos, waiting at the airport.",
+      "D": "The daughter has no luggage."
+    },
+    "answer": "B",
+    "explanation": "Active reading requires identifying that the account holder is not the passenger. The passenger is Emily, located near Starbucks with a blue suitcase.",
+    "skill": "Detail Extraction"
+  },
+  {
+    "id": 129,
+    "question": "A rider messages: 'I got into the car and it smelled like smoke. I asked the driver to roll down the windows, but he refused. Then he took a longer route which cost me R120 more than the upfront fare.' What are the two distinct issues here?",
+    "scenario": "Analyzing multi-issue complaints",
+    "options": {
+      "A": "Smell of smoke and driver's nice rating.",
+      "B": "Vehicle cleanliness/driver service issue (smoke and windows) AND a billing route dispute (overcharge).",
+      "C": "The app glitching and the weather.",
+      "D": "There is only one issue: the route detour."
+    },
+    "answer": "B",
+    "explanation": "The rider has complained about driver quality/behavior (refusing to open windows in a smoky car) and a financial discrepancy (route detour overcharge). Both must be addressed in your response.",
+    "skill": "Multi-issue Analysis"
+  },
+  {
+    "id": 130,
+    "question": "A customer writes: 'I need to dispute my fare for trip #572398. I was charged €30.00 for a cancellation fee, but the driver never arrived at the terminal.' What is the primary data you must pull up first?",
+    "scenario": "Action mapping from text",
+    "options": {
+      "A": "The customer's email subscription history.",
+      "B": "The GPS log and status of trip #572398 to verify if the driver reached the pickup pin.",
+      "C": "The driver's vehicle registration papers.",
+      "D": "A refund button."
+    },
+    "answer": "B",
+    "explanation": "Active reading maps the user's issue directly to the first support step: pulling up trip #{id} and checking the GPS logs to see if the driver waited at the correct spot.",
+    "skill": "Action Mapping"
+  },
+  {
+    "id": 131,
+    "question": "A customer sends a long message: 'I was on my way to my wedding anniversary dinner at the Science Museum around 8 PM. The driver Marcus was nice but got lost near the highway. Also, I think I dropped my gold watch in the backseat. I need to get it back immediately because it was a gift.' What is the most critical/urgent issue to address first?",
+    "scenario": "Identifying core issue in verbose message",
+    "options": {
+      "A": "The driver getting lost on the highway.",
+      "B": "The wedding anniversary dinner.",
+      "C": "The lost gold watch in the backseat (urgent lost item recovery).",
+      "D": "The nice behavior of Driver Marcus."
+    },
+    "answer": "C",
+    "explanation": "Active reading requires distinguishing between background details (anniversary, nice driver, wrong route) and the urgent, actionable issue (a high-value lost item: a gold watch).",
+    "skill": "Core Issue Identification"
+  },
+  {
+    "id": 132,
+    "question": "A user writes: 'My card was charged €30.00 for a ride in London yesterday, but I was at home sleeping! I didn't authorize this! This is fraud! Lock my account!' What is the customer's emotional subtext and requested action?",
+    "scenario": "Reading emotional state & goal",
+    "options": {
+      "A": "The user is calm and wants a receipt.",
+      "B": "The user is highly anxious/angry about fraud, and wants their account secured and the charge investigated.",
+      "C": "The user is happy and wants to book another ride.",
+      "D": "The user is testing our system."
+    },
+    "answer": "B",
+    "explanation": "Active reading involves recognizing the emotional state (highly anxious/angry, using exclamation marks) and the explicit request (unauthorized charge check and account security).",
+    "skill": "Emotion & Goal Identification"
+  },
+  {
+    "id": 133,
+    "question": "A passenger messages: 'I requested a ride to the airport for my daughter named Emily. She is waiting near the Starbucks with a blue suitcase. The driver Carlos drove past without picking her up.' What are the key details for the driver search?",
+    "scenario": "Extracting pickup details",
+    "options": {
+      "A": "The passenger is the writer, waiting inside Starbucks.",
+      "B": "The passenger is Emily, waiting near Starbucks with a blue suitcase.",
+      "C": "The passenger is Carlos, waiting at the airport.",
+      "D": "The daughter has no luggage."
+    },
+    "answer": "B",
+    "explanation": "Active reading requires identifying that the account holder is not the passenger. The passenger is Emily, located near Starbucks with a blue suitcase.",
+    "skill": "Detail Extraction"
+  },
+  {
+    "id": 134,
+    "question": "A rider messages: 'I got into the car and it smelled like smoke. I asked the driver to roll down the windows, but he refused. Then he took a longer route which cost me $5.00 more than the upfront fare.' What are the two distinct issues here?",
+    "scenario": "Analyzing multi-issue complaints",
+    "options": {
+      "A": "Smell of smoke and driver's nice rating.",
+      "B": "Vehicle cleanliness/driver service issue (smoke and windows) AND a billing route dispute (overcharge).",
+      "C": "The app glitching and the weather.",
+      "D": "There is only one issue: the route detour."
+    },
+    "answer": "B",
+    "explanation": "The rider has complained about driver quality/behavior (refusing to open windows in a smoky car) and a financial discrepancy (route detour overcharge). Both must be addressed in your response.",
+    "skill": "Multi-issue Analysis"
+  },
+  {
+    "id": 135,
+    "question": "A customer writes: 'I need to dispute my fare for trip #131538. I was charged €8.50 for a cancellation fee, but the driver never arrived at the terminal.' What is the primary data you must pull up first?",
+    "scenario": "Action mapping from text",
+    "options": {
+      "A": "The customer's email subscription history.",
+      "B": "The GPS log and status of trip #131538 to verify if the driver reached the pickup pin.",
+      "C": "The driver's vehicle registration papers.",
+      "D": "A refund button."
+    },
+    "answer": "B",
+    "explanation": "Active reading maps the user's issue directly to the first support step: pulling up trip #{id} and checking the GPS logs to see if the driver waited at the correct spot.",
+    "skill": "Action Mapping"
+  },
+  {
+    "id": 136,
+    "question": "A customer sends a long message: 'I was on my way to my wedding anniversary dinner at the Hilton Hotel around 8 PM. The driver Marcus was nice but got lost near the highway. Also, I think I dropped my gold watch in the backseat. I need to get it back immediately because it was a gift.' What is the most critical/urgent issue to address first?",
+    "scenario": "Identifying core issue in verbose message",
+    "options": {
+      "A": "The driver getting lost on the highway.",
+      "B": "The wedding anniversary dinner.",
+      "C": "The lost gold watch in the backseat (urgent lost item recovery).",
+      "D": "The nice behavior of Driver Marcus."
+    },
+    "answer": "C",
+    "explanation": "Active reading requires distinguishing between background details (anniversary, nice driver, wrong route) and the urgent, actionable issue (a high-value lost item: a gold watch).",
+    "skill": "Core Issue Identification"
+  },
+  {
+    "id": 137,
+    "question": "A user writes: 'My card was charged $10.00 for a ride in London yesterday, but I was at home sleeping! I didn't authorize this! This is fraud! Lock my account!' What is the customer's emotional subtext and requested action?",
+    "scenario": "Reading emotional state & goal",
+    "options": {
+      "A": "The user is calm and wants a receipt.",
+      "B": "The user is highly anxious/angry about fraud, and wants their account secured and the charge investigated.",
+      "C": "The user is happy and wants to book another ride.",
+      "D": "The user is testing our system."
+    },
+    "answer": "B",
+    "explanation": "Active reading involves recognizing the emotional state (highly anxious/angry, using exclamation marks) and the explicit request (unauthorized charge check and account security).",
+    "skill": "Emotion & Goal Identification"
+  },
+  {
+    "id": 138,
+    "question": "A passenger messages: 'I requested a ride to the airport for my daughter named Emily. She is waiting near the Starbucks with a blue suitcase. The driver Carlos drove past without picking her up.' What are the key details for the driver search?",
+    "scenario": "Extracting pickup details",
+    "options": {
+      "A": "The passenger is the writer, waiting inside Starbucks.",
+      "B": "The passenger is Emily, waiting near Starbucks with a blue suitcase.",
+      "C": "The passenger is Carlos, waiting at the airport.",
+      "D": "The daughter has no luggage."
+    },
+    "answer": "B",
+    "explanation": "Active reading requires identifying that the account holder is not the passenger. The passenger is Emily, located near Starbucks with a blue suitcase.",
+    "skill": "Detail Extraction"
+  },
+  {
+    "id": 139,
+    "question": "A rider messages: 'I got into the car and it smelled like smoke. I asked the driver to roll down the windows, but he refused. Then he took a longer route which cost me $75.00 more than the upfront fare.' What are the two distinct issues here?",
+    "scenario": "Analyzing multi-issue complaints",
+    "options": {
+      "A": "Smell of smoke and driver's nice rating.",
+      "B": "Vehicle cleanliness/driver service issue (smoke and windows) AND a billing route dispute (overcharge).",
+      "C": "The app glitching and the weather.",
+      "D": "There is only one issue: the route detour."
+    },
+    "answer": "B",
+    "explanation": "The rider has complained about driver quality/behavior (refusing to open windows in a smoky car) and a financial discrepancy (route detour overcharge). Both must be addressed in your response.",
+    "skill": "Multi-issue Analysis"
+  },
+  {
+    "id": 140,
+    "question": "A customer writes: 'I need to dispute my fare for trip #281680. I was charged $5.00 for a cancellation fee, but the driver never arrived at the terminal.' What is the primary data you must pull up first?",
+    "scenario": "Action mapping from text",
+    "options": {
+      "A": "The customer's email subscription history.",
+      "B": "The GPS log and status of trip #281680 to verify if the driver reached the pickup pin.",
+      "C": "The driver's vehicle registration papers.",
+      "D": "A refund button."
+    },
+    "answer": "B",
+    "explanation": "Active reading maps the user's issue directly to the first support step: pulling up trip #{id} and checking the GPS logs to see if the driver waited at the correct spot.",
+    "skill": "Action Mapping"
+  },
+  {
+    "id": 141,
+    "question": "A customer sends a long message: 'I was on my way to my wedding anniversary dinner at the Science Museum around 8 PM. The driver Marcus was nice but got lost near the highway. Also, I think I dropped my gold watch in the backseat. I need to get it back immediately because it was a gift.' What is the most critical/urgent issue to address first?",
+    "scenario": "Identifying core issue in verbose message",
+    "options": {
+      "A": "The driver getting lost on the highway.",
+      "B": "The wedding anniversary dinner.",
+      "C": "The lost gold watch in the backseat (urgent lost item recovery).",
+      "D": "The nice behavior of Driver Marcus."
+    },
+    "answer": "C",
+    "explanation": "Active reading requires distinguishing between background details (anniversary, nice driver, wrong route) and the urgent, actionable issue (a high-value lost item: a gold watch).",
+    "skill": "Core Issue Identification"
+  },
+  {
+    "id": 142,
+    "question": "A user writes: 'My card was charged $25.00 for a ride in Paris yesterday, but I was at home sleeping! I didn't authorize this! This is fraud! Lock my account!' What is the customer's emotional subtext and requested action?",
+    "scenario": "Reading emotional state & goal",
+    "options": {
+      "A": "The user is calm and wants a receipt.",
+      "B": "The user is highly anxious/angry about fraud, and wants their account secured and the charge investigated.",
+      "C": "The user is happy and wants to book another ride.",
+      "D": "The user is testing our system."
+    },
+    "answer": "B",
+    "explanation": "Active reading involves recognizing the emotional state (highly anxious/angry, using exclamation marks) and the explicit request (unauthorized charge check and account security).",
+    "skill": "Emotion & Goal Identification"
+  },
+  {
+    "id": 143,
+    "question": "A passenger messages: 'I requested a ride to the airport for my daughter named Emily. She is waiting near the Starbucks with a blue suitcase. The driver Carlos drove past without picking her up.' What are the key details for the driver search?",
+    "scenario": "Extracting pickup details",
+    "options": {
+      "A": "The passenger is the writer, waiting inside Starbucks.",
+      "B": "The passenger is Emily, waiting near Starbucks with a blue suitcase.",
+      "C": "The passenger is Carlos, waiting at the airport.",
+      "D": "The daughter has no luggage."
+    },
+    "answer": "B",
+    "explanation": "Active reading requires identifying that the account holder is not the passenger. The passenger is Emily, located near Starbucks with a blue suitcase.",
+    "skill": "Detail Extraction"
+  },
+  {
+    "id": 144,
+    "question": "A rider messages: 'I got into the car and it smelled like smoke. I asked the driver to roll down the windows, but he refused. Then he took a longer route which cost me €30.00 more than the upfront fare.' What are the two distinct issues here?",
+    "scenario": "Analyzing multi-issue complaints",
+    "options": {
+      "A": "Smell of smoke and driver's nice rating.",
+      "B": "Vehicle cleanliness/driver service issue (smoke and windows) AND a billing route dispute (overcharge).",
+      "C": "The app glitching and the weather.",
+      "D": "There is only one issue: the route detour."
+    },
+    "answer": "B",
+    "explanation": "The rider has complained about driver quality/behavior (refusing to open windows in a smoky car) and a financial discrepancy (route detour overcharge). Both must be addressed in your response.",
+    "skill": "Multi-issue Analysis"
+  },
+  {
+    "id": 145,
+    "question": "A customer writes: 'I need to dispute my fare for trip #836837. I was charged R120 for a cancellation fee, but the driver never arrived at the terminal.' What is the primary data you must pull up first?",
+    "scenario": "Action mapping from text",
+    "options": {
+      "A": "The customer's email subscription history.",
+      "B": "The GPS log and status of trip #836837 to verify if the driver reached the pickup pin.",
+      "C": "The driver's vehicle registration papers.",
+      "D": "A refund button."
+    },
+    "answer": "B",
+    "explanation": "Active reading maps the user's issue directly to the first support step: pulling up trip #{id} and checking the GPS logs to see if the driver waited at the correct spot.",
+    "skill": "Action Mapping"
+  },
+  {
+    "id": 146,
+    "question": "A customer sends a long message: 'I was on my way to my wedding anniversary dinner at the Central Plaza around 8 PM. The driver Marcus was nice but got lost near the highway. Also, I think I dropped my gold watch in the backseat. I need to get it back immediately because it was a gift.' What is the most critical/urgent issue to address first?",
+    "scenario": "Identifying core issue in verbose message",
+    "options": {
+      "A": "The driver getting lost on the highway.",
+      "B": "The wedding anniversary dinner.",
+      "C": "The lost gold watch in the backseat (urgent lost item recovery).",
+      "D": "The nice behavior of Driver Marcus."
+    },
+    "answer": "C",
+    "explanation": "Active reading requires distinguishing between background details (anniversary, nice driver, wrong route) and the urgent, actionable issue (a high-value lost item: a gold watch).",
+    "skill": "Core Issue Identification"
+  },
+  {
+    "id": 147,
+    "question": "A user writes: 'My card was charged €8.50 for a ride in Paris yesterday, but I was at home sleeping! I didn't authorize this! This is fraud! Lock my account!' What is the customer's emotional subtext and requested action?",
+    "scenario": "Reading emotional state & goal",
+    "options": {
+      "A": "The user is calm and wants a receipt.",
+      "B": "The user is highly anxious/angry about fraud, and wants their account secured and the charge investigated.",
+      "C": "The user is happy and wants to book another ride.",
+      "D": "The user is testing our system."
+    },
+    "answer": "B",
+    "explanation": "Active reading involves recognizing the emotional state (highly anxious/angry, using exclamation marks) and the explicit request (unauthorized charge check and account security).",
+    "skill": "Emotion & Goal Identification"
+  },
+  {
+    "id": 148,
+    "question": "A passenger messages: 'I requested a ride to the airport for my daughter named Emily. She is waiting near the Starbucks with a blue suitcase. The driver Carlos drove past without picking her up.' What are the key details for the driver search?",
+    "scenario": "Extracting pickup details",
+    "options": {
+      "A": "The passenger is the writer, waiting inside Starbucks.",
+      "B": "The passenger is Emily, waiting near Starbucks with a blue suitcase.",
+      "C": "The passenger is Carlos, waiting at the airport.",
+      "D": "The daughter has no luggage."
+    },
+    "answer": "B",
+    "explanation": "Active reading requires identifying that the account holder is not the passenger. The passenger is Emily, located near Starbucks with a blue suitcase.",
+    "skill": "Detail Extraction"
+  },
+  {
+    "id": 149,
+    "question": "A rider messages: 'I got into the car and it smelled like smoke. I asked the driver to roll down the windows, but he refused. Then he took a longer route which cost me KSh 1200 more than the upfront fare.' What are the two distinct issues here?",
+    "scenario": "Analyzing multi-issue complaints",
+    "options": {
+      "A": "Smell of smoke and driver's nice rating.",
+      "B": "Vehicle cleanliness/driver service issue (smoke and windows) AND a billing route dispute (overcharge).",
+      "C": "The app glitching and the weather.",
+      "D": "There is only one issue: the route detour."
+    },
+    "answer": "B",
+    "explanation": "The rider has complained about driver quality/behavior (refusing to open windows in a smoky car) and a financial discrepancy (route detour overcharge). Both must be addressed in your response.",
+    "skill": "Multi-issue Analysis"
+  },
+  {
+    "id": 150,
+    "question": "A customer writes: 'I need to dispute my fare for trip #529450. I was charged £6.00 for a cancellation fee, but the driver never arrived at the terminal.' What is the primary data you must pull up first?",
+    "scenario": "Action mapping from text",
+    "options": {
+      "A": "The customer's email subscription history.",
+      "B": "The GPS log and status of trip #529450 to verify if the driver reached the pickup pin.",
+      "C": "The driver's vehicle registration papers.",
+      "D": "A refund button."
+    },
+    "answer": "B",
+    "explanation": "Active reading maps the user's issue directly to the first support step: pulling up trip #{id} and checking the GPS logs to see if the driver waited at the correct spot.",
+    "skill": "Action Mapping"
+  },
+  {
+    "id": 151,
+    "question": "A customer sends a long message: 'I was on my way to my wedding anniversary dinner at the Central Plaza around 8 PM. The driver Marcus was nice but got lost near the highway. Also, I think I dropped my gold watch in the backseat. I need to get it back immediately because it was a gift.' What is the most critical/urgent issue to address first?",
+    "scenario": "Identifying core issue in verbose message",
+    "options": {
+      "A": "The driver getting lost on the highway.",
+      "B": "The wedding anniversary dinner.",
+      "C": "The lost gold watch in the backseat (urgent lost item recovery).",
+      "D": "The nice behavior of Driver Marcus."
+    },
+    "answer": "C",
+    "explanation": "Active reading requires distinguishing between background details (anniversary, nice driver, wrong route) and the urgent, actionable issue (a high-value lost item: a gold watch).",
+    "skill": "Core Issue Identification"
+  },
+  {
+    "id": 152,
+    "question": "A user writes: 'My card was charged $10.00 for a ride in Chicago yesterday, but I was at home sleeping! I didn't authorize this! This is fraud! Lock my account!' What is the customer's emotional subtext and requested action?",
+    "scenario": "Reading emotional state & goal",
+    "options": {
+      "A": "The user is calm and wants a receipt.",
+      "B": "The user is highly anxious/angry about fraud, and wants their account secured and the charge investigated.",
+      "C": "The user is happy and wants to book another ride.",
+      "D": "The user is testing our system."
+    },
+    "answer": "B",
+    "explanation": "Active reading involves recognizing the emotional state (highly anxious/angry, using exclamation marks) and the explicit request (unauthorized charge check and account security).",
+    "skill": "Emotion & Goal Identification"
+  },
+  {
+    "id": 153,
+    "question": "A passenger messages: 'I requested a ride to the airport for my daughter named Emily. She is waiting near the Starbucks with a blue suitcase. The driver Carlos drove past without picking her up.' What are the key details for the driver search?",
+    "scenario": "Extracting pickup details",
+    "options": {
+      "A": "The passenger is the writer, waiting inside Starbucks.",
+      "B": "The passenger is Emily, waiting near Starbucks with a blue suitcase.",
+      "C": "The passenger is Carlos, waiting at the airport.",
+      "D": "The daughter has no luggage."
+    },
+    "answer": "B",
+    "explanation": "Active reading requires identifying that the account holder is not the passenger. The passenger is Emily, located near Starbucks with a blue suitcase.",
+    "skill": "Detail Extraction"
+  },
+  {
+    "id": 154,
+    "question": "A rider messages: 'I got into the car and it smelled like smoke. I asked the driver to roll down the windows, but he refused. Then he took a longer route which cost me $5.00 more than the upfront fare.' What are the two distinct issues here?",
+    "scenario": "Analyzing multi-issue complaints",
+    "options": {
+      "A": "Smell of smoke and driver's nice rating.",
+      "B": "Vehicle cleanliness/driver service issue (smoke and windows) AND a billing route dispute (overcharge).",
+      "C": "The app glitching and the weather.",
+      "D": "There is only one issue: the route detour."
+    },
+    "answer": "B",
+    "explanation": "The rider has complained about driver quality/behavior (refusing to open windows in a smoky car) and a financial discrepancy (route detour overcharge). Both must be addressed in your response.",
+    "skill": "Multi-issue Analysis"
+  },
+  {
+    "id": 155,
+    "question": "A customer writes: 'I need to dispute my fare for trip #450686. I was charged R250 for a cancellation fee, but the driver never arrived at the terminal.' What is the primary data you must pull up first?",
+    "scenario": "Action mapping from text",
+    "options": {
+      "A": "The customer's email subscription history.",
+      "B": "The GPS log and status of trip #450686 to verify if the driver reached the pickup pin.",
+      "C": "The driver's vehicle registration papers.",
+      "D": "A refund button."
+    },
+    "answer": "B",
+    "explanation": "Active reading maps the user's issue directly to the first support step: pulling up trip #{id} and checking the GPS logs to see if the driver waited at the correct spot.",
+    "skill": "Action Mapping"
+  },
+  {
+    "id": 156,
+    "question": "A customer sends a long message: 'I was on my way to my wedding anniversary dinner at the Science Museum around 8 PM. The driver Marcus was nice but got lost near the highway. Also, I think I dropped my gold watch in the backseat. I need to get it back immediately because it was a gift.' What is the most critical/urgent issue to address first?",
+    "scenario": "Identifying core issue in verbose message",
+    "options": {
+      "A": "The driver getting lost on the highway.",
+      "B": "The wedding anniversary dinner.",
+      "C": "The lost gold watch in the backseat (urgent lost item recovery).",
+      "D": "The nice behavior of Driver Marcus."
+    },
+    "answer": "C",
+    "explanation": "Active reading requires distinguishing between background details (anniversary, nice driver, wrong route) and the urgent, actionable issue (a high-value lost item: a gold watch).",
+    "skill": "Core Issue Identification"
+  },
+  {
+    "id": 157,
+    "question": "A user writes: 'My card was charged $5.00 for a ride in Lagos yesterday, but I was at home sleeping! I didn't authorize this! This is fraud! Lock my account!' What is the customer's emotional subtext and requested action?",
+    "scenario": "Reading emotional state & goal",
+    "options": {
+      "A": "The user is calm and wants a receipt.",
+      "B": "The user is highly anxious/angry about fraud, and wants their account secured and the charge investigated.",
+      "C": "The user is happy and wants to book another ride.",
+      "D": "The user is testing our system."
+    },
+    "answer": "B",
+    "explanation": "Active reading involves recognizing the emotional state (highly anxious/angry, using exclamation marks) and the explicit request (unauthorized charge check and account security).",
+    "skill": "Emotion & Goal Identification"
+  },
+  {
+    "id": 158,
+    "question": "A passenger messages: 'I requested a ride to the airport for my daughter named Emily. She is waiting near the Starbucks with a blue suitcase. The driver Carlos drove past without picking her up.' What are the key details for the driver search?",
+    "scenario": "Extracting pickup details",
+    "options": {
+      "A": "The passenger is the writer, waiting inside Starbucks.",
+      "B": "The passenger is Emily, waiting near Starbucks with a blue suitcase.",
+      "C": "The passenger is Carlos, waiting at the airport.",
+      "D": "The daughter has no luggage."
+    },
+    "answer": "B",
+    "explanation": "Active reading requires identifying that the account holder is not the passenger. The passenger is Emily, located near Starbucks with a blue suitcase.",
+    "skill": "Detail Extraction"
+  },
+  {
+    "id": 159,
+    "question": "A rider messages: 'I got into the car and it smelled like smoke. I asked the driver to roll down the windows, but he refused. Then he took a longer route which cost me €8.50 more than the upfront fare.' What are the two distinct issues here?",
+    "scenario": "Analyzing multi-issue complaints",
+    "options": {
+      "A": "Smell of smoke and driver's nice rating.",
+      "B": "Vehicle cleanliness/driver service issue (smoke and windows) AND a billing route dispute (overcharge).",
+      "C": "The app glitching and the weather.",
+      "D": "There is only one issue: the route detour."
+    },
+    "answer": "B",
+    "explanation": "The rider has complained about driver quality/behavior (refusing to open windows in a smoky car) and a financial discrepancy (route detour overcharge). Both must be addressed in your response.",
+    "skill": "Multi-issue Analysis"
+  },
+  {
+    "id": 160,
+    "question": "A customer writes: 'I need to dispute my fare for trip #219205. I was charged €8.50 for a cancellation fee, but the driver never arrived at the terminal.' What is the primary data you must pull up first?",
+    "scenario": "Action mapping from text",
+    "options": {
+      "A": "The customer's email subscription history.",
+      "B": "The GPS log and status of trip #219205 to verify if the driver reached the pickup pin.",
+      "C": "The driver's vehicle registration papers.",
+      "D": "A refund button."
+    },
+    "answer": "B",
+    "explanation": "Active reading maps the user's issue directly to the first support step: pulling up trip #{id} and checking the GPS logs to see if the driver waited at the correct spot.",
+    "skill": "Action Mapping"
+  },
+  {
+    "id": 161,
+    "question": "A customer sends a long message: 'I was on my way to my wedding anniversary dinner at the Hilton Hotel around 8 PM. The driver Marcus was nice but got lost near the highway. Also, I think I dropped my gold watch in the backseat. I need to get it back immediately because it was a gift.' What is the most critical/urgent issue to address first?",
+    "scenario": "Identifying core issue in verbose message",
+    "options": {
+      "A": "The driver getting lost on the highway.",
+      "B": "The wedding anniversary dinner.",
+      "C": "The lost gold watch in the backseat (urgent lost item recovery).",
+      "D": "The nice behavior of Driver Marcus."
+    },
+    "answer": "C",
+    "explanation": "Active reading requires distinguishing between background details (anniversary, nice driver, wrong route) and the urgent, actionable issue (a high-value lost item: a gold watch).",
+    "skill": "Core Issue Identification"
+  },
+  {
+    "id": 162,
+    "question": "A user writes: 'My card was charged $10.00 for a ride in London yesterday, but I was at home sleeping! I didn't authorize this! This is fraud! Lock my account!' What is the customer's emotional subtext and requested action?",
+    "scenario": "Reading emotional state & goal",
+    "options": {
+      "A": "The user is calm and wants a receipt.",
+      "B": "The user is highly anxious/angry about fraud, and wants their account secured and the charge investigated.",
+      "C": "The user is happy and wants to book another ride.",
+      "D": "The user is testing our system."
+    },
+    "answer": "B",
+    "explanation": "Active reading involves recognizing the emotional state (highly anxious/angry, using exclamation marks) and the explicit request (unauthorized charge check and account security).",
+    "skill": "Emotion & Goal Identification"
+  },
+  {
+    "id": 163,
+    "question": "A passenger messages: 'I requested a ride to the airport for my daughter named Emily. She is waiting near the Starbucks with a blue suitcase. The driver Carlos drove past without picking her up.' What are the key details for the driver search?",
+    "scenario": "Extracting pickup details",
+    "options": {
+      "A": "The passenger is the writer, waiting inside Starbucks.",
+      "B": "The passenger is Emily, waiting near Starbucks with a blue suitcase.",
+      "C": "The passenger is Carlos, waiting at the airport.",
+      "D": "The daughter has no luggage."
+    },
+    "answer": "B",
+    "explanation": "Active reading requires identifying that the account holder is not the passenger. The passenger is Emily, located near Starbucks with a blue suitcase.",
+    "skill": "Detail Extraction"
+  },
+  {
+    "id": 164,
+    "question": "A rider messages: 'I got into the car and it smelled like smoke. I asked the driver to roll down the windows, but he refused. Then he took a longer route which cost me KSh 500 more than the upfront fare.' What are the two distinct issues here?",
+    "scenario": "Analyzing multi-issue complaints",
+    "options": {
+      "A": "Smell of smoke and driver's nice rating.",
+      "B": "Vehicle cleanliness/driver service issue (smoke and windows) AND a billing route dispute (overcharge).",
+      "C": "The app glitching and the weather.",
+      "D": "There is only one issue: the route detour."
+    },
+    "answer": "B",
+    "explanation": "The rider has complained about driver quality/behavior (refusing to open windows in a smoky car) and a financial discrepancy (route detour overcharge). Both must be addressed in your response.",
+    "skill": "Multi-issue Analysis"
+  },
+  {
+    "id": 165,
+    "question": "A customer writes: 'I need to dispute my fare for trip #497207. I was charged €30.00 for a cancellation fee, but the driver never arrived at the terminal.' What is the primary data you must pull up first?",
+    "scenario": "Action mapping from text",
+    "options": {
+      "A": "The customer's email subscription history.",
+      "B": "The GPS log and status of trip #497207 to verify if the driver reached the pickup pin.",
+      "C": "The driver's vehicle registration papers.",
+      "D": "A refund button."
+    },
+    "answer": "B",
+    "explanation": "Active reading maps the user's issue directly to the first support step: pulling up trip #{id} and checking the GPS logs to see if the driver waited at the correct spot.",
+    "skill": "Action Mapping"
+  },
+  {
+    "id": 166,
+    "question": "A customer sends a long message: 'I was on my way to my wedding anniversary dinner at the Grand Theater around 8 PM. The driver Marcus was nice but got lost near the highway. Also, I think I dropped my gold watch in the backseat. I need to get it back immediately because it was a gift.' What is the most critical/urgent issue to address first?",
+    "scenario": "Identifying core issue in verbose message",
+    "options": {
+      "A": "The driver getting lost on the highway.",
+      "B": "The wedding anniversary dinner.",
+      "C": "The lost gold watch in the backseat (urgent lost item recovery).",
+      "D": "The nice behavior of Driver Marcus."
+    },
+    "answer": "C",
+    "explanation": "Active reading requires distinguishing between background details (anniversary, nice driver, wrong route) and the urgent, actionable issue (a high-value lost item: a gold watch).",
+    "skill": "Core Issue Identification"
+  },
+  {
+    "id": 167,
+    "question": "A user writes: 'My card was charged $75.00 for a ride in Singapore yesterday, but I was at home sleeping! I didn't authorize this! This is fraud! Lock my account!' What is the customer's emotional subtext and requested action?",
+    "scenario": "Reading emotional state & goal",
+    "options": {
+      "A": "The user is calm and wants a receipt.",
+      "B": "The user is highly anxious/angry about fraud, and wants their account secured and the charge investigated.",
+      "C": "The user is happy and wants to book another ride.",
+      "D": "The user is testing our system."
+    },
+    "answer": "B",
+    "explanation": "Active reading involves recognizing the emotional state (highly anxious/angry, using exclamation marks) and the explicit request (unauthorized charge check and account security).",
+    "skill": "Emotion & Goal Identification"
+  },
+  {
+    "id": 168,
+    "question": "A passenger messages: 'I requested a ride to the airport for my daughter named Emily. She is waiting near the Starbucks with a blue suitcase. The driver Carlos drove past without picking her up.' What are the key details for the driver search?",
+    "scenario": "Extracting pickup details",
+    "options": {
+      "A": "The passenger is the writer, waiting inside Starbucks.",
+      "B": "The passenger is Emily, waiting near Starbucks with a blue suitcase.",
+      "C": "The passenger is Carlos, waiting at the airport.",
+      "D": "The daughter has no luggage."
+    },
+    "answer": "B",
+    "explanation": "Active reading requires identifying that the account holder is not the passenger. The passenger is Emily, located near Starbucks with a blue suitcase.",
+    "skill": "Detail Extraction"
+  },
+  {
+    "id": 169,
+    "question": "A rider messages: 'I got into the car and it smelled like smoke. I asked the driver to roll down the windows, but he refused. Then he took a longer route which cost me €8.50 more than the upfront fare.' What are the two distinct issues here?",
+    "scenario": "Analyzing multi-issue complaints",
+    "options": {
+      "A": "Smell of smoke and driver's nice rating.",
+      "B": "Vehicle cleanliness/driver service issue (smoke and windows) AND a billing route dispute (overcharge).",
+      "C": "The app glitching and the weather.",
+      "D": "There is only one issue: the route detour."
+    },
+    "answer": "B",
+    "explanation": "The rider has complained about driver quality/behavior (refusing to open windows in a smoky car) and a financial discrepancy (route detour overcharge). Both must be addressed in your response.",
+    "skill": "Multi-issue Analysis"
+  },
+  {
+    "id": 170,
+    "question": "A customer writes: 'I need to dispute my fare for trip #394809. I was charged KSh 500 for a cancellation fee, but the driver never arrived at the terminal.' What is the primary data you must pull up first?",
+    "scenario": "Action mapping from text",
+    "options": {
+      "A": "The customer's email subscription history.",
+      "B": "The GPS log and status of trip #394809 to verify if the driver reached the pickup pin.",
+      "C": "The driver's vehicle registration papers.",
+      "D": "A refund button."
+    },
+    "answer": "B",
+    "explanation": "Active reading maps the user's issue directly to the first support step: pulling up trip #{id} and checking the GPS logs to see if the driver waited at the correct spot.",
+    "skill": "Action Mapping"
+  },
+  {
+    "id": 171,
+    "question": "A customer sends a long message: 'I was on my way to my wedding anniversary dinner at the Central Plaza around 8 PM. The driver Marcus was nice but got lost near the highway. Also, I think I dropped my gold watch in the backseat. I need to get it back immediately because it was a gift.' What is the most critical/urgent issue to address first?",
+    "scenario": "Identifying core issue in verbose message",
+    "options": {
+      "A": "The driver getting lost on the highway.",
+      "B": "The wedding anniversary dinner.",
+      "C": "The lost gold watch in the backseat (urgent lost item recovery).",
+      "D": "The nice behavior of Driver Marcus."
+    },
+    "answer": "C",
+    "explanation": "Active reading requires distinguishing between background details (anniversary, nice driver, wrong route) and the urgent, actionable issue (a high-value lost item: a gold watch).",
+    "skill": "Core Issue Identification"
+  },
+  {
+    "id": 172,
+    "question": "A user writes: 'My card was charged R120 for a ride in New York yesterday, but I was at home sleeping! I didn't authorize this! This is fraud! Lock my account!' What is the customer's emotional subtext and requested action?",
+    "scenario": "Reading emotional state & goal",
+    "options": {
+      "A": "The user is calm and wants a receipt.",
+      "B": "The user is highly anxious/angry about fraud, and wants their account secured and the charge investigated.",
+      "C": "The user is happy and wants to book another ride.",
+      "D": "The user is testing our system."
+    },
+    "answer": "B",
+    "explanation": "Active reading involves recognizing the emotional state (highly anxious/angry, using exclamation marks) and the explicit request (unauthorized charge check and account security).",
+    "skill": "Emotion & Goal Identification"
+  },
+  {
+    "id": 173,
+    "question": "A passenger messages: 'I requested a ride to the airport for my daughter named Emily. She is waiting near the Starbucks with a blue suitcase. The driver Carlos drove past without picking her up.' What are the key details for the driver search?",
+    "scenario": "Extracting pickup details",
+    "options": {
+      "A": "The passenger is the writer, waiting inside Starbucks.",
+      "B": "The passenger is Emily, waiting near Starbucks with a blue suitcase.",
+      "C": "The passenger is Carlos, waiting at the airport.",
+      "D": "The daughter has no luggage."
+    },
+    "answer": "B",
+    "explanation": "Active reading requires identifying that the account holder is not the passenger. The passenger is Emily, located near Starbucks with a blue suitcase.",
+    "skill": "Detail Extraction"
+  },
+  {
+    "id": 174,
+    "question": "A rider messages: 'I got into the car and it smelled like smoke. I asked the driver to roll down the windows, but he refused. Then he took a longer route which cost me £12.00 more than the upfront fare.' What are the two distinct issues here?",
+    "scenario": "Analyzing multi-issue complaints",
+    "options": {
+      "A": "Smell of smoke and driver's nice rating.",
+      "B": "Vehicle cleanliness/driver service issue (smoke and windows) AND a billing route dispute (overcharge).",
+      "C": "The app glitching and the weather.",
+      "D": "There is only one issue: the route detour."
+    },
+    "answer": "B",
+    "explanation": "The rider has complained about driver quality/behavior (refusing to open windows in a smoky car) and a financial discrepancy (route detour overcharge). Both must be addressed in your response.",
+    "skill": "Multi-issue Analysis"
+  },
+  {
+    "id": 175,
+    "question": "A customer writes: 'I need to dispute my fare for trip #529806. I was charged $75.00 for a cancellation fee, but the driver never arrived at the terminal.' What is the primary data you must pull up first?",
+    "scenario": "Action mapping from text",
+    "options": {
+      "A": "The customer's email subscription history.",
+      "B": "The GPS log and status of trip #529806 to verify if the driver reached the pickup pin.",
+      "C": "The driver's vehicle registration papers.",
+      "D": "A refund button."
+    },
+    "answer": "B",
+    "explanation": "Active reading maps the user's issue directly to the first support step: pulling up trip #{id} and checking the GPS logs to see if the driver waited at the correct spot.",
+    "skill": "Action Mapping"
+  },
+  {
+    "id": 176,
+    "question": "A customer sends a long message: 'I was on my way to my wedding anniversary dinner at the Hilton Hotel around 8 PM. The driver Marcus was nice but got lost near the highway. Also, I think I dropped my gold watch in the backseat. I need to get it back immediately because it was a gift.' What is the most critical/urgent issue to address first?",
+    "scenario": "Identifying core issue in verbose message",
+    "options": {
+      "A": "The driver getting lost on the highway.",
+      "B": "The wedding anniversary dinner.",
+      "C": "The lost gold watch in the backseat (urgent lost item recovery).",
+      "D": "The nice behavior of Driver Marcus."
+    },
+    "answer": "C",
+    "explanation": "Active reading requires distinguishing between background details (anniversary, nice driver, wrong route) and the urgent, actionable issue (a high-value lost item: a gold watch).",
+    "skill": "Core Issue Identification"
+  },
+  {
+    "id": 177,
+    "question": "A user writes: 'My card was charged $10.00 for a ride in London yesterday, but I was at home sleeping! I didn't authorize this! This is fraud! Lock my account!' What is the customer's emotional subtext and requested action?",
+    "scenario": "Reading emotional state & goal",
+    "options": {
+      "A": "The user is calm and wants a receipt.",
+      "B": "The user is highly anxious/angry about fraud, and wants their account secured and the charge investigated.",
+      "C": "The user is happy and wants to book another ride.",
+      "D": "The user is testing our system."
+    },
+    "answer": "B",
+    "explanation": "Active reading involves recognizing the emotional state (highly anxious/angry, using exclamation marks) and the explicit request (unauthorized charge check and account security).",
+    "skill": "Emotion & Goal Identification"
+  },
+  {
+    "id": 178,
+    "question": "A passenger messages: 'I requested a ride to the airport for my daughter named Emily. She is waiting near the Starbucks with a blue suitcase. The driver Carlos drove past without picking her up.' What are the key details for the driver search?",
+    "scenario": "Extracting pickup details",
+    "options": {
+      "A": "The passenger is the writer, waiting inside Starbucks.",
+      "B": "The passenger is Emily, waiting near Starbucks with a blue suitcase.",
+      "C": "The passenger is Carlos, waiting at the airport.",
+      "D": "The daughter has no luggage."
+    },
+    "answer": "B",
+    "explanation": "Active reading requires identifying that the account holder is not the passenger. The passenger is Emily, located near Starbucks with a blue suitcase.",
+    "skill": "Detail Extraction"
+  },
+  {
+    "id": 179,
+    "question": "A rider messages: 'I got into the car and it smelled like smoke. I asked the driver to roll down the windows, but he refused. Then he took a longer route which cost me £6.00 more than the upfront fare.' What are the two distinct issues here?",
+    "scenario": "Analyzing multi-issue complaints",
+    "options": {
+      "A": "Smell of smoke and driver's nice rating.",
+      "B": "Vehicle cleanliness/driver service issue (smoke and windows) AND a billing route dispute (overcharge).",
+      "C": "The app glitching and the weather.",
+      "D": "There is only one issue: the route detour."
+    },
+    "answer": "B",
+    "explanation": "The rider has complained about driver quality/behavior (refusing to open windows in a smoky car) and a financial discrepancy (route detour overcharge). Both must be addressed in your response.",
+    "skill": "Multi-issue Analysis"
+  },
+  {
+    "id": 180,
+    "question": "A customer writes: 'I need to dispute my fare for trip #145689. I was charged $5.00 for a cancellation fee, but the driver never arrived at the terminal.' What is the primary data you must pull up first?",
+    "scenario": "Action mapping from text",
+    "options": {
+      "A": "The customer's email subscription history.",
+      "B": "The GPS log and status of trip #145689 to verify if the driver reached the pickup pin.",
+      "C": "The driver's vehicle registration papers.",
+      "D": "A refund button."
+    },
+    "answer": "B",
+    "explanation": "Active reading maps the user's issue directly to the first support step: pulling up trip #{id} and checking the GPS logs to see if the driver waited at the correct spot.",
+    "skill": "Action Mapping"
+  },
+  {
+    "id": 181,
+    "question": "A customer sends a long message: 'I was on my way to my wedding anniversary dinner at the Hilton Hotel around 8 PM. The driver Marcus was nice but got lost near the highway. Also, I think I dropped my gold watch in the backseat. I need to get it back immediately because it was a gift.' What is the most critical/urgent issue to address first?",
+    "scenario": "Identifying core issue in verbose message",
+    "options": {
+      "A": "The driver getting lost on the highway.",
+      "B": "The wedding anniversary dinner.",
+      "C": "The lost gold watch in the backseat (urgent lost item recovery).",
+      "D": "The nice behavior of Driver Marcus."
+    },
+    "answer": "C",
+    "explanation": "Active reading requires distinguishing between background details (anniversary, nice driver, wrong route) and the urgent, actionable issue (a high-value lost item: a gold watch).",
+    "skill": "Core Issue Identification"
+  },
+  {
+    "id": 182,
+    "question": "A user writes: 'My card was charged ₦8000 for a ride in Austin yesterday, but I was at home sleeping! I didn't authorize this! This is fraud! Lock my account!' What is the customer's emotional subtext and requested action?",
+    "scenario": "Reading emotional state & goal",
+    "options": {
+      "A": "The user is calm and wants a receipt.",
+      "B": "The user is highly anxious/angry about fraud, and wants their account secured and the charge investigated.",
+      "C": "The user is happy and wants to book another ride.",
+      "D": "The user is testing our system."
+    },
+    "answer": "B",
+    "explanation": "Active reading involves recognizing the emotional state (highly anxious/angry, using exclamation marks) and the explicit request (unauthorized charge check and account security).",
+    "skill": "Emotion & Goal Identification"
+  },
+  {
+    "id": 183,
+    "question": "A passenger messages: 'I requested a ride to the airport for my daughter named Emily. She is waiting near the Starbucks with a blue suitcase. The driver Carlos drove past without picking her up.' What are the key details for the driver search?",
+    "scenario": "Extracting pickup details",
+    "options": {
+      "A": "The passenger is the writer, waiting inside Starbucks.",
+      "B": "The passenger is Emily, waiting near Starbucks with a blue suitcase.",
+      "C": "The passenger is Carlos, waiting at the airport.",
+      "D": "The daughter has no luggage."
+    },
+    "answer": "B",
+    "explanation": "Active reading requires identifying that the account holder is not the passenger. The passenger is Emily, located near Starbucks with a blue suitcase.",
+    "skill": "Detail Extraction"
+  },
+  {
+    "id": 184,
+    "question": "A rider messages: 'I got into the car and it smelled like smoke. I asked the driver to roll down the windows, but he refused. Then he took a longer route which cost me KSh 1200 more than the upfront fare.' What are the two distinct issues here?",
+    "scenario": "Analyzing multi-issue complaints",
+    "options": {
+      "A": "Smell of smoke and driver's nice rating.",
+      "B": "Vehicle cleanliness/driver service issue (smoke and windows) AND a billing route dispute (overcharge).",
+      "C": "The app glitching and the weather.",
+      "D": "There is only one issue: the route detour."
+    },
+    "answer": "B",
+    "explanation": "The rider has complained about driver quality/behavior (refusing to open windows in a smoky car) and a financial discrepancy (route detour overcharge). Both must be addressed in your response.",
+    "skill": "Multi-issue Analysis"
+  },
+  {
+    "id": 185,
+    "question": "A customer writes: 'I need to dispute my fare for trip #785924. I was charged R250 for a cancellation fee, but the driver never arrived at the terminal.' What is the primary data you must pull up first?",
+    "scenario": "Action mapping from text",
+    "options": {
+      "A": "The customer's email subscription history.",
+      "B": "The GPS log and status of trip #785924 to verify if the driver reached the pickup pin.",
+      "C": "The driver's vehicle registration papers.",
+      "D": "A refund button."
+    },
+    "answer": "B",
+    "explanation": "Active reading maps the user's issue directly to the first support step: pulling up trip #{id} and checking the GPS logs to see if the driver waited at the correct spot.",
+    "skill": "Action Mapping"
+  },
+  {
+    "id": 186,
+    "question": "A customer sends a long message: 'I was on my way to my wedding anniversary dinner at the Hilton Hotel around 8 PM. The driver Marcus was nice but got lost near the highway. Also, I think I dropped my gold watch in the backseat. I need to get it back immediately because it was a gift.' What is the most critical/urgent issue to address first?",
+    "scenario": "Identifying core issue in verbose message",
+    "options": {
+      "A": "The driver getting lost on the highway.",
+      "B": "The wedding anniversary dinner.",
+      "C": "The lost gold watch in the backseat (urgent lost item recovery).",
+      "D": "The nice behavior of Driver Marcus."
+    },
+    "answer": "C",
+    "explanation": "Active reading requires distinguishing between background details (anniversary, nice driver, wrong route) and the urgent, actionable issue (a high-value lost item: a gold watch).",
+    "skill": "Core Issue Identification"
+  },
+  {
+    "id": 187,
+    "question": "A user writes: 'My card was charged £12.00 for a ride in Nairobi yesterday, but I was at home sleeping! I didn't authorize this! This is fraud! Lock my account!' What is the customer's emotional subtext and requested action?",
+    "scenario": "Reading emotional state & goal",
+    "options": {
+      "A": "The user is calm and wants a receipt.",
+      "B": "The user is highly anxious/angry about fraud, and wants their account secured and the charge investigated.",
+      "C": "The user is happy and wants to book another ride.",
+      "D": "The user is testing our system."
+    },
+    "answer": "B",
+    "explanation": "Active reading involves recognizing the emotional state (highly anxious/angry, using exclamation marks) and the explicit request (unauthorized charge check and account security).",
+    "skill": "Emotion & Goal Identification"
+  },
+  {
+    "id": 188,
+    "question": "A passenger messages: 'I requested a ride to the airport for my daughter named Emily. She is waiting near the Starbucks with a blue suitcase. The driver Carlos drove past without picking her up.' What are the key details for the driver search?",
+    "scenario": "Extracting pickup details",
+    "options": {
+      "A": "The passenger is the writer, waiting inside Starbucks.",
+      "B": "The passenger is Emily, waiting near Starbucks with a blue suitcase.",
+      "C": "The passenger is Carlos, waiting at the airport.",
+      "D": "The daughter has no luggage."
+    },
+    "answer": "B",
+    "explanation": "Active reading requires identifying that the account holder is not the passenger. The passenger is Emily, located near Starbucks with a blue suitcase.",
+    "skill": "Detail Extraction"
+  },
+  {
+    "id": 189,
+    "question": "A rider messages: 'I got into the car and it smelled like smoke. I asked the driver to roll down the windows, but he refused. Then he took a longer route which cost me KSh 500 more than the upfront fare.' What are the two distinct issues here?",
+    "scenario": "Analyzing multi-issue complaints",
+    "options": {
+      "A": "Smell of smoke and driver's nice rating.",
+      "B": "Vehicle cleanliness/driver service issue (smoke and windows) AND a billing route dispute (overcharge).",
+      "C": "The app glitching and the weather.",
+      "D": "There is only one issue: the route detour."
+    },
+    "answer": "B",
+    "explanation": "The rider has complained about driver quality/behavior (refusing to open windows in a smoky car) and a financial discrepancy (route detour overcharge). Both must be addressed in your response.",
+    "skill": "Multi-issue Analysis"
+  },
+  {
+    "id": 190,
+    "question": "A customer writes: 'I need to dispute my fare for trip #676086. I was charged R120 for a cancellation fee, but the driver never arrived at the terminal.' What is the primary data you must pull up first?",
+    "scenario": "Action mapping from text",
+    "options": {
+      "A": "The customer's email subscription history.",
+      "B": "The GPS log and status of trip #676086 to verify if the driver reached the pickup pin.",
+      "C": "The driver's vehicle registration papers.",
+      "D": "A refund button."
+    },
+    "answer": "B",
+    "explanation": "Active reading maps the user's issue directly to the first support step: pulling up trip #{id} and checking the GPS logs to see if the driver waited at the correct spot.",
+    "skill": "Action Mapping"
+  },
+  {
+    "id": 191,
+    "question": "A customer sends a long message: 'I was on my way to my wedding anniversary dinner at the Hilton Hotel around 8 PM. The driver Marcus was nice but got lost near the highway. Also, I think I dropped my gold watch in the backseat. I need to get it back immediately because it was a gift.' What is the most critical/urgent issue to address first?",
+    "scenario": "Identifying core issue in verbose message",
+    "options": {
+      "A": "The driver getting lost on the highway.",
+      "B": "The wedding anniversary dinner.",
+      "C": "The lost gold watch in the backseat (urgent lost item recovery).",
+      "D": "The nice behavior of Driver Marcus."
+    },
+    "answer": "C",
+    "explanation": "Active reading requires distinguishing between background details (anniversary, nice driver, wrong route) and the urgent, actionable issue (a high-value lost item: a gold watch).",
+    "skill": "Core Issue Identification"
+  },
+  {
+    "id": 192,
+    "question": "A user writes: 'My card was charged R120 for a ride in Austin yesterday, but I was at home sleeping! I didn't authorize this! This is fraud! Lock my account!' What is the customer's emotional subtext and requested action?",
+    "scenario": "Reading emotional state & goal",
+    "options": {
+      "A": "The user is calm and wants a receipt.",
+      "B": "The user is highly anxious/angry about fraud, and wants their account secured and the charge investigated.",
+      "C": "The user is happy and wants to book another ride.",
+      "D": "The user is testing our system."
+    },
+    "answer": "B",
+    "explanation": "Active reading involves recognizing the emotional state (highly anxious/angry, using exclamation marks) and the explicit request (unauthorized charge check and account security).",
+    "skill": "Emotion & Goal Identification"
+  },
+  {
+    "id": 193,
+    "question": "A passenger messages: 'I requested a ride to the airport for my daughter named Emily. She is waiting near the Starbucks with a blue suitcase. The driver Carlos drove past without picking her up.' What are the key details for the driver search?",
+    "scenario": "Extracting pickup details",
+    "options": {
+      "A": "The passenger is the writer, waiting inside Starbucks.",
+      "B": "The passenger is Emily, waiting near Starbucks with a blue suitcase.",
+      "C": "The passenger is Carlos, waiting at the airport.",
+      "D": "The daughter has no luggage."
+    },
+    "answer": "B",
+    "explanation": "Active reading requires identifying that the account holder is not the passenger. The passenger is Emily, located near Starbucks with a blue suitcase.",
+    "skill": "Detail Extraction"
+  },
+  {
+    "id": 194,
+    "question": "A rider messages: 'I got into the car and it smelled like smoke. I asked the driver to roll down the windows, but he refused. Then he took a longer route which cost me $45.00 more than the upfront fare.' What are the two distinct issues here?",
+    "scenario": "Analyzing multi-issue complaints",
+    "options": {
+      "A": "Smell of smoke and driver's nice rating.",
+      "B": "Vehicle cleanliness/driver service issue (smoke and windows) AND a billing route dispute (overcharge).",
+      "C": "The app glitching and the weather.",
+      "D": "There is only one issue: the route detour."
+    },
+    "answer": "B",
+    "explanation": "The rider has complained about driver quality/behavior (refusing to open windows in a smoky car) and a financial discrepancy (route detour overcharge). Both must be addressed in your response.",
+    "skill": "Multi-issue Analysis"
+  },
+  {
+    "id": 195,
+    "question": "A customer writes: 'I need to dispute my fare for trip #535085. I was charged €15.00 for a cancellation fee, but the driver never arrived at the terminal.' What is the primary data you must pull up first?",
+    "scenario": "Action mapping from text",
+    "options": {
+      "A": "The customer's email subscription history.",
+      "B": "The GPS log and status of trip #535085 to verify if the driver reached the pickup pin.",
+      "C": "The driver's vehicle registration papers.",
+      "D": "A refund button."
+    },
+    "answer": "B",
+    "explanation": "Active reading maps the user's issue directly to the first support step: pulling up trip #{id} and checking the GPS logs to see if the driver waited at the correct spot.",
+    "skill": "Action Mapping"
+  },
+  {
+    "id": 196,
+    "question": "A customer sends a long message: 'I was on my way to my wedding anniversary dinner at the Grand Theater around 8 PM. The driver Marcus was nice but got lost near the highway. Also, I think I dropped my gold watch in the backseat. I need to get it back immediately because it was a gift.' What is the most critical/urgent issue to address first?",
+    "scenario": "Identifying core issue in verbose message",
+    "options": {
+      "A": "The driver getting lost on the highway.",
+      "B": "The wedding anniversary dinner.",
+      "C": "The lost gold watch in the backseat (urgent lost item recovery).",
+      "D": "The nice behavior of Driver Marcus."
+    },
+    "answer": "C",
+    "explanation": "Active reading requires distinguishing between background details (anniversary, nice driver, wrong route) and the urgent, actionable issue (a high-value lost item: a gold watch).",
+    "skill": "Core Issue Identification"
+  },
+  {
+    "id": 197,
+    "question": "A user writes: 'My card was charged ₦8000 for a ride in San Francisco yesterday, but I was at home sleeping! I didn't authorize this! This is fraud! Lock my account!' What is the customer's emotional subtext and requested action?",
+    "scenario": "Reading emotional state & goal",
+    "options": {
+      "A": "The user is calm and wants a receipt.",
+      "B": "The user is highly anxious/angry about fraud, and wants their account secured and the charge investigated.",
+      "C": "The user is happy and wants to book another ride.",
+      "D": "The user is testing our system."
+    },
+    "answer": "B",
+    "explanation": "Active reading involves recognizing the emotional state (highly anxious/angry, using exclamation marks) and the explicit request (unauthorized charge check and account security).",
+    "skill": "Emotion & Goal Identification"
+  },
+  {
+    "id": 198,
+    "question": "A passenger messages: 'I requested a ride to the airport for my daughter named Emily. She is waiting near the Starbucks with a blue suitcase. The driver Carlos drove past without picking her up.' What are the key details for the driver search?",
+    "scenario": "Extracting pickup details",
+    "options": {
+      "A": "The passenger is the writer, waiting inside Starbucks.",
+      "B": "The passenger is Emily, waiting near Starbucks with a blue suitcase.",
+      "C": "The passenger is Carlos, waiting at the airport.",
+      "D": "The daughter has no luggage."
+    },
+    "answer": "B",
+    "explanation": "Active reading requires identifying that the account holder is not the passenger. The passenger is Emily, located near Starbucks with a blue suitcase.",
+    "skill": "Detail Extraction"
+  },
+  {
+    "id": 199,
+    "question": "A rider messages: 'I got into the car and it smelled like smoke. I asked the driver to roll down the windows, but he refused. Then he took a longer route which cost me $15.00 more than the upfront fare.' What are the two distinct issues here?",
+    "scenario": "Analyzing multi-issue complaints",
+    "options": {
+      "A": "Smell of smoke and driver's nice rating.",
+      "B": "Vehicle cleanliness/driver service issue (smoke and windows) AND a billing route dispute (overcharge).",
+      "C": "The app glitching and the weather.",
+      "D": "There is only one issue: the route detour."
+    },
+    "answer": "B",
+    "explanation": "The rider has complained about driver quality/behavior (refusing to open windows in a smoky car) and a financial discrepancy (route detour overcharge). Both must be addressed in your response.",
+    "skill": "Multi-issue Analysis"
+  },
+  {
+    "id": 200,
+    "question": "A customer writes: 'I need to dispute my fare for trip #452341. I was charged $25.00 for a cancellation fee, but the driver never arrived at the terminal.' What is the primary data you must pull up first?",
+    "scenario": "Action mapping from text",
+    "options": {
+      "A": "The customer's email subscription history.",
+      "B": "The GPS log and status of trip #452341 to verify if the driver reached the pickup pin.",
+      "C": "The driver's vehicle registration papers.",
+      "D": "A refund button."
+    },
+    "answer": "B",
+    "explanation": "Active reading maps the user's issue directly to the first support step: pulling up trip #{id} and checking the GPS logs to see if the driver waited at the correct spot.",
+    "skill": "Action Mapping"
+  }
+]
