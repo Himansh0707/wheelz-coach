@@ -1,0 +1,2802 @@
+[
+  {
+    "id": 1,
+    "question": "A European customer named Emma writes: 'I left my keys in the boot of the vehicle.' What does 'boot' refer to?",
+    "scenario": "European terminology query",
+    "options": {
+      "A": "The driver's footwear.",
+      "B": "The glove compartment.",
+      "C": "The trunk of the car.",
+      "D": "The back seat."
+    },
+    "answer": "C",
+    "explanation": "In UK and parts of Europe, 'boot' is used to refer to the trunk of a car. Knowing regional terms prevents confusion.",
+    "skill": "European Terminology"
+  },
+  {
+    "id": 2,
+    "question": "A client from Germany asks for a complete invoice detailing the VAT charges. What is the most appropriate professional response?",
+    "scenario": "Invoice and VAT request",
+    "options": {
+      "A": "We don't send invoices. You can see it on the screen.",
+      "B": "Sure, Isabella. I have generated your official VAT invoice for trip #622476 and emailed it to your registered address in PDF format.",
+      "C": "Invoices are only for premium users. Please upgrade.",
+      "D": "Please write a physical letter to our headquarters for VAT details."
+    },
+    "answer": "B",
+    "explanation": "European customers, especially in Germany, are highly detail-oriented and often need PDF invoices with VAT (Value Added Tax) details for expense tracking.",
+    "skill": "Professional Support"
+  },
+  {
+    "id": 3,
+    "question": "Under GDPR regulations, a customer named Thomas from Seoul asks: 'Please delete all my personal data and trip history from your systems.' How must you handle this?",
+    "scenario": "GDPR data deletion request",
+    "options": {
+      "A": "Delete the account immediately without verification.",
+      "B": "Explain that we cannot delete data due to tax rules and ignore the request.",
+      "C": "Acknowledge the request politely, verify their identity, and guide them through our official GDPR privacy portal or escalate to the Privacy Team.",
+      "D": "Tell them to delete the app and the data will delete itself."
+    },
+    "answer": "C",
+    "explanation": "GDPR compliance is critical in Europe. Requests for data deletion (Right to Be Forgotten) must be handled through verified privacy protocols or escalated to privacy specialists.",
+    "skill": "Privacy & GDPR Compliance"
+  },
+  {
+    "id": 4,
+    "question": "A French passenger named Anna writes: 'The driver was extremely discourteous and didn't greet me when I entered.' What is the best tone to use?",
+    "scenario": "European courtesy complaint",
+    "options": {
+      "A": "Say: 'Drivers are not required to greet you. They just drive.'",
+      "B": "Say: 'I apologize for the lack of courtesy, Anna. Professionalism and respect are very important to us. I will record this feedback to review the driver's service.'",
+      "C": "Say: 'Maybe the driver was in a bad mood, let it go.'",
+      "D": "Say: 'I will deactivate the driver immediately.'"
+    },
+    "answer": "B",
+    "explanation": "European customers expect polite, structured, and formal customer service. Validate their expectation of courtesy and log the feedback formally.",
+    "skill": "Tone & Courtesy"
+  },
+  {
+    "id": 5,
+    "question": "A customer in London writes: 'I was charged extra because the driver got stuck at a roundabout.' What is a 'roundabout'?",
+    "scenario": "UK terminology",
+    "options": {
+      "A": "A circular intersection or traffic circle.",
+      "B": "A dead end street.",
+      "C": "A highway toll booth.",
+      "D": "A construction zone."
+    },
+    "answer": "A",
+    "explanation": "'Roundabout' is the British term for a circular road junction (traffic circle).",
+    "skill": "UK English Vocabulary"
+  },
+  {
+    "id": 6,
+    "question": "A customer in Berlin says: 'The driver refused to take my dog. I am blind and this was a guide dog.' What is the correct policy?",
+    "scenario": "Service animal policy in EU",
+    "options": {
+      "A": "Tell them drivers can choose whether to allow animals or not.",
+      "B": "Under the law and Uber policy, service animals must be accommodated. Acknowledge this immediately, apologize, refund any cancellation fee, and escalate to the compliance team.",
+      "C": "Tell them to book a special animal ride and pay extra.",
+      "D": "Ask them to prove their blindness first."
+    },
+    "answer": "B",
+    "explanation": "Service animal accommodation is a legal requirement in Europe (e.g. UK Equality Act). Refusal of a guide dog is a severe policy violation and must be escalated.",
+    "skill": "Policy & Legal Compliance"
+  },
+  {
+    "id": 7,
+    "question": "A European customer messages: 'I'm queueing for a taxi because my Uber never showed up.' What does 'queueing' mean?",
+    "scenario": "UK slang",
+    "options": {
+      "A": "Waiting in a line.",
+      "B": "Paying with cash.",
+      "C": "Calling the police.",
+      "D": "Writing a review."
+    },
+    "answer": "A",
+    "explanation": "'Queueing' means waiting in a line. In this situation, check the driver's location and issue a refund/credit if the driver cancelled incorrectly.",
+    "skill": "UK English Vocabulary"
+  },
+  {
+    "id": 8,
+    "question": "A customer from Tokyo writes: 'I am on holiday and the driver refused to put my heavy cases in the bonnet.' What is wrong with the customer's request?",
+    "scenario": "Car parts vocabulary check",
+    "options": {
+      "A": "Heavy cases belong in the boot (trunk), not the bonnet (hood), which covers the engine.",
+      "B": "Passengers must carry all bags on their laps.",
+      "C": "Uber does not allow heavy luggage.",
+      "D": "The bonnet is the passenger seat."
+    },
+    "answer": "A",
+    "explanation": "In UK/EU, 'bonnet' is the car hood (covering the engine). Luggage goes in the 'boot' (trunk). Politely clarify if there was a language/parts confusion.",
+    "skill": "Vehicle Terminology"
+  },
+  {
+    "id": 9,
+    "question": "A customer from the Netherlands writes: 'Your driver drove past the roundabout and took a petrol station exit.' What does 'petrol' mean?",
+    "scenario": "EU vocabulary",
+    "options": {
+      "A": "Diesel engine oil.",
+      "B": "Gasoline (gas).",
+      "C": "Electric charging station.",
+      "D": "A restaurant."
+    },
+    "answer": "B",
+    "explanation": "'Petrol' is the British/European term for gasoline.",
+    "skill": "Language Differences"
+  },
+  {
+    "id": 10,
+    "question": "A customer named Oliver from London writes: 'I received a bill for a toll road, but the driver didn't tell me this route had tolls.' How do you structure your explanation?",
+    "scenario": "Structured billing response",
+    "options": {
+      "A": "Write a short sentence: 'Tolls are added automatically. Bye.'",
+      "B": "Provide a structured, polite breakdown: 1. Confirm the trip ID; 2. Explain how toll fees are calculated and added; 3. Apologize for the lack of communication from the driver.",
+      "C": "Tell them to contact the toll authority directly.",
+      "D": "Offer a full refund of the entire fare to avoid any argument."
+    },
+    "answer": "B",
+    "explanation": "European customers value clear, structured explanations (often numbered or bulleted) that detail the 'why' behind charges.",
+    "skill": "Structured Writing"
+  },
+  {
+    "id": 11,
+    "question": "A European customer named Emma writes: 'I left my jacket in the boot of the vehicle.' What does 'boot' refer to?",
+    "scenario": "European terminology query",
+    "options": {
+      "A": "The driver's footwear.",
+      "B": "The glove compartment.",
+      "C": "The trunk of the car.",
+      "D": "The back seat."
+    },
+    "answer": "C",
+    "explanation": "In UK and parts of Europe, 'boot' is used to refer to the trunk of a car. Knowing regional terms prevents confusion.",
+    "skill": "European Terminology"
+  },
+  {
+    "id": 12,
+    "question": "A client from Germany asks for a complete invoice detailing the VAT charges. What is the most appropriate professional response?",
+    "scenario": "Invoice and VAT request",
+    "options": {
+      "A": "We don't send invoices. You can see it on the screen.",
+      "B": "Sure, Arthur. I have generated your official VAT invoice for trip #274921 and emailed it to your registered address in PDF format.",
+      "C": "Invoices are only for premium users. Please upgrade.",
+      "D": "Please write a physical letter to our headquarters for VAT details."
+    },
+    "answer": "B",
+    "explanation": "European customers, especially in Germany, are highly detail-oriented and often need PDF invoices with VAT (Value Added Tax) details for expense tracking.",
+    "skill": "Professional Support"
+  },
+  {
+    "id": 13,
+    "question": "Under GDPR regulations, a customer named Jean from London asks: 'Please delete all my personal data and trip history from your systems.' How must you handle this?",
+    "scenario": "GDPR data deletion request",
+    "options": {
+      "A": "Delete the account immediately without verification.",
+      "B": "Explain that we cannot delete data due to tax rules and ignore the request.",
+      "C": "Acknowledge the request politely, verify their identity, and guide them through our official GDPR privacy portal or escalate to the Privacy Team.",
+      "D": "Tell them to delete the app and the data will delete itself."
+    },
+    "answer": "C",
+    "explanation": "GDPR compliance is critical in Europe. Requests for data deletion (Right to Be Forgotten) must be handled through verified privacy protocols or escalated to privacy specialists.",
+    "skill": "Privacy & GDPR Compliance"
+  },
+  {
+    "id": 14,
+    "question": "A French passenger named Oliver writes: 'The driver was extremely discourteous and didn't greet me when I entered.' What is the best tone to use?",
+    "scenario": "European courtesy complaint",
+    "options": {
+      "A": "Say: 'Drivers are not required to greet you. They just drive.'",
+      "B": "Say: 'I apologize for the lack of courtesy, Oliver. Professionalism and respect are very important to us. I will record this feedback to review the driver's service.'",
+      "C": "Say: 'Maybe the driver was in a bad mood, let it go.'",
+      "D": "Say: 'I will deactivate the driver immediately.'"
+    },
+    "answer": "B",
+    "explanation": "European customers expect polite, structured, and formal customer service. Validate their expectation of courtesy and log the feedback formally.",
+    "skill": "Tone & Courtesy"
+  },
+  {
+    "id": 15,
+    "question": "A customer in London writes: 'I was charged extra because the driver got stuck at a roundabout.' What is a 'roundabout'?",
+    "scenario": "UK terminology",
+    "options": {
+      "A": "A circular intersection or traffic circle.",
+      "B": "A dead end street.",
+      "C": "A highway toll booth.",
+      "D": "A construction zone."
+    },
+    "answer": "A",
+    "explanation": "'Roundabout' is the British term for a circular road junction (traffic circle).",
+    "skill": "UK English Vocabulary"
+  },
+  {
+    "id": 16,
+    "question": "A customer in Berlin says: 'The driver refused to take my dog. I am blind and this was a guide dog.' What is the correct policy?",
+    "scenario": "Service animal policy in EU",
+    "options": {
+      "A": "Tell them drivers can choose whether to allow animals or not.",
+      "B": "Under the law and Uber policy, service animals must be accommodated. Acknowledge this immediately, apologize, refund any cancellation fee, and escalate to the compliance team.",
+      "C": "Tell them to book a special animal ride and pay extra.",
+      "D": "Ask them to prove their blindness first."
+    },
+    "answer": "B",
+    "explanation": "Service animal accommodation is a legal requirement in Europe (e.g. UK Equality Act). Refusal of a guide dog is a severe policy violation and must be escalated.",
+    "skill": "Policy & Legal Compliance"
+  },
+  {
+    "id": 17,
+    "question": "A European customer messages: 'I'm queueing for a taxi because my Uber never showed up.' What does 'queueing' mean?",
+    "scenario": "UK slang",
+    "options": {
+      "A": "Waiting in a line.",
+      "B": "Paying with cash.",
+      "C": "Calling the police.",
+      "D": "Writing a review."
+    },
+    "answer": "A",
+    "explanation": "'Queueing' means waiting in a line. In this situation, check the driver's location and issue a refund/credit if the driver cancelled incorrectly.",
+    "skill": "UK English Vocabulary"
+  },
+  {
+    "id": 18,
+    "question": "A customer from London writes: 'I am on holiday and the driver refused to put my heavy cases in the bonnet.' What is wrong with the customer's request?",
+    "scenario": "Car parts vocabulary check",
+    "options": {
+      "A": "Heavy cases belong in the boot (trunk), not the bonnet (hood), which covers the engine.",
+      "B": "Passengers must carry all bags on their laps.",
+      "C": "Uber does not allow heavy luggage.",
+      "D": "The bonnet is the passenger seat."
+    },
+    "answer": "A",
+    "explanation": "In UK/EU, 'bonnet' is the car hood (covering the engine). Luggage goes in the 'boot' (trunk). Politely clarify if there was a language/parts confusion.",
+    "skill": "Vehicle Terminology"
+  },
+  {
+    "id": 19,
+    "question": "A customer from the Netherlands writes: 'Your driver drove past the roundabout and took a petrol station exit.' What does 'petrol' mean?",
+    "scenario": "EU vocabulary",
+    "options": {
+      "A": "Diesel engine oil.",
+      "B": "Gasoline (gas).",
+      "C": "Electric charging station.",
+      "D": "A restaurant."
+    },
+    "answer": "B",
+    "explanation": "'Petrol' is the British/European term for gasoline.",
+    "skill": "Language Differences"
+  },
+  {
+    "id": 20,
+    "question": "A customer named Alistair from Seoul writes: 'I received a bill for a toll road, but the driver didn't tell me this route had tolls.' How do you structure your explanation?",
+    "scenario": "Structured billing response",
+    "options": {
+      "A": "Write a short sentence: 'Tolls are added automatically. Bye.'",
+      "B": "Provide a structured, polite breakdown: 1. Confirm the trip ID; 2. Explain how toll fees are calculated and added; 3. Apologize for the lack of communication from the driver.",
+      "C": "Tell them to contact the toll authority directly.",
+      "D": "Offer a full refund of the entire fare to avoid any argument."
+    },
+    "answer": "B",
+    "explanation": "European customers value clear, structured explanations (often numbered or bulleted) that detail the 'why' behind charges.",
+    "skill": "Structured Writing"
+  },
+  {
+    "id": 21,
+    "question": "A European customer named Sophie writes: 'I left my iPhone in the boot of the vehicle.' What does 'boot' refer to?",
+    "scenario": "European terminology query",
+    "options": {
+      "A": "The driver's footwear.",
+      "B": "The glove compartment.",
+      "C": "The trunk of the car.",
+      "D": "The back seat."
+    },
+    "answer": "C",
+    "explanation": "In UK and parts of Europe, 'boot' is used to refer to the trunk of a car. Knowing regional terms prevents confusion.",
+    "skill": "European Terminology"
+  },
+  {
+    "id": 22,
+    "question": "A client from Germany asks for a complete invoice detailing the VAT charges. What is the most appropriate professional response?",
+    "scenario": "Invoice and VAT request",
+    "options": {
+      "A": "We don't send invoices. You can see it on the screen.",
+      "B": "Sure, Arthur. I have generated your official VAT invoice for trip #622307 and emailed it to your registered address in PDF format.",
+      "C": "Invoices are only for premium users. Please upgrade.",
+      "D": "Please write a physical letter to our headquarters for VAT details."
+    },
+    "answer": "B",
+    "explanation": "European customers, especially in Germany, are highly detail-oriented and often need PDF invoices with VAT (Value Added Tax) details for expense tracking.",
+    "skill": "Professional Support"
+  },
+  {
+    "id": 23,
+    "question": "Under GDPR regulations, a customer named Oliver from Tokyo asks: 'Please delete all my personal data and trip history from your systems.' How must you handle this?",
+    "scenario": "GDPR data deletion request",
+    "options": {
+      "A": "Delete the account immediately without verification.",
+      "B": "Explain that we cannot delete data due to tax rules and ignore the request.",
+      "C": "Acknowledge the request politely, verify their identity, and guide them through our official GDPR privacy portal or escalate to the Privacy Team.",
+      "D": "Tell them to delete the app and the data will delete itself."
+    },
+    "answer": "C",
+    "explanation": "GDPR compliance is critical in Europe. Requests for data deletion (Right to Be Forgotten) must be handled through verified privacy protocols or escalated to privacy specialists.",
+    "skill": "Privacy & GDPR Compliance"
+  },
+  {
+    "id": 24,
+    "question": "A French passenger named Emma writes: 'The driver was extremely discourteous and didn't greet me when I entered.' What is the best tone to use?",
+    "scenario": "European courtesy complaint",
+    "options": {
+      "A": "Say: 'Drivers are not required to greet you. They just drive.'",
+      "B": "Say: 'I apologize for the lack of courtesy, Emma. Professionalism and respect are very important to us. I will record this feedback to review the driver's service.'",
+      "C": "Say: 'Maybe the driver was in a bad mood, let it go.'",
+      "D": "Say: 'I will deactivate the driver immediately.'"
+    },
+    "answer": "B",
+    "explanation": "European customers expect polite, structured, and formal customer service. Validate their expectation of courtesy and log the feedback formally.",
+    "skill": "Tone & Courtesy"
+  },
+  {
+    "id": 25,
+    "question": "A customer in London writes: 'I was charged extra because the driver got stuck at a roundabout.' What is a 'roundabout'?",
+    "scenario": "UK terminology",
+    "options": {
+      "A": "A circular intersection or traffic circle.",
+      "B": "A dead end street.",
+      "C": "A highway toll booth.",
+      "D": "A construction zone."
+    },
+    "answer": "A",
+    "explanation": "'Roundabout' is the British term for a circular road junction (traffic circle).",
+    "skill": "UK English Vocabulary"
+  },
+  {
+    "id": 26,
+    "question": "A customer in Berlin says: 'The driver refused to take my dog. I am blind and this was a guide dog.' What is the correct policy?",
+    "scenario": "Service animal policy in EU",
+    "options": {
+      "A": "Tell them drivers can choose whether to allow animals or not.",
+      "B": "Under the law and Uber policy, service animals must be accommodated. Acknowledge this immediately, apologize, refund any cancellation fee, and escalate to the compliance team.",
+      "C": "Tell them to book a special animal ride and pay extra.",
+      "D": "Ask them to prove their blindness first."
+    },
+    "answer": "B",
+    "explanation": "Service animal accommodation is a legal requirement in Europe (e.g. UK Equality Act). Refusal of a guide dog is a severe policy violation and must be escalated.",
+    "skill": "Policy & Legal Compliance"
+  },
+  {
+    "id": 27,
+    "question": "A European customer messages: 'I'm queueing for a taxi because my Uber never showed up.' What does 'queueing' mean?",
+    "scenario": "UK slang",
+    "options": {
+      "A": "Waiting in a line.",
+      "B": "Paying with cash.",
+      "C": "Calling the police.",
+      "D": "Writing a review."
+    },
+    "answer": "A",
+    "explanation": "'Queueing' means waiting in a line. In this situation, check the driver's location and issue a refund/credit if the driver cancelled incorrectly.",
+    "skill": "UK English Vocabulary"
+  },
+  {
+    "id": 28,
+    "question": "A customer from Paris writes: 'I am on holiday and the driver refused to put my heavy cases in the bonnet.' What is wrong with the customer's request?",
+    "scenario": "Car parts vocabulary check",
+    "options": {
+      "A": "Heavy cases belong in the boot (trunk), not the bonnet (hood), which covers the engine.",
+      "B": "Passengers must carry all bags on their laps.",
+      "C": "Uber does not allow heavy luggage.",
+      "D": "The bonnet is the passenger seat."
+    },
+    "answer": "A",
+    "explanation": "In UK/EU, 'bonnet' is the car hood (covering the engine). Luggage goes in the 'boot' (trunk). Politely clarify if there was a language/parts confusion.",
+    "skill": "Vehicle Terminology"
+  },
+  {
+    "id": 29,
+    "question": "A customer from the Netherlands writes: 'Your driver drove past the roundabout and took a petrol station exit.' What does 'petrol' mean?",
+    "scenario": "EU vocabulary",
+    "options": {
+      "A": "Diesel engine oil.",
+      "B": "Gasoline (gas).",
+      "C": "Electric charging station.",
+      "D": "A restaurant."
+    },
+    "answer": "B",
+    "explanation": "'Petrol' is the British/European term for gasoline.",
+    "skill": "Language Differences"
+  },
+  {
+    "id": 30,
+    "question": "A customer named Luca from Tokyo writes: 'I received a bill for a toll road, but the driver didn't tell me this route had tolls.' How do you structure your explanation?",
+    "scenario": "Structured billing response",
+    "options": {
+      "A": "Write a short sentence: 'Tolls are added automatically. Bye.'",
+      "B": "Provide a structured, polite breakdown: 1. Confirm the trip ID; 2. Explain how toll fees are calculated and added; 3. Apologize for the lack of communication from the driver.",
+      "C": "Tell them to contact the toll authority directly.",
+      "D": "Offer a full refund of the entire fare to avoid any argument."
+    },
+    "answer": "B",
+    "explanation": "European customers value clear, structured explanations (often numbered or bulleted) that detail the 'why' behind charges.",
+    "skill": "Structured Writing"
+  },
+  {
+    "id": 31,
+    "question": "A European customer named Alistair writes: 'I left my wallet in the boot of the vehicle.' What does 'boot' refer to?",
+    "scenario": "European terminology query",
+    "options": {
+      "A": "The driver's footwear.",
+      "B": "The glove compartment.",
+      "C": "The trunk of the car.",
+      "D": "The back seat."
+    },
+    "answer": "C",
+    "explanation": "In UK and parts of Europe, 'boot' is used to refer to the trunk of a car. Knowing regional terms prevents confusion.",
+    "skill": "European Terminology"
+  },
+  {
+    "id": 32,
+    "question": "A client from Germany asks for a complete invoice detailing the VAT charges. What is the most appropriate professional response?",
+    "scenario": "Invoice and VAT request",
+    "options": {
+      "A": "We don't send invoices. You can see it on the screen.",
+      "B": "Sure, Thomas. I have generated your official VAT invoice for trip #628125 and emailed it to your registered address in PDF format.",
+      "C": "Invoices are only for premium users. Please upgrade.",
+      "D": "Please write a physical letter to our headquarters for VAT details."
+    },
+    "answer": "B",
+    "explanation": "European customers, especially in Germany, are highly detail-oriented and often need PDF invoices with VAT (Value Added Tax) details for expense tracking.",
+    "skill": "Professional Support"
+  },
+  {
+    "id": 33,
+    "question": "Under GDPR regulations, a customer named Sophie from Seoul asks: 'Please delete all my personal data and trip history from your systems.' How must you handle this?",
+    "scenario": "GDPR data deletion request",
+    "options": {
+      "A": "Delete the account immediately without verification.",
+      "B": "Explain that we cannot delete data due to tax rules and ignore the request.",
+      "C": "Acknowledge the request politely, verify their identity, and guide them through our official GDPR privacy portal or escalate to the Privacy Team.",
+      "D": "Tell them to delete the app and the data will delete itself."
+    },
+    "answer": "C",
+    "explanation": "GDPR compliance is critical in Europe. Requests for data deletion (Right to Be Forgotten) must be handled through verified privacy protocols or escalated to privacy specialists.",
+    "skill": "Privacy & GDPR Compliance"
+  },
+  {
+    "id": 34,
+    "question": "A French passenger named Jean writes: 'The driver was extremely discourteous and didn't greet me when I entered.' What is the best tone to use?",
+    "scenario": "European courtesy complaint",
+    "options": {
+      "A": "Say: 'Drivers are not required to greet you. They just drive.'",
+      "B": "Say: 'I apologize for the lack of courtesy, Jean. Professionalism and respect are very important to us. I will record this feedback to review the driver's service.'",
+      "C": "Say: 'Maybe the driver was in a bad mood, let it go.'",
+      "D": "Say: 'I will deactivate the driver immediately.'"
+    },
+    "answer": "B",
+    "explanation": "European customers expect polite, structured, and formal customer service. Validate their expectation of courtesy and log the feedback formally.",
+    "skill": "Tone & Courtesy"
+  },
+  {
+    "id": 35,
+    "question": "A customer in London writes: 'I was charged extra because the driver got stuck at a roundabout.' What is a 'roundabout'?",
+    "scenario": "UK terminology",
+    "options": {
+      "A": "A circular intersection or traffic circle.",
+      "B": "A dead end street.",
+      "C": "A highway toll booth.",
+      "D": "A construction zone."
+    },
+    "answer": "A",
+    "explanation": "'Roundabout' is the British term for a circular road junction (traffic circle).",
+    "skill": "UK English Vocabulary"
+  },
+  {
+    "id": 36,
+    "question": "A customer in Berlin says: 'The driver refused to take my dog. I am blind and this was a guide dog.' What is the correct policy?",
+    "scenario": "Service animal policy in EU",
+    "options": {
+      "A": "Tell them drivers can choose whether to allow animals or not.",
+      "B": "Under the law and Uber policy, service animals must be accommodated. Acknowledge this immediately, apologize, refund any cancellation fee, and escalate to the compliance team.",
+      "C": "Tell them to book a special animal ride and pay extra.",
+      "D": "Ask them to prove their blindness first."
+    },
+    "answer": "B",
+    "explanation": "Service animal accommodation is a legal requirement in Europe (e.g. UK Equality Act). Refusal of a guide dog is a severe policy violation and must be escalated.",
+    "skill": "Policy & Legal Compliance"
+  },
+  {
+    "id": 37,
+    "question": "A European customer messages: 'I'm queueing for a taxi because my Uber never showed up.' What does 'queueing' mean?",
+    "scenario": "UK slang",
+    "options": {
+      "A": "Waiting in a line.",
+      "B": "Paying with cash.",
+      "C": "Calling the police.",
+      "D": "Writing a review."
+    },
+    "answer": "A",
+    "explanation": "'Queueing' means waiting in a line. In this situation, check the driver's location and issue a refund/credit if the driver cancelled incorrectly.",
+    "skill": "UK English Vocabulary"
+  },
+  {
+    "id": 38,
+    "question": "A customer from Berlin writes: 'I am on holiday and the driver refused to put my heavy cases in the bonnet.' What is wrong with the customer's request?",
+    "scenario": "Car parts vocabulary check",
+    "options": {
+      "A": "Heavy cases belong in the boot (trunk), not the bonnet (hood), which covers the engine.",
+      "B": "Passengers must carry all bags on their laps.",
+      "C": "Uber does not allow heavy luggage.",
+      "D": "The bonnet is the passenger seat."
+    },
+    "answer": "A",
+    "explanation": "In UK/EU, 'bonnet' is the car hood (covering the engine). Luggage goes in the 'boot' (trunk). Politely clarify if there was a language/parts confusion.",
+    "skill": "Vehicle Terminology"
+  },
+  {
+    "id": 39,
+    "question": "A customer from the Netherlands writes: 'Your driver drove past the roundabout and took a petrol station exit.' What does 'petrol' mean?",
+    "scenario": "EU vocabulary",
+    "options": {
+      "A": "Diesel engine oil.",
+      "B": "Gasoline (gas).",
+      "C": "Electric charging station.",
+      "D": "A restaurant."
+    },
+    "answer": "B",
+    "explanation": "'Petrol' is the British/European term for gasoline.",
+    "skill": "Language Differences"
+  },
+  {
+    "id": 40,
+    "question": "A customer named Hans from Berlin writes: 'I received a bill for a toll road, but the driver didn't tell me this route had tolls.' How do you structure your explanation?",
+    "scenario": "Structured billing response",
+    "options": {
+      "A": "Write a short sentence: 'Tolls are added automatically. Bye.'",
+      "B": "Provide a structured, polite breakdown: 1. Confirm the trip ID; 2. Explain how toll fees are calculated and added; 3. Apologize for the lack of communication from the driver.",
+      "C": "Tell them to contact the toll authority directly.",
+      "D": "Offer a full refund of the entire fare to avoid any argument."
+    },
+    "answer": "B",
+    "explanation": "European customers value clear, structured explanations (often numbered or bulleted) that detail the 'why' behind charges.",
+    "skill": "Structured Writing"
+  },
+  {
+    "id": 41,
+    "question": "A European customer named Hans writes: 'I left my passport in the boot of the vehicle.' What does 'boot' refer to?",
+    "scenario": "European terminology query",
+    "options": {
+      "A": "The driver's footwear.",
+      "B": "The glove compartment.",
+      "C": "The trunk of the car.",
+      "D": "The back seat."
+    },
+    "answer": "C",
+    "explanation": "In UK and parts of Europe, 'boot' is used to refer to the trunk of a car. Knowing regional terms prevents confusion.",
+    "skill": "European Terminology"
+  },
+  {
+    "id": 42,
+    "question": "A client from Germany asks for a complete invoice detailing the VAT charges. What is the most appropriate professional response?",
+    "scenario": "Invoice and VAT request",
+    "options": {
+      "A": "We don't send invoices. You can see it on the screen.",
+      "B": "Sure, Arthur. I have generated your official VAT invoice for trip #598126 and emailed it to your registered address in PDF format.",
+      "C": "Invoices are only for premium users. Please upgrade.",
+      "D": "Please write a physical letter to our headquarters for VAT details."
+    },
+    "answer": "B",
+    "explanation": "European customers, especially in Germany, are highly detail-oriented and often need PDF invoices with VAT (Value Added Tax) details for expense tracking.",
+    "skill": "Professional Support"
+  },
+  {
+    "id": 43,
+    "question": "Under GDPR regulations, a customer named Jean from Berlin asks: 'Please delete all my personal data and trip history from your systems.' How must you handle this?",
+    "scenario": "GDPR data deletion request",
+    "options": {
+      "A": "Delete the account immediately without verification.",
+      "B": "Explain that we cannot delete data due to tax rules and ignore the request.",
+      "C": "Acknowledge the request politely, verify their identity, and guide them through our official GDPR privacy portal or escalate to the Privacy Team.",
+      "D": "Tell them to delete the app and the data will delete itself."
+    },
+    "answer": "C",
+    "explanation": "GDPR compliance is critical in Europe. Requests for data deletion (Right to Be Forgotten) must be handled through verified privacy protocols or escalated to privacy specialists.",
+    "skill": "Privacy & GDPR Compliance"
+  },
+  {
+    "id": 44,
+    "question": "A French passenger named Chloe writes: 'The driver was extremely discourteous and didn't greet me when I entered.' What is the best tone to use?",
+    "scenario": "European courtesy complaint",
+    "options": {
+      "A": "Say: 'Drivers are not required to greet you. They just drive.'",
+      "B": "Say: 'I apologize for the lack of courtesy, Chloe. Professionalism and respect are very important to us. I will record this feedback to review the driver's service.'",
+      "C": "Say: 'Maybe the driver was in a bad mood, let it go.'",
+      "D": "Say: 'I will deactivate the driver immediately.'"
+    },
+    "answer": "B",
+    "explanation": "European customers expect polite, structured, and formal customer service. Validate their expectation of courtesy and log the feedback formally.",
+    "skill": "Tone & Courtesy"
+  },
+  {
+    "id": 45,
+    "question": "A customer in London writes: 'I was charged extra because the driver got stuck at a roundabout.' What is a 'roundabout'?",
+    "scenario": "UK terminology",
+    "options": {
+      "A": "A circular intersection or traffic circle.",
+      "B": "A dead end street.",
+      "C": "A highway toll booth.",
+      "D": "A construction zone."
+    },
+    "answer": "A",
+    "explanation": "'Roundabout' is the British term for a circular road junction (traffic circle).",
+    "skill": "UK English Vocabulary"
+  },
+  {
+    "id": 46,
+    "question": "A customer in Berlin says: 'The driver refused to take my dog. I am blind and this was a guide dog.' What is the correct policy?",
+    "scenario": "Service animal policy in EU",
+    "options": {
+      "A": "Tell them drivers can choose whether to allow animals or not.",
+      "B": "Under the law and Uber policy, service animals must be accommodated. Acknowledge this immediately, apologize, refund any cancellation fee, and escalate to the compliance team.",
+      "C": "Tell them to book a special animal ride and pay extra.",
+      "D": "Ask them to prove their blindness first."
+    },
+    "answer": "B",
+    "explanation": "Service animal accommodation is a legal requirement in Europe (e.g. UK Equality Act). Refusal of a guide dog is a severe policy violation and must be escalated.",
+    "skill": "Policy & Legal Compliance"
+  },
+  {
+    "id": 47,
+    "question": "A European customer messages: 'I'm queueing for a taxi because my Uber never showed up.' What does 'queueing' mean?",
+    "scenario": "UK slang",
+    "options": {
+      "A": "Waiting in a line.",
+      "B": "Paying with cash.",
+      "C": "Calling the police.",
+      "D": "Writing a review."
+    },
+    "answer": "A",
+    "explanation": "'Queueing' means waiting in a line. In this situation, check the driver's location and issue a refund/credit if the driver cancelled incorrectly.",
+    "skill": "UK English Vocabulary"
+  },
+  {
+    "id": 48,
+    "question": "A customer from Paris writes: 'I am on holiday and the driver refused to put my heavy cases in the bonnet.' What is wrong with the customer's request?",
+    "scenario": "Car parts vocabulary check",
+    "options": {
+      "A": "Heavy cases belong in the boot (trunk), not the bonnet (hood), which covers the engine.",
+      "B": "Passengers must carry all bags on their laps.",
+      "C": "Uber does not allow heavy luggage.",
+      "D": "The bonnet is the passenger seat."
+    },
+    "answer": "A",
+    "explanation": "In UK/EU, 'bonnet' is the car hood (covering the engine). Luggage goes in the 'boot' (trunk). Politely clarify if there was a language/parts confusion.",
+    "skill": "Vehicle Terminology"
+  },
+  {
+    "id": 49,
+    "question": "A customer from the Netherlands writes: 'Your driver drove past the roundabout and took a petrol station exit.' What does 'petrol' mean?",
+    "scenario": "EU vocabulary",
+    "options": {
+      "A": "Diesel engine oil.",
+      "B": "Gasoline (gas).",
+      "C": "Electric charging station.",
+      "D": "A restaurant."
+    },
+    "answer": "B",
+    "explanation": "'Petrol' is the British/European term for gasoline.",
+    "skill": "Language Differences"
+  },
+  {
+    "id": 50,
+    "question": "A customer named Anna from Berlin writes: 'I received a bill for a toll road, but the driver didn't tell me this route had tolls.' How do you structure your explanation?",
+    "scenario": "Structured billing response",
+    "options": {
+      "A": "Write a short sentence: 'Tolls are added automatically. Bye.'",
+      "B": "Provide a structured, polite breakdown: 1. Confirm the trip ID; 2. Explain how toll fees are calculated and added; 3. Apologize for the lack of communication from the driver.",
+      "C": "Tell them to contact the toll authority directly.",
+      "D": "Offer a full refund of the entire fare to avoid any argument."
+    },
+    "answer": "B",
+    "explanation": "European customers value clear, structured explanations (often numbered or bulleted) that detail the 'why' behind charges.",
+    "skill": "Structured Writing"
+  },
+  {
+    "id": 51,
+    "question": "A European customer named Alistair writes: 'I left my keys in the boot of the vehicle.' What does 'boot' refer to?",
+    "scenario": "European terminology query",
+    "options": {
+      "A": "The driver's footwear.",
+      "B": "The glove compartment.",
+      "C": "The trunk of the car.",
+      "D": "The back seat."
+    },
+    "answer": "C",
+    "explanation": "In UK and parts of Europe, 'boot' is used to refer to the trunk of a car. Knowing regional terms prevents confusion.",
+    "skill": "European Terminology"
+  },
+  {
+    "id": 52,
+    "question": "A client from Germany asks for a complete invoice detailing the VAT charges. What is the most appropriate professional response?",
+    "scenario": "Invoice and VAT request",
+    "options": {
+      "A": "We don't send invoices. You can see it on the screen.",
+      "B": "Sure, Arthur. I have generated your official VAT invoice for trip #205744 and emailed it to your registered address in PDF format.",
+      "C": "Invoices are only for premium users. Please upgrade.",
+      "D": "Please write a physical letter to our headquarters for VAT details."
+    },
+    "answer": "B",
+    "explanation": "European customers, especially in Germany, are highly detail-oriented and often need PDF invoices with VAT (Value Added Tax) details for expense tracking.",
+    "skill": "Professional Support"
+  },
+  {
+    "id": 53,
+    "question": "Under GDPR regulations, a customer named Lukas from Tokyo asks: 'Please delete all my personal data and trip history from your systems.' How must you handle this?",
+    "scenario": "GDPR data deletion request",
+    "options": {
+      "A": "Delete the account immediately without verification.",
+      "B": "Explain that we cannot delete data due to tax rules and ignore the request.",
+      "C": "Acknowledge the request politely, verify their identity, and guide them through our official GDPR privacy portal or escalate to the Privacy Team.",
+      "D": "Tell them to delete the app and the data will delete itself."
+    },
+    "answer": "C",
+    "explanation": "GDPR compliance is critical in Europe. Requests for data deletion (Right to Be Forgotten) must be handled through verified privacy protocols or escalated to privacy specialists.",
+    "skill": "Privacy & GDPR Compliance"
+  },
+  {
+    "id": 54,
+    "question": "A French passenger named Luca writes: 'The driver was extremely discourteous and didn't greet me when I entered.' What is the best tone to use?",
+    "scenario": "European courtesy complaint",
+    "options": {
+      "A": "Say: 'Drivers are not required to greet you. They just drive.'",
+      "B": "Say: 'I apologize for the lack of courtesy, Luca. Professionalism and respect are very important to us. I will record this feedback to review the driver's service.'",
+      "C": "Say: 'Maybe the driver was in a bad mood, let it go.'",
+      "D": "Say: 'I will deactivate the driver immediately.'"
+    },
+    "answer": "B",
+    "explanation": "European customers expect polite, structured, and formal customer service. Validate their expectation of courtesy and log the feedback formally.",
+    "skill": "Tone & Courtesy"
+  },
+  {
+    "id": 55,
+    "question": "A customer in London writes: 'I was charged extra because the driver got stuck at a roundabout.' What is a 'roundabout'?",
+    "scenario": "UK terminology",
+    "options": {
+      "A": "A circular intersection or traffic circle.",
+      "B": "A dead end street.",
+      "C": "A highway toll booth.",
+      "D": "A construction zone."
+    },
+    "answer": "A",
+    "explanation": "'Roundabout' is the British term for a circular road junction (traffic circle).",
+    "skill": "UK English Vocabulary"
+  },
+  {
+    "id": 56,
+    "question": "A customer in Berlin says: 'The driver refused to take my dog. I am blind and this was a guide dog.' What is the correct policy?",
+    "scenario": "Service animal policy in EU",
+    "options": {
+      "A": "Tell them drivers can choose whether to allow animals or not.",
+      "B": "Under the law and Uber policy, service animals must be accommodated. Acknowledge this immediately, apologize, refund any cancellation fee, and escalate to the compliance team.",
+      "C": "Tell them to book a special animal ride and pay extra.",
+      "D": "Ask them to prove their blindness first."
+    },
+    "answer": "B",
+    "explanation": "Service animal accommodation is a legal requirement in Europe (e.g. UK Equality Act). Refusal of a guide dog is a severe policy violation and must be escalated.",
+    "skill": "Policy & Legal Compliance"
+  },
+  {
+    "id": 57,
+    "question": "A European customer messages: 'I'm queueing for a taxi because my Uber never showed up.' What does 'queueing' mean?",
+    "scenario": "UK slang",
+    "options": {
+      "A": "Waiting in a line.",
+      "B": "Paying with cash.",
+      "C": "Calling the police.",
+      "D": "Writing a review."
+    },
+    "answer": "A",
+    "explanation": "'Queueing' means waiting in a line. In this situation, check the driver's location and issue a refund/credit if the driver cancelled incorrectly.",
+    "skill": "UK English Vocabulary"
+  },
+  {
+    "id": 58,
+    "question": "A customer from Berlin writes: 'I am on holiday and the driver refused to put my heavy cases in the bonnet.' What is wrong with the customer's request?",
+    "scenario": "Car parts vocabulary check",
+    "options": {
+      "A": "Heavy cases belong in the boot (trunk), not the bonnet (hood), which covers the engine.",
+      "B": "Passengers must carry all bags on their laps.",
+      "C": "Uber does not allow heavy luggage.",
+      "D": "The bonnet is the passenger seat."
+    },
+    "answer": "A",
+    "explanation": "In UK/EU, 'bonnet' is the car hood (covering the engine). Luggage goes in the 'boot' (trunk). Politely clarify if there was a language/parts confusion.",
+    "skill": "Vehicle Terminology"
+  },
+  {
+    "id": 59,
+    "question": "A customer from the Netherlands writes: 'Your driver drove past the roundabout and took a petrol station exit.' What does 'petrol' mean?",
+    "scenario": "EU vocabulary",
+    "options": {
+      "A": "Diesel engine oil.",
+      "B": "Gasoline (gas).",
+      "C": "Electric charging station.",
+      "D": "A restaurant."
+    },
+    "answer": "B",
+    "explanation": "'Petrol' is the British/European term for gasoline.",
+    "skill": "Language Differences"
+  },
+  {
+    "id": 60,
+    "question": "A customer named Jean from London writes: 'I received a bill for a toll road, but the driver didn't tell me this route had tolls.' How do you structure your explanation?",
+    "scenario": "Structured billing response",
+    "options": {
+      "A": "Write a short sentence: 'Tolls are added automatically. Bye.'",
+      "B": "Provide a structured, polite breakdown: 1. Confirm the trip ID; 2. Explain how toll fees are calculated and added; 3. Apologize for the lack of communication from the driver.",
+      "C": "Tell them to contact the toll authority directly.",
+      "D": "Offer a full refund of the entire fare to avoid any argument."
+    },
+    "answer": "B",
+    "explanation": "European customers value clear, structured explanations (often numbered or bulleted) that detail the 'why' behind charges.",
+    "skill": "Structured Writing"
+  },
+  {
+    "id": 61,
+    "question": "A European customer named Oliver writes: 'I left my laptop in the boot of the vehicle.' What does 'boot' refer to?",
+    "scenario": "European terminology query",
+    "options": {
+      "A": "The driver's footwear.",
+      "B": "The glove compartment.",
+      "C": "The trunk of the car.",
+      "D": "The back seat."
+    },
+    "answer": "C",
+    "explanation": "In UK and parts of Europe, 'boot' is used to refer to the trunk of a car. Knowing regional terms prevents confusion.",
+    "skill": "European Terminology"
+  },
+  {
+    "id": 62,
+    "question": "A client from Germany asks for a complete invoice detailing the VAT charges. What is the most appropriate professional response?",
+    "scenario": "Invoice and VAT request",
+    "options": {
+      "A": "We don't send invoices. You can see it on the screen.",
+      "B": "Sure, Lukas. I have generated your official VAT invoice for trip #560613 and emailed it to your registered address in PDF format.",
+      "C": "Invoices are only for premium users. Please upgrade.",
+      "D": "Please write a physical letter to our headquarters for VAT details."
+    },
+    "answer": "B",
+    "explanation": "European customers, especially in Germany, are highly detail-oriented and often need PDF invoices with VAT (Value Added Tax) details for expense tracking.",
+    "skill": "Professional Support"
+  },
+  {
+    "id": 63,
+    "question": "Under GDPR regulations, a customer named Alistair from Seoul asks: 'Please delete all my personal data and trip history from your systems.' How must you handle this?",
+    "scenario": "GDPR data deletion request",
+    "options": {
+      "A": "Delete the account immediately without verification.",
+      "B": "Explain that we cannot delete data due to tax rules and ignore the request.",
+      "C": "Acknowledge the request politely, verify their identity, and guide them through our official GDPR privacy portal or escalate to the Privacy Team.",
+      "D": "Tell them to delete the app and the data will delete itself."
+    },
+    "answer": "C",
+    "explanation": "GDPR compliance is critical in Europe. Requests for data deletion (Right to Be Forgotten) must be handled through verified privacy protocols or escalated to privacy specialists.",
+    "skill": "Privacy & GDPR Compliance"
+  },
+  {
+    "id": 64,
+    "question": "A French passenger named Sophie writes: 'The driver was extremely discourteous and didn't greet me when I entered.' What is the best tone to use?",
+    "scenario": "European courtesy complaint",
+    "options": {
+      "A": "Say: 'Drivers are not required to greet you. They just drive.'",
+      "B": "Say: 'I apologize for the lack of courtesy, Sophie. Professionalism and respect are very important to us. I will record this feedback to review the driver's service.'",
+      "C": "Say: 'Maybe the driver was in a bad mood, let it go.'",
+      "D": "Say: 'I will deactivate the driver immediately.'"
+    },
+    "answer": "B",
+    "explanation": "European customers expect polite, structured, and formal customer service. Validate their expectation of courtesy and log the feedback formally.",
+    "skill": "Tone & Courtesy"
+  },
+  {
+    "id": 65,
+    "question": "A customer in London writes: 'I was charged extra because the driver got stuck at a roundabout.' What is a 'roundabout'?",
+    "scenario": "UK terminology",
+    "options": {
+      "A": "A circular intersection or traffic circle.",
+      "B": "A dead end street.",
+      "C": "A highway toll booth.",
+      "D": "A construction zone."
+    },
+    "answer": "A",
+    "explanation": "'Roundabout' is the British term for a circular road junction (traffic circle).",
+    "skill": "UK English Vocabulary"
+  },
+  {
+    "id": 66,
+    "question": "A customer in Berlin says: 'The driver refused to take my dog. I am blind and this was a guide dog.' What is the correct policy?",
+    "scenario": "Service animal policy in EU",
+    "options": {
+      "A": "Tell them drivers can choose whether to allow animals or not.",
+      "B": "Under the law and Uber policy, service animals must be accommodated. Acknowledge this immediately, apologize, refund any cancellation fee, and escalate to the compliance team.",
+      "C": "Tell them to book a special animal ride and pay extra.",
+      "D": "Ask them to prove their blindness first."
+    },
+    "answer": "B",
+    "explanation": "Service animal accommodation is a legal requirement in Europe (e.g. UK Equality Act). Refusal of a guide dog is a severe policy violation and must be escalated.",
+    "skill": "Policy & Legal Compliance"
+  },
+  {
+    "id": 67,
+    "question": "A European customer messages: 'I'm queueing for a taxi because my Uber never showed up.' What does 'queueing' mean?",
+    "scenario": "UK slang",
+    "options": {
+      "A": "Waiting in a line.",
+      "B": "Paying with cash.",
+      "C": "Calling the police.",
+      "D": "Writing a review."
+    },
+    "answer": "A",
+    "explanation": "'Queueing' means waiting in a line. In this situation, check the driver's location and issue a refund/credit if the driver cancelled incorrectly.",
+    "skill": "UK English Vocabulary"
+  },
+  {
+    "id": 68,
+    "question": "A customer from London writes: 'I am on holiday and the driver refused to put my heavy cases in the bonnet.' What is wrong with the customer's request?",
+    "scenario": "Car parts vocabulary check",
+    "options": {
+      "A": "Heavy cases belong in the boot (trunk), not the bonnet (hood), which covers the engine.",
+      "B": "Passengers must carry all bags on their laps.",
+      "C": "Uber does not allow heavy luggage.",
+      "D": "The bonnet is the passenger seat."
+    },
+    "answer": "A",
+    "explanation": "In UK/EU, 'bonnet' is the car hood (covering the engine). Luggage goes in the 'boot' (trunk). Politely clarify if there was a language/parts confusion.",
+    "skill": "Vehicle Terminology"
+  },
+  {
+    "id": 69,
+    "question": "A customer from the Netherlands writes: 'Your driver drove past the roundabout and took a petrol station exit.' What does 'petrol' mean?",
+    "scenario": "EU vocabulary",
+    "options": {
+      "A": "Diesel engine oil.",
+      "B": "Gasoline (gas).",
+      "C": "Electric charging station.",
+      "D": "A restaurant."
+    },
+    "answer": "B",
+    "explanation": "'Petrol' is the British/European term for gasoline.",
+    "skill": "Language Differences"
+  },
+  {
+    "id": 70,
+    "question": "A customer named Arthur from London writes: 'I received a bill for a toll road, but the driver didn't tell me this route had tolls.' How do you structure your explanation?",
+    "scenario": "Structured billing response",
+    "options": {
+      "A": "Write a short sentence: 'Tolls are added automatically. Bye.'",
+      "B": "Provide a structured, polite breakdown: 1. Confirm the trip ID; 2. Explain how toll fees are calculated and added; 3. Apologize for the lack of communication from the driver.",
+      "C": "Tell them to contact the toll authority directly.",
+      "D": "Offer a full refund of the entire fare to avoid any argument."
+    },
+    "answer": "B",
+    "explanation": "European customers value clear, structured explanations (often numbered or bulleted) that detail the 'why' behind charges.",
+    "skill": "Structured Writing"
+  },
+  {
+    "id": 71,
+    "question": "A European customer named Thomas writes: 'I left my wallet in the boot of the vehicle.' What does 'boot' refer to?",
+    "scenario": "European terminology query",
+    "options": {
+      "A": "The driver's footwear.",
+      "B": "The glove compartment.",
+      "C": "The trunk of the car.",
+      "D": "The back seat."
+    },
+    "answer": "C",
+    "explanation": "In UK and parts of Europe, 'boot' is used to refer to the trunk of a car. Knowing regional terms prevents confusion.",
+    "skill": "European Terminology"
+  },
+  {
+    "id": 72,
+    "question": "A client from Germany asks for a complete invoice detailing the VAT charges. What is the most appropriate professional response?",
+    "scenario": "Invoice and VAT request",
+    "options": {
+      "A": "We don't send invoices. You can see it on the screen.",
+      "B": "Sure, Luca. I have generated your official VAT invoice for trip #141246 and emailed it to your registered address in PDF format.",
+      "C": "Invoices are only for premium users. Please upgrade.",
+      "D": "Please write a physical letter to our headquarters for VAT details."
+    },
+    "answer": "B",
+    "explanation": "European customers, especially in Germany, are highly detail-oriented and often need PDF invoices with VAT (Value Added Tax) details for expense tracking.",
+    "skill": "Professional Support"
+  },
+  {
+    "id": 73,
+    "question": "Under GDPR regulations, a customer named Sophie from London asks: 'Please delete all my personal data and trip history from your systems.' How must you handle this?",
+    "scenario": "GDPR data deletion request",
+    "options": {
+      "A": "Delete the account immediately without verification.",
+      "B": "Explain that we cannot delete data due to tax rules and ignore the request.",
+      "C": "Acknowledge the request politely, verify their identity, and guide them through our official GDPR privacy portal or escalate to the Privacy Team.",
+      "D": "Tell them to delete the app and the data will delete itself."
+    },
+    "answer": "C",
+    "explanation": "GDPR compliance is critical in Europe. Requests for data deletion (Right to Be Forgotten) must be handled through verified privacy protocols or escalated to privacy specialists.",
+    "skill": "Privacy & GDPR Compliance"
+  },
+  {
+    "id": 74,
+    "question": "A French passenger named Laura writes: 'The driver was extremely discourteous and didn't greet me when I entered.' What is the best tone to use?",
+    "scenario": "European courtesy complaint",
+    "options": {
+      "A": "Say: 'Drivers are not required to greet you. They just drive.'",
+      "B": "Say: 'I apologize for the lack of courtesy, Laura. Professionalism and respect are very important to us. I will record this feedback to review the driver's service.'",
+      "C": "Say: 'Maybe the driver was in a bad mood, let it go.'",
+      "D": "Say: 'I will deactivate the driver immediately.'"
+    },
+    "answer": "B",
+    "explanation": "European customers expect polite, structured, and formal customer service. Validate their expectation of courtesy and log the feedback formally.",
+    "skill": "Tone & Courtesy"
+  },
+  {
+    "id": 75,
+    "question": "A customer in London writes: 'I was charged extra because the driver got stuck at a roundabout.' What is a 'roundabout'?",
+    "scenario": "UK terminology",
+    "options": {
+      "A": "A circular intersection or traffic circle.",
+      "B": "A dead end street.",
+      "C": "A highway toll booth.",
+      "D": "A construction zone."
+    },
+    "answer": "A",
+    "explanation": "'Roundabout' is the British term for a circular road junction (traffic circle).",
+    "skill": "UK English Vocabulary"
+  },
+  {
+    "id": 76,
+    "question": "A customer in Berlin says: 'The driver refused to take my dog. I am blind and this was a guide dog.' What is the correct policy?",
+    "scenario": "Service animal policy in EU",
+    "options": {
+      "A": "Tell them drivers can choose whether to allow animals or not.",
+      "B": "Under the law and Uber policy, service animals must be accommodated. Acknowledge this immediately, apologize, refund any cancellation fee, and escalate to the compliance team.",
+      "C": "Tell them to book a special animal ride and pay extra.",
+      "D": "Ask them to prove their blindness first."
+    },
+    "answer": "B",
+    "explanation": "Service animal accommodation is a legal requirement in Europe (e.g. UK Equality Act). Refusal of a guide dog is a severe policy violation and must be escalated.",
+    "skill": "Policy & Legal Compliance"
+  },
+  {
+    "id": 77,
+    "question": "A European customer messages: 'I'm queueing for a taxi because my Uber never showed up.' What does 'queueing' mean?",
+    "scenario": "UK slang",
+    "options": {
+      "A": "Waiting in a line.",
+      "B": "Paying with cash.",
+      "C": "Calling the police.",
+      "D": "Writing a review."
+    },
+    "answer": "A",
+    "explanation": "'Queueing' means waiting in a line. In this situation, check the driver's location and issue a refund/credit if the driver cancelled incorrectly.",
+    "skill": "UK English Vocabulary"
+  },
+  {
+    "id": 78,
+    "question": "A customer from Tokyo writes: 'I am on holiday and the driver refused to put my heavy cases in the bonnet.' What is wrong with the customer's request?",
+    "scenario": "Car parts vocabulary check",
+    "options": {
+      "A": "Heavy cases belong in the boot (trunk), not the bonnet (hood), which covers the engine.",
+      "B": "Passengers must carry all bags on their laps.",
+      "C": "Uber does not allow heavy luggage.",
+      "D": "The bonnet is the passenger seat."
+    },
+    "answer": "A",
+    "explanation": "In UK/EU, 'bonnet' is the car hood (covering the engine). Luggage goes in the 'boot' (trunk). Politely clarify if there was a language/parts confusion.",
+    "skill": "Vehicle Terminology"
+  },
+  {
+    "id": 79,
+    "question": "A customer from the Netherlands writes: 'Your driver drove past the roundabout and took a petrol station exit.' What does 'petrol' mean?",
+    "scenario": "EU vocabulary",
+    "options": {
+      "A": "Diesel engine oil.",
+      "B": "Gasoline (gas).",
+      "C": "Electric charging station.",
+      "D": "A restaurant."
+    },
+    "answer": "B",
+    "explanation": "'Petrol' is the British/European term for gasoline.",
+    "skill": "Language Differences"
+  },
+  {
+    "id": 80,
+    "question": "A customer named Sophie from London writes: 'I received a bill for a toll road, but the driver didn't tell me this route had tolls.' How do you structure your explanation?",
+    "scenario": "Structured billing response",
+    "options": {
+      "A": "Write a short sentence: 'Tolls are added automatically. Bye.'",
+      "B": "Provide a structured, polite breakdown: 1. Confirm the trip ID; 2. Explain how toll fees are calculated and added; 3. Apologize for the lack of communication from the driver.",
+      "C": "Tell them to contact the toll authority directly.",
+      "D": "Offer a full refund of the entire fare to avoid any argument."
+    },
+    "answer": "B",
+    "explanation": "European customers value clear, structured explanations (often numbered or bulleted) that detail the 'why' behind charges.",
+    "skill": "Structured Writing"
+  },
+  {
+    "id": 81,
+    "question": "A European customer named Sophie writes: 'I left my sunglasses in the boot of the vehicle.' What does 'boot' refer to?",
+    "scenario": "European terminology query",
+    "options": {
+      "A": "The driver's footwear.",
+      "B": "The glove compartment.",
+      "C": "The trunk of the car.",
+      "D": "The back seat."
+    },
+    "answer": "C",
+    "explanation": "In UK and parts of Europe, 'boot' is used to refer to the trunk of a car. Knowing regional terms prevents confusion.",
+    "skill": "European Terminology"
+  },
+  {
+    "id": 82,
+    "question": "A client from Germany asks for a complete invoice detailing the VAT charges. What is the most appropriate professional response?",
+    "scenario": "Invoice and VAT request",
+    "options": {
+      "A": "We don't send invoices. You can see it on the screen.",
+      "B": "Sure, Lukas. I have generated your official VAT invoice for trip #353551 and emailed it to your registered address in PDF format.",
+      "C": "Invoices are only for premium users. Please upgrade.",
+      "D": "Please write a physical letter to our headquarters for VAT details."
+    },
+    "answer": "B",
+    "explanation": "European customers, especially in Germany, are highly detail-oriented and often need PDF invoices with VAT (Value Added Tax) details for expense tracking.",
+    "skill": "Professional Support"
+  },
+  {
+    "id": 83,
+    "question": "Under GDPR regulations, a customer named Arthur from Berlin asks: 'Please delete all my personal data and trip history from your systems.' How must you handle this?",
+    "scenario": "GDPR data deletion request",
+    "options": {
+      "A": "Delete the account immediately without verification.",
+      "B": "Explain that we cannot delete data due to tax rules and ignore the request.",
+      "C": "Acknowledge the request politely, verify their identity, and guide them through our official GDPR privacy portal or escalate to the Privacy Team.",
+      "D": "Tell them to delete the app and the data will delete itself."
+    },
+    "answer": "C",
+    "explanation": "GDPR compliance is critical in Europe. Requests for data deletion (Right to Be Forgotten) must be handled through verified privacy protocols or escalated to privacy specialists.",
+    "skill": "Privacy & GDPR Compliance"
+  },
+  {
+    "id": 84,
+    "question": "A French passenger named Jean writes: 'The driver was extremely discourteous and didn't greet me when I entered.' What is the best tone to use?",
+    "scenario": "European courtesy complaint",
+    "options": {
+      "A": "Say: 'Drivers are not required to greet you. They just drive.'",
+      "B": "Say: 'I apologize for the lack of courtesy, Jean. Professionalism and respect are very important to us. I will record this feedback to review the driver's service.'",
+      "C": "Say: 'Maybe the driver was in a bad mood, let it go.'",
+      "D": "Say: 'I will deactivate the driver immediately.'"
+    },
+    "answer": "B",
+    "explanation": "European customers expect polite, structured, and formal customer service. Validate their expectation of courtesy and log the feedback formally.",
+    "skill": "Tone & Courtesy"
+  },
+  {
+    "id": 85,
+    "question": "A customer in London writes: 'I was charged extra because the driver got stuck at a roundabout.' What is a 'roundabout'?",
+    "scenario": "UK terminology",
+    "options": {
+      "A": "A circular intersection or traffic circle.",
+      "B": "A dead end street.",
+      "C": "A highway toll booth.",
+      "D": "A construction zone."
+    },
+    "answer": "A",
+    "explanation": "'Roundabout' is the British term for a circular road junction (traffic circle).",
+    "skill": "UK English Vocabulary"
+  },
+  {
+    "id": 86,
+    "question": "A customer in Berlin says: 'The driver refused to take my dog. I am blind and this was a guide dog.' What is the correct policy?",
+    "scenario": "Service animal policy in EU",
+    "options": {
+      "A": "Tell them drivers can choose whether to allow animals or not.",
+      "B": "Under the law and Uber policy, service animals must be accommodated. Acknowledge this immediately, apologize, refund any cancellation fee, and escalate to the compliance team.",
+      "C": "Tell them to book a special animal ride and pay extra.",
+      "D": "Ask them to prove their blindness first."
+    },
+    "answer": "B",
+    "explanation": "Service animal accommodation is a legal requirement in Europe (e.g. UK Equality Act). Refusal of a guide dog is a severe policy violation and must be escalated.",
+    "skill": "Policy & Legal Compliance"
+  },
+  {
+    "id": 87,
+    "question": "A European customer messages: 'I'm queueing for a taxi because my Uber never showed up.' What does 'queueing' mean?",
+    "scenario": "UK slang",
+    "options": {
+      "A": "Waiting in a line.",
+      "B": "Paying with cash.",
+      "C": "Calling the police.",
+      "D": "Writing a review."
+    },
+    "answer": "A",
+    "explanation": "'Queueing' means waiting in a line. In this situation, check the driver's location and issue a refund/credit if the driver cancelled incorrectly.",
+    "skill": "UK English Vocabulary"
+  },
+  {
+    "id": 88,
+    "question": "A customer from Berlin writes: 'I am on holiday and the driver refused to put my heavy cases in the bonnet.' What is wrong with the customer's request?",
+    "scenario": "Car parts vocabulary check",
+    "options": {
+      "A": "Heavy cases belong in the boot (trunk), not the bonnet (hood), which covers the engine.",
+      "B": "Passengers must carry all bags on their laps.",
+      "C": "Uber does not allow heavy luggage.",
+      "D": "The bonnet is the passenger seat."
+    },
+    "answer": "A",
+    "explanation": "In UK/EU, 'bonnet' is the car hood (covering the engine). Luggage goes in the 'boot' (trunk). Politely clarify if there was a language/parts confusion.",
+    "skill": "Vehicle Terminology"
+  },
+  {
+    "id": 89,
+    "question": "A customer from the Netherlands writes: 'Your driver drove past the roundabout and took a petrol station exit.' What does 'petrol' mean?",
+    "scenario": "EU vocabulary",
+    "options": {
+      "A": "Diesel engine oil.",
+      "B": "Gasoline (gas).",
+      "C": "Electric charging station.",
+      "D": "A restaurant."
+    },
+    "answer": "B",
+    "explanation": "'Petrol' is the British/European term for gasoline.",
+    "skill": "Language Differences"
+  },
+  {
+    "id": 90,
+    "question": "A customer named Thomas from London writes: 'I received a bill for a toll road, but the driver didn't tell me this route had tolls.' How do you structure your explanation?",
+    "scenario": "Structured billing response",
+    "options": {
+      "A": "Write a short sentence: 'Tolls are added automatically. Bye.'",
+      "B": "Provide a structured, polite breakdown: 1. Confirm the trip ID; 2. Explain how toll fees are calculated and added; 3. Apologize for the lack of communication from the driver.",
+      "C": "Tell them to contact the toll authority directly.",
+      "D": "Offer a full refund of the entire fare to avoid any argument."
+    },
+    "answer": "B",
+    "explanation": "European customers value clear, structured explanations (often numbered or bulleted) that detail the 'why' behind charges.",
+    "skill": "Structured Writing"
+  },
+  {
+    "id": 91,
+    "question": "A European customer named Oliver writes: 'I left my iPhone in the boot of the vehicle.' What does 'boot' refer to?",
+    "scenario": "European terminology query",
+    "options": {
+      "A": "The driver's footwear.",
+      "B": "The glove compartment.",
+      "C": "The trunk of the car.",
+      "D": "The back seat."
+    },
+    "answer": "C",
+    "explanation": "In UK and parts of Europe, 'boot' is used to refer to the trunk of a car. Knowing regional terms prevents confusion.",
+    "skill": "European Terminology"
+  },
+  {
+    "id": 92,
+    "question": "A client from Germany asks for a complete invoice detailing the VAT charges. What is the most appropriate professional response?",
+    "scenario": "Invoice and VAT request",
+    "options": {
+      "A": "We don't send invoices. You can see it on the screen.",
+      "B": "Sure, Alistair. I have generated your official VAT invoice for trip #775428 and emailed it to your registered address in PDF format.",
+      "C": "Invoices are only for premium users. Please upgrade.",
+      "D": "Please write a physical letter to our headquarters for VAT details."
+    },
+    "answer": "B",
+    "explanation": "European customers, especially in Germany, are highly detail-oriented and often need PDF invoices with VAT (Value Added Tax) details for expense tracking.",
+    "skill": "Professional Support"
+  },
+  {
+    "id": 93,
+    "question": "Under GDPR regulations, a customer named Lukas from Berlin asks: 'Please delete all my personal data and trip history from your systems.' How must you handle this?",
+    "scenario": "GDPR data deletion request",
+    "options": {
+      "A": "Delete the account immediately without verification.",
+      "B": "Explain that we cannot delete data due to tax rules and ignore the request.",
+      "C": "Acknowledge the request politely, verify their identity, and guide them through our official GDPR privacy portal or escalate to the Privacy Team.",
+      "D": "Tell them to delete the app and the data will delete itself."
+    },
+    "answer": "C",
+    "explanation": "GDPR compliance is critical in Europe. Requests for data deletion (Right to Be Forgotten) must be handled through verified privacy protocols or escalated to privacy specialists.",
+    "skill": "Privacy & GDPR Compliance"
+  },
+  {
+    "id": 94,
+    "question": "A French passenger named Isabella writes: 'The driver was extremely discourteous and didn't greet me when I entered.' What is the best tone to use?",
+    "scenario": "European courtesy complaint",
+    "options": {
+      "A": "Say: 'Drivers are not required to greet you. They just drive.'",
+      "B": "Say: 'I apologize for the lack of courtesy, Isabella. Professionalism and respect are very important to us. I will record this feedback to review the driver's service.'",
+      "C": "Say: 'Maybe the driver was in a bad mood, let it go.'",
+      "D": "Say: 'I will deactivate the driver immediately.'"
+    },
+    "answer": "B",
+    "explanation": "European customers expect polite, structured, and formal customer service. Validate their expectation of courtesy and log the feedback formally.",
+    "skill": "Tone & Courtesy"
+  },
+  {
+    "id": 95,
+    "question": "A customer in London writes: 'I was charged extra because the driver got stuck at a roundabout.' What is a 'roundabout'?",
+    "scenario": "UK terminology",
+    "options": {
+      "A": "A circular intersection or traffic circle.",
+      "B": "A dead end street.",
+      "C": "A highway toll booth.",
+      "D": "A construction zone."
+    },
+    "answer": "A",
+    "explanation": "'Roundabout' is the British term for a circular road junction (traffic circle).",
+    "skill": "UK English Vocabulary"
+  },
+  {
+    "id": 96,
+    "question": "A customer in Berlin says: 'The driver refused to take my dog. I am blind and this was a guide dog.' What is the correct policy?",
+    "scenario": "Service animal policy in EU",
+    "options": {
+      "A": "Tell them drivers can choose whether to allow animals or not.",
+      "B": "Under the law and Uber policy, service animals must be accommodated. Acknowledge this immediately, apologize, refund any cancellation fee, and escalate to the compliance team.",
+      "C": "Tell them to book a special animal ride and pay extra.",
+      "D": "Ask them to prove their blindness first."
+    },
+    "answer": "B",
+    "explanation": "Service animal accommodation is a legal requirement in Europe (e.g. UK Equality Act). Refusal of a guide dog is a severe policy violation and must be escalated.",
+    "skill": "Policy & Legal Compliance"
+  },
+  {
+    "id": 97,
+    "question": "A European customer messages: 'I'm queueing for a taxi because my Uber never showed up.' What does 'queueing' mean?",
+    "scenario": "UK slang",
+    "options": {
+      "A": "Waiting in a line.",
+      "B": "Paying with cash.",
+      "C": "Calling the police.",
+      "D": "Writing a review."
+    },
+    "answer": "A",
+    "explanation": "'Queueing' means waiting in a line. In this situation, check the driver's location and issue a refund/credit if the driver cancelled incorrectly.",
+    "skill": "UK English Vocabulary"
+  },
+  {
+    "id": 98,
+    "question": "A customer from Paris writes: 'I am on holiday and the driver refused to put my heavy cases in the bonnet.' What is wrong with the customer's request?",
+    "scenario": "Car parts vocabulary check",
+    "options": {
+      "A": "Heavy cases belong in the boot (trunk), not the bonnet (hood), which covers the engine.",
+      "B": "Passengers must carry all bags on their laps.",
+      "C": "Uber does not allow heavy luggage.",
+      "D": "The bonnet is the passenger seat."
+    },
+    "answer": "A",
+    "explanation": "In UK/EU, 'bonnet' is the car hood (covering the engine). Luggage goes in the 'boot' (trunk). Politely clarify if there was a language/parts confusion.",
+    "skill": "Vehicle Terminology"
+  },
+  {
+    "id": 99,
+    "question": "A customer from the Netherlands writes: 'Your driver drove past the roundabout and took a petrol station exit.' What does 'petrol' mean?",
+    "scenario": "EU vocabulary",
+    "options": {
+      "A": "Diesel engine oil.",
+      "B": "Gasoline (gas).",
+      "C": "Electric charging station.",
+      "D": "A restaurant."
+    },
+    "answer": "B",
+    "explanation": "'Petrol' is the British/European term for gasoline.",
+    "skill": "Language Differences"
+  },
+  {
+    "id": 100,
+    "question": "A customer named Arthur from Berlin writes: 'I received a bill for a toll road, but the driver didn't tell me this route had tolls.' How do you structure your explanation?",
+    "scenario": "Structured billing response",
+    "options": {
+      "A": "Write a short sentence: 'Tolls are added automatically. Bye.'",
+      "B": "Provide a structured, polite breakdown: 1. Confirm the trip ID; 2. Explain how toll fees are calculated and added; 3. Apologize for the lack of communication from the driver.",
+      "C": "Tell them to contact the toll authority directly.",
+      "D": "Offer a full refund of the entire fare to avoid any argument."
+    },
+    "answer": "B",
+    "explanation": "European customers value clear, structured explanations (often numbered or bulleted) that detail the 'why' behind charges.",
+    "skill": "Structured Writing"
+  },
+  {
+    "id": 101,
+    "question": "A European customer named Alistair writes: 'I left my sunglasses in the boot of the vehicle.' What does 'boot' refer to?",
+    "scenario": "European terminology query",
+    "options": {
+      "A": "The driver's footwear.",
+      "B": "The glove compartment.",
+      "C": "The trunk of the car.",
+      "D": "The back seat."
+    },
+    "answer": "C",
+    "explanation": "In UK and parts of Europe, 'boot' is used to refer to the trunk of a car. Knowing regional terms prevents confusion.",
+    "skill": "European Terminology"
+  },
+  {
+    "id": 102,
+    "question": "A client from Germany asks for a complete invoice detailing the VAT charges. What is the most appropriate professional response?",
+    "scenario": "Invoice and VAT request",
+    "options": {
+      "A": "We don't send invoices. You can see it on the screen.",
+      "B": "Sure, Lukas. I have generated your official VAT invoice for trip #761991 and emailed it to your registered address in PDF format.",
+      "C": "Invoices are only for premium users. Please upgrade.",
+      "D": "Please write a physical letter to our headquarters for VAT details."
+    },
+    "answer": "B",
+    "explanation": "European customers, especially in Germany, are highly detail-oriented and often need PDF invoices with VAT (Value Added Tax) details for expense tracking.",
+    "skill": "Professional Support"
+  },
+  {
+    "id": 103,
+    "question": "Under GDPR regulations, a customer named Thomas from Paris asks: 'Please delete all my personal data and trip history from your systems.' How must you handle this?",
+    "scenario": "GDPR data deletion request",
+    "options": {
+      "A": "Delete the account immediately without verification.",
+      "B": "Explain that we cannot delete data due to tax rules and ignore the request.",
+      "C": "Acknowledge the request politely, verify their identity, and guide them through our official GDPR privacy portal or escalate to the Privacy Team.",
+      "D": "Tell them to delete the app and the data will delete itself."
+    },
+    "answer": "C",
+    "explanation": "GDPR compliance is critical in Europe. Requests for data deletion (Right to Be Forgotten) must be handled through verified privacy protocols or escalated to privacy specialists.",
+    "skill": "Privacy & GDPR Compliance"
+  },
+  {
+    "id": 104,
+    "question": "A French passenger named Isabella writes: 'The driver was extremely discourteous and didn't greet me when I entered.' What is the best tone to use?",
+    "scenario": "European courtesy complaint",
+    "options": {
+      "A": "Say: 'Drivers are not required to greet you. They just drive.'",
+      "B": "Say: 'I apologize for the lack of courtesy, Isabella. Professionalism and respect are very important to us. I will record this feedback to review the driver's service.'",
+      "C": "Say: 'Maybe the driver was in a bad mood, let it go.'",
+      "D": "Say: 'I will deactivate the driver immediately.'"
+    },
+    "answer": "B",
+    "explanation": "European customers expect polite, structured, and formal customer service. Validate their expectation of courtesy and log the feedback formally.",
+    "skill": "Tone & Courtesy"
+  },
+  {
+    "id": 105,
+    "question": "A customer in London writes: 'I was charged extra because the driver got stuck at a roundabout.' What is a 'roundabout'?",
+    "scenario": "UK terminology",
+    "options": {
+      "A": "A circular intersection or traffic circle.",
+      "B": "A dead end street.",
+      "C": "A highway toll booth.",
+      "D": "A construction zone."
+    },
+    "answer": "A",
+    "explanation": "'Roundabout' is the British term for a circular road junction (traffic circle).",
+    "skill": "UK English Vocabulary"
+  },
+  {
+    "id": 106,
+    "question": "A customer in Berlin says: 'The driver refused to take my dog. I am blind and this was a guide dog.' What is the correct policy?",
+    "scenario": "Service animal policy in EU",
+    "options": {
+      "A": "Tell them drivers can choose whether to allow animals or not.",
+      "B": "Under the law and Uber policy, service animals must be accommodated. Acknowledge this immediately, apologize, refund any cancellation fee, and escalate to the compliance team.",
+      "C": "Tell them to book a special animal ride and pay extra.",
+      "D": "Ask them to prove their blindness first."
+    },
+    "answer": "B",
+    "explanation": "Service animal accommodation is a legal requirement in Europe (e.g. UK Equality Act). Refusal of a guide dog is a severe policy violation and must be escalated.",
+    "skill": "Policy & Legal Compliance"
+  },
+  {
+    "id": 107,
+    "question": "A European customer messages: 'I'm queueing for a taxi because my Uber never showed up.' What does 'queueing' mean?",
+    "scenario": "UK slang",
+    "options": {
+      "A": "Waiting in a line.",
+      "B": "Paying with cash.",
+      "C": "Calling the police.",
+      "D": "Writing a review."
+    },
+    "answer": "A",
+    "explanation": "'Queueing' means waiting in a line. In this situation, check the driver's location and issue a refund/credit if the driver cancelled incorrectly.",
+    "skill": "UK English Vocabulary"
+  },
+  {
+    "id": 108,
+    "question": "A customer from Paris writes: 'I am on holiday and the driver refused to put my heavy cases in the bonnet.' What is wrong with the customer's request?",
+    "scenario": "Car parts vocabulary check",
+    "options": {
+      "A": "Heavy cases belong in the boot (trunk), not the bonnet (hood), which covers the engine.",
+      "B": "Passengers must carry all bags on their laps.",
+      "C": "Uber does not allow heavy luggage.",
+      "D": "The bonnet is the passenger seat."
+    },
+    "answer": "A",
+    "explanation": "In UK/EU, 'bonnet' is the car hood (covering the engine). Luggage goes in the 'boot' (trunk). Politely clarify if there was a language/parts confusion.",
+    "skill": "Vehicle Terminology"
+  },
+  {
+    "id": 109,
+    "question": "A customer from the Netherlands writes: 'Your driver drove past the roundabout and took a petrol station exit.' What does 'petrol' mean?",
+    "scenario": "EU vocabulary",
+    "options": {
+      "A": "Diesel engine oil.",
+      "B": "Gasoline (gas).",
+      "C": "Electric charging station.",
+      "D": "A restaurant."
+    },
+    "answer": "B",
+    "explanation": "'Petrol' is the British/European term for gasoline.",
+    "skill": "Language Differences"
+  },
+  {
+    "id": 110,
+    "question": "A customer named Hans from Berlin writes: 'I received a bill for a toll road, but the driver didn't tell me this route had tolls.' How do you structure your explanation?",
+    "scenario": "Structured billing response",
+    "options": {
+      "A": "Write a short sentence: 'Tolls are added automatically. Bye.'",
+      "B": "Provide a structured, polite breakdown: 1. Confirm the trip ID; 2. Explain how toll fees are calculated and added; 3. Apologize for the lack of communication from the driver.",
+      "C": "Tell them to contact the toll authority directly.",
+      "D": "Offer a full refund of the entire fare to avoid any argument."
+    },
+    "answer": "B",
+    "explanation": "European customers value clear, structured explanations (often numbered or bulleted) that detail the 'why' behind charges.",
+    "skill": "Structured Writing"
+  },
+  {
+    "id": 111,
+    "question": "A European customer named Alistair writes: 'I left my keys in the boot of the vehicle.' What does 'boot' refer to?",
+    "scenario": "European terminology query",
+    "options": {
+      "A": "The driver's footwear.",
+      "B": "The glove compartment.",
+      "C": "The trunk of the car.",
+      "D": "The back seat."
+    },
+    "answer": "C",
+    "explanation": "In UK and parts of Europe, 'boot' is used to refer to the trunk of a car. Knowing regional terms prevents confusion.",
+    "skill": "European Terminology"
+  },
+  {
+    "id": 112,
+    "question": "A client from Germany asks for a complete invoice detailing the VAT charges. What is the most appropriate professional response?",
+    "scenario": "Invoice and VAT request",
+    "options": {
+      "A": "We don't send invoices. You can see it on the screen.",
+      "B": "Sure, Lukas. I have generated your official VAT invoice for trip #241923 and emailed it to your registered address in PDF format.",
+      "C": "Invoices are only for premium users. Please upgrade.",
+      "D": "Please write a physical letter to our headquarters for VAT details."
+    },
+    "answer": "B",
+    "explanation": "European customers, especially in Germany, are highly detail-oriented and often need PDF invoices with VAT (Value Added Tax) details for expense tracking.",
+    "skill": "Professional Support"
+  },
+  {
+    "id": 113,
+    "question": "Under GDPR regulations, a customer named Isabella from London asks: 'Please delete all my personal data and trip history from your systems.' How must you handle this?",
+    "scenario": "GDPR data deletion request",
+    "options": {
+      "A": "Delete the account immediately without verification.",
+      "B": "Explain that we cannot delete data due to tax rules and ignore the request.",
+      "C": "Acknowledge the request politely, verify their identity, and guide them through our official GDPR privacy portal or escalate to the Privacy Team.",
+      "D": "Tell them to delete the app and the data will delete itself."
+    },
+    "answer": "C",
+    "explanation": "GDPR compliance is critical in Europe. Requests for data deletion (Right to Be Forgotten) must be handled through verified privacy protocols or escalated to privacy specialists.",
+    "skill": "Privacy & GDPR Compliance"
+  },
+  {
+    "id": 114,
+    "question": "A French passenger named Isabella writes: 'The driver was extremely discourteous and didn't greet me when I entered.' What is the best tone to use?",
+    "scenario": "European courtesy complaint",
+    "options": {
+      "A": "Say: 'Drivers are not required to greet you. They just drive.'",
+      "B": "Say: 'I apologize for the lack of courtesy, Isabella. Professionalism and respect are very important to us. I will record this feedback to review the driver's service.'",
+      "C": "Say: 'Maybe the driver was in a bad mood, let it go.'",
+      "D": "Say: 'I will deactivate the driver immediately.'"
+    },
+    "answer": "B",
+    "explanation": "European customers expect polite, structured, and formal customer service. Validate their expectation of courtesy and log the feedback formally.",
+    "skill": "Tone & Courtesy"
+  },
+  {
+    "id": 115,
+    "question": "A customer in London writes: 'I was charged extra because the driver got stuck at a roundabout.' What is a 'roundabout'?",
+    "scenario": "UK terminology",
+    "options": {
+      "A": "A circular intersection or traffic circle.",
+      "B": "A dead end street.",
+      "C": "A highway toll booth.",
+      "D": "A construction zone."
+    },
+    "answer": "A",
+    "explanation": "'Roundabout' is the British term for a circular road junction (traffic circle).",
+    "skill": "UK English Vocabulary"
+  },
+  {
+    "id": 116,
+    "question": "A customer in Berlin says: 'The driver refused to take my dog. I am blind and this was a guide dog.' What is the correct policy?",
+    "scenario": "Service animal policy in EU",
+    "options": {
+      "A": "Tell them drivers can choose whether to allow animals or not.",
+      "B": "Under the law and Uber policy, service animals must be accommodated. Acknowledge this immediately, apologize, refund any cancellation fee, and escalate to the compliance team.",
+      "C": "Tell them to book a special animal ride and pay extra.",
+      "D": "Ask them to prove their blindness first."
+    },
+    "answer": "B",
+    "explanation": "Service animal accommodation is a legal requirement in Europe (e.g. UK Equality Act). Refusal of a guide dog is a severe policy violation and must be escalated.",
+    "skill": "Policy & Legal Compliance"
+  },
+  {
+    "id": 117,
+    "question": "A European customer messages: 'I'm queueing for a taxi because my Uber never showed up.' What does 'queueing' mean?",
+    "scenario": "UK slang",
+    "options": {
+      "A": "Waiting in a line.",
+      "B": "Paying with cash.",
+      "C": "Calling the police.",
+      "D": "Writing a review."
+    },
+    "answer": "A",
+    "explanation": "'Queueing' means waiting in a line. In this situation, check the driver's location and issue a refund/credit if the driver cancelled incorrectly.",
+    "skill": "UK English Vocabulary"
+  },
+  {
+    "id": 118,
+    "question": "A customer from Berlin writes: 'I am on holiday and the driver refused to put my heavy cases in the bonnet.' What is wrong with the customer's request?",
+    "scenario": "Car parts vocabulary check",
+    "options": {
+      "A": "Heavy cases belong in the boot (trunk), not the bonnet (hood), which covers the engine.",
+      "B": "Passengers must carry all bags on their laps.",
+      "C": "Uber does not allow heavy luggage.",
+      "D": "The bonnet is the passenger seat."
+    },
+    "answer": "A",
+    "explanation": "In UK/EU, 'bonnet' is the car hood (covering the engine). Luggage goes in the 'boot' (trunk). Politely clarify if there was a language/parts confusion.",
+    "skill": "Vehicle Terminology"
+  },
+  {
+    "id": 119,
+    "question": "A customer from the Netherlands writes: 'Your driver drove past the roundabout and took a petrol station exit.' What does 'petrol' mean?",
+    "scenario": "EU vocabulary",
+    "options": {
+      "A": "Diesel engine oil.",
+      "B": "Gasoline (gas).",
+      "C": "Electric charging station.",
+      "D": "A restaurant."
+    },
+    "answer": "B",
+    "explanation": "'Petrol' is the British/European term for gasoline.",
+    "skill": "Language Differences"
+  },
+  {
+    "id": 120,
+    "question": "A customer named Alistair from London writes: 'I received a bill for a toll road, but the driver didn't tell me this route had tolls.' How do you structure your explanation?",
+    "scenario": "Structured billing response",
+    "options": {
+      "A": "Write a short sentence: 'Tolls are added automatically. Bye.'",
+      "B": "Provide a structured, polite breakdown: 1. Confirm the trip ID; 2. Explain how toll fees are calculated and added; 3. Apologize for the lack of communication from the driver.",
+      "C": "Tell them to contact the toll authority directly.",
+      "D": "Offer a full refund of the entire fare to avoid any argument."
+    },
+    "answer": "B",
+    "explanation": "European customers value clear, structured explanations (often numbered or bulleted) that detail the 'why' behind charges.",
+    "skill": "Structured Writing"
+  },
+  {
+    "id": 121,
+    "question": "A European customer named Charlotte writes: 'I left my purse in the boot of the vehicle.' What does 'boot' refer to?",
+    "scenario": "European terminology query",
+    "options": {
+      "A": "The driver's footwear.",
+      "B": "The glove compartment.",
+      "C": "The trunk of the car.",
+      "D": "The back seat."
+    },
+    "answer": "C",
+    "explanation": "In UK and parts of Europe, 'boot' is used to refer to the trunk of a car. Knowing regional terms prevents confusion.",
+    "skill": "European Terminology"
+  },
+  {
+    "id": 122,
+    "question": "A client from Germany asks for a complete invoice detailing the VAT charges. What is the most appropriate professional response?",
+    "scenario": "Invoice and VAT request",
+    "options": {
+      "A": "We don't send invoices. You can see it on the screen.",
+      "B": "Sure, Lukas. I have generated your official VAT invoice for trip #434701 and emailed it to your registered address in PDF format.",
+      "C": "Invoices are only for premium users. Please upgrade.",
+      "D": "Please write a physical letter to our headquarters for VAT details."
+    },
+    "answer": "B",
+    "explanation": "European customers, especially in Germany, are highly detail-oriented and often need PDF invoices with VAT (Value Added Tax) details for expense tracking.",
+    "skill": "Professional Support"
+  },
+  {
+    "id": 123,
+    "question": "Under GDPR regulations, a customer named Laura from Tokyo asks: 'Please delete all my personal data and trip history from your systems.' How must you handle this?",
+    "scenario": "GDPR data deletion request",
+    "options": {
+      "A": "Delete the account immediately without verification.",
+      "B": "Explain that we cannot delete data due to tax rules and ignore the request.",
+      "C": "Acknowledge the request politely, verify their identity, and guide them through our official GDPR privacy portal or escalate to the Privacy Team.",
+      "D": "Tell them to delete the app and the data will delete itself."
+    },
+    "answer": "C",
+    "explanation": "GDPR compliance is critical in Europe. Requests for data deletion (Right to Be Forgotten) must be handled through verified privacy protocols or escalated to privacy specialists.",
+    "skill": "Privacy & GDPR Compliance"
+  },
+  {
+    "id": 124,
+    "question": "A French passenger named Sophie writes: 'The driver was extremely discourteous and didn't greet me when I entered.' What is the best tone to use?",
+    "scenario": "European courtesy complaint",
+    "options": {
+      "A": "Say: 'Drivers are not required to greet you. They just drive.'",
+      "B": "Say: 'I apologize for the lack of courtesy, Sophie. Professionalism and respect are very important to us. I will record this feedback to review the driver's service.'",
+      "C": "Say: 'Maybe the driver was in a bad mood, let it go.'",
+      "D": "Say: 'I will deactivate the driver immediately.'"
+    },
+    "answer": "B",
+    "explanation": "European customers expect polite, structured, and formal customer service. Validate their expectation of courtesy and log the feedback formally.",
+    "skill": "Tone & Courtesy"
+  },
+  {
+    "id": 125,
+    "question": "A customer in London writes: 'I was charged extra because the driver got stuck at a roundabout.' What is a 'roundabout'?",
+    "scenario": "UK terminology",
+    "options": {
+      "A": "A circular intersection or traffic circle.",
+      "B": "A dead end street.",
+      "C": "A highway toll booth.",
+      "D": "A construction zone."
+    },
+    "answer": "A",
+    "explanation": "'Roundabout' is the British term for a circular road junction (traffic circle).",
+    "skill": "UK English Vocabulary"
+  },
+  {
+    "id": 126,
+    "question": "A customer in Berlin says: 'The driver refused to take my dog. I am blind and this was a guide dog.' What is the correct policy?",
+    "scenario": "Service animal policy in EU",
+    "options": {
+      "A": "Tell them drivers can choose whether to allow animals or not.",
+      "B": "Under the law and Uber policy, service animals must be accommodated. Acknowledge this immediately, apologize, refund any cancellation fee, and escalate to the compliance team.",
+      "C": "Tell them to book a special animal ride and pay extra.",
+      "D": "Ask them to prove their blindness first."
+    },
+    "answer": "B",
+    "explanation": "Service animal accommodation is a legal requirement in Europe (e.g. UK Equality Act). Refusal of a guide dog is a severe policy violation and must be escalated.",
+    "skill": "Policy & Legal Compliance"
+  },
+  {
+    "id": 127,
+    "question": "A European customer messages: 'I'm queueing for a taxi because my Uber never showed up.' What does 'queueing' mean?",
+    "scenario": "UK slang",
+    "options": {
+      "A": "Waiting in a line.",
+      "B": "Paying with cash.",
+      "C": "Calling the police.",
+      "D": "Writing a review."
+    },
+    "answer": "A",
+    "explanation": "'Queueing' means waiting in a line. In this situation, check the driver's location and issue a refund/credit if the driver cancelled incorrectly.",
+    "skill": "UK English Vocabulary"
+  },
+  {
+    "id": 128,
+    "question": "A customer from Tokyo writes: 'I am on holiday and the driver refused to put my heavy cases in the bonnet.' What is wrong with the customer's request?",
+    "scenario": "Car parts vocabulary check",
+    "options": {
+      "A": "Heavy cases belong in the boot (trunk), not the bonnet (hood), which covers the engine.",
+      "B": "Passengers must carry all bags on their laps.",
+      "C": "Uber does not allow heavy luggage.",
+      "D": "The bonnet is the passenger seat."
+    },
+    "answer": "A",
+    "explanation": "In UK/EU, 'bonnet' is the car hood (covering the engine). Luggage goes in the 'boot' (trunk). Politely clarify if there was a language/parts confusion.",
+    "skill": "Vehicle Terminology"
+  },
+  {
+    "id": 129,
+    "question": "A customer from the Netherlands writes: 'Your driver drove past the roundabout and took a petrol station exit.' What does 'petrol' mean?",
+    "scenario": "EU vocabulary",
+    "options": {
+      "A": "Diesel engine oil.",
+      "B": "Gasoline (gas).",
+      "C": "Electric charging station.",
+      "D": "A restaurant."
+    },
+    "answer": "B",
+    "explanation": "'Petrol' is the British/European term for gasoline.",
+    "skill": "Language Differences"
+  },
+  {
+    "id": 130,
+    "question": "A customer named Isabella from London writes: 'I received a bill for a toll road, but the driver didn't tell me this route had tolls.' How do you structure your explanation?",
+    "scenario": "Structured billing response",
+    "options": {
+      "A": "Write a short sentence: 'Tolls are added automatically. Bye.'",
+      "B": "Provide a structured, polite breakdown: 1. Confirm the trip ID; 2. Explain how toll fees are calculated and added; 3. Apologize for the lack of communication from the driver.",
+      "C": "Tell them to contact the toll authority directly.",
+      "D": "Offer a full refund of the entire fare to avoid any argument."
+    },
+    "answer": "B",
+    "explanation": "European customers value clear, structured explanations (often numbered or bulleted) that detail the 'why' behind charges.",
+    "skill": "Structured Writing"
+  },
+  {
+    "id": 131,
+    "question": "A European customer named Oliver writes: 'I left my wallet in the boot of the vehicle.' What does 'boot' refer to?",
+    "scenario": "European terminology query",
+    "options": {
+      "A": "The driver's footwear.",
+      "B": "The glove compartment.",
+      "C": "The trunk of the car.",
+      "D": "The back seat."
+    },
+    "answer": "C",
+    "explanation": "In UK and parts of Europe, 'boot' is used to refer to the trunk of a car. Knowing regional terms prevents confusion.",
+    "skill": "European Terminology"
+  },
+  {
+    "id": 132,
+    "question": "A client from Germany asks for a complete invoice detailing the VAT charges. What is the most appropriate professional response?",
+    "scenario": "Invoice and VAT request",
+    "options": {
+      "A": "We don't send invoices. You can see it on the screen.",
+      "B": "Sure, Laura. I have generated your official VAT invoice for trip #753775 and emailed it to your registered address in PDF format.",
+      "C": "Invoices are only for premium users. Please upgrade.",
+      "D": "Please write a physical letter to our headquarters for VAT details."
+    },
+    "answer": "B",
+    "explanation": "European customers, especially in Germany, are highly detail-oriented and often need PDF invoices with VAT (Value Added Tax) details for expense tracking.",
+    "skill": "Professional Support"
+  },
+  {
+    "id": 133,
+    "question": "Under GDPR regulations, a customer named Anna from Seoul asks: 'Please delete all my personal data and trip history from your systems.' How must you handle this?",
+    "scenario": "GDPR data deletion request",
+    "options": {
+      "A": "Delete the account immediately without verification.",
+      "B": "Explain that we cannot delete data due to tax rules and ignore the request.",
+      "C": "Acknowledge the request politely, verify their identity, and guide them through our official GDPR privacy portal or escalate to the Privacy Team.",
+      "D": "Tell them to delete the app and the data will delete itself."
+    },
+    "answer": "C",
+    "explanation": "GDPR compliance is critical in Europe. Requests for data deletion (Right to Be Forgotten) must be handled through verified privacy protocols or escalated to privacy specialists.",
+    "skill": "Privacy & GDPR Compliance"
+  },
+  {
+    "id": 134,
+    "question": "A French passenger named Isabella writes: 'The driver was extremely discourteous and didn't greet me when I entered.' What is the best tone to use?",
+    "scenario": "European courtesy complaint",
+    "options": {
+      "A": "Say: 'Drivers are not required to greet you. They just drive.'",
+      "B": "Say: 'I apologize for the lack of courtesy, Isabella. Professionalism and respect are very important to us. I will record this feedback to review the driver's service.'",
+      "C": "Say: 'Maybe the driver was in a bad mood, let it go.'",
+      "D": "Say: 'I will deactivate the driver immediately.'"
+    },
+    "answer": "B",
+    "explanation": "European customers expect polite, structured, and formal customer service. Validate their expectation of courtesy and log the feedback formally.",
+    "skill": "Tone & Courtesy"
+  },
+  {
+    "id": 135,
+    "question": "A customer in London writes: 'I was charged extra because the driver got stuck at a roundabout.' What is a 'roundabout'?",
+    "scenario": "UK terminology",
+    "options": {
+      "A": "A circular intersection or traffic circle.",
+      "B": "A dead end street.",
+      "C": "A highway toll booth.",
+      "D": "A construction zone."
+    },
+    "answer": "A",
+    "explanation": "'Roundabout' is the British term for a circular road junction (traffic circle).",
+    "skill": "UK English Vocabulary"
+  },
+  {
+    "id": 136,
+    "question": "A customer in Berlin says: 'The driver refused to take my dog. I am blind and this was a guide dog.' What is the correct policy?",
+    "scenario": "Service animal policy in EU",
+    "options": {
+      "A": "Tell them drivers can choose whether to allow animals or not.",
+      "B": "Under the law and Uber policy, service animals must be accommodated. Acknowledge this immediately, apologize, refund any cancellation fee, and escalate to the compliance team.",
+      "C": "Tell them to book a special animal ride and pay extra.",
+      "D": "Ask them to prove their blindness first."
+    },
+    "answer": "B",
+    "explanation": "Service animal accommodation is a legal requirement in Europe (e.g. UK Equality Act). Refusal of a guide dog is a severe policy violation and must be escalated.",
+    "skill": "Policy & Legal Compliance"
+  },
+  {
+    "id": 137,
+    "question": "A European customer messages: 'I'm queueing for a taxi because my Uber never showed up.' What does 'queueing' mean?",
+    "scenario": "UK slang",
+    "options": {
+      "A": "Waiting in a line.",
+      "B": "Paying with cash.",
+      "C": "Calling the police.",
+      "D": "Writing a review."
+    },
+    "answer": "A",
+    "explanation": "'Queueing' means waiting in a line. In this situation, check the driver's location and issue a refund/credit if the driver cancelled incorrectly.",
+    "skill": "UK English Vocabulary"
+  },
+  {
+    "id": 138,
+    "question": "A customer from Seoul writes: 'I am on holiday and the driver refused to put my heavy cases in the bonnet.' What is wrong with the customer's request?",
+    "scenario": "Car parts vocabulary check",
+    "options": {
+      "A": "Heavy cases belong in the boot (trunk), not the bonnet (hood), which covers the engine.",
+      "B": "Passengers must carry all bags on their laps.",
+      "C": "Uber does not allow heavy luggage.",
+      "D": "The bonnet is the passenger seat."
+    },
+    "answer": "A",
+    "explanation": "In UK/EU, 'bonnet' is the car hood (covering the engine). Luggage goes in the 'boot' (trunk). Politely clarify if there was a language/parts confusion.",
+    "skill": "Vehicle Terminology"
+  },
+  {
+    "id": 139,
+    "question": "A customer from the Netherlands writes: 'Your driver drove past the roundabout and took a petrol station exit.' What does 'petrol' mean?",
+    "scenario": "EU vocabulary",
+    "options": {
+      "A": "Diesel engine oil.",
+      "B": "Gasoline (gas).",
+      "C": "Electric charging station.",
+      "D": "A restaurant."
+    },
+    "answer": "B",
+    "explanation": "'Petrol' is the British/European term for gasoline.",
+    "skill": "Language Differences"
+  },
+  {
+    "id": 140,
+    "question": "A customer named Thomas from Seoul writes: 'I received a bill for a toll road, but the driver didn't tell me this route had tolls.' How do you structure your explanation?",
+    "scenario": "Structured billing response",
+    "options": {
+      "A": "Write a short sentence: 'Tolls are added automatically. Bye.'",
+      "B": "Provide a structured, polite breakdown: 1. Confirm the trip ID; 2. Explain how toll fees are calculated and added; 3. Apologize for the lack of communication from the driver.",
+      "C": "Tell them to contact the toll authority directly.",
+      "D": "Offer a full refund of the entire fare to avoid any argument."
+    },
+    "answer": "B",
+    "explanation": "European customers value clear, structured explanations (often numbered or bulleted) that detail the 'why' behind charges.",
+    "skill": "Structured Writing"
+  },
+  {
+    "id": 141,
+    "question": "A European customer named Charlotte writes: 'I left my keys in the boot of the vehicle.' What does 'boot' refer to?",
+    "scenario": "European terminology query",
+    "options": {
+      "A": "The driver's footwear.",
+      "B": "The glove compartment.",
+      "C": "The trunk of the car.",
+      "D": "The back seat."
+    },
+    "answer": "C",
+    "explanation": "In UK and parts of Europe, 'boot' is used to refer to the trunk of a car. Knowing regional terms prevents confusion.",
+    "skill": "European Terminology"
+  },
+  {
+    "id": 142,
+    "question": "A client from Germany asks for a complete invoice detailing the VAT charges. What is the most appropriate professional response?",
+    "scenario": "Invoice and VAT request",
+    "options": {
+      "A": "We don't send invoices. You can see it on the screen.",
+      "B": "Sure, Emma. I have generated your official VAT invoice for trip #533382 and emailed it to your registered address in PDF format.",
+      "C": "Invoices are only for premium users. Please upgrade.",
+      "D": "Please write a physical letter to our headquarters for VAT details."
+    },
+    "answer": "B",
+    "explanation": "European customers, especially in Germany, are highly detail-oriented and often need PDF invoices with VAT (Value Added Tax) details for expense tracking.",
+    "skill": "Professional Support"
+  },
+  {
+    "id": 143,
+    "question": "Under GDPR regulations, a customer named Thomas from Berlin asks: 'Please delete all my personal data and trip history from your systems.' How must you handle this?",
+    "scenario": "GDPR data deletion request",
+    "options": {
+      "A": "Delete the account immediately without verification.",
+      "B": "Explain that we cannot delete data due to tax rules and ignore the request.",
+      "C": "Acknowledge the request politely, verify their identity, and guide them through our official GDPR privacy portal or escalate to the Privacy Team.",
+      "D": "Tell them to delete the app and the data will delete itself."
+    },
+    "answer": "C",
+    "explanation": "GDPR compliance is critical in Europe. Requests for data deletion (Right to Be Forgotten) must be handled through verified privacy protocols or escalated to privacy specialists.",
+    "skill": "Privacy & GDPR Compliance"
+  },
+  {
+    "id": 144,
+    "question": "A French passenger named Jean writes: 'The driver was extremely discourteous and didn't greet me when I entered.' What is the best tone to use?",
+    "scenario": "European courtesy complaint",
+    "options": {
+      "A": "Say: 'Drivers are not required to greet you. They just drive.'",
+      "B": "Say: 'I apologize for the lack of courtesy, Jean. Professionalism and respect are very important to us. I will record this feedback to review the driver's service.'",
+      "C": "Say: 'Maybe the driver was in a bad mood, let it go.'",
+      "D": "Say: 'I will deactivate the driver immediately.'"
+    },
+    "answer": "B",
+    "explanation": "European customers expect polite, structured, and formal customer service. Validate their expectation of courtesy and log the feedback formally.",
+    "skill": "Tone & Courtesy"
+  },
+  {
+    "id": 145,
+    "question": "A customer in London writes: 'I was charged extra because the driver got stuck at a roundabout.' What is a 'roundabout'?",
+    "scenario": "UK terminology",
+    "options": {
+      "A": "A circular intersection or traffic circle.",
+      "B": "A dead end street.",
+      "C": "A highway toll booth.",
+      "D": "A construction zone."
+    },
+    "answer": "A",
+    "explanation": "'Roundabout' is the British term for a circular road junction (traffic circle).",
+    "skill": "UK English Vocabulary"
+  },
+  {
+    "id": 146,
+    "question": "A customer in Berlin says: 'The driver refused to take my dog. I am blind and this was a guide dog.' What is the correct policy?",
+    "scenario": "Service animal policy in EU",
+    "options": {
+      "A": "Tell them drivers can choose whether to allow animals or not.",
+      "B": "Under the law and Uber policy, service animals must be accommodated. Acknowledge this immediately, apologize, refund any cancellation fee, and escalate to the compliance team.",
+      "C": "Tell them to book a special animal ride and pay extra.",
+      "D": "Ask them to prove their blindness first."
+    },
+    "answer": "B",
+    "explanation": "Service animal accommodation is a legal requirement in Europe (e.g. UK Equality Act). Refusal of a guide dog is a severe policy violation and must be escalated.",
+    "skill": "Policy & Legal Compliance"
+  },
+  {
+    "id": 147,
+    "question": "A European customer messages: 'I'm queueing for a taxi because my Uber never showed up.' What does 'queueing' mean?",
+    "scenario": "UK slang",
+    "options": {
+      "A": "Waiting in a line.",
+      "B": "Paying with cash.",
+      "C": "Calling the police.",
+      "D": "Writing a review."
+    },
+    "answer": "A",
+    "explanation": "'Queueing' means waiting in a line. In this situation, check the driver's location and issue a refund/credit if the driver cancelled incorrectly.",
+    "skill": "UK English Vocabulary"
+  },
+  {
+    "id": 148,
+    "question": "A customer from Seoul writes: 'I am on holiday and the driver refused to put my heavy cases in the bonnet.' What is wrong with the customer's request?",
+    "scenario": "Car parts vocabulary check",
+    "options": {
+      "A": "Heavy cases belong in the boot (trunk), not the bonnet (hood), which covers the engine.",
+      "B": "Passengers must carry all bags on their laps.",
+      "C": "Uber does not allow heavy luggage.",
+      "D": "The bonnet is the passenger seat."
+    },
+    "answer": "A",
+    "explanation": "In UK/EU, 'bonnet' is the car hood (covering the engine). Luggage goes in the 'boot' (trunk). Politely clarify if there was a language/parts confusion.",
+    "skill": "Vehicle Terminology"
+  },
+  {
+    "id": 149,
+    "question": "A customer from the Netherlands writes: 'Your driver drove past the roundabout and took a petrol station exit.' What does 'petrol' mean?",
+    "scenario": "EU vocabulary",
+    "options": {
+      "A": "Diesel engine oil.",
+      "B": "Gasoline (gas).",
+      "C": "Electric charging station.",
+      "D": "A restaurant."
+    },
+    "answer": "B",
+    "explanation": "'Petrol' is the British/European term for gasoline.",
+    "skill": "Language Differences"
+  },
+  {
+    "id": 150,
+    "question": "A customer named Sophie from Paris writes: 'I received a bill for a toll road, but the driver didn't tell me this route had tolls.' How do you structure your explanation?",
+    "scenario": "Structured billing response",
+    "options": {
+      "A": "Write a short sentence: 'Tolls are added automatically. Bye.'",
+      "B": "Provide a structured, polite breakdown: 1. Confirm the trip ID; 2. Explain how toll fees are calculated and added; 3. Apologize for the lack of communication from the driver.",
+      "C": "Tell them to contact the toll authority directly.",
+      "D": "Offer a full refund of the entire fare to avoid any argument."
+    },
+    "answer": "B",
+    "explanation": "European customers value clear, structured explanations (often numbered or bulleted) that detail the 'why' behind charges.",
+    "skill": "Structured Writing"
+  },
+  {
+    "id": 151,
+    "question": "A European customer named Luca writes: 'I left my briefcase in the boot of the vehicle.' What does 'boot' refer to?",
+    "scenario": "European terminology query",
+    "options": {
+      "A": "The driver's footwear.",
+      "B": "The glove compartment.",
+      "C": "The trunk of the car.",
+      "D": "The back seat."
+    },
+    "answer": "C",
+    "explanation": "In UK and parts of Europe, 'boot' is used to refer to the trunk of a car. Knowing regional terms prevents confusion.",
+    "skill": "European Terminology"
+  },
+  {
+    "id": 152,
+    "question": "A client from Germany asks for a complete invoice detailing the VAT charges. What is the most appropriate professional response?",
+    "scenario": "Invoice and VAT request",
+    "options": {
+      "A": "We don't send invoices. You can see it on the screen.",
+      "B": "Sure, Jean. I have generated your official VAT invoice for trip #327709 and emailed it to your registered address in PDF format.",
+      "C": "Invoices are only for premium users. Please upgrade.",
+      "D": "Please write a physical letter to our headquarters for VAT details."
+    },
+    "answer": "B",
+    "explanation": "European customers, especially in Germany, are highly detail-oriented and often need PDF invoices with VAT (Value Added Tax) details for expense tracking.",
+    "skill": "Professional Support"
+  },
+  {
+    "id": 153,
+    "question": "Under GDPR regulations, a customer named Hans from Paris asks: 'Please delete all my personal data and trip history from your systems.' How must you handle this?",
+    "scenario": "GDPR data deletion request",
+    "options": {
+      "A": "Delete the account immediately without verification.",
+      "B": "Explain that we cannot delete data due to tax rules and ignore the request.",
+      "C": "Acknowledge the request politely, verify their identity, and guide them through our official GDPR privacy portal or escalate to the Privacy Team.",
+      "D": "Tell them to delete the app and the data will delete itself."
+    },
+    "answer": "C",
+    "explanation": "GDPR compliance is critical in Europe. Requests for data deletion (Right to Be Forgotten) must be handled through verified privacy protocols or escalated to privacy specialists.",
+    "skill": "Privacy & GDPR Compliance"
+  },
+  {
+    "id": 154,
+    "question": "A French passenger named Hans writes: 'The driver was extremely discourteous and didn't greet me when I entered.' What is the best tone to use?",
+    "scenario": "European courtesy complaint",
+    "options": {
+      "A": "Say: 'Drivers are not required to greet you. They just drive.'",
+      "B": "Say: 'I apologize for the lack of courtesy, Hans. Professionalism and respect are very important to us. I will record this feedback to review the driver's service.'",
+      "C": "Say: 'Maybe the driver was in a bad mood, let it go.'",
+      "D": "Say: 'I will deactivate the driver immediately.'"
+    },
+    "answer": "B",
+    "explanation": "European customers expect polite, structured, and formal customer service. Validate their expectation of courtesy and log the feedback formally.",
+    "skill": "Tone & Courtesy"
+  },
+  {
+    "id": 155,
+    "question": "A customer in London writes: 'I was charged extra because the driver got stuck at a roundabout.' What is a 'roundabout'?",
+    "scenario": "UK terminology",
+    "options": {
+      "A": "A circular intersection or traffic circle.",
+      "B": "A dead end street.",
+      "C": "A highway toll booth.",
+      "D": "A construction zone."
+    },
+    "answer": "A",
+    "explanation": "'Roundabout' is the British term for a circular road junction (traffic circle).",
+    "skill": "UK English Vocabulary"
+  },
+  {
+    "id": 156,
+    "question": "A customer in Berlin says: 'The driver refused to take my dog. I am blind and this was a guide dog.' What is the correct policy?",
+    "scenario": "Service animal policy in EU",
+    "options": {
+      "A": "Tell them drivers can choose whether to allow animals or not.",
+      "B": "Under the law and Uber policy, service animals must be accommodated. Acknowledge this immediately, apologize, refund any cancellation fee, and escalate to the compliance team.",
+      "C": "Tell them to book a special animal ride and pay extra.",
+      "D": "Ask them to prove their blindness first."
+    },
+    "answer": "B",
+    "explanation": "Service animal accommodation is a legal requirement in Europe (e.g. UK Equality Act). Refusal of a guide dog is a severe policy violation and must be escalated.",
+    "skill": "Policy & Legal Compliance"
+  },
+  {
+    "id": 157,
+    "question": "A European customer messages: 'I'm queueing for a taxi because my Uber never showed up.' What does 'queueing' mean?",
+    "scenario": "UK slang",
+    "options": {
+      "A": "Waiting in a line.",
+      "B": "Paying with cash.",
+      "C": "Calling the police.",
+      "D": "Writing a review."
+    },
+    "answer": "A",
+    "explanation": "'Queueing' means waiting in a line. In this situation, check the driver's location and issue a refund/credit if the driver cancelled incorrectly.",
+    "skill": "UK English Vocabulary"
+  },
+  {
+    "id": 158,
+    "question": "A customer from Berlin writes: 'I am on holiday and the driver refused to put my heavy cases in the bonnet.' What is wrong with the customer's request?",
+    "scenario": "Car parts vocabulary check",
+    "options": {
+      "A": "Heavy cases belong in the boot (trunk), not the bonnet (hood), which covers the engine.",
+      "B": "Passengers must carry all bags on their laps.",
+      "C": "Uber does not allow heavy luggage.",
+      "D": "The bonnet is the passenger seat."
+    },
+    "answer": "A",
+    "explanation": "In UK/EU, 'bonnet' is the car hood (covering the engine). Luggage goes in the 'boot' (trunk). Politely clarify if there was a language/parts confusion.",
+    "skill": "Vehicle Terminology"
+  },
+  {
+    "id": 159,
+    "question": "A customer from the Netherlands writes: 'Your driver drove past the roundabout and took a petrol station exit.' What does 'petrol' mean?",
+    "scenario": "EU vocabulary",
+    "options": {
+      "A": "Diesel engine oil.",
+      "B": "Gasoline (gas).",
+      "C": "Electric charging station.",
+      "D": "A restaurant."
+    },
+    "answer": "B",
+    "explanation": "'Petrol' is the British/European term for gasoline.",
+    "skill": "Language Differences"
+  },
+  {
+    "id": 160,
+    "question": "A customer named Luca from Berlin writes: 'I received a bill for a toll road, but the driver didn't tell me this route had tolls.' How do you structure your explanation?",
+    "scenario": "Structured billing response",
+    "options": {
+      "A": "Write a short sentence: 'Tolls are added automatically. Bye.'",
+      "B": "Provide a structured, polite breakdown: 1. Confirm the trip ID; 2. Explain how toll fees are calculated and added; 3. Apologize for the lack of communication from the driver.",
+      "C": "Tell them to contact the toll authority directly.",
+      "D": "Offer a full refund of the entire fare to avoid any argument."
+    },
+    "answer": "B",
+    "explanation": "European customers value clear, structured explanations (often numbered or bulleted) that detail the 'why' behind charges.",
+    "skill": "Structured Writing"
+  },
+  {
+    "id": 161,
+    "question": "A European customer named Luca writes: 'I left my passport in the boot of the vehicle.' What does 'boot' refer to?",
+    "scenario": "European terminology query",
+    "options": {
+      "A": "The driver's footwear.",
+      "B": "The glove compartment.",
+      "C": "The trunk of the car.",
+      "D": "The back seat."
+    },
+    "answer": "C",
+    "explanation": "In UK and parts of Europe, 'boot' is used to refer to the trunk of a car. Knowing regional terms prevents confusion.",
+    "skill": "European Terminology"
+  },
+  {
+    "id": 162,
+    "question": "A client from Germany asks for a complete invoice detailing the VAT charges. What is the most appropriate professional response?",
+    "scenario": "Invoice and VAT request",
+    "options": {
+      "A": "We don't send invoices. You can see it on the screen.",
+      "B": "Sure, Oliver. I have generated your official VAT invoice for trip #360804 and emailed it to your registered address in PDF format.",
+      "C": "Invoices are only for premium users. Please upgrade.",
+      "D": "Please write a physical letter to our headquarters for VAT details."
+    },
+    "answer": "B",
+    "explanation": "European customers, especially in Germany, are highly detail-oriented and often need PDF invoices with VAT (Value Added Tax) details for expense tracking.",
+    "skill": "Professional Support"
+  },
+  {
+    "id": 163,
+    "question": "Under GDPR regulations, a customer named Arthur from Seoul asks: 'Please delete all my personal data and trip history from your systems.' How must you handle this?",
+    "scenario": "GDPR data deletion request",
+    "options": {
+      "A": "Delete the account immediately without verification.",
+      "B": "Explain that we cannot delete data due to tax rules and ignore the request.",
+      "C": "Acknowledge the request politely, verify their identity, and guide them through our official GDPR privacy portal or escalate to the Privacy Team.",
+      "D": "Tell them to delete the app and the data will delete itself."
+    },
+    "answer": "C",
+    "explanation": "GDPR compliance is critical in Europe. Requests for data deletion (Right to Be Forgotten) must be handled through verified privacy protocols or escalated to privacy specialists.",
+    "skill": "Privacy & GDPR Compliance"
+  },
+  {
+    "id": 164,
+    "question": "A French passenger named Lukas writes: 'The driver was extremely discourteous and didn't greet me when I entered.' What is the best tone to use?",
+    "scenario": "European courtesy complaint",
+    "options": {
+      "A": "Say: 'Drivers are not required to greet you. They just drive.'",
+      "B": "Say: 'I apologize for the lack of courtesy, Lukas. Professionalism and respect are very important to us. I will record this feedback to review the driver's service.'",
+      "C": "Say: 'Maybe the driver was in a bad mood, let it go.'",
+      "D": "Say: 'I will deactivate the driver immediately.'"
+    },
+    "answer": "B",
+    "explanation": "European customers expect polite, structured, and formal customer service. Validate their expectation of courtesy and log the feedback formally.",
+    "skill": "Tone & Courtesy"
+  },
+  {
+    "id": 165,
+    "question": "A customer in London writes: 'I was charged extra because the driver got stuck at a roundabout.' What is a 'roundabout'?",
+    "scenario": "UK terminology",
+    "options": {
+      "A": "A circular intersection or traffic circle.",
+      "B": "A dead end street.",
+      "C": "A highway toll booth.",
+      "D": "A construction zone."
+    },
+    "answer": "A",
+    "explanation": "'Roundabout' is the British term for a circular road junction (traffic circle).",
+    "skill": "UK English Vocabulary"
+  },
+  {
+    "id": 166,
+    "question": "A customer in Berlin says: 'The driver refused to take my dog. I am blind and this was a guide dog.' What is the correct policy?",
+    "scenario": "Service animal policy in EU",
+    "options": {
+      "A": "Tell them drivers can choose whether to allow animals or not.",
+      "B": "Under the law and Uber policy, service animals must be accommodated. Acknowledge this immediately, apologize, refund any cancellation fee, and escalate to the compliance team.",
+      "C": "Tell them to book a special animal ride and pay extra.",
+      "D": "Ask them to prove their blindness first."
+    },
+    "answer": "B",
+    "explanation": "Service animal accommodation is a legal requirement in Europe (e.g. UK Equality Act). Refusal of a guide dog is a severe policy violation and must be escalated.",
+    "skill": "Policy & Legal Compliance"
+  },
+  {
+    "id": 167,
+    "question": "A European customer messages: 'I'm queueing for a taxi because my Uber never showed up.' What does 'queueing' mean?",
+    "scenario": "UK slang",
+    "options": {
+      "A": "Waiting in a line.",
+      "B": "Paying with cash.",
+      "C": "Calling the police.",
+      "D": "Writing a review."
+    },
+    "answer": "A",
+    "explanation": "'Queueing' means waiting in a line. In this situation, check the driver's location and issue a refund/credit if the driver cancelled incorrectly.",
+    "skill": "UK English Vocabulary"
+  },
+  {
+    "id": 168,
+    "question": "A customer from Seoul writes: 'I am on holiday and the driver refused to put my heavy cases in the bonnet.' What is wrong with the customer's request?",
+    "scenario": "Car parts vocabulary check",
+    "options": {
+      "A": "Heavy cases belong in the boot (trunk), not the bonnet (hood), which covers the engine.",
+      "B": "Passengers must carry all bags on their laps.",
+      "C": "Uber does not allow heavy luggage.",
+      "D": "The bonnet is the passenger seat."
+    },
+    "answer": "A",
+    "explanation": "In UK/EU, 'bonnet' is the car hood (covering the engine). Luggage goes in the 'boot' (trunk). Politely clarify if there was a language/parts confusion.",
+    "skill": "Vehicle Terminology"
+  },
+  {
+    "id": 169,
+    "question": "A customer from the Netherlands writes: 'Your driver drove past the roundabout and took a petrol station exit.' What does 'petrol' mean?",
+    "scenario": "EU vocabulary",
+    "options": {
+      "A": "Diesel engine oil.",
+      "B": "Gasoline (gas).",
+      "C": "Electric charging station.",
+      "D": "A restaurant."
+    },
+    "answer": "B",
+    "explanation": "'Petrol' is the British/European term for gasoline.",
+    "skill": "Language Differences"
+  },
+  {
+    "id": 170,
+    "question": "A customer named Laura from London writes: 'I received a bill for a toll road, but the driver didn't tell me this route had tolls.' How do you structure your explanation?",
+    "scenario": "Structured billing response",
+    "options": {
+      "A": "Write a short sentence: 'Tolls are added automatically. Bye.'",
+      "B": "Provide a structured, polite breakdown: 1. Confirm the trip ID; 2. Explain how toll fees are calculated and added; 3. Apologize for the lack of communication from the driver.",
+      "C": "Tell them to contact the toll authority directly.",
+      "D": "Offer a full refund of the entire fare to avoid any argument."
+    },
+    "answer": "B",
+    "explanation": "European customers value clear, structured explanations (often numbered or bulleted) that detail the 'why' behind charges.",
+    "skill": "Structured Writing"
+  },
+  {
+    "id": 171,
+    "question": "A European customer named Emma writes: 'I left my jacket in the boot of the vehicle.' What does 'boot' refer to?",
+    "scenario": "European terminology query",
+    "options": {
+      "A": "The driver's footwear.",
+      "B": "The glove compartment.",
+      "C": "The trunk of the car.",
+      "D": "The back seat."
+    },
+    "answer": "C",
+    "explanation": "In UK and parts of Europe, 'boot' is used to refer to the trunk of a car. Knowing regional terms prevents confusion.",
+    "skill": "European Terminology"
+  },
+  {
+    "id": 172,
+    "question": "A client from Germany asks for a complete invoice detailing the VAT charges. What is the most appropriate professional response?",
+    "scenario": "Invoice and VAT request",
+    "options": {
+      "A": "We don't send invoices. You can see it on the screen.",
+      "B": "Sure, Isabella. I have generated your official VAT invoice for trip #425734 and emailed it to your registered address in PDF format.",
+      "C": "Invoices are only for premium users. Please upgrade.",
+      "D": "Please write a physical letter to our headquarters for VAT details."
+    },
+    "answer": "B",
+    "explanation": "European customers, especially in Germany, are highly detail-oriented and often need PDF invoices with VAT (Value Added Tax) details for expense tracking.",
+    "skill": "Professional Support"
+  },
+  {
+    "id": 173,
+    "question": "Under GDPR regulations, a customer named Sophie from Tokyo asks: 'Please delete all my personal data and trip history from your systems.' How must you handle this?",
+    "scenario": "GDPR data deletion request",
+    "options": {
+      "A": "Delete the account immediately without verification.",
+      "B": "Explain that we cannot delete data due to tax rules and ignore the request.",
+      "C": "Acknowledge the request politely, verify their identity, and guide them through our official GDPR privacy portal or escalate to the Privacy Team.",
+      "D": "Tell them to delete the app and the data will delete itself."
+    },
+    "answer": "C",
+    "explanation": "GDPR compliance is critical in Europe. Requests for data deletion (Right to Be Forgotten) must be handled through verified privacy protocols or escalated to privacy specialists.",
+    "skill": "Privacy & GDPR Compliance"
+  },
+  {
+    "id": 174,
+    "question": "A French passenger named Lukas writes: 'The driver was extremely discourteous and didn't greet me when I entered.' What is the best tone to use?",
+    "scenario": "European courtesy complaint",
+    "options": {
+      "A": "Say: 'Drivers are not required to greet you. They just drive.'",
+      "B": "Say: 'I apologize for the lack of courtesy, Lukas. Professionalism and respect are very important to us. I will record this feedback to review the driver's service.'",
+      "C": "Say: 'Maybe the driver was in a bad mood, let it go.'",
+      "D": "Say: 'I will deactivate the driver immediately.'"
+    },
+    "answer": "B",
+    "explanation": "European customers expect polite, structured, and formal customer service. Validate their expectation of courtesy and log the feedback formally.",
+    "skill": "Tone & Courtesy"
+  },
+  {
+    "id": 175,
+    "question": "A customer in London writes: 'I was charged extra because the driver got stuck at a roundabout.' What is a 'roundabout'?",
+    "scenario": "UK terminology",
+    "options": {
+      "A": "A circular intersection or traffic circle.",
+      "B": "A dead end street.",
+      "C": "A highway toll booth.",
+      "D": "A construction zone."
+    },
+    "answer": "A",
+    "explanation": "'Roundabout' is the British term for a circular road junction (traffic circle).",
+    "skill": "UK English Vocabulary"
+  },
+  {
+    "id": 176,
+    "question": "A customer in Berlin says: 'The driver refused to take my dog. I am blind and this was a guide dog.' What is the correct policy?",
+    "scenario": "Service animal policy in EU",
+    "options": {
+      "A": "Tell them drivers can choose whether to allow animals or not.",
+      "B": "Under the law and Uber policy, service animals must be accommodated. Acknowledge this immediately, apologize, refund any cancellation fee, and escalate to the compliance team.",
+      "C": "Tell them to book a special animal ride and pay extra.",
+      "D": "Ask them to prove their blindness first."
+    },
+    "answer": "B",
+    "explanation": "Service animal accommodation is a legal requirement in Europe (e.g. UK Equality Act). Refusal of a guide dog is a severe policy violation and must be escalated.",
+    "skill": "Policy & Legal Compliance"
+  },
+  {
+    "id": 177,
+    "question": "A European customer messages: 'I'm queueing for a taxi because my Uber never showed up.' What does 'queueing' mean?",
+    "scenario": "UK slang",
+    "options": {
+      "A": "Waiting in a line.",
+      "B": "Paying with cash.",
+      "C": "Calling the police.",
+      "D": "Writing a review."
+    },
+    "answer": "A",
+    "explanation": "'Queueing' means waiting in a line. In this situation, check the driver's location and issue a refund/credit if the driver cancelled incorrectly.",
+    "skill": "UK English Vocabulary"
+  },
+  {
+    "id": 178,
+    "question": "A customer from Berlin writes: 'I am on holiday and the driver refused to put my heavy cases in the bonnet.' What is wrong with the customer's request?",
+    "scenario": "Car parts vocabulary check",
+    "options": {
+      "A": "Heavy cases belong in the boot (trunk), not the bonnet (hood), which covers the engine.",
+      "B": "Passengers must carry all bags on their laps.",
+      "C": "Uber does not allow heavy luggage.",
+      "D": "The bonnet is the passenger seat."
+    },
+    "answer": "A",
+    "explanation": "In UK/EU, 'bonnet' is the car hood (covering the engine). Luggage goes in the 'boot' (trunk). Politely clarify if there was a language/parts confusion.",
+    "skill": "Vehicle Terminology"
+  },
+  {
+    "id": 179,
+    "question": "A customer from the Netherlands writes: 'Your driver drove past the roundabout and took a petrol station exit.' What does 'petrol' mean?",
+    "scenario": "EU vocabulary",
+    "options": {
+      "A": "Diesel engine oil.",
+      "B": "Gasoline (gas).",
+      "C": "Electric charging station.",
+      "D": "A restaurant."
+    },
+    "answer": "B",
+    "explanation": "'Petrol' is the British/European term for gasoline.",
+    "skill": "Language Differences"
+  },
+  {
+    "id": 180,
+    "question": "A customer named Lukas from Tokyo writes: 'I received a bill for a toll road, but the driver didn't tell me this route had tolls.' How do you structure your explanation?",
+    "scenario": "Structured billing response",
+    "options": {
+      "A": "Write a short sentence: 'Tolls are added automatically. Bye.'",
+      "B": "Provide a structured, polite breakdown: 1. Confirm the trip ID; 2. Explain how toll fees are calculated and added; 3. Apologize for the lack of communication from the driver.",
+      "C": "Tell them to contact the toll authority directly.",
+      "D": "Offer a full refund of the entire fare to avoid any argument."
+    },
+    "answer": "B",
+    "explanation": "European customers value clear, structured explanations (often numbered or bulleted) that detail the 'why' behind charges.",
+    "skill": "Structured Writing"
+  },
+  {
+    "id": 181,
+    "question": "A European customer named Fiona writes: 'I left my passport in the boot of the vehicle.' What does 'boot' refer to?",
+    "scenario": "European terminology query",
+    "options": {
+      "A": "The driver's footwear.",
+      "B": "The glove compartment.",
+      "C": "The trunk of the car.",
+      "D": "The back seat."
+    },
+    "answer": "C",
+    "explanation": "In UK and parts of Europe, 'boot' is used to refer to the trunk of a car. Knowing regional terms prevents confusion.",
+    "skill": "European Terminology"
+  },
+  {
+    "id": 182,
+    "question": "A client from Germany asks for a complete invoice detailing the VAT charges. What is the most appropriate professional response?",
+    "scenario": "Invoice and VAT request",
+    "options": {
+      "A": "We don't send invoices. You can see it on the screen.",
+      "B": "Sure, Chloe. I have generated your official VAT invoice for trip #132035 and emailed it to your registered address in PDF format.",
+      "C": "Invoices are only for premium users. Please upgrade.",
+      "D": "Please write a physical letter to our headquarters for VAT details."
+    },
+    "answer": "B",
+    "explanation": "European customers, especially in Germany, are highly detail-oriented and often need PDF invoices with VAT (Value Added Tax) details for expense tracking.",
+    "skill": "Professional Support"
+  },
+  {
+    "id": 183,
+    "question": "Under GDPR regulations, a customer named Alistair from London asks: 'Please delete all my personal data and trip history from your systems.' How must you handle this?",
+    "scenario": "GDPR data deletion request",
+    "options": {
+      "A": "Delete the account immediately without verification.",
+      "B": "Explain that we cannot delete data due to tax rules and ignore the request.",
+      "C": "Acknowledge the request politely, verify their identity, and guide them through our official GDPR privacy portal or escalate to the Privacy Team.",
+      "D": "Tell them to delete the app and the data will delete itself."
+    },
+    "answer": "C",
+    "explanation": "GDPR compliance is critical in Europe. Requests for data deletion (Right to Be Forgotten) must be handled through verified privacy protocols or escalated to privacy specialists.",
+    "skill": "Privacy & GDPR Compliance"
+  },
+  {
+    "id": 184,
+    "question": "A French passenger named Alistair writes: 'The driver was extremely discourteous and didn't greet me when I entered.' What is the best tone to use?",
+    "scenario": "European courtesy complaint",
+    "options": {
+      "A": "Say: 'Drivers are not required to greet you. They just drive.'",
+      "B": "Say: 'I apologize for the lack of courtesy, Alistair. Professionalism and respect are very important to us. I will record this feedback to review the driver's service.'",
+      "C": "Say: 'Maybe the driver was in a bad mood, let it go.'",
+      "D": "Say: 'I will deactivate the driver immediately.'"
+    },
+    "answer": "B",
+    "explanation": "European customers expect polite, structured, and formal customer service. Validate their expectation of courtesy and log the feedback formally.",
+    "skill": "Tone & Courtesy"
+  },
+  {
+    "id": 185,
+    "question": "A customer in London writes: 'I was charged extra because the driver got stuck at a roundabout.' What is a 'roundabout'?",
+    "scenario": "UK terminology",
+    "options": {
+      "A": "A circular intersection or traffic circle.",
+      "B": "A dead end street.",
+      "C": "A highway toll booth.",
+      "D": "A construction zone."
+    },
+    "answer": "A",
+    "explanation": "'Roundabout' is the British term for a circular road junction (traffic circle).",
+    "skill": "UK English Vocabulary"
+  },
+  {
+    "id": 186,
+    "question": "A customer in Berlin says: 'The driver refused to take my dog. I am blind and this was a guide dog.' What is the correct policy?",
+    "scenario": "Service animal policy in EU",
+    "options": {
+      "A": "Tell them drivers can choose whether to allow animals or not.",
+      "B": "Under the law and Uber policy, service animals must be accommodated. Acknowledge this immediately, apologize, refund any cancellation fee, and escalate to the compliance team.",
+      "C": "Tell them to book a special animal ride and pay extra.",
+      "D": "Ask them to prove their blindness first."
+    },
+    "answer": "B",
+    "explanation": "Service animal accommodation is a legal requirement in Europe (e.g. UK Equality Act). Refusal of a guide dog is a severe policy violation and must be escalated.",
+    "skill": "Policy & Legal Compliance"
+  },
+  {
+    "id": 187,
+    "question": "A European customer messages: 'I'm queueing for a taxi because my Uber never showed up.' What does 'queueing' mean?",
+    "scenario": "UK slang",
+    "options": {
+      "A": "Waiting in a line.",
+      "B": "Paying with cash.",
+      "C": "Calling the police.",
+      "D": "Writing a review."
+    },
+    "answer": "A",
+    "explanation": "'Queueing' means waiting in a line. In this situation, check the driver's location and issue a refund/credit if the driver cancelled incorrectly.",
+    "skill": "UK English Vocabulary"
+  },
+  {
+    "id": 188,
+    "question": "A customer from Paris writes: 'I am on holiday and the driver refused to put my heavy cases in the bonnet.' What is wrong with the customer's request?",
+    "scenario": "Car parts vocabulary check",
+    "options": {
+      "A": "Heavy cases belong in the boot (trunk), not the bonnet (hood), which covers the engine.",
+      "B": "Passengers must carry all bags on their laps.",
+      "C": "Uber does not allow heavy luggage.",
+      "D": "The bonnet is the passenger seat."
+    },
+    "answer": "A",
+    "explanation": "In UK/EU, 'bonnet' is the car hood (covering the engine). Luggage goes in the 'boot' (trunk). Politely clarify if there was a language/parts confusion.",
+    "skill": "Vehicle Terminology"
+  },
+  {
+    "id": 189,
+    "question": "A customer from the Netherlands writes: 'Your driver drove past the roundabout and took a petrol station exit.' What does 'petrol' mean?",
+    "scenario": "EU vocabulary",
+    "options": {
+      "A": "Diesel engine oil.",
+      "B": "Gasoline (gas).",
+      "C": "Electric charging station.",
+      "D": "A restaurant."
+    },
+    "answer": "B",
+    "explanation": "'Petrol' is the British/European term for gasoline.",
+    "skill": "Language Differences"
+  },
+  {
+    "id": 190,
+    "question": "A customer named Isabella from Berlin writes: 'I received a bill for a toll road, but the driver didn't tell me this route had tolls.' How do you structure your explanation?",
+    "scenario": "Structured billing response",
+    "options": {
+      "A": "Write a short sentence: 'Tolls are added automatically. Bye.'",
+      "B": "Provide a structured, polite breakdown: 1. Confirm the trip ID; 2. Explain how toll fees are calculated and added; 3. Apologize for the lack of communication from the driver.",
+      "C": "Tell them to contact the toll authority directly.",
+      "D": "Offer a full refund of the entire fare to avoid any argument."
+    },
+    "answer": "B",
+    "explanation": "European customers value clear, structured explanations (often numbered or bulleted) that detail the 'why' behind charges.",
+    "skill": "Structured Writing"
+  },
+  {
+    "id": 191,
+    "question": "A European customer named Hans writes: 'I left my jacket in the boot of the vehicle.' What does 'boot' refer to?",
+    "scenario": "European terminology query",
+    "options": {
+      "A": "The driver's footwear.",
+      "B": "The glove compartment.",
+      "C": "The trunk of the car.",
+      "D": "The back seat."
+    },
+    "answer": "C",
+    "explanation": "In UK and parts of Europe, 'boot' is used to refer to the trunk of a car. Knowing regional terms prevents confusion.",
+    "skill": "European Terminology"
+  },
+  {
+    "id": 192,
+    "question": "A client from Germany asks for a complete invoice detailing the VAT charges. What is the most appropriate professional response?",
+    "scenario": "Invoice and VAT request",
+    "options": {
+      "A": "We don't send invoices. You can see it on the screen.",
+      "B": "Sure, Lukas. I have generated your official VAT invoice for trip #900144 and emailed it to your registered address in PDF format.",
+      "C": "Invoices are only for premium users. Please upgrade.",
+      "D": "Please write a physical letter to our headquarters for VAT details."
+    },
+    "answer": "B",
+    "explanation": "European customers, especially in Germany, are highly detail-oriented and often need PDF invoices with VAT (Value Added Tax) details for expense tracking.",
+    "skill": "Professional Support"
+  },
+  {
+    "id": 193,
+    "question": "Under GDPR regulations, a customer named Arthur from London asks: 'Please delete all my personal data and trip history from your systems.' How must you handle this?",
+    "scenario": "GDPR data deletion request",
+    "options": {
+      "A": "Delete the account immediately without verification.",
+      "B": "Explain that we cannot delete data due to tax rules and ignore the request.",
+      "C": "Acknowledge the request politely, verify their identity, and guide them through our official GDPR privacy portal or escalate to the Privacy Team.",
+      "D": "Tell them to delete the app and the data will delete itself."
+    },
+    "answer": "C",
+    "explanation": "GDPR compliance is critical in Europe. Requests for data deletion (Right to Be Forgotten) must be handled through verified privacy protocols or escalated to privacy specialists.",
+    "skill": "Privacy & GDPR Compliance"
+  },
+  {
+    "id": 194,
+    "question": "A French passenger named Jean writes: 'The driver was extremely discourteous and didn't greet me when I entered.' What is the best tone to use?",
+    "scenario": "European courtesy complaint",
+    "options": {
+      "A": "Say: 'Drivers are not required to greet you. They just drive.'",
+      "B": "Say: 'I apologize for the lack of courtesy, Jean. Professionalism and respect are very important to us. I will record this feedback to review the driver's service.'",
+      "C": "Say: 'Maybe the driver was in a bad mood, let it go.'",
+      "D": "Say: 'I will deactivate the driver immediately.'"
+    },
+    "answer": "B",
+    "explanation": "European customers expect polite, structured, and formal customer service. Validate their expectation of courtesy and log the feedback formally.",
+    "skill": "Tone & Courtesy"
+  },
+  {
+    "id": 195,
+    "question": "A customer in London writes: 'I was charged extra because the driver got stuck at a roundabout.' What is a 'roundabout'?",
+    "scenario": "UK terminology",
+    "options": {
+      "A": "A circular intersection or traffic circle.",
+      "B": "A dead end street.",
+      "C": "A highway toll booth.",
+      "D": "A construction zone."
+    },
+    "answer": "A",
+    "explanation": "'Roundabout' is the British term for a circular road junction (traffic circle).",
+    "skill": "UK English Vocabulary"
+  },
+  {
+    "id": 196,
+    "question": "A customer in Berlin says: 'The driver refused to take my dog. I am blind and this was a guide dog.' What is the correct policy?",
+    "scenario": "Service animal policy in EU",
+    "options": {
+      "A": "Tell them drivers can choose whether to allow animals or not.",
+      "B": "Under the law and Uber policy, service animals must be accommodated. Acknowledge this immediately, apologize, refund any cancellation fee, and escalate to the compliance team.",
+      "C": "Tell them to book a special animal ride and pay extra.",
+      "D": "Ask them to prove their blindness first."
+    },
+    "answer": "B",
+    "explanation": "Service animal accommodation is a legal requirement in Europe (e.g. UK Equality Act). Refusal of a guide dog is a severe policy violation and must be escalated.",
+    "skill": "Policy & Legal Compliance"
+  },
+  {
+    "id": 197,
+    "question": "A European customer messages: 'I'm queueing for a taxi because my Uber never showed up.' What does 'queueing' mean?",
+    "scenario": "UK slang",
+    "options": {
+      "A": "Waiting in a line.",
+      "B": "Paying with cash.",
+      "C": "Calling the police.",
+      "D": "Writing a review."
+    },
+    "answer": "A",
+    "explanation": "'Queueing' means waiting in a line. In this situation, check the driver's location and issue a refund/credit if the driver cancelled incorrectly.",
+    "skill": "UK English Vocabulary"
+  },
+  {
+    "id": 198,
+    "question": "A customer from Berlin writes: 'I am on holiday and the driver refused to put my heavy cases in the bonnet.' What is wrong with the customer's request?",
+    "scenario": "Car parts vocabulary check",
+    "options": {
+      "A": "Heavy cases belong in the boot (trunk), not the bonnet (hood), which covers the engine.",
+      "B": "Passengers must carry all bags on their laps.",
+      "C": "Uber does not allow heavy luggage.",
+      "D": "The bonnet is the passenger seat."
+    },
+    "answer": "A",
+    "explanation": "In UK/EU, 'bonnet' is the car hood (covering the engine). Luggage goes in the 'boot' (trunk). Politely clarify if there was a language/parts confusion.",
+    "skill": "Vehicle Terminology"
+  },
+  {
+    "id": 199,
+    "question": "A customer from the Netherlands writes: 'Your driver drove past the roundabout and took a petrol station exit.' What does 'petrol' mean?",
+    "scenario": "EU vocabulary",
+    "options": {
+      "A": "Diesel engine oil.",
+      "B": "Gasoline (gas).",
+      "C": "Electric charging station.",
+      "D": "A restaurant."
+    },
+    "answer": "B",
+    "explanation": "'Petrol' is the British/European term for gasoline.",
+    "skill": "Language Differences"
+  },
+  {
+    "id": 200,
+    "question": "A customer named Sophie from Tokyo writes: 'I received a bill for a toll road, but the driver didn't tell me this route had tolls.' How do you structure your explanation?",
+    "scenario": "Structured billing response",
+    "options": {
+      "A": "Write a short sentence: 'Tolls are added automatically. Bye.'",
+      "B": "Provide a structured, polite breakdown: 1. Confirm the trip ID; 2. Explain how toll fees are calculated and added; 3. Apologize for the lack of communication from the driver.",
+      "C": "Tell them to contact the toll authority directly.",
+      "D": "Offer a full refund of the entire fare to avoid any argument."
+    },
+    "answer": "B",
+    "explanation": "European customers value clear, structured explanations (often numbered or bulleted) that detail the 'why' behind charges.",
+    "skill": "Structured Writing"
+  }
+]

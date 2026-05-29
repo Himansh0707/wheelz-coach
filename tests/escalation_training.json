@@ -1,0 +1,2802 @@
+[
+  {
+    "id": 1,
+    "question": "A rider messages: 'I was in a car crash. The driver hit another car. I am bleeding.' What is your immediate action?",
+    "scenario": "Severe accident report",
+    "options": {
+      "A": "Tell the rider to ask the driver for insurance details.",
+      "B": "Immediately escalate to the Critical Incident Safety Team (L2 Safety), verify if emergency services are on site, and freeze the driver's account.",
+      "C": "Tell them to wait for 24 hours and we will call them.",
+      "D": "Offer a refund for the ride and close the ticket."
+    },
+    "answer": "B",
+    "explanation": "Severe safety incidents involving injury must be escalated to the Critical Incident Safety Team immediately. Check safety status first.",
+    "skill": "Critical Safety Escalation"
+  },
+  {
+    "id": 2,
+    "question": "A passenger writes: 'The driver touched my leg on purpose and made inappropriate comments. I am calling the media.' What protocol is followed?",
+    "scenario": "Physical harassment report",
+    "options": {
+      "A": "Tell them it was probably an accident and close the chat.",
+      "B": "Apologize, deactivate the driver immediately, and escalate the case to the Safety and legal response team as a priority safety incident.",
+      "C": "Offer them a free coupon to not contact the media.",
+      "D": "Ask them for video proof of the touch."
+    },
+    "answer": "B",
+    "explanation": "Sexual harassment and physical safety violations are zero-tolerance issues. Driver deactivation and escalation to specialized Safety/Legal teams are mandatory.",
+    "skill": "Harassment Protocol"
+  },
+  {
+    "id": 3,
+    "question": "A rider says: 'If you don't refund my $10.00 immediately, I am going to sue your company and contact my lawyer.' How do you respond to legal threats?",
+    "scenario": "Legal action threat",
+    "options": {
+      "A": "Tell them: 'Go ahead, we have many lawyers.'",
+      "B": "Acknowledge the dispute. Remain professional. Avoid arguing. State the final policy decision clearly and transfer the chat to the Legal Escalations Team.",
+      "C": "Apologize and give a full refund instantly to avoid a lawsuit.",
+      "D": "Disconnect the chat immediately without responding."
+    },
+    "answer": "B",
+    "explanation": "When legal action is threatened, remain calm, do not argue, state the policy, and escalate the ticket to the Legal Escalations Team.",
+    "skill": "Legal Threat Handling"
+  },
+  {
+    "id": 4,
+    "question": "A user is using abusive language in chat: 'You guys are f***ing idiots. Solve my issue now!' What is the professional boundary protocol?",
+    "scenario": "Abusive customer handling",
+    "options": {
+      "A": "Abuse them back using the same language.",
+      "B": "Politely warn the customer: 'I want to help you, but I must ask you to maintain a professional tone. If the abusive language continues, I will have to end this chat session.'",
+      "C": "Disconnect the chat instantly without warning.",
+      "D": "Ignore the abuse and continue apologizing."
+    },
+    "answer": "B",
+    "explanation": "Set clear, professional boundaries. Warn the customer politely before terminating the chat for abusive behavior.",
+    "skill": "Boundary Setting & Tone Control"
+  },
+  {
+    "id": 5,
+    "question": "A driver messages: 'The rider was racially abusive towards me and kicked my car.' What is the driver support action?",
+    "scenario": "Discrimination and vandalism report",
+    "options": {
+      "A": "Tell the driver to clean the car and ignore the comments.",
+      "B": "Acknowledge the distress, reassure the driver that discrimination is not tolerated, block the rider from matching with this driver, and escalate to the compliance team to suspend the rider's account.",
+      "C": "Tell them to report the rider to their local community leader.",
+      "D": "Suspend the driver's account."
+    },
+    "answer": "B",
+    "explanation": "Discrimination and vehicle vandalism violate Uber's community guidelines. Empathize with the driver, block matching, and escalate to compliance for rider suspension.",
+    "skill": "Driver Protection & Compliance"
+  },
+  {
+    "id": 6,
+    "question": "A rider messages: 'I was in a car crash. The driver hit another car. I am bleeding.' What is your immediate action?",
+    "scenario": "Severe accident report",
+    "options": {
+      "A": "Tell the rider to ask the driver for insurance details.",
+      "B": "Immediately escalate to the Critical Incident Safety Team (L2 Safety), verify if emergency services are on site, and freeze the driver's account.",
+      "C": "Tell them to wait for 24 hours and we will call them.",
+      "D": "Offer a refund for the ride and close the ticket."
+    },
+    "answer": "B",
+    "explanation": "Severe safety incidents involving injury must be escalated to the Critical Incident Safety Team immediately. Check safety status first.",
+    "skill": "Critical Safety Escalation"
+  },
+  {
+    "id": 7,
+    "question": "A passenger writes: 'The driver touched my leg on purpose and made inappropriate comments. I am calling the media.' What protocol is followed?",
+    "scenario": "Physical harassment report",
+    "options": {
+      "A": "Tell them it was probably an accident and close the chat.",
+      "B": "Apologize, deactivate the driver immediately, and escalate the case to the Safety and legal response team as a priority safety incident.",
+      "C": "Offer them a free coupon to not contact the media.",
+      "D": "Ask them for video proof of the touch."
+    },
+    "answer": "B",
+    "explanation": "Sexual harassment and physical safety violations are zero-tolerance issues. Driver deactivation and escalation to specialized Safety/Legal teams are mandatory.",
+    "skill": "Harassment Protocol"
+  },
+  {
+    "id": 8,
+    "question": "A rider says: 'If you don't refund my $75.00 immediately, I am going to sue your company and contact my lawyer.' How do you respond to legal threats?",
+    "scenario": "Legal action threat",
+    "options": {
+      "A": "Tell them: 'Go ahead, we have many lawyers.'",
+      "B": "Acknowledge the dispute. Remain professional. Avoid arguing. State the final policy decision clearly and transfer the chat to the Legal Escalations Team.",
+      "C": "Apologize and give a full refund instantly to avoid a lawsuit.",
+      "D": "Disconnect the chat immediately without responding."
+    },
+    "answer": "B",
+    "explanation": "When legal action is threatened, remain calm, do not argue, state the policy, and escalate the ticket to the Legal Escalations Team.",
+    "skill": "Legal Threat Handling"
+  },
+  {
+    "id": 9,
+    "question": "A user is using abusive language in chat: 'You guys are f***ing idiots. Solve my issue now!' What is the professional boundary protocol?",
+    "scenario": "Abusive customer handling",
+    "options": {
+      "A": "Abuse them back using the same language.",
+      "B": "Politely warn the customer: 'I want to help you, but I must ask you to maintain a professional tone. If the abusive language continues, I will have to end this chat session.'",
+      "C": "Disconnect the chat instantly without warning.",
+      "D": "Ignore the abuse and continue apologizing."
+    },
+    "answer": "B",
+    "explanation": "Set clear, professional boundaries. Warn the customer politely before terminating the chat for abusive behavior.",
+    "skill": "Boundary Setting & Tone Control"
+  },
+  {
+    "id": 10,
+    "question": "A driver messages: 'The rider was racially abusive towards me and kicked my car.' What is the driver support action?",
+    "scenario": "Discrimination and vandalism report",
+    "options": {
+      "A": "Tell the driver to clean the car and ignore the comments.",
+      "B": "Acknowledge the distress, reassure the driver that discrimination is not tolerated, block the rider from matching with this driver, and escalate to the compliance team to suspend the rider's account.",
+      "C": "Tell them to report the rider to their local community leader.",
+      "D": "Suspend the driver's account."
+    },
+    "answer": "B",
+    "explanation": "Discrimination and vehicle vandalism violate Uber's community guidelines. Empathize with the driver, block matching, and escalate to compliance for rider suspension.",
+    "skill": "Driver Protection & Compliance"
+  },
+  {
+    "id": 11,
+    "question": "A rider messages: 'I was in a car crash. The driver hit another car. I am bleeding.' What is your immediate action?",
+    "scenario": "Severe accident report",
+    "options": {
+      "A": "Tell the rider to ask the driver for insurance details.",
+      "B": "Immediately escalate to the Critical Incident Safety Team (L2 Safety), verify if emergency services are on site, and freeze the driver's account.",
+      "C": "Tell them to wait for 24 hours and we will call them.",
+      "D": "Offer a refund for the ride and close the ticket."
+    },
+    "answer": "B",
+    "explanation": "Severe safety incidents involving injury must be escalated to the Critical Incident Safety Team immediately. Check safety status first.",
+    "skill": "Critical Safety Escalation"
+  },
+  {
+    "id": 12,
+    "question": "A passenger writes: 'The driver touched my leg on purpose and made inappropriate comments. I am calling the media.' What protocol is followed?",
+    "scenario": "Physical harassment report",
+    "options": {
+      "A": "Tell them it was probably an accident and close the chat.",
+      "B": "Apologize, deactivate the driver immediately, and escalate the case to the Safety and legal response team as a priority safety incident.",
+      "C": "Offer them a free coupon to not contact the media.",
+      "D": "Ask them for video proof of the touch."
+    },
+    "answer": "B",
+    "explanation": "Sexual harassment and physical safety violations are zero-tolerance issues. Driver deactivation and escalation to specialized Safety/Legal teams are mandatory.",
+    "skill": "Harassment Protocol"
+  },
+  {
+    "id": 13,
+    "question": "A rider says: 'If you don't refund my $25.00 immediately, I am going to sue your company and contact my lawyer.' How do you respond to legal threats?",
+    "scenario": "Legal action threat",
+    "options": {
+      "A": "Tell them: 'Go ahead, we have many lawyers.'",
+      "B": "Acknowledge the dispute. Remain professional. Avoid arguing. State the final policy decision clearly and transfer the chat to the Legal Escalations Team.",
+      "C": "Apologize and give a full refund instantly to avoid a lawsuit.",
+      "D": "Disconnect the chat immediately without responding."
+    },
+    "answer": "B",
+    "explanation": "When legal action is threatened, remain calm, do not argue, state the policy, and escalate the ticket to the Legal Escalations Team.",
+    "skill": "Legal Threat Handling"
+  },
+  {
+    "id": 14,
+    "question": "A user is using abusive language in chat: 'You guys are f***ing idiots. Solve my issue now!' What is the professional boundary protocol?",
+    "scenario": "Abusive customer handling",
+    "options": {
+      "A": "Abuse them back using the same language.",
+      "B": "Politely warn the customer: 'I want to help you, but I must ask you to maintain a professional tone. If the abusive language continues, I will have to end this chat session.'",
+      "C": "Disconnect the chat instantly without warning.",
+      "D": "Ignore the abuse and continue apologizing."
+    },
+    "answer": "B",
+    "explanation": "Set clear, professional boundaries. Warn the customer politely before terminating the chat for abusive behavior.",
+    "skill": "Boundary Setting & Tone Control"
+  },
+  {
+    "id": 15,
+    "question": "A driver messages: 'The rider was racially abusive towards me and kicked my car.' What is the driver support action?",
+    "scenario": "Discrimination and vandalism report",
+    "options": {
+      "A": "Tell the driver to clean the car and ignore the comments.",
+      "B": "Acknowledge the distress, reassure the driver that discrimination is not tolerated, block the rider from matching with this driver, and escalate to the compliance team to suspend the rider's account.",
+      "C": "Tell them to report the rider to their local community leader.",
+      "D": "Suspend the driver's account."
+    },
+    "answer": "B",
+    "explanation": "Discrimination and vehicle vandalism violate Uber's community guidelines. Empathize with the driver, block matching, and escalate to compliance for rider suspension.",
+    "skill": "Driver Protection & Compliance"
+  },
+  {
+    "id": 16,
+    "question": "A rider messages: 'I was in a car crash. The driver hit another car. I am bleeding.' What is your immediate action?",
+    "scenario": "Severe accident report",
+    "options": {
+      "A": "Tell the rider to ask the driver for insurance details.",
+      "B": "Immediately escalate to the Critical Incident Safety Team (L2 Safety), verify if emergency services are on site, and freeze the driver's account.",
+      "C": "Tell them to wait for 24 hours and we will call them.",
+      "D": "Offer a refund for the ride and close the ticket."
+    },
+    "answer": "B",
+    "explanation": "Severe safety incidents involving injury must be escalated to the Critical Incident Safety Team immediately. Check safety status first.",
+    "skill": "Critical Safety Escalation"
+  },
+  {
+    "id": 17,
+    "question": "A passenger writes: 'The driver touched my leg on purpose and made inappropriate comments. I am calling the media.' What protocol is followed?",
+    "scenario": "Physical harassment report",
+    "options": {
+      "A": "Tell them it was probably an accident and close the chat.",
+      "B": "Apologize, deactivate the driver immediately, and escalate the case to the Safety and legal response team as a priority safety incident.",
+      "C": "Offer them a free coupon to not contact the media.",
+      "D": "Ask them for video proof of the touch."
+    },
+    "answer": "B",
+    "explanation": "Sexual harassment and physical safety violations are zero-tolerance issues. Driver deactivation and escalation to specialized Safety/Legal teams are mandatory.",
+    "skill": "Harassment Protocol"
+  },
+  {
+    "id": 18,
+    "question": "A rider says: 'If you don't refund my $25.00 immediately, I am going to sue your company and contact my lawyer.' How do you respond to legal threats?",
+    "scenario": "Legal action threat",
+    "options": {
+      "A": "Tell them: 'Go ahead, we have many lawyers.'",
+      "B": "Acknowledge the dispute. Remain professional. Avoid arguing. State the final policy decision clearly and transfer the chat to the Legal Escalations Team.",
+      "C": "Apologize and give a full refund instantly to avoid a lawsuit.",
+      "D": "Disconnect the chat immediately without responding."
+    },
+    "answer": "B",
+    "explanation": "When legal action is threatened, remain calm, do not argue, state the policy, and escalate the ticket to the Legal Escalations Team.",
+    "skill": "Legal Threat Handling"
+  },
+  {
+    "id": 19,
+    "question": "A user is using abusive language in chat: 'You guys are f***ing idiots. Solve my issue now!' What is the professional boundary protocol?",
+    "scenario": "Abusive customer handling",
+    "options": {
+      "A": "Abuse them back using the same language.",
+      "B": "Politely warn the customer: 'I want to help you, but I must ask you to maintain a professional tone. If the abusive language continues, I will have to end this chat session.'",
+      "C": "Disconnect the chat instantly without warning.",
+      "D": "Ignore the abuse and continue apologizing."
+    },
+    "answer": "B",
+    "explanation": "Set clear, professional boundaries. Warn the customer politely before terminating the chat for abusive behavior.",
+    "skill": "Boundary Setting & Tone Control"
+  },
+  {
+    "id": 20,
+    "question": "A driver messages: 'The rider was racially abusive towards me and kicked my car.' What is the driver support action?",
+    "scenario": "Discrimination and vandalism report",
+    "options": {
+      "A": "Tell the driver to clean the car and ignore the comments.",
+      "B": "Acknowledge the distress, reassure the driver that discrimination is not tolerated, block the rider from matching with this driver, and escalate to the compliance team to suspend the rider's account.",
+      "C": "Tell them to report the rider to their local community leader.",
+      "D": "Suspend the driver's account."
+    },
+    "answer": "B",
+    "explanation": "Discrimination and vehicle vandalism violate Uber's community guidelines. Empathize with the driver, block matching, and escalate to compliance for rider suspension.",
+    "skill": "Driver Protection & Compliance"
+  },
+  {
+    "id": 21,
+    "question": "A rider messages: 'I was in a car crash. The driver hit another car. I am bleeding.' What is your immediate action?",
+    "scenario": "Severe accident report",
+    "options": {
+      "A": "Tell the rider to ask the driver for insurance details.",
+      "B": "Immediately escalate to the Critical Incident Safety Team (L2 Safety), verify if emergency services are on site, and freeze the driver's account.",
+      "C": "Tell them to wait for 24 hours and we will call them.",
+      "D": "Offer a refund for the ride and close the ticket."
+    },
+    "answer": "B",
+    "explanation": "Severe safety incidents involving injury must be escalated to the Critical Incident Safety Team immediately. Check safety status first.",
+    "skill": "Critical Safety Escalation"
+  },
+  {
+    "id": 22,
+    "question": "A passenger writes: 'The driver touched my leg on purpose and made inappropriate comments. I am calling the media.' What protocol is followed?",
+    "scenario": "Physical harassment report",
+    "options": {
+      "A": "Tell them it was probably an accident and close the chat.",
+      "B": "Apologize, deactivate the driver immediately, and escalate the case to the Safety and legal response team as a priority safety incident.",
+      "C": "Offer them a free coupon to not contact the media.",
+      "D": "Ask them for video proof of the touch."
+    },
+    "answer": "B",
+    "explanation": "Sexual harassment and physical safety violations are zero-tolerance issues. Driver deactivation and escalation to specialized Safety/Legal teams are mandatory.",
+    "skill": "Harassment Protocol"
+  },
+  {
+    "id": 23,
+    "question": "A rider says: 'If you don't refund my $45.00 immediately, I am going to sue your company and contact my lawyer.' How do you respond to legal threats?",
+    "scenario": "Legal action threat",
+    "options": {
+      "A": "Tell them: 'Go ahead, we have many lawyers.'",
+      "B": "Acknowledge the dispute. Remain professional. Avoid arguing. State the final policy decision clearly and transfer the chat to the Legal Escalations Team.",
+      "C": "Apologize and give a full refund instantly to avoid a lawsuit.",
+      "D": "Disconnect the chat immediately without responding."
+    },
+    "answer": "B",
+    "explanation": "When legal action is threatened, remain calm, do not argue, state the policy, and escalate the ticket to the Legal Escalations Team.",
+    "skill": "Legal Threat Handling"
+  },
+  {
+    "id": 24,
+    "question": "A user is using abusive language in chat: 'You guys are f***ing idiots. Solve my issue now!' What is the professional boundary protocol?",
+    "scenario": "Abusive customer handling",
+    "options": {
+      "A": "Abuse them back using the same language.",
+      "B": "Politely warn the customer: 'I want to help you, but I must ask you to maintain a professional tone. If the abusive language continues, I will have to end this chat session.'",
+      "C": "Disconnect the chat instantly without warning.",
+      "D": "Ignore the abuse and continue apologizing."
+    },
+    "answer": "B",
+    "explanation": "Set clear, professional boundaries. Warn the customer politely before terminating the chat for abusive behavior.",
+    "skill": "Boundary Setting & Tone Control"
+  },
+  {
+    "id": 25,
+    "question": "A driver messages: 'The rider was racially abusive towards me and kicked my car.' What is the driver support action?",
+    "scenario": "Discrimination and vandalism report",
+    "options": {
+      "A": "Tell the driver to clean the car and ignore the comments.",
+      "B": "Acknowledge the distress, reassure the driver that discrimination is not tolerated, block the rider from matching with this driver, and escalate to the compliance team to suspend the rider's account.",
+      "C": "Tell them to report the rider to their local community leader.",
+      "D": "Suspend the driver's account."
+    },
+    "answer": "B",
+    "explanation": "Discrimination and vehicle vandalism violate Uber's community guidelines. Empathize with the driver, block matching, and escalate to compliance for rider suspension.",
+    "skill": "Driver Protection & Compliance"
+  },
+  {
+    "id": 26,
+    "question": "A rider messages: 'I was in a car crash. The driver hit another car. I am bleeding.' What is your immediate action?",
+    "scenario": "Severe accident report",
+    "options": {
+      "A": "Tell the rider to ask the driver for insurance details.",
+      "B": "Immediately escalate to the Critical Incident Safety Team (L2 Safety), verify if emergency services are on site, and freeze the driver's account.",
+      "C": "Tell them to wait for 24 hours and we will call them.",
+      "D": "Offer a refund for the ride and close the ticket."
+    },
+    "answer": "B",
+    "explanation": "Severe safety incidents involving injury must be escalated to the Critical Incident Safety Team immediately. Check safety status first.",
+    "skill": "Critical Safety Escalation"
+  },
+  {
+    "id": 27,
+    "question": "A passenger writes: 'The driver touched my leg on purpose and made inappropriate comments. I am calling the media.' What protocol is followed?",
+    "scenario": "Physical harassment report",
+    "options": {
+      "A": "Tell them it was probably an accident and close the chat.",
+      "B": "Apologize, deactivate the driver immediately, and escalate the case to the Safety and legal response team as a priority safety incident.",
+      "C": "Offer them a free coupon to not contact the media.",
+      "D": "Ask them for video proof of the touch."
+    },
+    "answer": "B",
+    "explanation": "Sexual harassment and physical safety violations are zero-tolerance issues. Driver deactivation and escalation to specialized Safety/Legal teams are mandatory.",
+    "skill": "Harassment Protocol"
+  },
+  {
+    "id": 28,
+    "question": "A rider says: 'If you don't refund my $25.00 immediately, I am going to sue your company and contact my lawyer.' How do you respond to legal threats?",
+    "scenario": "Legal action threat",
+    "options": {
+      "A": "Tell them: 'Go ahead, we have many lawyers.'",
+      "B": "Acknowledge the dispute. Remain professional. Avoid arguing. State the final policy decision clearly and transfer the chat to the Legal Escalations Team.",
+      "C": "Apologize and give a full refund instantly to avoid a lawsuit.",
+      "D": "Disconnect the chat immediately without responding."
+    },
+    "answer": "B",
+    "explanation": "When legal action is threatened, remain calm, do not argue, state the policy, and escalate the ticket to the Legal Escalations Team.",
+    "skill": "Legal Threat Handling"
+  },
+  {
+    "id": 29,
+    "question": "A user is using abusive language in chat: 'You guys are f***ing idiots. Solve my issue now!' What is the professional boundary protocol?",
+    "scenario": "Abusive customer handling",
+    "options": {
+      "A": "Abuse them back using the same language.",
+      "B": "Politely warn the customer: 'I want to help you, but I must ask you to maintain a professional tone. If the abusive language continues, I will have to end this chat session.'",
+      "C": "Disconnect the chat instantly without warning.",
+      "D": "Ignore the abuse and continue apologizing."
+    },
+    "answer": "B",
+    "explanation": "Set clear, professional boundaries. Warn the customer politely before terminating the chat for abusive behavior.",
+    "skill": "Boundary Setting & Tone Control"
+  },
+  {
+    "id": 30,
+    "question": "A driver messages: 'The rider was racially abusive towards me and kicked my car.' What is the driver support action?",
+    "scenario": "Discrimination and vandalism report",
+    "options": {
+      "A": "Tell the driver to clean the car and ignore the comments.",
+      "B": "Acknowledge the distress, reassure the driver that discrimination is not tolerated, block the rider from matching with this driver, and escalate to the compliance team to suspend the rider's account.",
+      "C": "Tell them to report the rider to their local community leader.",
+      "D": "Suspend the driver's account."
+    },
+    "answer": "B",
+    "explanation": "Discrimination and vehicle vandalism violate Uber's community guidelines. Empathize with the driver, block matching, and escalate to compliance for rider suspension.",
+    "skill": "Driver Protection & Compliance"
+  },
+  {
+    "id": 31,
+    "question": "A rider messages: 'I was in a car crash. The driver hit another car. I am bleeding.' What is your immediate action?",
+    "scenario": "Severe accident report",
+    "options": {
+      "A": "Tell the rider to ask the driver for insurance details.",
+      "B": "Immediately escalate to the Critical Incident Safety Team (L2 Safety), verify if emergency services are on site, and freeze the driver's account.",
+      "C": "Tell them to wait for 24 hours and we will call them.",
+      "D": "Offer a refund for the ride and close the ticket."
+    },
+    "answer": "B",
+    "explanation": "Severe safety incidents involving injury must be escalated to the Critical Incident Safety Team immediately. Check safety status first.",
+    "skill": "Critical Safety Escalation"
+  },
+  {
+    "id": 32,
+    "question": "A passenger writes: 'The driver touched my leg on purpose and made inappropriate comments. I am calling the media.' What protocol is followed?",
+    "scenario": "Physical harassment report",
+    "options": {
+      "A": "Tell them it was probably an accident and close the chat.",
+      "B": "Apologize, deactivate the driver immediately, and escalate the case to the Safety and legal response team as a priority safety incident.",
+      "C": "Offer them a free coupon to not contact the media.",
+      "D": "Ask them for video proof of the touch."
+    },
+    "answer": "B",
+    "explanation": "Sexual harassment and physical safety violations are zero-tolerance issues. Driver deactivation and escalation to specialized Safety/Legal teams are mandatory.",
+    "skill": "Harassment Protocol"
+  },
+  {
+    "id": 33,
+    "question": "A rider says: 'If you don't refund my $45.00 immediately, I am going to sue your company and contact my lawyer.' How do you respond to legal threats?",
+    "scenario": "Legal action threat",
+    "options": {
+      "A": "Tell them: 'Go ahead, we have many lawyers.'",
+      "B": "Acknowledge the dispute. Remain professional. Avoid arguing. State the final policy decision clearly and transfer the chat to the Legal Escalations Team.",
+      "C": "Apologize and give a full refund instantly to avoid a lawsuit.",
+      "D": "Disconnect the chat immediately without responding."
+    },
+    "answer": "B",
+    "explanation": "When legal action is threatened, remain calm, do not argue, state the policy, and escalate the ticket to the Legal Escalations Team.",
+    "skill": "Legal Threat Handling"
+  },
+  {
+    "id": 34,
+    "question": "A user is using abusive language in chat: 'You guys are f***ing idiots. Solve my issue now!' What is the professional boundary protocol?",
+    "scenario": "Abusive customer handling",
+    "options": {
+      "A": "Abuse them back using the same language.",
+      "B": "Politely warn the customer: 'I want to help you, but I must ask you to maintain a professional tone. If the abusive language continues, I will have to end this chat session.'",
+      "C": "Disconnect the chat instantly without warning.",
+      "D": "Ignore the abuse and continue apologizing."
+    },
+    "answer": "B",
+    "explanation": "Set clear, professional boundaries. Warn the customer politely before terminating the chat for abusive behavior.",
+    "skill": "Boundary Setting & Tone Control"
+  },
+  {
+    "id": 35,
+    "question": "A driver messages: 'The rider was racially abusive towards me and kicked my car.' What is the driver support action?",
+    "scenario": "Discrimination and vandalism report",
+    "options": {
+      "A": "Tell the driver to clean the car and ignore the comments.",
+      "B": "Acknowledge the distress, reassure the driver that discrimination is not tolerated, block the rider from matching with this driver, and escalate to the compliance team to suspend the rider's account.",
+      "C": "Tell them to report the rider to their local community leader.",
+      "D": "Suspend the driver's account."
+    },
+    "answer": "B",
+    "explanation": "Discrimination and vehicle vandalism violate Uber's community guidelines. Empathize with the driver, block matching, and escalate to compliance for rider suspension.",
+    "skill": "Driver Protection & Compliance"
+  },
+  {
+    "id": 36,
+    "question": "A rider messages: 'I was in a car crash. The driver hit another car. I am bleeding.' What is your immediate action?",
+    "scenario": "Severe accident report",
+    "options": {
+      "A": "Tell the rider to ask the driver for insurance details.",
+      "B": "Immediately escalate to the Critical Incident Safety Team (L2 Safety), verify if emergency services are on site, and freeze the driver's account.",
+      "C": "Tell them to wait for 24 hours and we will call them.",
+      "D": "Offer a refund for the ride and close the ticket."
+    },
+    "answer": "B",
+    "explanation": "Severe safety incidents involving injury must be escalated to the Critical Incident Safety Team immediately. Check safety status first.",
+    "skill": "Critical Safety Escalation"
+  },
+  {
+    "id": 37,
+    "question": "A passenger writes: 'The driver touched my leg on purpose and made inappropriate comments. I am calling the media.' What protocol is followed?",
+    "scenario": "Physical harassment report",
+    "options": {
+      "A": "Tell them it was probably an accident and close the chat.",
+      "B": "Apologize, deactivate the driver immediately, and escalate the case to the Safety and legal response team as a priority safety incident.",
+      "C": "Offer them a free coupon to not contact the media.",
+      "D": "Ask them for video proof of the touch."
+    },
+    "answer": "B",
+    "explanation": "Sexual harassment and physical safety violations are zero-tolerance issues. Driver deactivation and escalation to specialized Safety/Legal teams are mandatory.",
+    "skill": "Harassment Protocol"
+  },
+  {
+    "id": 38,
+    "question": "A rider says: 'If you don't refund my $25.00 immediately, I am going to sue your company and contact my lawyer.' How do you respond to legal threats?",
+    "scenario": "Legal action threat",
+    "options": {
+      "A": "Tell them: 'Go ahead, we have many lawyers.'",
+      "B": "Acknowledge the dispute. Remain professional. Avoid arguing. State the final policy decision clearly and transfer the chat to the Legal Escalations Team.",
+      "C": "Apologize and give a full refund instantly to avoid a lawsuit.",
+      "D": "Disconnect the chat immediately without responding."
+    },
+    "answer": "B",
+    "explanation": "When legal action is threatened, remain calm, do not argue, state the policy, and escalate the ticket to the Legal Escalations Team.",
+    "skill": "Legal Threat Handling"
+  },
+  {
+    "id": 39,
+    "question": "A user is using abusive language in chat: 'You guys are f***ing idiots. Solve my issue now!' What is the professional boundary protocol?",
+    "scenario": "Abusive customer handling",
+    "options": {
+      "A": "Abuse them back using the same language.",
+      "B": "Politely warn the customer: 'I want to help you, but I must ask you to maintain a professional tone. If the abusive language continues, I will have to end this chat session.'",
+      "C": "Disconnect the chat instantly without warning.",
+      "D": "Ignore the abuse and continue apologizing."
+    },
+    "answer": "B",
+    "explanation": "Set clear, professional boundaries. Warn the customer politely before terminating the chat for abusive behavior.",
+    "skill": "Boundary Setting & Tone Control"
+  },
+  {
+    "id": 40,
+    "question": "A driver messages: 'The rider was racially abusive towards me and kicked my car.' What is the driver support action?",
+    "scenario": "Discrimination and vandalism report",
+    "options": {
+      "A": "Tell the driver to clean the car and ignore the comments.",
+      "B": "Acknowledge the distress, reassure the driver that discrimination is not tolerated, block the rider from matching with this driver, and escalate to the compliance team to suspend the rider's account.",
+      "C": "Tell them to report the rider to their local community leader.",
+      "D": "Suspend the driver's account."
+    },
+    "answer": "B",
+    "explanation": "Discrimination and vehicle vandalism violate Uber's community guidelines. Empathize with the driver, block matching, and escalate to compliance for rider suspension.",
+    "skill": "Driver Protection & Compliance"
+  },
+  {
+    "id": 41,
+    "question": "A rider messages: 'I was in a car crash. The driver hit another car. I am bleeding.' What is your immediate action?",
+    "scenario": "Severe accident report",
+    "options": {
+      "A": "Tell the rider to ask the driver for insurance details.",
+      "B": "Immediately escalate to the Critical Incident Safety Team (L2 Safety), verify if emergency services are on site, and freeze the driver's account.",
+      "C": "Tell them to wait for 24 hours and we will call them.",
+      "D": "Offer a refund for the ride and close the ticket."
+    },
+    "answer": "B",
+    "explanation": "Severe safety incidents involving injury must be escalated to the Critical Incident Safety Team immediately. Check safety status first.",
+    "skill": "Critical Safety Escalation"
+  },
+  {
+    "id": 42,
+    "question": "A passenger writes: 'The driver touched my leg on purpose and made inappropriate comments. I am calling the media.' What protocol is followed?",
+    "scenario": "Physical harassment report",
+    "options": {
+      "A": "Tell them it was probably an accident and close the chat.",
+      "B": "Apologize, deactivate the driver immediately, and escalate the case to the Safety and legal response team as a priority safety incident.",
+      "C": "Offer them a free coupon to not contact the media.",
+      "D": "Ask them for video proof of the touch."
+    },
+    "answer": "B",
+    "explanation": "Sexual harassment and physical safety violations are zero-tolerance issues. Driver deactivation and escalation to specialized Safety/Legal teams are mandatory.",
+    "skill": "Harassment Protocol"
+  },
+  {
+    "id": 43,
+    "question": "A rider says: 'If you don't refund my $10.00 immediately, I am going to sue your company and contact my lawyer.' How do you respond to legal threats?",
+    "scenario": "Legal action threat",
+    "options": {
+      "A": "Tell them: 'Go ahead, we have many lawyers.'",
+      "B": "Acknowledge the dispute. Remain professional. Avoid arguing. State the final policy decision clearly and transfer the chat to the Legal Escalations Team.",
+      "C": "Apologize and give a full refund instantly to avoid a lawsuit.",
+      "D": "Disconnect the chat immediately without responding."
+    },
+    "answer": "B",
+    "explanation": "When legal action is threatened, remain calm, do not argue, state the policy, and escalate the ticket to the Legal Escalations Team.",
+    "skill": "Legal Threat Handling"
+  },
+  {
+    "id": 44,
+    "question": "A user is using abusive language in chat: 'You guys are f***ing idiots. Solve my issue now!' What is the professional boundary protocol?",
+    "scenario": "Abusive customer handling",
+    "options": {
+      "A": "Abuse them back using the same language.",
+      "B": "Politely warn the customer: 'I want to help you, but I must ask you to maintain a professional tone. If the abusive language continues, I will have to end this chat session.'",
+      "C": "Disconnect the chat instantly without warning.",
+      "D": "Ignore the abuse and continue apologizing."
+    },
+    "answer": "B",
+    "explanation": "Set clear, professional boundaries. Warn the customer politely before terminating the chat for abusive behavior.",
+    "skill": "Boundary Setting & Tone Control"
+  },
+  {
+    "id": 45,
+    "question": "A driver messages: 'The rider was racially abusive towards me and kicked my car.' What is the driver support action?",
+    "scenario": "Discrimination and vandalism report",
+    "options": {
+      "A": "Tell the driver to clean the car and ignore the comments.",
+      "B": "Acknowledge the distress, reassure the driver that discrimination is not tolerated, block the rider from matching with this driver, and escalate to the compliance team to suspend the rider's account.",
+      "C": "Tell them to report the rider to their local community leader.",
+      "D": "Suspend the driver's account."
+    },
+    "answer": "B",
+    "explanation": "Discrimination and vehicle vandalism violate Uber's community guidelines. Empathize with the driver, block matching, and escalate to compliance for rider suspension.",
+    "skill": "Driver Protection & Compliance"
+  },
+  {
+    "id": 46,
+    "question": "A rider messages: 'I was in a car crash. The driver hit another car. I am bleeding.' What is your immediate action?",
+    "scenario": "Severe accident report",
+    "options": {
+      "A": "Tell the rider to ask the driver for insurance details.",
+      "B": "Immediately escalate to the Critical Incident Safety Team (L2 Safety), verify if emergency services are on site, and freeze the driver's account.",
+      "C": "Tell them to wait for 24 hours and we will call them.",
+      "D": "Offer a refund for the ride and close the ticket."
+    },
+    "answer": "B",
+    "explanation": "Severe safety incidents involving injury must be escalated to the Critical Incident Safety Team immediately. Check safety status first.",
+    "skill": "Critical Safety Escalation"
+  },
+  {
+    "id": 47,
+    "question": "A passenger writes: 'The driver touched my leg on purpose and made inappropriate comments. I am calling the media.' What protocol is followed?",
+    "scenario": "Physical harassment report",
+    "options": {
+      "A": "Tell them it was probably an accident and close the chat.",
+      "B": "Apologize, deactivate the driver immediately, and escalate the case to the Safety and legal response team as a priority safety incident.",
+      "C": "Offer them a free coupon to not contact the media.",
+      "D": "Ask them for video proof of the touch."
+    },
+    "answer": "B",
+    "explanation": "Sexual harassment and physical safety violations are zero-tolerance issues. Driver deactivation and escalation to specialized Safety/Legal teams are mandatory.",
+    "skill": "Harassment Protocol"
+  },
+  {
+    "id": 48,
+    "question": "A rider says: 'If you don't refund my $45.00 immediately, I am going to sue your company and contact my lawyer.' How do you respond to legal threats?",
+    "scenario": "Legal action threat",
+    "options": {
+      "A": "Tell them: 'Go ahead, we have many lawyers.'",
+      "B": "Acknowledge the dispute. Remain professional. Avoid arguing. State the final policy decision clearly and transfer the chat to the Legal Escalations Team.",
+      "C": "Apologize and give a full refund instantly to avoid a lawsuit.",
+      "D": "Disconnect the chat immediately without responding."
+    },
+    "answer": "B",
+    "explanation": "When legal action is threatened, remain calm, do not argue, state the policy, and escalate the ticket to the Legal Escalations Team.",
+    "skill": "Legal Threat Handling"
+  },
+  {
+    "id": 49,
+    "question": "A user is using abusive language in chat: 'You guys are f***ing idiots. Solve my issue now!' What is the professional boundary protocol?",
+    "scenario": "Abusive customer handling",
+    "options": {
+      "A": "Abuse them back using the same language.",
+      "B": "Politely warn the customer: 'I want to help you, but I must ask you to maintain a professional tone. If the abusive language continues, I will have to end this chat session.'",
+      "C": "Disconnect the chat instantly without warning.",
+      "D": "Ignore the abuse and continue apologizing."
+    },
+    "answer": "B",
+    "explanation": "Set clear, professional boundaries. Warn the customer politely before terminating the chat for abusive behavior.",
+    "skill": "Boundary Setting & Tone Control"
+  },
+  {
+    "id": 50,
+    "question": "A driver messages: 'The rider was racially abusive towards me and kicked my car.' What is the driver support action?",
+    "scenario": "Discrimination and vandalism report",
+    "options": {
+      "A": "Tell the driver to clean the car and ignore the comments.",
+      "B": "Acknowledge the distress, reassure the driver that discrimination is not tolerated, block the rider from matching with this driver, and escalate to the compliance team to suspend the rider's account.",
+      "C": "Tell them to report the rider to their local community leader.",
+      "D": "Suspend the driver's account."
+    },
+    "answer": "B",
+    "explanation": "Discrimination and vehicle vandalism violate Uber's community guidelines. Empathize with the driver, block matching, and escalate to compliance for rider suspension.",
+    "skill": "Driver Protection & Compliance"
+  },
+  {
+    "id": 51,
+    "question": "A rider messages: 'I was in a car crash. The driver hit another car. I am bleeding.' What is your immediate action?",
+    "scenario": "Severe accident report",
+    "options": {
+      "A": "Tell the rider to ask the driver for insurance details.",
+      "B": "Immediately escalate to the Critical Incident Safety Team (L2 Safety), verify if emergency services are on site, and freeze the driver's account.",
+      "C": "Tell them to wait for 24 hours and we will call them.",
+      "D": "Offer a refund for the ride and close the ticket."
+    },
+    "answer": "B",
+    "explanation": "Severe safety incidents involving injury must be escalated to the Critical Incident Safety Team immediately. Check safety status first.",
+    "skill": "Critical Safety Escalation"
+  },
+  {
+    "id": 52,
+    "question": "A passenger writes: 'The driver touched my leg on purpose and made inappropriate comments. I am calling the media.' What protocol is followed?",
+    "scenario": "Physical harassment report",
+    "options": {
+      "A": "Tell them it was probably an accident and close the chat.",
+      "B": "Apologize, deactivate the driver immediately, and escalate the case to the Safety and legal response team as a priority safety incident.",
+      "C": "Offer them a free coupon to not contact the media.",
+      "D": "Ask them for video proof of the touch."
+    },
+    "answer": "B",
+    "explanation": "Sexual harassment and physical safety violations are zero-tolerance issues. Driver deactivation and escalation to specialized Safety/Legal teams are mandatory.",
+    "skill": "Harassment Protocol"
+  },
+  {
+    "id": 53,
+    "question": "A rider says: 'If you don't refund my $5.00 immediately, I am going to sue your company and contact my lawyer.' How do you respond to legal threats?",
+    "scenario": "Legal action threat",
+    "options": {
+      "A": "Tell them: 'Go ahead, we have many lawyers.'",
+      "B": "Acknowledge the dispute. Remain professional. Avoid arguing. State the final policy decision clearly and transfer the chat to the Legal Escalations Team.",
+      "C": "Apologize and give a full refund instantly to avoid a lawsuit.",
+      "D": "Disconnect the chat immediately without responding."
+    },
+    "answer": "B",
+    "explanation": "When legal action is threatened, remain calm, do not argue, state the policy, and escalate the ticket to the Legal Escalations Team.",
+    "skill": "Legal Threat Handling"
+  },
+  {
+    "id": 54,
+    "question": "A user is using abusive language in chat: 'You guys are f***ing idiots. Solve my issue now!' What is the professional boundary protocol?",
+    "scenario": "Abusive customer handling",
+    "options": {
+      "A": "Abuse them back using the same language.",
+      "B": "Politely warn the customer: 'I want to help you, but I must ask you to maintain a professional tone. If the abusive language continues, I will have to end this chat session.'",
+      "C": "Disconnect the chat instantly without warning.",
+      "D": "Ignore the abuse and continue apologizing."
+    },
+    "answer": "B",
+    "explanation": "Set clear, professional boundaries. Warn the customer politely before terminating the chat for abusive behavior.",
+    "skill": "Boundary Setting & Tone Control"
+  },
+  {
+    "id": 55,
+    "question": "A driver messages: 'The rider was racially abusive towards me and kicked my car.' What is the driver support action?",
+    "scenario": "Discrimination and vandalism report",
+    "options": {
+      "A": "Tell the driver to clean the car and ignore the comments.",
+      "B": "Acknowledge the distress, reassure the driver that discrimination is not tolerated, block the rider from matching with this driver, and escalate to the compliance team to suspend the rider's account.",
+      "C": "Tell them to report the rider to their local community leader.",
+      "D": "Suspend the driver's account."
+    },
+    "answer": "B",
+    "explanation": "Discrimination and vehicle vandalism violate Uber's community guidelines. Empathize with the driver, block matching, and escalate to compliance for rider suspension.",
+    "skill": "Driver Protection & Compliance"
+  },
+  {
+    "id": 56,
+    "question": "A rider messages: 'I was in a car crash. The driver hit another car. I am bleeding.' What is your immediate action?",
+    "scenario": "Severe accident report",
+    "options": {
+      "A": "Tell the rider to ask the driver for insurance details.",
+      "B": "Immediately escalate to the Critical Incident Safety Team (L2 Safety), verify if emergency services are on site, and freeze the driver's account.",
+      "C": "Tell them to wait for 24 hours and we will call them.",
+      "D": "Offer a refund for the ride and close the ticket."
+    },
+    "answer": "B",
+    "explanation": "Severe safety incidents involving injury must be escalated to the Critical Incident Safety Team immediately. Check safety status first.",
+    "skill": "Critical Safety Escalation"
+  },
+  {
+    "id": 57,
+    "question": "A passenger writes: 'The driver touched my leg on purpose and made inappropriate comments. I am calling the media.' What protocol is followed?",
+    "scenario": "Physical harassment report",
+    "options": {
+      "A": "Tell them it was probably an accident and close the chat.",
+      "B": "Apologize, deactivate the driver immediately, and escalate the case to the Safety and legal response team as a priority safety incident.",
+      "C": "Offer them a free coupon to not contact the media.",
+      "D": "Ask them for video proof of the touch."
+    },
+    "answer": "B",
+    "explanation": "Sexual harassment and physical safety violations are zero-tolerance issues. Driver deactivation and escalation to specialized Safety/Legal teams are mandatory.",
+    "skill": "Harassment Protocol"
+  },
+  {
+    "id": 58,
+    "question": "A rider says: 'If you don't refund my $5.00 immediately, I am going to sue your company and contact my lawyer.' How do you respond to legal threats?",
+    "scenario": "Legal action threat",
+    "options": {
+      "A": "Tell them: 'Go ahead, we have many lawyers.'",
+      "B": "Acknowledge the dispute. Remain professional. Avoid arguing. State the final policy decision clearly and transfer the chat to the Legal Escalations Team.",
+      "C": "Apologize and give a full refund instantly to avoid a lawsuit.",
+      "D": "Disconnect the chat immediately without responding."
+    },
+    "answer": "B",
+    "explanation": "When legal action is threatened, remain calm, do not argue, state the policy, and escalate the ticket to the Legal Escalations Team.",
+    "skill": "Legal Threat Handling"
+  },
+  {
+    "id": 59,
+    "question": "A user is using abusive language in chat: 'You guys are f***ing idiots. Solve my issue now!' What is the professional boundary protocol?",
+    "scenario": "Abusive customer handling",
+    "options": {
+      "A": "Abuse them back using the same language.",
+      "B": "Politely warn the customer: 'I want to help you, but I must ask you to maintain a professional tone. If the abusive language continues, I will have to end this chat session.'",
+      "C": "Disconnect the chat instantly without warning.",
+      "D": "Ignore the abuse and continue apologizing."
+    },
+    "answer": "B",
+    "explanation": "Set clear, professional boundaries. Warn the customer politely before terminating the chat for abusive behavior.",
+    "skill": "Boundary Setting & Tone Control"
+  },
+  {
+    "id": 60,
+    "question": "A driver messages: 'The rider was racially abusive towards me and kicked my car.' What is the driver support action?",
+    "scenario": "Discrimination and vandalism report",
+    "options": {
+      "A": "Tell the driver to clean the car and ignore the comments.",
+      "B": "Acknowledge the distress, reassure the driver that discrimination is not tolerated, block the rider from matching with this driver, and escalate to the compliance team to suspend the rider's account.",
+      "C": "Tell them to report the rider to their local community leader.",
+      "D": "Suspend the driver's account."
+    },
+    "answer": "B",
+    "explanation": "Discrimination and vehicle vandalism violate Uber's community guidelines. Empathize with the driver, block matching, and escalate to compliance for rider suspension.",
+    "skill": "Driver Protection & Compliance"
+  },
+  {
+    "id": 61,
+    "question": "A rider messages: 'I was in a car crash. The driver hit another car. I am bleeding.' What is your immediate action?",
+    "scenario": "Severe accident report",
+    "options": {
+      "A": "Tell the rider to ask the driver for insurance details.",
+      "B": "Immediately escalate to the Critical Incident Safety Team (L2 Safety), verify if emergency services are on site, and freeze the driver's account.",
+      "C": "Tell them to wait for 24 hours and we will call them.",
+      "D": "Offer a refund for the ride and close the ticket."
+    },
+    "answer": "B",
+    "explanation": "Severe safety incidents involving injury must be escalated to the Critical Incident Safety Team immediately. Check safety status first.",
+    "skill": "Critical Safety Escalation"
+  },
+  {
+    "id": 62,
+    "question": "A passenger writes: 'The driver touched my leg on purpose and made inappropriate comments. I am calling the media.' What protocol is followed?",
+    "scenario": "Physical harassment report",
+    "options": {
+      "A": "Tell them it was probably an accident and close the chat.",
+      "B": "Apologize, deactivate the driver immediately, and escalate the case to the Safety and legal response team as a priority safety incident.",
+      "C": "Offer them a free coupon to not contact the media.",
+      "D": "Ask them for video proof of the touch."
+    },
+    "answer": "B",
+    "explanation": "Sexual harassment and physical safety violations are zero-tolerance issues. Driver deactivation and escalation to specialized Safety/Legal teams are mandatory.",
+    "skill": "Harassment Protocol"
+  },
+  {
+    "id": 63,
+    "question": "A rider says: 'If you don't refund my $5.00 immediately, I am going to sue your company and contact my lawyer.' How do you respond to legal threats?",
+    "scenario": "Legal action threat",
+    "options": {
+      "A": "Tell them: 'Go ahead, we have many lawyers.'",
+      "B": "Acknowledge the dispute. Remain professional. Avoid arguing. State the final policy decision clearly and transfer the chat to the Legal Escalations Team.",
+      "C": "Apologize and give a full refund instantly to avoid a lawsuit.",
+      "D": "Disconnect the chat immediately without responding."
+    },
+    "answer": "B",
+    "explanation": "When legal action is threatened, remain calm, do not argue, state the policy, and escalate the ticket to the Legal Escalations Team.",
+    "skill": "Legal Threat Handling"
+  },
+  {
+    "id": 64,
+    "question": "A user is using abusive language in chat: 'You guys are f***ing idiots. Solve my issue now!' What is the professional boundary protocol?",
+    "scenario": "Abusive customer handling",
+    "options": {
+      "A": "Abuse them back using the same language.",
+      "B": "Politely warn the customer: 'I want to help you, but I must ask you to maintain a professional tone. If the abusive language continues, I will have to end this chat session.'",
+      "C": "Disconnect the chat instantly without warning.",
+      "D": "Ignore the abuse and continue apologizing."
+    },
+    "answer": "B",
+    "explanation": "Set clear, professional boundaries. Warn the customer politely before terminating the chat for abusive behavior.",
+    "skill": "Boundary Setting & Tone Control"
+  },
+  {
+    "id": 65,
+    "question": "A driver messages: 'The rider was racially abusive towards me and kicked my car.' What is the driver support action?",
+    "scenario": "Discrimination and vandalism report",
+    "options": {
+      "A": "Tell the driver to clean the car and ignore the comments.",
+      "B": "Acknowledge the distress, reassure the driver that discrimination is not tolerated, block the rider from matching with this driver, and escalate to the compliance team to suspend the rider's account.",
+      "C": "Tell them to report the rider to their local community leader.",
+      "D": "Suspend the driver's account."
+    },
+    "answer": "B",
+    "explanation": "Discrimination and vehicle vandalism violate Uber's community guidelines. Empathize with the driver, block matching, and escalate to compliance for rider suspension.",
+    "skill": "Driver Protection & Compliance"
+  },
+  {
+    "id": 66,
+    "question": "A rider messages: 'I was in a car crash. The driver hit another car. I am bleeding.' What is your immediate action?",
+    "scenario": "Severe accident report",
+    "options": {
+      "A": "Tell the rider to ask the driver for insurance details.",
+      "B": "Immediately escalate to the Critical Incident Safety Team (L2 Safety), verify if emergency services are on site, and freeze the driver's account.",
+      "C": "Tell them to wait for 24 hours and we will call them.",
+      "D": "Offer a refund for the ride and close the ticket."
+    },
+    "answer": "B",
+    "explanation": "Severe safety incidents involving injury must be escalated to the Critical Incident Safety Team immediately. Check safety status first.",
+    "skill": "Critical Safety Escalation"
+  },
+  {
+    "id": 67,
+    "question": "A passenger writes: 'The driver touched my leg on purpose and made inappropriate comments. I am calling the media.' What protocol is followed?",
+    "scenario": "Physical harassment report",
+    "options": {
+      "A": "Tell them it was probably an accident and close the chat.",
+      "B": "Apologize, deactivate the driver immediately, and escalate the case to the Safety and legal response team as a priority safety incident.",
+      "C": "Offer them a free coupon to not contact the media.",
+      "D": "Ask them for video proof of the touch."
+    },
+    "answer": "B",
+    "explanation": "Sexual harassment and physical safety violations are zero-tolerance issues. Driver deactivation and escalation to specialized Safety/Legal teams are mandatory.",
+    "skill": "Harassment Protocol"
+  },
+  {
+    "id": 68,
+    "question": "A rider says: 'If you don't refund my $45.00 immediately, I am going to sue your company and contact my lawyer.' How do you respond to legal threats?",
+    "scenario": "Legal action threat",
+    "options": {
+      "A": "Tell them: 'Go ahead, we have many lawyers.'",
+      "B": "Acknowledge the dispute. Remain professional. Avoid arguing. State the final policy decision clearly and transfer the chat to the Legal Escalations Team.",
+      "C": "Apologize and give a full refund instantly to avoid a lawsuit.",
+      "D": "Disconnect the chat immediately without responding."
+    },
+    "answer": "B",
+    "explanation": "When legal action is threatened, remain calm, do not argue, state the policy, and escalate the ticket to the Legal Escalations Team.",
+    "skill": "Legal Threat Handling"
+  },
+  {
+    "id": 69,
+    "question": "A user is using abusive language in chat: 'You guys are f***ing idiots. Solve my issue now!' What is the professional boundary protocol?",
+    "scenario": "Abusive customer handling",
+    "options": {
+      "A": "Abuse them back using the same language.",
+      "B": "Politely warn the customer: 'I want to help you, but I must ask you to maintain a professional tone. If the abusive language continues, I will have to end this chat session.'",
+      "C": "Disconnect the chat instantly without warning.",
+      "D": "Ignore the abuse and continue apologizing."
+    },
+    "answer": "B",
+    "explanation": "Set clear, professional boundaries. Warn the customer politely before terminating the chat for abusive behavior.",
+    "skill": "Boundary Setting & Tone Control"
+  },
+  {
+    "id": 70,
+    "question": "A driver messages: 'The rider was racially abusive towards me and kicked my car.' What is the driver support action?",
+    "scenario": "Discrimination and vandalism report",
+    "options": {
+      "A": "Tell the driver to clean the car and ignore the comments.",
+      "B": "Acknowledge the distress, reassure the driver that discrimination is not tolerated, block the rider from matching with this driver, and escalate to the compliance team to suspend the rider's account.",
+      "C": "Tell them to report the rider to their local community leader.",
+      "D": "Suspend the driver's account."
+    },
+    "answer": "B",
+    "explanation": "Discrimination and vehicle vandalism violate Uber's community guidelines. Empathize with the driver, block matching, and escalate to compliance for rider suspension.",
+    "skill": "Driver Protection & Compliance"
+  },
+  {
+    "id": 71,
+    "question": "A rider messages: 'I was in a car crash. The driver hit another car. I am bleeding.' What is your immediate action?",
+    "scenario": "Severe accident report",
+    "options": {
+      "A": "Tell the rider to ask the driver for insurance details.",
+      "B": "Immediately escalate to the Critical Incident Safety Team (L2 Safety), verify if emergency services are on site, and freeze the driver's account.",
+      "C": "Tell them to wait for 24 hours and we will call them.",
+      "D": "Offer a refund for the ride and close the ticket."
+    },
+    "answer": "B",
+    "explanation": "Severe safety incidents involving injury must be escalated to the Critical Incident Safety Team immediately. Check safety status first.",
+    "skill": "Critical Safety Escalation"
+  },
+  {
+    "id": 72,
+    "question": "A passenger writes: 'The driver touched my leg on purpose and made inappropriate comments. I am calling the media.' What protocol is followed?",
+    "scenario": "Physical harassment report",
+    "options": {
+      "A": "Tell them it was probably an accident and close the chat.",
+      "B": "Apologize, deactivate the driver immediately, and escalate the case to the Safety and legal response team as a priority safety incident.",
+      "C": "Offer them a free coupon to not contact the media.",
+      "D": "Ask them for video proof of the touch."
+    },
+    "answer": "B",
+    "explanation": "Sexual harassment and physical safety violations are zero-tolerance issues. Driver deactivation and escalation to specialized Safety/Legal teams are mandatory.",
+    "skill": "Harassment Protocol"
+  },
+  {
+    "id": 73,
+    "question": "A rider says: 'If you don't refund my $25.00 immediately, I am going to sue your company and contact my lawyer.' How do you respond to legal threats?",
+    "scenario": "Legal action threat",
+    "options": {
+      "A": "Tell them: 'Go ahead, we have many lawyers.'",
+      "B": "Acknowledge the dispute. Remain professional. Avoid arguing. State the final policy decision clearly and transfer the chat to the Legal Escalations Team.",
+      "C": "Apologize and give a full refund instantly to avoid a lawsuit.",
+      "D": "Disconnect the chat immediately without responding."
+    },
+    "answer": "B",
+    "explanation": "When legal action is threatened, remain calm, do not argue, state the policy, and escalate the ticket to the Legal Escalations Team.",
+    "skill": "Legal Threat Handling"
+  },
+  {
+    "id": 74,
+    "question": "A user is using abusive language in chat: 'You guys are f***ing idiots. Solve my issue now!' What is the professional boundary protocol?",
+    "scenario": "Abusive customer handling",
+    "options": {
+      "A": "Abuse them back using the same language.",
+      "B": "Politely warn the customer: 'I want to help you, but I must ask you to maintain a professional tone. If the abusive language continues, I will have to end this chat session.'",
+      "C": "Disconnect the chat instantly without warning.",
+      "D": "Ignore the abuse and continue apologizing."
+    },
+    "answer": "B",
+    "explanation": "Set clear, professional boundaries. Warn the customer politely before terminating the chat for abusive behavior.",
+    "skill": "Boundary Setting & Tone Control"
+  },
+  {
+    "id": 75,
+    "question": "A driver messages: 'The rider was racially abusive towards me and kicked my car.' What is the driver support action?",
+    "scenario": "Discrimination and vandalism report",
+    "options": {
+      "A": "Tell the driver to clean the car and ignore the comments.",
+      "B": "Acknowledge the distress, reassure the driver that discrimination is not tolerated, block the rider from matching with this driver, and escalate to the compliance team to suspend the rider's account.",
+      "C": "Tell them to report the rider to their local community leader.",
+      "D": "Suspend the driver's account."
+    },
+    "answer": "B",
+    "explanation": "Discrimination and vehicle vandalism violate Uber's community guidelines. Empathize with the driver, block matching, and escalate to compliance for rider suspension.",
+    "skill": "Driver Protection & Compliance"
+  },
+  {
+    "id": 76,
+    "question": "A rider messages: 'I was in a car crash. The driver hit another car. I am bleeding.' What is your immediate action?",
+    "scenario": "Severe accident report",
+    "options": {
+      "A": "Tell the rider to ask the driver for insurance details.",
+      "B": "Immediately escalate to the Critical Incident Safety Team (L2 Safety), verify if emergency services are on site, and freeze the driver's account.",
+      "C": "Tell them to wait for 24 hours and we will call them.",
+      "D": "Offer a refund for the ride and close the ticket."
+    },
+    "answer": "B",
+    "explanation": "Severe safety incidents involving injury must be escalated to the Critical Incident Safety Team immediately. Check safety status first.",
+    "skill": "Critical Safety Escalation"
+  },
+  {
+    "id": 77,
+    "question": "A passenger writes: 'The driver touched my leg on purpose and made inappropriate comments. I am calling the media.' What protocol is followed?",
+    "scenario": "Physical harassment report",
+    "options": {
+      "A": "Tell them it was probably an accident and close the chat.",
+      "B": "Apologize, deactivate the driver immediately, and escalate the case to the Safety and legal response team as a priority safety incident.",
+      "C": "Offer them a free coupon to not contact the media.",
+      "D": "Ask them for video proof of the touch."
+    },
+    "answer": "B",
+    "explanation": "Sexual harassment and physical safety violations are zero-tolerance issues. Driver deactivation and escalation to specialized Safety/Legal teams are mandatory.",
+    "skill": "Harassment Protocol"
+  },
+  {
+    "id": 78,
+    "question": "A rider says: 'If you don't refund my $10.00 immediately, I am going to sue your company and contact my lawyer.' How do you respond to legal threats?",
+    "scenario": "Legal action threat",
+    "options": {
+      "A": "Tell them: 'Go ahead, we have many lawyers.'",
+      "B": "Acknowledge the dispute. Remain professional. Avoid arguing. State the final policy decision clearly and transfer the chat to the Legal Escalations Team.",
+      "C": "Apologize and give a full refund instantly to avoid a lawsuit.",
+      "D": "Disconnect the chat immediately without responding."
+    },
+    "answer": "B",
+    "explanation": "When legal action is threatened, remain calm, do not argue, state the policy, and escalate the ticket to the Legal Escalations Team.",
+    "skill": "Legal Threat Handling"
+  },
+  {
+    "id": 79,
+    "question": "A user is using abusive language in chat: 'You guys are f***ing idiots. Solve my issue now!' What is the professional boundary protocol?",
+    "scenario": "Abusive customer handling",
+    "options": {
+      "A": "Abuse them back using the same language.",
+      "B": "Politely warn the customer: 'I want to help you, but I must ask you to maintain a professional tone. If the abusive language continues, I will have to end this chat session.'",
+      "C": "Disconnect the chat instantly without warning.",
+      "D": "Ignore the abuse and continue apologizing."
+    },
+    "answer": "B",
+    "explanation": "Set clear, professional boundaries. Warn the customer politely before terminating the chat for abusive behavior.",
+    "skill": "Boundary Setting & Tone Control"
+  },
+  {
+    "id": 80,
+    "question": "A driver messages: 'The rider was racially abusive towards me and kicked my car.' What is the driver support action?",
+    "scenario": "Discrimination and vandalism report",
+    "options": {
+      "A": "Tell the driver to clean the car and ignore the comments.",
+      "B": "Acknowledge the distress, reassure the driver that discrimination is not tolerated, block the rider from matching with this driver, and escalate to the compliance team to suspend the rider's account.",
+      "C": "Tell them to report the rider to their local community leader.",
+      "D": "Suspend the driver's account."
+    },
+    "answer": "B",
+    "explanation": "Discrimination and vehicle vandalism violate Uber's community guidelines. Empathize with the driver, block matching, and escalate to compliance for rider suspension.",
+    "skill": "Driver Protection & Compliance"
+  },
+  {
+    "id": 81,
+    "question": "A rider messages: 'I was in a car crash. The driver hit another car. I am bleeding.' What is your immediate action?",
+    "scenario": "Severe accident report",
+    "options": {
+      "A": "Tell the rider to ask the driver for insurance details.",
+      "B": "Immediately escalate to the Critical Incident Safety Team (L2 Safety), verify if emergency services are on site, and freeze the driver's account.",
+      "C": "Tell them to wait for 24 hours and we will call them.",
+      "D": "Offer a refund for the ride and close the ticket."
+    },
+    "answer": "B",
+    "explanation": "Severe safety incidents involving injury must be escalated to the Critical Incident Safety Team immediately. Check safety status first.",
+    "skill": "Critical Safety Escalation"
+  },
+  {
+    "id": 82,
+    "question": "A passenger writes: 'The driver touched my leg on purpose and made inappropriate comments. I am calling the media.' What protocol is followed?",
+    "scenario": "Physical harassment report",
+    "options": {
+      "A": "Tell them it was probably an accident and close the chat.",
+      "B": "Apologize, deactivate the driver immediately, and escalate the case to the Safety and legal response team as a priority safety incident.",
+      "C": "Offer them a free coupon to not contact the media.",
+      "D": "Ask them for video proof of the touch."
+    },
+    "answer": "B",
+    "explanation": "Sexual harassment and physical safety violations are zero-tolerance issues. Driver deactivation and escalation to specialized Safety/Legal teams are mandatory.",
+    "skill": "Harassment Protocol"
+  },
+  {
+    "id": 83,
+    "question": "A rider says: 'If you don't refund my $10.00 immediately, I am going to sue your company and contact my lawyer.' How do you respond to legal threats?",
+    "scenario": "Legal action threat",
+    "options": {
+      "A": "Tell them: 'Go ahead, we have many lawyers.'",
+      "B": "Acknowledge the dispute. Remain professional. Avoid arguing. State the final policy decision clearly and transfer the chat to the Legal Escalations Team.",
+      "C": "Apologize and give a full refund instantly to avoid a lawsuit.",
+      "D": "Disconnect the chat immediately without responding."
+    },
+    "answer": "B",
+    "explanation": "When legal action is threatened, remain calm, do not argue, state the policy, and escalate the ticket to the Legal Escalations Team.",
+    "skill": "Legal Threat Handling"
+  },
+  {
+    "id": 84,
+    "question": "A user is using abusive language in chat: 'You guys are f***ing idiots. Solve my issue now!' What is the professional boundary protocol?",
+    "scenario": "Abusive customer handling",
+    "options": {
+      "A": "Abuse them back using the same language.",
+      "B": "Politely warn the customer: 'I want to help you, but I must ask you to maintain a professional tone. If the abusive language continues, I will have to end this chat session.'",
+      "C": "Disconnect the chat instantly without warning.",
+      "D": "Ignore the abuse and continue apologizing."
+    },
+    "answer": "B",
+    "explanation": "Set clear, professional boundaries. Warn the customer politely before terminating the chat for abusive behavior.",
+    "skill": "Boundary Setting & Tone Control"
+  },
+  {
+    "id": 85,
+    "question": "A driver messages: 'The rider was racially abusive towards me and kicked my car.' What is the driver support action?",
+    "scenario": "Discrimination and vandalism report",
+    "options": {
+      "A": "Tell the driver to clean the car and ignore the comments.",
+      "B": "Acknowledge the distress, reassure the driver that discrimination is not tolerated, block the rider from matching with this driver, and escalate to the compliance team to suspend the rider's account.",
+      "C": "Tell them to report the rider to their local community leader.",
+      "D": "Suspend the driver's account."
+    },
+    "answer": "B",
+    "explanation": "Discrimination and vehicle vandalism violate Uber's community guidelines. Empathize with the driver, block matching, and escalate to compliance for rider suspension.",
+    "skill": "Driver Protection & Compliance"
+  },
+  {
+    "id": 86,
+    "question": "A rider messages: 'I was in a car crash. The driver hit another car. I am bleeding.' What is your immediate action?",
+    "scenario": "Severe accident report",
+    "options": {
+      "A": "Tell the rider to ask the driver for insurance details.",
+      "B": "Immediately escalate to the Critical Incident Safety Team (L2 Safety), verify if emergency services are on site, and freeze the driver's account.",
+      "C": "Tell them to wait for 24 hours and we will call them.",
+      "D": "Offer a refund for the ride and close the ticket."
+    },
+    "answer": "B",
+    "explanation": "Severe safety incidents involving injury must be escalated to the Critical Incident Safety Team immediately. Check safety status first.",
+    "skill": "Critical Safety Escalation"
+  },
+  {
+    "id": 87,
+    "question": "A passenger writes: 'The driver touched my leg on purpose and made inappropriate comments. I am calling the media.' What protocol is followed?",
+    "scenario": "Physical harassment report",
+    "options": {
+      "A": "Tell them it was probably an accident and close the chat.",
+      "B": "Apologize, deactivate the driver immediately, and escalate the case to the Safety and legal response team as a priority safety incident.",
+      "C": "Offer them a free coupon to not contact the media.",
+      "D": "Ask them for video proof of the touch."
+    },
+    "answer": "B",
+    "explanation": "Sexual harassment and physical safety violations are zero-tolerance issues. Driver deactivation and escalation to specialized Safety/Legal teams are mandatory.",
+    "skill": "Harassment Protocol"
+  },
+  {
+    "id": 88,
+    "question": "A rider says: 'If you don't refund my $75.00 immediately, I am going to sue your company and contact my lawyer.' How do you respond to legal threats?",
+    "scenario": "Legal action threat",
+    "options": {
+      "A": "Tell them: 'Go ahead, we have many lawyers.'",
+      "B": "Acknowledge the dispute. Remain professional. Avoid arguing. State the final policy decision clearly and transfer the chat to the Legal Escalations Team.",
+      "C": "Apologize and give a full refund instantly to avoid a lawsuit.",
+      "D": "Disconnect the chat immediately without responding."
+    },
+    "answer": "B",
+    "explanation": "When legal action is threatened, remain calm, do not argue, state the policy, and escalate the ticket to the Legal Escalations Team.",
+    "skill": "Legal Threat Handling"
+  },
+  {
+    "id": 89,
+    "question": "A user is using abusive language in chat: 'You guys are f***ing idiots. Solve my issue now!' What is the professional boundary protocol?",
+    "scenario": "Abusive customer handling",
+    "options": {
+      "A": "Abuse them back using the same language.",
+      "B": "Politely warn the customer: 'I want to help you, but I must ask you to maintain a professional tone. If the abusive language continues, I will have to end this chat session.'",
+      "C": "Disconnect the chat instantly without warning.",
+      "D": "Ignore the abuse and continue apologizing."
+    },
+    "answer": "B",
+    "explanation": "Set clear, professional boundaries. Warn the customer politely before terminating the chat for abusive behavior.",
+    "skill": "Boundary Setting & Tone Control"
+  },
+  {
+    "id": 90,
+    "question": "A driver messages: 'The rider was racially abusive towards me and kicked my car.' What is the driver support action?",
+    "scenario": "Discrimination and vandalism report",
+    "options": {
+      "A": "Tell the driver to clean the car and ignore the comments.",
+      "B": "Acknowledge the distress, reassure the driver that discrimination is not tolerated, block the rider from matching with this driver, and escalate to the compliance team to suspend the rider's account.",
+      "C": "Tell them to report the rider to their local community leader.",
+      "D": "Suspend the driver's account."
+    },
+    "answer": "B",
+    "explanation": "Discrimination and vehicle vandalism violate Uber's community guidelines. Empathize with the driver, block matching, and escalate to compliance for rider suspension.",
+    "skill": "Driver Protection & Compliance"
+  },
+  {
+    "id": 91,
+    "question": "A rider messages: 'I was in a car crash. The driver hit another car. I am bleeding.' What is your immediate action?",
+    "scenario": "Severe accident report",
+    "options": {
+      "A": "Tell the rider to ask the driver for insurance details.",
+      "B": "Immediately escalate to the Critical Incident Safety Team (L2 Safety), verify if emergency services are on site, and freeze the driver's account.",
+      "C": "Tell them to wait for 24 hours and we will call them.",
+      "D": "Offer a refund for the ride and close the ticket."
+    },
+    "answer": "B",
+    "explanation": "Severe safety incidents involving injury must be escalated to the Critical Incident Safety Team immediately. Check safety status first.",
+    "skill": "Critical Safety Escalation"
+  },
+  {
+    "id": 92,
+    "question": "A passenger writes: 'The driver touched my leg on purpose and made inappropriate comments. I am calling the media.' What protocol is followed?",
+    "scenario": "Physical harassment report",
+    "options": {
+      "A": "Tell them it was probably an accident and close the chat.",
+      "B": "Apologize, deactivate the driver immediately, and escalate the case to the Safety and legal response team as a priority safety incident.",
+      "C": "Offer them a free coupon to not contact the media.",
+      "D": "Ask them for video proof of the touch."
+    },
+    "answer": "B",
+    "explanation": "Sexual harassment and physical safety violations are zero-tolerance issues. Driver deactivation and escalation to specialized Safety/Legal teams are mandatory.",
+    "skill": "Harassment Protocol"
+  },
+  {
+    "id": 93,
+    "question": "A rider says: 'If you don't refund my $5.00 immediately, I am going to sue your company and contact my lawyer.' How do you respond to legal threats?",
+    "scenario": "Legal action threat",
+    "options": {
+      "A": "Tell them: 'Go ahead, we have many lawyers.'",
+      "B": "Acknowledge the dispute. Remain professional. Avoid arguing. State the final policy decision clearly and transfer the chat to the Legal Escalations Team.",
+      "C": "Apologize and give a full refund instantly to avoid a lawsuit.",
+      "D": "Disconnect the chat immediately without responding."
+    },
+    "answer": "B",
+    "explanation": "When legal action is threatened, remain calm, do not argue, state the policy, and escalate the ticket to the Legal Escalations Team.",
+    "skill": "Legal Threat Handling"
+  },
+  {
+    "id": 94,
+    "question": "A user is using abusive language in chat: 'You guys are f***ing idiots. Solve my issue now!' What is the professional boundary protocol?",
+    "scenario": "Abusive customer handling",
+    "options": {
+      "A": "Abuse them back using the same language.",
+      "B": "Politely warn the customer: 'I want to help you, but I must ask you to maintain a professional tone. If the abusive language continues, I will have to end this chat session.'",
+      "C": "Disconnect the chat instantly without warning.",
+      "D": "Ignore the abuse and continue apologizing."
+    },
+    "answer": "B",
+    "explanation": "Set clear, professional boundaries. Warn the customer politely before terminating the chat for abusive behavior.",
+    "skill": "Boundary Setting & Tone Control"
+  },
+  {
+    "id": 95,
+    "question": "A driver messages: 'The rider was racially abusive towards me and kicked my car.' What is the driver support action?",
+    "scenario": "Discrimination and vandalism report",
+    "options": {
+      "A": "Tell the driver to clean the car and ignore the comments.",
+      "B": "Acknowledge the distress, reassure the driver that discrimination is not tolerated, block the rider from matching with this driver, and escalate to the compliance team to suspend the rider's account.",
+      "C": "Tell them to report the rider to their local community leader.",
+      "D": "Suspend the driver's account."
+    },
+    "answer": "B",
+    "explanation": "Discrimination and vehicle vandalism violate Uber's community guidelines. Empathize with the driver, block matching, and escalate to compliance for rider suspension.",
+    "skill": "Driver Protection & Compliance"
+  },
+  {
+    "id": 96,
+    "question": "A rider messages: 'I was in a car crash. The driver hit another car. I am bleeding.' What is your immediate action?",
+    "scenario": "Severe accident report",
+    "options": {
+      "A": "Tell the rider to ask the driver for insurance details.",
+      "B": "Immediately escalate to the Critical Incident Safety Team (L2 Safety), verify if emergency services are on site, and freeze the driver's account.",
+      "C": "Tell them to wait for 24 hours and we will call them.",
+      "D": "Offer a refund for the ride and close the ticket."
+    },
+    "answer": "B",
+    "explanation": "Severe safety incidents involving injury must be escalated to the Critical Incident Safety Team immediately. Check safety status first.",
+    "skill": "Critical Safety Escalation"
+  },
+  {
+    "id": 97,
+    "question": "A passenger writes: 'The driver touched my leg on purpose and made inappropriate comments. I am calling the media.' What protocol is followed?",
+    "scenario": "Physical harassment report",
+    "options": {
+      "A": "Tell them it was probably an accident and close the chat.",
+      "B": "Apologize, deactivate the driver immediately, and escalate the case to the Safety and legal response team as a priority safety incident.",
+      "C": "Offer them a free coupon to not contact the media.",
+      "D": "Ask them for video proof of the touch."
+    },
+    "answer": "B",
+    "explanation": "Sexual harassment and physical safety violations are zero-tolerance issues. Driver deactivation and escalation to specialized Safety/Legal teams are mandatory.",
+    "skill": "Harassment Protocol"
+  },
+  {
+    "id": 98,
+    "question": "A rider says: 'If you don't refund my $25.00 immediately, I am going to sue your company and contact my lawyer.' How do you respond to legal threats?",
+    "scenario": "Legal action threat",
+    "options": {
+      "A": "Tell them: 'Go ahead, we have many lawyers.'",
+      "B": "Acknowledge the dispute. Remain professional. Avoid arguing. State the final policy decision clearly and transfer the chat to the Legal Escalations Team.",
+      "C": "Apologize and give a full refund instantly to avoid a lawsuit.",
+      "D": "Disconnect the chat immediately without responding."
+    },
+    "answer": "B",
+    "explanation": "When legal action is threatened, remain calm, do not argue, state the policy, and escalate the ticket to the Legal Escalations Team.",
+    "skill": "Legal Threat Handling"
+  },
+  {
+    "id": 99,
+    "question": "A user is using abusive language in chat: 'You guys are f***ing idiots. Solve my issue now!' What is the professional boundary protocol?",
+    "scenario": "Abusive customer handling",
+    "options": {
+      "A": "Abuse them back using the same language.",
+      "B": "Politely warn the customer: 'I want to help you, but I must ask you to maintain a professional tone. If the abusive language continues, I will have to end this chat session.'",
+      "C": "Disconnect the chat instantly without warning.",
+      "D": "Ignore the abuse and continue apologizing."
+    },
+    "answer": "B",
+    "explanation": "Set clear, professional boundaries. Warn the customer politely before terminating the chat for abusive behavior.",
+    "skill": "Boundary Setting & Tone Control"
+  },
+  {
+    "id": 100,
+    "question": "A driver messages: 'The rider was racially abusive towards me and kicked my car.' What is the driver support action?",
+    "scenario": "Discrimination and vandalism report",
+    "options": {
+      "A": "Tell the driver to clean the car and ignore the comments.",
+      "B": "Acknowledge the distress, reassure the driver that discrimination is not tolerated, block the rider from matching with this driver, and escalate to the compliance team to suspend the rider's account.",
+      "C": "Tell them to report the rider to their local community leader.",
+      "D": "Suspend the driver's account."
+    },
+    "answer": "B",
+    "explanation": "Discrimination and vehicle vandalism violate Uber's community guidelines. Empathize with the driver, block matching, and escalate to compliance for rider suspension.",
+    "skill": "Driver Protection & Compliance"
+  },
+  {
+    "id": 101,
+    "question": "A rider messages: 'I was in a car crash. The driver hit another car. I am bleeding.' What is your immediate action?",
+    "scenario": "Severe accident report",
+    "options": {
+      "A": "Tell the rider to ask the driver for insurance details.",
+      "B": "Immediately escalate to the Critical Incident Safety Team (L2 Safety), verify if emergency services are on site, and freeze the driver's account.",
+      "C": "Tell them to wait for 24 hours and we will call them.",
+      "D": "Offer a refund for the ride and close the ticket."
+    },
+    "answer": "B",
+    "explanation": "Severe safety incidents involving injury must be escalated to the Critical Incident Safety Team immediately. Check safety status first.",
+    "skill": "Critical Safety Escalation"
+  },
+  {
+    "id": 102,
+    "question": "A passenger writes: 'The driver touched my leg on purpose and made inappropriate comments. I am calling the media.' What protocol is followed?",
+    "scenario": "Physical harassment report",
+    "options": {
+      "A": "Tell them it was probably an accident and close the chat.",
+      "B": "Apologize, deactivate the driver immediately, and escalate the case to the Safety and legal response team as a priority safety incident.",
+      "C": "Offer them a free coupon to not contact the media.",
+      "D": "Ask them for video proof of the touch."
+    },
+    "answer": "B",
+    "explanation": "Sexual harassment and physical safety violations are zero-tolerance issues. Driver deactivation and escalation to specialized Safety/Legal teams are mandatory.",
+    "skill": "Harassment Protocol"
+  },
+  {
+    "id": 103,
+    "question": "A rider says: 'If you don't refund my $5.00 immediately, I am going to sue your company and contact my lawyer.' How do you respond to legal threats?",
+    "scenario": "Legal action threat",
+    "options": {
+      "A": "Tell them: 'Go ahead, we have many lawyers.'",
+      "B": "Acknowledge the dispute. Remain professional. Avoid arguing. State the final policy decision clearly and transfer the chat to the Legal Escalations Team.",
+      "C": "Apologize and give a full refund instantly to avoid a lawsuit.",
+      "D": "Disconnect the chat immediately without responding."
+    },
+    "answer": "B",
+    "explanation": "When legal action is threatened, remain calm, do not argue, state the policy, and escalate the ticket to the Legal Escalations Team.",
+    "skill": "Legal Threat Handling"
+  },
+  {
+    "id": 104,
+    "question": "A user is using abusive language in chat: 'You guys are f***ing idiots. Solve my issue now!' What is the professional boundary protocol?",
+    "scenario": "Abusive customer handling",
+    "options": {
+      "A": "Abuse them back using the same language.",
+      "B": "Politely warn the customer: 'I want to help you, but I must ask you to maintain a professional tone. If the abusive language continues, I will have to end this chat session.'",
+      "C": "Disconnect the chat instantly without warning.",
+      "D": "Ignore the abuse and continue apologizing."
+    },
+    "answer": "B",
+    "explanation": "Set clear, professional boundaries. Warn the customer politely before terminating the chat for abusive behavior.",
+    "skill": "Boundary Setting & Tone Control"
+  },
+  {
+    "id": 105,
+    "question": "A driver messages: 'The rider was racially abusive towards me and kicked my car.' What is the driver support action?",
+    "scenario": "Discrimination and vandalism report",
+    "options": {
+      "A": "Tell the driver to clean the car and ignore the comments.",
+      "B": "Acknowledge the distress, reassure the driver that discrimination is not tolerated, block the rider from matching with this driver, and escalate to the compliance team to suspend the rider's account.",
+      "C": "Tell them to report the rider to their local community leader.",
+      "D": "Suspend the driver's account."
+    },
+    "answer": "B",
+    "explanation": "Discrimination and vehicle vandalism violate Uber's community guidelines. Empathize with the driver, block matching, and escalate to compliance for rider suspension.",
+    "skill": "Driver Protection & Compliance"
+  },
+  {
+    "id": 106,
+    "question": "A rider messages: 'I was in a car crash. The driver hit another car. I am bleeding.' What is your immediate action?",
+    "scenario": "Severe accident report",
+    "options": {
+      "A": "Tell the rider to ask the driver for insurance details.",
+      "B": "Immediately escalate to the Critical Incident Safety Team (L2 Safety), verify if emergency services are on site, and freeze the driver's account.",
+      "C": "Tell them to wait for 24 hours and we will call them.",
+      "D": "Offer a refund for the ride and close the ticket."
+    },
+    "answer": "B",
+    "explanation": "Severe safety incidents involving injury must be escalated to the Critical Incident Safety Team immediately. Check safety status first.",
+    "skill": "Critical Safety Escalation"
+  },
+  {
+    "id": 107,
+    "question": "A passenger writes: 'The driver touched my leg on purpose and made inappropriate comments. I am calling the media.' What protocol is followed?",
+    "scenario": "Physical harassment report",
+    "options": {
+      "A": "Tell them it was probably an accident and close the chat.",
+      "B": "Apologize, deactivate the driver immediately, and escalate the case to the Safety and legal response team as a priority safety incident.",
+      "C": "Offer them a free coupon to not contact the media.",
+      "D": "Ask them for video proof of the touch."
+    },
+    "answer": "B",
+    "explanation": "Sexual harassment and physical safety violations are zero-tolerance issues. Driver deactivation and escalation to specialized Safety/Legal teams are mandatory.",
+    "skill": "Harassment Protocol"
+  },
+  {
+    "id": 108,
+    "question": "A rider says: 'If you don't refund my $10.00 immediately, I am going to sue your company and contact my lawyer.' How do you respond to legal threats?",
+    "scenario": "Legal action threat",
+    "options": {
+      "A": "Tell them: 'Go ahead, we have many lawyers.'",
+      "B": "Acknowledge the dispute. Remain professional. Avoid arguing. State the final policy decision clearly and transfer the chat to the Legal Escalations Team.",
+      "C": "Apologize and give a full refund instantly to avoid a lawsuit.",
+      "D": "Disconnect the chat immediately without responding."
+    },
+    "answer": "B",
+    "explanation": "When legal action is threatened, remain calm, do not argue, state the policy, and escalate the ticket to the Legal Escalations Team.",
+    "skill": "Legal Threat Handling"
+  },
+  {
+    "id": 109,
+    "question": "A user is using abusive language in chat: 'You guys are f***ing idiots. Solve my issue now!' What is the professional boundary protocol?",
+    "scenario": "Abusive customer handling",
+    "options": {
+      "A": "Abuse them back using the same language.",
+      "B": "Politely warn the customer: 'I want to help you, but I must ask you to maintain a professional tone. If the abusive language continues, I will have to end this chat session.'",
+      "C": "Disconnect the chat instantly without warning.",
+      "D": "Ignore the abuse and continue apologizing."
+    },
+    "answer": "B",
+    "explanation": "Set clear, professional boundaries. Warn the customer politely before terminating the chat for abusive behavior.",
+    "skill": "Boundary Setting & Tone Control"
+  },
+  {
+    "id": 110,
+    "question": "A driver messages: 'The rider was racially abusive towards me and kicked my car.' What is the driver support action?",
+    "scenario": "Discrimination and vandalism report",
+    "options": {
+      "A": "Tell the driver to clean the car and ignore the comments.",
+      "B": "Acknowledge the distress, reassure the driver that discrimination is not tolerated, block the rider from matching with this driver, and escalate to the compliance team to suspend the rider's account.",
+      "C": "Tell them to report the rider to their local community leader.",
+      "D": "Suspend the driver's account."
+    },
+    "answer": "B",
+    "explanation": "Discrimination and vehicle vandalism violate Uber's community guidelines. Empathize with the driver, block matching, and escalate to compliance for rider suspension.",
+    "skill": "Driver Protection & Compliance"
+  },
+  {
+    "id": 111,
+    "question": "A rider messages: 'I was in a car crash. The driver hit another car. I am bleeding.' What is your immediate action?",
+    "scenario": "Severe accident report",
+    "options": {
+      "A": "Tell the rider to ask the driver for insurance details.",
+      "B": "Immediately escalate to the Critical Incident Safety Team (L2 Safety), verify if emergency services are on site, and freeze the driver's account.",
+      "C": "Tell them to wait for 24 hours and we will call them.",
+      "D": "Offer a refund for the ride and close the ticket."
+    },
+    "answer": "B",
+    "explanation": "Severe safety incidents involving injury must be escalated to the Critical Incident Safety Team immediately. Check safety status first.",
+    "skill": "Critical Safety Escalation"
+  },
+  {
+    "id": 112,
+    "question": "A passenger writes: 'The driver touched my leg on purpose and made inappropriate comments. I am calling the media.' What protocol is followed?",
+    "scenario": "Physical harassment report",
+    "options": {
+      "A": "Tell them it was probably an accident and close the chat.",
+      "B": "Apologize, deactivate the driver immediately, and escalate the case to the Safety and legal response team as a priority safety incident.",
+      "C": "Offer them a free coupon to not contact the media.",
+      "D": "Ask them for video proof of the touch."
+    },
+    "answer": "B",
+    "explanation": "Sexual harassment and physical safety violations are zero-tolerance issues. Driver deactivation and escalation to specialized Safety/Legal teams are mandatory.",
+    "skill": "Harassment Protocol"
+  },
+  {
+    "id": 113,
+    "question": "A rider says: 'If you don't refund my $10.00 immediately, I am going to sue your company and contact my lawyer.' How do you respond to legal threats?",
+    "scenario": "Legal action threat",
+    "options": {
+      "A": "Tell them: 'Go ahead, we have many lawyers.'",
+      "B": "Acknowledge the dispute. Remain professional. Avoid arguing. State the final policy decision clearly and transfer the chat to the Legal Escalations Team.",
+      "C": "Apologize and give a full refund instantly to avoid a lawsuit.",
+      "D": "Disconnect the chat immediately without responding."
+    },
+    "answer": "B",
+    "explanation": "When legal action is threatened, remain calm, do not argue, state the policy, and escalate the ticket to the Legal Escalations Team.",
+    "skill": "Legal Threat Handling"
+  },
+  {
+    "id": 114,
+    "question": "A user is using abusive language in chat: 'You guys are f***ing idiots. Solve my issue now!' What is the professional boundary protocol?",
+    "scenario": "Abusive customer handling",
+    "options": {
+      "A": "Abuse them back using the same language.",
+      "B": "Politely warn the customer: 'I want to help you, but I must ask you to maintain a professional tone. If the abusive language continues, I will have to end this chat session.'",
+      "C": "Disconnect the chat instantly without warning.",
+      "D": "Ignore the abuse and continue apologizing."
+    },
+    "answer": "B",
+    "explanation": "Set clear, professional boundaries. Warn the customer politely before terminating the chat for abusive behavior.",
+    "skill": "Boundary Setting & Tone Control"
+  },
+  {
+    "id": 115,
+    "question": "A driver messages: 'The rider was racially abusive towards me and kicked my car.' What is the driver support action?",
+    "scenario": "Discrimination and vandalism report",
+    "options": {
+      "A": "Tell the driver to clean the car and ignore the comments.",
+      "B": "Acknowledge the distress, reassure the driver that discrimination is not tolerated, block the rider from matching with this driver, and escalate to the compliance team to suspend the rider's account.",
+      "C": "Tell them to report the rider to their local community leader.",
+      "D": "Suspend the driver's account."
+    },
+    "answer": "B",
+    "explanation": "Discrimination and vehicle vandalism violate Uber's community guidelines. Empathize with the driver, block matching, and escalate to compliance for rider suspension.",
+    "skill": "Driver Protection & Compliance"
+  },
+  {
+    "id": 116,
+    "question": "A rider messages: 'I was in a car crash. The driver hit another car. I am bleeding.' What is your immediate action?",
+    "scenario": "Severe accident report",
+    "options": {
+      "A": "Tell the rider to ask the driver for insurance details.",
+      "B": "Immediately escalate to the Critical Incident Safety Team (L2 Safety), verify if emergency services are on site, and freeze the driver's account.",
+      "C": "Tell them to wait for 24 hours and we will call them.",
+      "D": "Offer a refund for the ride and close the ticket."
+    },
+    "answer": "B",
+    "explanation": "Severe safety incidents involving injury must be escalated to the Critical Incident Safety Team immediately. Check safety status first.",
+    "skill": "Critical Safety Escalation"
+  },
+  {
+    "id": 117,
+    "question": "A passenger writes: 'The driver touched my leg on purpose and made inappropriate comments. I am calling the media.' What protocol is followed?",
+    "scenario": "Physical harassment report",
+    "options": {
+      "A": "Tell them it was probably an accident and close the chat.",
+      "B": "Apologize, deactivate the driver immediately, and escalate the case to the Safety and legal response team as a priority safety incident.",
+      "C": "Offer them a free coupon to not contact the media.",
+      "D": "Ask them for video proof of the touch."
+    },
+    "answer": "B",
+    "explanation": "Sexual harassment and physical safety violations are zero-tolerance issues. Driver deactivation and escalation to specialized Safety/Legal teams are mandatory.",
+    "skill": "Harassment Protocol"
+  },
+  {
+    "id": 118,
+    "question": "A rider says: 'If you don't refund my $5.00 immediately, I am going to sue your company and contact my lawyer.' How do you respond to legal threats?",
+    "scenario": "Legal action threat",
+    "options": {
+      "A": "Tell them: 'Go ahead, we have many lawyers.'",
+      "B": "Acknowledge the dispute. Remain professional. Avoid arguing. State the final policy decision clearly and transfer the chat to the Legal Escalations Team.",
+      "C": "Apologize and give a full refund instantly to avoid a lawsuit.",
+      "D": "Disconnect the chat immediately without responding."
+    },
+    "answer": "B",
+    "explanation": "When legal action is threatened, remain calm, do not argue, state the policy, and escalate the ticket to the Legal Escalations Team.",
+    "skill": "Legal Threat Handling"
+  },
+  {
+    "id": 119,
+    "question": "A user is using abusive language in chat: 'You guys are f***ing idiots. Solve my issue now!' What is the professional boundary protocol?",
+    "scenario": "Abusive customer handling",
+    "options": {
+      "A": "Abuse them back using the same language.",
+      "B": "Politely warn the customer: 'I want to help you, but I must ask you to maintain a professional tone. If the abusive language continues, I will have to end this chat session.'",
+      "C": "Disconnect the chat instantly without warning.",
+      "D": "Ignore the abuse and continue apologizing."
+    },
+    "answer": "B",
+    "explanation": "Set clear, professional boundaries. Warn the customer politely before terminating the chat for abusive behavior.",
+    "skill": "Boundary Setting & Tone Control"
+  },
+  {
+    "id": 120,
+    "question": "A driver messages: 'The rider was racially abusive towards me and kicked my car.' What is the driver support action?",
+    "scenario": "Discrimination and vandalism report",
+    "options": {
+      "A": "Tell the driver to clean the car and ignore the comments.",
+      "B": "Acknowledge the distress, reassure the driver that discrimination is not tolerated, block the rider from matching with this driver, and escalate to the compliance team to suspend the rider's account.",
+      "C": "Tell them to report the rider to their local community leader.",
+      "D": "Suspend the driver's account."
+    },
+    "answer": "B",
+    "explanation": "Discrimination and vehicle vandalism violate Uber's community guidelines. Empathize with the driver, block matching, and escalate to compliance for rider suspension.",
+    "skill": "Driver Protection & Compliance"
+  },
+  {
+    "id": 121,
+    "question": "A rider messages: 'I was in a car crash. The driver hit another car. I am bleeding.' What is your immediate action?",
+    "scenario": "Severe accident report",
+    "options": {
+      "A": "Tell the rider to ask the driver for insurance details.",
+      "B": "Immediately escalate to the Critical Incident Safety Team (L2 Safety), verify if emergency services are on site, and freeze the driver's account.",
+      "C": "Tell them to wait for 24 hours and we will call them.",
+      "D": "Offer a refund for the ride and close the ticket."
+    },
+    "answer": "B",
+    "explanation": "Severe safety incidents involving injury must be escalated to the Critical Incident Safety Team immediately. Check safety status first.",
+    "skill": "Critical Safety Escalation"
+  },
+  {
+    "id": 122,
+    "question": "A passenger writes: 'The driver touched my leg on purpose and made inappropriate comments. I am calling the media.' What protocol is followed?",
+    "scenario": "Physical harassment report",
+    "options": {
+      "A": "Tell them it was probably an accident and close the chat.",
+      "B": "Apologize, deactivate the driver immediately, and escalate the case to the Safety and legal response team as a priority safety incident.",
+      "C": "Offer them a free coupon to not contact the media.",
+      "D": "Ask them for video proof of the touch."
+    },
+    "answer": "B",
+    "explanation": "Sexual harassment and physical safety violations are zero-tolerance issues. Driver deactivation and escalation to specialized Safety/Legal teams are mandatory.",
+    "skill": "Harassment Protocol"
+  },
+  {
+    "id": 123,
+    "question": "A rider says: 'If you don't refund my $45.00 immediately, I am going to sue your company and contact my lawyer.' How do you respond to legal threats?",
+    "scenario": "Legal action threat",
+    "options": {
+      "A": "Tell them: 'Go ahead, we have many lawyers.'",
+      "B": "Acknowledge the dispute. Remain professional. Avoid arguing. State the final policy decision clearly and transfer the chat to the Legal Escalations Team.",
+      "C": "Apologize and give a full refund instantly to avoid a lawsuit.",
+      "D": "Disconnect the chat immediately without responding."
+    },
+    "answer": "B",
+    "explanation": "When legal action is threatened, remain calm, do not argue, state the policy, and escalate the ticket to the Legal Escalations Team.",
+    "skill": "Legal Threat Handling"
+  },
+  {
+    "id": 124,
+    "question": "A user is using abusive language in chat: 'You guys are f***ing idiots. Solve my issue now!' What is the professional boundary protocol?",
+    "scenario": "Abusive customer handling",
+    "options": {
+      "A": "Abuse them back using the same language.",
+      "B": "Politely warn the customer: 'I want to help you, but I must ask you to maintain a professional tone. If the abusive language continues, I will have to end this chat session.'",
+      "C": "Disconnect the chat instantly without warning.",
+      "D": "Ignore the abuse and continue apologizing."
+    },
+    "answer": "B",
+    "explanation": "Set clear, professional boundaries. Warn the customer politely before terminating the chat for abusive behavior.",
+    "skill": "Boundary Setting & Tone Control"
+  },
+  {
+    "id": 125,
+    "question": "A driver messages: 'The rider was racially abusive towards me and kicked my car.' What is the driver support action?",
+    "scenario": "Discrimination and vandalism report",
+    "options": {
+      "A": "Tell the driver to clean the car and ignore the comments.",
+      "B": "Acknowledge the distress, reassure the driver that discrimination is not tolerated, block the rider from matching with this driver, and escalate to the compliance team to suspend the rider's account.",
+      "C": "Tell them to report the rider to their local community leader.",
+      "D": "Suspend the driver's account."
+    },
+    "answer": "B",
+    "explanation": "Discrimination and vehicle vandalism violate Uber's community guidelines. Empathize with the driver, block matching, and escalate to compliance for rider suspension.",
+    "skill": "Driver Protection & Compliance"
+  },
+  {
+    "id": 126,
+    "question": "A rider messages: 'I was in a car crash. The driver hit another car. I am bleeding.' What is your immediate action?",
+    "scenario": "Severe accident report",
+    "options": {
+      "A": "Tell the rider to ask the driver for insurance details.",
+      "B": "Immediately escalate to the Critical Incident Safety Team (L2 Safety), verify if emergency services are on site, and freeze the driver's account.",
+      "C": "Tell them to wait for 24 hours and we will call them.",
+      "D": "Offer a refund for the ride and close the ticket."
+    },
+    "answer": "B",
+    "explanation": "Severe safety incidents involving injury must be escalated to the Critical Incident Safety Team immediately. Check safety status first.",
+    "skill": "Critical Safety Escalation"
+  },
+  {
+    "id": 127,
+    "question": "A passenger writes: 'The driver touched my leg on purpose and made inappropriate comments. I am calling the media.' What protocol is followed?",
+    "scenario": "Physical harassment report",
+    "options": {
+      "A": "Tell them it was probably an accident and close the chat.",
+      "B": "Apologize, deactivate the driver immediately, and escalate the case to the Safety and legal response team as a priority safety incident.",
+      "C": "Offer them a free coupon to not contact the media.",
+      "D": "Ask them for video proof of the touch."
+    },
+    "answer": "B",
+    "explanation": "Sexual harassment and physical safety violations are zero-tolerance issues. Driver deactivation and escalation to specialized Safety/Legal teams are mandatory.",
+    "skill": "Harassment Protocol"
+  },
+  {
+    "id": 128,
+    "question": "A rider says: 'If you don't refund my $45.00 immediately, I am going to sue your company and contact my lawyer.' How do you respond to legal threats?",
+    "scenario": "Legal action threat",
+    "options": {
+      "A": "Tell them: 'Go ahead, we have many lawyers.'",
+      "B": "Acknowledge the dispute. Remain professional. Avoid arguing. State the final policy decision clearly and transfer the chat to the Legal Escalations Team.",
+      "C": "Apologize and give a full refund instantly to avoid a lawsuit.",
+      "D": "Disconnect the chat immediately without responding."
+    },
+    "answer": "B",
+    "explanation": "When legal action is threatened, remain calm, do not argue, state the policy, and escalate the ticket to the Legal Escalations Team.",
+    "skill": "Legal Threat Handling"
+  },
+  {
+    "id": 129,
+    "question": "A user is using abusive language in chat: 'You guys are f***ing idiots. Solve my issue now!' What is the professional boundary protocol?",
+    "scenario": "Abusive customer handling",
+    "options": {
+      "A": "Abuse them back using the same language.",
+      "B": "Politely warn the customer: 'I want to help you, but I must ask you to maintain a professional tone. If the abusive language continues, I will have to end this chat session.'",
+      "C": "Disconnect the chat instantly without warning.",
+      "D": "Ignore the abuse and continue apologizing."
+    },
+    "answer": "B",
+    "explanation": "Set clear, professional boundaries. Warn the customer politely before terminating the chat for abusive behavior.",
+    "skill": "Boundary Setting & Tone Control"
+  },
+  {
+    "id": 130,
+    "question": "A driver messages: 'The rider was racially abusive towards me and kicked my car.' What is the driver support action?",
+    "scenario": "Discrimination and vandalism report",
+    "options": {
+      "A": "Tell the driver to clean the car and ignore the comments.",
+      "B": "Acknowledge the distress, reassure the driver that discrimination is not tolerated, block the rider from matching with this driver, and escalate to the compliance team to suspend the rider's account.",
+      "C": "Tell them to report the rider to their local community leader.",
+      "D": "Suspend the driver's account."
+    },
+    "answer": "B",
+    "explanation": "Discrimination and vehicle vandalism violate Uber's community guidelines. Empathize with the driver, block matching, and escalate to compliance for rider suspension.",
+    "skill": "Driver Protection & Compliance"
+  },
+  {
+    "id": 131,
+    "question": "A rider messages: 'I was in a car crash. The driver hit another car. I am bleeding.' What is your immediate action?",
+    "scenario": "Severe accident report",
+    "options": {
+      "A": "Tell the rider to ask the driver for insurance details.",
+      "B": "Immediately escalate to the Critical Incident Safety Team (L2 Safety), verify if emergency services are on site, and freeze the driver's account.",
+      "C": "Tell them to wait for 24 hours and we will call them.",
+      "D": "Offer a refund for the ride and close the ticket."
+    },
+    "answer": "B",
+    "explanation": "Severe safety incidents involving injury must be escalated to the Critical Incident Safety Team immediately. Check safety status first.",
+    "skill": "Critical Safety Escalation"
+  },
+  {
+    "id": 132,
+    "question": "A passenger writes: 'The driver touched my leg on purpose and made inappropriate comments. I am calling the media.' What protocol is followed?",
+    "scenario": "Physical harassment report",
+    "options": {
+      "A": "Tell them it was probably an accident and close the chat.",
+      "B": "Apologize, deactivate the driver immediately, and escalate the case to the Safety and legal response team as a priority safety incident.",
+      "C": "Offer them a free coupon to not contact the media.",
+      "D": "Ask them for video proof of the touch."
+    },
+    "answer": "B",
+    "explanation": "Sexual harassment and physical safety violations are zero-tolerance issues. Driver deactivation and escalation to specialized Safety/Legal teams are mandatory.",
+    "skill": "Harassment Protocol"
+  },
+  {
+    "id": 133,
+    "question": "A rider says: 'If you don't refund my $75.00 immediately, I am going to sue your company and contact my lawyer.' How do you respond to legal threats?",
+    "scenario": "Legal action threat",
+    "options": {
+      "A": "Tell them: 'Go ahead, we have many lawyers.'",
+      "B": "Acknowledge the dispute. Remain professional. Avoid arguing. State the final policy decision clearly and transfer the chat to the Legal Escalations Team.",
+      "C": "Apologize and give a full refund instantly to avoid a lawsuit.",
+      "D": "Disconnect the chat immediately without responding."
+    },
+    "answer": "B",
+    "explanation": "When legal action is threatened, remain calm, do not argue, state the policy, and escalate the ticket to the Legal Escalations Team.",
+    "skill": "Legal Threat Handling"
+  },
+  {
+    "id": 134,
+    "question": "A user is using abusive language in chat: 'You guys are f***ing idiots. Solve my issue now!' What is the professional boundary protocol?",
+    "scenario": "Abusive customer handling",
+    "options": {
+      "A": "Abuse them back using the same language.",
+      "B": "Politely warn the customer: 'I want to help you, but I must ask you to maintain a professional tone. If the abusive language continues, I will have to end this chat session.'",
+      "C": "Disconnect the chat instantly without warning.",
+      "D": "Ignore the abuse and continue apologizing."
+    },
+    "answer": "B",
+    "explanation": "Set clear, professional boundaries. Warn the customer politely before terminating the chat for abusive behavior.",
+    "skill": "Boundary Setting & Tone Control"
+  },
+  {
+    "id": 135,
+    "question": "A driver messages: 'The rider was racially abusive towards me and kicked my car.' What is the driver support action?",
+    "scenario": "Discrimination and vandalism report",
+    "options": {
+      "A": "Tell the driver to clean the car and ignore the comments.",
+      "B": "Acknowledge the distress, reassure the driver that discrimination is not tolerated, block the rider from matching with this driver, and escalate to the compliance team to suspend the rider's account.",
+      "C": "Tell them to report the rider to their local community leader.",
+      "D": "Suspend the driver's account."
+    },
+    "answer": "B",
+    "explanation": "Discrimination and vehicle vandalism violate Uber's community guidelines. Empathize with the driver, block matching, and escalate to compliance for rider suspension.",
+    "skill": "Driver Protection & Compliance"
+  },
+  {
+    "id": 136,
+    "question": "A rider messages: 'I was in a car crash. The driver hit another car. I am bleeding.' What is your immediate action?",
+    "scenario": "Severe accident report",
+    "options": {
+      "A": "Tell the rider to ask the driver for insurance details.",
+      "B": "Immediately escalate to the Critical Incident Safety Team (L2 Safety), verify if emergency services are on site, and freeze the driver's account.",
+      "C": "Tell them to wait for 24 hours and we will call them.",
+      "D": "Offer a refund for the ride and close the ticket."
+    },
+    "answer": "B",
+    "explanation": "Severe safety incidents involving injury must be escalated to the Critical Incident Safety Team immediately. Check safety status first.",
+    "skill": "Critical Safety Escalation"
+  },
+  {
+    "id": 137,
+    "question": "A passenger writes: 'The driver touched my leg on purpose and made inappropriate comments. I am calling the media.' What protocol is followed?",
+    "scenario": "Physical harassment report",
+    "options": {
+      "A": "Tell them it was probably an accident and close the chat.",
+      "B": "Apologize, deactivate the driver immediately, and escalate the case to the Safety and legal response team as a priority safety incident.",
+      "C": "Offer them a free coupon to not contact the media.",
+      "D": "Ask them for video proof of the touch."
+    },
+    "answer": "B",
+    "explanation": "Sexual harassment and physical safety violations are zero-tolerance issues. Driver deactivation and escalation to specialized Safety/Legal teams are mandatory.",
+    "skill": "Harassment Protocol"
+  },
+  {
+    "id": 138,
+    "question": "A rider says: 'If you don't refund my $45.00 immediately, I am going to sue your company and contact my lawyer.' How do you respond to legal threats?",
+    "scenario": "Legal action threat",
+    "options": {
+      "A": "Tell them: 'Go ahead, we have many lawyers.'",
+      "B": "Acknowledge the dispute. Remain professional. Avoid arguing. State the final policy decision clearly and transfer the chat to the Legal Escalations Team.",
+      "C": "Apologize and give a full refund instantly to avoid a lawsuit.",
+      "D": "Disconnect the chat immediately without responding."
+    },
+    "answer": "B",
+    "explanation": "When legal action is threatened, remain calm, do not argue, state the policy, and escalate the ticket to the Legal Escalations Team.",
+    "skill": "Legal Threat Handling"
+  },
+  {
+    "id": 139,
+    "question": "A user is using abusive language in chat: 'You guys are f***ing idiots. Solve my issue now!' What is the professional boundary protocol?",
+    "scenario": "Abusive customer handling",
+    "options": {
+      "A": "Abuse them back using the same language.",
+      "B": "Politely warn the customer: 'I want to help you, but I must ask you to maintain a professional tone. If the abusive language continues, I will have to end this chat session.'",
+      "C": "Disconnect the chat instantly without warning.",
+      "D": "Ignore the abuse and continue apologizing."
+    },
+    "answer": "B",
+    "explanation": "Set clear, professional boundaries. Warn the customer politely before terminating the chat for abusive behavior.",
+    "skill": "Boundary Setting & Tone Control"
+  },
+  {
+    "id": 140,
+    "question": "A driver messages: 'The rider was racially abusive towards me and kicked my car.' What is the driver support action?",
+    "scenario": "Discrimination and vandalism report",
+    "options": {
+      "A": "Tell the driver to clean the car and ignore the comments.",
+      "B": "Acknowledge the distress, reassure the driver that discrimination is not tolerated, block the rider from matching with this driver, and escalate to the compliance team to suspend the rider's account.",
+      "C": "Tell them to report the rider to their local community leader.",
+      "D": "Suspend the driver's account."
+    },
+    "answer": "B",
+    "explanation": "Discrimination and vehicle vandalism violate Uber's community guidelines. Empathize with the driver, block matching, and escalate to compliance for rider suspension.",
+    "skill": "Driver Protection & Compliance"
+  },
+  {
+    "id": 141,
+    "question": "A rider messages: 'I was in a car crash. The driver hit another car. I am bleeding.' What is your immediate action?",
+    "scenario": "Severe accident report",
+    "options": {
+      "A": "Tell the rider to ask the driver for insurance details.",
+      "B": "Immediately escalate to the Critical Incident Safety Team (L2 Safety), verify if emergency services are on site, and freeze the driver's account.",
+      "C": "Tell them to wait for 24 hours and we will call them.",
+      "D": "Offer a refund for the ride and close the ticket."
+    },
+    "answer": "B",
+    "explanation": "Severe safety incidents involving injury must be escalated to the Critical Incident Safety Team immediately. Check safety status first.",
+    "skill": "Critical Safety Escalation"
+  },
+  {
+    "id": 142,
+    "question": "A passenger writes: 'The driver touched my leg on purpose and made inappropriate comments. I am calling the media.' What protocol is followed?",
+    "scenario": "Physical harassment report",
+    "options": {
+      "A": "Tell them it was probably an accident and close the chat.",
+      "B": "Apologize, deactivate the driver immediately, and escalate the case to the Safety and legal response team as a priority safety incident.",
+      "C": "Offer them a free coupon to not contact the media.",
+      "D": "Ask them for video proof of the touch."
+    },
+    "answer": "B",
+    "explanation": "Sexual harassment and physical safety violations are zero-tolerance issues. Driver deactivation and escalation to specialized Safety/Legal teams are mandatory.",
+    "skill": "Harassment Protocol"
+  },
+  {
+    "id": 143,
+    "question": "A rider says: 'If you don't refund my $25.00 immediately, I am going to sue your company and contact my lawyer.' How do you respond to legal threats?",
+    "scenario": "Legal action threat",
+    "options": {
+      "A": "Tell them: 'Go ahead, we have many lawyers.'",
+      "B": "Acknowledge the dispute. Remain professional. Avoid arguing. State the final policy decision clearly and transfer the chat to the Legal Escalations Team.",
+      "C": "Apologize and give a full refund instantly to avoid a lawsuit.",
+      "D": "Disconnect the chat immediately without responding."
+    },
+    "answer": "B",
+    "explanation": "When legal action is threatened, remain calm, do not argue, state the policy, and escalate the ticket to the Legal Escalations Team.",
+    "skill": "Legal Threat Handling"
+  },
+  {
+    "id": 144,
+    "question": "A user is using abusive language in chat: 'You guys are f***ing idiots. Solve my issue now!' What is the professional boundary protocol?",
+    "scenario": "Abusive customer handling",
+    "options": {
+      "A": "Abuse them back using the same language.",
+      "B": "Politely warn the customer: 'I want to help you, but I must ask you to maintain a professional tone. If the abusive language continues, I will have to end this chat session.'",
+      "C": "Disconnect the chat instantly without warning.",
+      "D": "Ignore the abuse and continue apologizing."
+    },
+    "answer": "B",
+    "explanation": "Set clear, professional boundaries. Warn the customer politely before terminating the chat for abusive behavior.",
+    "skill": "Boundary Setting & Tone Control"
+  },
+  {
+    "id": 145,
+    "question": "A driver messages: 'The rider was racially abusive towards me and kicked my car.' What is the driver support action?",
+    "scenario": "Discrimination and vandalism report",
+    "options": {
+      "A": "Tell the driver to clean the car and ignore the comments.",
+      "B": "Acknowledge the distress, reassure the driver that discrimination is not tolerated, block the rider from matching with this driver, and escalate to the compliance team to suspend the rider's account.",
+      "C": "Tell them to report the rider to their local community leader.",
+      "D": "Suspend the driver's account."
+    },
+    "answer": "B",
+    "explanation": "Discrimination and vehicle vandalism violate Uber's community guidelines. Empathize with the driver, block matching, and escalate to compliance for rider suspension.",
+    "skill": "Driver Protection & Compliance"
+  },
+  {
+    "id": 146,
+    "question": "A rider messages: 'I was in a car crash. The driver hit another car. I am bleeding.' What is your immediate action?",
+    "scenario": "Severe accident report",
+    "options": {
+      "A": "Tell the rider to ask the driver for insurance details.",
+      "B": "Immediately escalate to the Critical Incident Safety Team (L2 Safety), verify if emergency services are on site, and freeze the driver's account.",
+      "C": "Tell them to wait for 24 hours and we will call them.",
+      "D": "Offer a refund for the ride and close the ticket."
+    },
+    "answer": "B",
+    "explanation": "Severe safety incidents involving injury must be escalated to the Critical Incident Safety Team immediately. Check safety status first.",
+    "skill": "Critical Safety Escalation"
+  },
+  {
+    "id": 147,
+    "question": "A passenger writes: 'The driver touched my leg on purpose and made inappropriate comments. I am calling the media.' What protocol is followed?",
+    "scenario": "Physical harassment report",
+    "options": {
+      "A": "Tell them it was probably an accident and close the chat.",
+      "B": "Apologize, deactivate the driver immediately, and escalate the case to the Safety and legal response team as a priority safety incident.",
+      "C": "Offer them a free coupon to not contact the media.",
+      "D": "Ask them for video proof of the touch."
+    },
+    "answer": "B",
+    "explanation": "Sexual harassment and physical safety violations are zero-tolerance issues. Driver deactivation and escalation to specialized Safety/Legal teams are mandatory.",
+    "skill": "Harassment Protocol"
+  },
+  {
+    "id": 148,
+    "question": "A rider says: 'If you don't refund my $15.00 immediately, I am going to sue your company and contact my lawyer.' How do you respond to legal threats?",
+    "scenario": "Legal action threat",
+    "options": {
+      "A": "Tell them: 'Go ahead, we have many lawyers.'",
+      "B": "Acknowledge the dispute. Remain professional. Avoid arguing. State the final policy decision clearly and transfer the chat to the Legal Escalations Team.",
+      "C": "Apologize and give a full refund instantly to avoid a lawsuit.",
+      "D": "Disconnect the chat immediately without responding."
+    },
+    "answer": "B",
+    "explanation": "When legal action is threatened, remain calm, do not argue, state the policy, and escalate the ticket to the Legal Escalations Team.",
+    "skill": "Legal Threat Handling"
+  },
+  {
+    "id": 149,
+    "question": "A user is using abusive language in chat: 'You guys are f***ing idiots. Solve my issue now!' What is the professional boundary protocol?",
+    "scenario": "Abusive customer handling",
+    "options": {
+      "A": "Abuse them back using the same language.",
+      "B": "Politely warn the customer: 'I want to help you, but I must ask you to maintain a professional tone. If the abusive language continues, I will have to end this chat session.'",
+      "C": "Disconnect the chat instantly without warning.",
+      "D": "Ignore the abuse and continue apologizing."
+    },
+    "answer": "B",
+    "explanation": "Set clear, professional boundaries. Warn the customer politely before terminating the chat for abusive behavior.",
+    "skill": "Boundary Setting & Tone Control"
+  },
+  {
+    "id": 150,
+    "question": "A driver messages: 'The rider was racially abusive towards me and kicked my car.' What is the driver support action?",
+    "scenario": "Discrimination and vandalism report",
+    "options": {
+      "A": "Tell the driver to clean the car and ignore the comments.",
+      "B": "Acknowledge the distress, reassure the driver that discrimination is not tolerated, block the rider from matching with this driver, and escalate to the compliance team to suspend the rider's account.",
+      "C": "Tell them to report the rider to their local community leader.",
+      "D": "Suspend the driver's account."
+    },
+    "answer": "B",
+    "explanation": "Discrimination and vehicle vandalism violate Uber's community guidelines. Empathize with the driver, block matching, and escalate to compliance for rider suspension.",
+    "skill": "Driver Protection & Compliance"
+  },
+  {
+    "id": 151,
+    "question": "A rider messages: 'I was in a car crash. The driver hit another car. I am bleeding.' What is your immediate action?",
+    "scenario": "Severe accident report",
+    "options": {
+      "A": "Tell the rider to ask the driver for insurance details.",
+      "B": "Immediately escalate to the Critical Incident Safety Team (L2 Safety), verify if emergency services are on site, and freeze the driver's account.",
+      "C": "Tell them to wait for 24 hours and we will call them.",
+      "D": "Offer a refund for the ride and close the ticket."
+    },
+    "answer": "B",
+    "explanation": "Severe safety incidents involving injury must be escalated to the Critical Incident Safety Team immediately. Check safety status first.",
+    "skill": "Critical Safety Escalation"
+  },
+  {
+    "id": 152,
+    "question": "A passenger writes: 'The driver touched my leg on purpose and made inappropriate comments. I am calling the media.' What protocol is followed?",
+    "scenario": "Physical harassment report",
+    "options": {
+      "A": "Tell them it was probably an accident and close the chat.",
+      "B": "Apologize, deactivate the driver immediately, and escalate the case to the Safety and legal response team as a priority safety incident.",
+      "C": "Offer them a free coupon to not contact the media.",
+      "D": "Ask them for video proof of the touch."
+    },
+    "answer": "B",
+    "explanation": "Sexual harassment and physical safety violations are zero-tolerance issues. Driver deactivation and escalation to specialized Safety/Legal teams are mandatory.",
+    "skill": "Harassment Protocol"
+  },
+  {
+    "id": 153,
+    "question": "A rider says: 'If you don't refund my $25.00 immediately, I am going to sue your company and contact my lawyer.' How do you respond to legal threats?",
+    "scenario": "Legal action threat",
+    "options": {
+      "A": "Tell them: 'Go ahead, we have many lawyers.'",
+      "B": "Acknowledge the dispute. Remain professional. Avoid arguing. State the final policy decision clearly and transfer the chat to the Legal Escalations Team.",
+      "C": "Apologize and give a full refund instantly to avoid a lawsuit.",
+      "D": "Disconnect the chat immediately without responding."
+    },
+    "answer": "B",
+    "explanation": "When legal action is threatened, remain calm, do not argue, state the policy, and escalate the ticket to the Legal Escalations Team.",
+    "skill": "Legal Threat Handling"
+  },
+  {
+    "id": 154,
+    "question": "A user is using abusive language in chat: 'You guys are f***ing idiots. Solve my issue now!' What is the professional boundary protocol?",
+    "scenario": "Abusive customer handling",
+    "options": {
+      "A": "Abuse them back using the same language.",
+      "B": "Politely warn the customer: 'I want to help you, but I must ask you to maintain a professional tone. If the abusive language continues, I will have to end this chat session.'",
+      "C": "Disconnect the chat instantly without warning.",
+      "D": "Ignore the abuse and continue apologizing."
+    },
+    "answer": "B",
+    "explanation": "Set clear, professional boundaries. Warn the customer politely before terminating the chat for abusive behavior.",
+    "skill": "Boundary Setting & Tone Control"
+  },
+  {
+    "id": 155,
+    "question": "A driver messages: 'The rider was racially abusive towards me and kicked my car.' What is the driver support action?",
+    "scenario": "Discrimination and vandalism report",
+    "options": {
+      "A": "Tell the driver to clean the car and ignore the comments.",
+      "B": "Acknowledge the distress, reassure the driver that discrimination is not tolerated, block the rider from matching with this driver, and escalate to the compliance team to suspend the rider's account.",
+      "C": "Tell them to report the rider to their local community leader.",
+      "D": "Suspend the driver's account."
+    },
+    "answer": "B",
+    "explanation": "Discrimination and vehicle vandalism violate Uber's community guidelines. Empathize with the driver, block matching, and escalate to compliance for rider suspension.",
+    "skill": "Driver Protection & Compliance"
+  },
+  {
+    "id": 156,
+    "question": "A rider messages: 'I was in a car crash. The driver hit another car. I am bleeding.' What is your immediate action?",
+    "scenario": "Severe accident report",
+    "options": {
+      "A": "Tell the rider to ask the driver for insurance details.",
+      "B": "Immediately escalate to the Critical Incident Safety Team (L2 Safety), verify if emergency services are on site, and freeze the driver's account.",
+      "C": "Tell them to wait for 24 hours and we will call them.",
+      "D": "Offer a refund for the ride and close the ticket."
+    },
+    "answer": "B",
+    "explanation": "Severe safety incidents involving injury must be escalated to the Critical Incident Safety Team immediately. Check safety status first.",
+    "skill": "Critical Safety Escalation"
+  },
+  {
+    "id": 157,
+    "question": "A passenger writes: 'The driver touched my leg on purpose and made inappropriate comments. I am calling the media.' What protocol is followed?",
+    "scenario": "Physical harassment report",
+    "options": {
+      "A": "Tell them it was probably an accident and close the chat.",
+      "B": "Apologize, deactivate the driver immediately, and escalate the case to the Safety and legal response team as a priority safety incident.",
+      "C": "Offer them a free coupon to not contact the media.",
+      "D": "Ask them for video proof of the touch."
+    },
+    "answer": "B",
+    "explanation": "Sexual harassment and physical safety violations are zero-tolerance issues. Driver deactivation and escalation to specialized Safety/Legal teams are mandatory.",
+    "skill": "Harassment Protocol"
+  },
+  {
+    "id": 158,
+    "question": "A rider says: 'If you don't refund my $75.00 immediately, I am going to sue your company and contact my lawyer.' How do you respond to legal threats?",
+    "scenario": "Legal action threat",
+    "options": {
+      "A": "Tell them: 'Go ahead, we have many lawyers.'",
+      "B": "Acknowledge the dispute. Remain professional. Avoid arguing. State the final policy decision clearly and transfer the chat to the Legal Escalations Team.",
+      "C": "Apologize and give a full refund instantly to avoid a lawsuit.",
+      "D": "Disconnect the chat immediately without responding."
+    },
+    "answer": "B",
+    "explanation": "When legal action is threatened, remain calm, do not argue, state the policy, and escalate the ticket to the Legal Escalations Team.",
+    "skill": "Legal Threat Handling"
+  },
+  {
+    "id": 159,
+    "question": "A user is using abusive language in chat: 'You guys are f***ing idiots. Solve my issue now!' What is the professional boundary protocol?",
+    "scenario": "Abusive customer handling",
+    "options": {
+      "A": "Abuse them back using the same language.",
+      "B": "Politely warn the customer: 'I want to help you, but I must ask you to maintain a professional tone. If the abusive language continues, I will have to end this chat session.'",
+      "C": "Disconnect the chat instantly without warning.",
+      "D": "Ignore the abuse and continue apologizing."
+    },
+    "answer": "B",
+    "explanation": "Set clear, professional boundaries. Warn the customer politely before terminating the chat for abusive behavior.",
+    "skill": "Boundary Setting & Tone Control"
+  },
+  {
+    "id": 160,
+    "question": "A driver messages: 'The rider was racially abusive towards me and kicked my car.' What is the driver support action?",
+    "scenario": "Discrimination and vandalism report",
+    "options": {
+      "A": "Tell the driver to clean the car and ignore the comments.",
+      "B": "Acknowledge the distress, reassure the driver that discrimination is not tolerated, block the rider from matching with this driver, and escalate to the compliance team to suspend the rider's account.",
+      "C": "Tell them to report the rider to their local community leader.",
+      "D": "Suspend the driver's account."
+    },
+    "answer": "B",
+    "explanation": "Discrimination and vehicle vandalism violate Uber's community guidelines. Empathize with the driver, block matching, and escalate to compliance for rider suspension.",
+    "skill": "Driver Protection & Compliance"
+  },
+  {
+    "id": 161,
+    "question": "A rider messages: 'I was in a car crash. The driver hit another car. I am bleeding.' What is your immediate action?",
+    "scenario": "Severe accident report",
+    "options": {
+      "A": "Tell the rider to ask the driver for insurance details.",
+      "B": "Immediately escalate to the Critical Incident Safety Team (L2 Safety), verify if emergency services are on site, and freeze the driver's account.",
+      "C": "Tell them to wait for 24 hours and we will call them.",
+      "D": "Offer a refund for the ride and close the ticket."
+    },
+    "answer": "B",
+    "explanation": "Severe safety incidents involving injury must be escalated to the Critical Incident Safety Team immediately. Check safety status first.",
+    "skill": "Critical Safety Escalation"
+  },
+  {
+    "id": 162,
+    "question": "A passenger writes: 'The driver touched my leg on purpose and made inappropriate comments. I am calling the media.' What protocol is followed?",
+    "scenario": "Physical harassment report",
+    "options": {
+      "A": "Tell them it was probably an accident and close the chat.",
+      "B": "Apologize, deactivate the driver immediately, and escalate the case to the Safety and legal response team as a priority safety incident.",
+      "C": "Offer them a free coupon to not contact the media.",
+      "D": "Ask them for video proof of the touch."
+    },
+    "answer": "B",
+    "explanation": "Sexual harassment and physical safety violations are zero-tolerance issues. Driver deactivation and escalation to specialized Safety/Legal teams are mandatory.",
+    "skill": "Harassment Protocol"
+  },
+  {
+    "id": 163,
+    "question": "A rider says: 'If you don't refund my $10.00 immediately, I am going to sue your company and contact my lawyer.' How do you respond to legal threats?",
+    "scenario": "Legal action threat",
+    "options": {
+      "A": "Tell them: 'Go ahead, we have many lawyers.'",
+      "B": "Acknowledge the dispute. Remain professional. Avoid arguing. State the final policy decision clearly and transfer the chat to the Legal Escalations Team.",
+      "C": "Apologize and give a full refund instantly to avoid a lawsuit.",
+      "D": "Disconnect the chat immediately without responding."
+    },
+    "answer": "B",
+    "explanation": "When legal action is threatened, remain calm, do not argue, state the policy, and escalate the ticket to the Legal Escalations Team.",
+    "skill": "Legal Threat Handling"
+  },
+  {
+    "id": 164,
+    "question": "A user is using abusive language in chat: 'You guys are f***ing idiots. Solve my issue now!' What is the professional boundary protocol?",
+    "scenario": "Abusive customer handling",
+    "options": {
+      "A": "Abuse them back using the same language.",
+      "B": "Politely warn the customer: 'I want to help you, but I must ask you to maintain a professional tone. If the abusive language continues, I will have to end this chat session.'",
+      "C": "Disconnect the chat instantly without warning.",
+      "D": "Ignore the abuse and continue apologizing."
+    },
+    "answer": "B",
+    "explanation": "Set clear, professional boundaries. Warn the customer politely before terminating the chat for abusive behavior.",
+    "skill": "Boundary Setting & Tone Control"
+  },
+  {
+    "id": 165,
+    "question": "A driver messages: 'The rider was racially abusive towards me and kicked my car.' What is the driver support action?",
+    "scenario": "Discrimination and vandalism report",
+    "options": {
+      "A": "Tell the driver to clean the car and ignore the comments.",
+      "B": "Acknowledge the distress, reassure the driver that discrimination is not tolerated, block the rider from matching with this driver, and escalate to the compliance team to suspend the rider's account.",
+      "C": "Tell them to report the rider to their local community leader.",
+      "D": "Suspend the driver's account."
+    },
+    "answer": "B",
+    "explanation": "Discrimination and vehicle vandalism violate Uber's community guidelines. Empathize with the driver, block matching, and escalate to compliance for rider suspension.",
+    "skill": "Driver Protection & Compliance"
+  },
+  {
+    "id": 166,
+    "question": "A rider messages: 'I was in a car crash. The driver hit another car. I am bleeding.' What is your immediate action?",
+    "scenario": "Severe accident report",
+    "options": {
+      "A": "Tell the rider to ask the driver for insurance details.",
+      "B": "Immediately escalate to the Critical Incident Safety Team (L2 Safety), verify if emergency services are on site, and freeze the driver's account.",
+      "C": "Tell them to wait for 24 hours and we will call them.",
+      "D": "Offer a refund for the ride and close the ticket."
+    },
+    "answer": "B",
+    "explanation": "Severe safety incidents involving injury must be escalated to the Critical Incident Safety Team immediately. Check safety status first.",
+    "skill": "Critical Safety Escalation"
+  },
+  {
+    "id": 167,
+    "question": "A passenger writes: 'The driver touched my leg on purpose and made inappropriate comments. I am calling the media.' What protocol is followed?",
+    "scenario": "Physical harassment report",
+    "options": {
+      "A": "Tell them it was probably an accident and close the chat.",
+      "B": "Apologize, deactivate the driver immediately, and escalate the case to the Safety and legal response team as a priority safety incident.",
+      "C": "Offer them a free coupon to not contact the media.",
+      "D": "Ask them for video proof of the touch."
+    },
+    "answer": "B",
+    "explanation": "Sexual harassment and physical safety violations are zero-tolerance issues. Driver deactivation and escalation to specialized Safety/Legal teams are mandatory.",
+    "skill": "Harassment Protocol"
+  },
+  {
+    "id": 168,
+    "question": "A rider says: 'If you don't refund my $45.00 immediately, I am going to sue your company and contact my lawyer.' How do you respond to legal threats?",
+    "scenario": "Legal action threat",
+    "options": {
+      "A": "Tell them: 'Go ahead, we have many lawyers.'",
+      "B": "Acknowledge the dispute. Remain professional. Avoid arguing. State the final policy decision clearly and transfer the chat to the Legal Escalations Team.",
+      "C": "Apologize and give a full refund instantly to avoid a lawsuit.",
+      "D": "Disconnect the chat immediately without responding."
+    },
+    "answer": "B",
+    "explanation": "When legal action is threatened, remain calm, do not argue, state the policy, and escalate the ticket to the Legal Escalations Team.",
+    "skill": "Legal Threat Handling"
+  },
+  {
+    "id": 169,
+    "question": "A user is using abusive language in chat: 'You guys are f***ing idiots. Solve my issue now!' What is the professional boundary protocol?",
+    "scenario": "Abusive customer handling",
+    "options": {
+      "A": "Abuse them back using the same language.",
+      "B": "Politely warn the customer: 'I want to help you, but I must ask you to maintain a professional tone. If the abusive language continues, I will have to end this chat session.'",
+      "C": "Disconnect the chat instantly without warning.",
+      "D": "Ignore the abuse and continue apologizing."
+    },
+    "answer": "B",
+    "explanation": "Set clear, professional boundaries. Warn the customer politely before terminating the chat for abusive behavior.",
+    "skill": "Boundary Setting & Tone Control"
+  },
+  {
+    "id": 170,
+    "question": "A driver messages: 'The rider was racially abusive towards me and kicked my car.' What is the driver support action?",
+    "scenario": "Discrimination and vandalism report",
+    "options": {
+      "A": "Tell the driver to clean the car and ignore the comments.",
+      "B": "Acknowledge the distress, reassure the driver that discrimination is not tolerated, block the rider from matching with this driver, and escalate to the compliance team to suspend the rider's account.",
+      "C": "Tell them to report the rider to their local community leader.",
+      "D": "Suspend the driver's account."
+    },
+    "answer": "B",
+    "explanation": "Discrimination and vehicle vandalism violate Uber's community guidelines. Empathize with the driver, block matching, and escalate to compliance for rider suspension.",
+    "skill": "Driver Protection & Compliance"
+  },
+  {
+    "id": 171,
+    "question": "A rider messages: 'I was in a car crash. The driver hit another car. I am bleeding.' What is your immediate action?",
+    "scenario": "Severe accident report",
+    "options": {
+      "A": "Tell the rider to ask the driver for insurance details.",
+      "B": "Immediately escalate to the Critical Incident Safety Team (L2 Safety), verify if emergency services are on site, and freeze the driver's account.",
+      "C": "Tell them to wait for 24 hours and we will call them.",
+      "D": "Offer a refund for the ride and close the ticket."
+    },
+    "answer": "B",
+    "explanation": "Severe safety incidents involving injury must be escalated to the Critical Incident Safety Team immediately. Check safety status first.",
+    "skill": "Critical Safety Escalation"
+  },
+  {
+    "id": 172,
+    "question": "A passenger writes: 'The driver touched my leg on purpose and made inappropriate comments. I am calling the media.' What protocol is followed?",
+    "scenario": "Physical harassment report",
+    "options": {
+      "A": "Tell them it was probably an accident and close the chat.",
+      "B": "Apologize, deactivate the driver immediately, and escalate the case to the Safety and legal response team as a priority safety incident.",
+      "C": "Offer them a free coupon to not contact the media.",
+      "D": "Ask them for video proof of the touch."
+    },
+    "answer": "B",
+    "explanation": "Sexual harassment and physical safety violations are zero-tolerance issues. Driver deactivation and escalation to specialized Safety/Legal teams are mandatory.",
+    "skill": "Harassment Protocol"
+  },
+  {
+    "id": 173,
+    "question": "A rider says: 'If you don't refund my $25.00 immediately, I am going to sue your company and contact my lawyer.' How do you respond to legal threats?",
+    "scenario": "Legal action threat",
+    "options": {
+      "A": "Tell them: 'Go ahead, we have many lawyers.'",
+      "B": "Acknowledge the dispute. Remain professional. Avoid arguing. State the final policy decision clearly and transfer the chat to the Legal Escalations Team.",
+      "C": "Apologize and give a full refund instantly to avoid a lawsuit.",
+      "D": "Disconnect the chat immediately without responding."
+    },
+    "answer": "B",
+    "explanation": "When legal action is threatened, remain calm, do not argue, state the policy, and escalate the ticket to the Legal Escalations Team.",
+    "skill": "Legal Threat Handling"
+  },
+  {
+    "id": 174,
+    "question": "A user is using abusive language in chat: 'You guys are f***ing idiots. Solve my issue now!' What is the professional boundary protocol?",
+    "scenario": "Abusive customer handling",
+    "options": {
+      "A": "Abuse them back using the same language.",
+      "B": "Politely warn the customer: 'I want to help you, but I must ask you to maintain a professional tone. If the abusive language continues, I will have to end this chat session.'",
+      "C": "Disconnect the chat instantly without warning.",
+      "D": "Ignore the abuse and continue apologizing."
+    },
+    "answer": "B",
+    "explanation": "Set clear, professional boundaries. Warn the customer politely before terminating the chat for abusive behavior.",
+    "skill": "Boundary Setting & Tone Control"
+  },
+  {
+    "id": 175,
+    "question": "A driver messages: 'The rider was racially abusive towards me and kicked my car.' What is the driver support action?",
+    "scenario": "Discrimination and vandalism report",
+    "options": {
+      "A": "Tell the driver to clean the car and ignore the comments.",
+      "B": "Acknowledge the distress, reassure the driver that discrimination is not tolerated, block the rider from matching with this driver, and escalate to the compliance team to suspend the rider's account.",
+      "C": "Tell them to report the rider to their local community leader.",
+      "D": "Suspend the driver's account."
+    },
+    "answer": "B",
+    "explanation": "Discrimination and vehicle vandalism violate Uber's community guidelines. Empathize with the driver, block matching, and escalate to compliance for rider suspension.",
+    "skill": "Driver Protection & Compliance"
+  },
+  {
+    "id": 176,
+    "question": "A rider messages: 'I was in a car crash. The driver hit another car. I am bleeding.' What is your immediate action?",
+    "scenario": "Severe accident report",
+    "options": {
+      "A": "Tell the rider to ask the driver for insurance details.",
+      "B": "Immediately escalate to the Critical Incident Safety Team (L2 Safety), verify if emergency services are on site, and freeze the driver's account.",
+      "C": "Tell them to wait for 24 hours and we will call them.",
+      "D": "Offer a refund for the ride and close the ticket."
+    },
+    "answer": "B",
+    "explanation": "Severe safety incidents involving injury must be escalated to the Critical Incident Safety Team immediately. Check safety status first.",
+    "skill": "Critical Safety Escalation"
+  },
+  {
+    "id": 177,
+    "question": "A passenger writes: 'The driver touched my leg on purpose and made inappropriate comments. I am calling the media.' What protocol is followed?",
+    "scenario": "Physical harassment report",
+    "options": {
+      "A": "Tell them it was probably an accident and close the chat.",
+      "B": "Apologize, deactivate the driver immediately, and escalate the case to the Safety and legal response team as a priority safety incident.",
+      "C": "Offer them a free coupon to not contact the media.",
+      "D": "Ask them for video proof of the touch."
+    },
+    "answer": "B",
+    "explanation": "Sexual harassment and physical safety violations are zero-tolerance issues. Driver deactivation and escalation to specialized Safety/Legal teams are mandatory.",
+    "skill": "Harassment Protocol"
+  },
+  {
+    "id": 178,
+    "question": "A rider says: 'If you don't refund my $75.00 immediately, I am going to sue your company and contact my lawyer.' How do you respond to legal threats?",
+    "scenario": "Legal action threat",
+    "options": {
+      "A": "Tell them: 'Go ahead, we have many lawyers.'",
+      "B": "Acknowledge the dispute. Remain professional. Avoid arguing. State the final policy decision clearly and transfer the chat to the Legal Escalations Team.",
+      "C": "Apologize and give a full refund instantly to avoid a lawsuit.",
+      "D": "Disconnect the chat immediately without responding."
+    },
+    "answer": "B",
+    "explanation": "When legal action is threatened, remain calm, do not argue, state the policy, and escalate the ticket to the Legal Escalations Team.",
+    "skill": "Legal Threat Handling"
+  },
+  {
+    "id": 179,
+    "question": "A user is using abusive language in chat: 'You guys are f***ing idiots. Solve my issue now!' What is the professional boundary protocol?",
+    "scenario": "Abusive customer handling",
+    "options": {
+      "A": "Abuse them back using the same language.",
+      "B": "Politely warn the customer: 'I want to help you, but I must ask you to maintain a professional tone. If the abusive language continues, I will have to end this chat session.'",
+      "C": "Disconnect the chat instantly without warning.",
+      "D": "Ignore the abuse and continue apologizing."
+    },
+    "answer": "B",
+    "explanation": "Set clear, professional boundaries. Warn the customer politely before terminating the chat for abusive behavior.",
+    "skill": "Boundary Setting & Tone Control"
+  },
+  {
+    "id": 180,
+    "question": "A driver messages: 'The rider was racially abusive towards me and kicked my car.' What is the driver support action?",
+    "scenario": "Discrimination and vandalism report",
+    "options": {
+      "A": "Tell the driver to clean the car and ignore the comments.",
+      "B": "Acknowledge the distress, reassure the driver that discrimination is not tolerated, block the rider from matching with this driver, and escalate to the compliance team to suspend the rider's account.",
+      "C": "Tell them to report the rider to their local community leader.",
+      "D": "Suspend the driver's account."
+    },
+    "answer": "B",
+    "explanation": "Discrimination and vehicle vandalism violate Uber's community guidelines. Empathize with the driver, block matching, and escalate to compliance for rider suspension.",
+    "skill": "Driver Protection & Compliance"
+  },
+  {
+    "id": 181,
+    "question": "A rider messages: 'I was in a car crash. The driver hit another car. I am bleeding.' What is your immediate action?",
+    "scenario": "Severe accident report",
+    "options": {
+      "A": "Tell the rider to ask the driver for insurance details.",
+      "B": "Immediately escalate to the Critical Incident Safety Team (L2 Safety), verify if emergency services are on site, and freeze the driver's account.",
+      "C": "Tell them to wait for 24 hours and we will call them.",
+      "D": "Offer a refund for the ride and close the ticket."
+    },
+    "answer": "B",
+    "explanation": "Severe safety incidents involving injury must be escalated to the Critical Incident Safety Team immediately. Check safety status first.",
+    "skill": "Critical Safety Escalation"
+  },
+  {
+    "id": 182,
+    "question": "A passenger writes: 'The driver touched my leg on purpose and made inappropriate comments. I am calling the media.' What protocol is followed?",
+    "scenario": "Physical harassment report",
+    "options": {
+      "A": "Tell them it was probably an accident and close the chat.",
+      "B": "Apologize, deactivate the driver immediately, and escalate the case to the Safety and legal response team as a priority safety incident.",
+      "C": "Offer them a free coupon to not contact the media.",
+      "D": "Ask them for video proof of the touch."
+    },
+    "answer": "B",
+    "explanation": "Sexual harassment and physical safety violations are zero-tolerance issues. Driver deactivation and escalation to specialized Safety/Legal teams are mandatory.",
+    "skill": "Harassment Protocol"
+  },
+  {
+    "id": 183,
+    "question": "A rider says: 'If you don't refund my $75.00 immediately, I am going to sue your company and contact my lawyer.' How do you respond to legal threats?",
+    "scenario": "Legal action threat",
+    "options": {
+      "A": "Tell them: 'Go ahead, we have many lawyers.'",
+      "B": "Acknowledge the dispute. Remain professional. Avoid arguing. State the final policy decision clearly and transfer the chat to the Legal Escalations Team.",
+      "C": "Apologize and give a full refund instantly to avoid a lawsuit.",
+      "D": "Disconnect the chat immediately without responding."
+    },
+    "answer": "B",
+    "explanation": "When legal action is threatened, remain calm, do not argue, state the policy, and escalate the ticket to the Legal Escalations Team.",
+    "skill": "Legal Threat Handling"
+  },
+  {
+    "id": 184,
+    "question": "A user is using abusive language in chat: 'You guys are f***ing idiots. Solve my issue now!' What is the professional boundary protocol?",
+    "scenario": "Abusive customer handling",
+    "options": {
+      "A": "Abuse them back using the same language.",
+      "B": "Politely warn the customer: 'I want to help you, but I must ask you to maintain a professional tone. If the abusive language continues, I will have to end this chat session.'",
+      "C": "Disconnect the chat instantly without warning.",
+      "D": "Ignore the abuse and continue apologizing."
+    },
+    "answer": "B",
+    "explanation": "Set clear, professional boundaries. Warn the customer politely before terminating the chat for abusive behavior.",
+    "skill": "Boundary Setting & Tone Control"
+  },
+  {
+    "id": 185,
+    "question": "A driver messages: 'The rider was racially abusive towards me and kicked my car.' What is the driver support action?",
+    "scenario": "Discrimination and vandalism report",
+    "options": {
+      "A": "Tell the driver to clean the car and ignore the comments.",
+      "B": "Acknowledge the distress, reassure the driver that discrimination is not tolerated, block the rider from matching with this driver, and escalate to the compliance team to suspend the rider's account.",
+      "C": "Tell them to report the rider to their local community leader.",
+      "D": "Suspend the driver's account."
+    },
+    "answer": "B",
+    "explanation": "Discrimination and vehicle vandalism violate Uber's community guidelines. Empathize with the driver, block matching, and escalate to compliance for rider suspension.",
+    "skill": "Driver Protection & Compliance"
+  },
+  {
+    "id": 186,
+    "question": "A rider messages: 'I was in a car crash. The driver hit another car. I am bleeding.' What is your immediate action?",
+    "scenario": "Severe accident report",
+    "options": {
+      "A": "Tell the rider to ask the driver for insurance details.",
+      "B": "Immediately escalate to the Critical Incident Safety Team (L2 Safety), verify if emergency services are on site, and freeze the driver's account.",
+      "C": "Tell them to wait for 24 hours and we will call them.",
+      "D": "Offer a refund for the ride and close the ticket."
+    },
+    "answer": "B",
+    "explanation": "Severe safety incidents involving injury must be escalated to the Critical Incident Safety Team immediately. Check safety status first.",
+    "skill": "Critical Safety Escalation"
+  },
+  {
+    "id": 187,
+    "question": "A passenger writes: 'The driver touched my leg on purpose and made inappropriate comments. I am calling the media.' What protocol is followed?",
+    "scenario": "Physical harassment report",
+    "options": {
+      "A": "Tell them it was probably an accident and close the chat.",
+      "B": "Apologize, deactivate the driver immediately, and escalate the case to the Safety and legal response team as a priority safety incident.",
+      "C": "Offer them a free coupon to not contact the media.",
+      "D": "Ask them for video proof of the touch."
+    },
+    "answer": "B",
+    "explanation": "Sexual harassment and physical safety violations are zero-tolerance issues. Driver deactivation and escalation to specialized Safety/Legal teams are mandatory.",
+    "skill": "Harassment Protocol"
+  },
+  {
+    "id": 188,
+    "question": "A rider says: 'If you don't refund my $15.00 immediately, I am going to sue your company and contact my lawyer.' How do you respond to legal threats?",
+    "scenario": "Legal action threat",
+    "options": {
+      "A": "Tell them: 'Go ahead, we have many lawyers.'",
+      "B": "Acknowledge the dispute. Remain professional. Avoid arguing. State the final policy decision clearly and transfer the chat to the Legal Escalations Team.",
+      "C": "Apologize and give a full refund instantly to avoid a lawsuit.",
+      "D": "Disconnect the chat immediately without responding."
+    },
+    "answer": "B",
+    "explanation": "When legal action is threatened, remain calm, do not argue, state the policy, and escalate the ticket to the Legal Escalations Team.",
+    "skill": "Legal Threat Handling"
+  },
+  {
+    "id": 189,
+    "question": "A user is using abusive language in chat: 'You guys are f***ing idiots. Solve my issue now!' What is the professional boundary protocol?",
+    "scenario": "Abusive customer handling",
+    "options": {
+      "A": "Abuse them back using the same language.",
+      "B": "Politely warn the customer: 'I want to help you, but I must ask you to maintain a professional tone. If the abusive language continues, I will have to end this chat session.'",
+      "C": "Disconnect the chat instantly without warning.",
+      "D": "Ignore the abuse and continue apologizing."
+    },
+    "answer": "B",
+    "explanation": "Set clear, professional boundaries. Warn the customer politely before terminating the chat for abusive behavior.",
+    "skill": "Boundary Setting & Tone Control"
+  },
+  {
+    "id": 190,
+    "question": "A driver messages: 'The rider was racially abusive towards me and kicked my car.' What is the driver support action?",
+    "scenario": "Discrimination and vandalism report",
+    "options": {
+      "A": "Tell the driver to clean the car and ignore the comments.",
+      "B": "Acknowledge the distress, reassure the driver that discrimination is not tolerated, block the rider from matching with this driver, and escalate to the compliance team to suspend the rider's account.",
+      "C": "Tell them to report the rider to their local community leader.",
+      "D": "Suspend the driver's account."
+    },
+    "answer": "B",
+    "explanation": "Discrimination and vehicle vandalism violate Uber's community guidelines. Empathize with the driver, block matching, and escalate to compliance for rider suspension.",
+    "skill": "Driver Protection & Compliance"
+  },
+  {
+    "id": 191,
+    "question": "A rider messages: 'I was in a car crash. The driver hit another car. I am bleeding.' What is your immediate action?",
+    "scenario": "Severe accident report",
+    "options": {
+      "A": "Tell the rider to ask the driver for insurance details.",
+      "B": "Immediately escalate to the Critical Incident Safety Team (L2 Safety), verify if emergency services are on site, and freeze the driver's account.",
+      "C": "Tell them to wait for 24 hours and we will call them.",
+      "D": "Offer a refund for the ride and close the ticket."
+    },
+    "answer": "B",
+    "explanation": "Severe safety incidents involving injury must be escalated to the Critical Incident Safety Team immediately. Check safety status first.",
+    "skill": "Critical Safety Escalation"
+  },
+  {
+    "id": 192,
+    "question": "A passenger writes: 'The driver touched my leg on purpose and made inappropriate comments. I am calling the media.' What protocol is followed?",
+    "scenario": "Physical harassment report",
+    "options": {
+      "A": "Tell them it was probably an accident and close the chat.",
+      "B": "Apologize, deactivate the driver immediately, and escalate the case to the Safety and legal response team as a priority safety incident.",
+      "C": "Offer them a free coupon to not contact the media.",
+      "D": "Ask them for video proof of the touch."
+    },
+    "answer": "B",
+    "explanation": "Sexual harassment and physical safety violations are zero-tolerance issues. Driver deactivation and escalation to specialized Safety/Legal teams are mandatory.",
+    "skill": "Harassment Protocol"
+  },
+  {
+    "id": 193,
+    "question": "A rider says: 'If you don't refund my $75.00 immediately, I am going to sue your company and contact my lawyer.' How do you respond to legal threats?",
+    "scenario": "Legal action threat",
+    "options": {
+      "A": "Tell them: 'Go ahead, we have many lawyers.'",
+      "B": "Acknowledge the dispute. Remain professional. Avoid arguing. State the final policy decision clearly and transfer the chat to the Legal Escalations Team.",
+      "C": "Apologize and give a full refund instantly to avoid a lawsuit.",
+      "D": "Disconnect the chat immediately without responding."
+    },
+    "answer": "B",
+    "explanation": "When legal action is threatened, remain calm, do not argue, state the policy, and escalate the ticket to the Legal Escalations Team.",
+    "skill": "Legal Threat Handling"
+  },
+  {
+    "id": 194,
+    "question": "A user is using abusive language in chat: 'You guys are f***ing idiots. Solve my issue now!' What is the professional boundary protocol?",
+    "scenario": "Abusive customer handling",
+    "options": {
+      "A": "Abuse them back using the same language.",
+      "B": "Politely warn the customer: 'I want to help you, but I must ask you to maintain a professional tone. If the abusive language continues, I will have to end this chat session.'",
+      "C": "Disconnect the chat instantly without warning.",
+      "D": "Ignore the abuse and continue apologizing."
+    },
+    "answer": "B",
+    "explanation": "Set clear, professional boundaries. Warn the customer politely before terminating the chat for abusive behavior.",
+    "skill": "Boundary Setting & Tone Control"
+  },
+  {
+    "id": 195,
+    "question": "A driver messages: 'The rider was racially abusive towards me and kicked my car.' What is the driver support action?",
+    "scenario": "Discrimination and vandalism report",
+    "options": {
+      "A": "Tell the driver to clean the car and ignore the comments.",
+      "B": "Acknowledge the distress, reassure the driver that discrimination is not tolerated, block the rider from matching with this driver, and escalate to the compliance team to suspend the rider's account.",
+      "C": "Tell them to report the rider to their local community leader.",
+      "D": "Suspend the driver's account."
+    },
+    "answer": "B",
+    "explanation": "Discrimination and vehicle vandalism violate Uber's community guidelines. Empathize with the driver, block matching, and escalate to compliance for rider suspension.",
+    "skill": "Driver Protection & Compliance"
+  },
+  {
+    "id": 196,
+    "question": "A rider messages: 'I was in a car crash. The driver hit another car. I am bleeding.' What is your immediate action?",
+    "scenario": "Severe accident report",
+    "options": {
+      "A": "Tell the rider to ask the driver for insurance details.",
+      "B": "Immediately escalate to the Critical Incident Safety Team (L2 Safety), verify if emergency services are on site, and freeze the driver's account.",
+      "C": "Tell them to wait for 24 hours and we will call them.",
+      "D": "Offer a refund for the ride and close the ticket."
+    },
+    "answer": "B",
+    "explanation": "Severe safety incidents involving injury must be escalated to the Critical Incident Safety Team immediately. Check safety status first.",
+    "skill": "Critical Safety Escalation"
+  },
+  {
+    "id": 197,
+    "question": "A passenger writes: 'The driver touched my leg on purpose and made inappropriate comments. I am calling the media.' What protocol is followed?",
+    "scenario": "Physical harassment report",
+    "options": {
+      "A": "Tell them it was probably an accident and close the chat.",
+      "B": "Apologize, deactivate the driver immediately, and escalate the case to the Safety and legal response team as a priority safety incident.",
+      "C": "Offer them a free coupon to not contact the media.",
+      "D": "Ask them for video proof of the touch."
+    },
+    "answer": "B",
+    "explanation": "Sexual harassment and physical safety violations are zero-tolerance issues. Driver deactivation and escalation to specialized Safety/Legal teams are mandatory.",
+    "skill": "Harassment Protocol"
+  },
+  {
+    "id": 198,
+    "question": "A rider says: 'If you don't refund my $25.00 immediately, I am going to sue your company and contact my lawyer.' How do you respond to legal threats?",
+    "scenario": "Legal action threat",
+    "options": {
+      "A": "Tell them: 'Go ahead, we have many lawyers.'",
+      "B": "Acknowledge the dispute. Remain professional. Avoid arguing. State the final policy decision clearly and transfer the chat to the Legal Escalations Team.",
+      "C": "Apologize and give a full refund instantly to avoid a lawsuit.",
+      "D": "Disconnect the chat immediately without responding."
+    },
+    "answer": "B",
+    "explanation": "When legal action is threatened, remain calm, do not argue, state the policy, and escalate the ticket to the Legal Escalations Team.",
+    "skill": "Legal Threat Handling"
+  },
+  {
+    "id": 199,
+    "question": "A user is using abusive language in chat: 'You guys are f***ing idiots. Solve my issue now!' What is the professional boundary protocol?",
+    "scenario": "Abusive customer handling",
+    "options": {
+      "A": "Abuse them back using the same language.",
+      "B": "Politely warn the customer: 'I want to help you, but I must ask you to maintain a professional tone. If the abusive language continues, I will have to end this chat session.'",
+      "C": "Disconnect the chat instantly without warning.",
+      "D": "Ignore the abuse and continue apologizing."
+    },
+    "answer": "B",
+    "explanation": "Set clear, professional boundaries. Warn the customer politely before terminating the chat for abusive behavior.",
+    "skill": "Boundary Setting & Tone Control"
+  },
+  {
+    "id": 200,
+    "question": "A driver messages: 'The rider was racially abusive towards me and kicked my car.' What is the driver support action?",
+    "scenario": "Discrimination and vandalism report",
+    "options": {
+      "A": "Tell the driver to clean the car and ignore the comments.",
+      "B": "Acknowledge the distress, reassure the driver that discrimination is not tolerated, block the rider from matching with this driver, and escalate to the compliance team to suspend the rider's account.",
+      "C": "Tell them to report the rider to their local community leader.",
+      "D": "Suspend the driver's account."
+    },
+    "answer": "B",
+    "explanation": "Discrimination and vehicle vandalism violate Uber's community guidelines. Empathize with the driver, block matching, and escalate to compliance for rider suspension.",
+    "skill": "Driver Protection & Compliance"
+  }
+]

@@ -1,0 +1,2802 @@
+[
+  {
+    "id": 1,
+    "question": "A customer writes: 'I am so stressed. I left my passport in your cab and my flight is in 3 hours.' Which response shows the best active listening and empathy?",
+    "scenario": "Stressful lost passport",
+    "options": {
+      "A": "We are not responsible for left items. Please fill a form.",
+      "B": "I understand how incredibly stressful this must be, especially with your flight leaving soon. Let me contact the driver immediately to help locate your passport.",
+      "C": "Relax, passport can be remade at the embassy.",
+      "D": "Why did you forget your passport? That is very careless."
+    },
+    "answer": "B",
+    "explanation": "Active empathy involves validating the customer's specific emotion ('stressful') and urgency ('flight leaving soon'), and taking immediate action.",
+    "skill": "Active Listening & Reassurance"
+  },
+  {
+    "id": 2,
+    "question": "A customer is complaining about a double payment: 'This app is stealing my money!' How do you frame the response using positive phrasing?",
+    "scenario": "Double charge positive framing",
+    "options": {
+      "A": "We cannot refund you until we check the banks. Do not accuse us of stealing.",
+      "B": "Let's get this resolved for you. I will check your payment history right now and ensure any extra charges are reversed to your account immediately.",
+      "C": "You are wrong. It is just a temporary hold.",
+      "D": "Please wait for 3 days and don't message us again."
+    },
+    "answer": "B",
+    "explanation": "Positive framing focuses on resolution, action, and assistance, rather than defensiveness or negative rules.",
+    "skill": "Positive Framing"
+  },
+  {
+    "id": 3,
+    "question": "Which of these phrases is considered 'Robotic/Scripted' and should be avoided in personalized live chat support?",
+    "scenario": "Avoiding robotic phrases",
+    "options": {
+      "A": "I'll check that for you right now.",
+      "B": "I am sorry for the inconvenience caused. Your satisfaction is our top priority. Please wait while I pull up your details.",
+      "C": "Let's look at the trip map together to see what happened.",
+      "D": "I understand you're disappointed with the route."
+    },
+    "answer": "B",
+    "explanation": "Generic apologies like 'sorry for the inconvenience caused' sound robotic and impersonal in live chat. Personalized, conversational language is much better.",
+    "skill": "Conversational Tone"
+  },
+  {
+    "id": 4,
+    "question": "A rider writes: 'The driver yelled at me and made me feel unsafe.' What is the best initial empathy statement?",
+    "scenario": "Safety complaint empathy",
+    "options": {
+      "A": "I am sorry the driver was in a bad mood.",
+      "B": "I am deeply sorry to hear about this experience. Feeling safe during a ride is absolutely essential, and I want to assure you we are taking this very seriously.",
+      "C": "Please rate the driver 1 star and report him.",
+      "D": "Did you say something to make him angry?"
+    },
+    "answer": "B",
+    "explanation": "For safety issues, validate the customer's feeling of safety, apologize sincerely, and assure them of serious action.",
+    "skill": "Safety Empathy"
+  },
+  {
+    "id": 5,
+    "question": "A passenger named Sarah says: 'The app crashed during my ride and I couldn't see the price.' How do you show accountability?",
+    "scenario": "App crash accountability",
+    "options": {
+      "A": "It is your phone's fault. Upgrade your device.",
+      "B": "I apologize for the app crashing during your ride, Sarah. I know how frustrating it is to not see your fare. Let me look up the exact fare details for you right now.",
+      "C": "We don't guarantee app uptime. Read the terms of service.",
+      "D": "Wait for the receipt to email you."
+    },
+    "answer": "B",
+    "explanation": "Accountability means taking responsibility for the service failure (the app crashing) and moving directly to a solution.",
+    "skill": "Accountability"
+  },
+  {
+    "id": 6,
+    "question": "A customer writes: 'I am so stressed. I left my passport in your cab and my flight is in 3 hours.' Which response shows the best active listening and empathy?",
+    "scenario": "Stressful lost passport",
+    "options": {
+      "A": "We are not responsible for left items. Please fill a form.",
+      "B": "I understand how incredibly stressful this must be, especially with your flight leaving soon. Let me contact the driver immediately to help locate your passport.",
+      "C": "Relax, passport can be remade at the embassy.",
+      "D": "Why did you forget your passport? That is very careless."
+    },
+    "answer": "B",
+    "explanation": "Active empathy involves validating the customer's specific emotion ('stressful') and urgency ('flight leaving soon'), and taking immediate action.",
+    "skill": "Active Listening & Reassurance"
+  },
+  {
+    "id": 7,
+    "question": "A customer is complaining about a double payment: 'This app is stealing my money!' How do you frame the response using positive phrasing?",
+    "scenario": "Double charge positive framing",
+    "options": {
+      "A": "We cannot refund you until we check the banks. Do not accuse us of stealing.",
+      "B": "Let's get this resolved for you. I will check your payment history right now and ensure any extra charges are reversed to your account immediately.",
+      "C": "You are wrong. It is just a temporary hold.",
+      "D": "Please wait for 3 days and don't message us again."
+    },
+    "answer": "B",
+    "explanation": "Positive framing focuses on resolution, action, and assistance, rather than defensiveness or negative rules.",
+    "skill": "Positive Framing"
+  },
+  {
+    "id": 8,
+    "question": "Which of these phrases is considered 'Robotic/Scripted' and should be avoided in personalized live chat support?",
+    "scenario": "Avoiding robotic phrases",
+    "options": {
+      "A": "I'll check that for you right now.",
+      "B": "I am sorry for the inconvenience caused. Your satisfaction is our top priority. Please wait while I pull up your details.",
+      "C": "Let's look at the trip map together to see what happened.",
+      "D": "I understand you're disappointed with the route."
+    },
+    "answer": "B",
+    "explanation": "Generic apologies like 'sorry for the inconvenience caused' sound robotic and impersonal in live chat. Personalized, conversational language is much better.",
+    "skill": "Conversational Tone"
+  },
+  {
+    "id": 9,
+    "question": "A rider writes: 'The driver yelled at me and made me feel unsafe.' What is the best initial empathy statement?",
+    "scenario": "Safety complaint empathy",
+    "options": {
+      "A": "I am sorry the driver was in a bad mood.",
+      "B": "I am deeply sorry to hear about this experience. Feeling safe during a ride is absolutely essential, and I want to assure you we are taking this very seriously.",
+      "C": "Please rate the driver 1 star and report him.",
+      "D": "Did you say something to make him angry?"
+    },
+    "answer": "B",
+    "explanation": "For safety issues, validate the customer's feeling of safety, apologize sincerely, and assure them of serious action.",
+    "skill": "Safety Empathy"
+  },
+  {
+    "id": 10,
+    "question": "A passenger named James says: 'The app crashed during my ride and I couldn't see the price.' How do you show accountability?",
+    "scenario": "App crash accountability",
+    "options": {
+      "A": "It is your phone's fault. Upgrade your device.",
+      "B": "I apologize for the app crashing during your ride, James. I know how frustrating it is to not see your fare. Let me look up the exact fare details for you right now.",
+      "C": "We don't guarantee app uptime. Read the terms of service.",
+      "D": "Wait for the receipt to email you."
+    },
+    "answer": "B",
+    "explanation": "Accountability means taking responsibility for the service failure (the app crashing) and moving directly to a solution.",
+    "skill": "Accountability"
+  },
+  {
+    "id": 11,
+    "question": "A customer writes: 'I am so stressed. I left my passport in your cab and my flight is in 3 hours.' Which response shows the best active listening and empathy?",
+    "scenario": "Stressful lost passport",
+    "options": {
+      "A": "We are not responsible for left items. Please fill a form.",
+      "B": "I understand how incredibly stressful this must be, especially with your flight leaving soon. Let me contact the driver immediately to help locate your passport.",
+      "C": "Relax, passport can be remade at the embassy.",
+      "D": "Why did you forget your passport? That is very careless."
+    },
+    "answer": "B",
+    "explanation": "Active empathy involves validating the customer's specific emotion ('stressful') and urgency ('flight leaving soon'), and taking immediate action.",
+    "skill": "Active Listening & Reassurance"
+  },
+  {
+    "id": 12,
+    "question": "A customer is complaining about a double payment: 'This app is stealing my money!' How do you frame the response using positive phrasing?",
+    "scenario": "Double charge positive framing",
+    "options": {
+      "A": "We cannot refund you until we check the banks. Do not accuse us of stealing.",
+      "B": "Let's get this resolved for you. I will check your payment history right now and ensure any extra charges are reversed to your account immediately.",
+      "C": "You are wrong. It is just a temporary hold.",
+      "D": "Please wait for 3 days and don't message us again."
+    },
+    "answer": "B",
+    "explanation": "Positive framing focuses on resolution, action, and assistance, rather than defensiveness or negative rules.",
+    "skill": "Positive Framing"
+  },
+  {
+    "id": 13,
+    "question": "Which of these phrases is considered 'Robotic/Scripted' and should be avoided in personalized live chat support?",
+    "scenario": "Avoiding robotic phrases",
+    "options": {
+      "A": "I'll check that for you right now.",
+      "B": "I am sorry for the inconvenience caused. Your satisfaction is our top priority. Please wait while I pull up your details.",
+      "C": "Let's look at the trip map together to see what happened.",
+      "D": "I understand you're disappointed with the route."
+    },
+    "answer": "B",
+    "explanation": "Generic apologies like 'sorry for the inconvenience caused' sound robotic and impersonal in live chat. Personalized, conversational language is much better.",
+    "skill": "Conversational Tone"
+  },
+  {
+    "id": 14,
+    "question": "A rider writes: 'The driver yelled at me and made me feel unsafe.' What is the best initial empathy statement?",
+    "scenario": "Safety complaint empathy",
+    "options": {
+      "A": "I am sorry the driver was in a bad mood.",
+      "B": "I am deeply sorry to hear about this experience. Feeling safe during a ride is absolutely essential, and I want to assure you we are taking this very seriously.",
+      "C": "Please rate the driver 1 star and report him.",
+      "D": "Did you say something to make him angry?"
+    },
+    "answer": "B",
+    "explanation": "For safety issues, validate the customer's feeling of safety, apologize sincerely, and assure them of serious action.",
+    "skill": "Safety Empathy"
+  },
+  {
+    "id": 15,
+    "question": "A passenger named James says: 'The app crashed during my ride and I couldn't see the price.' How do you show accountability?",
+    "scenario": "App crash accountability",
+    "options": {
+      "A": "It is your phone's fault. Upgrade your device.",
+      "B": "I apologize for the app crashing during your ride, James. I know how frustrating it is to not see your fare. Let me look up the exact fare details for you right now.",
+      "C": "We don't guarantee app uptime. Read the terms of service.",
+      "D": "Wait for the receipt to email you."
+    },
+    "answer": "B",
+    "explanation": "Accountability means taking responsibility for the service failure (the app crashing) and moving directly to a solution.",
+    "skill": "Accountability"
+  },
+  {
+    "id": 16,
+    "question": "A customer writes: 'I am so stressed. I left my passport in your cab and my flight is in 3 hours.' Which response shows the best active listening and empathy?",
+    "scenario": "Stressful lost passport",
+    "options": {
+      "A": "We are not responsible for left items. Please fill a form.",
+      "B": "I understand how incredibly stressful this must be, especially with your flight leaving soon. Let me contact the driver immediately to help locate your passport.",
+      "C": "Relax, passport can be remade at the embassy.",
+      "D": "Why did you forget your passport? That is very careless."
+    },
+    "answer": "B",
+    "explanation": "Active empathy involves validating the customer's specific emotion ('stressful') and urgency ('flight leaving soon'), and taking immediate action.",
+    "skill": "Active Listening & Reassurance"
+  },
+  {
+    "id": 17,
+    "question": "A customer is complaining about a double payment: 'This app is stealing my money!' How do you frame the response using positive phrasing?",
+    "scenario": "Double charge positive framing",
+    "options": {
+      "A": "We cannot refund you until we check the banks. Do not accuse us of stealing.",
+      "B": "Let's get this resolved for you. I will check your payment history right now and ensure any extra charges are reversed to your account immediately.",
+      "C": "You are wrong. It is just a temporary hold.",
+      "D": "Please wait for 3 days and don't message us again."
+    },
+    "answer": "B",
+    "explanation": "Positive framing focuses on resolution, action, and assistance, rather than defensiveness or negative rules.",
+    "skill": "Positive Framing"
+  },
+  {
+    "id": 18,
+    "question": "Which of these phrases is considered 'Robotic/Scripted' and should be avoided in personalized live chat support?",
+    "scenario": "Avoiding robotic phrases",
+    "options": {
+      "A": "I'll check that for you right now.",
+      "B": "I am sorry for the inconvenience caused. Your satisfaction is our top priority. Please wait while I pull up your details.",
+      "C": "Let's look at the trip map together to see what happened.",
+      "D": "I understand you're disappointed with the route."
+    },
+    "answer": "B",
+    "explanation": "Generic apologies like 'sorry for the inconvenience caused' sound robotic and impersonal in live chat. Personalized, conversational language is much better.",
+    "skill": "Conversational Tone"
+  },
+  {
+    "id": 19,
+    "question": "A rider writes: 'The driver yelled at me and made me feel unsafe.' What is the best initial empathy statement?",
+    "scenario": "Safety complaint empathy",
+    "options": {
+      "A": "I am sorry the driver was in a bad mood.",
+      "B": "I am deeply sorry to hear about this experience. Feeling safe during a ride is absolutely essential, and I want to assure you we are taking this very seriously.",
+      "C": "Please rate the driver 1 star and report him.",
+      "D": "Did you say something to make him angry?"
+    },
+    "answer": "B",
+    "explanation": "For safety issues, validate the customer's feeling of safety, apologize sincerely, and assure them of serious action.",
+    "skill": "Safety Empathy"
+  },
+  {
+    "id": 20,
+    "question": "A passenger named Brian says: 'The app crashed during my ride and I couldn't see the price.' How do you show accountability?",
+    "scenario": "App crash accountability",
+    "options": {
+      "A": "It is your phone's fault. Upgrade your device.",
+      "B": "I apologize for the app crashing during your ride, Brian. I know how frustrating it is to not see your fare. Let me look up the exact fare details for you right now.",
+      "C": "We don't guarantee app uptime. Read the terms of service.",
+      "D": "Wait for the receipt to email you."
+    },
+    "answer": "B",
+    "explanation": "Accountability means taking responsibility for the service failure (the app crashing) and moving directly to a solution.",
+    "skill": "Accountability"
+  },
+  {
+    "id": 21,
+    "question": "A customer writes: 'I am so stressed. I left my passport in your cab and my flight is in 3 hours.' Which response shows the best active listening and empathy?",
+    "scenario": "Stressful lost passport",
+    "options": {
+      "A": "We are not responsible for left items. Please fill a form.",
+      "B": "I understand how incredibly stressful this must be, especially with your flight leaving soon. Let me contact the driver immediately to help locate your passport.",
+      "C": "Relax, passport can be remade at the embassy.",
+      "D": "Why did you forget your passport? That is very careless."
+    },
+    "answer": "B",
+    "explanation": "Active empathy involves validating the customer's specific emotion ('stressful') and urgency ('flight leaving soon'), and taking immediate action.",
+    "skill": "Active Listening & Reassurance"
+  },
+  {
+    "id": 22,
+    "question": "A customer is complaining about a double payment: 'This app is stealing my money!' How do you frame the response using positive phrasing?",
+    "scenario": "Double charge positive framing",
+    "options": {
+      "A": "We cannot refund you until we check the banks. Do not accuse us of stealing.",
+      "B": "Let's get this resolved for you. I will check your payment history right now and ensure any extra charges are reversed to your account immediately.",
+      "C": "You are wrong. It is just a temporary hold.",
+      "D": "Please wait for 3 days and don't message us again."
+    },
+    "answer": "B",
+    "explanation": "Positive framing focuses on resolution, action, and assistance, rather than defensiveness or negative rules.",
+    "skill": "Positive Framing"
+  },
+  {
+    "id": 23,
+    "question": "Which of these phrases is considered 'Robotic/Scripted' and should be avoided in personalized live chat support?",
+    "scenario": "Avoiding robotic phrases",
+    "options": {
+      "A": "I'll check that for you right now.",
+      "B": "I am sorry for the inconvenience caused. Your satisfaction is our top priority. Please wait while I pull up your details.",
+      "C": "Let's look at the trip map together to see what happened.",
+      "D": "I understand you're disappointed with the route."
+    },
+    "answer": "B",
+    "explanation": "Generic apologies like 'sorry for the inconvenience caused' sound robotic and impersonal in live chat. Personalized, conversational language is much better.",
+    "skill": "Conversational Tone"
+  },
+  {
+    "id": 24,
+    "question": "A rider writes: 'The driver yelled at me and made me feel unsafe.' What is the best initial empathy statement?",
+    "scenario": "Safety complaint empathy",
+    "options": {
+      "A": "I am sorry the driver was in a bad mood.",
+      "B": "I am deeply sorry to hear about this experience. Feeling safe during a ride is absolutely essential, and I want to assure you we are taking this very seriously.",
+      "C": "Please rate the driver 1 star and report him.",
+      "D": "Did you say something to make him angry?"
+    },
+    "answer": "B",
+    "explanation": "For safety issues, validate the customer's feeling of safety, apologize sincerely, and assure them of serious action.",
+    "skill": "Safety Empathy"
+  },
+  {
+    "id": 25,
+    "question": "A passenger named Heather says: 'The app crashed during my ride and I couldn't see the price.' How do you show accountability?",
+    "scenario": "App crash accountability",
+    "options": {
+      "A": "It is your phone's fault. Upgrade your device.",
+      "B": "I apologize for the app crashing during your ride, Heather. I know how frustrating it is to not see your fare. Let me look up the exact fare details for you right now.",
+      "C": "We don't guarantee app uptime. Read the terms of service.",
+      "D": "Wait for the receipt to email you."
+    },
+    "answer": "B",
+    "explanation": "Accountability means taking responsibility for the service failure (the app crashing) and moving directly to a solution.",
+    "skill": "Accountability"
+  },
+  {
+    "id": 26,
+    "question": "A customer writes: 'I am so stressed. I left my passport in your cab and my flight is in 3 hours.' Which response shows the best active listening and empathy?",
+    "scenario": "Stressful lost passport",
+    "options": {
+      "A": "We are not responsible for left items. Please fill a form.",
+      "B": "I understand how incredibly stressful this must be, especially with your flight leaving soon. Let me contact the driver immediately to help locate your passport.",
+      "C": "Relax, passport can be remade at the embassy.",
+      "D": "Why did you forget your passport? That is very careless."
+    },
+    "answer": "B",
+    "explanation": "Active empathy involves validating the customer's specific emotion ('stressful') and urgency ('flight leaving soon'), and taking immediate action.",
+    "skill": "Active Listening & Reassurance"
+  },
+  {
+    "id": 27,
+    "question": "A customer is complaining about a double payment: 'This app is stealing my money!' How do you frame the response using positive phrasing?",
+    "scenario": "Double charge positive framing",
+    "options": {
+      "A": "We cannot refund you until we check the banks. Do not accuse us of stealing.",
+      "B": "Let's get this resolved for you. I will check your payment history right now and ensure any extra charges are reversed to your account immediately.",
+      "C": "You are wrong. It is just a temporary hold.",
+      "D": "Please wait for 3 days and don't message us again."
+    },
+    "answer": "B",
+    "explanation": "Positive framing focuses on resolution, action, and assistance, rather than defensiveness or negative rules.",
+    "skill": "Positive Framing"
+  },
+  {
+    "id": 28,
+    "question": "Which of these phrases is considered 'Robotic/Scripted' and should be avoided in personalized live chat support?",
+    "scenario": "Avoiding robotic phrases",
+    "options": {
+      "A": "I'll check that for you right now.",
+      "B": "I am sorry for the inconvenience caused. Your satisfaction is our top priority. Please wait while I pull up your details.",
+      "C": "Let's look at the trip map together to see what happened.",
+      "D": "I understand you're disappointed with the route."
+    },
+    "answer": "B",
+    "explanation": "Generic apologies like 'sorry for the inconvenience caused' sound robotic and impersonal in live chat. Personalized, conversational language is much better.",
+    "skill": "Conversational Tone"
+  },
+  {
+    "id": 29,
+    "question": "A rider writes: 'The driver yelled at me and made me feel unsafe.' What is the best initial empathy statement?",
+    "scenario": "Safety complaint empathy",
+    "options": {
+      "A": "I am sorry the driver was in a bad mood.",
+      "B": "I am deeply sorry to hear about this experience. Feeling safe during a ride is absolutely essential, and I want to assure you we are taking this very seriously.",
+      "C": "Please rate the driver 1 star and report him.",
+      "D": "Did you say something to make him angry?"
+    },
+    "answer": "B",
+    "explanation": "For safety issues, validate the customer's feeling of safety, apologize sincerely, and assure them of serious action.",
+    "skill": "Safety Empathy"
+  },
+  {
+    "id": 30,
+    "question": "A passenger named Heather says: 'The app crashed during my ride and I couldn't see the price.' How do you show accountability?",
+    "scenario": "App crash accountability",
+    "options": {
+      "A": "It is your phone's fault. Upgrade your device.",
+      "B": "I apologize for the app crashing during your ride, Heather. I know how frustrating it is to not see your fare. Let me look up the exact fare details for you right now.",
+      "C": "We don't guarantee app uptime. Read the terms of service.",
+      "D": "Wait for the receipt to email you."
+    },
+    "answer": "B",
+    "explanation": "Accountability means taking responsibility for the service failure (the app crashing) and moving directly to a solution.",
+    "skill": "Accountability"
+  },
+  {
+    "id": 31,
+    "question": "A customer writes: 'I am so stressed. I left my passport in your cab and my flight is in 3 hours.' Which response shows the best active listening and empathy?",
+    "scenario": "Stressful lost passport",
+    "options": {
+      "A": "We are not responsible for left items. Please fill a form.",
+      "B": "I understand how incredibly stressful this must be, especially with your flight leaving soon. Let me contact the driver immediately to help locate your passport.",
+      "C": "Relax, passport can be remade at the embassy.",
+      "D": "Why did you forget your passport? That is very careless."
+    },
+    "answer": "B",
+    "explanation": "Active empathy involves validating the customer's specific emotion ('stressful') and urgency ('flight leaving soon'), and taking immediate action.",
+    "skill": "Active Listening & Reassurance"
+  },
+  {
+    "id": 32,
+    "question": "A customer is complaining about a double payment: 'This app is stealing my money!' How do you frame the response using positive phrasing?",
+    "scenario": "Double charge positive framing",
+    "options": {
+      "A": "We cannot refund you until we check the banks. Do not accuse us of stealing.",
+      "B": "Let's get this resolved for you. I will check your payment history right now and ensure any extra charges are reversed to your account immediately.",
+      "C": "You are wrong. It is just a temporary hold.",
+      "D": "Please wait for 3 days and don't message us again."
+    },
+    "answer": "B",
+    "explanation": "Positive framing focuses on resolution, action, and assistance, rather than defensiveness or negative rules.",
+    "skill": "Positive Framing"
+  },
+  {
+    "id": 33,
+    "question": "Which of these phrases is considered 'Robotic/Scripted' and should be avoided in personalized live chat support?",
+    "scenario": "Avoiding robotic phrases",
+    "options": {
+      "A": "I'll check that for you right now.",
+      "B": "I am sorry for the inconvenience caused. Your satisfaction is our top priority. Please wait while I pull up your details.",
+      "C": "Let's look at the trip map together to see what happened.",
+      "D": "I understand you're disappointed with the route."
+    },
+    "answer": "B",
+    "explanation": "Generic apologies like 'sorry for the inconvenience caused' sound robotic and impersonal in live chat. Personalized, conversational language is much better.",
+    "skill": "Conversational Tone"
+  },
+  {
+    "id": 34,
+    "question": "A rider writes: 'The driver yelled at me and made me feel unsafe.' What is the best initial empathy statement?",
+    "scenario": "Safety complaint empathy",
+    "options": {
+      "A": "I am sorry the driver was in a bad mood.",
+      "B": "I am deeply sorry to hear about this experience. Feeling safe during a ride is absolutely essential, and I want to assure you we are taking this very seriously.",
+      "C": "Please rate the driver 1 star and report him.",
+      "D": "Did you say something to make him angry?"
+    },
+    "answer": "B",
+    "explanation": "For safety issues, validate the customer's feeling of safety, apologize sincerely, and assure them of serious action.",
+    "skill": "Safety Empathy"
+  },
+  {
+    "id": 35,
+    "question": "A passenger named Michael says: 'The app crashed during my ride and I couldn't see the price.' How do you show accountability?",
+    "scenario": "App crash accountability",
+    "options": {
+      "A": "It is your phone's fault. Upgrade your device.",
+      "B": "I apologize for the app crashing during your ride, Michael. I know how frustrating it is to not see your fare. Let me look up the exact fare details for you right now.",
+      "C": "We don't guarantee app uptime. Read the terms of service.",
+      "D": "Wait for the receipt to email you."
+    },
+    "answer": "B",
+    "explanation": "Accountability means taking responsibility for the service failure (the app crashing) and moving directly to a solution.",
+    "skill": "Accountability"
+  },
+  {
+    "id": 36,
+    "question": "A customer writes: 'I am so stressed. I left my passport in your cab and my flight is in 3 hours.' Which response shows the best active listening and empathy?",
+    "scenario": "Stressful lost passport",
+    "options": {
+      "A": "We are not responsible for left items. Please fill a form.",
+      "B": "I understand how incredibly stressful this must be, especially with your flight leaving soon. Let me contact the driver immediately to help locate your passport.",
+      "C": "Relax, passport can be remade at the embassy.",
+      "D": "Why did you forget your passport? That is very careless."
+    },
+    "answer": "B",
+    "explanation": "Active empathy involves validating the customer's specific emotion ('stressful') and urgency ('flight leaving soon'), and taking immediate action.",
+    "skill": "Active Listening & Reassurance"
+  },
+  {
+    "id": 37,
+    "question": "A customer is complaining about a double payment: 'This app is stealing my money!' How do you frame the response using positive phrasing?",
+    "scenario": "Double charge positive framing",
+    "options": {
+      "A": "We cannot refund you until we check the banks. Do not accuse us of stealing.",
+      "B": "Let's get this resolved for you. I will check your payment history right now and ensure any extra charges are reversed to your account immediately.",
+      "C": "You are wrong. It is just a temporary hold.",
+      "D": "Please wait for 3 days and don't message us again."
+    },
+    "answer": "B",
+    "explanation": "Positive framing focuses on resolution, action, and assistance, rather than defensiveness or negative rules.",
+    "skill": "Positive Framing"
+  },
+  {
+    "id": 38,
+    "question": "Which of these phrases is considered 'Robotic/Scripted' and should be avoided in personalized live chat support?",
+    "scenario": "Avoiding robotic phrases",
+    "options": {
+      "A": "I'll check that for you right now.",
+      "B": "I am sorry for the inconvenience caused. Your satisfaction is our top priority. Please wait while I pull up your details.",
+      "C": "Let's look at the trip map together to see what happened.",
+      "D": "I understand you're disappointed with the route."
+    },
+    "answer": "B",
+    "explanation": "Generic apologies like 'sorry for the inconvenience caused' sound robotic and impersonal in live chat. Personalized, conversational language is much better.",
+    "skill": "Conversational Tone"
+  },
+  {
+    "id": 39,
+    "question": "A rider writes: 'The driver yelled at me and made me feel unsafe.' What is the best initial empathy statement?",
+    "scenario": "Safety complaint empathy",
+    "options": {
+      "A": "I am sorry the driver was in a bad mood.",
+      "B": "I am deeply sorry to hear about this experience. Feeling safe during a ride is absolutely essential, and I want to assure you we are taking this very seriously.",
+      "C": "Please rate the driver 1 star and report him.",
+      "D": "Did you say something to make him angry?"
+    },
+    "answer": "B",
+    "explanation": "For safety issues, validate the customer's feeling of safety, apologize sincerely, and assure them of serious action.",
+    "skill": "Safety Empathy"
+  },
+  {
+    "id": 40,
+    "question": "A passenger named Ashley says: 'The app crashed during my ride and I couldn't see the price.' How do you show accountability?",
+    "scenario": "App crash accountability",
+    "options": {
+      "A": "It is your phone's fault. Upgrade your device.",
+      "B": "I apologize for the app crashing during your ride, Ashley. I know how frustrating it is to not see your fare. Let me look up the exact fare details for you right now.",
+      "C": "We don't guarantee app uptime. Read the terms of service.",
+      "D": "Wait for the receipt to email you."
+    },
+    "answer": "B",
+    "explanation": "Accountability means taking responsibility for the service failure (the app crashing) and moving directly to a solution.",
+    "skill": "Accountability"
+  },
+  {
+    "id": 41,
+    "question": "A customer writes: 'I am so stressed. I left my passport in your cab and my flight is in 3 hours.' Which response shows the best active listening and empathy?",
+    "scenario": "Stressful lost passport",
+    "options": {
+      "A": "We are not responsible for left items. Please fill a form.",
+      "B": "I understand how incredibly stressful this must be, especially with your flight leaving soon. Let me contact the driver immediately to help locate your passport.",
+      "C": "Relax, passport can be remade at the embassy.",
+      "D": "Why did you forget your passport? That is very careless."
+    },
+    "answer": "B",
+    "explanation": "Active empathy involves validating the customer's specific emotion ('stressful') and urgency ('flight leaving soon'), and taking immediate action.",
+    "skill": "Active Listening & Reassurance"
+  },
+  {
+    "id": 42,
+    "question": "A customer is complaining about a double payment: 'This app is stealing my money!' How do you frame the response using positive phrasing?",
+    "scenario": "Double charge positive framing",
+    "options": {
+      "A": "We cannot refund you until we check the banks. Do not accuse us of stealing.",
+      "B": "Let's get this resolved for you. I will check your payment history right now and ensure any extra charges are reversed to your account immediately.",
+      "C": "You are wrong. It is just a temporary hold.",
+      "D": "Please wait for 3 days and don't message us again."
+    },
+    "answer": "B",
+    "explanation": "Positive framing focuses on resolution, action, and assistance, rather than defensiveness or negative rules.",
+    "skill": "Positive Framing"
+  },
+  {
+    "id": 43,
+    "question": "Which of these phrases is considered 'Robotic/Scripted' and should be avoided in personalized live chat support?",
+    "scenario": "Avoiding robotic phrases",
+    "options": {
+      "A": "I'll check that for you right now.",
+      "B": "I am sorry for the inconvenience caused. Your satisfaction is our top priority. Please wait while I pull up your details.",
+      "C": "Let's look at the trip map together to see what happened.",
+      "D": "I understand you're disappointed with the route."
+    },
+    "answer": "B",
+    "explanation": "Generic apologies like 'sorry for the inconvenience caused' sound robotic and impersonal in live chat. Personalized, conversational language is much better.",
+    "skill": "Conversational Tone"
+  },
+  {
+    "id": 44,
+    "question": "A rider writes: 'The driver yelled at me and made me feel unsafe.' What is the best initial empathy statement?",
+    "scenario": "Safety complaint empathy",
+    "options": {
+      "A": "I am sorry the driver was in a bad mood.",
+      "B": "I am deeply sorry to hear about this experience. Feeling safe during a ride is absolutely essential, and I want to assure you we are taking this very seriously.",
+      "C": "Please rate the driver 1 star and report him.",
+      "D": "Did you say something to make him angry?"
+    },
+    "answer": "B",
+    "explanation": "For safety issues, validate the customer's feeling of safety, apologize sincerely, and assure them of serious action.",
+    "skill": "Safety Empathy"
+  },
+  {
+    "id": 45,
+    "question": "A passenger named Heather says: 'The app crashed during my ride and I couldn't see the price.' How do you show accountability?",
+    "scenario": "App crash accountability",
+    "options": {
+      "A": "It is your phone's fault. Upgrade your device.",
+      "B": "I apologize for the app crashing during your ride, Heather. I know how frustrating it is to not see your fare. Let me look up the exact fare details for you right now.",
+      "C": "We don't guarantee app uptime. Read the terms of service.",
+      "D": "Wait for the receipt to email you."
+    },
+    "answer": "B",
+    "explanation": "Accountability means taking responsibility for the service failure (the app crashing) and moving directly to a solution.",
+    "skill": "Accountability"
+  },
+  {
+    "id": 46,
+    "question": "A customer writes: 'I am so stressed. I left my passport in your cab and my flight is in 3 hours.' Which response shows the best active listening and empathy?",
+    "scenario": "Stressful lost passport",
+    "options": {
+      "A": "We are not responsible for left items. Please fill a form.",
+      "B": "I understand how incredibly stressful this must be, especially with your flight leaving soon. Let me contact the driver immediately to help locate your passport.",
+      "C": "Relax, passport can be remade at the embassy.",
+      "D": "Why did you forget your passport? That is very careless."
+    },
+    "answer": "B",
+    "explanation": "Active empathy involves validating the customer's specific emotion ('stressful') and urgency ('flight leaving soon'), and taking immediate action.",
+    "skill": "Active Listening & Reassurance"
+  },
+  {
+    "id": 47,
+    "question": "A customer is complaining about a double payment: 'This app is stealing my money!' How do you frame the response using positive phrasing?",
+    "scenario": "Double charge positive framing",
+    "options": {
+      "A": "We cannot refund you until we check the banks. Do not accuse us of stealing.",
+      "B": "Let's get this resolved for you. I will check your payment history right now and ensure any extra charges are reversed to your account immediately.",
+      "C": "You are wrong. It is just a temporary hold.",
+      "D": "Please wait for 3 days and don't message us again."
+    },
+    "answer": "B",
+    "explanation": "Positive framing focuses on resolution, action, and assistance, rather than defensiveness or negative rules.",
+    "skill": "Positive Framing"
+  },
+  {
+    "id": 48,
+    "question": "Which of these phrases is considered 'Robotic/Scripted' and should be avoided in personalized live chat support?",
+    "scenario": "Avoiding robotic phrases",
+    "options": {
+      "A": "I'll check that for you right now.",
+      "B": "I am sorry for the inconvenience caused. Your satisfaction is our top priority. Please wait while I pull up your details.",
+      "C": "Let's look at the trip map together to see what happened.",
+      "D": "I understand you're disappointed with the route."
+    },
+    "answer": "B",
+    "explanation": "Generic apologies like 'sorry for the inconvenience caused' sound robotic and impersonal in live chat. Personalized, conversational language is much better.",
+    "skill": "Conversational Tone"
+  },
+  {
+    "id": 49,
+    "question": "A rider writes: 'The driver yelled at me and made me feel unsafe.' What is the best initial empathy statement?",
+    "scenario": "Safety complaint empathy",
+    "options": {
+      "A": "I am sorry the driver was in a bad mood.",
+      "B": "I am deeply sorry to hear about this experience. Feeling safe during a ride is absolutely essential, and I want to assure you we are taking this very seriously.",
+      "C": "Please rate the driver 1 star and report him.",
+      "D": "Did you say something to make him angry?"
+    },
+    "answer": "B",
+    "explanation": "For safety issues, validate the customer's feeling of safety, apologize sincerely, and assure them of serious action.",
+    "skill": "Safety Empathy"
+  },
+  {
+    "id": 50,
+    "question": "A passenger named Sarah says: 'The app crashed during my ride and I couldn't see the price.' How do you show accountability?",
+    "scenario": "App crash accountability",
+    "options": {
+      "A": "It is your phone's fault. Upgrade your device.",
+      "B": "I apologize for the app crashing during your ride, Sarah. I know how frustrating it is to not see your fare. Let me look up the exact fare details for you right now.",
+      "C": "We don't guarantee app uptime. Read the terms of service.",
+      "D": "Wait for the receipt to email you."
+    },
+    "answer": "B",
+    "explanation": "Accountability means taking responsibility for the service failure (the app crashing) and moving directly to a solution.",
+    "skill": "Accountability"
+  },
+  {
+    "id": 51,
+    "question": "A customer writes: 'I am so stressed. I left my passport in your cab and my flight is in 3 hours.' Which response shows the best active listening and empathy?",
+    "scenario": "Stressful lost passport",
+    "options": {
+      "A": "We are not responsible for left items. Please fill a form.",
+      "B": "I understand how incredibly stressful this must be, especially with your flight leaving soon. Let me contact the driver immediately to help locate your passport.",
+      "C": "Relax, passport can be remade at the embassy.",
+      "D": "Why did you forget your passport? That is very careless."
+    },
+    "answer": "B",
+    "explanation": "Active empathy involves validating the customer's specific emotion ('stressful') and urgency ('flight leaving soon'), and taking immediate action.",
+    "skill": "Active Listening & Reassurance"
+  },
+  {
+    "id": 52,
+    "question": "A customer is complaining about a double payment: 'This app is stealing my money!' How do you frame the response using positive phrasing?",
+    "scenario": "Double charge positive framing",
+    "options": {
+      "A": "We cannot refund you until we check the banks. Do not accuse us of stealing.",
+      "B": "Let's get this resolved for you. I will check your payment history right now and ensure any extra charges are reversed to your account immediately.",
+      "C": "You are wrong. It is just a temporary hold.",
+      "D": "Please wait for 3 days and don't message us again."
+    },
+    "answer": "B",
+    "explanation": "Positive framing focuses on resolution, action, and assistance, rather than defensiveness or negative rules.",
+    "skill": "Positive Framing"
+  },
+  {
+    "id": 53,
+    "question": "Which of these phrases is considered 'Robotic/Scripted' and should be avoided in personalized live chat support?",
+    "scenario": "Avoiding robotic phrases",
+    "options": {
+      "A": "I'll check that for you right now.",
+      "B": "I am sorry for the inconvenience caused. Your satisfaction is our top priority. Please wait while I pull up your details.",
+      "C": "Let's look at the trip map together to see what happened.",
+      "D": "I understand you're disappointed with the route."
+    },
+    "answer": "B",
+    "explanation": "Generic apologies like 'sorry for the inconvenience caused' sound robotic and impersonal in live chat. Personalized, conversational language is much better.",
+    "skill": "Conversational Tone"
+  },
+  {
+    "id": 54,
+    "question": "A rider writes: 'The driver yelled at me and made me feel unsafe.' What is the best initial empathy statement?",
+    "scenario": "Safety complaint empathy",
+    "options": {
+      "A": "I am sorry the driver was in a bad mood.",
+      "B": "I am deeply sorry to hear about this experience. Feeling safe during a ride is absolutely essential, and I want to assure you we are taking this very seriously.",
+      "C": "Please rate the driver 1 star and report him.",
+      "D": "Did you say something to make him angry?"
+    },
+    "answer": "B",
+    "explanation": "For safety issues, validate the customer's feeling of safety, apologize sincerely, and assure them of serious action.",
+    "skill": "Safety Empathy"
+  },
+  {
+    "id": 55,
+    "question": "A passenger named Robert says: 'The app crashed during my ride and I couldn't see the price.' How do you show accountability?",
+    "scenario": "App crash accountability",
+    "options": {
+      "A": "It is your phone's fault. Upgrade your device.",
+      "B": "I apologize for the app crashing during your ride, Robert. I know how frustrating it is to not see your fare. Let me look up the exact fare details for you right now.",
+      "C": "We don't guarantee app uptime. Read the terms of service.",
+      "D": "Wait for the receipt to email you."
+    },
+    "answer": "B",
+    "explanation": "Accountability means taking responsibility for the service failure (the app crashing) and moving directly to a solution.",
+    "skill": "Accountability"
+  },
+  {
+    "id": 56,
+    "question": "A customer writes: 'I am so stressed. I left my passport in your cab and my flight is in 3 hours.' Which response shows the best active listening and empathy?",
+    "scenario": "Stressful lost passport",
+    "options": {
+      "A": "We are not responsible for left items. Please fill a form.",
+      "B": "I understand how incredibly stressful this must be, especially with your flight leaving soon. Let me contact the driver immediately to help locate your passport.",
+      "C": "Relax, passport can be remade at the embassy.",
+      "D": "Why did you forget your passport? That is very careless."
+    },
+    "answer": "B",
+    "explanation": "Active empathy involves validating the customer's specific emotion ('stressful') and urgency ('flight leaving soon'), and taking immediate action.",
+    "skill": "Active Listening & Reassurance"
+  },
+  {
+    "id": 57,
+    "question": "A customer is complaining about a double payment: 'This app is stealing my money!' How do you frame the response using positive phrasing?",
+    "scenario": "Double charge positive framing",
+    "options": {
+      "A": "We cannot refund you until we check the banks. Do not accuse us of stealing.",
+      "B": "Let's get this resolved for you. I will check your payment history right now and ensure any extra charges are reversed to your account immediately.",
+      "C": "You are wrong. It is just a temporary hold.",
+      "D": "Please wait for 3 days and don't message us again."
+    },
+    "answer": "B",
+    "explanation": "Positive framing focuses on resolution, action, and assistance, rather than defensiveness or negative rules.",
+    "skill": "Positive Framing"
+  },
+  {
+    "id": 58,
+    "question": "Which of these phrases is considered 'Robotic/Scripted' and should be avoided in personalized live chat support?",
+    "scenario": "Avoiding robotic phrases",
+    "options": {
+      "A": "I'll check that for you right now.",
+      "B": "I am sorry for the inconvenience caused. Your satisfaction is our top priority. Please wait while I pull up your details.",
+      "C": "Let's look at the trip map together to see what happened.",
+      "D": "I understand you're disappointed with the route."
+    },
+    "answer": "B",
+    "explanation": "Generic apologies like 'sorry for the inconvenience caused' sound robotic and impersonal in live chat. Personalized, conversational language is much better.",
+    "skill": "Conversational Tone"
+  },
+  {
+    "id": 59,
+    "question": "A rider writes: 'The driver yelled at me and made me feel unsafe.' What is the best initial empathy statement?",
+    "scenario": "Safety complaint empathy",
+    "options": {
+      "A": "I am sorry the driver was in a bad mood.",
+      "B": "I am deeply sorry to hear about this experience. Feeling safe during a ride is absolutely essential, and I want to assure you we are taking this very seriously.",
+      "C": "Please rate the driver 1 star and report him.",
+      "D": "Did you say something to make him angry?"
+    },
+    "answer": "B",
+    "explanation": "For safety issues, validate the customer's feeling of safety, apologize sincerely, and assure them of serious action.",
+    "skill": "Safety Empathy"
+  },
+  {
+    "id": 60,
+    "question": "A passenger named Heather says: 'The app crashed during my ride and I couldn't see the price.' How do you show accountability?",
+    "scenario": "App crash accountability",
+    "options": {
+      "A": "It is your phone's fault. Upgrade your device.",
+      "B": "I apologize for the app crashing during your ride, Heather. I know how frustrating it is to not see your fare. Let me look up the exact fare details for you right now.",
+      "C": "We don't guarantee app uptime. Read the terms of service.",
+      "D": "Wait for the receipt to email you."
+    },
+    "answer": "B",
+    "explanation": "Accountability means taking responsibility for the service failure (the app crashing) and moving directly to a solution.",
+    "skill": "Accountability"
+  },
+  {
+    "id": 61,
+    "question": "A customer writes: 'I am so stressed. I left my passport in your cab and my flight is in 3 hours.' Which response shows the best active listening and empathy?",
+    "scenario": "Stressful lost passport",
+    "options": {
+      "A": "We are not responsible for left items. Please fill a form.",
+      "B": "I understand how incredibly stressful this must be, especially with your flight leaving soon. Let me contact the driver immediately to help locate your passport.",
+      "C": "Relax, passport can be remade at the embassy.",
+      "D": "Why did you forget your passport? That is very careless."
+    },
+    "answer": "B",
+    "explanation": "Active empathy involves validating the customer's specific emotion ('stressful') and urgency ('flight leaving soon'), and taking immediate action.",
+    "skill": "Active Listening & Reassurance"
+  },
+  {
+    "id": 62,
+    "question": "A customer is complaining about a double payment: 'This app is stealing my money!' How do you frame the response using positive phrasing?",
+    "scenario": "Double charge positive framing",
+    "options": {
+      "A": "We cannot refund you until we check the banks. Do not accuse us of stealing.",
+      "B": "Let's get this resolved for you. I will check your payment history right now and ensure any extra charges are reversed to your account immediately.",
+      "C": "You are wrong. It is just a temporary hold.",
+      "D": "Please wait for 3 days and don't message us again."
+    },
+    "answer": "B",
+    "explanation": "Positive framing focuses on resolution, action, and assistance, rather than defensiveness or negative rules.",
+    "skill": "Positive Framing"
+  },
+  {
+    "id": 63,
+    "question": "Which of these phrases is considered 'Robotic/Scripted' and should be avoided in personalized live chat support?",
+    "scenario": "Avoiding robotic phrases",
+    "options": {
+      "A": "I'll check that for you right now.",
+      "B": "I am sorry for the inconvenience caused. Your satisfaction is our top priority. Please wait while I pull up your details.",
+      "C": "Let's look at the trip map together to see what happened.",
+      "D": "I understand you're disappointed with the route."
+    },
+    "answer": "B",
+    "explanation": "Generic apologies like 'sorry for the inconvenience caused' sound robotic and impersonal in live chat. Personalized, conversational language is much better.",
+    "skill": "Conversational Tone"
+  },
+  {
+    "id": 64,
+    "question": "A rider writes: 'The driver yelled at me and made me feel unsafe.' What is the best initial empathy statement?",
+    "scenario": "Safety complaint empathy",
+    "options": {
+      "A": "I am sorry the driver was in a bad mood.",
+      "B": "I am deeply sorry to hear about this experience. Feeling safe during a ride is absolutely essential, and I want to assure you we are taking this very seriously.",
+      "C": "Please rate the driver 1 star and report him.",
+      "D": "Did you say something to make him angry?"
+    },
+    "answer": "B",
+    "explanation": "For safety issues, validate the customer's feeling of safety, apologize sincerely, and assure them of serious action.",
+    "skill": "Safety Empathy"
+  },
+  {
+    "id": 65,
+    "question": "A passenger named Nicole says: 'The app crashed during my ride and I couldn't see the price.' How do you show accountability?",
+    "scenario": "App crash accountability",
+    "options": {
+      "A": "It is your phone's fault. Upgrade your device.",
+      "B": "I apologize for the app crashing during your ride, Nicole. I know how frustrating it is to not see your fare. Let me look up the exact fare details for you right now.",
+      "C": "We don't guarantee app uptime. Read the terms of service.",
+      "D": "Wait for the receipt to email you."
+    },
+    "answer": "B",
+    "explanation": "Accountability means taking responsibility for the service failure (the app crashing) and moving directly to a solution.",
+    "skill": "Accountability"
+  },
+  {
+    "id": 66,
+    "question": "A customer writes: 'I am so stressed. I left my passport in your cab and my flight is in 3 hours.' Which response shows the best active listening and empathy?",
+    "scenario": "Stressful lost passport",
+    "options": {
+      "A": "We are not responsible for left items. Please fill a form.",
+      "B": "I understand how incredibly stressful this must be, especially with your flight leaving soon. Let me contact the driver immediately to help locate your passport.",
+      "C": "Relax, passport can be remade at the embassy.",
+      "D": "Why did you forget your passport? That is very careless."
+    },
+    "answer": "B",
+    "explanation": "Active empathy involves validating the customer's specific emotion ('stressful') and urgency ('flight leaving soon'), and taking immediate action.",
+    "skill": "Active Listening & Reassurance"
+  },
+  {
+    "id": 67,
+    "question": "A customer is complaining about a double payment: 'This app is stealing my money!' How do you frame the response using positive phrasing?",
+    "scenario": "Double charge positive framing",
+    "options": {
+      "A": "We cannot refund you until we check the banks. Do not accuse us of stealing.",
+      "B": "Let's get this resolved for you. I will check your payment history right now and ensure any extra charges are reversed to your account immediately.",
+      "C": "You are wrong. It is just a temporary hold.",
+      "D": "Please wait for 3 days and don't message us again."
+    },
+    "answer": "B",
+    "explanation": "Positive framing focuses on resolution, action, and assistance, rather than defensiveness or negative rules.",
+    "skill": "Positive Framing"
+  },
+  {
+    "id": 68,
+    "question": "Which of these phrases is considered 'Robotic/Scripted' and should be avoided in personalized live chat support?",
+    "scenario": "Avoiding robotic phrases",
+    "options": {
+      "A": "I'll check that for you right now.",
+      "B": "I am sorry for the inconvenience caused. Your satisfaction is our top priority. Please wait while I pull up your details.",
+      "C": "Let's look at the trip map together to see what happened.",
+      "D": "I understand you're disappointed with the route."
+    },
+    "answer": "B",
+    "explanation": "Generic apologies like 'sorry for the inconvenience caused' sound robotic and impersonal in live chat. Personalized, conversational language is much better.",
+    "skill": "Conversational Tone"
+  },
+  {
+    "id": 69,
+    "question": "A rider writes: 'The driver yelled at me and made me feel unsafe.' What is the best initial empathy statement?",
+    "scenario": "Safety complaint empathy",
+    "options": {
+      "A": "I am sorry the driver was in a bad mood.",
+      "B": "I am deeply sorry to hear about this experience. Feeling safe during a ride is absolutely essential, and I want to assure you we are taking this very seriously.",
+      "C": "Please rate the driver 1 star and report him.",
+      "D": "Did you say something to make him angry?"
+    },
+    "answer": "B",
+    "explanation": "For safety issues, validate the customer's feeling of safety, apologize sincerely, and assure them of serious action.",
+    "skill": "Safety Empathy"
+  },
+  {
+    "id": 70,
+    "question": "A passenger named Sarah says: 'The app crashed during my ride and I couldn't see the price.' How do you show accountability?",
+    "scenario": "App crash accountability",
+    "options": {
+      "A": "It is your phone's fault. Upgrade your device.",
+      "B": "I apologize for the app crashing during your ride, Sarah. I know how frustrating it is to not see your fare. Let me look up the exact fare details for you right now.",
+      "C": "We don't guarantee app uptime. Read the terms of service.",
+      "D": "Wait for the receipt to email you."
+    },
+    "answer": "B",
+    "explanation": "Accountability means taking responsibility for the service failure (the app crashing) and moving directly to a solution.",
+    "skill": "Accountability"
+  },
+  {
+    "id": 71,
+    "question": "A customer writes: 'I am so stressed. I left my passport in your cab and my flight is in 3 hours.' Which response shows the best active listening and empathy?",
+    "scenario": "Stressful lost passport",
+    "options": {
+      "A": "We are not responsible for left items. Please fill a form.",
+      "B": "I understand how incredibly stressful this must be, especially with your flight leaving soon. Let me contact the driver immediately to help locate your passport.",
+      "C": "Relax, passport can be remade at the embassy.",
+      "D": "Why did you forget your passport? That is very careless."
+    },
+    "answer": "B",
+    "explanation": "Active empathy involves validating the customer's specific emotion ('stressful') and urgency ('flight leaving soon'), and taking immediate action.",
+    "skill": "Active Listening & Reassurance"
+  },
+  {
+    "id": 72,
+    "question": "A customer is complaining about a double payment: 'This app is stealing my money!' How do you frame the response using positive phrasing?",
+    "scenario": "Double charge positive framing",
+    "options": {
+      "A": "We cannot refund you until we check the banks. Do not accuse us of stealing.",
+      "B": "Let's get this resolved for you. I will check your payment history right now and ensure any extra charges are reversed to your account immediately.",
+      "C": "You are wrong. It is just a temporary hold.",
+      "D": "Please wait for 3 days and don't message us again."
+    },
+    "answer": "B",
+    "explanation": "Positive framing focuses on resolution, action, and assistance, rather than defensiveness or negative rules.",
+    "skill": "Positive Framing"
+  },
+  {
+    "id": 73,
+    "question": "Which of these phrases is considered 'Robotic/Scripted' and should be avoided in personalized live chat support?",
+    "scenario": "Avoiding robotic phrases",
+    "options": {
+      "A": "I'll check that for you right now.",
+      "B": "I am sorry for the inconvenience caused. Your satisfaction is our top priority. Please wait while I pull up your details.",
+      "C": "Let's look at the trip map together to see what happened.",
+      "D": "I understand you're disappointed with the route."
+    },
+    "answer": "B",
+    "explanation": "Generic apologies like 'sorry for the inconvenience caused' sound robotic and impersonal in live chat. Personalized, conversational language is much better.",
+    "skill": "Conversational Tone"
+  },
+  {
+    "id": 74,
+    "question": "A rider writes: 'The driver yelled at me and made me feel unsafe.' What is the best initial empathy statement?",
+    "scenario": "Safety complaint empathy",
+    "options": {
+      "A": "I am sorry the driver was in a bad mood.",
+      "B": "I am deeply sorry to hear about this experience. Feeling safe during a ride is absolutely essential, and I want to assure you we are taking this very seriously.",
+      "C": "Please rate the driver 1 star and report him.",
+      "D": "Did you say something to make him angry?"
+    },
+    "answer": "B",
+    "explanation": "For safety issues, validate the customer's feeling of safety, apologize sincerely, and assure them of serious action.",
+    "skill": "Safety Empathy"
+  },
+  {
+    "id": 75,
+    "question": "A passenger named Robert says: 'The app crashed during my ride and I couldn't see the price.' How do you show accountability?",
+    "scenario": "App crash accountability",
+    "options": {
+      "A": "It is your phone's fault. Upgrade your device.",
+      "B": "I apologize for the app crashing during your ride, Robert. I know how frustrating it is to not see your fare. Let me look up the exact fare details for you right now.",
+      "C": "We don't guarantee app uptime. Read the terms of service.",
+      "D": "Wait for the receipt to email you."
+    },
+    "answer": "B",
+    "explanation": "Accountability means taking responsibility for the service failure (the app crashing) and moving directly to a solution.",
+    "skill": "Accountability"
+  },
+  {
+    "id": 76,
+    "question": "A customer writes: 'I am so stressed. I left my passport in your cab and my flight is in 3 hours.' Which response shows the best active listening and empathy?",
+    "scenario": "Stressful lost passport",
+    "options": {
+      "A": "We are not responsible for left items. Please fill a form.",
+      "B": "I understand how incredibly stressful this must be, especially with your flight leaving soon. Let me contact the driver immediately to help locate your passport.",
+      "C": "Relax, passport can be remade at the embassy.",
+      "D": "Why did you forget your passport? That is very careless."
+    },
+    "answer": "B",
+    "explanation": "Active empathy involves validating the customer's specific emotion ('stressful') and urgency ('flight leaving soon'), and taking immediate action.",
+    "skill": "Active Listening & Reassurance"
+  },
+  {
+    "id": 77,
+    "question": "A customer is complaining about a double payment: 'This app is stealing my money!' How do you frame the response using positive phrasing?",
+    "scenario": "Double charge positive framing",
+    "options": {
+      "A": "We cannot refund you until we check the banks. Do not accuse us of stealing.",
+      "B": "Let's get this resolved for you. I will check your payment history right now and ensure any extra charges are reversed to your account immediately.",
+      "C": "You are wrong. It is just a temporary hold.",
+      "D": "Please wait for 3 days and don't message us again."
+    },
+    "answer": "B",
+    "explanation": "Positive framing focuses on resolution, action, and assistance, rather than defensiveness or negative rules.",
+    "skill": "Positive Framing"
+  },
+  {
+    "id": 78,
+    "question": "Which of these phrases is considered 'Robotic/Scripted' and should be avoided in personalized live chat support?",
+    "scenario": "Avoiding robotic phrases",
+    "options": {
+      "A": "I'll check that for you right now.",
+      "B": "I am sorry for the inconvenience caused. Your satisfaction is our top priority. Please wait while I pull up your details.",
+      "C": "Let's look at the trip map together to see what happened.",
+      "D": "I understand you're disappointed with the route."
+    },
+    "answer": "B",
+    "explanation": "Generic apologies like 'sorry for the inconvenience caused' sound robotic and impersonal in live chat. Personalized, conversational language is much better.",
+    "skill": "Conversational Tone"
+  },
+  {
+    "id": 79,
+    "question": "A rider writes: 'The driver yelled at me and made me feel unsafe.' What is the best initial empathy statement?",
+    "scenario": "Safety complaint empathy",
+    "options": {
+      "A": "I am sorry the driver was in a bad mood.",
+      "B": "I am deeply sorry to hear about this experience. Feeling safe during a ride is absolutely essential, and I want to assure you we are taking this very seriously.",
+      "C": "Please rate the driver 1 star and report him.",
+      "D": "Did you say something to make him angry?"
+    },
+    "answer": "B",
+    "explanation": "For safety issues, validate the customer's feeling of safety, apologize sincerely, and assure them of serious action.",
+    "skill": "Safety Empathy"
+  },
+  {
+    "id": 80,
+    "question": "A passenger named Nicole says: 'The app crashed during my ride and I couldn't see the price.' How do you show accountability?",
+    "scenario": "App crash accountability",
+    "options": {
+      "A": "It is your phone's fault. Upgrade your device.",
+      "B": "I apologize for the app crashing during your ride, Nicole. I know how frustrating it is to not see your fare. Let me look up the exact fare details for you right now.",
+      "C": "We don't guarantee app uptime. Read the terms of service.",
+      "D": "Wait for the receipt to email you."
+    },
+    "answer": "B",
+    "explanation": "Accountability means taking responsibility for the service failure (the app crashing) and moving directly to a solution.",
+    "skill": "Accountability"
+  },
+  {
+    "id": 81,
+    "question": "A customer writes: 'I am so stressed. I left my passport in your cab and my flight is in 3 hours.' Which response shows the best active listening and empathy?",
+    "scenario": "Stressful lost passport",
+    "options": {
+      "A": "We are not responsible for left items. Please fill a form.",
+      "B": "I understand how incredibly stressful this must be, especially with your flight leaving soon. Let me contact the driver immediately to help locate your passport.",
+      "C": "Relax, passport can be remade at the embassy.",
+      "D": "Why did you forget your passport? That is very careless."
+    },
+    "answer": "B",
+    "explanation": "Active empathy involves validating the customer's specific emotion ('stressful') and urgency ('flight leaving soon'), and taking immediate action.",
+    "skill": "Active Listening & Reassurance"
+  },
+  {
+    "id": 82,
+    "question": "A customer is complaining about a double payment: 'This app is stealing my money!' How do you frame the response using positive phrasing?",
+    "scenario": "Double charge positive framing",
+    "options": {
+      "A": "We cannot refund you until we check the banks. Do not accuse us of stealing.",
+      "B": "Let's get this resolved for you. I will check your payment history right now and ensure any extra charges are reversed to your account immediately.",
+      "C": "You are wrong. It is just a temporary hold.",
+      "D": "Please wait for 3 days and don't message us again."
+    },
+    "answer": "B",
+    "explanation": "Positive framing focuses on resolution, action, and assistance, rather than defensiveness or negative rules.",
+    "skill": "Positive Framing"
+  },
+  {
+    "id": 83,
+    "question": "Which of these phrases is considered 'Robotic/Scripted' and should be avoided in personalized live chat support?",
+    "scenario": "Avoiding robotic phrases",
+    "options": {
+      "A": "I'll check that for you right now.",
+      "B": "I am sorry for the inconvenience caused. Your satisfaction is our top priority. Please wait while I pull up your details.",
+      "C": "Let's look at the trip map together to see what happened.",
+      "D": "I understand you're disappointed with the route."
+    },
+    "answer": "B",
+    "explanation": "Generic apologies like 'sorry for the inconvenience caused' sound robotic and impersonal in live chat. Personalized, conversational language is much better.",
+    "skill": "Conversational Tone"
+  },
+  {
+    "id": 84,
+    "question": "A rider writes: 'The driver yelled at me and made me feel unsafe.' What is the best initial empathy statement?",
+    "scenario": "Safety complaint empathy",
+    "options": {
+      "A": "I am sorry the driver was in a bad mood.",
+      "B": "I am deeply sorry to hear about this experience. Feeling safe during a ride is absolutely essential, and I want to assure you we are taking this very seriously.",
+      "C": "Please rate the driver 1 star and report him.",
+      "D": "Did you say something to make him angry?"
+    },
+    "answer": "B",
+    "explanation": "For safety issues, validate the customer's feeling of safety, apologize sincerely, and assure them of serious action.",
+    "skill": "Safety Empathy"
+  },
+  {
+    "id": 85,
+    "question": "A passenger named Jessica says: 'The app crashed during my ride and I couldn't see the price.' How do you show accountability?",
+    "scenario": "App crash accountability",
+    "options": {
+      "A": "It is your phone's fault. Upgrade your device.",
+      "B": "I apologize for the app crashing during your ride, Jessica. I know how frustrating it is to not see your fare. Let me look up the exact fare details for you right now.",
+      "C": "We don't guarantee app uptime. Read the terms of service.",
+      "D": "Wait for the receipt to email you."
+    },
+    "answer": "B",
+    "explanation": "Accountability means taking responsibility for the service failure (the app crashing) and moving directly to a solution.",
+    "skill": "Accountability"
+  },
+  {
+    "id": 86,
+    "question": "A customer writes: 'I am so stressed. I left my passport in your cab and my flight is in 3 hours.' Which response shows the best active listening and empathy?",
+    "scenario": "Stressful lost passport",
+    "options": {
+      "A": "We are not responsible for left items. Please fill a form.",
+      "B": "I understand how incredibly stressful this must be, especially with your flight leaving soon. Let me contact the driver immediately to help locate your passport.",
+      "C": "Relax, passport can be remade at the embassy.",
+      "D": "Why did you forget your passport? That is very careless."
+    },
+    "answer": "B",
+    "explanation": "Active empathy involves validating the customer's specific emotion ('stressful') and urgency ('flight leaving soon'), and taking immediate action.",
+    "skill": "Active Listening & Reassurance"
+  },
+  {
+    "id": 87,
+    "question": "A customer is complaining about a double payment: 'This app is stealing my money!' How do you frame the response using positive phrasing?",
+    "scenario": "Double charge positive framing",
+    "options": {
+      "A": "We cannot refund you until we check the banks. Do not accuse us of stealing.",
+      "B": "Let's get this resolved for you. I will check your payment history right now and ensure any extra charges are reversed to your account immediately.",
+      "C": "You are wrong. It is just a temporary hold.",
+      "D": "Please wait for 3 days and don't message us again."
+    },
+    "answer": "B",
+    "explanation": "Positive framing focuses on resolution, action, and assistance, rather than defensiveness or negative rules.",
+    "skill": "Positive Framing"
+  },
+  {
+    "id": 88,
+    "question": "Which of these phrases is considered 'Robotic/Scripted' and should be avoided in personalized live chat support?",
+    "scenario": "Avoiding robotic phrases",
+    "options": {
+      "A": "I'll check that for you right now.",
+      "B": "I am sorry for the inconvenience caused. Your satisfaction is our top priority. Please wait while I pull up your details.",
+      "C": "Let's look at the trip map together to see what happened.",
+      "D": "I understand you're disappointed with the route."
+    },
+    "answer": "B",
+    "explanation": "Generic apologies like 'sorry for the inconvenience caused' sound robotic and impersonal in live chat. Personalized, conversational language is much better.",
+    "skill": "Conversational Tone"
+  },
+  {
+    "id": 89,
+    "question": "A rider writes: 'The driver yelled at me and made me feel unsafe.' What is the best initial empathy statement?",
+    "scenario": "Safety complaint empathy",
+    "options": {
+      "A": "I am sorry the driver was in a bad mood.",
+      "B": "I am deeply sorry to hear about this experience. Feeling safe during a ride is absolutely essential, and I want to assure you we are taking this very seriously.",
+      "C": "Please rate the driver 1 star and report him.",
+      "D": "Did you say something to make him angry?"
+    },
+    "answer": "B",
+    "explanation": "For safety issues, validate the customer's feeling of safety, apologize sincerely, and assure them of serious action.",
+    "skill": "Safety Empathy"
+  },
+  {
+    "id": 90,
+    "question": "A passenger named James says: 'The app crashed during my ride and I couldn't see the price.' How do you show accountability?",
+    "scenario": "App crash accountability",
+    "options": {
+      "A": "It is your phone's fault. Upgrade your device.",
+      "B": "I apologize for the app crashing during your ride, James. I know how frustrating it is to not see your fare. Let me look up the exact fare details for you right now.",
+      "C": "We don't guarantee app uptime. Read the terms of service.",
+      "D": "Wait for the receipt to email you."
+    },
+    "answer": "B",
+    "explanation": "Accountability means taking responsibility for the service failure (the app crashing) and moving directly to a solution.",
+    "skill": "Accountability"
+  },
+  {
+    "id": 91,
+    "question": "A customer writes: 'I am so stressed. I left my passport in your cab and my flight is in 3 hours.' Which response shows the best active listening and empathy?",
+    "scenario": "Stressful lost passport",
+    "options": {
+      "A": "We are not responsible for left items. Please fill a form.",
+      "B": "I understand how incredibly stressful this must be, especially with your flight leaving soon. Let me contact the driver immediately to help locate your passport.",
+      "C": "Relax, passport can be remade at the embassy.",
+      "D": "Why did you forget your passport? That is very careless."
+    },
+    "answer": "B",
+    "explanation": "Active empathy involves validating the customer's specific emotion ('stressful') and urgency ('flight leaving soon'), and taking immediate action.",
+    "skill": "Active Listening & Reassurance"
+  },
+  {
+    "id": 92,
+    "question": "A customer is complaining about a double payment: 'This app is stealing my money!' How do you frame the response using positive phrasing?",
+    "scenario": "Double charge positive framing",
+    "options": {
+      "A": "We cannot refund you until we check the banks. Do not accuse us of stealing.",
+      "B": "Let's get this resolved for you. I will check your payment history right now and ensure any extra charges are reversed to your account immediately.",
+      "C": "You are wrong. It is just a temporary hold.",
+      "D": "Please wait for 3 days and don't message us again."
+    },
+    "answer": "B",
+    "explanation": "Positive framing focuses on resolution, action, and assistance, rather than defensiveness or negative rules.",
+    "skill": "Positive Framing"
+  },
+  {
+    "id": 93,
+    "question": "Which of these phrases is considered 'Robotic/Scripted' and should be avoided in personalized live chat support?",
+    "scenario": "Avoiding robotic phrases",
+    "options": {
+      "A": "I'll check that for you right now.",
+      "B": "I am sorry for the inconvenience caused. Your satisfaction is our top priority. Please wait while I pull up your details.",
+      "C": "Let's look at the trip map together to see what happened.",
+      "D": "I understand you're disappointed with the route."
+    },
+    "answer": "B",
+    "explanation": "Generic apologies like 'sorry for the inconvenience caused' sound robotic and impersonal in live chat. Personalized, conversational language is much better.",
+    "skill": "Conversational Tone"
+  },
+  {
+    "id": 94,
+    "question": "A rider writes: 'The driver yelled at me and made me feel unsafe.' What is the best initial empathy statement?",
+    "scenario": "Safety complaint empathy",
+    "options": {
+      "A": "I am sorry the driver was in a bad mood.",
+      "B": "I am deeply sorry to hear about this experience. Feeling safe during a ride is absolutely essential, and I want to assure you we are taking this very seriously.",
+      "C": "Please rate the driver 1 star and report him.",
+      "D": "Did you say something to make him angry?"
+    },
+    "answer": "B",
+    "explanation": "For safety issues, validate the customer's feeling of safety, apologize sincerely, and assure them of serious action.",
+    "skill": "Safety Empathy"
+  },
+  {
+    "id": 95,
+    "question": "A passenger named Ashley says: 'The app crashed during my ride and I couldn't see the price.' How do you show accountability?",
+    "scenario": "App crash accountability",
+    "options": {
+      "A": "It is your phone's fault. Upgrade your device.",
+      "B": "I apologize for the app crashing during your ride, Ashley. I know how frustrating it is to not see your fare. Let me look up the exact fare details for you right now.",
+      "C": "We don't guarantee app uptime. Read the terms of service.",
+      "D": "Wait for the receipt to email you."
+    },
+    "answer": "B",
+    "explanation": "Accountability means taking responsibility for the service failure (the app crashing) and moving directly to a solution.",
+    "skill": "Accountability"
+  },
+  {
+    "id": 96,
+    "question": "A customer writes: 'I am so stressed. I left my passport in your cab and my flight is in 3 hours.' Which response shows the best active listening and empathy?",
+    "scenario": "Stressful lost passport",
+    "options": {
+      "A": "We are not responsible for left items. Please fill a form.",
+      "B": "I understand how incredibly stressful this must be, especially with your flight leaving soon. Let me contact the driver immediately to help locate your passport.",
+      "C": "Relax, passport can be remade at the embassy.",
+      "D": "Why did you forget your passport? That is very careless."
+    },
+    "answer": "B",
+    "explanation": "Active empathy involves validating the customer's specific emotion ('stressful') and urgency ('flight leaving soon'), and taking immediate action.",
+    "skill": "Active Listening & Reassurance"
+  },
+  {
+    "id": 97,
+    "question": "A customer is complaining about a double payment: 'This app is stealing my money!' How do you frame the response using positive phrasing?",
+    "scenario": "Double charge positive framing",
+    "options": {
+      "A": "We cannot refund you until we check the banks. Do not accuse us of stealing.",
+      "B": "Let's get this resolved for you. I will check your payment history right now and ensure any extra charges are reversed to your account immediately.",
+      "C": "You are wrong. It is just a temporary hold.",
+      "D": "Please wait for 3 days and don't message us again."
+    },
+    "answer": "B",
+    "explanation": "Positive framing focuses on resolution, action, and assistance, rather than defensiveness or negative rules.",
+    "skill": "Positive Framing"
+  },
+  {
+    "id": 98,
+    "question": "Which of these phrases is considered 'Robotic/Scripted' and should be avoided in personalized live chat support?",
+    "scenario": "Avoiding robotic phrases",
+    "options": {
+      "A": "I'll check that for you right now.",
+      "B": "I am sorry for the inconvenience caused. Your satisfaction is our top priority. Please wait while I pull up your details.",
+      "C": "Let's look at the trip map together to see what happened.",
+      "D": "I understand you're disappointed with the route."
+    },
+    "answer": "B",
+    "explanation": "Generic apologies like 'sorry for the inconvenience caused' sound robotic and impersonal in live chat. Personalized, conversational language is much better.",
+    "skill": "Conversational Tone"
+  },
+  {
+    "id": 99,
+    "question": "A rider writes: 'The driver yelled at me and made me feel unsafe.' What is the best initial empathy statement?",
+    "scenario": "Safety complaint empathy",
+    "options": {
+      "A": "I am sorry the driver was in a bad mood.",
+      "B": "I am deeply sorry to hear about this experience. Feeling safe during a ride is absolutely essential, and I want to assure you we are taking this very seriously.",
+      "C": "Please rate the driver 1 star and report him.",
+      "D": "Did you say something to make him angry?"
+    },
+    "answer": "B",
+    "explanation": "For safety issues, validate the customer's feeling of safety, apologize sincerely, and assure them of serious action.",
+    "skill": "Safety Empathy"
+  },
+  {
+    "id": 100,
+    "question": "A passenger named Ashley says: 'The app crashed during my ride and I couldn't see the price.' How do you show accountability?",
+    "scenario": "App crash accountability",
+    "options": {
+      "A": "It is your phone's fault. Upgrade your device.",
+      "B": "I apologize for the app crashing during your ride, Ashley. I know how frustrating it is to not see your fare. Let me look up the exact fare details for you right now.",
+      "C": "We don't guarantee app uptime. Read the terms of service.",
+      "D": "Wait for the receipt to email you."
+    },
+    "answer": "B",
+    "explanation": "Accountability means taking responsibility for the service failure (the app crashing) and moving directly to a solution.",
+    "skill": "Accountability"
+  },
+  {
+    "id": 101,
+    "question": "A customer writes: 'I am so stressed. I left my passport in your cab and my flight is in 3 hours.' Which response shows the best active listening and empathy?",
+    "scenario": "Stressful lost passport",
+    "options": {
+      "A": "We are not responsible for left items. Please fill a form.",
+      "B": "I understand how incredibly stressful this must be, especially with your flight leaving soon. Let me contact the driver immediately to help locate your passport.",
+      "C": "Relax, passport can be remade at the embassy.",
+      "D": "Why did you forget your passport? That is very careless."
+    },
+    "answer": "B",
+    "explanation": "Active empathy involves validating the customer's specific emotion ('stressful') and urgency ('flight leaving soon'), and taking immediate action.",
+    "skill": "Active Listening & Reassurance"
+  },
+  {
+    "id": 102,
+    "question": "A customer is complaining about a double payment: 'This app is stealing my money!' How do you frame the response using positive phrasing?",
+    "scenario": "Double charge positive framing",
+    "options": {
+      "A": "We cannot refund you until we check the banks. Do not accuse us of stealing.",
+      "B": "Let's get this resolved for you. I will check your payment history right now and ensure any extra charges are reversed to your account immediately.",
+      "C": "You are wrong. It is just a temporary hold.",
+      "D": "Please wait for 3 days and don't message us again."
+    },
+    "answer": "B",
+    "explanation": "Positive framing focuses on resolution, action, and assistance, rather than defensiveness or negative rules.",
+    "skill": "Positive Framing"
+  },
+  {
+    "id": 103,
+    "question": "Which of these phrases is considered 'Robotic/Scripted' and should be avoided in personalized live chat support?",
+    "scenario": "Avoiding robotic phrases",
+    "options": {
+      "A": "I'll check that for you right now.",
+      "B": "I am sorry for the inconvenience caused. Your satisfaction is our top priority. Please wait while I pull up your details.",
+      "C": "Let's look at the trip map together to see what happened.",
+      "D": "I understand you're disappointed with the route."
+    },
+    "answer": "B",
+    "explanation": "Generic apologies like 'sorry for the inconvenience caused' sound robotic and impersonal in live chat. Personalized, conversational language is much better.",
+    "skill": "Conversational Tone"
+  },
+  {
+    "id": 104,
+    "question": "A rider writes: 'The driver yelled at me and made me feel unsafe.' What is the best initial empathy statement?",
+    "scenario": "Safety complaint empathy",
+    "options": {
+      "A": "I am sorry the driver was in a bad mood.",
+      "B": "I am deeply sorry to hear about this experience. Feeling safe during a ride is absolutely essential, and I want to assure you we are taking this very seriously.",
+      "C": "Please rate the driver 1 star and report him.",
+      "D": "Did you say something to make him angry?"
+    },
+    "answer": "B",
+    "explanation": "For safety issues, validate the customer's feeling of safety, apologize sincerely, and assure them of serious action.",
+    "skill": "Safety Empathy"
+  },
+  {
+    "id": 105,
+    "question": "A passenger named Brian says: 'The app crashed during my ride and I couldn't see the price.' How do you show accountability?",
+    "scenario": "App crash accountability",
+    "options": {
+      "A": "It is your phone's fault. Upgrade your device.",
+      "B": "I apologize for the app crashing during your ride, Brian. I know how frustrating it is to not see your fare. Let me look up the exact fare details for you right now.",
+      "C": "We don't guarantee app uptime. Read the terms of service.",
+      "D": "Wait for the receipt to email you."
+    },
+    "answer": "B",
+    "explanation": "Accountability means taking responsibility for the service failure (the app crashing) and moving directly to a solution.",
+    "skill": "Accountability"
+  },
+  {
+    "id": 106,
+    "question": "A customer writes: 'I am so stressed. I left my passport in your cab and my flight is in 3 hours.' Which response shows the best active listening and empathy?",
+    "scenario": "Stressful lost passport",
+    "options": {
+      "A": "We are not responsible for left items. Please fill a form.",
+      "B": "I understand how incredibly stressful this must be, especially with your flight leaving soon. Let me contact the driver immediately to help locate your passport.",
+      "C": "Relax, passport can be remade at the embassy.",
+      "D": "Why did you forget your passport? That is very careless."
+    },
+    "answer": "B",
+    "explanation": "Active empathy involves validating the customer's specific emotion ('stressful') and urgency ('flight leaving soon'), and taking immediate action.",
+    "skill": "Active Listening & Reassurance"
+  },
+  {
+    "id": 107,
+    "question": "A customer is complaining about a double payment: 'This app is stealing my money!' How do you frame the response using positive phrasing?",
+    "scenario": "Double charge positive framing",
+    "options": {
+      "A": "We cannot refund you until we check the banks. Do not accuse us of stealing.",
+      "B": "Let's get this resolved for you. I will check your payment history right now and ensure any extra charges are reversed to your account immediately.",
+      "C": "You are wrong. It is just a temporary hold.",
+      "D": "Please wait for 3 days and don't message us again."
+    },
+    "answer": "B",
+    "explanation": "Positive framing focuses on resolution, action, and assistance, rather than defensiveness or negative rules.",
+    "skill": "Positive Framing"
+  },
+  {
+    "id": 108,
+    "question": "Which of these phrases is considered 'Robotic/Scripted' and should be avoided in personalized live chat support?",
+    "scenario": "Avoiding robotic phrases",
+    "options": {
+      "A": "I'll check that for you right now.",
+      "B": "I am sorry for the inconvenience caused. Your satisfaction is our top priority. Please wait while I pull up your details.",
+      "C": "Let's look at the trip map together to see what happened.",
+      "D": "I understand you're disappointed with the route."
+    },
+    "answer": "B",
+    "explanation": "Generic apologies like 'sorry for the inconvenience caused' sound robotic and impersonal in live chat. Personalized, conversational language is much better.",
+    "skill": "Conversational Tone"
+  },
+  {
+    "id": 109,
+    "question": "A rider writes: 'The driver yelled at me and made me feel unsafe.' What is the best initial empathy statement?",
+    "scenario": "Safety complaint empathy",
+    "options": {
+      "A": "I am sorry the driver was in a bad mood.",
+      "B": "I am deeply sorry to hear about this experience. Feeling safe during a ride is absolutely essential, and I want to assure you we are taking this very seriously.",
+      "C": "Please rate the driver 1 star and report him.",
+      "D": "Did you say something to make him angry?"
+    },
+    "answer": "B",
+    "explanation": "For safety issues, validate the customer's feeling of safety, apologize sincerely, and assure them of serious action.",
+    "skill": "Safety Empathy"
+  },
+  {
+    "id": 110,
+    "question": "A passenger named Nicole says: 'The app crashed during my ride and I couldn't see the price.' How do you show accountability?",
+    "scenario": "App crash accountability",
+    "options": {
+      "A": "It is your phone's fault. Upgrade your device.",
+      "B": "I apologize for the app crashing during your ride, Nicole. I know how frustrating it is to not see your fare. Let me look up the exact fare details for you right now.",
+      "C": "We don't guarantee app uptime. Read the terms of service.",
+      "D": "Wait for the receipt to email you."
+    },
+    "answer": "B",
+    "explanation": "Accountability means taking responsibility for the service failure (the app crashing) and moving directly to a solution.",
+    "skill": "Accountability"
+  },
+  {
+    "id": 111,
+    "question": "A customer writes: 'I am so stressed. I left my passport in your cab and my flight is in 3 hours.' Which response shows the best active listening and empathy?",
+    "scenario": "Stressful lost passport",
+    "options": {
+      "A": "We are not responsible for left items. Please fill a form.",
+      "B": "I understand how incredibly stressful this must be, especially with your flight leaving soon. Let me contact the driver immediately to help locate your passport.",
+      "C": "Relax, passport can be remade at the embassy.",
+      "D": "Why did you forget your passport? That is very careless."
+    },
+    "answer": "B",
+    "explanation": "Active empathy involves validating the customer's specific emotion ('stressful') and urgency ('flight leaving soon'), and taking immediate action.",
+    "skill": "Active Listening & Reassurance"
+  },
+  {
+    "id": 112,
+    "question": "A customer is complaining about a double payment: 'This app is stealing my money!' How do you frame the response using positive phrasing?",
+    "scenario": "Double charge positive framing",
+    "options": {
+      "A": "We cannot refund you until we check the banks. Do not accuse us of stealing.",
+      "B": "Let's get this resolved for you. I will check your payment history right now and ensure any extra charges are reversed to your account immediately.",
+      "C": "You are wrong. It is just a temporary hold.",
+      "D": "Please wait for 3 days and don't message us again."
+    },
+    "answer": "B",
+    "explanation": "Positive framing focuses on resolution, action, and assistance, rather than defensiveness or negative rules.",
+    "skill": "Positive Framing"
+  },
+  {
+    "id": 113,
+    "question": "Which of these phrases is considered 'Robotic/Scripted' and should be avoided in personalized live chat support?",
+    "scenario": "Avoiding robotic phrases",
+    "options": {
+      "A": "I'll check that for you right now.",
+      "B": "I am sorry for the inconvenience caused. Your satisfaction is our top priority. Please wait while I pull up your details.",
+      "C": "Let's look at the trip map together to see what happened.",
+      "D": "I understand you're disappointed with the route."
+    },
+    "answer": "B",
+    "explanation": "Generic apologies like 'sorry for the inconvenience caused' sound robotic and impersonal in live chat. Personalized, conversational language is much better.",
+    "skill": "Conversational Tone"
+  },
+  {
+    "id": 114,
+    "question": "A rider writes: 'The driver yelled at me and made me feel unsafe.' What is the best initial empathy statement?",
+    "scenario": "Safety complaint empathy",
+    "options": {
+      "A": "I am sorry the driver was in a bad mood.",
+      "B": "I am deeply sorry to hear about this experience. Feeling safe during a ride is absolutely essential, and I want to assure you we are taking this very seriously.",
+      "C": "Please rate the driver 1 star and report him.",
+      "D": "Did you say something to make him angry?"
+    },
+    "answer": "B",
+    "explanation": "For safety issues, validate the customer's feeling of safety, apologize sincerely, and assure them of serious action.",
+    "skill": "Safety Empathy"
+  },
+  {
+    "id": 115,
+    "question": "A passenger named Matthew says: 'The app crashed during my ride and I couldn't see the price.' How do you show accountability?",
+    "scenario": "App crash accountability",
+    "options": {
+      "A": "It is your phone's fault. Upgrade your device.",
+      "B": "I apologize for the app crashing during your ride, Matthew. I know how frustrating it is to not see your fare. Let me look up the exact fare details for you right now.",
+      "C": "We don't guarantee app uptime. Read the terms of service.",
+      "D": "Wait for the receipt to email you."
+    },
+    "answer": "B",
+    "explanation": "Accountability means taking responsibility for the service failure (the app crashing) and moving directly to a solution.",
+    "skill": "Accountability"
+  },
+  {
+    "id": 116,
+    "question": "A customer writes: 'I am so stressed. I left my passport in your cab and my flight is in 3 hours.' Which response shows the best active listening and empathy?",
+    "scenario": "Stressful lost passport",
+    "options": {
+      "A": "We are not responsible for left items. Please fill a form.",
+      "B": "I understand how incredibly stressful this must be, especially with your flight leaving soon. Let me contact the driver immediately to help locate your passport.",
+      "C": "Relax, passport can be remade at the embassy.",
+      "D": "Why did you forget your passport? That is very careless."
+    },
+    "answer": "B",
+    "explanation": "Active empathy involves validating the customer's specific emotion ('stressful') and urgency ('flight leaving soon'), and taking immediate action.",
+    "skill": "Active Listening & Reassurance"
+  },
+  {
+    "id": 117,
+    "question": "A customer is complaining about a double payment: 'This app is stealing my money!' How do you frame the response using positive phrasing?",
+    "scenario": "Double charge positive framing",
+    "options": {
+      "A": "We cannot refund you until we check the banks. Do not accuse us of stealing.",
+      "B": "Let's get this resolved for you. I will check your payment history right now and ensure any extra charges are reversed to your account immediately.",
+      "C": "You are wrong. It is just a temporary hold.",
+      "D": "Please wait for 3 days and don't message us again."
+    },
+    "answer": "B",
+    "explanation": "Positive framing focuses on resolution, action, and assistance, rather than defensiveness or negative rules.",
+    "skill": "Positive Framing"
+  },
+  {
+    "id": 118,
+    "question": "Which of these phrases is considered 'Robotic/Scripted' and should be avoided in personalized live chat support?",
+    "scenario": "Avoiding robotic phrases",
+    "options": {
+      "A": "I'll check that for you right now.",
+      "B": "I am sorry for the inconvenience caused. Your satisfaction is our top priority. Please wait while I pull up your details.",
+      "C": "Let's look at the trip map together to see what happened.",
+      "D": "I understand you're disappointed with the route."
+    },
+    "answer": "B",
+    "explanation": "Generic apologies like 'sorry for the inconvenience caused' sound robotic and impersonal in live chat. Personalized, conversational language is much better.",
+    "skill": "Conversational Tone"
+  },
+  {
+    "id": 119,
+    "question": "A rider writes: 'The driver yelled at me and made me feel unsafe.' What is the best initial empathy statement?",
+    "scenario": "Safety complaint empathy",
+    "options": {
+      "A": "I am sorry the driver was in a bad mood.",
+      "B": "I am deeply sorry to hear about this experience. Feeling safe during a ride is absolutely essential, and I want to assure you we are taking this very seriously.",
+      "C": "Please rate the driver 1 star and report him.",
+      "D": "Did you say something to make him angry?"
+    },
+    "answer": "B",
+    "explanation": "For safety issues, validate the customer's feeling of safety, apologize sincerely, and assure them of serious action.",
+    "skill": "Safety Empathy"
+  },
+  {
+    "id": 120,
+    "question": "A passenger named Heather says: 'The app crashed during my ride and I couldn't see the price.' How do you show accountability?",
+    "scenario": "App crash accountability",
+    "options": {
+      "A": "It is your phone's fault. Upgrade your device.",
+      "B": "I apologize for the app crashing during your ride, Heather. I know how frustrating it is to not see your fare. Let me look up the exact fare details for you right now.",
+      "C": "We don't guarantee app uptime. Read the terms of service.",
+      "D": "Wait for the receipt to email you."
+    },
+    "answer": "B",
+    "explanation": "Accountability means taking responsibility for the service failure (the app crashing) and moving directly to a solution.",
+    "skill": "Accountability"
+  },
+  {
+    "id": 121,
+    "question": "A customer writes: 'I am so stressed. I left my passport in your cab and my flight is in 3 hours.' Which response shows the best active listening and empathy?",
+    "scenario": "Stressful lost passport",
+    "options": {
+      "A": "We are not responsible for left items. Please fill a form.",
+      "B": "I understand how incredibly stressful this must be, especially with your flight leaving soon. Let me contact the driver immediately to help locate your passport.",
+      "C": "Relax, passport can be remade at the embassy.",
+      "D": "Why did you forget your passport? That is very careless."
+    },
+    "answer": "B",
+    "explanation": "Active empathy involves validating the customer's specific emotion ('stressful') and urgency ('flight leaving soon'), and taking immediate action.",
+    "skill": "Active Listening & Reassurance"
+  },
+  {
+    "id": 122,
+    "question": "A customer is complaining about a double payment: 'This app is stealing my money!' How do you frame the response using positive phrasing?",
+    "scenario": "Double charge positive framing",
+    "options": {
+      "A": "We cannot refund you until we check the banks. Do not accuse us of stealing.",
+      "B": "Let's get this resolved for you. I will check your payment history right now and ensure any extra charges are reversed to your account immediately.",
+      "C": "You are wrong. It is just a temporary hold.",
+      "D": "Please wait for 3 days and don't message us again."
+    },
+    "answer": "B",
+    "explanation": "Positive framing focuses on resolution, action, and assistance, rather than defensiveness or negative rules.",
+    "skill": "Positive Framing"
+  },
+  {
+    "id": 123,
+    "question": "Which of these phrases is considered 'Robotic/Scripted' and should be avoided in personalized live chat support?",
+    "scenario": "Avoiding robotic phrases",
+    "options": {
+      "A": "I'll check that for you right now.",
+      "B": "I am sorry for the inconvenience caused. Your satisfaction is our top priority. Please wait while I pull up your details.",
+      "C": "Let's look at the trip map together to see what happened.",
+      "D": "I understand you're disappointed with the route."
+    },
+    "answer": "B",
+    "explanation": "Generic apologies like 'sorry for the inconvenience caused' sound robotic and impersonal in live chat. Personalized, conversational language is much better.",
+    "skill": "Conversational Tone"
+  },
+  {
+    "id": 124,
+    "question": "A rider writes: 'The driver yelled at me and made me feel unsafe.' What is the best initial empathy statement?",
+    "scenario": "Safety complaint empathy",
+    "options": {
+      "A": "I am sorry the driver was in a bad mood.",
+      "B": "I am deeply sorry to hear about this experience. Feeling safe during a ride is absolutely essential, and I want to assure you we are taking this very seriously.",
+      "C": "Please rate the driver 1 star and report him.",
+      "D": "Did you say something to make him angry?"
+    },
+    "answer": "B",
+    "explanation": "For safety issues, validate the customer's feeling of safety, apologize sincerely, and assure them of serious action.",
+    "skill": "Safety Empathy"
+  },
+  {
+    "id": 125,
+    "question": "A passenger named Chris says: 'The app crashed during my ride and I couldn't see the price.' How do you show accountability?",
+    "scenario": "App crash accountability",
+    "options": {
+      "A": "It is your phone's fault. Upgrade your device.",
+      "B": "I apologize for the app crashing during your ride, Chris. I know how frustrating it is to not see your fare. Let me look up the exact fare details for you right now.",
+      "C": "We don't guarantee app uptime. Read the terms of service.",
+      "D": "Wait for the receipt to email you."
+    },
+    "answer": "B",
+    "explanation": "Accountability means taking responsibility for the service failure (the app crashing) and moving directly to a solution.",
+    "skill": "Accountability"
+  },
+  {
+    "id": 126,
+    "question": "A customer writes: 'I am so stressed. I left my passport in your cab and my flight is in 3 hours.' Which response shows the best active listening and empathy?",
+    "scenario": "Stressful lost passport",
+    "options": {
+      "A": "We are not responsible for left items. Please fill a form.",
+      "B": "I understand how incredibly stressful this must be, especially with your flight leaving soon. Let me contact the driver immediately to help locate your passport.",
+      "C": "Relax, passport can be remade at the embassy.",
+      "D": "Why did you forget your passport? That is very careless."
+    },
+    "answer": "B",
+    "explanation": "Active empathy involves validating the customer's specific emotion ('stressful') and urgency ('flight leaving soon'), and taking immediate action.",
+    "skill": "Active Listening & Reassurance"
+  },
+  {
+    "id": 127,
+    "question": "A customer is complaining about a double payment: 'This app is stealing my money!' How do you frame the response using positive phrasing?",
+    "scenario": "Double charge positive framing",
+    "options": {
+      "A": "We cannot refund you until we check the banks. Do not accuse us of stealing.",
+      "B": "Let's get this resolved for you. I will check your payment history right now and ensure any extra charges are reversed to your account immediately.",
+      "C": "You are wrong. It is just a temporary hold.",
+      "D": "Please wait for 3 days and don't message us again."
+    },
+    "answer": "B",
+    "explanation": "Positive framing focuses on resolution, action, and assistance, rather than defensiveness or negative rules.",
+    "skill": "Positive Framing"
+  },
+  {
+    "id": 128,
+    "question": "Which of these phrases is considered 'Robotic/Scripted' and should be avoided in personalized live chat support?",
+    "scenario": "Avoiding robotic phrases",
+    "options": {
+      "A": "I'll check that for you right now.",
+      "B": "I am sorry for the inconvenience caused. Your satisfaction is our top priority. Please wait while I pull up your details.",
+      "C": "Let's look at the trip map together to see what happened.",
+      "D": "I understand you're disappointed with the route."
+    },
+    "answer": "B",
+    "explanation": "Generic apologies like 'sorry for the inconvenience caused' sound robotic and impersonal in live chat. Personalized, conversational language is much better.",
+    "skill": "Conversational Tone"
+  },
+  {
+    "id": 129,
+    "question": "A rider writes: 'The driver yelled at me and made me feel unsafe.' What is the best initial empathy statement?",
+    "scenario": "Safety complaint empathy",
+    "options": {
+      "A": "I am sorry the driver was in a bad mood.",
+      "B": "I am deeply sorry to hear about this experience. Feeling safe during a ride is absolutely essential, and I want to assure you we are taking this very seriously.",
+      "C": "Please rate the driver 1 star and report him.",
+      "D": "Did you say something to make him angry?"
+    },
+    "answer": "B",
+    "explanation": "For safety issues, validate the customer's feeling of safety, apologize sincerely, and assure them of serious action.",
+    "skill": "Safety Empathy"
+  },
+  {
+    "id": 130,
+    "question": "A passenger named Michael says: 'The app crashed during my ride and I couldn't see the price.' How do you show accountability?",
+    "scenario": "App crash accountability",
+    "options": {
+      "A": "It is your phone's fault. Upgrade your device.",
+      "B": "I apologize for the app crashing during your ride, Michael. I know how frustrating it is to not see your fare. Let me look up the exact fare details for you right now.",
+      "C": "We don't guarantee app uptime. Read the terms of service.",
+      "D": "Wait for the receipt to email you."
+    },
+    "answer": "B",
+    "explanation": "Accountability means taking responsibility for the service failure (the app crashing) and moving directly to a solution.",
+    "skill": "Accountability"
+  },
+  {
+    "id": 131,
+    "question": "A customer writes: 'I am so stressed. I left my passport in your cab and my flight is in 3 hours.' Which response shows the best active listening and empathy?",
+    "scenario": "Stressful lost passport",
+    "options": {
+      "A": "We are not responsible for left items. Please fill a form.",
+      "B": "I understand how incredibly stressful this must be, especially with your flight leaving soon. Let me contact the driver immediately to help locate your passport.",
+      "C": "Relax, passport can be remade at the embassy.",
+      "D": "Why did you forget your passport? That is very careless."
+    },
+    "answer": "B",
+    "explanation": "Active empathy involves validating the customer's specific emotion ('stressful') and urgency ('flight leaving soon'), and taking immediate action.",
+    "skill": "Active Listening & Reassurance"
+  },
+  {
+    "id": 132,
+    "question": "A customer is complaining about a double payment: 'This app is stealing my money!' How do you frame the response using positive phrasing?",
+    "scenario": "Double charge positive framing",
+    "options": {
+      "A": "We cannot refund you until we check the banks. Do not accuse us of stealing.",
+      "B": "Let's get this resolved for you. I will check your payment history right now and ensure any extra charges are reversed to your account immediately.",
+      "C": "You are wrong. It is just a temporary hold.",
+      "D": "Please wait for 3 days and don't message us again."
+    },
+    "answer": "B",
+    "explanation": "Positive framing focuses on resolution, action, and assistance, rather than defensiveness or negative rules.",
+    "skill": "Positive Framing"
+  },
+  {
+    "id": 133,
+    "question": "Which of these phrases is considered 'Robotic/Scripted' and should be avoided in personalized live chat support?",
+    "scenario": "Avoiding robotic phrases",
+    "options": {
+      "A": "I'll check that for you right now.",
+      "B": "I am sorry for the inconvenience caused. Your satisfaction is our top priority. Please wait while I pull up your details.",
+      "C": "Let's look at the trip map together to see what happened.",
+      "D": "I understand you're disappointed with the route."
+    },
+    "answer": "B",
+    "explanation": "Generic apologies like 'sorry for the inconvenience caused' sound robotic and impersonal in live chat. Personalized, conversational language is much better.",
+    "skill": "Conversational Tone"
+  },
+  {
+    "id": 134,
+    "question": "A rider writes: 'The driver yelled at me and made me feel unsafe.' What is the best initial empathy statement?",
+    "scenario": "Safety complaint empathy",
+    "options": {
+      "A": "I am sorry the driver was in a bad mood.",
+      "B": "I am deeply sorry to hear about this experience. Feeling safe during a ride is absolutely essential, and I want to assure you we are taking this very seriously.",
+      "C": "Please rate the driver 1 star and report him.",
+      "D": "Did you say something to make him angry?"
+    },
+    "answer": "B",
+    "explanation": "For safety issues, validate the customer's feeling of safety, apologize sincerely, and assure them of serious action.",
+    "skill": "Safety Empathy"
+  },
+  {
+    "id": 135,
+    "question": "A passenger named Chris says: 'The app crashed during my ride and I couldn't see the price.' How do you show accountability?",
+    "scenario": "App crash accountability",
+    "options": {
+      "A": "It is your phone's fault. Upgrade your device.",
+      "B": "I apologize for the app crashing during your ride, Chris. I know how frustrating it is to not see your fare. Let me look up the exact fare details for you right now.",
+      "C": "We don't guarantee app uptime. Read the terms of service.",
+      "D": "Wait for the receipt to email you."
+    },
+    "answer": "B",
+    "explanation": "Accountability means taking responsibility for the service failure (the app crashing) and moving directly to a solution.",
+    "skill": "Accountability"
+  },
+  {
+    "id": 136,
+    "question": "A customer writes: 'I am so stressed. I left my passport in your cab and my flight is in 3 hours.' Which response shows the best active listening and empathy?",
+    "scenario": "Stressful lost passport",
+    "options": {
+      "A": "We are not responsible for left items. Please fill a form.",
+      "B": "I understand how incredibly stressful this must be, especially with your flight leaving soon. Let me contact the driver immediately to help locate your passport.",
+      "C": "Relax, passport can be remade at the embassy.",
+      "D": "Why did you forget your passport? That is very careless."
+    },
+    "answer": "B",
+    "explanation": "Active empathy involves validating the customer's specific emotion ('stressful') and urgency ('flight leaving soon'), and taking immediate action.",
+    "skill": "Active Listening & Reassurance"
+  },
+  {
+    "id": 137,
+    "question": "A customer is complaining about a double payment: 'This app is stealing my money!' How do you frame the response using positive phrasing?",
+    "scenario": "Double charge positive framing",
+    "options": {
+      "A": "We cannot refund you until we check the banks. Do not accuse us of stealing.",
+      "B": "Let's get this resolved for you. I will check your payment history right now and ensure any extra charges are reversed to your account immediately.",
+      "C": "You are wrong. It is just a temporary hold.",
+      "D": "Please wait for 3 days and don't message us again."
+    },
+    "answer": "B",
+    "explanation": "Positive framing focuses on resolution, action, and assistance, rather than defensiveness or negative rules.",
+    "skill": "Positive Framing"
+  },
+  {
+    "id": 138,
+    "question": "Which of these phrases is considered 'Robotic/Scripted' and should be avoided in personalized live chat support?",
+    "scenario": "Avoiding robotic phrases",
+    "options": {
+      "A": "I'll check that for you right now.",
+      "B": "I am sorry for the inconvenience caused. Your satisfaction is our top priority. Please wait while I pull up your details.",
+      "C": "Let's look at the trip map together to see what happened.",
+      "D": "I understand you're disappointed with the route."
+    },
+    "answer": "B",
+    "explanation": "Generic apologies like 'sorry for the inconvenience caused' sound robotic and impersonal in live chat. Personalized, conversational language is much better.",
+    "skill": "Conversational Tone"
+  },
+  {
+    "id": 139,
+    "question": "A rider writes: 'The driver yelled at me and made me feel unsafe.' What is the best initial empathy statement?",
+    "scenario": "Safety complaint empathy",
+    "options": {
+      "A": "I am sorry the driver was in a bad mood.",
+      "B": "I am deeply sorry to hear about this experience. Feeling safe during a ride is absolutely essential, and I want to assure you we are taking this very seriously.",
+      "C": "Please rate the driver 1 star and report him.",
+      "D": "Did you say something to make him angry?"
+    },
+    "answer": "B",
+    "explanation": "For safety issues, validate the customer's feeling of safety, apologize sincerely, and assure them of serious action.",
+    "skill": "Safety Empathy"
+  },
+  {
+    "id": 140,
+    "question": "A passenger named James says: 'The app crashed during my ride and I couldn't see the price.' How do you show accountability?",
+    "scenario": "App crash accountability",
+    "options": {
+      "A": "It is your phone's fault. Upgrade your device.",
+      "B": "I apologize for the app crashing during your ride, James. I know how frustrating it is to not see your fare. Let me look up the exact fare details for you right now.",
+      "C": "We don't guarantee app uptime. Read the terms of service.",
+      "D": "Wait for the receipt to email you."
+    },
+    "answer": "B",
+    "explanation": "Accountability means taking responsibility for the service failure (the app crashing) and moving directly to a solution.",
+    "skill": "Accountability"
+  },
+  {
+    "id": 141,
+    "question": "A customer writes: 'I am so stressed. I left my passport in your cab and my flight is in 3 hours.' Which response shows the best active listening and empathy?",
+    "scenario": "Stressful lost passport",
+    "options": {
+      "A": "We are not responsible for left items. Please fill a form.",
+      "B": "I understand how incredibly stressful this must be, especially with your flight leaving soon. Let me contact the driver immediately to help locate your passport.",
+      "C": "Relax, passport can be remade at the embassy.",
+      "D": "Why did you forget your passport? That is very careless."
+    },
+    "answer": "B",
+    "explanation": "Active empathy involves validating the customer's specific emotion ('stressful') and urgency ('flight leaving soon'), and taking immediate action.",
+    "skill": "Active Listening & Reassurance"
+  },
+  {
+    "id": 142,
+    "question": "A customer is complaining about a double payment: 'This app is stealing my money!' How do you frame the response using positive phrasing?",
+    "scenario": "Double charge positive framing",
+    "options": {
+      "A": "We cannot refund you until we check the banks. Do not accuse us of stealing.",
+      "B": "Let's get this resolved for you. I will check your payment history right now and ensure any extra charges are reversed to your account immediately.",
+      "C": "You are wrong. It is just a temporary hold.",
+      "D": "Please wait for 3 days and don't message us again."
+    },
+    "answer": "B",
+    "explanation": "Positive framing focuses on resolution, action, and assistance, rather than defensiveness or negative rules.",
+    "skill": "Positive Framing"
+  },
+  {
+    "id": 143,
+    "question": "Which of these phrases is considered 'Robotic/Scripted' and should be avoided in personalized live chat support?",
+    "scenario": "Avoiding robotic phrases",
+    "options": {
+      "A": "I'll check that for you right now.",
+      "B": "I am sorry for the inconvenience caused. Your satisfaction is our top priority. Please wait while I pull up your details.",
+      "C": "Let's look at the trip map together to see what happened.",
+      "D": "I understand you're disappointed with the route."
+    },
+    "answer": "B",
+    "explanation": "Generic apologies like 'sorry for the inconvenience caused' sound robotic and impersonal in live chat. Personalized, conversational language is much better.",
+    "skill": "Conversational Tone"
+  },
+  {
+    "id": 144,
+    "question": "A rider writes: 'The driver yelled at me and made me feel unsafe.' What is the best initial empathy statement?",
+    "scenario": "Safety complaint empathy",
+    "options": {
+      "A": "I am sorry the driver was in a bad mood.",
+      "B": "I am deeply sorry to hear about this experience. Feeling safe during a ride is absolutely essential, and I want to assure you we are taking this very seriously.",
+      "C": "Please rate the driver 1 star and report him.",
+      "D": "Did you say something to make him angry?"
+    },
+    "answer": "B",
+    "explanation": "For safety issues, validate the customer's feeling of safety, apologize sincerely, and assure them of serious action.",
+    "skill": "Safety Empathy"
+  },
+  {
+    "id": 145,
+    "question": "A passenger named John says: 'The app crashed during my ride and I couldn't see the price.' How do you show accountability?",
+    "scenario": "App crash accountability",
+    "options": {
+      "A": "It is your phone's fault. Upgrade your device.",
+      "B": "I apologize for the app crashing during your ride, John. I know how frustrating it is to not see your fare. Let me look up the exact fare details for you right now.",
+      "C": "We don't guarantee app uptime. Read the terms of service.",
+      "D": "Wait for the receipt to email you."
+    },
+    "answer": "B",
+    "explanation": "Accountability means taking responsibility for the service failure (the app crashing) and moving directly to a solution.",
+    "skill": "Accountability"
+  },
+  {
+    "id": 146,
+    "question": "A customer writes: 'I am so stressed. I left my passport in your cab and my flight is in 3 hours.' Which response shows the best active listening and empathy?",
+    "scenario": "Stressful lost passport",
+    "options": {
+      "A": "We are not responsible for left items. Please fill a form.",
+      "B": "I understand how incredibly stressful this must be, especially with your flight leaving soon. Let me contact the driver immediately to help locate your passport.",
+      "C": "Relax, passport can be remade at the embassy.",
+      "D": "Why did you forget your passport? That is very careless."
+    },
+    "answer": "B",
+    "explanation": "Active empathy involves validating the customer's specific emotion ('stressful') and urgency ('flight leaving soon'), and taking immediate action.",
+    "skill": "Active Listening & Reassurance"
+  },
+  {
+    "id": 147,
+    "question": "A customer is complaining about a double payment: 'This app is stealing my money!' How do you frame the response using positive phrasing?",
+    "scenario": "Double charge positive framing",
+    "options": {
+      "A": "We cannot refund you until we check the banks. Do not accuse us of stealing.",
+      "B": "Let's get this resolved for you. I will check your payment history right now and ensure any extra charges are reversed to your account immediately.",
+      "C": "You are wrong. It is just a temporary hold.",
+      "D": "Please wait for 3 days and don't message us again."
+    },
+    "answer": "B",
+    "explanation": "Positive framing focuses on resolution, action, and assistance, rather than defensiveness or negative rules.",
+    "skill": "Positive Framing"
+  },
+  {
+    "id": 148,
+    "question": "Which of these phrases is considered 'Robotic/Scripted' and should be avoided in personalized live chat support?",
+    "scenario": "Avoiding robotic phrases",
+    "options": {
+      "A": "I'll check that for you right now.",
+      "B": "I am sorry for the inconvenience caused. Your satisfaction is our top priority. Please wait while I pull up your details.",
+      "C": "Let's look at the trip map together to see what happened.",
+      "D": "I understand you're disappointed with the route."
+    },
+    "answer": "B",
+    "explanation": "Generic apologies like 'sorry for the inconvenience caused' sound robotic and impersonal in live chat. Personalized, conversational language is much better.",
+    "skill": "Conversational Tone"
+  },
+  {
+    "id": 149,
+    "question": "A rider writes: 'The driver yelled at me and made me feel unsafe.' What is the best initial empathy statement?",
+    "scenario": "Safety complaint empathy",
+    "options": {
+      "A": "I am sorry the driver was in a bad mood.",
+      "B": "I am deeply sorry to hear about this experience. Feeling safe during a ride is absolutely essential, and I want to assure you we are taking this very seriously.",
+      "C": "Please rate the driver 1 star and report him.",
+      "D": "Did you say something to make him angry?"
+    },
+    "answer": "B",
+    "explanation": "For safety issues, validate the customer's feeling of safety, apologize sincerely, and assure them of serious action.",
+    "skill": "Safety Empathy"
+  },
+  {
+    "id": 150,
+    "question": "A passenger named Jessica says: 'The app crashed during my ride and I couldn't see the price.' How do you show accountability?",
+    "scenario": "App crash accountability",
+    "options": {
+      "A": "It is your phone's fault. Upgrade your device.",
+      "B": "I apologize for the app crashing during your ride, Jessica. I know how frustrating it is to not see your fare. Let me look up the exact fare details for you right now.",
+      "C": "We don't guarantee app uptime. Read the terms of service.",
+      "D": "Wait for the receipt to email you."
+    },
+    "answer": "B",
+    "explanation": "Accountability means taking responsibility for the service failure (the app crashing) and moving directly to a solution.",
+    "skill": "Accountability"
+  },
+  {
+    "id": 151,
+    "question": "A customer writes: 'I am so stressed. I left my passport in your cab and my flight is in 3 hours.' Which response shows the best active listening and empathy?",
+    "scenario": "Stressful lost passport",
+    "options": {
+      "A": "We are not responsible for left items. Please fill a form.",
+      "B": "I understand how incredibly stressful this must be, especially with your flight leaving soon. Let me contact the driver immediately to help locate your passport.",
+      "C": "Relax, passport can be remade at the embassy.",
+      "D": "Why did you forget your passport? That is very careless."
+    },
+    "answer": "B",
+    "explanation": "Active empathy involves validating the customer's specific emotion ('stressful') and urgency ('flight leaving soon'), and taking immediate action.",
+    "skill": "Active Listening & Reassurance"
+  },
+  {
+    "id": 152,
+    "question": "A customer is complaining about a double payment: 'This app is stealing my money!' How do you frame the response using positive phrasing?",
+    "scenario": "Double charge positive framing",
+    "options": {
+      "A": "We cannot refund you until we check the banks. Do not accuse us of stealing.",
+      "B": "Let's get this resolved for you. I will check your payment history right now and ensure any extra charges are reversed to your account immediately.",
+      "C": "You are wrong. It is just a temporary hold.",
+      "D": "Please wait for 3 days and don't message us again."
+    },
+    "answer": "B",
+    "explanation": "Positive framing focuses on resolution, action, and assistance, rather than defensiveness or negative rules.",
+    "skill": "Positive Framing"
+  },
+  {
+    "id": 153,
+    "question": "Which of these phrases is considered 'Robotic/Scripted' and should be avoided in personalized live chat support?",
+    "scenario": "Avoiding robotic phrases",
+    "options": {
+      "A": "I'll check that for you right now.",
+      "B": "I am sorry for the inconvenience caused. Your satisfaction is our top priority. Please wait while I pull up your details.",
+      "C": "Let's look at the trip map together to see what happened.",
+      "D": "I understand you're disappointed with the route."
+    },
+    "answer": "B",
+    "explanation": "Generic apologies like 'sorry for the inconvenience caused' sound robotic and impersonal in live chat. Personalized, conversational language is much better.",
+    "skill": "Conversational Tone"
+  },
+  {
+    "id": 154,
+    "question": "A rider writes: 'The driver yelled at me and made me feel unsafe.' What is the best initial empathy statement?",
+    "scenario": "Safety complaint empathy",
+    "options": {
+      "A": "I am sorry the driver was in a bad mood.",
+      "B": "I am deeply sorry to hear about this experience. Feeling safe during a ride is absolutely essential, and I want to assure you we are taking this very seriously.",
+      "C": "Please rate the driver 1 star and report him.",
+      "D": "Did you say something to make him angry?"
+    },
+    "answer": "B",
+    "explanation": "For safety issues, validate the customer's feeling of safety, apologize sincerely, and assure them of serious action.",
+    "skill": "Safety Empathy"
+  },
+  {
+    "id": 155,
+    "question": "A passenger named David says: 'The app crashed during my ride and I couldn't see the price.' How do you show accountability?",
+    "scenario": "App crash accountability",
+    "options": {
+      "A": "It is your phone's fault. Upgrade your device.",
+      "B": "I apologize for the app crashing during your ride, David. I know how frustrating it is to not see your fare. Let me look up the exact fare details for you right now.",
+      "C": "We don't guarantee app uptime. Read the terms of service.",
+      "D": "Wait for the receipt to email you."
+    },
+    "answer": "B",
+    "explanation": "Accountability means taking responsibility for the service failure (the app crashing) and moving directly to a solution.",
+    "skill": "Accountability"
+  },
+  {
+    "id": 156,
+    "question": "A customer writes: 'I am so stressed. I left my passport in your cab and my flight is in 3 hours.' Which response shows the best active listening and empathy?",
+    "scenario": "Stressful lost passport",
+    "options": {
+      "A": "We are not responsible for left items. Please fill a form.",
+      "B": "I understand how incredibly stressful this must be, especially with your flight leaving soon. Let me contact the driver immediately to help locate your passport.",
+      "C": "Relax, passport can be remade at the embassy.",
+      "D": "Why did you forget your passport? That is very careless."
+    },
+    "answer": "B",
+    "explanation": "Active empathy involves validating the customer's specific emotion ('stressful') and urgency ('flight leaving soon'), and taking immediate action.",
+    "skill": "Active Listening & Reassurance"
+  },
+  {
+    "id": 157,
+    "question": "A customer is complaining about a double payment: 'This app is stealing my money!' How do you frame the response using positive phrasing?",
+    "scenario": "Double charge positive framing",
+    "options": {
+      "A": "We cannot refund you until we check the banks. Do not accuse us of stealing.",
+      "B": "Let's get this resolved for you. I will check your payment history right now and ensure any extra charges are reversed to your account immediately.",
+      "C": "You are wrong. It is just a temporary hold.",
+      "D": "Please wait for 3 days and don't message us again."
+    },
+    "answer": "B",
+    "explanation": "Positive framing focuses on resolution, action, and assistance, rather than defensiveness or negative rules.",
+    "skill": "Positive Framing"
+  },
+  {
+    "id": 158,
+    "question": "Which of these phrases is considered 'Robotic/Scripted' and should be avoided in personalized live chat support?",
+    "scenario": "Avoiding robotic phrases",
+    "options": {
+      "A": "I'll check that for you right now.",
+      "B": "I am sorry for the inconvenience caused. Your satisfaction is our top priority. Please wait while I pull up your details.",
+      "C": "Let's look at the trip map together to see what happened.",
+      "D": "I understand you're disappointed with the route."
+    },
+    "answer": "B",
+    "explanation": "Generic apologies like 'sorry for the inconvenience caused' sound robotic and impersonal in live chat. Personalized, conversational language is much better.",
+    "skill": "Conversational Tone"
+  },
+  {
+    "id": 159,
+    "question": "A rider writes: 'The driver yelled at me and made me feel unsafe.' What is the best initial empathy statement?",
+    "scenario": "Safety complaint empathy",
+    "options": {
+      "A": "I am sorry the driver was in a bad mood.",
+      "B": "I am deeply sorry to hear about this experience. Feeling safe during a ride is absolutely essential, and I want to assure you we are taking this very seriously.",
+      "C": "Please rate the driver 1 star and report him.",
+      "D": "Did you say something to make him angry?"
+    },
+    "answer": "B",
+    "explanation": "For safety issues, validate the customer's feeling of safety, apologize sincerely, and assure them of serious action.",
+    "skill": "Safety Empathy"
+  },
+  {
+    "id": 160,
+    "question": "A passenger named Amanda says: 'The app crashed during my ride and I couldn't see the price.' How do you show accountability?",
+    "scenario": "App crash accountability",
+    "options": {
+      "A": "It is your phone's fault. Upgrade your device.",
+      "B": "I apologize for the app crashing during your ride, Amanda. I know how frustrating it is to not see your fare. Let me look up the exact fare details for you right now.",
+      "C": "We don't guarantee app uptime. Read the terms of service.",
+      "D": "Wait for the receipt to email you."
+    },
+    "answer": "B",
+    "explanation": "Accountability means taking responsibility for the service failure (the app crashing) and moving directly to a solution.",
+    "skill": "Accountability"
+  },
+  {
+    "id": 161,
+    "question": "A customer writes: 'I am so stressed. I left my passport in your cab and my flight is in 3 hours.' Which response shows the best active listening and empathy?",
+    "scenario": "Stressful lost passport",
+    "options": {
+      "A": "We are not responsible for left items. Please fill a form.",
+      "B": "I understand how incredibly stressful this must be, especially with your flight leaving soon. Let me contact the driver immediately to help locate your passport.",
+      "C": "Relax, passport can be remade at the embassy.",
+      "D": "Why did you forget your passport? That is very careless."
+    },
+    "answer": "B",
+    "explanation": "Active empathy involves validating the customer's specific emotion ('stressful') and urgency ('flight leaving soon'), and taking immediate action.",
+    "skill": "Active Listening & Reassurance"
+  },
+  {
+    "id": 162,
+    "question": "A customer is complaining about a double payment: 'This app is stealing my money!' How do you frame the response using positive phrasing?",
+    "scenario": "Double charge positive framing",
+    "options": {
+      "A": "We cannot refund you until we check the banks. Do not accuse us of stealing.",
+      "B": "Let's get this resolved for you. I will check your payment history right now and ensure any extra charges are reversed to your account immediately.",
+      "C": "You are wrong. It is just a temporary hold.",
+      "D": "Please wait for 3 days and don't message us again."
+    },
+    "answer": "B",
+    "explanation": "Positive framing focuses on resolution, action, and assistance, rather than defensiveness or negative rules.",
+    "skill": "Positive Framing"
+  },
+  {
+    "id": 163,
+    "question": "Which of these phrases is considered 'Robotic/Scripted' and should be avoided in personalized live chat support?",
+    "scenario": "Avoiding robotic phrases",
+    "options": {
+      "A": "I'll check that for you right now.",
+      "B": "I am sorry for the inconvenience caused. Your satisfaction is our top priority. Please wait while I pull up your details.",
+      "C": "Let's look at the trip map together to see what happened.",
+      "D": "I understand you're disappointed with the route."
+    },
+    "answer": "B",
+    "explanation": "Generic apologies like 'sorry for the inconvenience caused' sound robotic and impersonal in live chat. Personalized, conversational language is much better.",
+    "skill": "Conversational Tone"
+  },
+  {
+    "id": 164,
+    "question": "A rider writes: 'The driver yelled at me and made me feel unsafe.' What is the best initial empathy statement?",
+    "scenario": "Safety complaint empathy",
+    "options": {
+      "A": "I am sorry the driver was in a bad mood.",
+      "B": "I am deeply sorry to hear about this experience. Feeling safe during a ride is absolutely essential, and I want to assure you we are taking this very seriously.",
+      "C": "Please rate the driver 1 star and report him.",
+      "D": "Did you say something to make him angry?"
+    },
+    "answer": "B",
+    "explanation": "For safety issues, validate the customer's feeling of safety, apologize sincerely, and assure them of serious action.",
+    "skill": "Safety Empathy"
+  },
+  {
+    "id": 165,
+    "question": "A passenger named Heather says: 'The app crashed during my ride and I couldn't see the price.' How do you show accountability?",
+    "scenario": "App crash accountability",
+    "options": {
+      "A": "It is your phone's fault. Upgrade your device.",
+      "B": "I apologize for the app crashing during your ride, Heather. I know how frustrating it is to not see your fare. Let me look up the exact fare details for you right now.",
+      "C": "We don't guarantee app uptime. Read the terms of service.",
+      "D": "Wait for the receipt to email you."
+    },
+    "answer": "B",
+    "explanation": "Accountability means taking responsibility for the service failure (the app crashing) and moving directly to a solution.",
+    "skill": "Accountability"
+  },
+  {
+    "id": 166,
+    "question": "A customer writes: 'I am so stressed. I left my passport in your cab and my flight is in 3 hours.' Which response shows the best active listening and empathy?",
+    "scenario": "Stressful lost passport",
+    "options": {
+      "A": "We are not responsible for left items. Please fill a form.",
+      "B": "I understand how incredibly stressful this must be, especially with your flight leaving soon. Let me contact the driver immediately to help locate your passport.",
+      "C": "Relax, passport can be remade at the embassy.",
+      "D": "Why did you forget your passport? That is very careless."
+    },
+    "answer": "B",
+    "explanation": "Active empathy involves validating the customer's specific emotion ('stressful') and urgency ('flight leaving soon'), and taking immediate action.",
+    "skill": "Active Listening & Reassurance"
+  },
+  {
+    "id": 167,
+    "question": "A customer is complaining about a double payment: 'This app is stealing my money!' How do you frame the response using positive phrasing?",
+    "scenario": "Double charge positive framing",
+    "options": {
+      "A": "We cannot refund you until we check the banks. Do not accuse us of stealing.",
+      "B": "Let's get this resolved for you. I will check your payment history right now and ensure any extra charges are reversed to your account immediately.",
+      "C": "You are wrong. It is just a temporary hold.",
+      "D": "Please wait for 3 days and don't message us again."
+    },
+    "answer": "B",
+    "explanation": "Positive framing focuses on resolution, action, and assistance, rather than defensiveness or negative rules.",
+    "skill": "Positive Framing"
+  },
+  {
+    "id": 168,
+    "question": "Which of these phrases is considered 'Robotic/Scripted' and should be avoided in personalized live chat support?",
+    "scenario": "Avoiding robotic phrases",
+    "options": {
+      "A": "I'll check that for you right now.",
+      "B": "I am sorry for the inconvenience caused. Your satisfaction is our top priority. Please wait while I pull up your details.",
+      "C": "Let's look at the trip map together to see what happened.",
+      "D": "I understand you're disappointed with the route."
+    },
+    "answer": "B",
+    "explanation": "Generic apologies like 'sorry for the inconvenience caused' sound robotic and impersonal in live chat. Personalized, conversational language is much better.",
+    "skill": "Conversational Tone"
+  },
+  {
+    "id": 169,
+    "question": "A rider writes: 'The driver yelled at me and made me feel unsafe.' What is the best initial empathy statement?",
+    "scenario": "Safety complaint empathy",
+    "options": {
+      "A": "I am sorry the driver was in a bad mood.",
+      "B": "I am deeply sorry to hear about this experience. Feeling safe during a ride is absolutely essential, and I want to assure you we are taking this very seriously.",
+      "C": "Please rate the driver 1 star and report him.",
+      "D": "Did you say something to make him angry?"
+    },
+    "answer": "B",
+    "explanation": "For safety issues, validate the customer's feeling of safety, apologize sincerely, and assure them of serious action.",
+    "skill": "Safety Empathy"
+  },
+  {
+    "id": 170,
+    "question": "A passenger named Brian says: 'The app crashed during my ride and I couldn't see the price.' How do you show accountability?",
+    "scenario": "App crash accountability",
+    "options": {
+      "A": "It is your phone's fault. Upgrade your device.",
+      "B": "I apologize for the app crashing during your ride, Brian. I know how frustrating it is to not see your fare. Let me look up the exact fare details for you right now.",
+      "C": "We don't guarantee app uptime. Read the terms of service.",
+      "D": "Wait for the receipt to email you."
+    },
+    "answer": "B",
+    "explanation": "Accountability means taking responsibility for the service failure (the app crashing) and moving directly to a solution.",
+    "skill": "Accountability"
+  },
+  {
+    "id": 171,
+    "question": "A customer writes: 'I am so stressed. I left my passport in your cab and my flight is in 3 hours.' Which response shows the best active listening and empathy?",
+    "scenario": "Stressful lost passport",
+    "options": {
+      "A": "We are not responsible for left items. Please fill a form.",
+      "B": "I understand how incredibly stressful this must be, especially with your flight leaving soon. Let me contact the driver immediately to help locate your passport.",
+      "C": "Relax, passport can be remade at the embassy.",
+      "D": "Why did you forget your passport? That is very careless."
+    },
+    "answer": "B",
+    "explanation": "Active empathy involves validating the customer's specific emotion ('stressful') and urgency ('flight leaving soon'), and taking immediate action.",
+    "skill": "Active Listening & Reassurance"
+  },
+  {
+    "id": 172,
+    "question": "A customer is complaining about a double payment: 'This app is stealing my money!' How do you frame the response using positive phrasing?",
+    "scenario": "Double charge positive framing",
+    "options": {
+      "A": "We cannot refund you until we check the banks. Do not accuse us of stealing.",
+      "B": "Let's get this resolved for you. I will check your payment history right now and ensure any extra charges are reversed to your account immediately.",
+      "C": "You are wrong. It is just a temporary hold.",
+      "D": "Please wait for 3 days and don't message us again."
+    },
+    "answer": "B",
+    "explanation": "Positive framing focuses on resolution, action, and assistance, rather than defensiveness or negative rules.",
+    "skill": "Positive Framing"
+  },
+  {
+    "id": 173,
+    "question": "Which of these phrases is considered 'Robotic/Scripted' and should be avoided in personalized live chat support?",
+    "scenario": "Avoiding robotic phrases",
+    "options": {
+      "A": "I'll check that for you right now.",
+      "B": "I am sorry for the inconvenience caused. Your satisfaction is our top priority. Please wait while I pull up your details.",
+      "C": "Let's look at the trip map together to see what happened.",
+      "D": "I understand you're disappointed with the route."
+    },
+    "answer": "B",
+    "explanation": "Generic apologies like 'sorry for the inconvenience caused' sound robotic and impersonal in live chat. Personalized, conversational language is much better.",
+    "skill": "Conversational Tone"
+  },
+  {
+    "id": 174,
+    "question": "A rider writes: 'The driver yelled at me and made me feel unsafe.' What is the best initial empathy statement?",
+    "scenario": "Safety complaint empathy",
+    "options": {
+      "A": "I am sorry the driver was in a bad mood.",
+      "B": "I am deeply sorry to hear about this experience. Feeling safe during a ride is absolutely essential, and I want to assure you we are taking this very seriously.",
+      "C": "Please rate the driver 1 star and report him.",
+      "D": "Did you say something to make him angry?"
+    },
+    "answer": "B",
+    "explanation": "For safety issues, validate the customer's feeling of safety, apologize sincerely, and assure them of serious action.",
+    "skill": "Safety Empathy"
+  },
+  {
+    "id": 175,
+    "question": "A passenger named Emily says: 'The app crashed during my ride and I couldn't see the price.' How do you show accountability?",
+    "scenario": "App crash accountability",
+    "options": {
+      "A": "It is your phone's fault. Upgrade your device.",
+      "B": "I apologize for the app crashing during your ride, Emily. I know how frustrating it is to not see your fare. Let me look up the exact fare details for you right now.",
+      "C": "We don't guarantee app uptime. Read the terms of service.",
+      "D": "Wait for the receipt to email you."
+    },
+    "answer": "B",
+    "explanation": "Accountability means taking responsibility for the service failure (the app crashing) and moving directly to a solution.",
+    "skill": "Accountability"
+  },
+  {
+    "id": 176,
+    "question": "A customer writes: 'I am so stressed. I left my passport in your cab and my flight is in 3 hours.' Which response shows the best active listening and empathy?",
+    "scenario": "Stressful lost passport",
+    "options": {
+      "A": "We are not responsible for left items. Please fill a form.",
+      "B": "I understand how incredibly stressful this must be, especially with your flight leaving soon. Let me contact the driver immediately to help locate your passport.",
+      "C": "Relax, passport can be remade at the embassy.",
+      "D": "Why did you forget your passport? That is very careless."
+    },
+    "answer": "B",
+    "explanation": "Active empathy involves validating the customer's specific emotion ('stressful') and urgency ('flight leaving soon'), and taking immediate action.",
+    "skill": "Active Listening & Reassurance"
+  },
+  {
+    "id": 177,
+    "question": "A customer is complaining about a double payment: 'This app is stealing my money!' How do you frame the response using positive phrasing?",
+    "scenario": "Double charge positive framing",
+    "options": {
+      "A": "We cannot refund you until we check the banks. Do not accuse us of stealing.",
+      "B": "Let's get this resolved for you. I will check your payment history right now and ensure any extra charges are reversed to your account immediately.",
+      "C": "You are wrong. It is just a temporary hold.",
+      "D": "Please wait for 3 days and don't message us again."
+    },
+    "answer": "B",
+    "explanation": "Positive framing focuses on resolution, action, and assistance, rather than defensiveness or negative rules.",
+    "skill": "Positive Framing"
+  },
+  {
+    "id": 178,
+    "question": "Which of these phrases is considered 'Robotic/Scripted' and should be avoided in personalized live chat support?",
+    "scenario": "Avoiding robotic phrases",
+    "options": {
+      "A": "I'll check that for you right now.",
+      "B": "I am sorry for the inconvenience caused. Your satisfaction is our top priority. Please wait while I pull up your details.",
+      "C": "Let's look at the trip map together to see what happened.",
+      "D": "I understand you're disappointed with the route."
+    },
+    "answer": "B",
+    "explanation": "Generic apologies like 'sorry for the inconvenience caused' sound robotic and impersonal in live chat. Personalized, conversational language is much better.",
+    "skill": "Conversational Tone"
+  },
+  {
+    "id": 179,
+    "question": "A rider writes: 'The driver yelled at me and made me feel unsafe.' What is the best initial empathy statement?",
+    "scenario": "Safety complaint empathy",
+    "options": {
+      "A": "I am sorry the driver was in a bad mood.",
+      "B": "I am deeply sorry to hear about this experience. Feeling safe during a ride is absolutely essential, and I want to assure you we are taking this very seriously.",
+      "C": "Please rate the driver 1 star and report him.",
+      "D": "Did you say something to make him angry?"
+    },
+    "answer": "B",
+    "explanation": "For safety issues, validate the customer's feeling of safety, apologize sincerely, and assure them of serious action.",
+    "skill": "Safety Empathy"
+  },
+  {
+    "id": 180,
+    "question": "A passenger named James says: 'The app crashed during my ride and I couldn't see the price.' How do you show accountability?",
+    "scenario": "App crash accountability",
+    "options": {
+      "A": "It is your phone's fault. Upgrade your device.",
+      "B": "I apologize for the app crashing during your ride, James. I know how frustrating it is to not see your fare. Let me look up the exact fare details for you right now.",
+      "C": "We don't guarantee app uptime. Read the terms of service.",
+      "D": "Wait for the receipt to email you."
+    },
+    "answer": "B",
+    "explanation": "Accountability means taking responsibility for the service failure (the app crashing) and moving directly to a solution.",
+    "skill": "Accountability"
+  },
+  {
+    "id": 181,
+    "question": "A customer writes: 'I am so stressed. I left my passport in your cab and my flight is in 3 hours.' Which response shows the best active listening and empathy?",
+    "scenario": "Stressful lost passport",
+    "options": {
+      "A": "We are not responsible for left items. Please fill a form.",
+      "B": "I understand how incredibly stressful this must be, especially with your flight leaving soon. Let me contact the driver immediately to help locate your passport.",
+      "C": "Relax, passport can be remade at the embassy.",
+      "D": "Why did you forget your passport? That is very careless."
+    },
+    "answer": "B",
+    "explanation": "Active empathy involves validating the customer's specific emotion ('stressful') and urgency ('flight leaving soon'), and taking immediate action.",
+    "skill": "Active Listening & Reassurance"
+  },
+  {
+    "id": 182,
+    "question": "A customer is complaining about a double payment: 'This app is stealing my money!' How do you frame the response using positive phrasing?",
+    "scenario": "Double charge positive framing",
+    "options": {
+      "A": "We cannot refund you until we check the banks. Do not accuse us of stealing.",
+      "B": "Let's get this resolved for you. I will check your payment history right now and ensure any extra charges are reversed to your account immediately.",
+      "C": "You are wrong. It is just a temporary hold.",
+      "D": "Please wait for 3 days and don't message us again."
+    },
+    "answer": "B",
+    "explanation": "Positive framing focuses on resolution, action, and assistance, rather than defensiveness or negative rules.",
+    "skill": "Positive Framing"
+  },
+  {
+    "id": 183,
+    "question": "Which of these phrases is considered 'Robotic/Scripted' and should be avoided in personalized live chat support?",
+    "scenario": "Avoiding robotic phrases",
+    "options": {
+      "A": "I'll check that for you right now.",
+      "B": "I am sorry for the inconvenience caused. Your satisfaction is our top priority. Please wait while I pull up your details.",
+      "C": "Let's look at the trip map together to see what happened.",
+      "D": "I understand you're disappointed with the route."
+    },
+    "answer": "B",
+    "explanation": "Generic apologies like 'sorry for the inconvenience caused' sound robotic and impersonal in live chat. Personalized, conversational language is much better.",
+    "skill": "Conversational Tone"
+  },
+  {
+    "id": 184,
+    "question": "A rider writes: 'The driver yelled at me and made me feel unsafe.' What is the best initial empathy statement?",
+    "scenario": "Safety complaint empathy",
+    "options": {
+      "A": "I am sorry the driver was in a bad mood.",
+      "B": "I am deeply sorry to hear about this experience. Feeling safe during a ride is absolutely essential, and I want to assure you we are taking this very seriously.",
+      "C": "Please rate the driver 1 star and report him.",
+      "D": "Did you say something to make him angry?"
+    },
+    "answer": "B",
+    "explanation": "For safety issues, validate the customer's feeling of safety, apologize sincerely, and assure them of serious action.",
+    "skill": "Safety Empathy"
+  },
+  {
+    "id": 185,
+    "question": "A passenger named Emily says: 'The app crashed during my ride and I couldn't see the price.' How do you show accountability?",
+    "scenario": "App crash accountability",
+    "options": {
+      "A": "It is your phone's fault. Upgrade your device.",
+      "B": "I apologize for the app crashing during your ride, Emily. I know how frustrating it is to not see your fare. Let me look up the exact fare details for you right now.",
+      "C": "We don't guarantee app uptime. Read the terms of service.",
+      "D": "Wait for the receipt to email you."
+    },
+    "answer": "B",
+    "explanation": "Accountability means taking responsibility for the service failure (the app crashing) and moving directly to a solution.",
+    "skill": "Accountability"
+  },
+  {
+    "id": 186,
+    "question": "A customer writes: 'I am so stressed. I left my passport in your cab and my flight is in 3 hours.' Which response shows the best active listening and empathy?",
+    "scenario": "Stressful lost passport",
+    "options": {
+      "A": "We are not responsible for left items. Please fill a form.",
+      "B": "I understand how incredibly stressful this must be, especially with your flight leaving soon. Let me contact the driver immediately to help locate your passport.",
+      "C": "Relax, passport can be remade at the embassy.",
+      "D": "Why did you forget your passport? That is very careless."
+    },
+    "answer": "B",
+    "explanation": "Active empathy involves validating the customer's specific emotion ('stressful') and urgency ('flight leaving soon'), and taking immediate action.",
+    "skill": "Active Listening & Reassurance"
+  },
+  {
+    "id": 187,
+    "question": "A customer is complaining about a double payment: 'This app is stealing my money!' How do you frame the response using positive phrasing?",
+    "scenario": "Double charge positive framing",
+    "options": {
+      "A": "We cannot refund you until we check the banks. Do not accuse us of stealing.",
+      "B": "Let's get this resolved for you. I will check your payment history right now and ensure any extra charges are reversed to your account immediately.",
+      "C": "You are wrong. It is just a temporary hold.",
+      "D": "Please wait for 3 days and don't message us again."
+    },
+    "answer": "B",
+    "explanation": "Positive framing focuses on resolution, action, and assistance, rather than defensiveness or negative rules.",
+    "skill": "Positive Framing"
+  },
+  {
+    "id": 188,
+    "question": "Which of these phrases is considered 'Robotic/Scripted' and should be avoided in personalized live chat support?",
+    "scenario": "Avoiding robotic phrases",
+    "options": {
+      "A": "I'll check that for you right now.",
+      "B": "I am sorry for the inconvenience caused. Your satisfaction is our top priority. Please wait while I pull up your details.",
+      "C": "Let's look at the trip map together to see what happened.",
+      "D": "I understand you're disappointed with the route."
+    },
+    "answer": "B",
+    "explanation": "Generic apologies like 'sorry for the inconvenience caused' sound robotic and impersonal in live chat. Personalized, conversational language is much better.",
+    "skill": "Conversational Tone"
+  },
+  {
+    "id": 189,
+    "question": "A rider writes: 'The driver yelled at me and made me feel unsafe.' What is the best initial empathy statement?",
+    "scenario": "Safety complaint empathy",
+    "options": {
+      "A": "I am sorry the driver was in a bad mood.",
+      "B": "I am deeply sorry to hear about this experience. Feeling safe during a ride is absolutely essential, and I want to assure you we are taking this very seriously.",
+      "C": "Please rate the driver 1 star and report him.",
+      "D": "Did you say something to make him angry?"
+    },
+    "answer": "B",
+    "explanation": "For safety issues, validate the customer's feeling of safety, apologize sincerely, and assure them of serious action.",
+    "skill": "Safety Empathy"
+  },
+  {
+    "id": 190,
+    "question": "A passenger named Jessica says: 'The app crashed during my ride and I couldn't see the price.' How do you show accountability?",
+    "scenario": "App crash accountability",
+    "options": {
+      "A": "It is your phone's fault. Upgrade your device.",
+      "B": "I apologize for the app crashing during your ride, Jessica. I know how frustrating it is to not see your fare. Let me look up the exact fare details for you right now.",
+      "C": "We don't guarantee app uptime. Read the terms of service.",
+      "D": "Wait for the receipt to email you."
+    },
+    "answer": "B",
+    "explanation": "Accountability means taking responsibility for the service failure (the app crashing) and moving directly to a solution.",
+    "skill": "Accountability"
+  },
+  {
+    "id": 191,
+    "question": "A customer writes: 'I am so stressed. I left my passport in your cab and my flight is in 3 hours.' Which response shows the best active listening and empathy?",
+    "scenario": "Stressful lost passport",
+    "options": {
+      "A": "We are not responsible for left items. Please fill a form.",
+      "B": "I understand how incredibly stressful this must be, especially with your flight leaving soon. Let me contact the driver immediately to help locate your passport.",
+      "C": "Relax, passport can be remade at the embassy.",
+      "D": "Why did you forget your passport? That is very careless."
+    },
+    "answer": "B",
+    "explanation": "Active empathy involves validating the customer's specific emotion ('stressful') and urgency ('flight leaving soon'), and taking immediate action.",
+    "skill": "Active Listening & Reassurance"
+  },
+  {
+    "id": 192,
+    "question": "A customer is complaining about a double payment: 'This app is stealing my money!' How do you frame the response using positive phrasing?",
+    "scenario": "Double charge positive framing",
+    "options": {
+      "A": "We cannot refund you until we check the banks. Do not accuse us of stealing.",
+      "B": "Let's get this resolved for you. I will check your payment history right now and ensure any extra charges are reversed to your account immediately.",
+      "C": "You are wrong. It is just a temporary hold.",
+      "D": "Please wait for 3 days and don't message us again."
+    },
+    "answer": "B",
+    "explanation": "Positive framing focuses on resolution, action, and assistance, rather than defensiveness or negative rules.",
+    "skill": "Positive Framing"
+  },
+  {
+    "id": 193,
+    "question": "Which of these phrases is considered 'Robotic/Scripted' and should be avoided in personalized live chat support?",
+    "scenario": "Avoiding robotic phrases",
+    "options": {
+      "A": "I'll check that for you right now.",
+      "B": "I am sorry for the inconvenience caused. Your satisfaction is our top priority. Please wait while I pull up your details.",
+      "C": "Let's look at the trip map together to see what happened.",
+      "D": "I understand you're disappointed with the route."
+    },
+    "answer": "B",
+    "explanation": "Generic apologies like 'sorry for the inconvenience caused' sound robotic and impersonal in live chat. Personalized, conversational language is much better.",
+    "skill": "Conversational Tone"
+  },
+  {
+    "id": 194,
+    "question": "A rider writes: 'The driver yelled at me and made me feel unsafe.' What is the best initial empathy statement?",
+    "scenario": "Safety complaint empathy",
+    "options": {
+      "A": "I am sorry the driver was in a bad mood.",
+      "B": "I am deeply sorry to hear about this experience. Feeling safe during a ride is absolutely essential, and I want to assure you we are taking this very seriously.",
+      "C": "Please rate the driver 1 star and report him.",
+      "D": "Did you say something to make him angry?"
+    },
+    "answer": "B",
+    "explanation": "For safety issues, validate the customer's feeling of safety, apologize sincerely, and assure them of serious action.",
+    "skill": "Safety Empathy"
+  },
+  {
+    "id": 195,
+    "question": "A passenger named James says: 'The app crashed during my ride and I couldn't see the price.' How do you show accountability?",
+    "scenario": "App crash accountability",
+    "options": {
+      "A": "It is your phone's fault. Upgrade your device.",
+      "B": "I apologize for the app crashing during your ride, James. I know how frustrating it is to not see your fare. Let me look up the exact fare details for you right now.",
+      "C": "We don't guarantee app uptime. Read the terms of service.",
+      "D": "Wait for the receipt to email you."
+    },
+    "answer": "B",
+    "explanation": "Accountability means taking responsibility for the service failure (the app crashing) and moving directly to a solution.",
+    "skill": "Accountability"
+  },
+  {
+    "id": 196,
+    "question": "A customer writes: 'I am so stressed. I left my passport in your cab and my flight is in 3 hours.' Which response shows the best active listening and empathy?",
+    "scenario": "Stressful lost passport",
+    "options": {
+      "A": "We are not responsible for left items. Please fill a form.",
+      "B": "I understand how incredibly stressful this must be, especially with your flight leaving soon. Let me contact the driver immediately to help locate your passport.",
+      "C": "Relax, passport can be remade at the embassy.",
+      "D": "Why did you forget your passport? That is very careless."
+    },
+    "answer": "B",
+    "explanation": "Active empathy involves validating the customer's specific emotion ('stressful') and urgency ('flight leaving soon'), and taking immediate action.",
+    "skill": "Active Listening & Reassurance"
+  },
+  {
+    "id": 197,
+    "question": "A customer is complaining about a double payment: 'This app is stealing my money!' How do you frame the response using positive phrasing?",
+    "scenario": "Double charge positive framing",
+    "options": {
+      "A": "We cannot refund you until we check the banks. Do not accuse us of stealing.",
+      "B": "Let's get this resolved for you. I will check your payment history right now and ensure any extra charges are reversed to your account immediately.",
+      "C": "You are wrong. It is just a temporary hold.",
+      "D": "Please wait for 3 days and don't message us again."
+    },
+    "answer": "B",
+    "explanation": "Positive framing focuses on resolution, action, and assistance, rather than defensiveness or negative rules.",
+    "skill": "Positive Framing"
+  },
+  {
+    "id": 198,
+    "question": "Which of these phrases is considered 'Robotic/Scripted' and should be avoided in personalized live chat support?",
+    "scenario": "Avoiding robotic phrases",
+    "options": {
+      "A": "I'll check that for you right now.",
+      "B": "I am sorry for the inconvenience caused. Your satisfaction is our top priority. Please wait while I pull up your details.",
+      "C": "Let's look at the trip map together to see what happened.",
+      "D": "I understand you're disappointed with the route."
+    },
+    "answer": "B",
+    "explanation": "Generic apologies like 'sorry for the inconvenience caused' sound robotic and impersonal in live chat. Personalized, conversational language is much better.",
+    "skill": "Conversational Tone"
+  },
+  {
+    "id": 199,
+    "question": "A rider writes: 'The driver yelled at me and made me feel unsafe.' What is the best initial empathy statement?",
+    "scenario": "Safety complaint empathy",
+    "options": {
+      "A": "I am sorry the driver was in a bad mood.",
+      "B": "I am deeply sorry to hear about this experience. Feeling safe during a ride is absolutely essential, and I want to assure you we are taking this very seriously.",
+      "C": "Please rate the driver 1 star and report him.",
+      "D": "Did you say something to make him angry?"
+    },
+    "answer": "B",
+    "explanation": "For safety issues, validate the customer's feeling of safety, apologize sincerely, and assure them of serious action.",
+    "skill": "Safety Empathy"
+  },
+  {
+    "id": 200,
+    "question": "A passenger named Sarah says: 'The app crashed during my ride and I couldn't see the price.' How do you show accountability?",
+    "scenario": "App crash accountability",
+    "options": {
+      "A": "It is your phone's fault. Upgrade your device.",
+      "B": "I apologize for the app crashing during your ride, Sarah. I know how frustrating it is to not see your fare. Let me look up the exact fare details for you right now.",
+      "C": "We don't guarantee app uptime. Read the terms of service.",
+      "D": "Wait for the receipt to email you."
+    },
+    "answer": "B",
+    "explanation": "Accountability means taking responsibility for the service failure (the app crashing) and moving directly to a solution.",
+    "skill": "Accountability"
+  }
+]

@@ -1,0 +1,2802 @@
+[
+  {
+    "id": 1,
+    "question": "A USA customer named Jessica messages: 'I was charged $10.00 for a no-show but I was literally standing on the corner! This is a total rip-off.' What does 'rip-off' mean here and how do you respond?",
+    "scenario": "USA customer complains about cancellation fee using slang",
+    "options": {
+      "A": "Tell them to calm down and explain that a rip-off is a crime which we didn't do.",
+      "B": "A rip-off means an unfair price or cheat. You say: 'I understand you're frustrated, Jessica. Let me check this cancellation charge for you right now.'",
+      "C": "Say: 'I apologize for the rip-off. I will refund you right away.'",
+      "D": "Say: 'Please wait. Our drivers never lie, so you must have been late.'"
+    },
+    "answer": "B",
+    "explanation": "USA customers appreciate active, direct help. Acknowledging their frustration and defining the issue professionally is key. 'Rip-off' means an overcharge or cheat.",
+    "skill": "Slang Understanding & Empathy"
+  },
+  {
+    "id": 2,
+    "question": "An American client writes: 'My driver is taking a massive detour, I'm going to beat the clock to my meeting at LAX Airport. Can you ping him?' What does 'beat the clock' mean?",
+    "scenario": "USA rider in a hurry",
+    "options": {
+      "A": "It means to damage the clock in the car.",
+      "B": "It means to arrive or finish before a deadline/limit. You should reassure the customer and check the route immediately.",
+      "C": "It means they want to pay by cash instead.",
+      "D": "It means they are canceling the ride."
+    },
+    "answer": "B",
+    "explanation": "'Beat the clock' means to finish or arrive before a certain time. Recognizing this urgency helps you offer fast, reassuring support.",
+    "skill": "American Idioms"
+  },
+  {
+    "id": 3,
+    "question": "A rider says: 'I need to split the fare with my coworker for the trip to LAX Airport. The app is acting up.' What is the best direct response?",
+    "scenario": "Fare splitting issue",
+    "options": {
+      "A": "I'm sorry, you cannot split the fare. Please pay separately.",
+      "B": "I understand you need to split the bill, John. Let me guide you on how to do it in the app, or I can check the trip status for you.",
+      "C": "Wait for 24 hours and the system will split it automatically.",
+      "D": "Why do you want to split the fare? It's easier if one person pays."
+    },
+    "answer": "B",
+    "explanation": "USA users expect direct, practical guideance when app features like fare splitting fail or are confusing.",
+    "skill": "Direct Problem Solving"
+  },
+  {
+    "id": 4,
+    "question": "A customer in San Francisco says: 'My ride hit a snag and now I'm stuck on the highway.' What does 'hit a snag' mean?",
+    "scenario": "USA idiom check",
+    "options": {
+      "A": "The vehicle was involved in a severe crash.",
+      "B": "Encountered an unexpected problem or obstacle.",
+      "C": "The driver took a wrong exit on purpose.",
+      "D": "The app stopped responding."
+    },
+    "answer": "B",
+    "explanation": "'Hit a snag' means encountering a minor or unexpected obstacle. Identifying this quickly helps you provide appropriate guidance.",
+    "skill": "American English Vocabulary"
+  },
+  {
+    "id": 5,
+    "question": "A rider named Sarah says: 'That trip was a bust. The driver's car was dirty and smelled like smoke.' What does 'a bust' mean?",
+    "scenario": "Vehicle quality complaint",
+    "options": {
+      "A": "A complete failure or disappointment.",
+      "B": "A very successful ride.",
+      "C": "An expensive trip.",
+      "D": "A fast ride."
+    },
+    "answer": "A",
+    "explanation": "'A bust' is US slang for a failure or disappointment. Empathize with the poor quality and check if a refund/rating adjustment is needed.",
+    "skill": "Slang & Quality Support"
+  },
+  {
+    "id": 6,
+    "question": "An American driver messages: 'The rider left a mess in my backseat and I want a cleaning fee. I have photos.' What is the best direct action?",
+    "scenario": "Driver clean-up fee request",
+    "options": {
+      "A": "Tell the driver to clean it themselves as it's part of their job.",
+      "B": "Say: 'Hey! Send me the pictures and I'll see what I can do.'",
+      "C": "Say: 'Thank you for reporting this, Driver Marcus. Let's get this sorted out. Please upload the photos here, and I'll review and apply the cleaning fee accordingly.'",
+      "D": "Tell them to report it to the local police department."
+    },
+    "answer": "C",
+    "explanation": "Professional driver support requires structured guidance, direct reassurance ('Let's get this sorted out'), and clear instructions.",
+    "skill": "Driver Relations & Empathy"
+  },
+  {
+    "id": 7,
+    "question": "A US passenger writes: 'Can you pull up my receipt for trip #230889?' What is the most natural, helpful reply?",
+    "scenario": "Receipt request",
+    "options": {
+      "A": "No, you can check it yourself in your email inbox.",
+      "B": "Sure, Megan. I can pull that up for you right now. I will also resend it to your registered email address.",
+      "C": "Please wait while I search our servers. It takes about an hour.",
+      "D": "Why do you need the receipt? Please verify your identity first."
+    },
+    "answer": "B",
+    "explanation": "'Pull up' means to locate or retrieve information. Prompt and polite fulfillment of receipt requests is standard in US customer service.",
+    "skill": "Action-Oriented Communication"
+  },
+  {
+    "id": 8,
+    "question": "A customer says: 'Just giving you a heads up, the driver was texting while driving.' What does 'heads up' mean?",
+    "scenario": "Safety reporting",
+    "options": {
+      "A": "An advance warning or notification.",
+      "B": "An angry complaint.",
+      "C": "A polite greeting.",
+      "D": "An official demand."
+    },
+    "answer": "A",
+    "explanation": "A 'heads up' is a warning or alert. Safety reports like texting while driving must be escalated immediately to the Safety Team.",
+    "skill": "Safety Escalation & Slang"
+  },
+  {
+    "id": 9,
+    "question": "A customer in New York chats: 'My driver is driving around the block repeatedly. I think he is trying to inflate the fare.' What is the best way to handle this?",
+    "scenario": "Fare inflation concern",
+    "options": {
+      "A": "Tell them the driver knows the route better than they do.",
+      "B": "Say: 'I see what you mean, Chris. Let me check the GPS path of your ride in real-time and review the fare calculation. If there's an error, I will adjust it for you.'",
+      "C": "Suggest that they cancel the ride and call another one.",
+      "D": "Disconnect the chat as it's a dispute in progress."
+    },
+    "answer": "B",
+    "explanation": "USA customers appreciate active monitoring and assurance that their money is protected against fare inflation.",
+    "skill": "Fraud & Route Verification"
+  },
+  {
+    "id": 10,
+    "question": "A US client says: 'I'm in a bind. I left my laptop in the trunk and my flight leaves in 2 hours.' What does 'in a bind' mean?",
+    "scenario": "Lost item urgency",
+    "options": {
+      "A": "In a secure position.",
+      "B": "In a difficult or tight situation.",
+      "C": "Very angry and aggressive.",
+      "D": "Satisfied with support."
+    },
+    "answer": "B",
+    "explanation": "'In a bind' means in distress or a difficult situation. High-urgency lost items (like laptops, passports) before flights need immediate outreach to the driver.",
+    "skill": "Urgency Handling & Idioms"
+  },
+  {
+    "id": 11,
+    "question": "A USA customer named Megan messages: 'I was charged $75.00 for a no-show but I was literally standing on the corner! This is a total rip-off.' What does 'rip-off' mean here and how do you respond?",
+    "scenario": "USA customer complains about cancellation fee using slang",
+    "options": {
+      "A": "Tell them to calm down and explain that a rip-off is a crime which we didn't do.",
+      "B": "A rip-off means an unfair price or cheat. You say: 'I understand you're frustrated, Megan. Let me check this cancellation charge for you right now.'",
+      "C": "Say: 'I apologize for the rip-off. I will refund you right away.'",
+      "D": "Say: 'Please wait. Our drivers never lie, so you must have been late.'"
+    },
+    "answer": "B",
+    "explanation": "USA customers appreciate active, direct help. Acknowledging their frustration and defining the issue professionally is key. 'Rip-off' means an overcharge or cheat.",
+    "skill": "Slang Understanding & Empathy"
+  },
+  {
+    "id": 12,
+    "question": "An American client writes: 'My driver is taking a massive detour, I'm going to beat the clock to my meeting at Times Square. Can you ping him?' What does 'beat the clock' mean?",
+    "scenario": "USA rider in a hurry",
+    "options": {
+      "A": "It means to damage the clock in the car.",
+      "B": "It means to arrive or finish before a deadline/limit. You should reassure the customer and check the route immediately.",
+      "C": "It means they want to pay by cash instead.",
+      "D": "It means they are canceling the ride."
+    },
+    "answer": "B",
+    "explanation": "'Beat the clock' means to finish or arrive before a certain time. Recognizing this urgency helps you offer fast, reassuring support.",
+    "skill": "American Idioms"
+  },
+  {
+    "id": 13,
+    "question": "A rider says: 'I need to split the fare with my coworker for the trip to Broadway. The app is acting up.' What is the best direct response?",
+    "scenario": "Fare splitting issue",
+    "options": {
+      "A": "I'm sorry, you cannot split the fare. Please pay separately.",
+      "B": "I understand you need to split the bill, Ashley. Let me guide you on how to do it in the app, or I can check the trip status for you.",
+      "C": "Wait for 24 hours and the system will split it automatically.",
+      "D": "Why do you want to split the fare? It's easier if one person pays."
+    },
+    "answer": "B",
+    "explanation": "USA users expect direct, practical guideance when app features like fare splitting fail or are confusing.",
+    "skill": "Direct Problem Solving"
+  },
+  {
+    "id": 14,
+    "question": "A customer in Chicago says: 'My ride hit a snag and now I'm stuck on the highway.' What does 'hit a snag' mean?",
+    "scenario": "USA idiom check",
+    "options": {
+      "A": "The vehicle was involved in a severe crash.",
+      "B": "Encountered an unexpected problem or obstacle.",
+      "C": "The driver took a wrong exit on purpose.",
+      "D": "The app stopped responding."
+    },
+    "answer": "B",
+    "explanation": "'Hit a snag' means encountering a minor or unexpected obstacle. Identifying this quickly helps you provide appropriate guidance.",
+    "skill": "American English Vocabulary"
+  },
+  {
+    "id": 15,
+    "question": "A rider named Heather says: 'That trip was a bust. The driver's car was dirty and smelled like smoke.' What does 'a bust' mean?",
+    "scenario": "Vehicle quality complaint",
+    "options": {
+      "A": "A complete failure or disappointment.",
+      "B": "A very successful ride.",
+      "C": "An expensive trip.",
+      "D": "A fast ride."
+    },
+    "answer": "A",
+    "explanation": "'A bust' is US slang for a failure or disappointment. Empathize with the poor quality and check if a refund/rating adjustment is needed.",
+    "skill": "Slang & Quality Support"
+  },
+  {
+    "id": 16,
+    "question": "An American driver messages: 'The rider left a mess in my backseat and I want a cleaning fee. I have photos.' What is the best direct action?",
+    "scenario": "Driver clean-up fee request",
+    "options": {
+      "A": "Tell the driver to clean it themselves as it's part of their job.",
+      "B": "Say: 'Hey! Send me the pictures and I'll see what I can do.'",
+      "C": "Say: 'Thank you for reporting this, Driver Liam. Let's get this sorted out. Please upload the photos here, and I'll review and apply the cleaning fee accordingly.'",
+      "D": "Tell them to report it to the local police department."
+    },
+    "answer": "C",
+    "explanation": "Professional driver support requires structured guidance, direct reassurance ('Let's get this sorted out'), and clear instructions.",
+    "skill": "Driver Relations & Empathy"
+  },
+  {
+    "id": 17,
+    "question": "A US passenger writes: 'Can you pull up my receipt for trip #260265?' What is the most natural, helpful reply?",
+    "scenario": "Receipt request",
+    "options": {
+      "A": "No, you can check it yourself in your email inbox.",
+      "B": "Sure, David. I can pull that up for you right now. I will also resend it to your registered email address.",
+      "C": "Please wait while I search our servers. It takes about an hour.",
+      "D": "Why do you need the receipt? Please verify your identity first."
+    },
+    "answer": "B",
+    "explanation": "'Pull up' means to locate or retrieve information. Prompt and polite fulfillment of receipt requests is standard in US customer service.",
+    "skill": "Action-Oriented Communication"
+  },
+  {
+    "id": 18,
+    "question": "A customer says: 'Just giving you a heads up, the driver was texting while driving.' What does 'heads up' mean?",
+    "scenario": "Safety reporting",
+    "options": {
+      "A": "An advance warning or notification.",
+      "B": "An angry complaint.",
+      "C": "A polite greeting.",
+      "D": "An official demand."
+    },
+    "answer": "A",
+    "explanation": "A 'heads up' is a warning or alert. Safety reports like texting while driving must be escalated immediately to the Safety Team.",
+    "skill": "Safety Escalation & Slang"
+  },
+  {
+    "id": 19,
+    "question": "A customer in Los Angeles chats: 'My driver is driving around the block repeatedly. I think he is trying to inflate the fare.' What is the best way to handle this?",
+    "scenario": "Fare inflation concern",
+    "options": {
+      "A": "Tell them the driver knows the route better than they do.",
+      "B": "Say: 'I see what you mean, Matthew. Let me check the GPS path of your ride in real-time and review the fare calculation. If there's an error, I will adjust it for you.'",
+      "C": "Suggest that they cancel the ride and call another one.",
+      "D": "Disconnect the chat as it's a dispute in progress."
+    },
+    "answer": "B",
+    "explanation": "USA customers appreciate active monitoring and assurance that their money is protected against fare inflation.",
+    "skill": "Fraud & Route Verification"
+  },
+  {
+    "id": 20,
+    "question": "A US client says: 'I'm in a bind. I left my laptop in the trunk and my flight leaves in 2 hours.' What does 'in a bind' mean?",
+    "scenario": "Lost item urgency",
+    "options": {
+      "A": "In a secure position.",
+      "B": "In a difficult or tight situation.",
+      "C": "Very angry and aggressive.",
+      "D": "Satisfied with support."
+    },
+    "answer": "B",
+    "explanation": "'In a bind' means in distress or a difficult situation. High-urgency lost items (like laptops, passports) before flights need immediate outreach to the driver.",
+    "skill": "Urgency Handling & Idioms"
+  },
+  {
+    "id": 21,
+    "question": "A USA customer named Sarah messages: 'I was charged $10.00 for a no-show but I was literally standing on the corner! This is a total rip-off.' What does 'rip-off' mean here and how do you respond?",
+    "scenario": "USA customer complains about cancellation fee using slang",
+    "options": {
+      "A": "Tell them to calm down and explain that a rip-off is a crime which we didn't do.",
+      "B": "A rip-off means an unfair price or cheat. You say: 'I understand you're frustrated, Sarah. Let me check this cancellation charge for you right now.'",
+      "C": "Say: 'I apologize for the rip-off. I will refund you right away.'",
+      "D": "Say: 'Please wait. Our drivers never lie, so you must have been late.'"
+    },
+    "answer": "B",
+    "explanation": "USA customers appreciate active, direct help. Acknowledging their frustration and defining the issue professionally is key. 'Rip-off' means an overcharge or cheat.",
+    "skill": "Slang Understanding & Empathy"
+  },
+  {
+    "id": 22,
+    "question": "An American client writes: 'My driver is taking a massive detour, I'm going to beat the clock to my meeting at Broadway. Can you ping him?' What does 'beat the clock' mean?",
+    "scenario": "USA rider in a hurry",
+    "options": {
+      "A": "It means to damage the clock in the car.",
+      "B": "It means to arrive or finish before a deadline/limit. You should reassure the customer and check the route immediately.",
+      "C": "It means they want to pay by cash instead.",
+      "D": "It means they are canceling the ride."
+    },
+    "answer": "B",
+    "explanation": "'Beat the clock' means to finish or arrive before a certain time. Recognizing this urgency helps you offer fast, reassuring support.",
+    "skill": "American Idioms"
+  },
+  {
+    "id": 23,
+    "question": "A rider says: 'I need to split the fare with my coworker for the trip to Broadway. The app is acting up.' What is the best direct response?",
+    "scenario": "Fare splitting issue",
+    "options": {
+      "A": "I'm sorry, you cannot split the fare. Please pay separately.",
+      "B": "I understand you need to split the bill, Emily. Let me guide you on how to do it in the app, or I can check the trip status for you.",
+      "C": "Wait for 24 hours and the system will split it automatically.",
+      "D": "Why do you want to split the fare? It's easier if one person pays."
+    },
+    "answer": "B",
+    "explanation": "USA users expect direct, practical guideance when app features like fare splitting fail or are confusing.",
+    "skill": "Direct Problem Solving"
+  },
+  {
+    "id": 24,
+    "question": "A customer in Los Angeles says: 'My ride hit a snag and now I'm stuck on the highway.' What does 'hit a snag' mean?",
+    "scenario": "USA idiom check",
+    "options": {
+      "A": "The vehicle was involved in a severe crash.",
+      "B": "Encountered an unexpected problem or obstacle.",
+      "C": "The driver took a wrong exit on purpose.",
+      "D": "The app stopped responding."
+    },
+    "answer": "B",
+    "explanation": "'Hit a snag' means encountering a minor or unexpected obstacle. Identifying this quickly helps you provide appropriate guidance.",
+    "skill": "American English Vocabulary"
+  },
+  {
+    "id": 25,
+    "question": "A rider named John says: 'That trip was a bust. The driver's car was dirty and smelled like smoke.' What does 'a bust' mean?",
+    "scenario": "Vehicle quality complaint",
+    "options": {
+      "A": "A complete failure or disappointment.",
+      "B": "A very successful ride.",
+      "C": "An expensive trip.",
+      "D": "A fast ride."
+    },
+    "answer": "A",
+    "explanation": "'A bust' is US slang for a failure or disappointment. Empathize with the poor quality and check if a refund/rating adjustment is needed.",
+    "skill": "Slang & Quality Support"
+  },
+  {
+    "id": 26,
+    "question": "An American driver messages: 'The rider left a mess in my backseat and I want a cleaning fee. I have photos.' What is the best direct action?",
+    "scenario": "Driver clean-up fee request",
+    "options": {
+      "A": "Tell the driver to clean it themselves as it's part of their job.",
+      "B": "Say: 'Hey! Send me the pictures and I'll see what I can do.'",
+      "C": "Say: 'Thank you for reporting this, Driver Ahmed. Let's get this sorted out. Please upload the photos here, and I'll review and apply the cleaning fee accordingly.'",
+      "D": "Tell them to report it to the local police department."
+    },
+    "answer": "C",
+    "explanation": "Professional driver support requires structured guidance, direct reassurance ('Let's get this sorted out'), and clear instructions.",
+    "skill": "Driver Relations & Empathy"
+  },
+  {
+    "id": 27,
+    "question": "A US passenger writes: 'Can you pull up my receipt for trip #804314?' What is the most natural, helpful reply?",
+    "scenario": "Receipt request",
+    "options": {
+      "A": "No, you can check it yourself in your email inbox.",
+      "B": "Sure, Chris. I can pull that up for you right now. I will also resend it to your registered email address.",
+      "C": "Please wait while I search our servers. It takes about an hour.",
+      "D": "Why do you need the receipt? Please verify your identity first."
+    },
+    "answer": "B",
+    "explanation": "'Pull up' means to locate or retrieve information. Prompt and polite fulfillment of receipt requests is standard in US customer service.",
+    "skill": "Action-Oriented Communication"
+  },
+  {
+    "id": 28,
+    "question": "A customer says: 'Just giving you a heads up, the driver was texting while driving.' What does 'heads up' mean?",
+    "scenario": "Safety reporting",
+    "options": {
+      "A": "An advance warning or notification.",
+      "B": "An angry complaint.",
+      "C": "A polite greeting.",
+      "D": "An official demand."
+    },
+    "answer": "A",
+    "explanation": "A 'heads up' is a warning or alert. Safety reports like texting while driving must be escalated immediately to the Safety Team.",
+    "skill": "Safety Escalation & Slang"
+  },
+  {
+    "id": 29,
+    "question": "A customer in New York chats: 'My driver is driving around the block repeatedly. I think he is trying to inflate the fare.' What is the best way to handle this?",
+    "scenario": "Fare inflation concern",
+    "options": {
+      "A": "Tell them the driver knows the route better than they do.",
+      "B": "Say: 'I see what you mean, John. Let me check the GPS path of your ride in real-time and review the fare calculation. If there's an error, I will adjust it for you.'",
+      "C": "Suggest that they cancel the ride and call another one.",
+      "D": "Disconnect the chat as it's a dispute in progress."
+    },
+    "answer": "B",
+    "explanation": "USA customers appreciate active monitoring and assurance that their money is protected against fare inflation.",
+    "skill": "Fraud & Route Verification"
+  },
+  {
+    "id": 30,
+    "question": "A US client says: 'I'm in a bind. I left my laptop in the trunk and my flight leaves in 2 hours.' What does 'in a bind' mean?",
+    "scenario": "Lost item urgency",
+    "options": {
+      "A": "In a secure position.",
+      "B": "In a difficult or tight situation.",
+      "C": "Very angry and aggressive.",
+      "D": "Satisfied with support."
+    },
+    "answer": "B",
+    "explanation": "'In a bind' means in distress or a difficult situation. High-urgency lost items (like laptops, passports) before flights need immediate outreach to the driver.",
+    "skill": "Urgency Handling & Idioms"
+  },
+  {
+    "id": 31,
+    "question": "A USA customer named Michael messages: 'I was charged $45.00 for a no-show but I was literally standing on the corner! This is a total rip-off.' What does 'rip-off' mean here and how do you respond?",
+    "scenario": "USA customer complains about cancellation fee using slang",
+    "options": {
+      "A": "Tell them to calm down and explain that a rip-off is a crime which we didn't do.",
+      "B": "A rip-off means an unfair price or cheat. You say: 'I understand you're frustrated, Michael. Let me check this cancellation charge for you right now.'",
+      "C": "Say: 'I apologize for the rip-off. I will refund you right away.'",
+      "D": "Say: 'Please wait. Our drivers never lie, so you must have been late.'"
+    },
+    "answer": "B",
+    "explanation": "USA customers appreciate active, direct help. Acknowledging their frustration and defining the issue professionally is key. 'Rip-off' means an overcharge or cheat.",
+    "skill": "Slang Understanding & Empathy"
+  },
+  {
+    "id": 32,
+    "question": "An American client writes: 'My driver is taking a massive detour, I'm going to beat the clock to my meeting at Union Station. Can you ping him?' What does 'beat the clock' mean?",
+    "scenario": "USA rider in a hurry",
+    "options": {
+      "A": "It means to damage the clock in the car.",
+      "B": "It means to arrive or finish before a deadline/limit. You should reassure the customer and check the route immediately.",
+      "C": "It means they want to pay by cash instead.",
+      "D": "It means they are canceling the ride."
+    },
+    "answer": "B",
+    "explanation": "'Beat the clock' means to finish or arrive before a certain time. Recognizing this urgency helps you offer fast, reassuring support.",
+    "skill": "American Idioms"
+  },
+  {
+    "id": 33,
+    "question": "A rider says: 'I need to split the fare with my coworker for the trip to LAX Airport. The app is acting up.' What is the best direct response?",
+    "scenario": "Fare splitting issue",
+    "options": {
+      "A": "I'm sorry, you cannot split the fare. Please pay separately.",
+      "B": "I understand you need to split the bill, Ashley. Let me guide you on how to do it in the app, or I can check the trip status for you.",
+      "C": "Wait for 24 hours and the system will split it automatically.",
+      "D": "Why do you want to split the fare? It's easier if one person pays."
+    },
+    "answer": "B",
+    "explanation": "USA users expect direct, practical guideance when app features like fare splitting fail or are confusing.",
+    "skill": "Direct Problem Solving"
+  },
+  {
+    "id": 34,
+    "question": "A customer in San Francisco says: 'My ride hit a snag and now I'm stuck on the highway.' What does 'hit a snag' mean?",
+    "scenario": "USA idiom check",
+    "options": {
+      "A": "The vehicle was involved in a severe crash.",
+      "B": "Encountered an unexpected problem or obstacle.",
+      "C": "The driver took a wrong exit on purpose.",
+      "D": "The app stopped responding."
+    },
+    "answer": "B",
+    "explanation": "'Hit a snag' means encountering a minor or unexpected obstacle. Identifying this quickly helps you provide appropriate guidance.",
+    "skill": "American English Vocabulary"
+  },
+  {
+    "id": 35,
+    "question": "A rider named Jessica says: 'That trip was a bust. The driver's car was dirty and smelled like smoke.' What does 'a bust' mean?",
+    "scenario": "Vehicle quality complaint",
+    "options": {
+      "A": "A complete failure or disappointment.",
+      "B": "A very successful ride.",
+      "C": "An expensive trip.",
+      "D": "A fast ride."
+    },
+    "answer": "A",
+    "explanation": "'A bust' is US slang for a failure or disappointment. Empathize with the poor quality and check if a refund/rating adjustment is needed.",
+    "skill": "Slang & Quality Support"
+  },
+  {
+    "id": 36,
+    "question": "An American driver messages: 'The rider left a mess in my backseat and I want a cleaning fee. I have photos.' What is the best direct action?",
+    "scenario": "Driver clean-up fee request",
+    "options": {
+      "A": "Tell the driver to clean it themselves as it's part of their job.",
+      "B": "Say: 'Hey! Send me the pictures and I'll see what I can do.'",
+      "C": "Say: 'Thank you for reporting this, Driver Dmitry. Let's get this sorted out. Please upload the photos here, and I'll review and apply the cleaning fee accordingly.'",
+      "D": "Tell them to report it to the local police department."
+    },
+    "answer": "C",
+    "explanation": "Professional driver support requires structured guidance, direct reassurance ('Let's get this sorted out'), and clear instructions.",
+    "skill": "Driver Relations & Empathy"
+  },
+  {
+    "id": 37,
+    "question": "A US passenger writes: 'Can you pull up my receipt for trip #202664?' What is the most natural, helpful reply?",
+    "scenario": "Receipt request",
+    "options": {
+      "A": "No, you can check it yourself in your email inbox.",
+      "B": "Sure, Robert. I can pull that up for you right now. I will also resend it to your registered email address.",
+      "C": "Please wait while I search our servers. It takes about an hour.",
+      "D": "Why do you need the receipt? Please verify your identity first."
+    },
+    "answer": "B",
+    "explanation": "'Pull up' means to locate or retrieve information. Prompt and polite fulfillment of receipt requests is standard in US customer service.",
+    "skill": "Action-Oriented Communication"
+  },
+  {
+    "id": 38,
+    "question": "A customer says: 'Just giving you a heads up, the driver was texting while driving.' What does 'heads up' mean?",
+    "scenario": "Safety reporting",
+    "options": {
+      "A": "An advance warning or notification.",
+      "B": "An angry complaint.",
+      "C": "A polite greeting.",
+      "D": "An official demand."
+    },
+    "answer": "A",
+    "explanation": "A 'heads up' is a warning or alert. Safety reports like texting while driving must be escalated immediately to the Safety Team.",
+    "skill": "Safety Escalation & Slang"
+  },
+  {
+    "id": 39,
+    "question": "A customer in Chicago chats: 'My driver is driving around the block repeatedly. I think he is trying to inflate the fare.' What is the best way to handle this?",
+    "scenario": "Fare inflation concern",
+    "options": {
+      "A": "Tell them the driver knows the route better than they do.",
+      "B": "Say: 'I see what you mean, Heather. Let me check the GPS path of your ride in real-time and review the fare calculation. If there's an error, I will adjust it for you.'",
+      "C": "Suggest that they cancel the ride and call another one.",
+      "D": "Disconnect the chat as it's a dispute in progress."
+    },
+    "answer": "B",
+    "explanation": "USA customers appreciate active monitoring and assurance that their money is protected against fare inflation.",
+    "skill": "Fraud & Route Verification"
+  },
+  {
+    "id": 40,
+    "question": "A US client says: 'I'm in a bind. I left my laptop in the trunk and my flight leaves in 2 hours.' What does 'in a bind' mean?",
+    "scenario": "Lost item urgency",
+    "options": {
+      "A": "In a secure position.",
+      "B": "In a difficult or tight situation.",
+      "C": "Very angry and aggressive.",
+      "D": "Satisfied with support."
+    },
+    "answer": "B",
+    "explanation": "'In a bind' means in distress or a difficult situation. High-urgency lost items (like laptops, passports) before flights need immediate outreach to the driver.",
+    "skill": "Urgency Handling & Idioms"
+  },
+  {
+    "id": 41,
+    "question": "A USA customer named Heather messages: 'I was charged $15.00 for a no-show but I was literally standing on the corner! This is a total rip-off.' What does 'rip-off' mean here and how do you respond?",
+    "scenario": "USA customer complains about cancellation fee using slang",
+    "options": {
+      "A": "Tell them to calm down and explain that a rip-off is a crime which we didn't do.",
+      "B": "A rip-off means an unfair price or cheat. You say: 'I understand you're frustrated, Heather. Let me check this cancellation charge for you right now.'",
+      "C": "Say: 'I apologize for the rip-off. I will refund you right away.'",
+      "D": "Say: 'Please wait. Our drivers never lie, so you must have been late.'"
+    },
+    "answer": "B",
+    "explanation": "USA customers appreciate active, direct help. Acknowledging their frustration and defining the issue professionally is key. 'Rip-off' means an overcharge or cheat.",
+    "skill": "Slang Understanding & Empathy"
+  },
+  {
+    "id": 42,
+    "question": "An American client writes: 'My driver is taking a massive detour, I'm going to beat the clock to my meeting at Times Square. Can you ping him?' What does 'beat the clock' mean?",
+    "scenario": "USA rider in a hurry",
+    "options": {
+      "A": "It means to damage the clock in the car.",
+      "B": "It means to arrive or finish before a deadline/limit. You should reassure the customer and check the route immediately.",
+      "C": "It means they want to pay by cash instead.",
+      "D": "It means they are canceling the ride."
+    },
+    "answer": "B",
+    "explanation": "'Beat the clock' means to finish or arrive before a certain time. Recognizing this urgency helps you offer fast, reassuring support.",
+    "skill": "American Idioms"
+  },
+  {
+    "id": 43,
+    "question": "A rider says: 'I need to split the fare with my coworker for the trip to LAX Airport. The app is acting up.' What is the best direct response?",
+    "scenario": "Fare splitting issue",
+    "options": {
+      "A": "I'm sorry, you cannot split the fare. Please pay separately.",
+      "B": "I understand you need to split the bill, Emily. Let me guide you on how to do it in the app, or I can check the trip status for you.",
+      "C": "Wait for 24 hours and the system will split it automatically.",
+      "D": "Why do you want to split the fare? It's easier if one person pays."
+    },
+    "answer": "B",
+    "explanation": "USA users expect direct, practical guideance when app features like fare splitting fail or are confusing.",
+    "skill": "Direct Problem Solving"
+  },
+  {
+    "id": 44,
+    "question": "A customer in San Francisco says: 'My ride hit a snag and now I'm stuck on the highway.' What does 'hit a snag' mean?",
+    "scenario": "USA idiom check",
+    "options": {
+      "A": "The vehicle was involved in a severe crash.",
+      "B": "Encountered an unexpected problem or obstacle.",
+      "C": "The driver took a wrong exit on purpose.",
+      "D": "The app stopped responding."
+    },
+    "answer": "B",
+    "explanation": "'Hit a snag' means encountering a minor or unexpected obstacle. Identifying this quickly helps you provide appropriate guidance.",
+    "skill": "American English Vocabulary"
+  },
+  {
+    "id": 45,
+    "question": "A rider named Michael says: 'That trip was a bust. The driver's car was dirty and smelled like smoke.' What does 'a bust' mean?",
+    "scenario": "Vehicle quality complaint",
+    "options": {
+      "A": "A complete failure or disappointment.",
+      "B": "A very successful ride.",
+      "C": "An expensive trip.",
+      "D": "A fast ride."
+    },
+    "answer": "A",
+    "explanation": "'A bust' is US slang for a failure or disappointment. Empathize with the poor quality and check if a refund/rating adjustment is needed.",
+    "skill": "Slang & Quality Support"
+  },
+  {
+    "id": 46,
+    "question": "An American driver messages: 'The rider left a mess in my backseat and I want a cleaning fee. I have photos.' What is the best direct action?",
+    "scenario": "Driver clean-up fee request",
+    "options": {
+      "A": "Tell the driver to clean it themselves as it's part of their job.",
+      "B": "Say: 'Hey! Send me the pictures and I'll see what I can do.'",
+      "C": "Say: 'Thank you for reporting this, Driver Jose. Let's get this sorted out. Please upload the photos here, and I'll review and apply the cleaning fee accordingly.'",
+      "D": "Tell them to report it to the local police department."
+    },
+    "answer": "C",
+    "explanation": "Professional driver support requires structured guidance, direct reassurance ('Let's get this sorted out'), and clear instructions.",
+    "skill": "Driver Relations & Empathy"
+  },
+  {
+    "id": 47,
+    "question": "A US passenger writes: 'Can you pull up my receipt for trip #109767?' What is the most natural, helpful reply?",
+    "scenario": "Receipt request",
+    "options": {
+      "A": "No, you can check it yourself in your email inbox.",
+      "B": "Sure, Brian. I can pull that up for you right now. I will also resend it to your registered email address.",
+      "C": "Please wait while I search our servers. It takes about an hour.",
+      "D": "Why do you need the receipt? Please verify your identity first."
+    },
+    "answer": "B",
+    "explanation": "'Pull up' means to locate or retrieve information. Prompt and polite fulfillment of receipt requests is standard in US customer service.",
+    "skill": "Action-Oriented Communication"
+  },
+  {
+    "id": 48,
+    "question": "A customer says: 'Just giving you a heads up, the driver was texting while driving.' What does 'heads up' mean?",
+    "scenario": "Safety reporting",
+    "options": {
+      "A": "An advance warning or notification.",
+      "B": "An angry complaint.",
+      "C": "A polite greeting.",
+      "D": "An official demand."
+    },
+    "answer": "A",
+    "explanation": "A 'heads up' is a warning or alert. Safety reports like texting while driving must be escalated immediately to the Safety Team.",
+    "skill": "Safety Escalation & Slang"
+  },
+  {
+    "id": 49,
+    "question": "A customer in Los Angeles chats: 'My driver is driving around the block repeatedly. I think he is trying to inflate the fare.' What is the best way to handle this?",
+    "scenario": "Fare inflation concern",
+    "options": {
+      "A": "Tell them the driver knows the route better than they do.",
+      "B": "Say: 'I see what you mean, Robert. Let me check the GPS path of your ride in real-time and review the fare calculation. If there's an error, I will adjust it for you.'",
+      "C": "Suggest that they cancel the ride and call another one.",
+      "D": "Disconnect the chat as it's a dispute in progress."
+    },
+    "answer": "B",
+    "explanation": "USA customers appreciate active monitoring and assurance that their money is protected against fare inflation.",
+    "skill": "Fraud & Route Verification"
+  },
+  {
+    "id": 50,
+    "question": "A US client says: 'I'm in a bind. I left my laptop in the trunk and my flight leaves in 2 hours.' What does 'in a bind' mean?",
+    "scenario": "Lost item urgency",
+    "options": {
+      "A": "In a secure position.",
+      "B": "In a difficult or tight situation.",
+      "C": "Very angry and aggressive.",
+      "D": "Satisfied with support."
+    },
+    "answer": "B",
+    "explanation": "'In a bind' means in distress or a difficult situation. High-urgency lost items (like laptops, passports) before flights need immediate outreach to the driver.",
+    "skill": "Urgency Handling & Idioms"
+  },
+  {
+    "id": 51,
+    "question": "A USA customer named Sarah messages: 'I was charged $75.00 for a no-show but I was literally standing on the corner! This is a total rip-off.' What does 'rip-off' mean here and how do you respond?",
+    "scenario": "USA customer complains about cancellation fee using slang",
+    "options": {
+      "A": "Tell them to calm down and explain that a rip-off is a crime which we didn't do.",
+      "B": "A rip-off means an unfair price or cheat. You say: 'I understand you're frustrated, Sarah. Let me check this cancellation charge for you right now.'",
+      "C": "Say: 'I apologize for the rip-off. I will refund you right away.'",
+      "D": "Say: 'Please wait. Our drivers never lie, so you must have been late.'"
+    },
+    "answer": "B",
+    "explanation": "USA customers appreciate active, direct help. Acknowledging their frustration and defining the issue professionally is key. 'Rip-off' means an overcharge or cheat.",
+    "skill": "Slang Understanding & Empathy"
+  },
+  {
+    "id": 52,
+    "question": "An American client writes: 'My driver is taking a massive detour, I'm going to beat the clock to my meeting at Broadway. Can you ping him?' What does 'beat the clock' mean?",
+    "scenario": "USA rider in a hurry",
+    "options": {
+      "A": "It means to damage the clock in the car.",
+      "B": "It means to arrive or finish before a deadline/limit. You should reassure the customer and check the route immediately.",
+      "C": "It means they want to pay by cash instead.",
+      "D": "It means they are canceling the ride."
+    },
+    "answer": "B",
+    "explanation": "'Beat the clock' means to finish or arrive before a certain time. Recognizing this urgency helps you offer fast, reassuring support.",
+    "skill": "American Idioms"
+  },
+  {
+    "id": 53,
+    "question": "A rider says: 'I need to split the fare with my coworker for the trip to Union Station. The app is acting up.' What is the best direct response?",
+    "scenario": "Fare splitting issue",
+    "options": {
+      "A": "I'm sorry, you cannot split the fare. Please pay separately.",
+      "B": "I understand you need to split the bill, Chris. Let me guide you on how to do it in the app, or I can check the trip status for you.",
+      "C": "Wait for 24 hours and the system will split it automatically.",
+      "D": "Why do you want to split the fare? It's easier if one person pays."
+    },
+    "answer": "B",
+    "explanation": "USA users expect direct, practical guideance when app features like fare splitting fail or are confusing.",
+    "skill": "Direct Problem Solving"
+  },
+  {
+    "id": 54,
+    "question": "A customer in New York says: 'My ride hit a snag and now I'm stuck on the highway.' What does 'hit a snag' mean?",
+    "scenario": "USA idiom check",
+    "options": {
+      "A": "The vehicle was involved in a severe crash.",
+      "B": "Encountered an unexpected problem or obstacle.",
+      "C": "The driver took a wrong exit on purpose.",
+      "D": "The app stopped responding."
+    },
+    "answer": "B",
+    "explanation": "'Hit a snag' means encountering a minor or unexpected obstacle. Identifying this quickly helps you provide appropriate guidance.",
+    "skill": "American English Vocabulary"
+  },
+  {
+    "id": 55,
+    "question": "A rider named Sarah says: 'That trip was a bust. The driver's car was dirty and smelled like smoke.' What does 'a bust' mean?",
+    "scenario": "Vehicle quality complaint",
+    "options": {
+      "A": "A complete failure or disappointment.",
+      "B": "A very successful ride.",
+      "C": "An expensive trip.",
+      "D": "A fast ride."
+    },
+    "answer": "A",
+    "explanation": "'A bust' is US slang for a failure or disappointment. Empathize with the poor quality and check if a refund/rating adjustment is needed.",
+    "skill": "Slang & Quality Support"
+  },
+  {
+    "id": 56,
+    "question": "An American driver messages: 'The rider left a mess in my backseat and I want a cleaning fee. I have photos.' What is the best direct action?",
+    "scenario": "Driver clean-up fee request",
+    "options": {
+      "A": "Tell the driver to clean it themselves as it's part of their job.",
+      "B": "Say: 'Hey! Send me the pictures and I'll see what I can do.'",
+      "C": "Say: 'Thank you for reporting this, Driver Ahmed. Let's get this sorted out. Please upload the photos here, and I'll review and apply the cleaning fee accordingly.'",
+      "D": "Tell them to report it to the local police department."
+    },
+    "answer": "C",
+    "explanation": "Professional driver support requires structured guidance, direct reassurance ('Let's get this sorted out'), and clear instructions.",
+    "skill": "Driver Relations & Empathy"
+  },
+  {
+    "id": 57,
+    "question": "A US passenger writes: 'Can you pull up my receipt for trip #255287?' What is the most natural, helpful reply?",
+    "scenario": "Receipt request",
+    "options": {
+      "A": "No, you can check it yourself in your email inbox.",
+      "B": "Sure, David. I can pull that up for you right now. I will also resend it to your registered email address.",
+      "C": "Please wait while I search our servers. It takes about an hour.",
+      "D": "Why do you need the receipt? Please verify your identity first."
+    },
+    "answer": "B",
+    "explanation": "'Pull up' means to locate or retrieve information. Prompt and polite fulfillment of receipt requests is standard in US customer service.",
+    "skill": "Action-Oriented Communication"
+  },
+  {
+    "id": 58,
+    "question": "A customer says: 'Just giving you a heads up, the driver was texting while driving.' What does 'heads up' mean?",
+    "scenario": "Safety reporting",
+    "options": {
+      "A": "An advance warning or notification.",
+      "B": "An angry complaint.",
+      "C": "A polite greeting.",
+      "D": "An official demand."
+    },
+    "answer": "A",
+    "explanation": "A 'heads up' is a warning or alert. Safety reports like texting while driving must be escalated immediately to the Safety Team.",
+    "skill": "Safety Escalation & Slang"
+  },
+  {
+    "id": 59,
+    "question": "A customer in New York chats: 'My driver is driving around the block repeatedly. I think he is trying to inflate the fare.' What is the best way to handle this?",
+    "scenario": "Fare inflation concern",
+    "options": {
+      "A": "Tell them the driver knows the route better than they do.",
+      "B": "Say: 'I see what you mean, Chris. Let me check the GPS path of your ride in real-time and review the fare calculation. If there's an error, I will adjust it for you.'",
+      "C": "Suggest that they cancel the ride and call another one.",
+      "D": "Disconnect the chat as it's a dispute in progress."
+    },
+    "answer": "B",
+    "explanation": "USA customers appreciate active monitoring and assurance that their money is protected against fare inflation.",
+    "skill": "Fraud & Route Verification"
+  },
+  {
+    "id": 60,
+    "question": "A US client says: 'I'm in a bind. I left my laptop in the trunk and my flight leaves in 2 hours.' What does 'in a bind' mean?",
+    "scenario": "Lost item urgency",
+    "options": {
+      "A": "In a secure position.",
+      "B": "In a difficult or tight situation.",
+      "C": "Very angry and aggressive.",
+      "D": "Satisfied with support."
+    },
+    "answer": "B",
+    "explanation": "'In a bind' means in distress or a difficult situation. High-urgency lost items (like laptops, passports) before flights need immediate outreach to the driver.",
+    "skill": "Urgency Handling & Idioms"
+  },
+  {
+    "id": 61,
+    "question": "A USA customer named James messages: 'I was charged $15.00 for a no-show but I was literally standing on the corner! This is a total rip-off.' What does 'rip-off' mean here and how do you respond?",
+    "scenario": "USA customer complains about cancellation fee using slang",
+    "options": {
+      "A": "Tell them to calm down and explain that a rip-off is a crime which we didn't do.",
+      "B": "A rip-off means an unfair price or cheat. You say: 'I understand you're frustrated, James. Let me check this cancellation charge for you right now.'",
+      "C": "Say: 'I apologize for the rip-off. I will refund you right away.'",
+      "D": "Say: 'Please wait. Our drivers never lie, so you must have been late.'"
+    },
+    "answer": "B",
+    "explanation": "USA customers appreciate active, direct help. Acknowledging their frustration and defining the issue professionally is key. 'Rip-off' means an overcharge or cheat.",
+    "skill": "Slang Understanding & Empathy"
+  },
+  {
+    "id": 62,
+    "question": "An American client writes: 'My driver is taking a massive detour, I'm going to beat the clock to my meeting at Broadway. Can you ping him?' What does 'beat the clock' mean?",
+    "scenario": "USA rider in a hurry",
+    "options": {
+      "A": "It means to damage the clock in the car.",
+      "B": "It means to arrive or finish before a deadline/limit. You should reassure the customer and check the route immediately.",
+      "C": "It means they want to pay by cash instead.",
+      "D": "It means they are canceling the ride."
+    },
+    "answer": "B",
+    "explanation": "'Beat the clock' means to finish or arrive before a certain time. Recognizing this urgency helps you offer fast, reassuring support.",
+    "skill": "American Idioms"
+  },
+  {
+    "id": 63,
+    "question": "A rider says: 'I need to split the fare with my coworker for the trip to Times Square. The app is acting up.' What is the best direct response?",
+    "scenario": "Fare splitting issue",
+    "options": {
+      "A": "I'm sorry, you cannot split the fare. Please pay separately.",
+      "B": "I understand you need to split the bill, Ashley. Let me guide you on how to do it in the app, or I can check the trip status for you.",
+      "C": "Wait for 24 hours and the system will split it automatically.",
+      "D": "Why do you want to split the fare? It's easier if one person pays."
+    },
+    "answer": "B",
+    "explanation": "USA users expect direct, practical guideance when app features like fare splitting fail or are confusing.",
+    "skill": "Direct Problem Solving"
+  },
+  {
+    "id": 64,
+    "question": "A customer in Los Angeles says: 'My ride hit a snag and now I'm stuck on the highway.' What does 'hit a snag' mean?",
+    "scenario": "USA idiom check",
+    "options": {
+      "A": "The vehicle was involved in a severe crash.",
+      "B": "Encountered an unexpected problem or obstacle.",
+      "C": "The driver took a wrong exit on purpose.",
+      "D": "The app stopped responding."
+    },
+    "answer": "B",
+    "explanation": "'Hit a snag' means encountering a minor or unexpected obstacle. Identifying this quickly helps you provide appropriate guidance.",
+    "skill": "American English Vocabulary"
+  },
+  {
+    "id": 65,
+    "question": "A rider named James says: 'That trip was a bust. The driver's car was dirty and smelled like smoke.' What does 'a bust' mean?",
+    "scenario": "Vehicle quality complaint",
+    "options": {
+      "A": "A complete failure or disappointment.",
+      "B": "A very successful ride.",
+      "C": "An expensive trip.",
+      "D": "A fast ride."
+    },
+    "answer": "A",
+    "explanation": "'A bust' is US slang for a failure or disappointment. Empathize with the poor quality and check if a refund/rating adjustment is needed.",
+    "skill": "Slang & Quality Support"
+  },
+  {
+    "id": 66,
+    "question": "An American driver messages: 'The rider left a mess in my backseat and I want a cleaning fee. I have photos.' What is the best direct action?",
+    "scenario": "Driver clean-up fee request",
+    "options": {
+      "A": "Tell the driver to clean it themselves as it's part of their job.",
+      "B": "Say: 'Hey! Send me the pictures and I'll see what I can do.'",
+      "C": "Say: 'Thank you for reporting this, Driver Marcus. Let's get this sorted out. Please upload the photos here, and I'll review and apply the cleaning fee accordingly.'",
+      "D": "Tell them to report it to the local police department."
+    },
+    "answer": "C",
+    "explanation": "Professional driver support requires structured guidance, direct reassurance ('Let's get this sorted out'), and clear instructions.",
+    "skill": "Driver Relations & Empathy"
+  },
+  {
+    "id": 67,
+    "question": "A US passenger writes: 'Can you pull up my receipt for trip #843215?' What is the most natural, helpful reply?",
+    "scenario": "Receipt request",
+    "options": {
+      "A": "No, you can check it yourself in your email inbox.",
+      "B": "Sure, Jessica. I can pull that up for you right now. I will also resend it to your registered email address.",
+      "C": "Please wait while I search our servers. It takes about an hour.",
+      "D": "Why do you need the receipt? Please verify your identity first."
+    },
+    "answer": "B",
+    "explanation": "'Pull up' means to locate or retrieve information. Prompt and polite fulfillment of receipt requests is standard in US customer service.",
+    "skill": "Action-Oriented Communication"
+  },
+  {
+    "id": 68,
+    "question": "A customer says: 'Just giving you a heads up, the driver was texting while driving.' What does 'heads up' mean?",
+    "scenario": "Safety reporting",
+    "options": {
+      "A": "An advance warning or notification.",
+      "B": "An angry complaint.",
+      "C": "A polite greeting.",
+      "D": "An official demand."
+    },
+    "answer": "A",
+    "explanation": "A 'heads up' is a warning or alert. Safety reports like texting while driving must be escalated immediately to the Safety Team.",
+    "skill": "Safety Escalation & Slang"
+  },
+  {
+    "id": 69,
+    "question": "A customer in Austin chats: 'My driver is driving around the block repeatedly. I think he is trying to inflate the fare.' What is the best way to handle this?",
+    "scenario": "Fare inflation concern",
+    "options": {
+      "A": "Tell them the driver knows the route better than they do.",
+      "B": "Say: 'I see what you mean, John. Let me check the GPS path of your ride in real-time and review the fare calculation. If there's an error, I will adjust it for you.'",
+      "C": "Suggest that they cancel the ride and call another one.",
+      "D": "Disconnect the chat as it's a dispute in progress."
+    },
+    "answer": "B",
+    "explanation": "USA customers appreciate active monitoring and assurance that their money is protected against fare inflation.",
+    "skill": "Fraud & Route Verification"
+  },
+  {
+    "id": 70,
+    "question": "A US client says: 'I'm in a bind. I left my laptop in the trunk and my flight leaves in 2 hours.' What does 'in a bind' mean?",
+    "scenario": "Lost item urgency",
+    "options": {
+      "A": "In a secure position.",
+      "B": "In a difficult or tight situation.",
+      "C": "Very angry and aggressive.",
+      "D": "Satisfied with support."
+    },
+    "answer": "B",
+    "explanation": "'In a bind' means in distress or a difficult situation. High-urgency lost items (like laptops, passports) before flights need immediate outreach to the driver.",
+    "skill": "Urgency Handling & Idioms"
+  },
+  {
+    "id": 71,
+    "question": "A USA customer named Chris messages: 'I was charged $75.00 for a no-show but I was literally standing on the corner! This is a total rip-off.' What does 'rip-off' mean here and how do you respond?",
+    "scenario": "USA customer complains about cancellation fee using slang",
+    "options": {
+      "A": "Tell them to calm down and explain that a rip-off is a crime which we didn't do.",
+      "B": "A rip-off means an unfair price or cheat. You say: 'I understand you're frustrated, Chris. Let me check this cancellation charge for you right now.'",
+      "C": "Say: 'I apologize for the rip-off. I will refund you right away.'",
+      "D": "Say: 'Please wait. Our drivers never lie, so you must have been late.'"
+    },
+    "answer": "B",
+    "explanation": "USA customers appreciate active, direct help. Acknowledging their frustration and defining the issue professionally is key. 'Rip-off' means an overcharge or cheat.",
+    "skill": "Slang Understanding & Empathy"
+  },
+  {
+    "id": 72,
+    "question": "An American client writes: 'My driver is taking a massive detour, I'm going to beat the clock to my meeting at Broadway. Can you ping him?' What does 'beat the clock' mean?",
+    "scenario": "USA rider in a hurry",
+    "options": {
+      "A": "It means to damage the clock in the car.",
+      "B": "It means to arrive or finish before a deadline/limit. You should reassure the customer and check the route immediately.",
+      "C": "It means they want to pay by cash instead.",
+      "D": "It means they are canceling the ride."
+    },
+    "answer": "B",
+    "explanation": "'Beat the clock' means to finish or arrive before a certain time. Recognizing this urgency helps you offer fast, reassuring support.",
+    "skill": "American Idioms"
+  },
+  {
+    "id": 73,
+    "question": "A rider says: 'I need to split the fare with my coworker for the trip to Times Square. The app is acting up.' What is the best direct response?",
+    "scenario": "Fare splitting issue",
+    "options": {
+      "A": "I'm sorry, you cannot split the fare. Please pay separately.",
+      "B": "I understand you need to split the bill, Nicole. Let me guide you on how to do it in the app, or I can check the trip status for you.",
+      "C": "Wait for 24 hours and the system will split it automatically.",
+      "D": "Why do you want to split the fare? It's easier if one person pays."
+    },
+    "answer": "B",
+    "explanation": "USA users expect direct, practical guideance when app features like fare splitting fail or are confusing.",
+    "skill": "Direct Problem Solving"
+  },
+  {
+    "id": 74,
+    "question": "A customer in Austin says: 'My ride hit a snag and now I'm stuck on the highway.' What does 'hit a snag' mean?",
+    "scenario": "USA idiom check",
+    "options": {
+      "A": "The vehicle was involved in a severe crash.",
+      "B": "Encountered an unexpected problem or obstacle.",
+      "C": "The driver took a wrong exit on purpose.",
+      "D": "The app stopped responding."
+    },
+    "answer": "B",
+    "explanation": "'Hit a snag' means encountering a minor or unexpected obstacle. Identifying this quickly helps you provide appropriate guidance.",
+    "skill": "American English Vocabulary"
+  },
+  {
+    "id": 75,
+    "question": "A rider named James says: 'That trip was a bust. The driver's car was dirty and smelled like smoke.' What does 'a bust' mean?",
+    "scenario": "Vehicle quality complaint",
+    "options": {
+      "A": "A complete failure or disappointment.",
+      "B": "A very successful ride.",
+      "C": "An expensive trip.",
+      "D": "A fast ride."
+    },
+    "answer": "A",
+    "explanation": "'A bust' is US slang for a failure or disappointment. Empathize with the poor quality and check if a refund/rating adjustment is needed.",
+    "skill": "Slang & Quality Support"
+  },
+  {
+    "id": 76,
+    "question": "An American driver messages: 'The rider left a mess in my backseat and I want a cleaning fee. I have photos.' What is the best direct action?",
+    "scenario": "Driver clean-up fee request",
+    "options": {
+      "A": "Tell the driver to clean it themselves as it's part of their job.",
+      "B": "Say: 'Hey! Send me the pictures and I'll see what I can do.'",
+      "C": "Say: 'Thank you for reporting this, Driver Ali. Let's get this sorted out. Please upload the photos here, and I'll review and apply the cleaning fee accordingly.'",
+      "D": "Tell them to report it to the local police department."
+    },
+    "answer": "C",
+    "explanation": "Professional driver support requires structured guidance, direct reassurance ('Let's get this sorted out'), and clear instructions.",
+    "skill": "Driver Relations & Empathy"
+  },
+  {
+    "id": 77,
+    "question": "A US passenger writes: 'Can you pull up my receipt for trip #853240?' What is the most natural, helpful reply?",
+    "scenario": "Receipt request",
+    "options": {
+      "A": "No, you can check it yourself in your email inbox.",
+      "B": "Sure, John. I can pull that up for you right now. I will also resend it to your registered email address.",
+      "C": "Please wait while I search our servers. It takes about an hour.",
+      "D": "Why do you need the receipt? Please verify your identity first."
+    },
+    "answer": "B",
+    "explanation": "'Pull up' means to locate or retrieve information. Prompt and polite fulfillment of receipt requests is standard in US customer service.",
+    "skill": "Action-Oriented Communication"
+  },
+  {
+    "id": 78,
+    "question": "A customer says: 'Just giving you a heads up, the driver was texting while driving.' What does 'heads up' mean?",
+    "scenario": "Safety reporting",
+    "options": {
+      "A": "An advance warning or notification.",
+      "B": "An angry complaint.",
+      "C": "A polite greeting.",
+      "D": "An official demand."
+    },
+    "answer": "A",
+    "explanation": "A 'heads up' is a warning or alert. Safety reports like texting while driving must be escalated immediately to the Safety Team.",
+    "skill": "Safety Escalation & Slang"
+  },
+  {
+    "id": 79,
+    "question": "A customer in Chicago chats: 'My driver is driving around the block repeatedly. I think he is trying to inflate the fare.' What is the best way to handle this?",
+    "scenario": "Fare inflation concern",
+    "options": {
+      "A": "Tell them the driver knows the route better than they do.",
+      "B": "Say: 'I see what you mean, Jessica. Let me check the GPS path of your ride in real-time and review the fare calculation. If there's an error, I will adjust it for you.'",
+      "C": "Suggest that they cancel the ride and call another one.",
+      "D": "Disconnect the chat as it's a dispute in progress."
+    },
+    "answer": "B",
+    "explanation": "USA customers appreciate active monitoring and assurance that their money is protected against fare inflation.",
+    "skill": "Fraud & Route Verification"
+  },
+  {
+    "id": 80,
+    "question": "A US client says: 'I'm in a bind. I left my laptop in the trunk and my flight leaves in 2 hours.' What does 'in a bind' mean?",
+    "scenario": "Lost item urgency",
+    "options": {
+      "A": "In a secure position.",
+      "B": "In a difficult or tight situation.",
+      "C": "Very angry and aggressive.",
+      "D": "Satisfied with support."
+    },
+    "answer": "B",
+    "explanation": "'In a bind' means in distress or a difficult situation. High-urgency lost items (like laptops, passports) before flights need immediate outreach to the driver.",
+    "skill": "Urgency Handling & Idioms"
+  },
+  {
+    "id": 81,
+    "question": "A USA customer named James messages: 'I was charged $75.00 for a no-show but I was literally standing on the corner! This is a total rip-off.' What does 'rip-off' mean here and how do you respond?",
+    "scenario": "USA customer complains about cancellation fee using slang",
+    "options": {
+      "A": "Tell them to calm down and explain that a rip-off is a crime which we didn't do.",
+      "B": "A rip-off means an unfair price or cheat. You say: 'I understand you're frustrated, James. Let me check this cancellation charge for you right now.'",
+      "C": "Say: 'I apologize for the rip-off. I will refund you right away.'",
+      "D": "Say: 'Please wait. Our drivers never lie, so you must have been late.'"
+    },
+    "answer": "B",
+    "explanation": "USA customers appreciate active, direct help. Acknowledging their frustration and defining the issue professionally is key. 'Rip-off' means an overcharge or cheat.",
+    "skill": "Slang Understanding & Empathy"
+  },
+  {
+    "id": 82,
+    "question": "An American client writes: 'My driver is taking a massive detour, I'm going to beat the clock to my meeting at Downtown. Can you ping him?' What does 'beat the clock' mean?",
+    "scenario": "USA rider in a hurry",
+    "options": {
+      "A": "It means to damage the clock in the car.",
+      "B": "It means to arrive or finish before a deadline/limit. You should reassure the customer and check the route immediately.",
+      "C": "It means they want to pay by cash instead.",
+      "D": "It means they are canceling the ride."
+    },
+    "answer": "B",
+    "explanation": "'Beat the clock' means to finish or arrive before a certain time. Recognizing this urgency helps you offer fast, reassuring support.",
+    "skill": "American Idioms"
+  },
+  {
+    "id": 83,
+    "question": "A rider says: 'I need to split the fare with my coworker for the trip to Broadway. The app is acting up.' What is the best direct response?",
+    "scenario": "Fare splitting issue",
+    "options": {
+      "A": "I'm sorry, you cannot split the fare. Please pay separately.",
+      "B": "I understand you need to split the bill, Robert. Let me guide you on how to do it in the app, or I can check the trip status for you.",
+      "C": "Wait for 24 hours and the system will split it automatically.",
+      "D": "Why do you want to split the fare? It's easier if one person pays."
+    },
+    "answer": "B",
+    "explanation": "USA users expect direct, practical guideance when app features like fare splitting fail or are confusing.",
+    "skill": "Direct Problem Solving"
+  },
+  {
+    "id": 84,
+    "question": "A customer in Chicago says: 'My ride hit a snag and now I'm stuck on the highway.' What does 'hit a snag' mean?",
+    "scenario": "USA idiom check",
+    "options": {
+      "A": "The vehicle was involved in a severe crash.",
+      "B": "Encountered an unexpected problem or obstacle.",
+      "C": "The driver took a wrong exit on purpose.",
+      "D": "The app stopped responding."
+    },
+    "answer": "B",
+    "explanation": "'Hit a snag' means encountering a minor or unexpected obstacle. Identifying this quickly helps you provide appropriate guidance.",
+    "skill": "American English Vocabulary"
+  },
+  {
+    "id": 85,
+    "question": "A rider named John says: 'That trip was a bust. The driver's car was dirty and smelled like smoke.' What does 'a bust' mean?",
+    "scenario": "Vehicle quality complaint",
+    "options": {
+      "A": "A complete failure or disappointment.",
+      "B": "A very successful ride.",
+      "C": "An expensive trip.",
+      "D": "A fast ride."
+    },
+    "answer": "A",
+    "explanation": "'A bust' is US slang for a failure or disappointment. Empathize with the poor quality and check if a refund/rating adjustment is needed.",
+    "skill": "Slang & Quality Support"
+  },
+  {
+    "id": 86,
+    "question": "An American driver messages: 'The rider left a mess in my backseat and I want a cleaning fee. I have photos.' What is the best direct action?",
+    "scenario": "Driver clean-up fee request",
+    "options": {
+      "A": "Tell the driver to clean it themselves as it's part of their job.",
+      "B": "Say: 'Hey! Send me the pictures and I'll see what I can do.'",
+      "C": "Say: 'Thank you for reporting this, Driver Marcus. Let's get this sorted out. Please upload the photos here, and I'll review and apply the cleaning fee accordingly.'",
+      "D": "Tell them to report it to the local police department."
+    },
+    "answer": "C",
+    "explanation": "Professional driver support requires structured guidance, direct reassurance ('Let's get this sorted out'), and clear instructions.",
+    "skill": "Driver Relations & Empathy"
+  },
+  {
+    "id": 87,
+    "question": "A US passenger writes: 'Can you pull up my receipt for trip #829308?' What is the most natural, helpful reply?",
+    "scenario": "Receipt request",
+    "options": {
+      "A": "No, you can check it yourself in your email inbox.",
+      "B": "Sure, Nicole. I can pull that up for you right now. I will also resend it to your registered email address.",
+      "C": "Please wait while I search our servers. It takes about an hour.",
+      "D": "Why do you need the receipt? Please verify your identity first."
+    },
+    "answer": "B",
+    "explanation": "'Pull up' means to locate or retrieve information. Prompt and polite fulfillment of receipt requests is standard in US customer service.",
+    "skill": "Action-Oriented Communication"
+  },
+  {
+    "id": 88,
+    "question": "A customer says: 'Just giving you a heads up, the driver was texting while driving.' What does 'heads up' mean?",
+    "scenario": "Safety reporting",
+    "options": {
+      "A": "An advance warning or notification.",
+      "B": "An angry complaint.",
+      "C": "A polite greeting.",
+      "D": "An official demand."
+    },
+    "answer": "A",
+    "explanation": "A 'heads up' is a warning or alert. Safety reports like texting while driving must be escalated immediately to the Safety Team.",
+    "skill": "Safety Escalation & Slang"
+  },
+  {
+    "id": 89,
+    "question": "A customer in Austin chats: 'My driver is driving around the block repeatedly. I think he is trying to inflate the fare.' What is the best way to handle this?",
+    "scenario": "Fare inflation concern",
+    "options": {
+      "A": "Tell them the driver knows the route better than they do.",
+      "B": "Say: 'I see what you mean, Brian. Let me check the GPS path of your ride in real-time and review the fare calculation. If there's an error, I will adjust it for you.'",
+      "C": "Suggest that they cancel the ride and call another one.",
+      "D": "Disconnect the chat as it's a dispute in progress."
+    },
+    "answer": "B",
+    "explanation": "USA customers appreciate active monitoring and assurance that their money is protected against fare inflation.",
+    "skill": "Fraud & Route Verification"
+  },
+  {
+    "id": 90,
+    "question": "A US client says: 'I'm in a bind. I left my laptop in the trunk and my flight leaves in 2 hours.' What does 'in a bind' mean?",
+    "scenario": "Lost item urgency",
+    "options": {
+      "A": "In a secure position.",
+      "B": "In a difficult or tight situation.",
+      "C": "Very angry and aggressive.",
+      "D": "Satisfied with support."
+    },
+    "answer": "B",
+    "explanation": "'In a bind' means in distress or a difficult situation. High-urgency lost items (like laptops, passports) before flights need immediate outreach to the driver.",
+    "skill": "Urgency Handling & Idioms"
+  },
+  {
+    "id": 91,
+    "question": "A USA customer named James messages: 'I was charged $25.00 for a no-show but I was literally standing on the corner! This is a total rip-off.' What does 'rip-off' mean here and how do you respond?",
+    "scenario": "USA customer complains about cancellation fee using slang",
+    "options": {
+      "A": "Tell them to calm down and explain that a rip-off is a crime which we didn't do.",
+      "B": "A rip-off means an unfair price or cheat. You say: 'I understand you're frustrated, James. Let me check this cancellation charge for you right now.'",
+      "C": "Say: 'I apologize for the rip-off. I will refund you right away.'",
+      "D": "Say: 'Please wait. Our drivers never lie, so you must have been late.'"
+    },
+    "answer": "B",
+    "explanation": "USA customers appreciate active, direct help. Acknowledging their frustration and defining the issue professionally is key. 'Rip-off' means an overcharge or cheat.",
+    "skill": "Slang Understanding & Empathy"
+  },
+  {
+    "id": 92,
+    "question": "An American client writes: 'My driver is taking a massive detour, I'm going to beat the clock to my meeting at LAX Airport. Can you ping him?' What does 'beat the clock' mean?",
+    "scenario": "USA rider in a hurry",
+    "options": {
+      "A": "It means to damage the clock in the car.",
+      "B": "It means to arrive or finish before a deadline/limit. You should reassure the customer and check the route immediately.",
+      "C": "It means they want to pay by cash instead.",
+      "D": "It means they are canceling the ride."
+    },
+    "answer": "B",
+    "explanation": "'Beat the clock' means to finish or arrive before a certain time. Recognizing this urgency helps you offer fast, reassuring support.",
+    "skill": "American Idioms"
+  },
+  {
+    "id": 93,
+    "question": "A rider says: 'I need to split the fare with my coworker for the trip to Broadway. The app is acting up.' What is the best direct response?",
+    "scenario": "Fare splitting issue",
+    "options": {
+      "A": "I'm sorry, you cannot split the fare. Please pay separately.",
+      "B": "I understand you need to split the bill, Nicole. Let me guide you on how to do it in the app, or I can check the trip status for you.",
+      "C": "Wait for 24 hours and the system will split it automatically.",
+      "D": "Why do you want to split the fare? It's easier if one person pays."
+    },
+    "answer": "B",
+    "explanation": "USA users expect direct, practical guideance when app features like fare splitting fail or are confusing.",
+    "skill": "Direct Problem Solving"
+  },
+  {
+    "id": 94,
+    "question": "A customer in San Francisco says: 'My ride hit a snag and now I'm stuck on the highway.' What does 'hit a snag' mean?",
+    "scenario": "USA idiom check",
+    "options": {
+      "A": "The vehicle was involved in a severe crash.",
+      "B": "Encountered an unexpected problem or obstacle.",
+      "C": "The driver took a wrong exit on purpose.",
+      "D": "The app stopped responding."
+    },
+    "answer": "B",
+    "explanation": "'Hit a snag' means encountering a minor or unexpected obstacle. Identifying this quickly helps you provide appropriate guidance.",
+    "skill": "American English Vocabulary"
+  },
+  {
+    "id": 95,
+    "question": "A rider named Nicole says: 'That trip was a bust. The driver's car was dirty and smelled like smoke.' What does 'a bust' mean?",
+    "scenario": "Vehicle quality complaint",
+    "options": {
+      "A": "A complete failure or disappointment.",
+      "B": "A very successful ride.",
+      "C": "An expensive trip.",
+      "D": "A fast ride."
+    },
+    "answer": "A",
+    "explanation": "'A bust' is US slang for a failure or disappointment. Empathize with the poor quality and check if a refund/rating adjustment is needed.",
+    "skill": "Slang & Quality Support"
+  },
+  {
+    "id": 96,
+    "question": "An American driver messages: 'The rider left a mess in my backseat and I want a cleaning fee. I have photos.' What is the best direct action?",
+    "scenario": "Driver clean-up fee request",
+    "options": {
+      "A": "Tell the driver to clean it themselves as it's part of their job.",
+      "B": "Say: 'Hey! Send me the pictures and I'll see what I can do.'",
+      "C": "Say: 'Thank you for reporting this, Driver Dmitry. Let's get this sorted out. Please upload the photos here, and I'll review and apply the cleaning fee accordingly.'",
+      "D": "Tell them to report it to the local police department."
+    },
+    "answer": "C",
+    "explanation": "Professional driver support requires structured guidance, direct reassurance ('Let's get this sorted out'), and clear instructions.",
+    "skill": "Driver Relations & Empathy"
+  },
+  {
+    "id": 97,
+    "question": "A US passenger writes: 'Can you pull up my receipt for trip #596564?' What is the most natural, helpful reply?",
+    "scenario": "Receipt request",
+    "options": {
+      "A": "No, you can check it yourself in your email inbox.",
+      "B": "Sure, Chris. I can pull that up for you right now. I will also resend it to your registered email address.",
+      "C": "Please wait while I search our servers. It takes about an hour.",
+      "D": "Why do you need the receipt? Please verify your identity first."
+    },
+    "answer": "B",
+    "explanation": "'Pull up' means to locate or retrieve information. Prompt and polite fulfillment of receipt requests is standard in US customer service.",
+    "skill": "Action-Oriented Communication"
+  },
+  {
+    "id": 98,
+    "question": "A customer says: 'Just giving you a heads up, the driver was texting while driving.' What does 'heads up' mean?",
+    "scenario": "Safety reporting",
+    "options": {
+      "A": "An advance warning or notification.",
+      "B": "An angry complaint.",
+      "C": "A polite greeting.",
+      "D": "An official demand."
+    },
+    "answer": "A",
+    "explanation": "A 'heads up' is a warning or alert. Safety reports like texting while driving must be escalated immediately to the Safety Team.",
+    "skill": "Safety Escalation & Slang"
+  },
+  {
+    "id": 99,
+    "question": "A customer in Los Angeles chats: 'My driver is driving around the block repeatedly. I think he is trying to inflate the fare.' What is the best way to handle this?",
+    "scenario": "Fare inflation concern",
+    "options": {
+      "A": "Tell them the driver knows the route better than they do.",
+      "B": "Say: 'I see what you mean, Jessica. Let me check the GPS path of your ride in real-time and review the fare calculation. If there's an error, I will adjust it for you.'",
+      "C": "Suggest that they cancel the ride and call another one.",
+      "D": "Disconnect the chat as it's a dispute in progress."
+    },
+    "answer": "B",
+    "explanation": "USA customers appreciate active monitoring and assurance that their money is protected against fare inflation.",
+    "skill": "Fraud & Route Verification"
+  },
+  {
+    "id": 100,
+    "question": "A US client says: 'I'm in a bind. I left my laptop in the trunk and my flight leaves in 2 hours.' What does 'in a bind' mean?",
+    "scenario": "Lost item urgency",
+    "options": {
+      "A": "In a secure position.",
+      "B": "In a difficult or tight situation.",
+      "C": "Very angry and aggressive.",
+      "D": "Satisfied with support."
+    },
+    "answer": "B",
+    "explanation": "'In a bind' means in distress or a difficult situation. High-urgency lost items (like laptops, passports) before flights need immediate outreach to the driver.",
+    "skill": "Urgency Handling & Idioms"
+  },
+  {
+    "id": 101,
+    "question": "A USA customer named Amanda messages: 'I was charged $45.00 for a no-show but I was literally standing on the corner! This is a total rip-off.' What does 'rip-off' mean here and how do you respond?",
+    "scenario": "USA customer complains about cancellation fee using slang",
+    "options": {
+      "A": "Tell them to calm down and explain that a rip-off is a crime which we didn't do.",
+      "B": "A rip-off means an unfair price or cheat. You say: 'I understand you're frustrated, Amanda. Let me check this cancellation charge for you right now.'",
+      "C": "Say: 'I apologize for the rip-off. I will refund you right away.'",
+      "D": "Say: 'Please wait. Our drivers never lie, so you must have been late.'"
+    },
+    "answer": "B",
+    "explanation": "USA customers appreciate active, direct help. Acknowledging their frustration and defining the issue professionally is key. 'Rip-off' means an overcharge or cheat.",
+    "skill": "Slang Understanding & Empathy"
+  },
+  {
+    "id": 102,
+    "question": "An American client writes: 'My driver is taking a massive detour, I'm going to beat the clock to my meeting at LAX Airport. Can you ping him?' What does 'beat the clock' mean?",
+    "scenario": "USA rider in a hurry",
+    "options": {
+      "A": "It means to damage the clock in the car.",
+      "B": "It means to arrive or finish before a deadline/limit. You should reassure the customer and check the route immediately.",
+      "C": "It means they want to pay by cash instead.",
+      "D": "It means they are canceling the ride."
+    },
+    "answer": "B",
+    "explanation": "'Beat the clock' means to finish or arrive before a certain time. Recognizing this urgency helps you offer fast, reassuring support.",
+    "skill": "American Idioms"
+  },
+  {
+    "id": 103,
+    "question": "A rider says: 'I need to split the fare with my coworker for the trip to Times Square. The app is acting up.' What is the best direct response?",
+    "scenario": "Fare splitting issue",
+    "options": {
+      "A": "I'm sorry, you cannot split the fare. Please pay separately.",
+      "B": "I understand you need to split the bill, Nicole. Let me guide you on how to do it in the app, or I can check the trip status for you.",
+      "C": "Wait for 24 hours and the system will split it automatically.",
+      "D": "Why do you want to split the fare? It's easier if one person pays."
+    },
+    "answer": "B",
+    "explanation": "USA users expect direct, practical guideance when app features like fare splitting fail or are confusing.",
+    "skill": "Direct Problem Solving"
+  },
+  {
+    "id": 104,
+    "question": "A customer in Chicago says: 'My ride hit a snag and now I'm stuck on the highway.' What does 'hit a snag' mean?",
+    "scenario": "USA idiom check",
+    "options": {
+      "A": "The vehicle was involved in a severe crash.",
+      "B": "Encountered an unexpected problem or obstacle.",
+      "C": "The driver took a wrong exit on purpose.",
+      "D": "The app stopped responding."
+    },
+    "answer": "B",
+    "explanation": "'Hit a snag' means encountering a minor or unexpected obstacle. Identifying this quickly helps you provide appropriate guidance.",
+    "skill": "American English Vocabulary"
+  },
+  {
+    "id": 105,
+    "question": "A rider named Heather says: 'That trip was a bust. The driver's car was dirty and smelled like smoke.' What does 'a bust' mean?",
+    "scenario": "Vehicle quality complaint",
+    "options": {
+      "A": "A complete failure or disappointment.",
+      "B": "A very successful ride.",
+      "C": "An expensive trip.",
+      "D": "A fast ride."
+    },
+    "answer": "A",
+    "explanation": "'A bust' is US slang for a failure or disappointment. Empathize with the poor quality and check if a refund/rating adjustment is needed.",
+    "skill": "Slang & Quality Support"
+  },
+  {
+    "id": 106,
+    "question": "An American driver messages: 'The rider left a mess in my backseat and I want a cleaning fee. I have photos.' What is the best direct action?",
+    "scenario": "Driver clean-up fee request",
+    "options": {
+      "A": "Tell the driver to clean it themselves as it's part of their job.",
+      "B": "Say: 'Hey! Send me the pictures and I'll see what I can do.'",
+      "C": "Say: 'Thank you for reporting this, Driver Marcus. Let's get this sorted out. Please upload the photos here, and I'll review and apply the cleaning fee accordingly.'",
+      "D": "Tell them to report it to the local police department."
+    },
+    "answer": "C",
+    "explanation": "Professional driver support requires structured guidance, direct reassurance ('Let's get this sorted out'), and clear instructions.",
+    "skill": "Driver Relations & Empathy"
+  },
+  {
+    "id": 107,
+    "question": "A US passenger writes: 'Can you pull up my receipt for trip #611233?' What is the most natural, helpful reply?",
+    "scenario": "Receipt request",
+    "options": {
+      "A": "No, you can check it yourself in your email inbox.",
+      "B": "Sure, Brian. I can pull that up for you right now. I will also resend it to your registered email address.",
+      "C": "Please wait while I search our servers. It takes about an hour.",
+      "D": "Why do you need the receipt? Please verify your identity first."
+    },
+    "answer": "B",
+    "explanation": "'Pull up' means to locate or retrieve information. Prompt and polite fulfillment of receipt requests is standard in US customer service.",
+    "skill": "Action-Oriented Communication"
+  },
+  {
+    "id": 108,
+    "question": "A customer says: 'Just giving you a heads up, the driver was texting while driving.' What does 'heads up' mean?",
+    "scenario": "Safety reporting",
+    "options": {
+      "A": "An advance warning or notification.",
+      "B": "An angry complaint.",
+      "C": "A polite greeting.",
+      "D": "An official demand."
+    },
+    "answer": "A",
+    "explanation": "A 'heads up' is a warning or alert. Safety reports like texting while driving must be escalated immediately to the Safety Team.",
+    "skill": "Safety Escalation & Slang"
+  },
+  {
+    "id": 109,
+    "question": "A customer in New York chats: 'My driver is driving around the block repeatedly. I think he is trying to inflate the fare.' What is the best way to handle this?",
+    "scenario": "Fare inflation concern",
+    "options": {
+      "A": "Tell them the driver knows the route better than they do.",
+      "B": "Say: 'I see what you mean, Robert. Let me check the GPS path of your ride in real-time and review the fare calculation. If there's an error, I will adjust it for you.'",
+      "C": "Suggest that they cancel the ride and call another one.",
+      "D": "Disconnect the chat as it's a dispute in progress."
+    },
+    "answer": "B",
+    "explanation": "USA customers appreciate active monitoring and assurance that their money is protected against fare inflation.",
+    "skill": "Fraud & Route Verification"
+  },
+  {
+    "id": 110,
+    "question": "A US client says: 'I'm in a bind. I left my laptop in the trunk and my flight leaves in 2 hours.' What does 'in a bind' mean?",
+    "scenario": "Lost item urgency",
+    "options": {
+      "A": "In a secure position.",
+      "B": "In a difficult or tight situation.",
+      "C": "Very angry and aggressive.",
+      "D": "Satisfied with support."
+    },
+    "answer": "B",
+    "explanation": "'In a bind' means in distress or a difficult situation. High-urgency lost items (like laptops, passports) before flights need immediate outreach to the driver.",
+    "skill": "Urgency Handling & Idioms"
+  },
+  {
+    "id": 111,
+    "question": "A USA customer named Sarah messages: 'I was charged $10.00 for a no-show but I was literally standing on the corner! This is a total rip-off.' What does 'rip-off' mean here and how do you respond?",
+    "scenario": "USA customer complains about cancellation fee using slang",
+    "options": {
+      "A": "Tell them to calm down and explain that a rip-off is a crime which we didn't do.",
+      "B": "A rip-off means an unfair price or cheat. You say: 'I understand you're frustrated, Sarah. Let me check this cancellation charge for you right now.'",
+      "C": "Say: 'I apologize for the rip-off. I will refund you right away.'",
+      "D": "Say: 'Please wait. Our drivers never lie, so you must have been late.'"
+    },
+    "answer": "B",
+    "explanation": "USA customers appreciate active, direct help. Acknowledging their frustration and defining the issue professionally is key. 'Rip-off' means an overcharge or cheat.",
+    "skill": "Slang Understanding & Empathy"
+  },
+  {
+    "id": 112,
+    "question": "An American client writes: 'My driver is taking a massive detour, I'm going to beat the clock to my meeting at Times Square. Can you ping him?' What does 'beat the clock' mean?",
+    "scenario": "USA rider in a hurry",
+    "options": {
+      "A": "It means to damage the clock in the car.",
+      "B": "It means to arrive or finish before a deadline/limit. You should reassure the customer and check the route immediately.",
+      "C": "It means they want to pay by cash instead.",
+      "D": "It means they are canceling the ride."
+    },
+    "answer": "B",
+    "explanation": "'Beat the clock' means to finish or arrive before a certain time. Recognizing this urgency helps you offer fast, reassuring support.",
+    "skill": "American Idioms"
+  },
+  {
+    "id": 113,
+    "question": "A rider says: 'I need to split the fare with my coworker for the trip to Broadway. The app is acting up.' What is the best direct response?",
+    "scenario": "Fare splitting issue",
+    "options": {
+      "A": "I'm sorry, you cannot split the fare. Please pay separately.",
+      "B": "I understand you need to split the bill, James. Let me guide you on how to do it in the app, or I can check the trip status for you.",
+      "C": "Wait for 24 hours and the system will split it automatically.",
+      "D": "Why do you want to split the fare? It's easier if one person pays."
+    },
+    "answer": "B",
+    "explanation": "USA users expect direct, practical guideance when app features like fare splitting fail or are confusing.",
+    "skill": "Direct Problem Solving"
+  },
+  {
+    "id": 114,
+    "question": "A customer in Los Angeles says: 'My ride hit a snag and now I'm stuck on the highway.' What does 'hit a snag' mean?",
+    "scenario": "USA idiom check",
+    "options": {
+      "A": "The vehicle was involved in a severe crash.",
+      "B": "Encountered an unexpected problem or obstacle.",
+      "C": "The driver took a wrong exit on purpose.",
+      "D": "The app stopped responding."
+    },
+    "answer": "B",
+    "explanation": "'Hit a snag' means encountering a minor or unexpected obstacle. Identifying this quickly helps you provide appropriate guidance.",
+    "skill": "American English Vocabulary"
+  },
+  {
+    "id": 115,
+    "question": "A rider named Chris says: 'That trip was a bust. The driver's car was dirty and smelled like smoke.' What does 'a bust' mean?",
+    "scenario": "Vehicle quality complaint",
+    "options": {
+      "A": "A complete failure or disappointment.",
+      "B": "A very successful ride.",
+      "C": "An expensive trip.",
+      "D": "A fast ride."
+    },
+    "answer": "A",
+    "explanation": "'A bust' is US slang for a failure or disappointment. Empathize with the poor quality and check if a refund/rating adjustment is needed.",
+    "skill": "Slang & Quality Support"
+  },
+  {
+    "id": 116,
+    "question": "An American driver messages: 'The rider left a mess in my backseat and I want a cleaning fee. I have photos.' What is the best direct action?",
+    "scenario": "Driver clean-up fee request",
+    "options": {
+      "A": "Tell the driver to clean it themselves as it's part of their job.",
+      "B": "Say: 'Hey! Send me the pictures and I'll see what I can do.'",
+      "C": "Say: 'Thank you for reporting this, Driver Marcus. Let's get this sorted out. Please upload the photos here, and I'll review and apply the cleaning fee accordingly.'",
+      "D": "Tell them to report it to the local police department."
+    },
+    "answer": "C",
+    "explanation": "Professional driver support requires structured guidance, direct reassurance ('Let's get this sorted out'), and clear instructions.",
+    "skill": "Driver Relations & Empathy"
+  },
+  {
+    "id": 117,
+    "question": "A US passenger writes: 'Can you pull up my receipt for trip #157174?' What is the most natural, helpful reply?",
+    "scenario": "Receipt request",
+    "options": {
+      "A": "No, you can check it yourself in your email inbox.",
+      "B": "Sure, Amanda. I can pull that up for you right now. I will also resend it to your registered email address.",
+      "C": "Please wait while I search our servers. It takes about an hour.",
+      "D": "Why do you need the receipt? Please verify your identity first."
+    },
+    "answer": "B",
+    "explanation": "'Pull up' means to locate or retrieve information. Prompt and polite fulfillment of receipt requests is standard in US customer service.",
+    "skill": "Action-Oriented Communication"
+  },
+  {
+    "id": 118,
+    "question": "A customer says: 'Just giving you a heads up, the driver was texting while driving.' What does 'heads up' mean?",
+    "scenario": "Safety reporting",
+    "options": {
+      "A": "An advance warning or notification.",
+      "B": "An angry complaint.",
+      "C": "A polite greeting.",
+      "D": "An official demand."
+    },
+    "answer": "A",
+    "explanation": "A 'heads up' is a warning or alert. Safety reports like texting while driving must be escalated immediately to the Safety Team.",
+    "skill": "Safety Escalation & Slang"
+  },
+  {
+    "id": 119,
+    "question": "A customer in San Francisco chats: 'My driver is driving around the block repeatedly. I think he is trying to inflate the fare.' What is the best way to handle this?",
+    "scenario": "Fare inflation concern",
+    "options": {
+      "A": "Tell them the driver knows the route better than they do.",
+      "B": "Say: 'I see what you mean, Heather. Let me check the GPS path of your ride in real-time and review the fare calculation. If there's an error, I will adjust it for you.'",
+      "C": "Suggest that they cancel the ride and call another one.",
+      "D": "Disconnect the chat as it's a dispute in progress."
+    },
+    "answer": "B",
+    "explanation": "USA customers appreciate active monitoring and assurance that their money is protected against fare inflation.",
+    "skill": "Fraud & Route Verification"
+  },
+  {
+    "id": 120,
+    "question": "A US client says: 'I'm in a bind. I left my laptop in the trunk and my flight leaves in 2 hours.' What does 'in a bind' mean?",
+    "scenario": "Lost item urgency",
+    "options": {
+      "A": "In a secure position.",
+      "B": "In a difficult or tight situation.",
+      "C": "Very angry and aggressive.",
+      "D": "Satisfied with support."
+    },
+    "answer": "B",
+    "explanation": "'In a bind' means in distress or a difficult situation. High-urgency lost items (like laptops, passports) before flights need immediate outreach to the driver.",
+    "skill": "Urgency Handling & Idioms"
+  },
+  {
+    "id": 121,
+    "question": "A USA customer named Michael messages: 'I was charged $45.00 for a no-show but I was literally standing on the corner! This is a total rip-off.' What does 'rip-off' mean here and how do you respond?",
+    "scenario": "USA customer complains about cancellation fee using slang",
+    "options": {
+      "A": "Tell them to calm down and explain that a rip-off is a crime which we didn't do.",
+      "B": "A rip-off means an unfair price or cheat. You say: 'I understand you're frustrated, Michael. Let me check this cancellation charge for you right now.'",
+      "C": "Say: 'I apologize for the rip-off. I will refund you right away.'",
+      "D": "Say: 'Please wait. Our drivers never lie, so you must have been late.'"
+    },
+    "answer": "B",
+    "explanation": "USA customers appreciate active, direct help. Acknowledging their frustration and defining the issue professionally is key. 'Rip-off' means an overcharge or cheat.",
+    "skill": "Slang Understanding & Empathy"
+  },
+  {
+    "id": 122,
+    "question": "An American client writes: 'My driver is taking a massive detour, I'm going to beat the clock to my meeting at Union Station. Can you ping him?' What does 'beat the clock' mean?",
+    "scenario": "USA rider in a hurry",
+    "options": {
+      "A": "It means to damage the clock in the car.",
+      "B": "It means to arrive or finish before a deadline/limit. You should reassure the customer and check the route immediately.",
+      "C": "It means they want to pay by cash instead.",
+      "D": "It means they are canceling the ride."
+    },
+    "answer": "B",
+    "explanation": "'Beat the clock' means to finish or arrive before a certain time. Recognizing this urgency helps you offer fast, reassuring support.",
+    "skill": "American Idioms"
+  },
+  {
+    "id": 123,
+    "question": "A rider says: 'I need to split the fare with my coworker for the trip to Times Square. The app is acting up.' What is the best direct response?",
+    "scenario": "Fare splitting issue",
+    "options": {
+      "A": "I'm sorry, you cannot split the fare. Please pay separately.",
+      "B": "I understand you need to split the bill, Brian. Let me guide you on how to do it in the app, or I can check the trip status for you.",
+      "C": "Wait for 24 hours and the system will split it automatically.",
+      "D": "Why do you want to split the fare? It's easier if one person pays."
+    },
+    "answer": "B",
+    "explanation": "USA users expect direct, practical guideance when app features like fare splitting fail or are confusing.",
+    "skill": "Direct Problem Solving"
+  },
+  {
+    "id": 124,
+    "question": "A customer in New York says: 'My ride hit a snag and now I'm stuck on the highway.' What does 'hit a snag' mean?",
+    "scenario": "USA idiom check",
+    "options": {
+      "A": "The vehicle was involved in a severe crash.",
+      "B": "Encountered an unexpected problem or obstacle.",
+      "C": "The driver took a wrong exit on purpose.",
+      "D": "The app stopped responding."
+    },
+    "answer": "B",
+    "explanation": "'Hit a snag' means encountering a minor or unexpected obstacle. Identifying this quickly helps you provide appropriate guidance.",
+    "skill": "American English Vocabulary"
+  },
+  {
+    "id": 125,
+    "question": "A rider named John says: 'That trip was a bust. The driver's car was dirty and smelled like smoke.' What does 'a bust' mean?",
+    "scenario": "Vehicle quality complaint",
+    "options": {
+      "A": "A complete failure or disappointment.",
+      "B": "A very successful ride.",
+      "C": "An expensive trip.",
+      "D": "A fast ride."
+    },
+    "answer": "A",
+    "explanation": "'A bust' is US slang for a failure or disappointment. Empathize with the poor quality and check if a refund/rating adjustment is needed.",
+    "skill": "Slang & Quality Support"
+  },
+  {
+    "id": 126,
+    "question": "An American driver messages: 'The rider left a mess in my backseat and I want a cleaning fee. I have photos.' What is the best direct action?",
+    "scenario": "Driver clean-up fee request",
+    "options": {
+      "A": "Tell the driver to clean it themselves as it's part of their job.",
+      "B": "Say: 'Hey! Send me the pictures and I'll see what I can do.'",
+      "C": "Say: 'Thank you for reporting this, Driver Sam. Let's get this sorted out. Please upload the photos here, and I'll review and apply the cleaning fee accordingly.'",
+      "D": "Tell them to report it to the local police department."
+    },
+    "answer": "C",
+    "explanation": "Professional driver support requires structured guidance, direct reassurance ('Let's get this sorted out'), and clear instructions.",
+    "skill": "Driver Relations & Empathy"
+  },
+  {
+    "id": 127,
+    "question": "A US passenger writes: 'Can you pull up my receipt for trip #174637?' What is the most natural, helpful reply?",
+    "scenario": "Receipt request",
+    "options": {
+      "A": "No, you can check it yourself in your email inbox.",
+      "B": "Sure, Michael. I can pull that up for you right now. I will also resend it to your registered email address.",
+      "C": "Please wait while I search our servers. It takes about an hour.",
+      "D": "Why do you need the receipt? Please verify your identity first."
+    },
+    "answer": "B",
+    "explanation": "'Pull up' means to locate or retrieve information. Prompt and polite fulfillment of receipt requests is standard in US customer service.",
+    "skill": "Action-Oriented Communication"
+  },
+  {
+    "id": 128,
+    "question": "A customer says: 'Just giving you a heads up, the driver was texting while driving.' What does 'heads up' mean?",
+    "scenario": "Safety reporting",
+    "options": {
+      "A": "An advance warning or notification.",
+      "B": "An angry complaint.",
+      "C": "A polite greeting.",
+      "D": "An official demand."
+    },
+    "answer": "A",
+    "explanation": "A 'heads up' is a warning or alert. Safety reports like texting while driving must be escalated immediately to the Safety Team.",
+    "skill": "Safety Escalation & Slang"
+  },
+  {
+    "id": 129,
+    "question": "A customer in Los Angeles chats: 'My driver is driving around the block repeatedly. I think he is trying to inflate the fare.' What is the best way to handle this?",
+    "scenario": "Fare inflation concern",
+    "options": {
+      "A": "Tell them the driver knows the route better than they do.",
+      "B": "Say: 'I see what you mean, Ashley. Let me check the GPS path of your ride in real-time and review the fare calculation. If there's an error, I will adjust it for you.'",
+      "C": "Suggest that they cancel the ride and call another one.",
+      "D": "Disconnect the chat as it's a dispute in progress."
+    },
+    "answer": "B",
+    "explanation": "USA customers appreciate active monitoring and assurance that their money is protected against fare inflation.",
+    "skill": "Fraud & Route Verification"
+  },
+  {
+    "id": 130,
+    "question": "A US client says: 'I'm in a bind. I left my laptop in the trunk and my flight leaves in 2 hours.' What does 'in a bind' mean?",
+    "scenario": "Lost item urgency",
+    "options": {
+      "A": "In a secure position.",
+      "B": "In a difficult or tight situation.",
+      "C": "Very angry and aggressive.",
+      "D": "Satisfied with support."
+    },
+    "answer": "B",
+    "explanation": "'In a bind' means in distress or a difficult situation. High-urgency lost items (like laptops, passports) before flights need immediate outreach to the driver.",
+    "skill": "Urgency Handling & Idioms"
+  },
+  {
+    "id": 131,
+    "question": "A USA customer named Amanda messages: 'I was charged $45.00 for a no-show but I was literally standing on the corner! This is a total rip-off.' What does 'rip-off' mean here and how do you respond?",
+    "scenario": "USA customer complains about cancellation fee using slang",
+    "options": {
+      "A": "Tell them to calm down and explain that a rip-off is a crime which we didn't do.",
+      "B": "A rip-off means an unfair price or cheat. You say: 'I understand you're frustrated, Amanda. Let me check this cancellation charge for you right now.'",
+      "C": "Say: 'I apologize for the rip-off. I will refund you right away.'",
+      "D": "Say: 'Please wait. Our drivers never lie, so you must have been late.'"
+    },
+    "answer": "B",
+    "explanation": "USA customers appreciate active, direct help. Acknowledging their frustration and defining the issue professionally is key. 'Rip-off' means an overcharge or cheat.",
+    "skill": "Slang Understanding & Empathy"
+  },
+  {
+    "id": 132,
+    "question": "An American client writes: 'My driver is taking a massive detour, I'm going to beat the clock to my meeting at Union Station. Can you ping him?' What does 'beat the clock' mean?",
+    "scenario": "USA rider in a hurry",
+    "options": {
+      "A": "It means to damage the clock in the car.",
+      "B": "It means to arrive or finish before a deadline/limit. You should reassure the customer and check the route immediately.",
+      "C": "It means they want to pay by cash instead.",
+      "D": "It means they are canceling the ride."
+    },
+    "answer": "B",
+    "explanation": "'Beat the clock' means to finish or arrive before a certain time. Recognizing this urgency helps you offer fast, reassuring support.",
+    "skill": "American Idioms"
+  },
+  {
+    "id": 133,
+    "question": "A rider says: 'I need to split the fare with my coworker for the trip to Union Station. The app is acting up.' What is the best direct response?",
+    "scenario": "Fare splitting issue",
+    "options": {
+      "A": "I'm sorry, you cannot split the fare. Please pay separately.",
+      "B": "I understand you need to split the bill, Sarah. Let me guide you on how to do it in the app, or I can check the trip status for you.",
+      "C": "Wait for 24 hours and the system will split it automatically.",
+      "D": "Why do you want to split the fare? It's easier if one person pays."
+    },
+    "answer": "B",
+    "explanation": "USA users expect direct, practical guideance when app features like fare splitting fail or are confusing.",
+    "skill": "Direct Problem Solving"
+  },
+  {
+    "id": 134,
+    "question": "A customer in New York says: 'My ride hit a snag and now I'm stuck on the highway.' What does 'hit a snag' mean?",
+    "scenario": "USA idiom check",
+    "options": {
+      "A": "The vehicle was involved in a severe crash.",
+      "B": "Encountered an unexpected problem or obstacle.",
+      "C": "The driver took a wrong exit on purpose.",
+      "D": "The app stopped responding."
+    },
+    "answer": "B",
+    "explanation": "'Hit a snag' means encountering a minor or unexpected obstacle. Identifying this quickly helps you provide appropriate guidance.",
+    "skill": "American English Vocabulary"
+  },
+  {
+    "id": 135,
+    "question": "A rider named Matthew says: 'That trip was a bust. The driver's car was dirty and smelled like smoke.' What does 'a bust' mean?",
+    "scenario": "Vehicle quality complaint",
+    "options": {
+      "A": "A complete failure or disappointment.",
+      "B": "A very successful ride.",
+      "C": "An expensive trip.",
+      "D": "A fast ride."
+    },
+    "answer": "A",
+    "explanation": "'A bust' is US slang for a failure or disappointment. Empathize with the poor quality and check if a refund/rating adjustment is needed.",
+    "skill": "Slang & Quality Support"
+  },
+  {
+    "id": 136,
+    "question": "An American driver messages: 'The rider left a mess in my backseat and I want a cleaning fee. I have photos.' What is the best direct action?",
+    "scenario": "Driver clean-up fee request",
+    "options": {
+      "A": "Tell the driver to clean it themselves as it's part of their job.",
+      "B": "Say: 'Hey! Send me the pictures and I'll see what I can do.'",
+      "C": "Say: 'Thank you for reporting this, Driver Ken. Let's get this sorted out. Please upload the photos here, and I'll review and apply the cleaning fee accordingly.'",
+      "D": "Tell them to report it to the local police department."
+    },
+    "answer": "C",
+    "explanation": "Professional driver support requires structured guidance, direct reassurance ('Let's get this sorted out'), and clear instructions.",
+    "skill": "Driver Relations & Empathy"
+  },
+  {
+    "id": 137,
+    "question": "A US passenger writes: 'Can you pull up my receipt for trip #794769?' What is the most natural, helpful reply?",
+    "scenario": "Receipt request",
+    "options": {
+      "A": "No, you can check it yourself in your email inbox.",
+      "B": "Sure, Emily. I can pull that up for you right now. I will also resend it to your registered email address.",
+      "C": "Please wait while I search our servers. It takes about an hour.",
+      "D": "Why do you need the receipt? Please verify your identity first."
+    },
+    "answer": "B",
+    "explanation": "'Pull up' means to locate or retrieve information. Prompt and polite fulfillment of receipt requests is standard in US customer service.",
+    "skill": "Action-Oriented Communication"
+  },
+  {
+    "id": 138,
+    "question": "A customer says: 'Just giving you a heads up, the driver was texting while driving.' What does 'heads up' mean?",
+    "scenario": "Safety reporting",
+    "options": {
+      "A": "An advance warning or notification.",
+      "B": "An angry complaint.",
+      "C": "A polite greeting.",
+      "D": "An official demand."
+    },
+    "answer": "A",
+    "explanation": "A 'heads up' is a warning or alert. Safety reports like texting while driving must be escalated immediately to the Safety Team.",
+    "skill": "Safety Escalation & Slang"
+  },
+  {
+    "id": 139,
+    "question": "A customer in San Francisco chats: 'My driver is driving around the block repeatedly. I think he is trying to inflate the fare.' What is the best way to handle this?",
+    "scenario": "Fare inflation concern",
+    "options": {
+      "A": "Tell them the driver knows the route better than they do.",
+      "B": "Say: 'I see what you mean, James. Let me check the GPS path of your ride in real-time and review the fare calculation. If there's an error, I will adjust it for you.'",
+      "C": "Suggest that they cancel the ride and call another one.",
+      "D": "Disconnect the chat as it's a dispute in progress."
+    },
+    "answer": "B",
+    "explanation": "USA customers appreciate active monitoring and assurance that their money is protected against fare inflation.",
+    "skill": "Fraud & Route Verification"
+  },
+  {
+    "id": 140,
+    "question": "A US client says: 'I'm in a bind. I left my laptop in the trunk and my flight leaves in 2 hours.' What does 'in a bind' mean?",
+    "scenario": "Lost item urgency",
+    "options": {
+      "A": "In a secure position.",
+      "B": "In a difficult or tight situation.",
+      "C": "Very angry and aggressive.",
+      "D": "Satisfied with support."
+    },
+    "answer": "B",
+    "explanation": "'In a bind' means in distress or a difficult situation. High-urgency lost items (like laptops, passports) before flights need immediate outreach to the driver.",
+    "skill": "Urgency Handling & Idioms"
+  },
+  {
+    "id": 141,
+    "question": "A USA customer named Heather messages: 'I was charged $10.00 for a no-show but I was literally standing on the corner! This is a total rip-off.' What does 'rip-off' mean here and how do you respond?",
+    "scenario": "USA customer complains about cancellation fee using slang",
+    "options": {
+      "A": "Tell them to calm down and explain that a rip-off is a crime which we didn't do.",
+      "B": "A rip-off means an unfair price or cheat. You say: 'I understand you're frustrated, Heather. Let me check this cancellation charge for you right now.'",
+      "C": "Say: 'I apologize for the rip-off. I will refund you right away.'",
+      "D": "Say: 'Please wait. Our drivers never lie, so you must have been late.'"
+    },
+    "answer": "B",
+    "explanation": "USA customers appreciate active, direct help. Acknowledging their frustration and defining the issue professionally is key. 'Rip-off' means an overcharge or cheat.",
+    "skill": "Slang Understanding & Empathy"
+  },
+  {
+    "id": 142,
+    "question": "An American client writes: 'My driver is taking a massive detour, I'm going to beat the clock to my meeting at Union Station. Can you ping him?' What does 'beat the clock' mean?",
+    "scenario": "USA rider in a hurry",
+    "options": {
+      "A": "It means to damage the clock in the car.",
+      "B": "It means to arrive or finish before a deadline/limit. You should reassure the customer and check the route immediately.",
+      "C": "It means they want to pay by cash instead.",
+      "D": "It means they are canceling the ride."
+    },
+    "answer": "B",
+    "explanation": "'Beat the clock' means to finish or arrive before a certain time. Recognizing this urgency helps you offer fast, reassuring support.",
+    "skill": "American Idioms"
+  },
+  {
+    "id": 143,
+    "question": "A rider says: 'I need to split the fare with my coworker for the trip to Union Station. The app is acting up.' What is the best direct response?",
+    "scenario": "Fare splitting issue",
+    "options": {
+      "A": "I'm sorry, you cannot split the fare. Please pay separately.",
+      "B": "I understand you need to split the bill, Ashley. Let me guide you on how to do it in the app, or I can check the trip status for you.",
+      "C": "Wait for 24 hours and the system will split it automatically.",
+      "D": "Why do you want to split the fare? It's easier if one person pays."
+    },
+    "answer": "B",
+    "explanation": "USA users expect direct, practical guideance when app features like fare splitting fail or are confusing.",
+    "skill": "Direct Problem Solving"
+  },
+  {
+    "id": 144,
+    "question": "A customer in New York says: 'My ride hit a snag and now I'm stuck on the highway.' What does 'hit a snag' mean?",
+    "scenario": "USA idiom check",
+    "options": {
+      "A": "The vehicle was involved in a severe crash.",
+      "B": "Encountered an unexpected problem or obstacle.",
+      "C": "The driver took a wrong exit on purpose.",
+      "D": "The app stopped responding."
+    },
+    "answer": "B",
+    "explanation": "'Hit a snag' means encountering a minor or unexpected obstacle. Identifying this quickly helps you provide appropriate guidance.",
+    "skill": "American English Vocabulary"
+  },
+  {
+    "id": 145,
+    "question": "A rider named Amanda says: 'That trip was a bust. The driver's car was dirty and smelled like smoke.' What does 'a bust' mean?",
+    "scenario": "Vehicle quality complaint",
+    "options": {
+      "A": "A complete failure or disappointment.",
+      "B": "A very successful ride.",
+      "C": "An expensive trip.",
+      "D": "A fast ride."
+    },
+    "answer": "A",
+    "explanation": "'A bust' is US slang for a failure or disappointment. Empathize with the poor quality and check if a refund/rating adjustment is needed.",
+    "skill": "Slang & Quality Support"
+  },
+  {
+    "id": 146,
+    "question": "An American driver messages: 'The rider left a mess in my backseat and I want a cleaning fee. I have photos.' What is the best direct action?",
+    "scenario": "Driver clean-up fee request",
+    "options": {
+      "A": "Tell the driver to clean it themselves as it's part of their job.",
+      "B": "Say: 'Hey! Send me the pictures and I'll see what I can do.'",
+      "C": "Say: 'Thank you for reporting this, Driver Ahmed. Let's get this sorted out. Please upload the photos here, and I'll review and apply the cleaning fee accordingly.'",
+      "D": "Tell them to report it to the local police department."
+    },
+    "answer": "C",
+    "explanation": "Professional driver support requires structured guidance, direct reassurance ('Let's get this sorted out'), and clear instructions.",
+    "skill": "Driver Relations & Empathy"
+  },
+  {
+    "id": 147,
+    "question": "A US passenger writes: 'Can you pull up my receipt for trip #380150?' What is the most natural, helpful reply?",
+    "scenario": "Receipt request",
+    "options": {
+      "A": "No, you can check it yourself in your email inbox.",
+      "B": "Sure, David. I can pull that up for you right now. I will also resend it to your registered email address.",
+      "C": "Please wait while I search our servers. It takes about an hour.",
+      "D": "Why do you need the receipt? Please verify your identity first."
+    },
+    "answer": "B",
+    "explanation": "'Pull up' means to locate or retrieve information. Prompt and polite fulfillment of receipt requests is standard in US customer service.",
+    "skill": "Action-Oriented Communication"
+  },
+  {
+    "id": 148,
+    "question": "A customer says: 'Just giving you a heads up, the driver was texting while driving.' What does 'heads up' mean?",
+    "scenario": "Safety reporting",
+    "options": {
+      "A": "An advance warning or notification.",
+      "B": "An angry complaint.",
+      "C": "A polite greeting.",
+      "D": "An official demand."
+    },
+    "answer": "A",
+    "explanation": "A 'heads up' is a warning or alert. Safety reports like texting while driving must be escalated immediately to the Safety Team.",
+    "skill": "Safety Escalation & Slang"
+  },
+  {
+    "id": 149,
+    "question": "A customer in San Francisco chats: 'My driver is driving around the block repeatedly. I think he is trying to inflate the fare.' What is the best way to handle this?",
+    "scenario": "Fare inflation concern",
+    "options": {
+      "A": "Tell them the driver knows the route better than they do.",
+      "B": "Say: 'I see what you mean, Matthew. Let me check the GPS path of your ride in real-time and review the fare calculation. If there's an error, I will adjust it for you.'",
+      "C": "Suggest that they cancel the ride and call another one.",
+      "D": "Disconnect the chat as it's a dispute in progress."
+    },
+    "answer": "B",
+    "explanation": "USA customers appreciate active monitoring and assurance that their money is protected against fare inflation.",
+    "skill": "Fraud & Route Verification"
+  },
+  {
+    "id": 150,
+    "question": "A US client says: 'I'm in a bind. I left my laptop in the trunk and my flight leaves in 2 hours.' What does 'in a bind' mean?",
+    "scenario": "Lost item urgency",
+    "options": {
+      "A": "In a secure position.",
+      "B": "In a difficult or tight situation.",
+      "C": "Very angry and aggressive.",
+      "D": "Satisfied with support."
+    },
+    "answer": "B",
+    "explanation": "'In a bind' means in distress or a difficult situation. High-urgency lost items (like laptops, passports) before flights need immediate outreach to the driver.",
+    "skill": "Urgency Handling & Idioms"
+  },
+  {
+    "id": 151,
+    "question": "A USA customer named Ashley messages: 'I was charged $15.00 for a no-show but I was literally standing on the corner! This is a total rip-off.' What does 'rip-off' mean here and how do you respond?",
+    "scenario": "USA customer complains about cancellation fee using slang",
+    "options": {
+      "A": "Tell them to calm down and explain that a rip-off is a crime which we didn't do.",
+      "B": "A rip-off means an unfair price or cheat. You say: 'I understand you're frustrated, Ashley. Let me check this cancellation charge for you right now.'",
+      "C": "Say: 'I apologize for the rip-off. I will refund you right away.'",
+      "D": "Say: 'Please wait. Our drivers never lie, so you must have been late.'"
+    },
+    "answer": "B",
+    "explanation": "USA customers appreciate active, direct help. Acknowledging their frustration and defining the issue professionally is key. 'Rip-off' means an overcharge or cheat.",
+    "skill": "Slang Understanding & Empathy"
+  },
+  {
+    "id": 152,
+    "question": "An American client writes: 'My driver is taking a massive detour, I'm going to beat the clock to my meeting at Union Station. Can you ping him?' What does 'beat the clock' mean?",
+    "scenario": "USA rider in a hurry",
+    "options": {
+      "A": "It means to damage the clock in the car.",
+      "B": "It means to arrive or finish before a deadline/limit. You should reassure the customer and check the route immediately.",
+      "C": "It means they want to pay by cash instead.",
+      "D": "It means they are canceling the ride."
+    },
+    "answer": "B",
+    "explanation": "'Beat the clock' means to finish or arrive before a certain time. Recognizing this urgency helps you offer fast, reassuring support.",
+    "skill": "American Idioms"
+  },
+  {
+    "id": 153,
+    "question": "A rider says: 'I need to split the fare with my coworker for the trip to LAX Airport. The app is acting up.' What is the best direct response?",
+    "scenario": "Fare splitting issue",
+    "options": {
+      "A": "I'm sorry, you cannot split the fare. Please pay separately.",
+      "B": "I understand you need to split the bill, Jessica. Let me guide you on how to do it in the app, or I can check the trip status for you.",
+      "C": "Wait for 24 hours and the system will split it automatically.",
+      "D": "Why do you want to split the fare? It's easier if one person pays."
+    },
+    "answer": "B",
+    "explanation": "USA users expect direct, practical guideance when app features like fare splitting fail or are confusing.",
+    "skill": "Direct Problem Solving"
+  },
+  {
+    "id": 154,
+    "question": "A customer in Chicago says: 'My ride hit a snag and now I'm stuck on the highway.' What does 'hit a snag' mean?",
+    "scenario": "USA idiom check",
+    "options": {
+      "A": "The vehicle was involved in a severe crash.",
+      "B": "Encountered an unexpected problem or obstacle.",
+      "C": "The driver took a wrong exit on purpose.",
+      "D": "The app stopped responding."
+    },
+    "answer": "B",
+    "explanation": "'Hit a snag' means encountering a minor or unexpected obstacle. Identifying this quickly helps you provide appropriate guidance.",
+    "skill": "American English Vocabulary"
+  },
+  {
+    "id": 155,
+    "question": "A rider named Brian says: 'That trip was a bust. The driver's car was dirty and smelled like smoke.' What does 'a bust' mean?",
+    "scenario": "Vehicle quality complaint",
+    "options": {
+      "A": "A complete failure or disappointment.",
+      "B": "A very successful ride.",
+      "C": "An expensive trip.",
+      "D": "A fast ride."
+    },
+    "answer": "A",
+    "explanation": "'A bust' is US slang for a failure or disappointment. Empathize with the poor quality and check if a refund/rating adjustment is needed.",
+    "skill": "Slang & Quality Support"
+  },
+  {
+    "id": 156,
+    "question": "An American driver messages: 'The rider left a mess in my backseat and I want a cleaning fee. I have photos.' What is the best direct action?",
+    "scenario": "Driver clean-up fee request",
+    "options": {
+      "A": "Tell the driver to clean it themselves as it's part of their job.",
+      "B": "Say: 'Hey! Send me the pictures and I'll see what I can do.'",
+      "C": "Say: 'Thank you for reporting this, Driver Ahmed. Let's get this sorted out. Please upload the photos here, and I'll review and apply the cleaning fee accordingly.'",
+      "D": "Tell them to report it to the local police department."
+    },
+    "answer": "C",
+    "explanation": "Professional driver support requires structured guidance, direct reassurance ('Let's get this sorted out'), and clear instructions.",
+    "skill": "Driver Relations & Empathy"
+  },
+  {
+    "id": 157,
+    "question": "A US passenger writes: 'Can you pull up my receipt for trip #565230?' What is the most natural, helpful reply?",
+    "scenario": "Receipt request",
+    "options": {
+      "A": "No, you can check it yourself in your email inbox.",
+      "B": "Sure, Amanda. I can pull that up for you right now. I will also resend it to your registered email address.",
+      "C": "Please wait while I search our servers. It takes about an hour.",
+      "D": "Why do you need the receipt? Please verify your identity first."
+    },
+    "answer": "B",
+    "explanation": "'Pull up' means to locate or retrieve information. Prompt and polite fulfillment of receipt requests is standard in US customer service.",
+    "skill": "Action-Oriented Communication"
+  },
+  {
+    "id": 158,
+    "question": "A customer says: 'Just giving you a heads up, the driver was texting while driving.' What does 'heads up' mean?",
+    "scenario": "Safety reporting",
+    "options": {
+      "A": "An advance warning or notification.",
+      "B": "An angry complaint.",
+      "C": "A polite greeting.",
+      "D": "An official demand."
+    },
+    "answer": "A",
+    "explanation": "A 'heads up' is a warning or alert. Safety reports like texting while driving must be escalated immediately to the Safety Team.",
+    "skill": "Safety Escalation & Slang"
+  },
+  {
+    "id": 159,
+    "question": "A customer in San Francisco chats: 'My driver is driving around the block repeatedly. I think he is trying to inflate the fare.' What is the best way to handle this?",
+    "scenario": "Fare inflation concern",
+    "options": {
+      "A": "Tell them the driver knows the route better than they do.",
+      "B": "Say: 'I see what you mean, Megan. Let me check the GPS path of your ride in real-time and review the fare calculation. If there's an error, I will adjust it for you.'",
+      "C": "Suggest that they cancel the ride and call another one.",
+      "D": "Disconnect the chat as it's a dispute in progress."
+    },
+    "answer": "B",
+    "explanation": "USA customers appreciate active monitoring and assurance that their money is protected against fare inflation.",
+    "skill": "Fraud & Route Verification"
+  },
+  {
+    "id": 160,
+    "question": "A US client says: 'I'm in a bind. I left my laptop in the trunk and my flight leaves in 2 hours.' What does 'in a bind' mean?",
+    "scenario": "Lost item urgency",
+    "options": {
+      "A": "In a secure position.",
+      "B": "In a difficult or tight situation.",
+      "C": "Very angry and aggressive.",
+      "D": "Satisfied with support."
+    },
+    "answer": "B",
+    "explanation": "'In a bind' means in distress or a difficult situation. High-urgency lost items (like laptops, passports) before flights need immediate outreach to the driver.",
+    "skill": "Urgency Handling & Idioms"
+  },
+  {
+    "id": 161,
+    "question": "A USA customer named Ashley messages: 'I was charged $10.00 for a no-show but I was literally standing on the corner! This is a total rip-off.' What does 'rip-off' mean here and how do you respond?",
+    "scenario": "USA customer complains about cancellation fee using slang",
+    "options": {
+      "A": "Tell them to calm down and explain that a rip-off is a crime which we didn't do.",
+      "B": "A rip-off means an unfair price or cheat. You say: 'I understand you're frustrated, Ashley. Let me check this cancellation charge for you right now.'",
+      "C": "Say: 'I apologize for the rip-off. I will refund you right away.'",
+      "D": "Say: 'Please wait. Our drivers never lie, so you must have been late.'"
+    },
+    "answer": "B",
+    "explanation": "USA customers appreciate active, direct help. Acknowledging their frustration and defining the issue professionally is key. 'Rip-off' means an overcharge or cheat.",
+    "skill": "Slang Understanding & Empathy"
+  },
+  {
+    "id": 162,
+    "question": "An American client writes: 'My driver is taking a massive detour, I'm going to beat the clock to my meeting at Times Square. Can you ping him?' What does 'beat the clock' mean?",
+    "scenario": "USA rider in a hurry",
+    "options": {
+      "A": "It means to damage the clock in the car.",
+      "B": "It means to arrive or finish before a deadline/limit. You should reassure the customer and check the route immediately.",
+      "C": "It means they want to pay by cash instead.",
+      "D": "It means they are canceling the ride."
+    },
+    "answer": "B",
+    "explanation": "'Beat the clock' means to finish or arrive before a certain time. Recognizing this urgency helps you offer fast, reassuring support.",
+    "skill": "American Idioms"
+  },
+  {
+    "id": 163,
+    "question": "A rider says: 'I need to split the fare with my coworker for the trip to Broadway. The app is acting up.' What is the best direct response?",
+    "scenario": "Fare splitting issue",
+    "options": {
+      "A": "I'm sorry, you cannot split the fare. Please pay separately.",
+      "B": "I understand you need to split the bill, Emily. Let me guide you on how to do it in the app, or I can check the trip status for you.",
+      "C": "Wait for 24 hours and the system will split it automatically.",
+      "D": "Why do you want to split the fare? It's easier if one person pays."
+    },
+    "answer": "B",
+    "explanation": "USA users expect direct, practical guideance when app features like fare splitting fail or are confusing.",
+    "skill": "Direct Problem Solving"
+  },
+  {
+    "id": 164,
+    "question": "A customer in San Francisco says: 'My ride hit a snag and now I'm stuck on the highway.' What does 'hit a snag' mean?",
+    "scenario": "USA idiom check",
+    "options": {
+      "A": "The vehicle was involved in a severe crash.",
+      "B": "Encountered an unexpected problem or obstacle.",
+      "C": "The driver took a wrong exit on purpose.",
+      "D": "The app stopped responding."
+    },
+    "answer": "B",
+    "explanation": "'Hit a snag' means encountering a minor or unexpected obstacle. Identifying this quickly helps you provide appropriate guidance.",
+    "skill": "American English Vocabulary"
+  },
+  {
+    "id": 165,
+    "question": "A rider named Heather says: 'That trip was a bust. The driver's car was dirty and smelled like smoke.' What does 'a bust' mean?",
+    "scenario": "Vehicle quality complaint",
+    "options": {
+      "A": "A complete failure or disappointment.",
+      "B": "A very successful ride.",
+      "C": "An expensive trip.",
+      "D": "A fast ride."
+    },
+    "answer": "A",
+    "explanation": "'A bust' is US slang for a failure or disappointment. Empathize with the poor quality and check if a refund/rating adjustment is needed.",
+    "skill": "Slang & Quality Support"
+  },
+  {
+    "id": 166,
+    "question": "An American driver messages: 'The rider left a mess in my backseat and I want a cleaning fee. I have photos.' What is the best direct action?",
+    "scenario": "Driver clean-up fee request",
+    "options": {
+      "A": "Tell the driver to clean it themselves as it's part of their job.",
+      "B": "Say: 'Hey! Send me the pictures and I'll see what I can do.'",
+      "C": "Say: 'Thank you for reporting this, Driver Jose. Let's get this sorted out. Please upload the photos here, and I'll review and apply the cleaning fee accordingly.'",
+      "D": "Tell them to report it to the local police department."
+    },
+    "answer": "C",
+    "explanation": "Professional driver support requires structured guidance, direct reassurance ('Let's get this sorted out'), and clear instructions.",
+    "skill": "Driver Relations & Empathy"
+  },
+  {
+    "id": 167,
+    "question": "A US passenger writes: 'Can you pull up my receipt for trip #940886?' What is the most natural, helpful reply?",
+    "scenario": "Receipt request",
+    "options": {
+      "A": "No, you can check it yourself in your email inbox.",
+      "B": "Sure, Michael. I can pull that up for you right now. I will also resend it to your registered email address.",
+      "C": "Please wait while I search our servers. It takes about an hour.",
+      "D": "Why do you need the receipt? Please verify your identity first."
+    },
+    "answer": "B",
+    "explanation": "'Pull up' means to locate or retrieve information. Prompt and polite fulfillment of receipt requests is standard in US customer service.",
+    "skill": "Action-Oriented Communication"
+  },
+  {
+    "id": 168,
+    "question": "A customer says: 'Just giving you a heads up, the driver was texting while driving.' What does 'heads up' mean?",
+    "scenario": "Safety reporting",
+    "options": {
+      "A": "An advance warning or notification.",
+      "B": "An angry complaint.",
+      "C": "A polite greeting.",
+      "D": "An official demand."
+    },
+    "answer": "A",
+    "explanation": "A 'heads up' is a warning or alert. Safety reports like texting while driving must be escalated immediately to the Safety Team.",
+    "skill": "Safety Escalation & Slang"
+  },
+  {
+    "id": 169,
+    "question": "A customer in Los Angeles chats: 'My driver is driving around the block repeatedly. I think he is trying to inflate the fare.' What is the best way to handle this?",
+    "scenario": "Fare inflation concern",
+    "options": {
+      "A": "Tell them the driver knows the route better than they do.",
+      "B": "Say: 'I see what you mean, Jessica. Let me check the GPS path of your ride in real-time and review the fare calculation. If there's an error, I will adjust it for you.'",
+      "C": "Suggest that they cancel the ride and call another one.",
+      "D": "Disconnect the chat as it's a dispute in progress."
+    },
+    "answer": "B",
+    "explanation": "USA customers appreciate active monitoring and assurance that their money is protected against fare inflation.",
+    "skill": "Fraud & Route Verification"
+  },
+  {
+    "id": 170,
+    "question": "A US client says: 'I'm in a bind. I left my laptop in the trunk and my flight leaves in 2 hours.' What does 'in a bind' mean?",
+    "scenario": "Lost item urgency",
+    "options": {
+      "A": "In a secure position.",
+      "B": "In a difficult or tight situation.",
+      "C": "Very angry and aggressive.",
+      "D": "Satisfied with support."
+    },
+    "answer": "B",
+    "explanation": "'In a bind' means in distress or a difficult situation. High-urgency lost items (like laptops, passports) before flights need immediate outreach to the driver.",
+    "skill": "Urgency Handling & Idioms"
+  },
+  {
+    "id": 171,
+    "question": "A USA customer named David messages: 'I was charged $45.00 for a no-show but I was literally standing on the corner! This is a total rip-off.' What does 'rip-off' mean here and how do you respond?",
+    "scenario": "USA customer complains about cancellation fee using slang",
+    "options": {
+      "A": "Tell them to calm down and explain that a rip-off is a crime which we didn't do.",
+      "B": "A rip-off means an unfair price or cheat. You say: 'I understand you're frustrated, David. Let me check this cancellation charge for you right now.'",
+      "C": "Say: 'I apologize for the rip-off. I will refund you right away.'",
+      "D": "Say: 'Please wait. Our drivers never lie, so you must have been late.'"
+    },
+    "answer": "B",
+    "explanation": "USA customers appreciate active, direct help. Acknowledging their frustration and defining the issue professionally is key. 'Rip-off' means an overcharge or cheat.",
+    "skill": "Slang Understanding & Empathy"
+  },
+  {
+    "id": 172,
+    "question": "An American client writes: 'My driver is taking a massive detour, I'm going to beat the clock to my meeting at LAX Airport. Can you ping him?' What does 'beat the clock' mean?",
+    "scenario": "USA rider in a hurry",
+    "options": {
+      "A": "It means to damage the clock in the car.",
+      "B": "It means to arrive or finish before a deadline/limit. You should reassure the customer and check the route immediately.",
+      "C": "It means they want to pay by cash instead.",
+      "D": "It means they are canceling the ride."
+    },
+    "answer": "B",
+    "explanation": "'Beat the clock' means to finish or arrive before a certain time. Recognizing this urgency helps you offer fast, reassuring support.",
+    "skill": "American Idioms"
+  },
+  {
+    "id": 173,
+    "question": "A rider says: 'I need to split the fare with my coworker for the trip to Union Station. The app is acting up.' What is the best direct response?",
+    "scenario": "Fare splitting issue",
+    "options": {
+      "A": "I'm sorry, you cannot split the fare. Please pay separately.",
+      "B": "I understand you need to split the bill, John. Let me guide you on how to do it in the app, or I can check the trip status for you.",
+      "C": "Wait for 24 hours and the system will split it automatically.",
+      "D": "Why do you want to split the fare? It's easier if one person pays."
+    },
+    "answer": "B",
+    "explanation": "USA users expect direct, practical guideance when app features like fare splitting fail or are confusing.",
+    "skill": "Direct Problem Solving"
+  },
+  {
+    "id": 174,
+    "question": "A customer in New York says: 'My ride hit a snag and now I'm stuck on the highway.' What does 'hit a snag' mean?",
+    "scenario": "USA idiom check",
+    "options": {
+      "A": "The vehicle was involved in a severe crash.",
+      "B": "Encountered an unexpected problem or obstacle.",
+      "C": "The driver took a wrong exit on purpose.",
+      "D": "The app stopped responding."
+    },
+    "answer": "B",
+    "explanation": "'Hit a snag' means encountering a minor or unexpected obstacle. Identifying this quickly helps you provide appropriate guidance.",
+    "skill": "American English Vocabulary"
+  },
+  {
+    "id": 175,
+    "question": "A rider named Megan says: 'That trip was a bust. The driver's car was dirty and smelled like smoke.' What does 'a bust' mean?",
+    "scenario": "Vehicle quality complaint",
+    "options": {
+      "A": "A complete failure or disappointment.",
+      "B": "A very successful ride.",
+      "C": "An expensive trip.",
+      "D": "A fast ride."
+    },
+    "answer": "A",
+    "explanation": "'A bust' is US slang for a failure or disappointment. Empathize with the poor quality and check if a refund/rating adjustment is needed.",
+    "skill": "Slang & Quality Support"
+  },
+  {
+    "id": 176,
+    "question": "An American driver messages: 'The rider left a mess in my backseat and I want a cleaning fee. I have photos.' What is the best direct action?",
+    "scenario": "Driver clean-up fee request",
+    "options": {
+      "A": "Tell the driver to clean it themselves as it's part of their job.",
+      "B": "Say: 'Hey! Send me the pictures and I'll see what I can do.'",
+      "C": "Say: 'Thank you for reporting this, Driver Roger. Let's get this sorted out. Please upload the photos here, and I'll review and apply the cleaning fee accordingly.'",
+      "D": "Tell them to report it to the local police department."
+    },
+    "answer": "C",
+    "explanation": "Professional driver support requires structured guidance, direct reassurance ('Let's get this sorted out'), and clear instructions.",
+    "skill": "Driver Relations & Empathy"
+  },
+  {
+    "id": 177,
+    "question": "A US passenger writes: 'Can you pull up my receipt for trip #222343?' What is the most natural, helpful reply?",
+    "scenario": "Receipt request",
+    "options": {
+      "A": "No, you can check it yourself in your email inbox.",
+      "B": "Sure, Ashley. I can pull that up for you right now. I will also resend it to your registered email address.",
+      "C": "Please wait while I search our servers. It takes about an hour.",
+      "D": "Why do you need the receipt? Please verify your identity first."
+    },
+    "answer": "B",
+    "explanation": "'Pull up' means to locate or retrieve information. Prompt and polite fulfillment of receipt requests is standard in US customer service.",
+    "skill": "Action-Oriented Communication"
+  },
+  {
+    "id": 178,
+    "question": "A customer says: 'Just giving you a heads up, the driver was texting while driving.' What does 'heads up' mean?",
+    "scenario": "Safety reporting",
+    "options": {
+      "A": "An advance warning or notification.",
+      "B": "An angry complaint.",
+      "C": "A polite greeting.",
+      "D": "An official demand."
+    },
+    "answer": "A",
+    "explanation": "A 'heads up' is a warning or alert. Safety reports like texting while driving must be escalated immediately to the Safety Team.",
+    "skill": "Safety Escalation & Slang"
+  },
+  {
+    "id": 179,
+    "question": "A customer in Chicago chats: 'My driver is driving around the block repeatedly. I think he is trying to inflate the fare.' What is the best way to handle this?",
+    "scenario": "Fare inflation concern",
+    "options": {
+      "A": "Tell them the driver knows the route better than they do.",
+      "B": "Say: 'I see what you mean, Ashley. Let me check the GPS path of your ride in real-time and review the fare calculation. If there's an error, I will adjust it for you.'",
+      "C": "Suggest that they cancel the ride and call another one.",
+      "D": "Disconnect the chat as it's a dispute in progress."
+    },
+    "answer": "B",
+    "explanation": "USA customers appreciate active monitoring and assurance that their money is protected against fare inflation.",
+    "skill": "Fraud & Route Verification"
+  },
+  {
+    "id": 180,
+    "question": "A US client says: 'I'm in a bind. I left my laptop in the trunk and my flight leaves in 2 hours.' What does 'in a bind' mean?",
+    "scenario": "Lost item urgency",
+    "options": {
+      "A": "In a secure position.",
+      "B": "In a difficult or tight situation.",
+      "C": "Very angry and aggressive.",
+      "D": "Satisfied with support."
+    },
+    "answer": "B",
+    "explanation": "'In a bind' means in distress or a difficult situation. High-urgency lost items (like laptops, passports) before flights need immediate outreach to the driver.",
+    "skill": "Urgency Handling & Idioms"
+  },
+  {
+    "id": 181,
+    "question": "A USA customer named Nicole messages: 'I was charged $75.00 for a no-show but I was literally standing on the corner! This is a total rip-off.' What does 'rip-off' mean here and how do you respond?",
+    "scenario": "USA customer complains about cancellation fee using slang",
+    "options": {
+      "A": "Tell them to calm down and explain that a rip-off is a crime which we didn't do.",
+      "B": "A rip-off means an unfair price or cheat. You say: 'I understand you're frustrated, Nicole. Let me check this cancellation charge for you right now.'",
+      "C": "Say: 'I apologize for the rip-off. I will refund you right away.'",
+      "D": "Say: 'Please wait. Our drivers never lie, so you must have been late.'"
+    },
+    "answer": "B",
+    "explanation": "USA customers appreciate active, direct help. Acknowledging their frustration and defining the issue professionally is key. 'Rip-off' means an overcharge or cheat.",
+    "skill": "Slang Understanding & Empathy"
+  },
+  {
+    "id": 182,
+    "question": "An American client writes: 'My driver is taking a massive detour, I'm going to beat the clock to my meeting at Union Station. Can you ping him?' What does 'beat the clock' mean?",
+    "scenario": "USA rider in a hurry",
+    "options": {
+      "A": "It means to damage the clock in the car.",
+      "B": "It means to arrive or finish before a deadline/limit. You should reassure the customer and check the route immediately.",
+      "C": "It means they want to pay by cash instead.",
+      "D": "It means they are canceling the ride."
+    },
+    "answer": "B",
+    "explanation": "'Beat the clock' means to finish or arrive before a certain time. Recognizing this urgency helps you offer fast, reassuring support.",
+    "skill": "American Idioms"
+  },
+  {
+    "id": 183,
+    "question": "A rider says: 'I need to split the fare with my coworker for the trip to LAX Airport. The app is acting up.' What is the best direct response?",
+    "scenario": "Fare splitting issue",
+    "options": {
+      "A": "I'm sorry, you cannot split the fare. Please pay separately.",
+      "B": "I understand you need to split the bill, Megan. Let me guide you on how to do it in the app, or I can check the trip status for you.",
+      "C": "Wait for 24 hours and the system will split it automatically.",
+      "D": "Why do you want to split the fare? It's easier if one person pays."
+    },
+    "answer": "B",
+    "explanation": "USA users expect direct, practical guideance when app features like fare splitting fail or are confusing.",
+    "skill": "Direct Problem Solving"
+  },
+  {
+    "id": 184,
+    "question": "A customer in Chicago says: 'My ride hit a snag and now I'm stuck on the highway.' What does 'hit a snag' mean?",
+    "scenario": "USA idiom check",
+    "options": {
+      "A": "The vehicle was involved in a severe crash.",
+      "B": "Encountered an unexpected problem or obstacle.",
+      "C": "The driver took a wrong exit on purpose.",
+      "D": "The app stopped responding."
+    },
+    "answer": "B",
+    "explanation": "'Hit a snag' means encountering a minor or unexpected obstacle. Identifying this quickly helps you provide appropriate guidance.",
+    "skill": "American English Vocabulary"
+  },
+  {
+    "id": 185,
+    "question": "A rider named James says: 'That trip was a bust. The driver's car was dirty and smelled like smoke.' What does 'a bust' mean?",
+    "scenario": "Vehicle quality complaint",
+    "options": {
+      "A": "A complete failure or disappointment.",
+      "B": "A very successful ride.",
+      "C": "An expensive trip.",
+      "D": "A fast ride."
+    },
+    "answer": "A",
+    "explanation": "'A bust' is US slang for a failure or disappointment. Empathize with the poor quality and check if a refund/rating adjustment is needed.",
+    "skill": "Slang & Quality Support"
+  },
+  {
+    "id": 186,
+    "question": "An American driver messages: 'The rider left a mess in my backseat and I want a cleaning fee. I have photos.' What is the best direct action?",
+    "scenario": "Driver clean-up fee request",
+    "options": {
+      "A": "Tell the driver to clean it themselves as it's part of their job.",
+      "B": "Say: 'Hey! Send me the pictures and I'll see what I can do.'",
+      "C": "Say: 'Thank you for reporting this, Driver Liam. Let's get this sorted out. Please upload the photos here, and I'll review and apply the cleaning fee accordingly.'",
+      "D": "Tell them to report it to the local police department."
+    },
+    "answer": "C",
+    "explanation": "Professional driver support requires structured guidance, direct reassurance ('Let's get this sorted out'), and clear instructions.",
+    "skill": "Driver Relations & Empathy"
+  },
+  {
+    "id": 187,
+    "question": "A US passenger writes: 'Can you pull up my receipt for trip #937302?' What is the most natural, helpful reply?",
+    "scenario": "Receipt request",
+    "options": {
+      "A": "No, you can check it yourself in your email inbox.",
+      "B": "Sure, Sarah. I can pull that up for you right now. I will also resend it to your registered email address.",
+      "C": "Please wait while I search our servers. It takes about an hour.",
+      "D": "Why do you need the receipt? Please verify your identity first."
+    },
+    "answer": "B",
+    "explanation": "'Pull up' means to locate or retrieve information. Prompt and polite fulfillment of receipt requests is standard in US customer service.",
+    "skill": "Action-Oriented Communication"
+  },
+  {
+    "id": 188,
+    "question": "A customer says: 'Just giving you a heads up, the driver was texting while driving.' What does 'heads up' mean?",
+    "scenario": "Safety reporting",
+    "options": {
+      "A": "An advance warning or notification.",
+      "B": "An angry complaint.",
+      "C": "A polite greeting.",
+      "D": "An official demand."
+    },
+    "answer": "A",
+    "explanation": "A 'heads up' is a warning or alert. Safety reports like texting while driving must be escalated immediately to the Safety Team.",
+    "skill": "Safety Escalation & Slang"
+  },
+  {
+    "id": 189,
+    "question": "A customer in Los Angeles chats: 'My driver is driving around the block repeatedly. I think he is trying to inflate the fare.' What is the best way to handle this?",
+    "scenario": "Fare inflation concern",
+    "options": {
+      "A": "Tell them the driver knows the route better than they do.",
+      "B": "Say: 'I see what you mean, Ashley. Let me check the GPS path of your ride in real-time and review the fare calculation. If there's an error, I will adjust it for you.'",
+      "C": "Suggest that they cancel the ride and call another one.",
+      "D": "Disconnect the chat as it's a dispute in progress."
+    },
+    "answer": "B",
+    "explanation": "USA customers appreciate active monitoring and assurance that their money is protected against fare inflation.",
+    "skill": "Fraud & Route Verification"
+  },
+  {
+    "id": 190,
+    "question": "A US client says: 'I'm in a bind. I left my laptop in the trunk and my flight leaves in 2 hours.' What does 'in a bind' mean?",
+    "scenario": "Lost item urgency",
+    "options": {
+      "A": "In a secure position.",
+      "B": "In a difficult or tight situation.",
+      "C": "Very angry and aggressive.",
+      "D": "Satisfied with support."
+    },
+    "answer": "B",
+    "explanation": "'In a bind' means in distress or a difficult situation. High-urgency lost items (like laptops, passports) before flights need immediate outreach to the driver.",
+    "skill": "Urgency Handling & Idioms"
+  },
+  {
+    "id": 191,
+    "question": "A USA customer named Megan messages: 'I was charged $5.00 for a no-show but I was literally standing on the corner! This is a total rip-off.' What does 'rip-off' mean here and how do you respond?",
+    "scenario": "USA customer complains about cancellation fee using slang",
+    "options": {
+      "A": "Tell them to calm down and explain that a rip-off is a crime which we didn't do.",
+      "B": "A rip-off means an unfair price or cheat. You say: 'I understand you're frustrated, Megan. Let me check this cancellation charge for you right now.'",
+      "C": "Say: 'I apologize for the rip-off. I will refund you right away.'",
+      "D": "Say: 'Please wait. Our drivers never lie, so you must have been late.'"
+    },
+    "answer": "B",
+    "explanation": "USA customers appreciate active, direct help. Acknowledging their frustration and defining the issue professionally is key. 'Rip-off' means an overcharge or cheat.",
+    "skill": "Slang Understanding & Empathy"
+  },
+  {
+    "id": 192,
+    "question": "An American client writes: 'My driver is taking a massive detour, I'm going to beat the clock to my meeting at LAX Airport. Can you ping him?' What does 'beat the clock' mean?",
+    "scenario": "USA rider in a hurry",
+    "options": {
+      "A": "It means to damage the clock in the car.",
+      "B": "It means to arrive or finish before a deadline/limit. You should reassure the customer and check the route immediately.",
+      "C": "It means they want to pay by cash instead.",
+      "D": "It means they are canceling the ride."
+    },
+    "answer": "B",
+    "explanation": "'Beat the clock' means to finish or arrive before a certain time. Recognizing this urgency helps you offer fast, reassuring support.",
+    "skill": "American Idioms"
+  },
+  {
+    "id": 193,
+    "question": "A rider says: 'I need to split the fare with my coworker for the trip to LAX Airport. The app is acting up.' What is the best direct response?",
+    "scenario": "Fare splitting issue",
+    "options": {
+      "A": "I'm sorry, you cannot split the fare. Please pay separately.",
+      "B": "I understand you need to split the bill, Brian. Let me guide you on how to do it in the app, or I can check the trip status for you.",
+      "C": "Wait for 24 hours and the system will split it automatically.",
+      "D": "Why do you want to split the fare? It's easier if one person pays."
+    },
+    "answer": "B",
+    "explanation": "USA users expect direct, practical guideance when app features like fare splitting fail or are confusing.",
+    "skill": "Direct Problem Solving"
+  },
+  {
+    "id": 194,
+    "question": "A customer in Chicago says: 'My ride hit a snag and now I'm stuck on the highway.' What does 'hit a snag' mean?",
+    "scenario": "USA idiom check",
+    "options": {
+      "A": "The vehicle was involved in a severe crash.",
+      "B": "Encountered an unexpected problem or obstacle.",
+      "C": "The driver took a wrong exit on purpose.",
+      "D": "The app stopped responding."
+    },
+    "answer": "B",
+    "explanation": "'Hit a snag' means encountering a minor or unexpected obstacle. Identifying this quickly helps you provide appropriate guidance.",
+    "skill": "American English Vocabulary"
+  },
+  {
+    "id": 195,
+    "question": "A rider named James says: 'That trip was a bust. The driver's car was dirty and smelled like smoke.' What does 'a bust' mean?",
+    "scenario": "Vehicle quality complaint",
+    "options": {
+      "A": "A complete failure or disappointment.",
+      "B": "A very successful ride.",
+      "C": "An expensive trip.",
+      "D": "A fast ride."
+    },
+    "answer": "A",
+    "explanation": "'A bust' is US slang for a failure or disappointment. Empathize with the poor quality and check if a refund/rating adjustment is needed.",
+    "skill": "Slang & Quality Support"
+  },
+  {
+    "id": 196,
+    "question": "An American driver messages: 'The rider left a mess in my backseat and I want a cleaning fee. I have photos.' What is the best direct action?",
+    "scenario": "Driver clean-up fee request",
+    "options": {
+      "A": "Tell the driver to clean it themselves as it's part of their job.",
+      "B": "Say: 'Hey! Send me the pictures and I'll see what I can do.'",
+      "C": "Say: 'Thank you for reporting this, Driver Marcus. Let's get this sorted out. Please upload the photos here, and I'll review and apply the cleaning fee accordingly.'",
+      "D": "Tell them to report it to the local police department."
+    },
+    "answer": "C",
+    "explanation": "Professional driver support requires structured guidance, direct reassurance ('Let's get this sorted out'), and clear instructions.",
+    "skill": "Driver Relations & Empathy"
+  },
+  {
+    "id": 197,
+    "question": "A US passenger writes: 'Can you pull up my receipt for trip #536196?' What is the most natural, helpful reply?",
+    "scenario": "Receipt request",
+    "options": {
+      "A": "No, you can check it yourself in your email inbox.",
+      "B": "Sure, Matthew. I can pull that up for you right now. I will also resend it to your registered email address.",
+      "C": "Please wait while I search our servers. It takes about an hour.",
+      "D": "Why do you need the receipt? Please verify your identity first."
+    },
+    "answer": "B",
+    "explanation": "'Pull up' means to locate or retrieve information. Prompt and polite fulfillment of receipt requests is standard in US customer service.",
+    "skill": "Action-Oriented Communication"
+  },
+  {
+    "id": 198,
+    "question": "A customer says: 'Just giving you a heads up, the driver was texting while driving.' What does 'heads up' mean?",
+    "scenario": "Safety reporting",
+    "options": {
+      "A": "An advance warning or notification.",
+      "B": "An angry complaint.",
+      "C": "A polite greeting.",
+      "D": "An official demand."
+    },
+    "answer": "A",
+    "explanation": "A 'heads up' is a warning or alert. Safety reports like texting while driving must be escalated immediately to the Safety Team.",
+    "skill": "Safety Escalation & Slang"
+  },
+  {
+    "id": 199,
+    "question": "A customer in New York chats: 'My driver is driving around the block repeatedly. I think he is trying to inflate the fare.' What is the best way to handle this?",
+    "scenario": "Fare inflation concern",
+    "options": {
+      "A": "Tell them the driver knows the route better than they do.",
+      "B": "Say: 'I see what you mean, Heather. Let me check the GPS path of your ride in real-time and review the fare calculation. If there's an error, I will adjust it for you.'",
+      "C": "Suggest that they cancel the ride and call another one.",
+      "D": "Disconnect the chat as it's a dispute in progress."
+    },
+    "answer": "B",
+    "explanation": "USA customers appreciate active monitoring and assurance that their money is protected against fare inflation.",
+    "skill": "Fraud & Route Verification"
+  },
+  {
+    "id": 200,
+    "question": "A US client says: 'I'm in a bind. I left my laptop in the trunk and my flight leaves in 2 hours.' What does 'in a bind' mean?",
+    "scenario": "Lost item urgency",
+    "options": {
+      "A": "In a secure position.",
+      "B": "In a difficult or tight situation.",
+      "C": "Very angry and aggressive.",
+      "D": "Satisfied with support."
+    },
+    "answer": "B",
+    "explanation": "'In a bind' means in distress or a difficult situation. High-urgency lost items (like laptops, passports) before flights need immediate outreach to the driver.",
+    "skill": "Urgency Handling & Idioms"
+  }
+]

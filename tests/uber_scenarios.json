@@ -1,0 +1,2802 @@
+[
+  {
+    "id": 1,
+    "question": "A rider claims: 'I left my laptop in the vehicle yesterday. The driver is demanding cash to return it to me.' What is Uber's policy?",
+    "scenario": "Lost item extortion",
+    "options": {
+      "A": "Tell the rider they must pay the driver whatever cash they want.",
+      "B": "Explain that while Uber has a standard return fee that goes to the driver for their time, demanding extra cash is a policy violation. We will coordinate the return and warn the driver.",
+      "C": "Tell them to report the driver for theft immediately.",
+      "D": "Say that we do not interfere in lost items."
+    },
+    "answer": "B",
+    "explanation": "Drivers are entitled to a standard return fee (e.g. $15) to cover their fuel and time, but extorting passengers for extra cash is prohibited. Support must mediate.",
+    "skill": "Lost Item Policy"
+  },
+  {
+    "id": 2,
+    "question": "A driver messages: 'The passenger threw up in my backseat. I need a cleaning fee.' What documentation is mandatory to process this?",
+    "scenario": "Cleaning fee documentation",
+    "options": {
+      "A": "Just the driver's word is enough.",
+      "B": "Clear photos of the mess and a valid cleaning receipt or invoice from a professional cleaner detailing the service.",
+      "C": "A copy of the driver's driver's license.",
+      "D": "A police report."
+    },
+    "answer": "B",
+    "explanation": "To charge a rider a cleaning fee (up to $150), the driver must submit clear photos of the mess and a valid professional cleaning invoice within 3 days.",
+    "skill": "Documentation Verification"
+  },
+  {
+    "id": 3,
+    "question": "A rider writes: 'My driver took a very long route to my destination, costing me $5.00 more than the upfront estimate.' What is the review protocol?",
+    "scenario": "Upfront fare adjustment",
+    "options": {
+      "A": "If the route was significantly longer due to driver error (not traffic), adjust the fare back to the upfront estimate and refund the difference.",
+      "B": "Tell them the estimate is just an estimate, they must pay.",
+      "C": "Refund the entire ride cost to keep the CSAT high.",
+      "D": "Tell them to walk next time."
+    },
+    "answer": "A",
+    "explanation": "Compare the actual GPS route with the planned route. If the driver made a clear error or took a detour without passenger consent, refund the difference.",
+    "skill": "Fare Adjustment & Map Review"
+  },
+  {
+    "id": 4,
+    "question": "A driver complains: 'The passenger's child was only 3 years old and they didn't have a car seat, so I cancelled. I want a cancellation fee.' What is the policy?",
+    "scenario": "Child seat safety cancellation",
+    "options": {
+      "A": "Tell the driver they should have driven anyway.",
+      "B": "Support the driver's safety decision. Waive any impact on the driver's rating/rate and credit them a cancellation fee. Safety is our top priority.",
+      "C": "Tell the driver they are suspended for refusing a child.",
+      "D": "Ignore the ticket."
+    },
+    "answer": "B",
+    "explanation": "Uber policy supports drivers who refuse rides due to lack of required child safety seats. The driver is eligible for a cancellation fee.",
+    "skill": "Safety Policies"
+  },
+  {
+    "id": 5,
+    "question": "A rider says: 'My driver brought a friend who was sitting in the front seat. I felt extremely uncomfortable.' How do you handle this security concern?",
+    "scenario": "Unauthorised co-rider",
+    "options": {
+      "A": "Tell the rider that ride-sharing allows drivers to bring friends.",
+      "B": "Acknowledge the safety concern immediately. Explain that co-riders are strictly prohibited. Escalate to the safety and driver compliance teams for driver warning/deactivation.",
+      "C": "Suggest the rider make friends with the co-rider.",
+      "D": "Refund the ride and do nothing else."
+    },
+    "answer": "B",
+    "explanation": "Uber policy strictly prohibits co-riders (anyone other than the driver and riders) in the vehicle. This is a safety violation and must be escalated.",
+    "skill": "Safety Escalation"
+  },
+  {
+    "id": 6,
+    "question": "A rider claims: 'I left my jacket in the vehicle yesterday. The driver is demanding cash to return it to me.' What is Uber's policy?",
+    "scenario": "Lost item extortion",
+    "options": {
+      "A": "Tell the rider they must pay the driver whatever cash they want.",
+      "B": "Explain that while Uber has a standard return fee that goes to the driver for their time, demanding extra cash is a policy violation. We will coordinate the return and warn the driver.",
+      "C": "Tell them to report the driver for theft immediately.",
+      "D": "Say that we do not interfere in lost items."
+    },
+    "answer": "B",
+    "explanation": "Drivers are entitled to a standard return fee (e.g. $15) to cover their fuel and time, but extorting passengers for extra cash is prohibited. Support must mediate.",
+    "skill": "Lost Item Policy"
+  },
+  {
+    "id": 7,
+    "question": "A driver messages: 'The passenger threw up in my backseat. I need a cleaning fee.' What documentation is mandatory to process this?",
+    "scenario": "Cleaning fee documentation",
+    "options": {
+      "A": "Just the driver's word is enough.",
+      "B": "Clear photos of the mess and a valid cleaning receipt or invoice from a professional cleaner detailing the service.",
+      "C": "A copy of the driver's driver's license.",
+      "D": "A police report."
+    },
+    "answer": "B",
+    "explanation": "To charge a rider a cleaning fee (up to $150), the driver must submit clear photos of the mess and a valid professional cleaning invoice within 3 days.",
+    "skill": "Documentation Verification"
+  },
+  {
+    "id": 8,
+    "question": "A rider writes: 'My driver took a very long route to my destination, costing me $10.00 more than the upfront estimate.' What is the review protocol?",
+    "scenario": "Upfront fare adjustment",
+    "options": {
+      "A": "If the route was significantly longer due to driver error (not traffic), adjust the fare back to the upfront estimate and refund the difference.",
+      "B": "Tell them the estimate is just an estimate, they must pay.",
+      "C": "Refund the entire ride cost to keep the CSAT high.",
+      "D": "Tell them to walk next time."
+    },
+    "answer": "A",
+    "explanation": "Compare the actual GPS route with the planned route. If the driver made a clear error or took a detour without passenger consent, refund the difference.",
+    "skill": "Fare Adjustment & Map Review"
+  },
+  {
+    "id": 9,
+    "question": "A driver complains: 'The passenger's child was only 3 years old and they didn't have a car seat, so I cancelled. I want a cancellation fee.' What is the policy?",
+    "scenario": "Child seat safety cancellation",
+    "options": {
+      "A": "Tell the driver they should have driven anyway.",
+      "B": "Support the driver's safety decision. Waive any impact on the driver's rating/rate and credit them a cancellation fee. Safety is our top priority.",
+      "C": "Tell the driver they are suspended for refusing a child.",
+      "D": "Ignore the ticket."
+    },
+    "answer": "B",
+    "explanation": "Uber policy supports drivers who refuse rides due to lack of required child safety seats. The driver is eligible for a cancellation fee.",
+    "skill": "Safety Policies"
+  },
+  {
+    "id": 10,
+    "question": "A rider says: 'My driver brought a friend who was sitting in the front seat. I felt extremely uncomfortable.' How do you handle this security concern?",
+    "scenario": "Unauthorised co-rider",
+    "options": {
+      "A": "Tell the rider that ride-sharing allows drivers to bring friends.",
+      "B": "Acknowledge the safety concern immediately. Explain that co-riders are strictly prohibited. Escalate to the safety and driver compliance teams for driver warning/deactivation.",
+      "C": "Suggest the rider make friends with the co-rider.",
+      "D": "Refund the ride and do nothing else."
+    },
+    "answer": "B",
+    "explanation": "Uber policy strictly prohibits co-riders (anyone other than the driver and riders) in the vehicle. This is a safety violation and must be escalated.",
+    "skill": "Safety Escalation"
+  },
+  {
+    "id": 11,
+    "question": "A rider claims: 'I left my keys in the vehicle yesterday. The driver is demanding cash to return it to me.' What is Uber's policy?",
+    "scenario": "Lost item extortion",
+    "options": {
+      "A": "Tell the rider they must pay the driver whatever cash they want.",
+      "B": "Explain that while Uber has a standard return fee that goes to the driver for their time, demanding extra cash is a policy violation. We will coordinate the return and warn the driver.",
+      "C": "Tell them to report the driver for theft immediately.",
+      "D": "Say that we do not interfere in lost items."
+    },
+    "answer": "B",
+    "explanation": "Drivers are entitled to a standard return fee (e.g. $15) to cover their fuel and time, but extorting passengers for extra cash is prohibited. Support must mediate.",
+    "skill": "Lost Item Policy"
+  },
+  {
+    "id": 12,
+    "question": "A driver messages: 'The passenger threw up in my backseat. I need a cleaning fee.' What documentation is mandatory to process this?",
+    "scenario": "Cleaning fee documentation",
+    "options": {
+      "A": "Just the driver's word is enough.",
+      "B": "Clear photos of the mess and a valid cleaning receipt or invoice from a professional cleaner detailing the service.",
+      "C": "A copy of the driver's driver's license.",
+      "D": "A police report."
+    },
+    "answer": "B",
+    "explanation": "To charge a rider a cleaning fee (up to $150), the driver must submit clear photos of the mess and a valid professional cleaning invoice within 3 days.",
+    "skill": "Documentation Verification"
+  },
+  {
+    "id": 13,
+    "question": "A rider writes: 'My driver took a very long route to my destination, costing me $75.00 more than the upfront estimate.' What is the review protocol?",
+    "scenario": "Upfront fare adjustment",
+    "options": {
+      "A": "If the route was significantly longer due to driver error (not traffic), adjust the fare back to the upfront estimate and refund the difference.",
+      "B": "Tell them the estimate is just an estimate, they must pay.",
+      "C": "Refund the entire ride cost to keep the CSAT high.",
+      "D": "Tell them to walk next time."
+    },
+    "answer": "A",
+    "explanation": "Compare the actual GPS route with the planned route. If the driver made a clear error or took a detour without passenger consent, refund the difference.",
+    "skill": "Fare Adjustment & Map Review"
+  },
+  {
+    "id": 14,
+    "question": "A driver complains: 'The passenger's child was only 3 years old and they didn't have a car seat, so I cancelled. I want a cancellation fee.' What is the policy?",
+    "scenario": "Child seat safety cancellation",
+    "options": {
+      "A": "Tell the driver they should have driven anyway.",
+      "B": "Support the driver's safety decision. Waive any impact on the driver's rating/rate and credit them a cancellation fee. Safety is our top priority.",
+      "C": "Tell the driver they are suspended for refusing a child.",
+      "D": "Ignore the ticket."
+    },
+    "answer": "B",
+    "explanation": "Uber policy supports drivers who refuse rides due to lack of required child safety seats. The driver is eligible for a cancellation fee.",
+    "skill": "Safety Policies"
+  },
+  {
+    "id": 15,
+    "question": "A rider says: 'My driver brought a friend who was sitting in the front seat. I felt extremely uncomfortable.' How do you handle this security concern?",
+    "scenario": "Unauthorised co-rider",
+    "options": {
+      "A": "Tell the rider that ride-sharing allows drivers to bring friends.",
+      "B": "Acknowledge the safety concern immediately. Explain that co-riders are strictly prohibited. Escalate to the safety and driver compliance teams for driver warning/deactivation.",
+      "C": "Suggest the rider make friends with the co-rider.",
+      "D": "Refund the ride and do nothing else."
+    },
+    "answer": "B",
+    "explanation": "Uber policy strictly prohibits co-riders (anyone other than the driver and riders) in the vehicle. This is a safety violation and must be escalated.",
+    "skill": "Safety Escalation"
+  },
+  {
+    "id": 16,
+    "question": "A rider claims: 'I left my backpack in the vehicle yesterday. The driver is demanding cash to return it to me.' What is Uber's policy?",
+    "scenario": "Lost item extortion",
+    "options": {
+      "A": "Tell the rider they must pay the driver whatever cash they want.",
+      "B": "Explain that while Uber has a standard return fee that goes to the driver for their time, demanding extra cash is a policy violation. We will coordinate the return and warn the driver.",
+      "C": "Tell them to report the driver for theft immediately.",
+      "D": "Say that we do not interfere in lost items."
+    },
+    "answer": "B",
+    "explanation": "Drivers are entitled to a standard return fee (e.g. $15) to cover their fuel and time, but extorting passengers for extra cash is prohibited. Support must mediate.",
+    "skill": "Lost Item Policy"
+  },
+  {
+    "id": 17,
+    "question": "A driver messages: 'The passenger threw up in my backseat. I need a cleaning fee.' What documentation is mandatory to process this?",
+    "scenario": "Cleaning fee documentation",
+    "options": {
+      "A": "Just the driver's word is enough.",
+      "B": "Clear photos of the mess and a valid cleaning receipt or invoice from a professional cleaner detailing the service.",
+      "C": "A copy of the driver's driver's license.",
+      "D": "A police report."
+    },
+    "answer": "B",
+    "explanation": "To charge a rider a cleaning fee (up to $150), the driver must submit clear photos of the mess and a valid professional cleaning invoice within 3 days.",
+    "skill": "Documentation Verification"
+  },
+  {
+    "id": 18,
+    "question": "A rider writes: 'My driver took a very long route to my destination, costing me $75.00 more than the upfront estimate.' What is the review protocol?",
+    "scenario": "Upfront fare adjustment",
+    "options": {
+      "A": "If the route was significantly longer due to driver error (not traffic), adjust the fare back to the upfront estimate and refund the difference.",
+      "B": "Tell them the estimate is just an estimate, they must pay.",
+      "C": "Refund the entire ride cost to keep the CSAT high.",
+      "D": "Tell them to walk next time."
+    },
+    "answer": "A",
+    "explanation": "Compare the actual GPS route with the planned route. If the driver made a clear error or took a detour without passenger consent, refund the difference.",
+    "skill": "Fare Adjustment & Map Review"
+  },
+  {
+    "id": 19,
+    "question": "A driver complains: 'The passenger's child was only 3 years old and they didn't have a car seat, so I cancelled. I want a cancellation fee.' What is the policy?",
+    "scenario": "Child seat safety cancellation",
+    "options": {
+      "A": "Tell the driver they should have driven anyway.",
+      "B": "Support the driver's safety decision. Waive any impact on the driver's rating/rate and credit them a cancellation fee. Safety is our top priority.",
+      "C": "Tell the driver they are suspended for refusing a child.",
+      "D": "Ignore the ticket."
+    },
+    "answer": "B",
+    "explanation": "Uber policy supports drivers who refuse rides due to lack of required child safety seats. The driver is eligible for a cancellation fee.",
+    "skill": "Safety Policies"
+  },
+  {
+    "id": 20,
+    "question": "A rider says: 'My driver brought a friend who was sitting in the front seat. I felt extremely uncomfortable.' How do you handle this security concern?",
+    "scenario": "Unauthorised co-rider",
+    "options": {
+      "A": "Tell the rider that ride-sharing allows drivers to bring friends.",
+      "B": "Acknowledge the safety concern immediately. Explain that co-riders are strictly prohibited. Escalate to the safety and driver compliance teams for driver warning/deactivation.",
+      "C": "Suggest the rider make friends with the co-rider.",
+      "D": "Refund the ride and do nothing else."
+    },
+    "answer": "B",
+    "explanation": "Uber policy strictly prohibits co-riders (anyone other than the driver and riders) in the vehicle. This is a safety violation and must be escalated.",
+    "skill": "Safety Escalation"
+  },
+  {
+    "id": 21,
+    "question": "A rider claims: 'I left my keys in the vehicle yesterday. The driver is demanding cash to return it to me.' What is Uber's policy?",
+    "scenario": "Lost item extortion",
+    "options": {
+      "A": "Tell the rider they must pay the driver whatever cash they want.",
+      "B": "Explain that while Uber has a standard return fee that goes to the driver for their time, demanding extra cash is a policy violation. We will coordinate the return and warn the driver.",
+      "C": "Tell them to report the driver for theft immediately.",
+      "D": "Say that we do not interfere in lost items."
+    },
+    "answer": "B",
+    "explanation": "Drivers are entitled to a standard return fee (e.g. $15) to cover their fuel and time, but extorting passengers for extra cash is prohibited. Support must mediate.",
+    "skill": "Lost Item Policy"
+  },
+  {
+    "id": 22,
+    "question": "A driver messages: 'The passenger threw up in my backseat. I need a cleaning fee.' What documentation is mandatory to process this?",
+    "scenario": "Cleaning fee documentation",
+    "options": {
+      "A": "Just the driver's word is enough.",
+      "B": "Clear photos of the mess and a valid cleaning receipt or invoice from a professional cleaner detailing the service.",
+      "C": "A copy of the driver's driver's license.",
+      "D": "A police report."
+    },
+    "answer": "B",
+    "explanation": "To charge a rider a cleaning fee (up to $150), the driver must submit clear photos of the mess and a valid professional cleaning invoice within 3 days.",
+    "skill": "Documentation Verification"
+  },
+  {
+    "id": 23,
+    "question": "A rider writes: 'My driver took a very long route to my destination, costing me $25.00 more than the upfront estimate.' What is the review protocol?",
+    "scenario": "Upfront fare adjustment",
+    "options": {
+      "A": "If the route was significantly longer due to driver error (not traffic), adjust the fare back to the upfront estimate and refund the difference.",
+      "B": "Tell them the estimate is just an estimate, they must pay.",
+      "C": "Refund the entire ride cost to keep the CSAT high.",
+      "D": "Tell them to walk next time."
+    },
+    "answer": "A",
+    "explanation": "Compare the actual GPS route with the planned route. If the driver made a clear error or took a detour without passenger consent, refund the difference.",
+    "skill": "Fare Adjustment & Map Review"
+  },
+  {
+    "id": 24,
+    "question": "A driver complains: 'The passenger's child was only 3 years old and they didn't have a car seat, so I cancelled. I want a cancellation fee.' What is the policy?",
+    "scenario": "Child seat safety cancellation",
+    "options": {
+      "A": "Tell the driver they should have driven anyway.",
+      "B": "Support the driver's safety decision. Waive any impact on the driver's rating/rate and credit them a cancellation fee. Safety is our top priority.",
+      "C": "Tell the driver they are suspended for refusing a child.",
+      "D": "Ignore the ticket."
+    },
+    "answer": "B",
+    "explanation": "Uber policy supports drivers who refuse rides due to lack of required child safety seats. The driver is eligible for a cancellation fee.",
+    "skill": "Safety Policies"
+  },
+  {
+    "id": 25,
+    "question": "A rider says: 'My driver brought a friend who was sitting in the front seat. I felt extremely uncomfortable.' How do you handle this security concern?",
+    "scenario": "Unauthorised co-rider",
+    "options": {
+      "A": "Tell the rider that ride-sharing allows drivers to bring friends.",
+      "B": "Acknowledge the safety concern immediately. Explain that co-riders are strictly prohibited. Escalate to the safety and driver compliance teams for driver warning/deactivation.",
+      "C": "Suggest the rider make friends with the co-rider.",
+      "D": "Refund the ride and do nothing else."
+    },
+    "answer": "B",
+    "explanation": "Uber policy strictly prohibits co-riders (anyone other than the driver and riders) in the vehicle. This is a safety violation and must be escalated.",
+    "skill": "Safety Escalation"
+  },
+  {
+    "id": 26,
+    "question": "A rider claims: 'I left my backpack in the vehicle yesterday. The driver is demanding cash to return it to me.' What is Uber's policy?",
+    "scenario": "Lost item extortion",
+    "options": {
+      "A": "Tell the rider they must pay the driver whatever cash they want.",
+      "B": "Explain that while Uber has a standard return fee that goes to the driver for their time, demanding extra cash is a policy violation. We will coordinate the return and warn the driver.",
+      "C": "Tell them to report the driver for theft immediately.",
+      "D": "Say that we do not interfere in lost items."
+    },
+    "answer": "B",
+    "explanation": "Drivers are entitled to a standard return fee (e.g. $15) to cover their fuel and time, but extorting passengers for extra cash is prohibited. Support must mediate.",
+    "skill": "Lost Item Policy"
+  },
+  {
+    "id": 27,
+    "question": "A driver messages: 'The passenger threw up in my backseat. I need a cleaning fee.' What documentation is mandatory to process this?",
+    "scenario": "Cleaning fee documentation",
+    "options": {
+      "A": "Just the driver's word is enough.",
+      "B": "Clear photos of the mess and a valid cleaning receipt or invoice from a professional cleaner detailing the service.",
+      "C": "A copy of the driver's driver's license.",
+      "D": "A police report."
+    },
+    "answer": "B",
+    "explanation": "To charge a rider a cleaning fee (up to $150), the driver must submit clear photos of the mess and a valid professional cleaning invoice within 3 days.",
+    "skill": "Documentation Verification"
+  },
+  {
+    "id": 28,
+    "question": "A rider writes: 'My driver took a very long route to my destination, costing me $5.00 more than the upfront estimate.' What is the review protocol?",
+    "scenario": "Upfront fare adjustment",
+    "options": {
+      "A": "If the route was significantly longer due to driver error (not traffic), adjust the fare back to the upfront estimate and refund the difference.",
+      "B": "Tell them the estimate is just an estimate, they must pay.",
+      "C": "Refund the entire ride cost to keep the CSAT high.",
+      "D": "Tell them to walk next time."
+    },
+    "answer": "A",
+    "explanation": "Compare the actual GPS route with the planned route. If the driver made a clear error or took a detour without passenger consent, refund the difference.",
+    "skill": "Fare Adjustment & Map Review"
+  },
+  {
+    "id": 29,
+    "question": "A driver complains: 'The passenger's child was only 3 years old and they didn't have a car seat, so I cancelled. I want a cancellation fee.' What is the policy?",
+    "scenario": "Child seat safety cancellation",
+    "options": {
+      "A": "Tell the driver they should have driven anyway.",
+      "B": "Support the driver's safety decision. Waive any impact on the driver's rating/rate and credit them a cancellation fee. Safety is our top priority.",
+      "C": "Tell the driver they are suspended for refusing a child.",
+      "D": "Ignore the ticket."
+    },
+    "answer": "B",
+    "explanation": "Uber policy supports drivers who refuse rides due to lack of required child safety seats. The driver is eligible for a cancellation fee.",
+    "skill": "Safety Policies"
+  },
+  {
+    "id": 30,
+    "question": "A rider says: 'My driver brought a friend who was sitting in the front seat. I felt extremely uncomfortable.' How do you handle this security concern?",
+    "scenario": "Unauthorised co-rider",
+    "options": {
+      "A": "Tell the rider that ride-sharing allows drivers to bring friends.",
+      "B": "Acknowledge the safety concern immediately. Explain that co-riders are strictly prohibited. Escalate to the safety and driver compliance teams for driver warning/deactivation.",
+      "C": "Suggest the rider make friends with the co-rider.",
+      "D": "Refund the ride and do nothing else."
+    },
+    "answer": "B",
+    "explanation": "Uber policy strictly prohibits co-riders (anyone other than the driver and riders) in the vehicle. This is a safety violation and must be escalated.",
+    "skill": "Safety Escalation"
+  },
+  {
+    "id": 31,
+    "question": "A rider claims: 'I left my wallet in the vehicle yesterday. The driver is demanding cash to return it to me.' What is Uber's policy?",
+    "scenario": "Lost item extortion",
+    "options": {
+      "A": "Tell the rider they must pay the driver whatever cash they want.",
+      "B": "Explain that while Uber has a standard return fee that goes to the driver for their time, demanding extra cash is a policy violation. We will coordinate the return and warn the driver.",
+      "C": "Tell them to report the driver for theft immediately.",
+      "D": "Say that we do not interfere in lost items."
+    },
+    "answer": "B",
+    "explanation": "Drivers are entitled to a standard return fee (e.g. $15) to cover their fuel and time, but extorting passengers for extra cash is prohibited. Support must mediate.",
+    "skill": "Lost Item Policy"
+  },
+  {
+    "id": 32,
+    "question": "A driver messages: 'The passenger threw up in my backseat. I need a cleaning fee.' What documentation is mandatory to process this?",
+    "scenario": "Cleaning fee documentation",
+    "options": {
+      "A": "Just the driver's word is enough.",
+      "B": "Clear photos of the mess and a valid cleaning receipt or invoice from a professional cleaner detailing the service.",
+      "C": "A copy of the driver's driver's license.",
+      "D": "A police report."
+    },
+    "answer": "B",
+    "explanation": "To charge a rider a cleaning fee (up to $150), the driver must submit clear photos of the mess and a valid professional cleaning invoice within 3 days.",
+    "skill": "Documentation Verification"
+  },
+  {
+    "id": 33,
+    "question": "A rider writes: 'My driver took a very long route to my destination, costing me $75.00 more than the upfront estimate.' What is the review protocol?",
+    "scenario": "Upfront fare adjustment",
+    "options": {
+      "A": "If the route was significantly longer due to driver error (not traffic), adjust the fare back to the upfront estimate and refund the difference.",
+      "B": "Tell them the estimate is just an estimate, they must pay.",
+      "C": "Refund the entire ride cost to keep the CSAT high.",
+      "D": "Tell them to walk next time."
+    },
+    "answer": "A",
+    "explanation": "Compare the actual GPS route with the planned route. If the driver made a clear error or took a detour without passenger consent, refund the difference.",
+    "skill": "Fare Adjustment & Map Review"
+  },
+  {
+    "id": 34,
+    "question": "A driver complains: 'The passenger's child was only 3 years old and they didn't have a car seat, so I cancelled. I want a cancellation fee.' What is the policy?",
+    "scenario": "Child seat safety cancellation",
+    "options": {
+      "A": "Tell the driver they should have driven anyway.",
+      "B": "Support the driver's safety decision. Waive any impact on the driver's rating/rate and credit them a cancellation fee. Safety is our top priority.",
+      "C": "Tell the driver they are suspended for refusing a child.",
+      "D": "Ignore the ticket."
+    },
+    "answer": "B",
+    "explanation": "Uber policy supports drivers who refuse rides due to lack of required child safety seats. The driver is eligible for a cancellation fee.",
+    "skill": "Safety Policies"
+  },
+  {
+    "id": 35,
+    "question": "A rider says: 'My driver brought a friend who was sitting in the front seat. I felt extremely uncomfortable.' How do you handle this security concern?",
+    "scenario": "Unauthorised co-rider",
+    "options": {
+      "A": "Tell the rider that ride-sharing allows drivers to bring friends.",
+      "B": "Acknowledge the safety concern immediately. Explain that co-riders are strictly prohibited. Escalate to the safety and driver compliance teams for driver warning/deactivation.",
+      "C": "Suggest the rider make friends with the co-rider.",
+      "D": "Refund the ride and do nothing else."
+    },
+    "answer": "B",
+    "explanation": "Uber policy strictly prohibits co-riders (anyone other than the driver and riders) in the vehicle. This is a safety violation and must be escalated.",
+    "skill": "Safety Escalation"
+  },
+  {
+    "id": 36,
+    "question": "A rider claims: 'I left my passport in the vehicle yesterday. The driver is demanding cash to return it to me.' What is Uber's policy?",
+    "scenario": "Lost item extortion",
+    "options": {
+      "A": "Tell the rider they must pay the driver whatever cash they want.",
+      "B": "Explain that while Uber has a standard return fee that goes to the driver for their time, demanding extra cash is a policy violation. We will coordinate the return and warn the driver.",
+      "C": "Tell them to report the driver for theft immediately.",
+      "D": "Say that we do not interfere in lost items."
+    },
+    "answer": "B",
+    "explanation": "Drivers are entitled to a standard return fee (e.g. $15) to cover their fuel and time, but extorting passengers for extra cash is prohibited. Support must mediate.",
+    "skill": "Lost Item Policy"
+  },
+  {
+    "id": 37,
+    "question": "A driver messages: 'The passenger threw up in my backseat. I need a cleaning fee.' What documentation is mandatory to process this?",
+    "scenario": "Cleaning fee documentation",
+    "options": {
+      "A": "Just the driver's word is enough.",
+      "B": "Clear photos of the mess and a valid cleaning receipt or invoice from a professional cleaner detailing the service.",
+      "C": "A copy of the driver's driver's license.",
+      "D": "A police report."
+    },
+    "answer": "B",
+    "explanation": "To charge a rider a cleaning fee (up to $150), the driver must submit clear photos of the mess and a valid professional cleaning invoice within 3 days.",
+    "skill": "Documentation Verification"
+  },
+  {
+    "id": 38,
+    "question": "A rider writes: 'My driver took a very long route to my destination, costing me $5.00 more than the upfront estimate.' What is the review protocol?",
+    "scenario": "Upfront fare adjustment",
+    "options": {
+      "A": "If the route was significantly longer due to driver error (not traffic), adjust the fare back to the upfront estimate and refund the difference.",
+      "B": "Tell them the estimate is just an estimate, they must pay.",
+      "C": "Refund the entire ride cost to keep the CSAT high.",
+      "D": "Tell them to walk next time."
+    },
+    "answer": "A",
+    "explanation": "Compare the actual GPS route with the planned route. If the driver made a clear error or took a detour without passenger consent, refund the difference.",
+    "skill": "Fare Adjustment & Map Review"
+  },
+  {
+    "id": 39,
+    "question": "A driver complains: 'The passenger's child was only 3 years old and they didn't have a car seat, so I cancelled. I want a cancellation fee.' What is the policy?",
+    "scenario": "Child seat safety cancellation",
+    "options": {
+      "A": "Tell the driver they should have driven anyway.",
+      "B": "Support the driver's safety decision. Waive any impact on the driver's rating/rate and credit them a cancellation fee. Safety is our top priority.",
+      "C": "Tell the driver they are suspended for refusing a child.",
+      "D": "Ignore the ticket."
+    },
+    "answer": "B",
+    "explanation": "Uber policy supports drivers who refuse rides due to lack of required child safety seats. The driver is eligible for a cancellation fee.",
+    "skill": "Safety Policies"
+  },
+  {
+    "id": 40,
+    "question": "A rider says: 'My driver brought a friend who was sitting in the front seat. I felt extremely uncomfortable.' How do you handle this security concern?",
+    "scenario": "Unauthorised co-rider",
+    "options": {
+      "A": "Tell the rider that ride-sharing allows drivers to bring friends.",
+      "B": "Acknowledge the safety concern immediately. Explain that co-riders are strictly prohibited. Escalate to the safety and driver compliance teams for driver warning/deactivation.",
+      "C": "Suggest the rider make friends with the co-rider.",
+      "D": "Refund the ride and do nothing else."
+    },
+    "answer": "B",
+    "explanation": "Uber policy strictly prohibits co-riders (anyone other than the driver and riders) in the vehicle. This is a safety violation and must be escalated.",
+    "skill": "Safety Escalation"
+  },
+  {
+    "id": 41,
+    "question": "A rider claims: 'I left my laptop in the vehicle yesterday. The driver is demanding cash to return it to me.' What is Uber's policy?",
+    "scenario": "Lost item extortion",
+    "options": {
+      "A": "Tell the rider they must pay the driver whatever cash they want.",
+      "B": "Explain that while Uber has a standard return fee that goes to the driver for their time, demanding extra cash is a policy violation. We will coordinate the return and warn the driver.",
+      "C": "Tell them to report the driver for theft immediately.",
+      "D": "Say that we do not interfere in lost items."
+    },
+    "answer": "B",
+    "explanation": "Drivers are entitled to a standard return fee (e.g. $15) to cover their fuel and time, but extorting passengers for extra cash is prohibited. Support must mediate.",
+    "skill": "Lost Item Policy"
+  },
+  {
+    "id": 42,
+    "question": "A driver messages: 'The passenger threw up in my backseat. I need a cleaning fee.' What documentation is mandatory to process this?",
+    "scenario": "Cleaning fee documentation",
+    "options": {
+      "A": "Just the driver's word is enough.",
+      "B": "Clear photos of the mess and a valid cleaning receipt or invoice from a professional cleaner detailing the service.",
+      "C": "A copy of the driver's driver's license.",
+      "D": "A police report."
+    },
+    "answer": "B",
+    "explanation": "To charge a rider a cleaning fee (up to $150), the driver must submit clear photos of the mess and a valid professional cleaning invoice within 3 days.",
+    "skill": "Documentation Verification"
+  },
+  {
+    "id": 43,
+    "question": "A rider writes: 'My driver took a very long route to my destination, costing me $75.00 more than the upfront estimate.' What is the review protocol?",
+    "scenario": "Upfront fare adjustment",
+    "options": {
+      "A": "If the route was significantly longer due to driver error (not traffic), adjust the fare back to the upfront estimate and refund the difference.",
+      "B": "Tell them the estimate is just an estimate, they must pay.",
+      "C": "Refund the entire ride cost to keep the CSAT high.",
+      "D": "Tell them to walk next time."
+    },
+    "answer": "A",
+    "explanation": "Compare the actual GPS route with the planned route. If the driver made a clear error or took a detour without passenger consent, refund the difference.",
+    "skill": "Fare Adjustment & Map Review"
+  },
+  {
+    "id": 44,
+    "question": "A driver complains: 'The passenger's child was only 3 years old and they didn't have a car seat, so I cancelled. I want a cancellation fee.' What is the policy?",
+    "scenario": "Child seat safety cancellation",
+    "options": {
+      "A": "Tell the driver they should have driven anyway.",
+      "B": "Support the driver's safety decision. Waive any impact on the driver's rating/rate and credit them a cancellation fee. Safety is our top priority.",
+      "C": "Tell the driver they are suspended for refusing a child.",
+      "D": "Ignore the ticket."
+    },
+    "answer": "B",
+    "explanation": "Uber policy supports drivers who refuse rides due to lack of required child safety seats. The driver is eligible for a cancellation fee.",
+    "skill": "Safety Policies"
+  },
+  {
+    "id": 45,
+    "question": "A rider says: 'My driver brought a friend who was sitting in the front seat. I felt extremely uncomfortable.' How do you handle this security concern?",
+    "scenario": "Unauthorised co-rider",
+    "options": {
+      "A": "Tell the rider that ride-sharing allows drivers to bring friends.",
+      "B": "Acknowledge the safety concern immediately. Explain that co-riders are strictly prohibited. Escalate to the safety and driver compliance teams for driver warning/deactivation.",
+      "C": "Suggest the rider make friends with the co-rider.",
+      "D": "Refund the ride and do nothing else."
+    },
+    "answer": "B",
+    "explanation": "Uber policy strictly prohibits co-riders (anyone other than the driver and riders) in the vehicle. This is a safety violation and must be escalated.",
+    "skill": "Safety Escalation"
+  },
+  {
+    "id": 46,
+    "question": "A rider claims: 'I left my passport in the vehicle yesterday. The driver is demanding cash to return it to me.' What is Uber's policy?",
+    "scenario": "Lost item extortion",
+    "options": {
+      "A": "Tell the rider they must pay the driver whatever cash they want.",
+      "B": "Explain that while Uber has a standard return fee that goes to the driver for their time, demanding extra cash is a policy violation. We will coordinate the return and warn the driver.",
+      "C": "Tell them to report the driver for theft immediately.",
+      "D": "Say that we do not interfere in lost items."
+    },
+    "answer": "B",
+    "explanation": "Drivers are entitled to a standard return fee (e.g. $15) to cover their fuel and time, but extorting passengers for extra cash is prohibited. Support must mediate.",
+    "skill": "Lost Item Policy"
+  },
+  {
+    "id": 47,
+    "question": "A driver messages: 'The passenger threw up in my backseat. I need a cleaning fee.' What documentation is mandatory to process this?",
+    "scenario": "Cleaning fee documentation",
+    "options": {
+      "A": "Just the driver's word is enough.",
+      "B": "Clear photos of the mess and a valid cleaning receipt or invoice from a professional cleaner detailing the service.",
+      "C": "A copy of the driver's driver's license.",
+      "D": "A police report."
+    },
+    "answer": "B",
+    "explanation": "To charge a rider a cleaning fee (up to $150), the driver must submit clear photos of the mess and a valid professional cleaning invoice within 3 days.",
+    "skill": "Documentation Verification"
+  },
+  {
+    "id": 48,
+    "question": "A rider writes: 'My driver took a very long route to my destination, costing me $15.00 more than the upfront estimate.' What is the review protocol?",
+    "scenario": "Upfront fare adjustment",
+    "options": {
+      "A": "If the route was significantly longer due to driver error (not traffic), adjust the fare back to the upfront estimate and refund the difference.",
+      "B": "Tell them the estimate is just an estimate, they must pay.",
+      "C": "Refund the entire ride cost to keep the CSAT high.",
+      "D": "Tell them to walk next time."
+    },
+    "answer": "A",
+    "explanation": "Compare the actual GPS route with the planned route. If the driver made a clear error or took a detour without passenger consent, refund the difference.",
+    "skill": "Fare Adjustment & Map Review"
+  },
+  {
+    "id": 49,
+    "question": "A driver complains: 'The passenger's child was only 3 years old and they didn't have a car seat, so I cancelled. I want a cancellation fee.' What is the policy?",
+    "scenario": "Child seat safety cancellation",
+    "options": {
+      "A": "Tell the driver they should have driven anyway.",
+      "B": "Support the driver's safety decision. Waive any impact on the driver's rating/rate and credit them a cancellation fee. Safety is our top priority.",
+      "C": "Tell the driver they are suspended for refusing a child.",
+      "D": "Ignore the ticket."
+    },
+    "answer": "B",
+    "explanation": "Uber policy supports drivers who refuse rides due to lack of required child safety seats. The driver is eligible for a cancellation fee.",
+    "skill": "Safety Policies"
+  },
+  {
+    "id": 50,
+    "question": "A rider says: 'My driver brought a friend who was sitting in the front seat. I felt extremely uncomfortable.' How do you handle this security concern?",
+    "scenario": "Unauthorised co-rider",
+    "options": {
+      "A": "Tell the rider that ride-sharing allows drivers to bring friends.",
+      "B": "Acknowledge the safety concern immediately. Explain that co-riders are strictly prohibited. Escalate to the safety and driver compliance teams for driver warning/deactivation.",
+      "C": "Suggest the rider make friends with the co-rider.",
+      "D": "Refund the ride and do nothing else."
+    },
+    "answer": "B",
+    "explanation": "Uber policy strictly prohibits co-riders (anyone other than the driver and riders) in the vehicle. This is a safety violation and must be escalated.",
+    "skill": "Safety Escalation"
+  },
+  {
+    "id": 51,
+    "question": "A rider claims: 'I left my iPhone in the vehicle yesterday. The driver is demanding cash to return it to me.' What is Uber's policy?",
+    "scenario": "Lost item extortion",
+    "options": {
+      "A": "Tell the rider they must pay the driver whatever cash they want.",
+      "B": "Explain that while Uber has a standard return fee that goes to the driver for their time, demanding extra cash is a policy violation. We will coordinate the return and warn the driver.",
+      "C": "Tell them to report the driver for theft immediately.",
+      "D": "Say that we do not interfere in lost items."
+    },
+    "answer": "B",
+    "explanation": "Drivers are entitled to a standard return fee (e.g. $15) to cover their fuel and time, but extorting passengers for extra cash is prohibited. Support must mediate.",
+    "skill": "Lost Item Policy"
+  },
+  {
+    "id": 52,
+    "question": "A driver messages: 'The passenger threw up in my backseat. I need a cleaning fee.' What documentation is mandatory to process this?",
+    "scenario": "Cleaning fee documentation",
+    "options": {
+      "A": "Just the driver's word is enough.",
+      "B": "Clear photos of the mess and a valid cleaning receipt or invoice from a professional cleaner detailing the service.",
+      "C": "A copy of the driver's driver's license.",
+      "D": "A police report."
+    },
+    "answer": "B",
+    "explanation": "To charge a rider a cleaning fee (up to $150), the driver must submit clear photos of the mess and a valid professional cleaning invoice within 3 days.",
+    "skill": "Documentation Verification"
+  },
+  {
+    "id": 53,
+    "question": "A rider writes: 'My driver took a very long route to my destination, costing me $15.00 more than the upfront estimate.' What is the review protocol?",
+    "scenario": "Upfront fare adjustment",
+    "options": {
+      "A": "If the route was significantly longer due to driver error (not traffic), adjust the fare back to the upfront estimate and refund the difference.",
+      "B": "Tell them the estimate is just an estimate, they must pay.",
+      "C": "Refund the entire ride cost to keep the CSAT high.",
+      "D": "Tell them to walk next time."
+    },
+    "answer": "A",
+    "explanation": "Compare the actual GPS route with the planned route. If the driver made a clear error or took a detour without passenger consent, refund the difference.",
+    "skill": "Fare Adjustment & Map Review"
+  },
+  {
+    "id": 54,
+    "question": "A driver complains: 'The passenger's child was only 3 years old and they didn't have a car seat, so I cancelled. I want a cancellation fee.' What is the policy?",
+    "scenario": "Child seat safety cancellation",
+    "options": {
+      "A": "Tell the driver they should have driven anyway.",
+      "B": "Support the driver's safety decision. Waive any impact on the driver's rating/rate and credit them a cancellation fee. Safety is our top priority.",
+      "C": "Tell the driver they are suspended for refusing a child.",
+      "D": "Ignore the ticket."
+    },
+    "answer": "B",
+    "explanation": "Uber policy supports drivers who refuse rides due to lack of required child safety seats. The driver is eligible for a cancellation fee.",
+    "skill": "Safety Policies"
+  },
+  {
+    "id": 55,
+    "question": "A rider says: 'My driver brought a friend who was sitting in the front seat. I felt extremely uncomfortable.' How do you handle this security concern?",
+    "scenario": "Unauthorised co-rider",
+    "options": {
+      "A": "Tell the rider that ride-sharing allows drivers to bring friends.",
+      "B": "Acknowledge the safety concern immediately. Explain that co-riders are strictly prohibited. Escalate to the safety and driver compliance teams for driver warning/deactivation.",
+      "C": "Suggest the rider make friends with the co-rider.",
+      "D": "Refund the ride and do nothing else."
+    },
+    "answer": "B",
+    "explanation": "Uber policy strictly prohibits co-riders (anyone other than the driver and riders) in the vehicle. This is a safety violation and must be escalated.",
+    "skill": "Safety Escalation"
+  },
+  {
+    "id": 56,
+    "question": "A rider claims: 'I left my backpack in the vehicle yesterday. The driver is demanding cash to return it to me.' What is Uber's policy?",
+    "scenario": "Lost item extortion",
+    "options": {
+      "A": "Tell the rider they must pay the driver whatever cash they want.",
+      "B": "Explain that while Uber has a standard return fee that goes to the driver for their time, demanding extra cash is a policy violation. We will coordinate the return and warn the driver.",
+      "C": "Tell them to report the driver for theft immediately.",
+      "D": "Say that we do not interfere in lost items."
+    },
+    "answer": "B",
+    "explanation": "Drivers are entitled to a standard return fee (e.g. $15) to cover their fuel and time, but extorting passengers for extra cash is prohibited. Support must mediate.",
+    "skill": "Lost Item Policy"
+  },
+  {
+    "id": 57,
+    "question": "A driver messages: 'The passenger threw up in my backseat. I need a cleaning fee.' What documentation is mandatory to process this?",
+    "scenario": "Cleaning fee documentation",
+    "options": {
+      "A": "Just the driver's word is enough.",
+      "B": "Clear photos of the mess and a valid cleaning receipt or invoice from a professional cleaner detailing the service.",
+      "C": "A copy of the driver's driver's license.",
+      "D": "A police report."
+    },
+    "answer": "B",
+    "explanation": "To charge a rider a cleaning fee (up to $150), the driver must submit clear photos of the mess and a valid professional cleaning invoice within 3 days.",
+    "skill": "Documentation Verification"
+  },
+  {
+    "id": 58,
+    "question": "A rider writes: 'My driver took a very long route to my destination, costing me $45.00 more than the upfront estimate.' What is the review protocol?",
+    "scenario": "Upfront fare adjustment",
+    "options": {
+      "A": "If the route was significantly longer due to driver error (not traffic), adjust the fare back to the upfront estimate and refund the difference.",
+      "B": "Tell them the estimate is just an estimate, they must pay.",
+      "C": "Refund the entire ride cost to keep the CSAT high.",
+      "D": "Tell them to walk next time."
+    },
+    "answer": "A",
+    "explanation": "Compare the actual GPS route with the planned route. If the driver made a clear error or took a detour without passenger consent, refund the difference.",
+    "skill": "Fare Adjustment & Map Review"
+  },
+  {
+    "id": 59,
+    "question": "A driver complains: 'The passenger's child was only 3 years old and they didn't have a car seat, so I cancelled. I want a cancellation fee.' What is the policy?",
+    "scenario": "Child seat safety cancellation",
+    "options": {
+      "A": "Tell the driver they should have driven anyway.",
+      "B": "Support the driver's safety decision. Waive any impact on the driver's rating/rate and credit them a cancellation fee. Safety is our top priority.",
+      "C": "Tell the driver they are suspended for refusing a child.",
+      "D": "Ignore the ticket."
+    },
+    "answer": "B",
+    "explanation": "Uber policy supports drivers who refuse rides due to lack of required child safety seats. The driver is eligible for a cancellation fee.",
+    "skill": "Safety Policies"
+  },
+  {
+    "id": 60,
+    "question": "A rider says: 'My driver brought a friend who was sitting in the front seat. I felt extremely uncomfortable.' How do you handle this security concern?",
+    "scenario": "Unauthorised co-rider",
+    "options": {
+      "A": "Tell the rider that ride-sharing allows drivers to bring friends.",
+      "B": "Acknowledge the safety concern immediately. Explain that co-riders are strictly prohibited. Escalate to the safety and driver compliance teams for driver warning/deactivation.",
+      "C": "Suggest the rider make friends with the co-rider.",
+      "D": "Refund the ride and do nothing else."
+    },
+    "answer": "B",
+    "explanation": "Uber policy strictly prohibits co-riders (anyone other than the driver and riders) in the vehicle. This is a safety violation and must be escalated.",
+    "skill": "Safety Escalation"
+  },
+  {
+    "id": 61,
+    "question": "A rider claims: 'I left my sunglasses in the vehicle yesterday. The driver is demanding cash to return it to me.' What is Uber's policy?",
+    "scenario": "Lost item extortion",
+    "options": {
+      "A": "Tell the rider they must pay the driver whatever cash they want.",
+      "B": "Explain that while Uber has a standard return fee that goes to the driver for their time, demanding extra cash is a policy violation. We will coordinate the return and warn the driver.",
+      "C": "Tell them to report the driver for theft immediately.",
+      "D": "Say that we do not interfere in lost items."
+    },
+    "answer": "B",
+    "explanation": "Drivers are entitled to a standard return fee (e.g. $15) to cover their fuel and time, but extorting passengers for extra cash is prohibited. Support must mediate.",
+    "skill": "Lost Item Policy"
+  },
+  {
+    "id": 62,
+    "question": "A driver messages: 'The passenger threw up in my backseat. I need a cleaning fee.' What documentation is mandatory to process this?",
+    "scenario": "Cleaning fee documentation",
+    "options": {
+      "A": "Just the driver's word is enough.",
+      "B": "Clear photos of the mess and a valid cleaning receipt or invoice from a professional cleaner detailing the service.",
+      "C": "A copy of the driver's driver's license.",
+      "D": "A police report."
+    },
+    "answer": "B",
+    "explanation": "To charge a rider a cleaning fee (up to $150), the driver must submit clear photos of the mess and a valid professional cleaning invoice within 3 days.",
+    "skill": "Documentation Verification"
+  },
+  {
+    "id": 63,
+    "question": "A rider writes: 'My driver took a very long route to my destination, costing me $10.00 more than the upfront estimate.' What is the review protocol?",
+    "scenario": "Upfront fare adjustment",
+    "options": {
+      "A": "If the route was significantly longer due to driver error (not traffic), adjust the fare back to the upfront estimate and refund the difference.",
+      "B": "Tell them the estimate is just an estimate, they must pay.",
+      "C": "Refund the entire ride cost to keep the CSAT high.",
+      "D": "Tell them to walk next time."
+    },
+    "answer": "A",
+    "explanation": "Compare the actual GPS route with the planned route. If the driver made a clear error or took a detour without passenger consent, refund the difference.",
+    "skill": "Fare Adjustment & Map Review"
+  },
+  {
+    "id": 64,
+    "question": "A driver complains: 'The passenger's child was only 3 years old and they didn't have a car seat, so I cancelled. I want a cancellation fee.' What is the policy?",
+    "scenario": "Child seat safety cancellation",
+    "options": {
+      "A": "Tell the driver they should have driven anyway.",
+      "B": "Support the driver's safety decision. Waive any impact on the driver's rating/rate and credit them a cancellation fee. Safety is our top priority.",
+      "C": "Tell the driver they are suspended for refusing a child.",
+      "D": "Ignore the ticket."
+    },
+    "answer": "B",
+    "explanation": "Uber policy supports drivers who refuse rides due to lack of required child safety seats. The driver is eligible for a cancellation fee.",
+    "skill": "Safety Policies"
+  },
+  {
+    "id": 65,
+    "question": "A rider says: 'My driver brought a friend who was sitting in the front seat. I felt extremely uncomfortable.' How do you handle this security concern?",
+    "scenario": "Unauthorised co-rider",
+    "options": {
+      "A": "Tell the rider that ride-sharing allows drivers to bring friends.",
+      "B": "Acknowledge the safety concern immediately. Explain that co-riders are strictly prohibited. Escalate to the safety and driver compliance teams for driver warning/deactivation.",
+      "C": "Suggest the rider make friends with the co-rider.",
+      "D": "Refund the ride and do nothing else."
+    },
+    "answer": "B",
+    "explanation": "Uber policy strictly prohibits co-riders (anyone other than the driver and riders) in the vehicle. This is a safety violation and must be escalated.",
+    "skill": "Safety Escalation"
+  },
+  {
+    "id": 66,
+    "question": "A rider claims: 'I left my briefcase in the vehicle yesterday. The driver is demanding cash to return it to me.' What is Uber's policy?",
+    "scenario": "Lost item extortion",
+    "options": {
+      "A": "Tell the rider they must pay the driver whatever cash they want.",
+      "B": "Explain that while Uber has a standard return fee that goes to the driver for their time, demanding extra cash is a policy violation. We will coordinate the return and warn the driver.",
+      "C": "Tell them to report the driver for theft immediately.",
+      "D": "Say that we do not interfere in lost items."
+    },
+    "answer": "B",
+    "explanation": "Drivers are entitled to a standard return fee (e.g. $15) to cover their fuel and time, but extorting passengers for extra cash is prohibited. Support must mediate.",
+    "skill": "Lost Item Policy"
+  },
+  {
+    "id": 67,
+    "question": "A driver messages: 'The passenger threw up in my backseat. I need a cleaning fee.' What documentation is mandatory to process this?",
+    "scenario": "Cleaning fee documentation",
+    "options": {
+      "A": "Just the driver's word is enough.",
+      "B": "Clear photos of the mess and a valid cleaning receipt or invoice from a professional cleaner detailing the service.",
+      "C": "A copy of the driver's driver's license.",
+      "D": "A police report."
+    },
+    "answer": "B",
+    "explanation": "To charge a rider a cleaning fee (up to $150), the driver must submit clear photos of the mess and a valid professional cleaning invoice within 3 days.",
+    "skill": "Documentation Verification"
+  },
+  {
+    "id": 68,
+    "question": "A rider writes: 'My driver took a very long route to my destination, costing me $25.00 more than the upfront estimate.' What is the review protocol?",
+    "scenario": "Upfront fare adjustment",
+    "options": {
+      "A": "If the route was significantly longer due to driver error (not traffic), adjust the fare back to the upfront estimate and refund the difference.",
+      "B": "Tell them the estimate is just an estimate, they must pay.",
+      "C": "Refund the entire ride cost to keep the CSAT high.",
+      "D": "Tell them to walk next time."
+    },
+    "answer": "A",
+    "explanation": "Compare the actual GPS route with the planned route. If the driver made a clear error or took a detour without passenger consent, refund the difference.",
+    "skill": "Fare Adjustment & Map Review"
+  },
+  {
+    "id": 69,
+    "question": "A driver complains: 'The passenger's child was only 3 years old and they didn't have a car seat, so I cancelled. I want a cancellation fee.' What is the policy?",
+    "scenario": "Child seat safety cancellation",
+    "options": {
+      "A": "Tell the driver they should have driven anyway.",
+      "B": "Support the driver's safety decision. Waive any impact on the driver's rating/rate and credit them a cancellation fee. Safety is our top priority.",
+      "C": "Tell the driver they are suspended for refusing a child.",
+      "D": "Ignore the ticket."
+    },
+    "answer": "B",
+    "explanation": "Uber policy supports drivers who refuse rides due to lack of required child safety seats. The driver is eligible for a cancellation fee.",
+    "skill": "Safety Policies"
+  },
+  {
+    "id": 70,
+    "question": "A rider says: 'My driver brought a friend who was sitting in the front seat. I felt extremely uncomfortable.' How do you handle this security concern?",
+    "scenario": "Unauthorised co-rider",
+    "options": {
+      "A": "Tell the rider that ride-sharing allows drivers to bring friends.",
+      "B": "Acknowledge the safety concern immediately. Explain that co-riders are strictly prohibited. Escalate to the safety and driver compliance teams for driver warning/deactivation.",
+      "C": "Suggest the rider make friends with the co-rider.",
+      "D": "Refund the ride and do nothing else."
+    },
+    "answer": "B",
+    "explanation": "Uber policy strictly prohibits co-riders (anyone other than the driver and riders) in the vehicle. This is a safety violation and must be escalated.",
+    "skill": "Safety Escalation"
+  },
+  {
+    "id": 71,
+    "question": "A rider claims: 'I left my backpack in the vehicle yesterday. The driver is demanding cash to return it to me.' What is Uber's policy?",
+    "scenario": "Lost item extortion",
+    "options": {
+      "A": "Tell the rider they must pay the driver whatever cash they want.",
+      "B": "Explain that while Uber has a standard return fee that goes to the driver for their time, demanding extra cash is a policy violation. We will coordinate the return and warn the driver.",
+      "C": "Tell them to report the driver for theft immediately.",
+      "D": "Say that we do not interfere in lost items."
+    },
+    "answer": "B",
+    "explanation": "Drivers are entitled to a standard return fee (e.g. $15) to cover their fuel and time, but extorting passengers for extra cash is prohibited. Support must mediate.",
+    "skill": "Lost Item Policy"
+  },
+  {
+    "id": 72,
+    "question": "A driver messages: 'The passenger threw up in my backseat. I need a cleaning fee.' What documentation is mandatory to process this?",
+    "scenario": "Cleaning fee documentation",
+    "options": {
+      "A": "Just the driver's word is enough.",
+      "B": "Clear photos of the mess and a valid cleaning receipt or invoice from a professional cleaner detailing the service.",
+      "C": "A copy of the driver's driver's license.",
+      "D": "A police report."
+    },
+    "answer": "B",
+    "explanation": "To charge a rider a cleaning fee (up to $150), the driver must submit clear photos of the mess and a valid professional cleaning invoice within 3 days.",
+    "skill": "Documentation Verification"
+  },
+  {
+    "id": 73,
+    "question": "A rider writes: 'My driver took a very long route to my destination, costing me $75.00 more than the upfront estimate.' What is the review protocol?",
+    "scenario": "Upfront fare adjustment",
+    "options": {
+      "A": "If the route was significantly longer due to driver error (not traffic), adjust the fare back to the upfront estimate and refund the difference.",
+      "B": "Tell them the estimate is just an estimate, they must pay.",
+      "C": "Refund the entire ride cost to keep the CSAT high.",
+      "D": "Tell them to walk next time."
+    },
+    "answer": "A",
+    "explanation": "Compare the actual GPS route with the planned route. If the driver made a clear error or took a detour without passenger consent, refund the difference.",
+    "skill": "Fare Adjustment & Map Review"
+  },
+  {
+    "id": 74,
+    "question": "A driver complains: 'The passenger's child was only 3 years old and they didn't have a car seat, so I cancelled. I want a cancellation fee.' What is the policy?",
+    "scenario": "Child seat safety cancellation",
+    "options": {
+      "A": "Tell the driver they should have driven anyway.",
+      "B": "Support the driver's safety decision. Waive any impact on the driver's rating/rate and credit them a cancellation fee. Safety is our top priority.",
+      "C": "Tell the driver they are suspended for refusing a child.",
+      "D": "Ignore the ticket."
+    },
+    "answer": "B",
+    "explanation": "Uber policy supports drivers who refuse rides due to lack of required child safety seats. The driver is eligible for a cancellation fee.",
+    "skill": "Safety Policies"
+  },
+  {
+    "id": 75,
+    "question": "A rider says: 'My driver brought a friend who was sitting in the front seat. I felt extremely uncomfortable.' How do you handle this security concern?",
+    "scenario": "Unauthorised co-rider",
+    "options": {
+      "A": "Tell the rider that ride-sharing allows drivers to bring friends.",
+      "B": "Acknowledge the safety concern immediately. Explain that co-riders are strictly prohibited. Escalate to the safety and driver compliance teams for driver warning/deactivation.",
+      "C": "Suggest the rider make friends with the co-rider.",
+      "D": "Refund the ride and do nothing else."
+    },
+    "answer": "B",
+    "explanation": "Uber policy strictly prohibits co-riders (anyone other than the driver and riders) in the vehicle. This is a safety violation and must be escalated.",
+    "skill": "Safety Escalation"
+  },
+  {
+    "id": 76,
+    "question": "A rider claims: 'I left my wallet in the vehicle yesterday. The driver is demanding cash to return it to me.' What is Uber's policy?",
+    "scenario": "Lost item extortion",
+    "options": {
+      "A": "Tell the rider they must pay the driver whatever cash they want.",
+      "B": "Explain that while Uber has a standard return fee that goes to the driver for their time, demanding extra cash is a policy violation. We will coordinate the return and warn the driver.",
+      "C": "Tell them to report the driver for theft immediately.",
+      "D": "Say that we do not interfere in lost items."
+    },
+    "answer": "B",
+    "explanation": "Drivers are entitled to a standard return fee (e.g. $15) to cover their fuel and time, but extorting passengers for extra cash is prohibited. Support must mediate.",
+    "skill": "Lost Item Policy"
+  },
+  {
+    "id": 77,
+    "question": "A driver messages: 'The passenger threw up in my backseat. I need a cleaning fee.' What documentation is mandatory to process this?",
+    "scenario": "Cleaning fee documentation",
+    "options": {
+      "A": "Just the driver's word is enough.",
+      "B": "Clear photos of the mess and a valid cleaning receipt or invoice from a professional cleaner detailing the service.",
+      "C": "A copy of the driver's driver's license.",
+      "D": "A police report."
+    },
+    "answer": "B",
+    "explanation": "To charge a rider a cleaning fee (up to $150), the driver must submit clear photos of the mess and a valid professional cleaning invoice within 3 days.",
+    "skill": "Documentation Verification"
+  },
+  {
+    "id": 78,
+    "question": "A rider writes: 'My driver took a very long route to my destination, costing me $45.00 more than the upfront estimate.' What is the review protocol?",
+    "scenario": "Upfront fare adjustment",
+    "options": {
+      "A": "If the route was significantly longer due to driver error (not traffic), adjust the fare back to the upfront estimate and refund the difference.",
+      "B": "Tell them the estimate is just an estimate, they must pay.",
+      "C": "Refund the entire ride cost to keep the CSAT high.",
+      "D": "Tell them to walk next time."
+    },
+    "answer": "A",
+    "explanation": "Compare the actual GPS route with the planned route. If the driver made a clear error or took a detour without passenger consent, refund the difference.",
+    "skill": "Fare Adjustment & Map Review"
+  },
+  {
+    "id": 79,
+    "question": "A driver complains: 'The passenger's child was only 3 years old and they didn't have a car seat, so I cancelled. I want a cancellation fee.' What is the policy?",
+    "scenario": "Child seat safety cancellation",
+    "options": {
+      "A": "Tell the driver they should have driven anyway.",
+      "B": "Support the driver's safety decision. Waive any impact on the driver's rating/rate and credit them a cancellation fee. Safety is our top priority.",
+      "C": "Tell the driver they are suspended for refusing a child.",
+      "D": "Ignore the ticket."
+    },
+    "answer": "B",
+    "explanation": "Uber policy supports drivers who refuse rides due to lack of required child safety seats. The driver is eligible for a cancellation fee.",
+    "skill": "Safety Policies"
+  },
+  {
+    "id": 80,
+    "question": "A rider says: 'My driver brought a friend who was sitting in the front seat. I felt extremely uncomfortable.' How do you handle this security concern?",
+    "scenario": "Unauthorised co-rider",
+    "options": {
+      "A": "Tell the rider that ride-sharing allows drivers to bring friends.",
+      "B": "Acknowledge the safety concern immediately. Explain that co-riders are strictly prohibited. Escalate to the safety and driver compliance teams for driver warning/deactivation.",
+      "C": "Suggest the rider make friends with the co-rider.",
+      "D": "Refund the ride and do nothing else."
+    },
+    "answer": "B",
+    "explanation": "Uber policy strictly prohibits co-riders (anyone other than the driver and riders) in the vehicle. This is a safety violation and must be escalated.",
+    "skill": "Safety Escalation"
+  },
+  {
+    "id": 81,
+    "question": "A rider claims: 'I left my iPhone in the vehicle yesterday. The driver is demanding cash to return it to me.' What is Uber's policy?",
+    "scenario": "Lost item extortion",
+    "options": {
+      "A": "Tell the rider they must pay the driver whatever cash they want.",
+      "B": "Explain that while Uber has a standard return fee that goes to the driver for their time, demanding extra cash is a policy violation. We will coordinate the return and warn the driver.",
+      "C": "Tell them to report the driver for theft immediately.",
+      "D": "Say that we do not interfere in lost items."
+    },
+    "answer": "B",
+    "explanation": "Drivers are entitled to a standard return fee (e.g. $15) to cover their fuel and time, but extorting passengers for extra cash is prohibited. Support must mediate.",
+    "skill": "Lost Item Policy"
+  },
+  {
+    "id": 82,
+    "question": "A driver messages: 'The passenger threw up in my backseat. I need a cleaning fee.' What documentation is mandatory to process this?",
+    "scenario": "Cleaning fee documentation",
+    "options": {
+      "A": "Just the driver's word is enough.",
+      "B": "Clear photos of the mess and a valid cleaning receipt or invoice from a professional cleaner detailing the service.",
+      "C": "A copy of the driver's driver's license.",
+      "D": "A police report."
+    },
+    "answer": "B",
+    "explanation": "To charge a rider a cleaning fee (up to $150), the driver must submit clear photos of the mess and a valid professional cleaning invoice within 3 days.",
+    "skill": "Documentation Verification"
+  },
+  {
+    "id": 83,
+    "question": "A rider writes: 'My driver took a very long route to my destination, costing me $15.00 more than the upfront estimate.' What is the review protocol?",
+    "scenario": "Upfront fare adjustment",
+    "options": {
+      "A": "If the route was significantly longer due to driver error (not traffic), adjust the fare back to the upfront estimate and refund the difference.",
+      "B": "Tell them the estimate is just an estimate, they must pay.",
+      "C": "Refund the entire ride cost to keep the CSAT high.",
+      "D": "Tell them to walk next time."
+    },
+    "answer": "A",
+    "explanation": "Compare the actual GPS route with the planned route. If the driver made a clear error or took a detour without passenger consent, refund the difference.",
+    "skill": "Fare Adjustment & Map Review"
+  },
+  {
+    "id": 84,
+    "question": "A driver complains: 'The passenger's child was only 3 years old and they didn't have a car seat, so I cancelled. I want a cancellation fee.' What is the policy?",
+    "scenario": "Child seat safety cancellation",
+    "options": {
+      "A": "Tell the driver they should have driven anyway.",
+      "B": "Support the driver's safety decision. Waive any impact on the driver's rating/rate and credit them a cancellation fee. Safety is our top priority.",
+      "C": "Tell the driver they are suspended for refusing a child.",
+      "D": "Ignore the ticket."
+    },
+    "answer": "B",
+    "explanation": "Uber policy supports drivers who refuse rides due to lack of required child safety seats. The driver is eligible for a cancellation fee.",
+    "skill": "Safety Policies"
+  },
+  {
+    "id": 85,
+    "question": "A rider says: 'My driver brought a friend who was sitting in the front seat. I felt extremely uncomfortable.' How do you handle this security concern?",
+    "scenario": "Unauthorised co-rider",
+    "options": {
+      "A": "Tell the rider that ride-sharing allows drivers to bring friends.",
+      "B": "Acknowledge the safety concern immediately. Explain that co-riders are strictly prohibited. Escalate to the safety and driver compliance teams for driver warning/deactivation.",
+      "C": "Suggest the rider make friends with the co-rider.",
+      "D": "Refund the ride and do nothing else."
+    },
+    "answer": "B",
+    "explanation": "Uber policy strictly prohibits co-riders (anyone other than the driver and riders) in the vehicle. This is a safety violation and must be escalated.",
+    "skill": "Safety Escalation"
+  },
+  {
+    "id": 86,
+    "question": "A rider claims: 'I left my keys in the vehicle yesterday. The driver is demanding cash to return it to me.' What is Uber's policy?",
+    "scenario": "Lost item extortion",
+    "options": {
+      "A": "Tell the rider they must pay the driver whatever cash they want.",
+      "B": "Explain that while Uber has a standard return fee that goes to the driver for their time, demanding extra cash is a policy violation. We will coordinate the return and warn the driver.",
+      "C": "Tell them to report the driver for theft immediately.",
+      "D": "Say that we do not interfere in lost items."
+    },
+    "answer": "B",
+    "explanation": "Drivers are entitled to a standard return fee (e.g. $15) to cover their fuel and time, but extorting passengers for extra cash is prohibited. Support must mediate.",
+    "skill": "Lost Item Policy"
+  },
+  {
+    "id": 87,
+    "question": "A driver messages: 'The passenger threw up in my backseat. I need a cleaning fee.' What documentation is mandatory to process this?",
+    "scenario": "Cleaning fee documentation",
+    "options": {
+      "A": "Just the driver's word is enough.",
+      "B": "Clear photos of the mess and a valid cleaning receipt or invoice from a professional cleaner detailing the service.",
+      "C": "A copy of the driver's driver's license.",
+      "D": "A police report."
+    },
+    "answer": "B",
+    "explanation": "To charge a rider a cleaning fee (up to $150), the driver must submit clear photos of the mess and a valid professional cleaning invoice within 3 days.",
+    "skill": "Documentation Verification"
+  },
+  {
+    "id": 88,
+    "question": "A rider writes: 'My driver took a very long route to my destination, costing me $75.00 more than the upfront estimate.' What is the review protocol?",
+    "scenario": "Upfront fare adjustment",
+    "options": {
+      "A": "If the route was significantly longer due to driver error (not traffic), adjust the fare back to the upfront estimate and refund the difference.",
+      "B": "Tell them the estimate is just an estimate, they must pay.",
+      "C": "Refund the entire ride cost to keep the CSAT high.",
+      "D": "Tell them to walk next time."
+    },
+    "answer": "A",
+    "explanation": "Compare the actual GPS route with the planned route. If the driver made a clear error or took a detour without passenger consent, refund the difference.",
+    "skill": "Fare Adjustment & Map Review"
+  },
+  {
+    "id": 89,
+    "question": "A driver complains: 'The passenger's child was only 3 years old and they didn't have a car seat, so I cancelled. I want a cancellation fee.' What is the policy?",
+    "scenario": "Child seat safety cancellation",
+    "options": {
+      "A": "Tell the driver they should have driven anyway.",
+      "B": "Support the driver's safety decision. Waive any impact on the driver's rating/rate and credit them a cancellation fee. Safety is our top priority.",
+      "C": "Tell the driver they are suspended for refusing a child.",
+      "D": "Ignore the ticket."
+    },
+    "answer": "B",
+    "explanation": "Uber policy supports drivers who refuse rides due to lack of required child safety seats. The driver is eligible for a cancellation fee.",
+    "skill": "Safety Policies"
+  },
+  {
+    "id": 90,
+    "question": "A rider says: 'My driver brought a friend who was sitting in the front seat. I felt extremely uncomfortable.' How do you handle this security concern?",
+    "scenario": "Unauthorised co-rider",
+    "options": {
+      "A": "Tell the rider that ride-sharing allows drivers to bring friends.",
+      "B": "Acknowledge the safety concern immediately. Explain that co-riders are strictly prohibited. Escalate to the safety and driver compliance teams for driver warning/deactivation.",
+      "C": "Suggest the rider make friends with the co-rider.",
+      "D": "Refund the ride and do nothing else."
+    },
+    "answer": "B",
+    "explanation": "Uber policy strictly prohibits co-riders (anyone other than the driver and riders) in the vehicle. This is a safety violation and must be escalated.",
+    "skill": "Safety Escalation"
+  },
+  {
+    "id": 91,
+    "question": "A rider claims: 'I left my wallet in the vehicle yesterday. The driver is demanding cash to return it to me.' What is Uber's policy?",
+    "scenario": "Lost item extortion",
+    "options": {
+      "A": "Tell the rider they must pay the driver whatever cash they want.",
+      "B": "Explain that while Uber has a standard return fee that goes to the driver for their time, demanding extra cash is a policy violation. We will coordinate the return and warn the driver.",
+      "C": "Tell them to report the driver for theft immediately.",
+      "D": "Say that we do not interfere in lost items."
+    },
+    "answer": "B",
+    "explanation": "Drivers are entitled to a standard return fee (e.g. $15) to cover their fuel and time, but extorting passengers for extra cash is prohibited. Support must mediate.",
+    "skill": "Lost Item Policy"
+  },
+  {
+    "id": 92,
+    "question": "A driver messages: 'The passenger threw up in my backseat. I need a cleaning fee.' What documentation is mandatory to process this?",
+    "scenario": "Cleaning fee documentation",
+    "options": {
+      "A": "Just the driver's word is enough.",
+      "B": "Clear photos of the mess and a valid cleaning receipt or invoice from a professional cleaner detailing the service.",
+      "C": "A copy of the driver's driver's license.",
+      "D": "A police report."
+    },
+    "answer": "B",
+    "explanation": "To charge a rider a cleaning fee (up to $150), the driver must submit clear photos of the mess and a valid professional cleaning invoice within 3 days.",
+    "skill": "Documentation Verification"
+  },
+  {
+    "id": 93,
+    "question": "A rider writes: 'My driver took a very long route to my destination, costing me $25.00 more than the upfront estimate.' What is the review protocol?",
+    "scenario": "Upfront fare adjustment",
+    "options": {
+      "A": "If the route was significantly longer due to driver error (not traffic), adjust the fare back to the upfront estimate and refund the difference.",
+      "B": "Tell them the estimate is just an estimate, they must pay.",
+      "C": "Refund the entire ride cost to keep the CSAT high.",
+      "D": "Tell them to walk next time."
+    },
+    "answer": "A",
+    "explanation": "Compare the actual GPS route with the planned route. If the driver made a clear error or took a detour without passenger consent, refund the difference.",
+    "skill": "Fare Adjustment & Map Review"
+  },
+  {
+    "id": 94,
+    "question": "A driver complains: 'The passenger's child was only 3 years old and they didn't have a car seat, so I cancelled. I want a cancellation fee.' What is the policy?",
+    "scenario": "Child seat safety cancellation",
+    "options": {
+      "A": "Tell the driver they should have driven anyway.",
+      "B": "Support the driver's safety decision. Waive any impact on the driver's rating/rate and credit them a cancellation fee. Safety is our top priority.",
+      "C": "Tell the driver they are suspended for refusing a child.",
+      "D": "Ignore the ticket."
+    },
+    "answer": "B",
+    "explanation": "Uber policy supports drivers who refuse rides due to lack of required child safety seats. The driver is eligible for a cancellation fee.",
+    "skill": "Safety Policies"
+  },
+  {
+    "id": 95,
+    "question": "A rider says: 'My driver brought a friend who was sitting in the front seat. I felt extremely uncomfortable.' How do you handle this security concern?",
+    "scenario": "Unauthorised co-rider",
+    "options": {
+      "A": "Tell the rider that ride-sharing allows drivers to bring friends.",
+      "B": "Acknowledge the safety concern immediately. Explain that co-riders are strictly prohibited. Escalate to the safety and driver compliance teams for driver warning/deactivation.",
+      "C": "Suggest the rider make friends with the co-rider.",
+      "D": "Refund the ride and do nothing else."
+    },
+    "answer": "B",
+    "explanation": "Uber policy strictly prohibits co-riders (anyone other than the driver and riders) in the vehicle. This is a safety violation and must be escalated.",
+    "skill": "Safety Escalation"
+  },
+  {
+    "id": 96,
+    "question": "A rider claims: 'I left my jacket in the vehicle yesterday. The driver is demanding cash to return it to me.' What is Uber's policy?",
+    "scenario": "Lost item extortion",
+    "options": {
+      "A": "Tell the rider they must pay the driver whatever cash they want.",
+      "B": "Explain that while Uber has a standard return fee that goes to the driver for their time, demanding extra cash is a policy violation. We will coordinate the return and warn the driver.",
+      "C": "Tell them to report the driver for theft immediately.",
+      "D": "Say that we do not interfere in lost items."
+    },
+    "answer": "B",
+    "explanation": "Drivers are entitled to a standard return fee (e.g. $15) to cover their fuel and time, but extorting passengers for extra cash is prohibited. Support must mediate.",
+    "skill": "Lost Item Policy"
+  },
+  {
+    "id": 97,
+    "question": "A driver messages: 'The passenger threw up in my backseat. I need a cleaning fee.' What documentation is mandatory to process this?",
+    "scenario": "Cleaning fee documentation",
+    "options": {
+      "A": "Just the driver's word is enough.",
+      "B": "Clear photos of the mess and a valid cleaning receipt or invoice from a professional cleaner detailing the service.",
+      "C": "A copy of the driver's driver's license.",
+      "D": "A police report."
+    },
+    "answer": "B",
+    "explanation": "To charge a rider a cleaning fee (up to $150), the driver must submit clear photos of the mess and a valid professional cleaning invoice within 3 days.",
+    "skill": "Documentation Verification"
+  },
+  {
+    "id": 98,
+    "question": "A rider writes: 'My driver took a very long route to my destination, costing me $5.00 more than the upfront estimate.' What is the review protocol?",
+    "scenario": "Upfront fare adjustment",
+    "options": {
+      "A": "If the route was significantly longer due to driver error (not traffic), adjust the fare back to the upfront estimate and refund the difference.",
+      "B": "Tell them the estimate is just an estimate, they must pay.",
+      "C": "Refund the entire ride cost to keep the CSAT high.",
+      "D": "Tell them to walk next time."
+    },
+    "answer": "A",
+    "explanation": "Compare the actual GPS route with the planned route. If the driver made a clear error or took a detour without passenger consent, refund the difference.",
+    "skill": "Fare Adjustment & Map Review"
+  },
+  {
+    "id": 99,
+    "question": "A driver complains: 'The passenger's child was only 3 years old and they didn't have a car seat, so I cancelled. I want a cancellation fee.' What is the policy?",
+    "scenario": "Child seat safety cancellation",
+    "options": {
+      "A": "Tell the driver they should have driven anyway.",
+      "B": "Support the driver's safety decision. Waive any impact on the driver's rating/rate and credit them a cancellation fee. Safety is our top priority.",
+      "C": "Tell the driver they are suspended for refusing a child.",
+      "D": "Ignore the ticket."
+    },
+    "answer": "B",
+    "explanation": "Uber policy supports drivers who refuse rides due to lack of required child safety seats. The driver is eligible for a cancellation fee.",
+    "skill": "Safety Policies"
+  },
+  {
+    "id": 100,
+    "question": "A rider says: 'My driver brought a friend who was sitting in the front seat. I felt extremely uncomfortable.' How do you handle this security concern?",
+    "scenario": "Unauthorised co-rider",
+    "options": {
+      "A": "Tell the rider that ride-sharing allows drivers to bring friends.",
+      "B": "Acknowledge the safety concern immediately. Explain that co-riders are strictly prohibited. Escalate to the safety and driver compliance teams for driver warning/deactivation.",
+      "C": "Suggest the rider make friends with the co-rider.",
+      "D": "Refund the ride and do nothing else."
+    },
+    "answer": "B",
+    "explanation": "Uber policy strictly prohibits co-riders (anyone other than the driver and riders) in the vehicle. This is a safety violation and must be escalated.",
+    "skill": "Safety Escalation"
+  },
+  {
+    "id": 101,
+    "question": "A rider claims: 'I left my jacket in the vehicle yesterday. The driver is demanding cash to return it to me.' What is Uber's policy?",
+    "scenario": "Lost item extortion",
+    "options": {
+      "A": "Tell the rider they must pay the driver whatever cash they want.",
+      "B": "Explain that while Uber has a standard return fee that goes to the driver for their time, demanding extra cash is a policy violation. We will coordinate the return and warn the driver.",
+      "C": "Tell them to report the driver for theft immediately.",
+      "D": "Say that we do not interfere in lost items."
+    },
+    "answer": "B",
+    "explanation": "Drivers are entitled to a standard return fee (e.g. $15) to cover their fuel and time, but extorting passengers for extra cash is prohibited. Support must mediate.",
+    "skill": "Lost Item Policy"
+  },
+  {
+    "id": 102,
+    "question": "A driver messages: 'The passenger threw up in my backseat. I need a cleaning fee.' What documentation is mandatory to process this?",
+    "scenario": "Cleaning fee documentation",
+    "options": {
+      "A": "Just the driver's word is enough.",
+      "B": "Clear photos of the mess and a valid cleaning receipt or invoice from a professional cleaner detailing the service.",
+      "C": "A copy of the driver's driver's license.",
+      "D": "A police report."
+    },
+    "answer": "B",
+    "explanation": "To charge a rider a cleaning fee (up to $150), the driver must submit clear photos of the mess and a valid professional cleaning invoice within 3 days.",
+    "skill": "Documentation Verification"
+  },
+  {
+    "id": 103,
+    "question": "A rider writes: 'My driver took a very long route to my destination, costing me $5.00 more than the upfront estimate.' What is the review protocol?",
+    "scenario": "Upfront fare adjustment",
+    "options": {
+      "A": "If the route was significantly longer due to driver error (not traffic), adjust the fare back to the upfront estimate and refund the difference.",
+      "B": "Tell them the estimate is just an estimate, they must pay.",
+      "C": "Refund the entire ride cost to keep the CSAT high.",
+      "D": "Tell them to walk next time."
+    },
+    "answer": "A",
+    "explanation": "Compare the actual GPS route with the planned route. If the driver made a clear error or took a detour without passenger consent, refund the difference.",
+    "skill": "Fare Adjustment & Map Review"
+  },
+  {
+    "id": 104,
+    "question": "A driver complains: 'The passenger's child was only 3 years old and they didn't have a car seat, so I cancelled. I want a cancellation fee.' What is the policy?",
+    "scenario": "Child seat safety cancellation",
+    "options": {
+      "A": "Tell the driver they should have driven anyway.",
+      "B": "Support the driver's safety decision. Waive any impact on the driver's rating/rate and credit them a cancellation fee. Safety is our top priority.",
+      "C": "Tell the driver they are suspended for refusing a child.",
+      "D": "Ignore the ticket."
+    },
+    "answer": "B",
+    "explanation": "Uber policy supports drivers who refuse rides due to lack of required child safety seats. The driver is eligible for a cancellation fee.",
+    "skill": "Safety Policies"
+  },
+  {
+    "id": 105,
+    "question": "A rider says: 'My driver brought a friend who was sitting in the front seat. I felt extremely uncomfortable.' How do you handle this security concern?",
+    "scenario": "Unauthorised co-rider",
+    "options": {
+      "A": "Tell the rider that ride-sharing allows drivers to bring friends.",
+      "B": "Acknowledge the safety concern immediately. Explain that co-riders are strictly prohibited. Escalate to the safety and driver compliance teams for driver warning/deactivation.",
+      "C": "Suggest the rider make friends with the co-rider.",
+      "D": "Refund the ride and do nothing else."
+    },
+    "answer": "B",
+    "explanation": "Uber policy strictly prohibits co-riders (anyone other than the driver and riders) in the vehicle. This is a safety violation and must be escalated.",
+    "skill": "Safety Escalation"
+  },
+  {
+    "id": 106,
+    "question": "A rider claims: 'I left my briefcase in the vehicle yesterday. The driver is demanding cash to return it to me.' What is Uber's policy?",
+    "scenario": "Lost item extortion",
+    "options": {
+      "A": "Tell the rider they must pay the driver whatever cash they want.",
+      "B": "Explain that while Uber has a standard return fee that goes to the driver for their time, demanding extra cash is a policy violation. We will coordinate the return and warn the driver.",
+      "C": "Tell them to report the driver for theft immediately.",
+      "D": "Say that we do not interfere in lost items."
+    },
+    "answer": "B",
+    "explanation": "Drivers are entitled to a standard return fee (e.g. $15) to cover their fuel and time, but extorting passengers for extra cash is prohibited. Support must mediate.",
+    "skill": "Lost Item Policy"
+  },
+  {
+    "id": 107,
+    "question": "A driver messages: 'The passenger threw up in my backseat. I need a cleaning fee.' What documentation is mandatory to process this?",
+    "scenario": "Cleaning fee documentation",
+    "options": {
+      "A": "Just the driver's word is enough.",
+      "B": "Clear photos of the mess and a valid cleaning receipt or invoice from a professional cleaner detailing the service.",
+      "C": "A copy of the driver's driver's license.",
+      "D": "A police report."
+    },
+    "answer": "B",
+    "explanation": "To charge a rider a cleaning fee (up to $150), the driver must submit clear photos of the mess and a valid professional cleaning invoice within 3 days.",
+    "skill": "Documentation Verification"
+  },
+  {
+    "id": 108,
+    "question": "A rider writes: 'My driver took a very long route to my destination, costing me $25.00 more than the upfront estimate.' What is the review protocol?",
+    "scenario": "Upfront fare adjustment",
+    "options": {
+      "A": "If the route was significantly longer due to driver error (not traffic), adjust the fare back to the upfront estimate and refund the difference.",
+      "B": "Tell them the estimate is just an estimate, they must pay.",
+      "C": "Refund the entire ride cost to keep the CSAT high.",
+      "D": "Tell them to walk next time."
+    },
+    "answer": "A",
+    "explanation": "Compare the actual GPS route with the planned route. If the driver made a clear error or took a detour without passenger consent, refund the difference.",
+    "skill": "Fare Adjustment & Map Review"
+  },
+  {
+    "id": 109,
+    "question": "A driver complains: 'The passenger's child was only 3 years old and they didn't have a car seat, so I cancelled. I want a cancellation fee.' What is the policy?",
+    "scenario": "Child seat safety cancellation",
+    "options": {
+      "A": "Tell the driver they should have driven anyway.",
+      "B": "Support the driver's safety decision. Waive any impact on the driver's rating/rate and credit them a cancellation fee. Safety is our top priority.",
+      "C": "Tell the driver they are suspended for refusing a child.",
+      "D": "Ignore the ticket."
+    },
+    "answer": "B",
+    "explanation": "Uber policy supports drivers who refuse rides due to lack of required child safety seats. The driver is eligible for a cancellation fee.",
+    "skill": "Safety Policies"
+  },
+  {
+    "id": 110,
+    "question": "A rider says: 'My driver brought a friend who was sitting in the front seat. I felt extremely uncomfortable.' How do you handle this security concern?",
+    "scenario": "Unauthorised co-rider",
+    "options": {
+      "A": "Tell the rider that ride-sharing allows drivers to bring friends.",
+      "B": "Acknowledge the safety concern immediately. Explain that co-riders are strictly prohibited. Escalate to the safety and driver compliance teams for driver warning/deactivation.",
+      "C": "Suggest the rider make friends with the co-rider.",
+      "D": "Refund the ride and do nothing else."
+    },
+    "answer": "B",
+    "explanation": "Uber policy strictly prohibits co-riders (anyone other than the driver and riders) in the vehicle. This is a safety violation and must be escalated.",
+    "skill": "Safety Escalation"
+  },
+  {
+    "id": 111,
+    "question": "A rider claims: 'I left my sunglasses in the vehicle yesterday. The driver is demanding cash to return it to me.' What is Uber's policy?",
+    "scenario": "Lost item extortion",
+    "options": {
+      "A": "Tell the rider they must pay the driver whatever cash they want.",
+      "B": "Explain that while Uber has a standard return fee that goes to the driver for their time, demanding extra cash is a policy violation. We will coordinate the return and warn the driver.",
+      "C": "Tell them to report the driver for theft immediately.",
+      "D": "Say that we do not interfere in lost items."
+    },
+    "answer": "B",
+    "explanation": "Drivers are entitled to a standard return fee (e.g. $15) to cover their fuel and time, but extorting passengers for extra cash is prohibited. Support must mediate.",
+    "skill": "Lost Item Policy"
+  },
+  {
+    "id": 112,
+    "question": "A driver messages: 'The passenger threw up in my backseat. I need a cleaning fee.' What documentation is mandatory to process this?",
+    "scenario": "Cleaning fee documentation",
+    "options": {
+      "A": "Just the driver's word is enough.",
+      "B": "Clear photos of the mess and a valid cleaning receipt or invoice from a professional cleaner detailing the service.",
+      "C": "A copy of the driver's driver's license.",
+      "D": "A police report."
+    },
+    "answer": "B",
+    "explanation": "To charge a rider a cleaning fee (up to $150), the driver must submit clear photos of the mess and a valid professional cleaning invoice within 3 days.",
+    "skill": "Documentation Verification"
+  },
+  {
+    "id": 113,
+    "question": "A rider writes: 'My driver took a very long route to my destination, costing me $5.00 more than the upfront estimate.' What is the review protocol?",
+    "scenario": "Upfront fare adjustment",
+    "options": {
+      "A": "If the route was significantly longer due to driver error (not traffic), adjust the fare back to the upfront estimate and refund the difference.",
+      "B": "Tell them the estimate is just an estimate, they must pay.",
+      "C": "Refund the entire ride cost to keep the CSAT high.",
+      "D": "Tell them to walk next time."
+    },
+    "answer": "A",
+    "explanation": "Compare the actual GPS route with the planned route. If the driver made a clear error or took a detour without passenger consent, refund the difference.",
+    "skill": "Fare Adjustment & Map Review"
+  },
+  {
+    "id": 114,
+    "question": "A driver complains: 'The passenger's child was only 3 years old and they didn't have a car seat, so I cancelled. I want a cancellation fee.' What is the policy?",
+    "scenario": "Child seat safety cancellation",
+    "options": {
+      "A": "Tell the driver they should have driven anyway.",
+      "B": "Support the driver's safety decision. Waive any impact on the driver's rating/rate and credit them a cancellation fee. Safety is our top priority.",
+      "C": "Tell the driver they are suspended for refusing a child.",
+      "D": "Ignore the ticket."
+    },
+    "answer": "B",
+    "explanation": "Uber policy supports drivers who refuse rides due to lack of required child safety seats. The driver is eligible for a cancellation fee.",
+    "skill": "Safety Policies"
+  },
+  {
+    "id": 115,
+    "question": "A rider says: 'My driver brought a friend who was sitting in the front seat. I felt extremely uncomfortable.' How do you handle this security concern?",
+    "scenario": "Unauthorised co-rider",
+    "options": {
+      "A": "Tell the rider that ride-sharing allows drivers to bring friends.",
+      "B": "Acknowledge the safety concern immediately. Explain that co-riders are strictly prohibited. Escalate to the safety and driver compliance teams for driver warning/deactivation.",
+      "C": "Suggest the rider make friends with the co-rider.",
+      "D": "Refund the ride and do nothing else."
+    },
+    "answer": "B",
+    "explanation": "Uber policy strictly prohibits co-riders (anyone other than the driver and riders) in the vehicle. This is a safety violation and must be escalated.",
+    "skill": "Safety Escalation"
+  },
+  {
+    "id": 116,
+    "question": "A rider claims: 'I left my backpack in the vehicle yesterday. The driver is demanding cash to return it to me.' What is Uber's policy?",
+    "scenario": "Lost item extortion",
+    "options": {
+      "A": "Tell the rider they must pay the driver whatever cash they want.",
+      "B": "Explain that while Uber has a standard return fee that goes to the driver for their time, demanding extra cash is a policy violation. We will coordinate the return and warn the driver.",
+      "C": "Tell them to report the driver for theft immediately.",
+      "D": "Say that we do not interfere in lost items."
+    },
+    "answer": "B",
+    "explanation": "Drivers are entitled to a standard return fee (e.g. $15) to cover their fuel and time, but extorting passengers for extra cash is prohibited. Support must mediate.",
+    "skill": "Lost Item Policy"
+  },
+  {
+    "id": 117,
+    "question": "A driver messages: 'The passenger threw up in my backseat. I need a cleaning fee.' What documentation is mandatory to process this?",
+    "scenario": "Cleaning fee documentation",
+    "options": {
+      "A": "Just the driver's word is enough.",
+      "B": "Clear photos of the mess and a valid cleaning receipt or invoice from a professional cleaner detailing the service.",
+      "C": "A copy of the driver's driver's license.",
+      "D": "A police report."
+    },
+    "answer": "B",
+    "explanation": "To charge a rider a cleaning fee (up to $150), the driver must submit clear photos of the mess and a valid professional cleaning invoice within 3 days.",
+    "skill": "Documentation Verification"
+  },
+  {
+    "id": 118,
+    "question": "A rider writes: 'My driver took a very long route to my destination, costing me $5.00 more than the upfront estimate.' What is the review protocol?",
+    "scenario": "Upfront fare adjustment",
+    "options": {
+      "A": "If the route was significantly longer due to driver error (not traffic), adjust the fare back to the upfront estimate and refund the difference.",
+      "B": "Tell them the estimate is just an estimate, they must pay.",
+      "C": "Refund the entire ride cost to keep the CSAT high.",
+      "D": "Tell them to walk next time."
+    },
+    "answer": "A",
+    "explanation": "Compare the actual GPS route with the planned route. If the driver made a clear error or took a detour without passenger consent, refund the difference.",
+    "skill": "Fare Adjustment & Map Review"
+  },
+  {
+    "id": 119,
+    "question": "A driver complains: 'The passenger's child was only 3 years old and they didn't have a car seat, so I cancelled. I want a cancellation fee.' What is the policy?",
+    "scenario": "Child seat safety cancellation",
+    "options": {
+      "A": "Tell the driver they should have driven anyway.",
+      "B": "Support the driver's safety decision. Waive any impact on the driver's rating/rate and credit them a cancellation fee. Safety is our top priority.",
+      "C": "Tell the driver they are suspended for refusing a child.",
+      "D": "Ignore the ticket."
+    },
+    "answer": "B",
+    "explanation": "Uber policy supports drivers who refuse rides due to lack of required child safety seats. The driver is eligible for a cancellation fee.",
+    "skill": "Safety Policies"
+  },
+  {
+    "id": 120,
+    "question": "A rider says: 'My driver brought a friend who was sitting in the front seat. I felt extremely uncomfortable.' How do you handle this security concern?",
+    "scenario": "Unauthorised co-rider",
+    "options": {
+      "A": "Tell the rider that ride-sharing allows drivers to bring friends.",
+      "B": "Acknowledge the safety concern immediately. Explain that co-riders are strictly prohibited. Escalate to the safety and driver compliance teams for driver warning/deactivation.",
+      "C": "Suggest the rider make friends with the co-rider.",
+      "D": "Refund the ride and do nothing else."
+    },
+    "answer": "B",
+    "explanation": "Uber policy strictly prohibits co-riders (anyone other than the driver and riders) in the vehicle. This is a safety violation and must be escalated.",
+    "skill": "Safety Escalation"
+  },
+  {
+    "id": 121,
+    "question": "A rider claims: 'I left my iPhone in the vehicle yesterday. The driver is demanding cash to return it to me.' What is Uber's policy?",
+    "scenario": "Lost item extortion",
+    "options": {
+      "A": "Tell the rider they must pay the driver whatever cash they want.",
+      "B": "Explain that while Uber has a standard return fee that goes to the driver for their time, demanding extra cash is a policy violation. We will coordinate the return and warn the driver.",
+      "C": "Tell them to report the driver for theft immediately.",
+      "D": "Say that we do not interfere in lost items."
+    },
+    "answer": "B",
+    "explanation": "Drivers are entitled to a standard return fee (e.g. $15) to cover their fuel and time, but extorting passengers for extra cash is prohibited. Support must mediate.",
+    "skill": "Lost Item Policy"
+  },
+  {
+    "id": 122,
+    "question": "A driver messages: 'The passenger threw up in my backseat. I need a cleaning fee.' What documentation is mandatory to process this?",
+    "scenario": "Cleaning fee documentation",
+    "options": {
+      "A": "Just the driver's word is enough.",
+      "B": "Clear photos of the mess and a valid cleaning receipt or invoice from a professional cleaner detailing the service.",
+      "C": "A copy of the driver's driver's license.",
+      "D": "A police report."
+    },
+    "answer": "B",
+    "explanation": "To charge a rider a cleaning fee (up to $150), the driver must submit clear photos of the mess and a valid professional cleaning invoice within 3 days.",
+    "skill": "Documentation Verification"
+  },
+  {
+    "id": 123,
+    "question": "A rider writes: 'My driver took a very long route to my destination, costing me $45.00 more than the upfront estimate.' What is the review protocol?",
+    "scenario": "Upfront fare adjustment",
+    "options": {
+      "A": "If the route was significantly longer due to driver error (not traffic), adjust the fare back to the upfront estimate and refund the difference.",
+      "B": "Tell them the estimate is just an estimate, they must pay.",
+      "C": "Refund the entire ride cost to keep the CSAT high.",
+      "D": "Tell them to walk next time."
+    },
+    "answer": "A",
+    "explanation": "Compare the actual GPS route with the planned route. If the driver made a clear error or took a detour without passenger consent, refund the difference.",
+    "skill": "Fare Adjustment & Map Review"
+  },
+  {
+    "id": 124,
+    "question": "A driver complains: 'The passenger's child was only 3 years old and they didn't have a car seat, so I cancelled. I want a cancellation fee.' What is the policy?",
+    "scenario": "Child seat safety cancellation",
+    "options": {
+      "A": "Tell the driver they should have driven anyway.",
+      "B": "Support the driver's safety decision. Waive any impact on the driver's rating/rate and credit them a cancellation fee. Safety is our top priority.",
+      "C": "Tell the driver they are suspended for refusing a child.",
+      "D": "Ignore the ticket."
+    },
+    "answer": "B",
+    "explanation": "Uber policy supports drivers who refuse rides due to lack of required child safety seats. The driver is eligible for a cancellation fee.",
+    "skill": "Safety Policies"
+  },
+  {
+    "id": 125,
+    "question": "A rider says: 'My driver brought a friend who was sitting in the front seat. I felt extremely uncomfortable.' How do you handle this security concern?",
+    "scenario": "Unauthorised co-rider",
+    "options": {
+      "A": "Tell the rider that ride-sharing allows drivers to bring friends.",
+      "B": "Acknowledge the safety concern immediately. Explain that co-riders are strictly prohibited. Escalate to the safety and driver compliance teams for driver warning/deactivation.",
+      "C": "Suggest the rider make friends with the co-rider.",
+      "D": "Refund the ride and do nothing else."
+    },
+    "answer": "B",
+    "explanation": "Uber policy strictly prohibits co-riders (anyone other than the driver and riders) in the vehicle. This is a safety violation and must be escalated.",
+    "skill": "Safety Escalation"
+  },
+  {
+    "id": 126,
+    "question": "A rider claims: 'I left my sunglasses in the vehicle yesterday. The driver is demanding cash to return it to me.' What is Uber's policy?",
+    "scenario": "Lost item extortion",
+    "options": {
+      "A": "Tell the rider they must pay the driver whatever cash they want.",
+      "B": "Explain that while Uber has a standard return fee that goes to the driver for their time, demanding extra cash is a policy violation. We will coordinate the return and warn the driver.",
+      "C": "Tell them to report the driver for theft immediately.",
+      "D": "Say that we do not interfere in lost items."
+    },
+    "answer": "B",
+    "explanation": "Drivers are entitled to a standard return fee (e.g. $15) to cover their fuel and time, but extorting passengers for extra cash is prohibited. Support must mediate.",
+    "skill": "Lost Item Policy"
+  },
+  {
+    "id": 127,
+    "question": "A driver messages: 'The passenger threw up in my backseat. I need a cleaning fee.' What documentation is mandatory to process this?",
+    "scenario": "Cleaning fee documentation",
+    "options": {
+      "A": "Just the driver's word is enough.",
+      "B": "Clear photos of the mess and a valid cleaning receipt or invoice from a professional cleaner detailing the service.",
+      "C": "A copy of the driver's driver's license.",
+      "D": "A police report."
+    },
+    "answer": "B",
+    "explanation": "To charge a rider a cleaning fee (up to $150), the driver must submit clear photos of the mess and a valid professional cleaning invoice within 3 days.",
+    "skill": "Documentation Verification"
+  },
+  {
+    "id": 128,
+    "question": "A rider writes: 'My driver took a very long route to my destination, costing me $10.00 more than the upfront estimate.' What is the review protocol?",
+    "scenario": "Upfront fare adjustment",
+    "options": {
+      "A": "If the route was significantly longer due to driver error (not traffic), adjust the fare back to the upfront estimate and refund the difference.",
+      "B": "Tell them the estimate is just an estimate, they must pay.",
+      "C": "Refund the entire ride cost to keep the CSAT high.",
+      "D": "Tell them to walk next time."
+    },
+    "answer": "A",
+    "explanation": "Compare the actual GPS route with the planned route. If the driver made a clear error or took a detour without passenger consent, refund the difference.",
+    "skill": "Fare Adjustment & Map Review"
+  },
+  {
+    "id": 129,
+    "question": "A driver complains: 'The passenger's child was only 3 years old and they didn't have a car seat, so I cancelled. I want a cancellation fee.' What is the policy?",
+    "scenario": "Child seat safety cancellation",
+    "options": {
+      "A": "Tell the driver they should have driven anyway.",
+      "B": "Support the driver's safety decision. Waive any impact on the driver's rating/rate and credit them a cancellation fee. Safety is our top priority.",
+      "C": "Tell the driver they are suspended for refusing a child.",
+      "D": "Ignore the ticket."
+    },
+    "answer": "B",
+    "explanation": "Uber policy supports drivers who refuse rides due to lack of required child safety seats. The driver is eligible for a cancellation fee.",
+    "skill": "Safety Policies"
+  },
+  {
+    "id": 130,
+    "question": "A rider says: 'My driver brought a friend who was sitting in the front seat. I felt extremely uncomfortable.' How do you handle this security concern?",
+    "scenario": "Unauthorised co-rider",
+    "options": {
+      "A": "Tell the rider that ride-sharing allows drivers to bring friends.",
+      "B": "Acknowledge the safety concern immediately. Explain that co-riders are strictly prohibited. Escalate to the safety and driver compliance teams for driver warning/deactivation.",
+      "C": "Suggest the rider make friends with the co-rider.",
+      "D": "Refund the ride and do nothing else."
+    },
+    "answer": "B",
+    "explanation": "Uber policy strictly prohibits co-riders (anyone other than the driver and riders) in the vehicle. This is a safety violation and must be escalated.",
+    "skill": "Safety Escalation"
+  },
+  {
+    "id": 131,
+    "question": "A rider claims: 'I left my iPhone in the vehicle yesterday. The driver is demanding cash to return it to me.' What is Uber's policy?",
+    "scenario": "Lost item extortion",
+    "options": {
+      "A": "Tell the rider they must pay the driver whatever cash they want.",
+      "B": "Explain that while Uber has a standard return fee that goes to the driver for their time, demanding extra cash is a policy violation. We will coordinate the return and warn the driver.",
+      "C": "Tell them to report the driver for theft immediately.",
+      "D": "Say that we do not interfere in lost items."
+    },
+    "answer": "B",
+    "explanation": "Drivers are entitled to a standard return fee (e.g. $15) to cover their fuel and time, but extorting passengers for extra cash is prohibited. Support must mediate.",
+    "skill": "Lost Item Policy"
+  },
+  {
+    "id": 132,
+    "question": "A driver messages: 'The passenger threw up in my backseat. I need a cleaning fee.' What documentation is mandatory to process this?",
+    "scenario": "Cleaning fee documentation",
+    "options": {
+      "A": "Just the driver's word is enough.",
+      "B": "Clear photos of the mess and a valid cleaning receipt or invoice from a professional cleaner detailing the service.",
+      "C": "A copy of the driver's driver's license.",
+      "D": "A police report."
+    },
+    "answer": "B",
+    "explanation": "To charge a rider a cleaning fee (up to $150), the driver must submit clear photos of the mess and a valid professional cleaning invoice within 3 days.",
+    "skill": "Documentation Verification"
+  },
+  {
+    "id": 133,
+    "question": "A rider writes: 'My driver took a very long route to my destination, costing me $10.00 more than the upfront estimate.' What is the review protocol?",
+    "scenario": "Upfront fare adjustment",
+    "options": {
+      "A": "If the route was significantly longer due to driver error (not traffic), adjust the fare back to the upfront estimate and refund the difference.",
+      "B": "Tell them the estimate is just an estimate, they must pay.",
+      "C": "Refund the entire ride cost to keep the CSAT high.",
+      "D": "Tell them to walk next time."
+    },
+    "answer": "A",
+    "explanation": "Compare the actual GPS route with the planned route. If the driver made a clear error or took a detour without passenger consent, refund the difference.",
+    "skill": "Fare Adjustment & Map Review"
+  },
+  {
+    "id": 134,
+    "question": "A driver complains: 'The passenger's child was only 3 years old and they didn't have a car seat, so I cancelled. I want a cancellation fee.' What is the policy?",
+    "scenario": "Child seat safety cancellation",
+    "options": {
+      "A": "Tell the driver they should have driven anyway.",
+      "B": "Support the driver's safety decision. Waive any impact on the driver's rating/rate and credit them a cancellation fee. Safety is our top priority.",
+      "C": "Tell the driver they are suspended for refusing a child.",
+      "D": "Ignore the ticket."
+    },
+    "answer": "B",
+    "explanation": "Uber policy supports drivers who refuse rides due to lack of required child safety seats. The driver is eligible for a cancellation fee.",
+    "skill": "Safety Policies"
+  },
+  {
+    "id": 135,
+    "question": "A rider says: 'My driver brought a friend who was sitting in the front seat. I felt extremely uncomfortable.' How do you handle this security concern?",
+    "scenario": "Unauthorised co-rider",
+    "options": {
+      "A": "Tell the rider that ride-sharing allows drivers to bring friends.",
+      "B": "Acknowledge the safety concern immediately. Explain that co-riders are strictly prohibited. Escalate to the safety and driver compliance teams for driver warning/deactivation.",
+      "C": "Suggest the rider make friends with the co-rider.",
+      "D": "Refund the ride and do nothing else."
+    },
+    "answer": "B",
+    "explanation": "Uber policy strictly prohibits co-riders (anyone other than the driver and riders) in the vehicle. This is a safety violation and must be escalated.",
+    "skill": "Safety Escalation"
+  },
+  {
+    "id": 136,
+    "question": "A rider claims: 'I left my sunglasses in the vehicle yesterday. The driver is demanding cash to return it to me.' What is Uber's policy?",
+    "scenario": "Lost item extortion",
+    "options": {
+      "A": "Tell the rider they must pay the driver whatever cash they want.",
+      "B": "Explain that while Uber has a standard return fee that goes to the driver for their time, demanding extra cash is a policy violation. We will coordinate the return and warn the driver.",
+      "C": "Tell them to report the driver for theft immediately.",
+      "D": "Say that we do not interfere in lost items."
+    },
+    "answer": "B",
+    "explanation": "Drivers are entitled to a standard return fee (e.g. $15) to cover their fuel and time, but extorting passengers for extra cash is prohibited. Support must mediate.",
+    "skill": "Lost Item Policy"
+  },
+  {
+    "id": 137,
+    "question": "A driver messages: 'The passenger threw up in my backseat. I need a cleaning fee.' What documentation is mandatory to process this?",
+    "scenario": "Cleaning fee documentation",
+    "options": {
+      "A": "Just the driver's word is enough.",
+      "B": "Clear photos of the mess and a valid cleaning receipt or invoice from a professional cleaner detailing the service.",
+      "C": "A copy of the driver's driver's license.",
+      "D": "A police report."
+    },
+    "answer": "B",
+    "explanation": "To charge a rider a cleaning fee (up to $150), the driver must submit clear photos of the mess and a valid professional cleaning invoice within 3 days.",
+    "skill": "Documentation Verification"
+  },
+  {
+    "id": 138,
+    "question": "A rider writes: 'My driver took a very long route to my destination, costing me $15.00 more than the upfront estimate.' What is the review protocol?",
+    "scenario": "Upfront fare adjustment",
+    "options": {
+      "A": "If the route was significantly longer due to driver error (not traffic), adjust the fare back to the upfront estimate and refund the difference.",
+      "B": "Tell them the estimate is just an estimate, they must pay.",
+      "C": "Refund the entire ride cost to keep the CSAT high.",
+      "D": "Tell them to walk next time."
+    },
+    "answer": "A",
+    "explanation": "Compare the actual GPS route with the planned route. If the driver made a clear error or took a detour without passenger consent, refund the difference.",
+    "skill": "Fare Adjustment & Map Review"
+  },
+  {
+    "id": 139,
+    "question": "A driver complains: 'The passenger's child was only 3 years old and they didn't have a car seat, so I cancelled. I want a cancellation fee.' What is the policy?",
+    "scenario": "Child seat safety cancellation",
+    "options": {
+      "A": "Tell the driver they should have driven anyway.",
+      "B": "Support the driver's safety decision. Waive any impact on the driver's rating/rate and credit them a cancellation fee. Safety is our top priority.",
+      "C": "Tell the driver they are suspended for refusing a child.",
+      "D": "Ignore the ticket."
+    },
+    "answer": "B",
+    "explanation": "Uber policy supports drivers who refuse rides due to lack of required child safety seats. The driver is eligible for a cancellation fee.",
+    "skill": "Safety Policies"
+  },
+  {
+    "id": 140,
+    "question": "A rider says: 'My driver brought a friend who was sitting in the front seat. I felt extremely uncomfortable.' How do you handle this security concern?",
+    "scenario": "Unauthorised co-rider",
+    "options": {
+      "A": "Tell the rider that ride-sharing allows drivers to bring friends.",
+      "B": "Acknowledge the safety concern immediately. Explain that co-riders are strictly prohibited. Escalate to the safety and driver compliance teams for driver warning/deactivation.",
+      "C": "Suggest the rider make friends with the co-rider.",
+      "D": "Refund the ride and do nothing else."
+    },
+    "answer": "B",
+    "explanation": "Uber policy strictly prohibits co-riders (anyone other than the driver and riders) in the vehicle. This is a safety violation and must be escalated.",
+    "skill": "Safety Escalation"
+  },
+  {
+    "id": 141,
+    "question": "A rider claims: 'I left my jacket in the vehicle yesterday. The driver is demanding cash to return it to me.' What is Uber's policy?",
+    "scenario": "Lost item extortion",
+    "options": {
+      "A": "Tell the rider they must pay the driver whatever cash they want.",
+      "B": "Explain that while Uber has a standard return fee that goes to the driver for their time, demanding extra cash is a policy violation. We will coordinate the return and warn the driver.",
+      "C": "Tell them to report the driver for theft immediately.",
+      "D": "Say that we do not interfere in lost items."
+    },
+    "answer": "B",
+    "explanation": "Drivers are entitled to a standard return fee (e.g. $15) to cover their fuel and time, but extorting passengers for extra cash is prohibited. Support must mediate.",
+    "skill": "Lost Item Policy"
+  },
+  {
+    "id": 142,
+    "question": "A driver messages: 'The passenger threw up in my backseat. I need a cleaning fee.' What documentation is mandatory to process this?",
+    "scenario": "Cleaning fee documentation",
+    "options": {
+      "A": "Just the driver's word is enough.",
+      "B": "Clear photos of the mess and a valid cleaning receipt or invoice from a professional cleaner detailing the service.",
+      "C": "A copy of the driver's driver's license.",
+      "D": "A police report."
+    },
+    "answer": "B",
+    "explanation": "To charge a rider a cleaning fee (up to $150), the driver must submit clear photos of the mess and a valid professional cleaning invoice within 3 days.",
+    "skill": "Documentation Verification"
+  },
+  {
+    "id": 143,
+    "question": "A rider writes: 'My driver took a very long route to my destination, costing me $5.00 more than the upfront estimate.' What is the review protocol?",
+    "scenario": "Upfront fare adjustment",
+    "options": {
+      "A": "If the route was significantly longer due to driver error (not traffic), adjust the fare back to the upfront estimate and refund the difference.",
+      "B": "Tell them the estimate is just an estimate, they must pay.",
+      "C": "Refund the entire ride cost to keep the CSAT high.",
+      "D": "Tell them to walk next time."
+    },
+    "answer": "A",
+    "explanation": "Compare the actual GPS route with the planned route. If the driver made a clear error or took a detour without passenger consent, refund the difference.",
+    "skill": "Fare Adjustment & Map Review"
+  },
+  {
+    "id": 144,
+    "question": "A driver complains: 'The passenger's child was only 3 years old and they didn't have a car seat, so I cancelled. I want a cancellation fee.' What is the policy?",
+    "scenario": "Child seat safety cancellation",
+    "options": {
+      "A": "Tell the driver they should have driven anyway.",
+      "B": "Support the driver's safety decision. Waive any impact on the driver's rating/rate and credit them a cancellation fee. Safety is our top priority.",
+      "C": "Tell the driver they are suspended for refusing a child.",
+      "D": "Ignore the ticket."
+    },
+    "answer": "B",
+    "explanation": "Uber policy supports drivers who refuse rides due to lack of required child safety seats. The driver is eligible for a cancellation fee.",
+    "skill": "Safety Policies"
+  },
+  {
+    "id": 145,
+    "question": "A rider says: 'My driver brought a friend who was sitting in the front seat. I felt extremely uncomfortable.' How do you handle this security concern?",
+    "scenario": "Unauthorised co-rider",
+    "options": {
+      "A": "Tell the rider that ride-sharing allows drivers to bring friends.",
+      "B": "Acknowledge the safety concern immediately. Explain that co-riders are strictly prohibited. Escalate to the safety and driver compliance teams for driver warning/deactivation.",
+      "C": "Suggest the rider make friends with the co-rider.",
+      "D": "Refund the ride and do nothing else."
+    },
+    "answer": "B",
+    "explanation": "Uber policy strictly prohibits co-riders (anyone other than the driver and riders) in the vehicle. This is a safety violation and must be escalated.",
+    "skill": "Safety Escalation"
+  },
+  {
+    "id": 146,
+    "question": "A rider claims: 'I left my passport in the vehicle yesterday. The driver is demanding cash to return it to me.' What is Uber's policy?",
+    "scenario": "Lost item extortion",
+    "options": {
+      "A": "Tell the rider they must pay the driver whatever cash they want.",
+      "B": "Explain that while Uber has a standard return fee that goes to the driver for their time, demanding extra cash is a policy violation. We will coordinate the return and warn the driver.",
+      "C": "Tell them to report the driver for theft immediately.",
+      "D": "Say that we do not interfere in lost items."
+    },
+    "answer": "B",
+    "explanation": "Drivers are entitled to a standard return fee (e.g. $15) to cover their fuel and time, but extorting passengers for extra cash is prohibited. Support must mediate.",
+    "skill": "Lost Item Policy"
+  },
+  {
+    "id": 147,
+    "question": "A driver messages: 'The passenger threw up in my backseat. I need a cleaning fee.' What documentation is mandatory to process this?",
+    "scenario": "Cleaning fee documentation",
+    "options": {
+      "A": "Just the driver's word is enough.",
+      "B": "Clear photos of the mess and a valid cleaning receipt or invoice from a professional cleaner detailing the service.",
+      "C": "A copy of the driver's driver's license.",
+      "D": "A police report."
+    },
+    "answer": "B",
+    "explanation": "To charge a rider a cleaning fee (up to $150), the driver must submit clear photos of the mess and a valid professional cleaning invoice within 3 days.",
+    "skill": "Documentation Verification"
+  },
+  {
+    "id": 148,
+    "question": "A rider writes: 'My driver took a very long route to my destination, costing me $10.00 more than the upfront estimate.' What is the review protocol?",
+    "scenario": "Upfront fare adjustment",
+    "options": {
+      "A": "If the route was significantly longer due to driver error (not traffic), adjust the fare back to the upfront estimate and refund the difference.",
+      "B": "Tell them the estimate is just an estimate, they must pay.",
+      "C": "Refund the entire ride cost to keep the CSAT high.",
+      "D": "Tell them to walk next time."
+    },
+    "answer": "A",
+    "explanation": "Compare the actual GPS route with the planned route. If the driver made a clear error or took a detour without passenger consent, refund the difference.",
+    "skill": "Fare Adjustment & Map Review"
+  },
+  {
+    "id": 149,
+    "question": "A driver complains: 'The passenger's child was only 3 years old and they didn't have a car seat, so I cancelled. I want a cancellation fee.' What is the policy?",
+    "scenario": "Child seat safety cancellation",
+    "options": {
+      "A": "Tell the driver they should have driven anyway.",
+      "B": "Support the driver's safety decision. Waive any impact on the driver's rating/rate and credit them a cancellation fee. Safety is our top priority.",
+      "C": "Tell the driver they are suspended for refusing a child.",
+      "D": "Ignore the ticket."
+    },
+    "answer": "B",
+    "explanation": "Uber policy supports drivers who refuse rides due to lack of required child safety seats. The driver is eligible for a cancellation fee.",
+    "skill": "Safety Policies"
+  },
+  {
+    "id": 150,
+    "question": "A rider says: 'My driver brought a friend who was sitting in the front seat. I felt extremely uncomfortable.' How do you handle this security concern?",
+    "scenario": "Unauthorised co-rider",
+    "options": {
+      "A": "Tell the rider that ride-sharing allows drivers to bring friends.",
+      "B": "Acknowledge the safety concern immediately. Explain that co-riders are strictly prohibited. Escalate to the safety and driver compliance teams for driver warning/deactivation.",
+      "C": "Suggest the rider make friends with the co-rider.",
+      "D": "Refund the ride and do nothing else."
+    },
+    "answer": "B",
+    "explanation": "Uber policy strictly prohibits co-riders (anyone other than the driver and riders) in the vehicle. This is a safety violation and must be escalated.",
+    "skill": "Safety Escalation"
+  },
+  {
+    "id": 151,
+    "question": "A rider claims: 'I left my iPhone in the vehicle yesterday. The driver is demanding cash to return it to me.' What is Uber's policy?",
+    "scenario": "Lost item extortion",
+    "options": {
+      "A": "Tell the rider they must pay the driver whatever cash they want.",
+      "B": "Explain that while Uber has a standard return fee that goes to the driver for their time, demanding extra cash is a policy violation. We will coordinate the return and warn the driver.",
+      "C": "Tell them to report the driver for theft immediately.",
+      "D": "Say that we do not interfere in lost items."
+    },
+    "answer": "B",
+    "explanation": "Drivers are entitled to a standard return fee (e.g. $15) to cover their fuel and time, but extorting passengers for extra cash is prohibited. Support must mediate.",
+    "skill": "Lost Item Policy"
+  },
+  {
+    "id": 152,
+    "question": "A driver messages: 'The passenger threw up in my backseat. I need a cleaning fee.' What documentation is mandatory to process this?",
+    "scenario": "Cleaning fee documentation",
+    "options": {
+      "A": "Just the driver's word is enough.",
+      "B": "Clear photos of the mess and a valid cleaning receipt or invoice from a professional cleaner detailing the service.",
+      "C": "A copy of the driver's driver's license.",
+      "D": "A police report."
+    },
+    "answer": "B",
+    "explanation": "To charge a rider a cleaning fee (up to $150), the driver must submit clear photos of the mess and a valid professional cleaning invoice within 3 days.",
+    "skill": "Documentation Verification"
+  },
+  {
+    "id": 153,
+    "question": "A rider writes: 'My driver took a very long route to my destination, costing me $45.00 more than the upfront estimate.' What is the review protocol?",
+    "scenario": "Upfront fare adjustment",
+    "options": {
+      "A": "If the route was significantly longer due to driver error (not traffic), adjust the fare back to the upfront estimate and refund the difference.",
+      "B": "Tell them the estimate is just an estimate, they must pay.",
+      "C": "Refund the entire ride cost to keep the CSAT high.",
+      "D": "Tell them to walk next time."
+    },
+    "answer": "A",
+    "explanation": "Compare the actual GPS route with the planned route. If the driver made a clear error or took a detour without passenger consent, refund the difference.",
+    "skill": "Fare Adjustment & Map Review"
+  },
+  {
+    "id": 154,
+    "question": "A driver complains: 'The passenger's child was only 3 years old and they didn't have a car seat, so I cancelled. I want a cancellation fee.' What is the policy?",
+    "scenario": "Child seat safety cancellation",
+    "options": {
+      "A": "Tell the driver they should have driven anyway.",
+      "B": "Support the driver's safety decision. Waive any impact on the driver's rating/rate and credit them a cancellation fee. Safety is our top priority.",
+      "C": "Tell the driver they are suspended for refusing a child.",
+      "D": "Ignore the ticket."
+    },
+    "answer": "B",
+    "explanation": "Uber policy supports drivers who refuse rides due to lack of required child safety seats. The driver is eligible for a cancellation fee.",
+    "skill": "Safety Policies"
+  },
+  {
+    "id": 155,
+    "question": "A rider says: 'My driver brought a friend who was sitting in the front seat. I felt extremely uncomfortable.' How do you handle this security concern?",
+    "scenario": "Unauthorised co-rider",
+    "options": {
+      "A": "Tell the rider that ride-sharing allows drivers to bring friends.",
+      "B": "Acknowledge the safety concern immediately. Explain that co-riders are strictly prohibited. Escalate to the safety and driver compliance teams for driver warning/deactivation.",
+      "C": "Suggest the rider make friends with the co-rider.",
+      "D": "Refund the ride and do nothing else."
+    },
+    "answer": "B",
+    "explanation": "Uber policy strictly prohibits co-riders (anyone other than the driver and riders) in the vehicle. This is a safety violation and must be escalated.",
+    "skill": "Safety Escalation"
+  },
+  {
+    "id": 156,
+    "question": "A rider claims: 'I left my briefcase in the vehicle yesterday. The driver is demanding cash to return it to me.' What is Uber's policy?",
+    "scenario": "Lost item extortion",
+    "options": {
+      "A": "Tell the rider they must pay the driver whatever cash they want.",
+      "B": "Explain that while Uber has a standard return fee that goes to the driver for their time, demanding extra cash is a policy violation. We will coordinate the return and warn the driver.",
+      "C": "Tell them to report the driver for theft immediately.",
+      "D": "Say that we do not interfere in lost items."
+    },
+    "answer": "B",
+    "explanation": "Drivers are entitled to a standard return fee (e.g. $15) to cover their fuel and time, but extorting passengers for extra cash is prohibited. Support must mediate.",
+    "skill": "Lost Item Policy"
+  },
+  {
+    "id": 157,
+    "question": "A driver messages: 'The passenger threw up in my backseat. I need a cleaning fee.' What documentation is mandatory to process this?",
+    "scenario": "Cleaning fee documentation",
+    "options": {
+      "A": "Just the driver's word is enough.",
+      "B": "Clear photos of the mess and a valid cleaning receipt or invoice from a professional cleaner detailing the service.",
+      "C": "A copy of the driver's driver's license.",
+      "D": "A police report."
+    },
+    "answer": "B",
+    "explanation": "To charge a rider a cleaning fee (up to $150), the driver must submit clear photos of the mess and a valid professional cleaning invoice within 3 days.",
+    "skill": "Documentation Verification"
+  },
+  {
+    "id": 158,
+    "question": "A rider writes: 'My driver took a very long route to my destination, costing me $10.00 more than the upfront estimate.' What is the review protocol?",
+    "scenario": "Upfront fare adjustment",
+    "options": {
+      "A": "If the route was significantly longer due to driver error (not traffic), adjust the fare back to the upfront estimate and refund the difference.",
+      "B": "Tell them the estimate is just an estimate, they must pay.",
+      "C": "Refund the entire ride cost to keep the CSAT high.",
+      "D": "Tell them to walk next time."
+    },
+    "answer": "A",
+    "explanation": "Compare the actual GPS route with the planned route. If the driver made a clear error or took a detour without passenger consent, refund the difference.",
+    "skill": "Fare Adjustment & Map Review"
+  },
+  {
+    "id": 159,
+    "question": "A driver complains: 'The passenger's child was only 3 years old and they didn't have a car seat, so I cancelled. I want a cancellation fee.' What is the policy?",
+    "scenario": "Child seat safety cancellation",
+    "options": {
+      "A": "Tell the driver they should have driven anyway.",
+      "B": "Support the driver's safety decision. Waive any impact on the driver's rating/rate and credit them a cancellation fee. Safety is our top priority.",
+      "C": "Tell the driver they are suspended for refusing a child.",
+      "D": "Ignore the ticket."
+    },
+    "answer": "B",
+    "explanation": "Uber policy supports drivers who refuse rides due to lack of required child safety seats. The driver is eligible for a cancellation fee.",
+    "skill": "Safety Policies"
+  },
+  {
+    "id": 160,
+    "question": "A rider says: 'My driver brought a friend who was sitting in the front seat. I felt extremely uncomfortable.' How do you handle this security concern?",
+    "scenario": "Unauthorised co-rider",
+    "options": {
+      "A": "Tell the rider that ride-sharing allows drivers to bring friends.",
+      "B": "Acknowledge the safety concern immediately. Explain that co-riders are strictly prohibited. Escalate to the safety and driver compliance teams for driver warning/deactivation.",
+      "C": "Suggest the rider make friends with the co-rider.",
+      "D": "Refund the ride and do nothing else."
+    },
+    "answer": "B",
+    "explanation": "Uber policy strictly prohibits co-riders (anyone other than the driver and riders) in the vehicle. This is a safety violation and must be escalated.",
+    "skill": "Safety Escalation"
+  },
+  {
+    "id": 161,
+    "question": "A rider claims: 'I left my keys in the vehicle yesterday. The driver is demanding cash to return it to me.' What is Uber's policy?",
+    "scenario": "Lost item extortion",
+    "options": {
+      "A": "Tell the rider they must pay the driver whatever cash they want.",
+      "B": "Explain that while Uber has a standard return fee that goes to the driver for their time, demanding extra cash is a policy violation. We will coordinate the return and warn the driver.",
+      "C": "Tell them to report the driver for theft immediately.",
+      "D": "Say that we do not interfere in lost items."
+    },
+    "answer": "B",
+    "explanation": "Drivers are entitled to a standard return fee (e.g. $15) to cover their fuel and time, but extorting passengers for extra cash is prohibited. Support must mediate.",
+    "skill": "Lost Item Policy"
+  },
+  {
+    "id": 162,
+    "question": "A driver messages: 'The passenger threw up in my backseat. I need a cleaning fee.' What documentation is mandatory to process this?",
+    "scenario": "Cleaning fee documentation",
+    "options": {
+      "A": "Just the driver's word is enough.",
+      "B": "Clear photos of the mess and a valid cleaning receipt or invoice from a professional cleaner detailing the service.",
+      "C": "A copy of the driver's driver's license.",
+      "D": "A police report."
+    },
+    "answer": "B",
+    "explanation": "To charge a rider a cleaning fee (up to $150), the driver must submit clear photos of the mess and a valid professional cleaning invoice within 3 days.",
+    "skill": "Documentation Verification"
+  },
+  {
+    "id": 163,
+    "question": "A rider writes: 'My driver took a very long route to my destination, costing me $10.00 more than the upfront estimate.' What is the review protocol?",
+    "scenario": "Upfront fare adjustment",
+    "options": {
+      "A": "If the route was significantly longer due to driver error (not traffic), adjust the fare back to the upfront estimate and refund the difference.",
+      "B": "Tell them the estimate is just an estimate, they must pay.",
+      "C": "Refund the entire ride cost to keep the CSAT high.",
+      "D": "Tell them to walk next time."
+    },
+    "answer": "A",
+    "explanation": "Compare the actual GPS route with the planned route. If the driver made a clear error or took a detour without passenger consent, refund the difference.",
+    "skill": "Fare Adjustment & Map Review"
+  },
+  {
+    "id": 164,
+    "question": "A driver complains: 'The passenger's child was only 3 years old and they didn't have a car seat, so I cancelled. I want a cancellation fee.' What is the policy?",
+    "scenario": "Child seat safety cancellation",
+    "options": {
+      "A": "Tell the driver they should have driven anyway.",
+      "B": "Support the driver's safety decision. Waive any impact on the driver's rating/rate and credit them a cancellation fee. Safety is our top priority.",
+      "C": "Tell the driver they are suspended for refusing a child.",
+      "D": "Ignore the ticket."
+    },
+    "answer": "B",
+    "explanation": "Uber policy supports drivers who refuse rides due to lack of required child safety seats. The driver is eligible for a cancellation fee.",
+    "skill": "Safety Policies"
+  },
+  {
+    "id": 165,
+    "question": "A rider says: 'My driver brought a friend who was sitting in the front seat. I felt extremely uncomfortable.' How do you handle this security concern?",
+    "scenario": "Unauthorised co-rider",
+    "options": {
+      "A": "Tell the rider that ride-sharing allows drivers to bring friends.",
+      "B": "Acknowledge the safety concern immediately. Explain that co-riders are strictly prohibited. Escalate to the safety and driver compliance teams for driver warning/deactivation.",
+      "C": "Suggest the rider make friends with the co-rider.",
+      "D": "Refund the ride and do nothing else."
+    },
+    "answer": "B",
+    "explanation": "Uber policy strictly prohibits co-riders (anyone other than the driver and riders) in the vehicle. This is a safety violation and must be escalated.",
+    "skill": "Safety Escalation"
+  },
+  {
+    "id": 166,
+    "question": "A rider claims: 'I left my backpack in the vehicle yesterday. The driver is demanding cash to return it to me.' What is Uber's policy?",
+    "scenario": "Lost item extortion",
+    "options": {
+      "A": "Tell the rider they must pay the driver whatever cash they want.",
+      "B": "Explain that while Uber has a standard return fee that goes to the driver for their time, demanding extra cash is a policy violation. We will coordinate the return and warn the driver.",
+      "C": "Tell them to report the driver for theft immediately.",
+      "D": "Say that we do not interfere in lost items."
+    },
+    "answer": "B",
+    "explanation": "Drivers are entitled to a standard return fee (e.g. $15) to cover their fuel and time, but extorting passengers for extra cash is prohibited. Support must mediate.",
+    "skill": "Lost Item Policy"
+  },
+  {
+    "id": 167,
+    "question": "A driver messages: 'The passenger threw up in my backseat. I need a cleaning fee.' What documentation is mandatory to process this?",
+    "scenario": "Cleaning fee documentation",
+    "options": {
+      "A": "Just the driver's word is enough.",
+      "B": "Clear photos of the mess and a valid cleaning receipt or invoice from a professional cleaner detailing the service.",
+      "C": "A copy of the driver's driver's license.",
+      "D": "A police report."
+    },
+    "answer": "B",
+    "explanation": "To charge a rider a cleaning fee (up to $150), the driver must submit clear photos of the mess and a valid professional cleaning invoice within 3 days.",
+    "skill": "Documentation Verification"
+  },
+  {
+    "id": 168,
+    "question": "A rider writes: 'My driver took a very long route to my destination, costing me $75.00 more than the upfront estimate.' What is the review protocol?",
+    "scenario": "Upfront fare adjustment",
+    "options": {
+      "A": "If the route was significantly longer due to driver error (not traffic), adjust the fare back to the upfront estimate and refund the difference.",
+      "B": "Tell them the estimate is just an estimate, they must pay.",
+      "C": "Refund the entire ride cost to keep the CSAT high.",
+      "D": "Tell them to walk next time."
+    },
+    "answer": "A",
+    "explanation": "Compare the actual GPS route with the planned route. If the driver made a clear error or took a detour without passenger consent, refund the difference.",
+    "skill": "Fare Adjustment & Map Review"
+  },
+  {
+    "id": 169,
+    "question": "A driver complains: 'The passenger's child was only 3 years old and they didn't have a car seat, so I cancelled. I want a cancellation fee.' What is the policy?",
+    "scenario": "Child seat safety cancellation",
+    "options": {
+      "A": "Tell the driver they should have driven anyway.",
+      "B": "Support the driver's safety decision. Waive any impact on the driver's rating/rate and credit them a cancellation fee. Safety is our top priority.",
+      "C": "Tell the driver they are suspended for refusing a child.",
+      "D": "Ignore the ticket."
+    },
+    "answer": "B",
+    "explanation": "Uber policy supports drivers who refuse rides due to lack of required child safety seats. The driver is eligible for a cancellation fee.",
+    "skill": "Safety Policies"
+  },
+  {
+    "id": 170,
+    "question": "A rider says: 'My driver brought a friend who was sitting in the front seat. I felt extremely uncomfortable.' How do you handle this security concern?",
+    "scenario": "Unauthorised co-rider",
+    "options": {
+      "A": "Tell the rider that ride-sharing allows drivers to bring friends.",
+      "B": "Acknowledge the safety concern immediately. Explain that co-riders are strictly prohibited. Escalate to the safety and driver compliance teams for driver warning/deactivation.",
+      "C": "Suggest the rider make friends with the co-rider.",
+      "D": "Refund the ride and do nothing else."
+    },
+    "answer": "B",
+    "explanation": "Uber policy strictly prohibits co-riders (anyone other than the driver and riders) in the vehicle. This is a safety violation and must be escalated.",
+    "skill": "Safety Escalation"
+  },
+  {
+    "id": 171,
+    "question": "A rider claims: 'I left my passport in the vehicle yesterday. The driver is demanding cash to return it to me.' What is Uber's policy?",
+    "scenario": "Lost item extortion",
+    "options": {
+      "A": "Tell the rider they must pay the driver whatever cash they want.",
+      "B": "Explain that while Uber has a standard return fee that goes to the driver for their time, demanding extra cash is a policy violation. We will coordinate the return and warn the driver.",
+      "C": "Tell them to report the driver for theft immediately.",
+      "D": "Say that we do not interfere in lost items."
+    },
+    "answer": "B",
+    "explanation": "Drivers are entitled to a standard return fee (e.g. $15) to cover their fuel and time, but extorting passengers for extra cash is prohibited. Support must mediate.",
+    "skill": "Lost Item Policy"
+  },
+  {
+    "id": 172,
+    "question": "A driver messages: 'The passenger threw up in my backseat. I need a cleaning fee.' What documentation is mandatory to process this?",
+    "scenario": "Cleaning fee documentation",
+    "options": {
+      "A": "Just the driver's word is enough.",
+      "B": "Clear photos of the mess and a valid cleaning receipt or invoice from a professional cleaner detailing the service.",
+      "C": "A copy of the driver's driver's license.",
+      "D": "A police report."
+    },
+    "answer": "B",
+    "explanation": "To charge a rider a cleaning fee (up to $150), the driver must submit clear photos of the mess and a valid professional cleaning invoice within 3 days.",
+    "skill": "Documentation Verification"
+  },
+  {
+    "id": 173,
+    "question": "A rider writes: 'My driver took a very long route to my destination, costing me $45.00 more than the upfront estimate.' What is the review protocol?",
+    "scenario": "Upfront fare adjustment",
+    "options": {
+      "A": "If the route was significantly longer due to driver error (not traffic), adjust the fare back to the upfront estimate and refund the difference.",
+      "B": "Tell them the estimate is just an estimate, they must pay.",
+      "C": "Refund the entire ride cost to keep the CSAT high.",
+      "D": "Tell them to walk next time."
+    },
+    "answer": "A",
+    "explanation": "Compare the actual GPS route with the planned route. If the driver made a clear error or took a detour without passenger consent, refund the difference.",
+    "skill": "Fare Adjustment & Map Review"
+  },
+  {
+    "id": 174,
+    "question": "A driver complains: 'The passenger's child was only 3 years old and they didn't have a car seat, so I cancelled. I want a cancellation fee.' What is the policy?",
+    "scenario": "Child seat safety cancellation",
+    "options": {
+      "A": "Tell the driver they should have driven anyway.",
+      "B": "Support the driver's safety decision. Waive any impact on the driver's rating/rate and credit them a cancellation fee. Safety is our top priority.",
+      "C": "Tell the driver they are suspended for refusing a child.",
+      "D": "Ignore the ticket."
+    },
+    "answer": "B",
+    "explanation": "Uber policy supports drivers who refuse rides due to lack of required child safety seats. The driver is eligible for a cancellation fee.",
+    "skill": "Safety Policies"
+  },
+  {
+    "id": 175,
+    "question": "A rider says: 'My driver brought a friend who was sitting in the front seat. I felt extremely uncomfortable.' How do you handle this security concern?",
+    "scenario": "Unauthorised co-rider",
+    "options": {
+      "A": "Tell the rider that ride-sharing allows drivers to bring friends.",
+      "B": "Acknowledge the safety concern immediately. Explain that co-riders are strictly prohibited. Escalate to the safety and driver compliance teams for driver warning/deactivation.",
+      "C": "Suggest the rider make friends with the co-rider.",
+      "D": "Refund the ride and do nothing else."
+    },
+    "answer": "B",
+    "explanation": "Uber policy strictly prohibits co-riders (anyone other than the driver and riders) in the vehicle. This is a safety violation and must be escalated.",
+    "skill": "Safety Escalation"
+  },
+  {
+    "id": 176,
+    "question": "A rider claims: 'I left my jacket in the vehicle yesterday. The driver is demanding cash to return it to me.' What is Uber's policy?",
+    "scenario": "Lost item extortion",
+    "options": {
+      "A": "Tell the rider they must pay the driver whatever cash they want.",
+      "B": "Explain that while Uber has a standard return fee that goes to the driver for their time, demanding extra cash is a policy violation. We will coordinate the return and warn the driver.",
+      "C": "Tell them to report the driver for theft immediately.",
+      "D": "Say that we do not interfere in lost items."
+    },
+    "answer": "B",
+    "explanation": "Drivers are entitled to a standard return fee (e.g. $15) to cover their fuel and time, but extorting passengers for extra cash is prohibited. Support must mediate.",
+    "skill": "Lost Item Policy"
+  },
+  {
+    "id": 177,
+    "question": "A driver messages: 'The passenger threw up in my backseat. I need a cleaning fee.' What documentation is mandatory to process this?",
+    "scenario": "Cleaning fee documentation",
+    "options": {
+      "A": "Just the driver's word is enough.",
+      "B": "Clear photos of the mess and a valid cleaning receipt or invoice from a professional cleaner detailing the service.",
+      "C": "A copy of the driver's driver's license.",
+      "D": "A police report."
+    },
+    "answer": "B",
+    "explanation": "To charge a rider a cleaning fee (up to $150), the driver must submit clear photos of the mess and a valid professional cleaning invoice within 3 days.",
+    "skill": "Documentation Verification"
+  },
+  {
+    "id": 178,
+    "question": "A rider writes: 'My driver took a very long route to my destination, costing me $25.00 more than the upfront estimate.' What is the review protocol?",
+    "scenario": "Upfront fare adjustment",
+    "options": {
+      "A": "If the route was significantly longer due to driver error (not traffic), adjust the fare back to the upfront estimate and refund the difference.",
+      "B": "Tell them the estimate is just an estimate, they must pay.",
+      "C": "Refund the entire ride cost to keep the CSAT high.",
+      "D": "Tell them to walk next time."
+    },
+    "answer": "A",
+    "explanation": "Compare the actual GPS route with the planned route. If the driver made a clear error or took a detour without passenger consent, refund the difference.",
+    "skill": "Fare Adjustment & Map Review"
+  },
+  {
+    "id": 179,
+    "question": "A driver complains: 'The passenger's child was only 3 years old and they didn't have a car seat, so I cancelled. I want a cancellation fee.' What is the policy?",
+    "scenario": "Child seat safety cancellation",
+    "options": {
+      "A": "Tell the driver they should have driven anyway.",
+      "B": "Support the driver's safety decision. Waive any impact on the driver's rating/rate and credit them a cancellation fee. Safety is our top priority.",
+      "C": "Tell the driver they are suspended for refusing a child.",
+      "D": "Ignore the ticket."
+    },
+    "answer": "B",
+    "explanation": "Uber policy supports drivers who refuse rides due to lack of required child safety seats. The driver is eligible for a cancellation fee.",
+    "skill": "Safety Policies"
+  },
+  {
+    "id": 180,
+    "question": "A rider says: 'My driver brought a friend who was sitting in the front seat. I felt extremely uncomfortable.' How do you handle this security concern?",
+    "scenario": "Unauthorised co-rider",
+    "options": {
+      "A": "Tell the rider that ride-sharing allows drivers to bring friends.",
+      "B": "Acknowledge the safety concern immediately. Explain that co-riders are strictly prohibited. Escalate to the safety and driver compliance teams for driver warning/deactivation.",
+      "C": "Suggest the rider make friends with the co-rider.",
+      "D": "Refund the ride and do nothing else."
+    },
+    "answer": "B",
+    "explanation": "Uber policy strictly prohibits co-riders (anyone other than the driver and riders) in the vehicle. This is a safety violation and must be escalated.",
+    "skill": "Safety Escalation"
+  },
+  {
+    "id": 181,
+    "question": "A rider claims: 'I left my backpack in the vehicle yesterday. The driver is demanding cash to return it to me.' What is Uber's policy?",
+    "scenario": "Lost item extortion",
+    "options": {
+      "A": "Tell the rider they must pay the driver whatever cash they want.",
+      "B": "Explain that while Uber has a standard return fee that goes to the driver for their time, demanding extra cash is a policy violation. We will coordinate the return and warn the driver.",
+      "C": "Tell them to report the driver for theft immediately.",
+      "D": "Say that we do not interfere in lost items."
+    },
+    "answer": "B",
+    "explanation": "Drivers are entitled to a standard return fee (e.g. $15) to cover their fuel and time, but extorting passengers for extra cash is prohibited. Support must mediate.",
+    "skill": "Lost Item Policy"
+  },
+  {
+    "id": 182,
+    "question": "A driver messages: 'The passenger threw up in my backseat. I need a cleaning fee.' What documentation is mandatory to process this?",
+    "scenario": "Cleaning fee documentation",
+    "options": {
+      "A": "Just the driver's word is enough.",
+      "B": "Clear photos of the mess and a valid cleaning receipt or invoice from a professional cleaner detailing the service.",
+      "C": "A copy of the driver's driver's license.",
+      "D": "A police report."
+    },
+    "answer": "B",
+    "explanation": "To charge a rider a cleaning fee (up to $150), the driver must submit clear photos of the mess and a valid professional cleaning invoice within 3 days.",
+    "skill": "Documentation Verification"
+  },
+  {
+    "id": 183,
+    "question": "A rider writes: 'My driver took a very long route to my destination, costing me $10.00 more than the upfront estimate.' What is the review protocol?",
+    "scenario": "Upfront fare adjustment",
+    "options": {
+      "A": "If the route was significantly longer due to driver error (not traffic), adjust the fare back to the upfront estimate and refund the difference.",
+      "B": "Tell them the estimate is just an estimate, they must pay.",
+      "C": "Refund the entire ride cost to keep the CSAT high.",
+      "D": "Tell them to walk next time."
+    },
+    "answer": "A",
+    "explanation": "Compare the actual GPS route with the planned route. If the driver made a clear error or took a detour without passenger consent, refund the difference.",
+    "skill": "Fare Adjustment & Map Review"
+  },
+  {
+    "id": 184,
+    "question": "A driver complains: 'The passenger's child was only 3 years old and they didn't have a car seat, so I cancelled. I want a cancellation fee.' What is the policy?",
+    "scenario": "Child seat safety cancellation",
+    "options": {
+      "A": "Tell the driver they should have driven anyway.",
+      "B": "Support the driver's safety decision. Waive any impact on the driver's rating/rate and credit them a cancellation fee. Safety is our top priority.",
+      "C": "Tell the driver they are suspended for refusing a child.",
+      "D": "Ignore the ticket."
+    },
+    "answer": "B",
+    "explanation": "Uber policy supports drivers who refuse rides due to lack of required child safety seats. The driver is eligible for a cancellation fee.",
+    "skill": "Safety Policies"
+  },
+  {
+    "id": 185,
+    "question": "A rider says: 'My driver brought a friend who was sitting in the front seat. I felt extremely uncomfortable.' How do you handle this security concern?",
+    "scenario": "Unauthorised co-rider",
+    "options": {
+      "A": "Tell the rider that ride-sharing allows drivers to bring friends.",
+      "B": "Acknowledge the safety concern immediately. Explain that co-riders are strictly prohibited. Escalate to the safety and driver compliance teams for driver warning/deactivation.",
+      "C": "Suggest the rider make friends with the co-rider.",
+      "D": "Refund the ride and do nothing else."
+    },
+    "answer": "B",
+    "explanation": "Uber policy strictly prohibits co-riders (anyone other than the driver and riders) in the vehicle. This is a safety violation and must be escalated.",
+    "skill": "Safety Escalation"
+  },
+  {
+    "id": 186,
+    "question": "A rider claims: 'I left my backpack in the vehicle yesterday. The driver is demanding cash to return it to me.' What is Uber's policy?",
+    "scenario": "Lost item extortion",
+    "options": {
+      "A": "Tell the rider they must pay the driver whatever cash they want.",
+      "B": "Explain that while Uber has a standard return fee that goes to the driver for their time, demanding extra cash is a policy violation. We will coordinate the return and warn the driver.",
+      "C": "Tell them to report the driver for theft immediately.",
+      "D": "Say that we do not interfere in lost items."
+    },
+    "answer": "B",
+    "explanation": "Drivers are entitled to a standard return fee (e.g. $15) to cover their fuel and time, but extorting passengers for extra cash is prohibited. Support must mediate.",
+    "skill": "Lost Item Policy"
+  },
+  {
+    "id": 187,
+    "question": "A driver messages: 'The passenger threw up in my backseat. I need a cleaning fee.' What documentation is mandatory to process this?",
+    "scenario": "Cleaning fee documentation",
+    "options": {
+      "A": "Just the driver's word is enough.",
+      "B": "Clear photos of the mess and a valid cleaning receipt or invoice from a professional cleaner detailing the service.",
+      "C": "A copy of the driver's driver's license.",
+      "D": "A police report."
+    },
+    "answer": "B",
+    "explanation": "To charge a rider a cleaning fee (up to $150), the driver must submit clear photos of the mess and a valid professional cleaning invoice within 3 days.",
+    "skill": "Documentation Verification"
+  },
+  {
+    "id": 188,
+    "question": "A rider writes: 'My driver took a very long route to my destination, costing me $25.00 more than the upfront estimate.' What is the review protocol?",
+    "scenario": "Upfront fare adjustment",
+    "options": {
+      "A": "If the route was significantly longer due to driver error (not traffic), adjust the fare back to the upfront estimate and refund the difference.",
+      "B": "Tell them the estimate is just an estimate, they must pay.",
+      "C": "Refund the entire ride cost to keep the CSAT high.",
+      "D": "Tell them to walk next time."
+    },
+    "answer": "A",
+    "explanation": "Compare the actual GPS route with the planned route. If the driver made a clear error or took a detour without passenger consent, refund the difference.",
+    "skill": "Fare Adjustment & Map Review"
+  },
+  {
+    "id": 189,
+    "question": "A driver complains: 'The passenger's child was only 3 years old and they didn't have a car seat, so I cancelled. I want a cancellation fee.' What is the policy?",
+    "scenario": "Child seat safety cancellation",
+    "options": {
+      "A": "Tell the driver they should have driven anyway.",
+      "B": "Support the driver's safety decision. Waive any impact on the driver's rating/rate and credit them a cancellation fee. Safety is our top priority.",
+      "C": "Tell the driver they are suspended for refusing a child.",
+      "D": "Ignore the ticket."
+    },
+    "answer": "B",
+    "explanation": "Uber policy supports drivers who refuse rides due to lack of required child safety seats. The driver is eligible for a cancellation fee.",
+    "skill": "Safety Policies"
+  },
+  {
+    "id": 190,
+    "question": "A rider says: 'My driver brought a friend who was sitting in the front seat. I felt extremely uncomfortable.' How do you handle this security concern?",
+    "scenario": "Unauthorised co-rider",
+    "options": {
+      "A": "Tell the rider that ride-sharing allows drivers to bring friends.",
+      "B": "Acknowledge the safety concern immediately. Explain that co-riders are strictly prohibited. Escalate to the safety and driver compliance teams for driver warning/deactivation.",
+      "C": "Suggest the rider make friends with the co-rider.",
+      "D": "Refund the ride and do nothing else."
+    },
+    "answer": "B",
+    "explanation": "Uber policy strictly prohibits co-riders (anyone other than the driver and riders) in the vehicle. This is a safety violation and must be escalated.",
+    "skill": "Safety Escalation"
+  },
+  {
+    "id": 191,
+    "question": "A rider claims: 'I left my keys in the vehicle yesterday. The driver is demanding cash to return it to me.' What is Uber's policy?",
+    "scenario": "Lost item extortion",
+    "options": {
+      "A": "Tell the rider they must pay the driver whatever cash they want.",
+      "B": "Explain that while Uber has a standard return fee that goes to the driver for their time, demanding extra cash is a policy violation. We will coordinate the return and warn the driver.",
+      "C": "Tell them to report the driver for theft immediately.",
+      "D": "Say that we do not interfere in lost items."
+    },
+    "answer": "B",
+    "explanation": "Drivers are entitled to a standard return fee (e.g. $15) to cover their fuel and time, but extorting passengers for extra cash is prohibited. Support must mediate.",
+    "skill": "Lost Item Policy"
+  },
+  {
+    "id": 192,
+    "question": "A driver messages: 'The passenger threw up in my backseat. I need a cleaning fee.' What documentation is mandatory to process this?",
+    "scenario": "Cleaning fee documentation",
+    "options": {
+      "A": "Just the driver's word is enough.",
+      "B": "Clear photos of the mess and a valid cleaning receipt or invoice from a professional cleaner detailing the service.",
+      "C": "A copy of the driver's driver's license.",
+      "D": "A police report."
+    },
+    "answer": "B",
+    "explanation": "To charge a rider a cleaning fee (up to $150), the driver must submit clear photos of the mess and a valid professional cleaning invoice within 3 days.",
+    "skill": "Documentation Verification"
+  },
+  {
+    "id": 193,
+    "question": "A rider writes: 'My driver took a very long route to my destination, costing me $10.00 more than the upfront estimate.' What is the review protocol?",
+    "scenario": "Upfront fare adjustment",
+    "options": {
+      "A": "If the route was significantly longer due to driver error (not traffic), adjust the fare back to the upfront estimate and refund the difference.",
+      "B": "Tell them the estimate is just an estimate, they must pay.",
+      "C": "Refund the entire ride cost to keep the CSAT high.",
+      "D": "Tell them to walk next time."
+    },
+    "answer": "A",
+    "explanation": "Compare the actual GPS route with the planned route. If the driver made a clear error or took a detour without passenger consent, refund the difference.",
+    "skill": "Fare Adjustment & Map Review"
+  },
+  {
+    "id": 194,
+    "question": "A driver complains: 'The passenger's child was only 3 years old and they didn't have a car seat, so I cancelled. I want a cancellation fee.' What is the policy?",
+    "scenario": "Child seat safety cancellation",
+    "options": {
+      "A": "Tell the driver they should have driven anyway.",
+      "B": "Support the driver's safety decision. Waive any impact on the driver's rating/rate and credit them a cancellation fee. Safety is our top priority.",
+      "C": "Tell the driver they are suspended for refusing a child.",
+      "D": "Ignore the ticket."
+    },
+    "answer": "B",
+    "explanation": "Uber policy supports drivers who refuse rides due to lack of required child safety seats. The driver is eligible for a cancellation fee.",
+    "skill": "Safety Policies"
+  },
+  {
+    "id": 195,
+    "question": "A rider says: 'My driver brought a friend who was sitting in the front seat. I felt extremely uncomfortable.' How do you handle this security concern?",
+    "scenario": "Unauthorised co-rider",
+    "options": {
+      "A": "Tell the rider that ride-sharing allows drivers to bring friends.",
+      "B": "Acknowledge the safety concern immediately. Explain that co-riders are strictly prohibited. Escalate to the safety and driver compliance teams for driver warning/deactivation.",
+      "C": "Suggest the rider make friends with the co-rider.",
+      "D": "Refund the ride and do nothing else."
+    },
+    "answer": "B",
+    "explanation": "Uber policy strictly prohibits co-riders (anyone other than the driver and riders) in the vehicle. This is a safety violation and must be escalated.",
+    "skill": "Safety Escalation"
+  },
+  {
+    "id": 196,
+    "question": "A rider claims: 'I left my laptop in the vehicle yesterday. The driver is demanding cash to return it to me.' What is Uber's policy?",
+    "scenario": "Lost item extortion",
+    "options": {
+      "A": "Tell the rider they must pay the driver whatever cash they want.",
+      "B": "Explain that while Uber has a standard return fee that goes to the driver for their time, demanding extra cash is a policy violation. We will coordinate the return and warn the driver.",
+      "C": "Tell them to report the driver for theft immediately.",
+      "D": "Say that we do not interfere in lost items."
+    },
+    "answer": "B",
+    "explanation": "Drivers are entitled to a standard return fee (e.g. $15) to cover their fuel and time, but extorting passengers for extra cash is prohibited. Support must mediate.",
+    "skill": "Lost Item Policy"
+  },
+  {
+    "id": 197,
+    "question": "A driver messages: 'The passenger threw up in my backseat. I need a cleaning fee.' What documentation is mandatory to process this?",
+    "scenario": "Cleaning fee documentation",
+    "options": {
+      "A": "Just the driver's word is enough.",
+      "B": "Clear photos of the mess and a valid cleaning receipt or invoice from a professional cleaner detailing the service.",
+      "C": "A copy of the driver's driver's license.",
+      "D": "A police report."
+    },
+    "answer": "B",
+    "explanation": "To charge a rider a cleaning fee (up to $150), the driver must submit clear photos of the mess and a valid professional cleaning invoice within 3 days.",
+    "skill": "Documentation Verification"
+  },
+  {
+    "id": 198,
+    "question": "A rider writes: 'My driver took a very long route to my destination, costing me $75.00 more than the upfront estimate.' What is the review protocol?",
+    "scenario": "Upfront fare adjustment",
+    "options": {
+      "A": "If the route was significantly longer due to driver error (not traffic), adjust the fare back to the upfront estimate and refund the difference.",
+      "B": "Tell them the estimate is just an estimate, they must pay.",
+      "C": "Refund the entire ride cost to keep the CSAT high.",
+      "D": "Tell them to walk next time."
+    },
+    "answer": "A",
+    "explanation": "Compare the actual GPS route with the planned route. If the driver made a clear error or took a detour without passenger consent, refund the difference.",
+    "skill": "Fare Adjustment & Map Review"
+  },
+  {
+    "id": 199,
+    "question": "A driver complains: 'The passenger's child was only 3 years old and they didn't have a car seat, so I cancelled. I want a cancellation fee.' What is the policy?",
+    "scenario": "Child seat safety cancellation",
+    "options": {
+      "A": "Tell the driver they should have driven anyway.",
+      "B": "Support the driver's safety decision. Waive any impact on the driver's rating/rate and credit them a cancellation fee. Safety is our top priority.",
+      "C": "Tell the driver they are suspended for refusing a child.",
+      "D": "Ignore the ticket."
+    },
+    "answer": "B",
+    "explanation": "Uber policy supports drivers who refuse rides due to lack of required child safety seats. The driver is eligible for a cancellation fee.",
+    "skill": "Safety Policies"
+  },
+  {
+    "id": 200,
+    "question": "A rider says: 'My driver brought a friend who was sitting in the front seat. I felt extremely uncomfortable.' How do you handle this security concern?",
+    "scenario": "Unauthorised co-rider",
+    "options": {
+      "A": "Tell the rider that ride-sharing allows drivers to bring friends.",
+      "B": "Acknowledge the safety concern immediately. Explain that co-riders are strictly prohibited. Escalate to the safety and driver compliance teams for driver warning/deactivation.",
+      "C": "Suggest the rider make friends with the co-rider.",
+      "D": "Refund the ride and do nothing else."
+    },
+    "answer": "B",
+    "explanation": "Uber policy strictly prohibits co-riders (anyone other than the driver and riders) in the vehicle. This is a safety violation and must be escalated.",
+    "skill": "Safety Escalation"
+  }
+]

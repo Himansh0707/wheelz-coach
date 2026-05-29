@@ -1,0 +1,2802 @@
+[
+  {
+    "id": 1,
+    "question": "A customer in Nairobi named Tariq messages: 'I tried paying for the ride using M-Pesa but the transaction failed. The driver is refusing to let me leave the vehicle.' How do you handle this high-stakes situation?",
+    "scenario": "M-Pesa payment failure in Kenya",
+    "options": {
+      "A": "Tell the passenger to call the police themselves and close the chat.",
+      "B": "Say: 'I am sorry to hear this, Tariq. Please stay safe. I am contacting the driver immediately to resolve this and authorize the cash-out. Please tell the driver that Uber is resolving it now.'",
+      "C": "Tell them to wait for 24 hours for the transaction to clear.",
+      "D": "Explain that M-Pesa is a third-party app and not our problem."
+    },
+    "answer": "B",
+    "explanation": "Mobile money (like M-Pesa in Kenya) is a primary payment option. A failed transaction causing a dispute in the car requires immediate driver outreach and calming support.",
+    "skill": "High-Urgency Payment Resolution"
+  },
+  {
+    "id": 2,
+    "question": "A South African customer named Fatoumata writes: 'The driver took a route that felt very unsafe. I am shaken up.' How do you address their safety concern?",
+    "scenario": "Safety concern during route in SA",
+    "options": {
+      "A": "Explain that the driver was just avoiding traffic.",
+      "B": "Say: 'I am very sorry to hear this, Fatoumata. Your safety is our top priority. Let me review this route and pass this report directly to our dedicated Safety Team for investigation. Are you currently in a safe place?'",
+      "C": "Tell them to write a review of the route on Google Maps.",
+      "D": "Offer them a R250 discount on their next ride and close the chat."
+    },
+    "answer": "B",
+    "explanation": "Safety concerns in South Africa must be treated with high empathy and immediate escalation to the Safety Team. Always check if the user is currently safe.",
+    "skill": "Safety Protocols"
+  },
+  {
+    "id": 3,
+    "question": "A Nigerian client named Kofi starts their message with: 'Good day. I hope this find you well. I want to report a fare issue.' What cultural element is important here?",
+    "scenario": "African greeting etiquette",
+    "options": {
+      "A": "Greetings are wastes of time; ignore it and go straight to the refund.",
+      "B": "African customers value warm, respectful greetings and relational check-ins. You should reply: 'Good day, Kofi. I hope you are doing well too. Let me help you with that fare issue right away.'",
+      "C": "Tell them not to send greetings because we have strict handling time metrics.",
+      "D": "Answer with a short 'Hi. What is the issue?'"
+    },
+    "answer": "B",
+    "explanation": "In many African cultures (e.g. Nigeria, Ghana), starting with a warm and polite greeting is expected. Mirroring this warmth builds rapport.",
+    "skill": "Relational Tone & Warmth"
+  },
+  {
+    "id": 4,
+    "question": "A driver in Lagos writes: 'The rider didn't have cash and said they would transfer the money, but I haven't received it yet.' How do you assist?",
+    "scenario": "Lagos Cash/Transfer dispute",
+    "options": {
+      "A": "Tell the driver to search for the passenger and collect the money.",
+      "B": "Say: 'Hello. I understand this is frustrating. Let me look into this trip. We will verify the payment status and credit your driver wallet for the unpaid fare directly.'",
+      "C": "Deactivate the rider's account immediately without checking.",
+      "D": "Tell the driver that cash transfers are at their own risk."
+    },
+    "answer": "B",
+    "explanation": "Direct bank transfers are common in Nigeria when cash is low. If a transfer fails, support should verify the ride details and ensure the driver is compensated according to policy.",
+    "skill": "Driver Compensation"
+  },
+  {
+    "id": 5,
+    "question": "A passenger in Johannesburg says: 'My driver demanded that I pay extra cash for petrol because of the load shedding traffic.' What is the correct action?",
+    "scenario": "Load shedding cash extortion",
+    "options": {
+      "A": "Tell them to pay because load shedding is difficult for everyone.",
+      "B": "Apologize and explain that drivers must never demand extra cash. Refund the extra fee if they paid, and log a warning on the driver's profile.",
+      "C": "Tell them to report the driver to the traffic police.",
+      "D": "Ignore the report."
+    },
+    "answer": "B",
+    "explanation": "Load shedding in SA causes traffic delays, but drivers demanding extra cash violates policy. Empathize with the rider, refund, and report the driver.",
+    "skill": "Policy Violations"
+  },
+  {
+    "id": 6,
+    "question": "A customer in Nairobi named Chidi messages: 'I tried paying for the ride using M-Pesa but the transaction failed. The driver is refusing to let me leave the vehicle.' How do you handle this high-stakes situation?",
+    "scenario": "M-Pesa payment failure in Kenya",
+    "options": {
+      "A": "Tell the passenger to call the police themselves and close the chat.",
+      "B": "Say: 'I am sorry to hear this, Chidi. Please stay safe. I am contacting the driver immediately to resolve this and authorize the cash-out. Please tell the driver that Uber is resolving it now.'",
+      "C": "Tell them to wait for 24 hours for the transaction to clear.",
+      "D": "Explain that M-Pesa is a third-party app and not our problem."
+    },
+    "answer": "B",
+    "explanation": "Mobile money (like M-Pesa in Kenya) is a primary payment option. A failed transaction causing a dispute in the car requires immediate driver outreach and calming support.",
+    "skill": "High-Urgency Payment Resolution"
+  },
+  {
+    "id": 7,
+    "question": "A South African customer named Jomo writes: 'The driver took a route that felt very unsafe. I am shaken up.' How do you address their safety concern?",
+    "scenario": "Safety concern during route in SA",
+    "options": {
+      "A": "Explain that the driver was just avoiding traffic.",
+      "B": "Say: 'I am very sorry to hear this, Jomo. Your safety is our top priority. Let me review this route and pass this report directly to our dedicated Safety Team for investigation. Are you currently in a safe place?'",
+      "C": "Tell them to write a review of the route on Google Maps.",
+      "D": "Offer them a ₦8000 discount on their next ride and close the chat."
+    },
+    "answer": "B",
+    "explanation": "Safety concerns in South Africa must be treated with high empathy and immediate escalation to the Safety Team. Always check if the user is currently safe.",
+    "skill": "Safety Protocols"
+  },
+  {
+    "id": 8,
+    "question": "A Nigerian client named Chidi starts their message with: 'Good day. I hope this find you well. I want to report a fare issue.' What cultural element is important here?",
+    "scenario": "African greeting etiquette",
+    "options": {
+      "A": "Greetings are wastes of time; ignore it and go straight to the refund.",
+      "B": "African customers value warm, respectful greetings and relational check-ins. You should reply: 'Good day, Chidi. I hope you are doing well too. Let me help you with that fare issue right away.'",
+      "C": "Tell them not to send greetings because we have strict handling time metrics.",
+      "D": "Answer with a short 'Hi. What is the issue?'"
+    },
+    "answer": "B",
+    "explanation": "In many African cultures (e.g. Nigeria, Ghana), starting with a warm and polite greeting is expected. Mirroring this warmth builds rapport.",
+    "skill": "Relational Tone & Warmth"
+  },
+  {
+    "id": 9,
+    "question": "A driver in Lagos writes: 'The rider didn't have cash and said they would transfer the money, but I haven't received it yet.' How do you assist?",
+    "scenario": "Lagos Cash/Transfer dispute",
+    "options": {
+      "A": "Tell the driver to search for the passenger and collect the money.",
+      "B": "Say: 'Hello. I understand this is frustrating. Let me look into this trip. We will verify the payment status and credit your driver wallet for the unpaid fare directly.'",
+      "C": "Deactivate the rider's account immediately without checking.",
+      "D": "Tell the driver that cash transfers are at their own risk."
+    },
+    "answer": "B",
+    "explanation": "Direct bank transfers are common in Nigeria when cash is low. If a transfer fails, support should verify the ride details and ensure the driver is compensated according to policy.",
+    "skill": "Driver Compensation"
+  },
+  {
+    "id": 10,
+    "question": "A passenger in Johannesburg says: 'My driver demanded that I pay extra cash for petrol because of the load shedding traffic.' What is the correct action?",
+    "scenario": "Load shedding cash extortion",
+    "options": {
+      "A": "Tell them to pay because load shedding is difficult for everyone.",
+      "B": "Apologize and explain that drivers must never demand extra cash. Refund the extra fee if they paid, and log a warning on the driver's profile.",
+      "C": "Tell them to report the driver to the traffic police.",
+      "D": "Ignore the report."
+    },
+    "answer": "B",
+    "explanation": "Load shedding in SA causes traffic delays, but drivers demanding extra cash violates policy. Empathize with the rider, refund, and report the driver.",
+    "skill": "Policy Violations"
+  },
+  {
+    "id": 11,
+    "question": "A customer in Nairobi named Kofi messages: 'I tried paying for the ride using M-Pesa but the transaction failed. The driver is refusing to let me leave the vehicle.' How do you handle this high-stakes situation?",
+    "scenario": "M-Pesa payment failure in Kenya",
+    "options": {
+      "A": "Tell the passenger to call the police themselves and close the chat.",
+      "B": "Say: 'I am sorry to hear this, Kofi. Please stay safe. I am contacting the driver immediately to resolve this and authorize the cash-out. Please tell the driver that Uber is resolving it now.'",
+      "C": "Tell them to wait for 24 hours for the transaction to clear.",
+      "D": "Explain that M-Pesa is a third-party app and not our problem."
+    },
+    "answer": "B",
+    "explanation": "Mobile money (like M-Pesa in Kenya) is a primary payment option. A failed transaction causing a dispute in the car requires immediate driver outreach and calming support.",
+    "skill": "High-Urgency Payment Resolution"
+  },
+  {
+    "id": 12,
+    "question": "A South African customer named Fatoumata writes: 'The driver took a route that felt very unsafe. I am shaken up.' How do you address their safety concern?",
+    "scenario": "Safety concern during route in SA",
+    "options": {
+      "A": "Explain that the driver was just avoiding traffic.",
+      "B": "Say: 'I am very sorry to hear this, Fatoumata. Your safety is our top priority. Let me review this route and pass this report directly to our dedicated Safety Team for investigation. Are you currently in a safe place?'",
+      "C": "Tell them to write a review of the route on Google Maps.",
+      "D": "Offer them a KSh 500 discount on their next ride and close the chat."
+    },
+    "answer": "B",
+    "explanation": "Safety concerns in South Africa must be treated with high empathy and immediate escalation to the Safety Team. Always check if the user is currently safe.",
+    "skill": "Safety Protocols"
+  },
+  {
+    "id": 13,
+    "question": "A Nigerian client named Eshe starts their message with: 'Good day. I hope this find you well. I want to report a fare issue.' What cultural element is important here?",
+    "scenario": "African greeting etiquette",
+    "options": {
+      "A": "Greetings are wastes of time; ignore it and go straight to the refund.",
+      "B": "African customers value warm, respectful greetings and relational check-ins. You should reply: 'Good day, Eshe. I hope you are doing well too. Let me help you with that fare issue right away.'",
+      "C": "Tell them not to send greetings because we have strict handling time metrics.",
+      "D": "Answer with a short 'Hi. What is the issue?'"
+    },
+    "answer": "B",
+    "explanation": "In many African cultures (e.g. Nigeria, Ghana), starting with a warm and polite greeting is expected. Mirroring this warmth builds rapport.",
+    "skill": "Relational Tone & Warmth"
+  },
+  {
+    "id": 14,
+    "question": "A driver in Lagos writes: 'The rider didn't have cash and said they would transfer the money, but I haven't received it yet.' How do you assist?",
+    "scenario": "Lagos Cash/Transfer dispute",
+    "options": {
+      "A": "Tell the driver to search for the passenger and collect the money.",
+      "B": "Say: 'Hello. I understand this is frustrating. Let me look into this trip. We will verify the payment status and credit your driver wallet for the unpaid fare directly.'",
+      "C": "Deactivate the rider's account immediately without checking.",
+      "D": "Tell the driver that cash transfers are at their own risk."
+    },
+    "answer": "B",
+    "explanation": "Direct bank transfers are common in Nigeria when cash is low. If a transfer fails, support should verify the ride details and ensure the driver is compensated according to policy.",
+    "skill": "Driver Compensation"
+  },
+  {
+    "id": 15,
+    "question": "A passenger in Johannesburg says: 'My driver demanded that I pay extra cash for petrol because of the load shedding traffic.' What is the correct action?",
+    "scenario": "Load shedding cash extortion",
+    "options": {
+      "A": "Tell them to pay because load shedding is difficult for everyone.",
+      "B": "Apologize and explain that drivers must never demand extra cash. Refund the extra fee if they paid, and log a warning on the driver's profile.",
+      "C": "Tell them to report the driver to the traffic police.",
+      "D": "Ignore the report."
+    },
+    "answer": "B",
+    "explanation": "Load shedding in SA causes traffic delays, but drivers demanding extra cash violates policy. Empathize with the rider, refund, and report the driver.",
+    "skill": "Policy Violations"
+  },
+  {
+    "id": 16,
+    "question": "A customer in Nairobi named Zola messages: 'I tried paying for the ride using M-Pesa but the transaction failed. The driver is refusing to let me leave the vehicle.' How do you handle this high-stakes situation?",
+    "scenario": "M-Pesa payment failure in Kenya",
+    "options": {
+      "A": "Tell the passenger to call the police themselves and close the chat.",
+      "B": "Say: 'I am sorry to hear this, Zola. Please stay safe. I am contacting the driver immediately to resolve this and authorize the cash-out. Please tell the driver that Uber is resolving it now.'",
+      "C": "Tell them to wait for 24 hours for the transaction to clear.",
+      "D": "Explain that M-Pesa is a third-party app and not our problem."
+    },
+    "answer": "B",
+    "explanation": "Mobile money (like M-Pesa in Kenya) is a primary payment option. A failed transaction causing a dispute in the car requires immediate driver outreach and calming support.",
+    "skill": "High-Urgency Payment Resolution"
+  },
+  {
+    "id": 17,
+    "question": "A South African customer named Eshe writes: 'The driver took a route that felt very unsafe. I am shaken up.' How do you address their safety concern?",
+    "scenario": "Safety concern during route in SA",
+    "options": {
+      "A": "Explain that the driver was just avoiding traffic.",
+      "B": "Say: 'I am very sorry to hear this, Eshe. Your safety is our top priority. Let me review this route and pass this report directly to our dedicated Safety Team for investigation. Are you currently in a safe place?'",
+      "C": "Tell them to write a review of the route on Google Maps.",
+      "D": "Offer them a R250 discount on their next ride and close the chat."
+    },
+    "answer": "B",
+    "explanation": "Safety concerns in South Africa must be treated with high empathy and immediate escalation to the Safety Team. Always check if the user is currently safe.",
+    "skill": "Safety Protocols"
+  },
+  {
+    "id": 18,
+    "question": "A Nigerian client named Lerato starts their message with: 'Good day. I hope this find you well. I want to report a fare issue.' What cultural element is important here?",
+    "scenario": "African greeting etiquette",
+    "options": {
+      "A": "Greetings are wastes of time; ignore it and go straight to the refund.",
+      "B": "African customers value warm, respectful greetings and relational check-ins. You should reply: 'Good day, Lerato. I hope you are doing well too. Let me help you with that fare issue right away.'",
+      "C": "Tell them not to send greetings because we have strict handling time metrics.",
+      "D": "Answer with a short 'Hi. What is the issue?'"
+    },
+    "answer": "B",
+    "explanation": "In many African cultures (e.g. Nigeria, Ghana), starting with a warm and polite greeting is expected. Mirroring this warmth builds rapport.",
+    "skill": "Relational Tone & Warmth"
+  },
+  {
+    "id": 19,
+    "question": "A driver in Lagos writes: 'The rider didn't have cash and said they would transfer the money, but I haven't received it yet.' How do you assist?",
+    "scenario": "Lagos Cash/Transfer dispute",
+    "options": {
+      "A": "Tell the driver to search for the passenger and collect the money.",
+      "B": "Say: 'Hello. I understand this is frustrating. Let me look into this trip. We will verify the payment status and credit your driver wallet for the unpaid fare directly.'",
+      "C": "Deactivate the rider's account immediately without checking.",
+      "D": "Tell the driver that cash transfers are at their own risk."
+    },
+    "answer": "B",
+    "explanation": "Direct bank transfers are common in Nigeria when cash is low. If a transfer fails, support should verify the ride details and ensure the driver is compensated according to policy.",
+    "skill": "Driver Compensation"
+  },
+  {
+    "id": 20,
+    "question": "A passenger in Johannesburg says: 'My driver demanded that I pay extra cash for petrol because of the load shedding traffic.' What is the correct action?",
+    "scenario": "Load shedding cash extortion",
+    "options": {
+      "A": "Tell them to pay because load shedding is difficult for everyone.",
+      "B": "Apologize and explain that drivers must never demand extra cash. Refund the extra fee if they paid, and log a warning on the driver's profile.",
+      "C": "Tell them to report the driver to the traffic police.",
+      "D": "Ignore the report."
+    },
+    "answer": "B",
+    "explanation": "Load shedding in SA causes traffic delays, but drivers demanding extra cash violates policy. Empathize with the rider, refund, and report the driver.",
+    "skill": "Policy Violations"
+  },
+  {
+    "id": 21,
+    "question": "A customer in Nairobi named Tariq messages: 'I tried paying for the ride using M-Pesa but the transaction failed. The driver is refusing to let me leave the vehicle.' How do you handle this high-stakes situation?",
+    "scenario": "M-Pesa payment failure in Kenya",
+    "options": {
+      "A": "Tell the passenger to call the police themselves and close the chat.",
+      "B": "Say: 'I am sorry to hear this, Tariq. Please stay safe. I am contacting the driver immediately to resolve this and authorize the cash-out. Please tell the driver that Uber is resolving it now.'",
+      "C": "Tell them to wait for 24 hours for the transaction to clear.",
+      "D": "Explain that M-Pesa is a third-party app and not our problem."
+    },
+    "answer": "B",
+    "explanation": "Mobile money (like M-Pesa in Kenya) is a primary payment option. A failed transaction causing a dispute in the car requires immediate driver outreach and calming support.",
+    "skill": "High-Urgency Payment Resolution"
+  },
+  {
+    "id": 22,
+    "question": "A South African customer named Babajide writes: 'The driver took a route that felt very unsafe. I am shaken up.' How do you address their safety concern?",
+    "scenario": "Safety concern during route in SA",
+    "options": {
+      "A": "Explain that the driver was just avoiding traffic.",
+      "B": "Say: 'I am very sorry to hear this, Babajide. Your safety is our top priority. Let me review this route and pass this report directly to our dedicated Safety Team for investigation. Are you currently in a safe place?'",
+      "C": "Tell them to write a review of the route on Google Maps.",
+      "D": "Offer them a R250 discount on their next ride and close the chat."
+    },
+    "answer": "B",
+    "explanation": "Safety concerns in South Africa must be treated with high empathy and immediate escalation to the Safety Team. Always check if the user is currently safe.",
+    "skill": "Safety Protocols"
+  },
+  {
+    "id": 23,
+    "question": "A Nigerian client named Chioma starts their message with: 'Good day. I hope this find you well. I want to report a fare issue.' What cultural element is important here?",
+    "scenario": "African greeting etiquette",
+    "options": {
+      "A": "Greetings are wastes of time; ignore it and go straight to the refund.",
+      "B": "African customers value warm, respectful greetings and relational check-ins. You should reply: 'Good day, Chioma. I hope you are doing well too. Let me help you with that fare issue right away.'",
+      "C": "Tell them not to send greetings because we have strict handling time metrics.",
+      "D": "Answer with a short 'Hi. What is the issue?'"
+    },
+    "answer": "B",
+    "explanation": "In many African cultures (e.g. Nigeria, Ghana), starting with a warm and polite greeting is expected. Mirroring this warmth builds rapport.",
+    "skill": "Relational Tone & Warmth"
+  },
+  {
+    "id": 24,
+    "question": "A driver in Lagos writes: 'The rider didn't have cash and said they would transfer the money, but I haven't received it yet.' How do you assist?",
+    "scenario": "Lagos Cash/Transfer dispute",
+    "options": {
+      "A": "Tell the driver to search for the passenger and collect the money.",
+      "B": "Say: 'Hello. I understand this is frustrating. Let me look into this trip. We will verify the payment status and credit your driver wallet for the unpaid fare directly.'",
+      "C": "Deactivate the rider's account immediately without checking.",
+      "D": "Tell the driver that cash transfers are at their own risk."
+    },
+    "answer": "B",
+    "explanation": "Direct bank transfers are common in Nigeria when cash is low. If a transfer fails, support should verify the ride details and ensure the driver is compensated according to policy.",
+    "skill": "Driver Compensation"
+  },
+  {
+    "id": 25,
+    "question": "A passenger in Johannesburg says: 'My driver demanded that I pay extra cash for petrol because of the load shedding traffic.' What is the correct action?",
+    "scenario": "Load shedding cash extortion",
+    "options": {
+      "A": "Tell them to pay because load shedding is difficult for everyone.",
+      "B": "Apologize and explain that drivers must never demand extra cash. Refund the extra fee if they paid, and log a warning on the driver's profile.",
+      "C": "Tell them to report the driver to the traffic police.",
+      "D": "Ignore the report."
+    },
+    "answer": "B",
+    "explanation": "Load shedding in SA causes traffic delays, but drivers demanding extra cash violates policy. Empathize with the rider, refund, and report the driver.",
+    "skill": "Policy Violations"
+  },
+  {
+    "id": 26,
+    "question": "A customer in Nairobi named Nnamdi messages: 'I tried paying for the ride using M-Pesa but the transaction failed. The driver is refusing to let me leave the vehicle.' How do you handle this high-stakes situation?",
+    "scenario": "M-Pesa payment failure in Kenya",
+    "options": {
+      "A": "Tell the passenger to call the police themselves and close the chat.",
+      "B": "Say: 'I am sorry to hear this, Nnamdi. Please stay safe. I am contacting the driver immediately to resolve this and authorize the cash-out. Please tell the driver that Uber is resolving it now.'",
+      "C": "Tell them to wait for 24 hours for the transaction to clear.",
+      "D": "Explain that M-Pesa is a third-party app and not our problem."
+    },
+    "answer": "B",
+    "explanation": "Mobile money (like M-Pesa in Kenya) is a primary payment option. A failed transaction causing a dispute in the car requires immediate driver outreach and calming support.",
+    "skill": "High-Urgency Payment Resolution"
+  },
+  {
+    "id": 27,
+    "question": "A South African customer named Jomo writes: 'The driver took a route that felt very unsafe. I am shaken up.' How do you address their safety concern?",
+    "scenario": "Safety concern during route in SA",
+    "options": {
+      "A": "Explain that the driver was just avoiding traffic.",
+      "B": "Say: 'I am very sorry to hear this, Jomo. Your safety is our top priority. Let me review this route and pass this report directly to our dedicated Safety Team for investigation. Are you currently in a safe place?'",
+      "C": "Tell them to write a review of the route on Google Maps.",
+      "D": "Offer them a KSh 500 discount on their next ride and close the chat."
+    },
+    "answer": "B",
+    "explanation": "Safety concerns in South Africa must be treated with high empathy and immediate escalation to the Safety Team. Always check if the user is currently safe.",
+    "skill": "Safety Protocols"
+  },
+  {
+    "id": 28,
+    "question": "A Nigerian client named Eshe starts their message with: 'Good day. I hope this find you well. I want to report a fare issue.' What cultural element is important here?",
+    "scenario": "African greeting etiquette",
+    "options": {
+      "A": "Greetings are wastes of time; ignore it and go straight to the refund.",
+      "B": "African customers value warm, respectful greetings and relational check-ins. You should reply: 'Good day, Eshe. I hope you are doing well too. Let me help you with that fare issue right away.'",
+      "C": "Tell them not to send greetings because we have strict handling time metrics.",
+      "D": "Answer with a short 'Hi. What is the issue?'"
+    },
+    "answer": "B",
+    "explanation": "In many African cultures (e.g. Nigeria, Ghana), starting with a warm and polite greeting is expected. Mirroring this warmth builds rapport.",
+    "skill": "Relational Tone & Warmth"
+  },
+  {
+    "id": 29,
+    "question": "A driver in Lagos writes: 'The rider didn't have cash and said they would transfer the money, but I haven't received it yet.' How do you assist?",
+    "scenario": "Lagos Cash/Transfer dispute",
+    "options": {
+      "A": "Tell the driver to search for the passenger and collect the money.",
+      "B": "Say: 'Hello. I understand this is frustrating. Let me look into this trip. We will verify the payment status and credit your driver wallet for the unpaid fare directly.'",
+      "C": "Deactivate the rider's account immediately without checking.",
+      "D": "Tell the driver that cash transfers are at their own risk."
+    },
+    "answer": "B",
+    "explanation": "Direct bank transfers are common in Nigeria when cash is low. If a transfer fails, support should verify the ride details and ensure the driver is compensated according to policy.",
+    "skill": "Driver Compensation"
+  },
+  {
+    "id": 30,
+    "question": "A passenger in Johannesburg says: 'My driver demanded that I pay extra cash for petrol because of the load shedding traffic.' What is the correct action?",
+    "scenario": "Load shedding cash extortion",
+    "options": {
+      "A": "Tell them to pay because load shedding is difficult for everyone.",
+      "B": "Apologize and explain that drivers must never demand extra cash. Refund the extra fee if they paid, and log a warning on the driver's profile.",
+      "C": "Tell them to report the driver to the traffic police.",
+      "D": "Ignore the report."
+    },
+    "answer": "B",
+    "explanation": "Load shedding in SA causes traffic delays, but drivers demanding extra cash violates policy. Empathize with the rider, refund, and report the driver.",
+    "skill": "Policy Violations"
+  },
+  {
+    "id": 31,
+    "question": "A customer in Nairobi named Lerato messages: 'I tried paying for the ride using M-Pesa but the transaction failed. The driver is refusing to let me leave the vehicle.' How do you handle this high-stakes situation?",
+    "scenario": "M-Pesa payment failure in Kenya",
+    "options": {
+      "A": "Tell the passenger to call the police themselves and close the chat.",
+      "B": "Say: 'I am sorry to hear this, Lerato. Please stay safe. I am contacting the driver immediately to resolve this and authorize the cash-out. Please tell the driver that Uber is resolving it now.'",
+      "C": "Tell them to wait for 24 hours for the transaction to clear.",
+      "D": "Explain that M-Pesa is a third-party app and not our problem."
+    },
+    "answer": "B",
+    "explanation": "Mobile money (like M-Pesa in Kenya) is a primary payment option. A failed transaction causing a dispute in the car requires immediate driver outreach and calming support.",
+    "skill": "High-Urgency Payment Resolution"
+  },
+  {
+    "id": 32,
+    "question": "A South African customer named Eshe writes: 'The driver took a route that felt very unsafe. I am shaken up.' How do you address their safety concern?",
+    "scenario": "Safety concern during route in SA",
+    "options": {
+      "A": "Explain that the driver was just avoiding traffic.",
+      "B": "Say: 'I am very sorry to hear this, Eshe. Your safety is our top priority. Let me review this route and pass this report directly to our dedicated Safety Team for investigation. Are you currently in a safe place?'",
+      "C": "Tell them to write a review of the route on Google Maps.",
+      "D": "Offer them a KSh 500 discount on their next ride and close the chat."
+    },
+    "answer": "B",
+    "explanation": "Safety concerns in South Africa must be treated with high empathy and immediate escalation to the Safety Team. Always check if the user is currently safe.",
+    "skill": "Safety Protocols"
+  },
+  {
+    "id": 33,
+    "question": "A Nigerian client named Eshe starts their message with: 'Good day. I hope this find you well. I want to report a fare issue.' What cultural element is important here?",
+    "scenario": "African greeting etiquette",
+    "options": {
+      "A": "Greetings are wastes of time; ignore it and go straight to the refund.",
+      "B": "African customers value warm, respectful greetings and relational check-ins. You should reply: 'Good day, Eshe. I hope you are doing well too. Let me help you with that fare issue right away.'",
+      "C": "Tell them not to send greetings because we have strict handling time metrics.",
+      "D": "Answer with a short 'Hi. What is the issue?'"
+    },
+    "answer": "B",
+    "explanation": "In many African cultures (e.g. Nigeria, Ghana), starting with a warm and polite greeting is expected. Mirroring this warmth builds rapport.",
+    "skill": "Relational Tone & Warmth"
+  },
+  {
+    "id": 34,
+    "question": "A driver in Lagos writes: 'The rider didn't have cash and said they would transfer the money, but I haven't received it yet.' How do you assist?",
+    "scenario": "Lagos Cash/Transfer dispute",
+    "options": {
+      "A": "Tell the driver to search for the passenger and collect the money.",
+      "B": "Say: 'Hello. I understand this is frustrating. Let me look into this trip. We will verify the payment status and credit your driver wallet for the unpaid fare directly.'",
+      "C": "Deactivate the rider's account immediately without checking.",
+      "D": "Tell the driver that cash transfers are at their own risk."
+    },
+    "answer": "B",
+    "explanation": "Direct bank transfers are common in Nigeria when cash is low. If a transfer fails, support should verify the ride details and ensure the driver is compensated according to policy.",
+    "skill": "Driver Compensation"
+  },
+  {
+    "id": 35,
+    "question": "A passenger in Johannesburg says: 'My driver demanded that I pay extra cash for petrol because of the load shedding traffic.' What is the correct action?",
+    "scenario": "Load shedding cash extortion",
+    "options": {
+      "A": "Tell them to pay because load shedding is difficult for everyone.",
+      "B": "Apologize and explain that drivers must never demand extra cash. Refund the extra fee if they paid, and log a warning on the driver's profile.",
+      "C": "Tell them to report the driver to the traffic police.",
+      "D": "Ignore the report."
+    },
+    "answer": "B",
+    "explanation": "Load shedding in SA causes traffic delays, but drivers demanding extra cash violates policy. Empathize with the rider, refund, and report the driver.",
+    "skill": "Policy Violations"
+  },
+  {
+    "id": 36,
+    "question": "A customer in Nairobi named Jomo messages: 'I tried paying for the ride using M-Pesa but the transaction failed. The driver is refusing to let me leave the vehicle.' How do you handle this high-stakes situation?",
+    "scenario": "M-Pesa payment failure in Kenya",
+    "options": {
+      "A": "Tell the passenger to call the police themselves and close the chat.",
+      "B": "Say: 'I am sorry to hear this, Jomo. Please stay safe. I am contacting the driver immediately to resolve this and authorize the cash-out. Please tell the driver that Uber is resolving it now.'",
+      "C": "Tell them to wait for 24 hours for the transaction to clear.",
+      "D": "Explain that M-Pesa is a third-party app and not our problem."
+    },
+    "answer": "B",
+    "explanation": "Mobile money (like M-Pesa in Kenya) is a primary payment option. A failed transaction causing a dispute in the car requires immediate driver outreach and calming support.",
+    "skill": "High-Urgency Payment Resolution"
+  },
+  {
+    "id": 37,
+    "question": "A South African customer named Chioma writes: 'The driver took a route that felt very unsafe. I am shaken up.' How do you address their safety concern?",
+    "scenario": "Safety concern during route in SA",
+    "options": {
+      "A": "Explain that the driver was just avoiding traffic.",
+      "B": "Say: 'I am very sorry to hear this, Chioma. Your safety is our top priority. Let me review this route and pass this report directly to our dedicated Safety Team for investigation. Are you currently in a safe place?'",
+      "C": "Tell them to write a review of the route on Google Maps.",
+      "D": "Offer them a KSh 1200 discount on their next ride and close the chat."
+    },
+    "answer": "B",
+    "explanation": "Safety concerns in South Africa must be treated with high empathy and immediate escalation to the Safety Team. Always check if the user is currently safe.",
+    "skill": "Safety Protocols"
+  },
+  {
+    "id": 38,
+    "question": "A Nigerian client named Chidi starts their message with: 'Good day. I hope this find you well. I want to report a fare issue.' What cultural element is important here?",
+    "scenario": "African greeting etiquette",
+    "options": {
+      "A": "Greetings are wastes of time; ignore it and go straight to the refund.",
+      "B": "African customers value warm, respectful greetings and relational check-ins. You should reply: 'Good day, Chidi. I hope you are doing well too. Let me help you with that fare issue right away.'",
+      "C": "Tell them not to send greetings because we have strict handling time metrics.",
+      "D": "Answer with a short 'Hi. What is the issue?'"
+    },
+    "answer": "B",
+    "explanation": "In many African cultures (e.g. Nigeria, Ghana), starting with a warm and polite greeting is expected. Mirroring this warmth builds rapport.",
+    "skill": "Relational Tone & Warmth"
+  },
+  {
+    "id": 39,
+    "question": "A driver in Lagos writes: 'The rider didn't have cash and said they would transfer the money, but I haven't received it yet.' How do you assist?",
+    "scenario": "Lagos Cash/Transfer dispute",
+    "options": {
+      "A": "Tell the driver to search for the passenger and collect the money.",
+      "B": "Say: 'Hello. I understand this is frustrating. Let me look into this trip. We will verify the payment status and credit your driver wallet for the unpaid fare directly.'",
+      "C": "Deactivate the rider's account immediately without checking.",
+      "D": "Tell the driver that cash transfers are at their own risk."
+    },
+    "answer": "B",
+    "explanation": "Direct bank transfers are common in Nigeria when cash is low. If a transfer fails, support should verify the ride details and ensure the driver is compensated according to policy.",
+    "skill": "Driver Compensation"
+  },
+  {
+    "id": 40,
+    "question": "A passenger in Johannesburg says: 'My driver demanded that I pay extra cash for petrol because of the load shedding traffic.' What is the correct action?",
+    "scenario": "Load shedding cash extortion",
+    "options": {
+      "A": "Tell them to pay because load shedding is difficult for everyone.",
+      "B": "Apologize and explain that drivers must never demand extra cash. Refund the extra fee if they paid, and log a warning on the driver's profile.",
+      "C": "Tell them to report the driver to the traffic police.",
+      "D": "Ignore the report."
+    },
+    "answer": "B",
+    "explanation": "Load shedding in SA causes traffic delays, but drivers demanding extra cash violates policy. Empathize with the rider, refund, and report the driver.",
+    "skill": "Policy Violations"
+  },
+  {
+    "id": 41,
+    "question": "A customer in Nairobi named Jomo messages: 'I tried paying for the ride using M-Pesa but the transaction failed. The driver is refusing to let me leave the vehicle.' How do you handle this high-stakes situation?",
+    "scenario": "M-Pesa payment failure in Kenya",
+    "options": {
+      "A": "Tell the passenger to call the police themselves and close the chat.",
+      "B": "Say: 'I am sorry to hear this, Jomo. Please stay safe. I am contacting the driver immediately to resolve this and authorize the cash-out. Please tell the driver that Uber is resolving it now.'",
+      "C": "Tell them to wait for 24 hours for the transaction to clear.",
+      "D": "Explain that M-Pesa is a third-party app and not our problem."
+    },
+    "answer": "B",
+    "explanation": "Mobile money (like M-Pesa in Kenya) is a primary payment option. A failed transaction causing a dispute in the car requires immediate driver outreach and calming support.",
+    "skill": "High-Urgency Payment Resolution"
+  },
+  {
+    "id": 42,
+    "question": "A South African customer named Lindiwe writes: 'The driver took a route that felt very unsafe. I am shaken up.' How do you address their safety concern?",
+    "scenario": "Safety concern during route in SA",
+    "options": {
+      "A": "Explain that the driver was just avoiding traffic.",
+      "B": "Say: 'I am very sorry to hear this, Lindiwe. Your safety is our top priority. Let me review this route and pass this report directly to our dedicated Safety Team for investigation. Are you currently in a safe place?'",
+      "C": "Tell them to write a review of the route on Google Maps.",
+      "D": "Offer them a ₦4500 discount on their next ride and close the chat."
+    },
+    "answer": "B",
+    "explanation": "Safety concerns in South Africa must be treated with high empathy and immediate escalation to the Safety Team. Always check if the user is currently safe.",
+    "skill": "Safety Protocols"
+  },
+  {
+    "id": 43,
+    "question": "A Nigerian client named Amina starts their message with: 'Good day. I hope this find you well. I want to report a fare issue.' What cultural element is important here?",
+    "scenario": "African greeting etiquette",
+    "options": {
+      "A": "Greetings are wastes of time; ignore it and go straight to the refund.",
+      "B": "African customers value warm, respectful greetings and relational check-ins. You should reply: 'Good day, Amina. I hope you are doing well too. Let me help you with that fare issue right away.'",
+      "C": "Tell them not to send greetings because we have strict handling time metrics.",
+      "D": "Answer with a short 'Hi. What is the issue?'"
+    },
+    "answer": "B",
+    "explanation": "In many African cultures (e.g. Nigeria, Ghana), starting with a warm and polite greeting is expected. Mirroring this warmth builds rapport.",
+    "skill": "Relational Tone & Warmth"
+  },
+  {
+    "id": 44,
+    "question": "A driver in Lagos writes: 'The rider didn't have cash and said they would transfer the money, but I haven't received it yet.' How do you assist?",
+    "scenario": "Lagos Cash/Transfer dispute",
+    "options": {
+      "A": "Tell the driver to search for the passenger and collect the money.",
+      "B": "Say: 'Hello. I understand this is frustrating. Let me look into this trip. We will verify the payment status and credit your driver wallet for the unpaid fare directly.'",
+      "C": "Deactivate the rider's account immediately without checking.",
+      "D": "Tell the driver that cash transfers are at their own risk."
+    },
+    "answer": "B",
+    "explanation": "Direct bank transfers are common in Nigeria when cash is low. If a transfer fails, support should verify the ride details and ensure the driver is compensated according to policy.",
+    "skill": "Driver Compensation"
+  },
+  {
+    "id": 45,
+    "question": "A passenger in Johannesburg says: 'My driver demanded that I pay extra cash for petrol because of the load shedding traffic.' What is the correct action?",
+    "scenario": "Load shedding cash extortion",
+    "options": {
+      "A": "Tell them to pay because load shedding is difficult for everyone.",
+      "B": "Apologize and explain that drivers must never demand extra cash. Refund the extra fee if they paid, and log a warning on the driver's profile.",
+      "C": "Tell them to report the driver to the traffic police.",
+      "D": "Ignore the report."
+    },
+    "answer": "B",
+    "explanation": "Load shedding in SA causes traffic delays, but drivers demanding extra cash violates policy. Empathize with the rider, refund, and report the driver.",
+    "skill": "Policy Violations"
+  },
+  {
+    "id": 46,
+    "question": "A customer in Nairobi named Chioma messages: 'I tried paying for the ride using M-Pesa but the transaction failed. The driver is refusing to let me leave the vehicle.' How do you handle this high-stakes situation?",
+    "scenario": "M-Pesa payment failure in Kenya",
+    "options": {
+      "A": "Tell the passenger to call the police themselves and close the chat.",
+      "B": "Say: 'I am sorry to hear this, Chioma. Please stay safe. I am contacting the driver immediately to resolve this and authorize the cash-out. Please tell the driver that Uber is resolving it now.'",
+      "C": "Tell them to wait for 24 hours for the transaction to clear.",
+      "D": "Explain that M-Pesa is a third-party app and not our problem."
+    },
+    "answer": "B",
+    "explanation": "Mobile money (like M-Pesa in Kenya) is a primary payment option. A failed transaction causing a dispute in the car requires immediate driver outreach and calming support.",
+    "skill": "High-Urgency Payment Resolution"
+  },
+  {
+    "id": 47,
+    "question": "A South African customer named Tendai writes: 'The driver took a route that felt very unsafe. I am shaken up.' How do you address their safety concern?",
+    "scenario": "Safety concern during route in SA",
+    "options": {
+      "A": "Explain that the driver was just avoiding traffic.",
+      "B": "Say: 'I am very sorry to hear this, Tendai. Your safety is our top priority. Let me review this route and pass this report directly to our dedicated Safety Team for investigation. Are you currently in a safe place?'",
+      "C": "Tell them to write a review of the route on Google Maps.",
+      "D": "Offer them a KSh 1200 discount on their next ride and close the chat."
+    },
+    "answer": "B",
+    "explanation": "Safety concerns in South Africa must be treated with high empathy and immediate escalation to the Safety Team. Always check if the user is currently safe.",
+    "skill": "Safety Protocols"
+  },
+  {
+    "id": 48,
+    "question": "A Nigerian client named Kehinde starts their message with: 'Good day. I hope this find you well. I want to report a fare issue.' What cultural element is important here?",
+    "scenario": "African greeting etiquette",
+    "options": {
+      "A": "Greetings are wastes of time; ignore it and go straight to the refund.",
+      "B": "African customers value warm, respectful greetings and relational check-ins. You should reply: 'Good day, Kehinde. I hope you are doing well too. Let me help you with that fare issue right away.'",
+      "C": "Tell them not to send greetings because we have strict handling time metrics.",
+      "D": "Answer with a short 'Hi. What is the issue?'"
+    },
+    "answer": "B",
+    "explanation": "In many African cultures (e.g. Nigeria, Ghana), starting with a warm and polite greeting is expected. Mirroring this warmth builds rapport.",
+    "skill": "Relational Tone & Warmth"
+  },
+  {
+    "id": 49,
+    "question": "A driver in Lagos writes: 'The rider didn't have cash and said they would transfer the money, but I haven't received it yet.' How do you assist?",
+    "scenario": "Lagos Cash/Transfer dispute",
+    "options": {
+      "A": "Tell the driver to search for the passenger and collect the money.",
+      "B": "Say: 'Hello. I understand this is frustrating. Let me look into this trip. We will verify the payment status and credit your driver wallet for the unpaid fare directly.'",
+      "C": "Deactivate the rider's account immediately without checking.",
+      "D": "Tell the driver that cash transfers are at their own risk."
+    },
+    "answer": "B",
+    "explanation": "Direct bank transfers are common in Nigeria when cash is low. If a transfer fails, support should verify the ride details and ensure the driver is compensated according to policy.",
+    "skill": "Driver Compensation"
+  },
+  {
+    "id": 50,
+    "question": "A passenger in Johannesburg says: 'My driver demanded that I pay extra cash for petrol because of the load shedding traffic.' What is the correct action?",
+    "scenario": "Load shedding cash extortion",
+    "options": {
+      "A": "Tell them to pay because load shedding is difficult for everyone.",
+      "B": "Apologize and explain that drivers must never demand extra cash. Refund the extra fee if they paid, and log a warning on the driver's profile.",
+      "C": "Tell them to report the driver to the traffic police.",
+      "D": "Ignore the report."
+    },
+    "answer": "B",
+    "explanation": "Load shedding in SA causes traffic delays, but drivers demanding extra cash violates policy. Empathize with the rider, refund, and report the driver.",
+    "skill": "Policy Violations"
+  },
+  {
+    "id": 51,
+    "question": "A customer in Nairobi named Chioma messages: 'I tried paying for the ride using M-Pesa but the transaction failed. The driver is refusing to let me leave the vehicle.' How do you handle this high-stakes situation?",
+    "scenario": "M-Pesa payment failure in Kenya",
+    "options": {
+      "A": "Tell the passenger to call the police themselves and close the chat.",
+      "B": "Say: 'I am sorry to hear this, Chioma. Please stay safe. I am contacting the driver immediately to resolve this and authorize the cash-out. Please tell the driver that Uber is resolving it now.'",
+      "C": "Tell them to wait for 24 hours for the transaction to clear.",
+      "D": "Explain that M-Pesa is a third-party app and not our problem."
+    },
+    "answer": "B",
+    "explanation": "Mobile money (like M-Pesa in Kenya) is a primary payment option. A failed transaction causing a dispute in the car requires immediate driver outreach and calming support.",
+    "skill": "High-Urgency Payment Resolution"
+  },
+  {
+    "id": 52,
+    "question": "A South African customer named Tariq writes: 'The driver took a route that felt very unsafe. I am shaken up.' How do you address their safety concern?",
+    "scenario": "Safety concern during route in SA",
+    "options": {
+      "A": "Explain that the driver was just avoiding traffic.",
+      "B": "Say: 'I am very sorry to hear this, Tariq. Your safety is our top priority. Let me review this route and pass this report directly to our dedicated Safety Team for investigation. Are you currently in a safe place?'",
+      "C": "Tell them to write a review of the route on Google Maps.",
+      "D": "Offer them a ₦8000 discount on their next ride and close the chat."
+    },
+    "answer": "B",
+    "explanation": "Safety concerns in South Africa must be treated with high empathy and immediate escalation to the Safety Team. Always check if the user is currently safe.",
+    "skill": "Safety Protocols"
+  },
+  {
+    "id": 53,
+    "question": "A Nigerian client named Lindiwe starts their message with: 'Good day. I hope this find you well. I want to report a fare issue.' What cultural element is important here?",
+    "scenario": "African greeting etiquette",
+    "options": {
+      "A": "Greetings are wastes of time; ignore it and go straight to the refund.",
+      "B": "African customers value warm, respectful greetings and relational check-ins. You should reply: 'Good day, Lindiwe. I hope you are doing well too. Let me help you with that fare issue right away.'",
+      "C": "Tell them not to send greetings because we have strict handling time metrics.",
+      "D": "Answer with a short 'Hi. What is the issue?'"
+    },
+    "answer": "B",
+    "explanation": "In many African cultures (e.g. Nigeria, Ghana), starting with a warm and polite greeting is expected. Mirroring this warmth builds rapport.",
+    "skill": "Relational Tone & Warmth"
+  },
+  {
+    "id": 54,
+    "question": "A driver in Lagos writes: 'The rider didn't have cash and said they would transfer the money, but I haven't received it yet.' How do you assist?",
+    "scenario": "Lagos Cash/Transfer dispute",
+    "options": {
+      "A": "Tell the driver to search for the passenger and collect the money.",
+      "B": "Say: 'Hello. I understand this is frustrating. Let me look into this trip. We will verify the payment status and credit your driver wallet for the unpaid fare directly.'",
+      "C": "Deactivate the rider's account immediately without checking.",
+      "D": "Tell the driver that cash transfers are at their own risk."
+    },
+    "answer": "B",
+    "explanation": "Direct bank transfers are common in Nigeria when cash is low. If a transfer fails, support should verify the ride details and ensure the driver is compensated according to policy.",
+    "skill": "Driver Compensation"
+  },
+  {
+    "id": 55,
+    "question": "A passenger in Johannesburg says: 'My driver demanded that I pay extra cash for petrol because of the load shedding traffic.' What is the correct action?",
+    "scenario": "Load shedding cash extortion",
+    "options": {
+      "A": "Tell them to pay because load shedding is difficult for everyone.",
+      "B": "Apologize and explain that drivers must never demand extra cash. Refund the extra fee if they paid, and log a warning on the driver's profile.",
+      "C": "Tell them to report the driver to the traffic police.",
+      "D": "Ignore the report."
+    },
+    "answer": "B",
+    "explanation": "Load shedding in SA causes traffic delays, but drivers demanding extra cash violates policy. Empathize with the rider, refund, and report the driver.",
+    "skill": "Policy Violations"
+  },
+  {
+    "id": 56,
+    "question": "A customer in Nairobi named Amina messages: 'I tried paying for the ride using M-Pesa but the transaction failed. The driver is refusing to let me leave the vehicle.' How do you handle this high-stakes situation?",
+    "scenario": "M-Pesa payment failure in Kenya",
+    "options": {
+      "A": "Tell the passenger to call the police themselves and close the chat.",
+      "B": "Say: 'I am sorry to hear this, Amina. Please stay safe. I am contacting the driver immediately to resolve this and authorize the cash-out. Please tell the driver that Uber is resolving it now.'",
+      "C": "Tell them to wait for 24 hours for the transaction to clear.",
+      "D": "Explain that M-Pesa is a third-party app and not our problem."
+    },
+    "answer": "B",
+    "explanation": "Mobile money (like M-Pesa in Kenya) is a primary payment option. A failed transaction causing a dispute in the car requires immediate driver outreach and calming support.",
+    "skill": "High-Urgency Payment Resolution"
+  },
+  {
+    "id": 57,
+    "question": "A South African customer named Zola writes: 'The driver took a route that felt very unsafe. I am shaken up.' How do you address their safety concern?",
+    "scenario": "Safety concern during route in SA",
+    "options": {
+      "A": "Explain that the driver was just avoiding traffic.",
+      "B": "Say: 'I am very sorry to hear this, Zola. Your safety is our top priority. Let me review this route and pass this report directly to our dedicated Safety Team for investigation. Are you currently in a safe place?'",
+      "C": "Tell them to write a review of the route on Google Maps.",
+      "D": "Offer them a KSh 1200 discount on their next ride and close the chat."
+    },
+    "answer": "B",
+    "explanation": "Safety concerns in South Africa must be treated with high empathy and immediate escalation to the Safety Team. Always check if the user is currently safe.",
+    "skill": "Safety Protocols"
+  },
+  {
+    "id": 58,
+    "question": "A Nigerian client named Chidi starts their message with: 'Good day. I hope this find you well. I want to report a fare issue.' What cultural element is important here?",
+    "scenario": "African greeting etiquette",
+    "options": {
+      "A": "Greetings are wastes of time; ignore it and go straight to the refund.",
+      "B": "African customers value warm, respectful greetings and relational check-ins. You should reply: 'Good day, Chidi. I hope you are doing well too. Let me help you with that fare issue right away.'",
+      "C": "Tell them not to send greetings because we have strict handling time metrics.",
+      "D": "Answer with a short 'Hi. What is the issue?'"
+    },
+    "answer": "B",
+    "explanation": "In many African cultures (e.g. Nigeria, Ghana), starting with a warm and polite greeting is expected. Mirroring this warmth builds rapport.",
+    "skill": "Relational Tone & Warmth"
+  },
+  {
+    "id": 59,
+    "question": "A driver in Lagos writes: 'The rider didn't have cash and said they would transfer the money, but I haven't received it yet.' How do you assist?",
+    "scenario": "Lagos Cash/Transfer dispute",
+    "options": {
+      "A": "Tell the driver to search for the passenger and collect the money.",
+      "B": "Say: 'Hello. I understand this is frustrating. Let me look into this trip. We will verify the payment status and credit your driver wallet for the unpaid fare directly.'",
+      "C": "Deactivate the rider's account immediately without checking.",
+      "D": "Tell the driver that cash transfers are at their own risk."
+    },
+    "answer": "B",
+    "explanation": "Direct bank transfers are common in Nigeria when cash is low. If a transfer fails, support should verify the ride details and ensure the driver is compensated according to policy.",
+    "skill": "Driver Compensation"
+  },
+  {
+    "id": 60,
+    "question": "A passenger in Johannesburg says: 'My driver demanded that I pay extra cash for petrol because of the load shedding traffic.' What is the correct action?",
+    "scenario": "Load shedding cash extortion",
+    "options": {
+      "A": "Tell them to pay because load shedding is difficult for everyone.",
+      "B": "Apologize and explain that drivers must never demand extra cash. Refund the extra fee if they paid, and log a warning on the driver's profile.",
+      "C": "Tell them to report the driver to the traffic police.",
+      "D": "Ignore the report."
+    },
+    "answer": "B",
+    "explanation": "Load shedding in SA causes traffic delays, but drivers demanding extra cash violates policy. Empathize with the rider, refund, and report the driver.",
+    "skill": "Policy Violations"
+  },
+  {
+    "id": 61,
+    "question": "A customer in Nairobi named Chioma messages: 'I tried paying for the ride using M-Pesa but the transaction failed. The driver is refusing to let me leave the vehicle.' How do you handle this high-stakes situation?",
+    "scenario": "M-Pesa payment failure in Kenya",
+    "options": {
+      "A": "Tell the passenger to call the police themselves and close the chat.",
+      "B": "Say: 'I am sorry to hear this, Chioma. Please stay safe. I am contacting the driver immediately to resolve this and authorize the cash-out. Please tell the driver that Uber is resolving it now.'",
+      "C": "Tell them to wait for 24 hours for the transaction to clear.",
+      "D": "Explain that M-Pesa is a third-party app and not our problem."
+    },
+    "answer": "B",
+    "explanation": "Mobile money (like M-Pesa in Kenya) is a primary payment option. A failed transaction causing a dispute in the car requires immediate driver outreach and calming support.",
+    "skill": "High-Urgency Payment Resolution"
+  },
+  {
+    "id": 62,
+    "question": "A South African customer named Eshe writes: 'The driver took a route that felt very unsafe. I am shaken up.' How do you address their safety concern?",
+    "scenario": "Safety concern during route in SA",
+    "options": {
+      "A": "Explain that the driver was just avoiding traffic.",
+      "B": "Say: 'I am very sorry to hear this, Eshe. Your safety is our top priority. Let me review this route and pass this report directly to our dedicated Safety Team for investigation. Are you currently in a safe place?'",
+      "C": "Tell them to write a review of the route on Google Maps.",
+      "D": "Offer them a KSh 500 discount on their next ride and close the chat."
+    },
+    "answer": "B",
+    "explanation": "Safety concerns in South Africa must be treated with high empathy and immediate escalation to the Safety Team. Always check if the user is currently safe.",
+    "skill": "Safety Protocols"
+  },
+  {
+    "id": 63,
+    "question": "A Nigerian client named Tendai starts their message with: 'Good day. I hope this find you well. I want to report a fare issue.' What cultural element is important here?",
+    "scenario": "African greeting etiquette",
+    "options": {
+      "A": "Greetings are wastes of time; ignore it and go straight to the refund.",
+      "B": "African customers value warm, respectful greetings and relational check-ins. You should reply: 'Good day, Tendai. I hope you are doing well too. Let me help you with that fare issue right away.'",
+      "C": "Tell them not to send greetings because we have strict handling time metrics.",
+      "D": "Answer with a short 'Hi. What is the issue?'"
+    },
+    "answer": "B",
+    "explanation": "In many African cultures (e.g. Nigeria, Ghana), starting with a warm and polite greeting is expected. Mirroring this warmth builds rapport.",
+    "skill": "Relational Tone & Warmth"
+  },
+  {
+    "id": 64,
+    "question": "A driver in Lagos writes: 'The rider didn't have cash and said they would transfer the money, but I haven't received it yet.' How do you assist?",
+    "scenario": "Lagos Cash/Transfer dispute",
+    "options": {
+      "A": "Tell the driver to search for the passenger and collect the money.",
+      "B": "Say: 'Hello. I understand this is frustrating. Let me look into this trip. We will verify the payment status and credit your driver wallet for the unpaid fare directly.'",
+      "C": "Deactivate the rider's account immediately without checking.",
+      "D": "Tell the driver that cash transfers are at their own risk."
+    },
+    "answer": "B",
+    "explanation": "Direct bank transfers are common in Nigeria when cash is low. If a transfer fails, support should verify the ride details and ensure the driver is compensated according to policy.",
+    "skill": "Driver Compensation"
+  },
+  {
+    "id": 65,
+    "question": "A passenger in Johannesburg says: 'My driver demanded that I pay extra cash for petrol because of the load shedding traffic.' What is the correct action?",
+    "scenario": "Load shedding cash extortion",
+    "options": {
+      "A": "Tell them to pay because load shedding is difficult for everyone.",
+      "B": "Apologize and explain that drivers must never demand extra cash. Refund the extra fee if they paid, and log a warning on the driver's profile.",
+      "C": "Tell them to report the driver to the traffic police.",
+      "D": "Ignore the report."
+    },
+    "answer": "B",
+    "explanation": "Load shedding in SA causes traffic delays, but drivers demanding extra cash violates policy. Empathize with the rider, refund, and report the driver.",
+    "skill": "Policy Violations"
+  },
+  {
+    "id": 66,
+    "question": "A customer in Nairobi named Kofi messages: 'I tried paying for the ride using M-Pesa but the transaction failed. The driver is refusing to let me leave the vehicle.' How do you handle this high-stakes situation?",
+    "scenario": "M-Pesa payment failure in Kenya",
+    "options": {
+      "A": "Tell the passenger to call the police themselves and close the chat.",
+      "B": "Say: 'I am sorry to hear this, Kofi. Please stay safe. I am contacting the driver immediately to resolve this and authorize the cash-out. Please tell the driver that Uber is resolving it now.'",
+      "C": "Tell them to wait for 24 hours for the transaction to clear.",
+      "D": "Explain that M-Pesa is a third-party app and not our problem."
+    },
+    "answer": "B",
+    "explanation": "Mobile money (like M-Pesa in Kenya) is a primary payment option. A failed transaction causing a dispute in the car requires immediate driver outreach and calming support.",
+    "skill": "High-Urgency Payment Resolution"
+  },
+  {
+    "id": 67,
+    "question": "A South African customer named Chidi writes: 'The driver took a route that felt very unsafe. I am shaken up.' How do you address their safety concern?",
+    "scenario": "Safety concern during route in SA",
+    "options": {
+      "A": "Explain that the driver was just avoiding traffic.",
+      "B": "Say: 'I am very sorry to hear this, Chidi. Your safety is our top priority. Let me review this route and pass this report directly to our dedicated Safety Team for investigation. Are you currently in a safe place?'",
+      "C": "Tell them to write a review of the route on Google Maps.",
+      "D": "Offer them a KSh 1200 discount on their next ride and close the chat."
+    },
+    "answer": "B",
+    "explanation": "Safety concerns in South Africa must be treated with high empathy and immediate escalation to the Safety Team. Always check if the user is currently safe.",
+    "skill": "Safety Protocols"
+  },
+  {
+    "id": 68,
+    "question": "A Nigerian client named Tariq starts their message with: 'Good day. I hope this find you well. I want to report a fare issue.' What cultural element is important here?",
+    "scenario": "African greeting etiquette",
+    "options": {
+      "A": "Greetings are wastes of time; ignore it and go straight to the refund.",
+      "B": "African customers value warm, respectful greetings and relational check-ins. You should reply: 'Good day, Tariq. I hope you are doing well too. Let me help you with that fare issue right away.'",
+      "C": "Tell them not to send greetings because we have strict handling time metrics.",
+      "D": "Answer with a short 'Hi. What is the issue?'"
+    },
+    "answer": "B",
+    "explanation": "In many African cultures (e.g. Nigeria, Ghana), starting with a warm and polite greeting is expected. Mirroring this warmth builds rapport.",
+    "skill": "Relational Tone & Warmth"
+  },
+  {
+    "id": 69,
+    "question": "A driver in Lagos writes: 'The rider didn't have cash and said they would transfer the money, but I haven't received it yet.' How do you assist?",
+    "scenario": "Lagos Cash/Transfer dispute",
+    "options": {
+      "A": "Tell the driver to search for the passenger and collect the money.",
+      "B": "Say: 'Hello. I understand this is frustrating. Let me look into this trip. We will verify the payment status and credit your driver wallet for the unpaid fare directly.'",
+      "C": "Deactivate the rider's account immediately without checking.",
+      "D": "Tell the driver that cash transfers are at their own risk."
+    },
+    "answer": "B",
+    "explanation": "Direct bank transfers are common in Nigeria when cash is low. If a transfer fails, support should verify the ride details and ensure the driver is compensated according to policy.",
+    "skill": "Driver Compensation"
+  },
+  {
+    "id": 70,
+    "question": "A passenger in Johannesburg says: 'My driver demanded that I pay extra cash for petrol because of the load shedding traffic.' What is the correct action?",
+    "scenario": "Load shedding cash extortion",
+    "options": {
+      "A": "Tell them to pay because load shedding is difficult for everyone.",
+      "B": "Apologize and explain that drivers must never demand extra cash. Refund the extra fee if they paid, and log a warning on the driver's profile.",
+      "C": "Tell them to report the driver to the traffic police.",
+      "D": "Ignore the report."
+    },
+    "answer": "B",
+    "explanation": "Load shedding in SA causes traffic delays, but drivers demanding extra cash violates policy. Empathize with the rider, refund, and report the driver.",
+    "skill": "Policy Violations"
+  },
+  {
+    "id": 71,
+    "question": "A customer in Nairobi named Lerato messages: 'I tried paying for the ride using M-Pesa but the transaction failed. The driver is refusing to let me leave the vehicle.' How do you handle this high-stakes situation?",
+    "scenario": "M-Pesa payment failure in Kenya",
+    "options": {
+      "A": "Tell the passenger to call the police themselves and close the chat.",
+      "B": "Say: 'I am sorry to hear this, Lerato. Please stay safe. I am contacting the driver immediately to resolve this and authorize the cash-out. Please tell the driver that Uber is resolving it now.'",
+      "C": "Tell them to wait for 24 hours for the transaction to clear.",
+      "D": "Explain that M-Pesa is a third-party app and not our problem."
+    },
+    "answer": "B",
+    "explanation": "Mobile money (like M-Pesa in Kenya) is a primary payment option. A failed transaction causing a dispute in the car requires immediate driver outreach and calming support.",
+    "skill": "High-Urgency Payment Resolution"
+  },
+  {
+    "id": 72,
+    "question": "A South African customer named Babajide writes: 'The driver took a route that felt very unsafe. I am shaken up.' How do you address their safety concern?",
+    "scenario": "Safety concern during route in SA",
+    "options": {
+      "A": "Explain that the driver was just avoiding traffic.",
+      "B": "Say: 'I am very sorry to hear this, Babajide. Your safety is our top priority. Let me review this route and pass this report directly to our dedicated Safety Team for investigation. Are you currently in a safe place?'",
+      "C": "Tell them to write a review of the route on Google Maps.",
+      "D": "Offer them a ₦4500 discount on their next ride and close the chat."
+    },
+    "answer": "B",
+    "explanation": "Safety concerns in South Africa must be treated with high empathy and immediate escalation to the Safety Team. Always check if the user is currently safe.",
+    "skill": "Safety Protocols"
+  },
+  {
+    "id": 73,
+    "question": "A Nigerian client named Chioma starts their message with: 'Good day. I hope this find you well. I want to report a fare issue.' What cultural element is important here?",
+    "scenario": "African greeting etiquette",
+    "options": {
+      "A": "Greetings are wastes of time; ignore it and go straight to the refund.",
+      "B": "African customers value warm, respectful greetings and relational check-ins. You should reply: 'Good day, Chioma. I hope you are doing well too. Let me help you with that fare issue right away.'",
+      "C": "Tell them not to send greetings because we have strict handling time metrics.",
+      "D": "Answer with a short 'Hi. What is the issue?'"
+    },
+    "answer": "B",
+    "explanation": "In many African cultures (e.g. Nigeria, Ghana), starting with a warm and polite greeting is expected. Mirroring this warmth builds rapport.",
+    "skill": "Relational Tone & Warmth"
+  },
+  {
+    "id": 74,
+    "question": "A driver in Lagos writes: 'The rider didn't have cash and said they would transfer the money, but I haven't received it yet.' How do you assist?",
+    "scenario": "Lagos Cash/Transfer dispute",
+    "options": {
+      "A": "Tell the driver to search for the passenger and collect the money.",
+      "B": "Say: 'Hello. I understand this is frustrating. Let me look into this trip. We will verify the payment status and credit your driver wallet for the unpaid fare directly.'",
+      "C": "Deactivate the rider's account immediately without checking.",
+      "D": "Tell the driver that cash transfers are at their own risk."
+    },
+    "answer": "B",
+    "explanation": "Direct bank transfers are common in Nigeria when cash is low. If a transfer fails, support should verify the ride details and ensure the driver is compensated according to policy.",
+    "skill": "Driver Compensation"
+  },
+  {
+    "id": 75,
+    "question": "A passenger in Johannesburg says: 'My driver demanded that I pay extra cash for petrol because of the load shedding traffic.' What is the correct action?",
+    "scenario": "Load shedding cash extortion",
+    "options": {
+      "A": "Tell them to pay because load shedding is difficult for everyone.",
+      "B": "Apologize and explain that drivers must never demand extra cash. Refund the extra fee if they paid, and log a warning on the driver's profile.",
+      "C": "Tell them to report the driver to the traffic police.",
+      "D": "Ignore the report."
+    },
+    "answer": "B",
+    "explanation": "Load shedding in SA causes traffic delays, but drivers demanding extra cash violates policy. Empathize with the rider, refund, and report the driver.",
+    "skill": "Policy Violations"
+  },
+  {
+    "id": 76,
+    "question": "A customer in Nairobi named Babajide messages: 'I tried paying for the ride using M-Pesa but the transaction failed. The driver is refusing to let me leave the vehicle.' How do you handle this high-stakes situation?",
+    "scenario": "M-Pesa payment failure in Kenya",
+    "options": {
+      "A": "Tell the passenger to call the police themselves and close the chat.",
+      "B": "Say: 'I am sorry to hear this, Babajide. Please stay safe. I am contacting the driver immediately to resolve this and authorize the cash-out. Please tell the driver that Uber is resolving it now.'",
+      "C": "Tell them to wait for 24 hours for the transaction to clear.",
+      "D": "Explain that M-Pesa is a third-party app and not our problem."
+    },
+    "answer": "B",
+    "explanation": "Mobile money (like M-Pesa in Kenya) is a primary payment option. A failed transaction causing a dispute in the car requires immediate driver outreach and calming support.",
+    "skill": "High-Urgency Payment Resolution"
+  },
+  {
+    "id": 77,
+    "question": "A South African customer named Lindiwe writes: 'The driver took a route that felt very unsafe. I am shaken up.' How do you address their safety concern?",
+    "scenario": "Safety concern during route in SA",
+    "options": {
+      "A": "Explain that the driver was just avoiding traffic.",
+      "B": "Say: 'I am very sorry to hear this, Lindiwe. Your safety is our top priority. Let me review this route and pass this report directly to our dedicated Safety Team for investigation. Are you currently in a safe place?'",
+      "C": "Tell them to write a review of the route on Google Maps.",
+      "D": "Offer them a KSh 500 discount on their next ride and close the chat."
+    },
+    "answer": "B",
+    "explanation": "Safety concerns in South Africa must be treated with high empathy and immediate escalation to the Safety Team. Always check if the user is currently safe.",
+    "skill": "Safety Protocols"
+  },
+  {
+    "id": 78,
+    "question": "A Nigerian client named Chidi starts their message with: 'Good day. I hope this find you well. I want to report a fare issue.' What cultural element is important here?",
+    "scenario": "African greeting etiquette",
+    "options": {
+      "A": "Greetings are wastes of time; ignore it and go straight to the refund.",
+      "B": "African customers value warm, respectful greetings and relational check-ins. You should reply: 'Good day, Chidi. I hope you are doing well too. Let me help you with that fare issue right away.'",
+      "C": "Tell them not to send greetings because we have strict handling time metrics.",
+      "D": "Answer with a short 'Hi. What is the issue?'"
+    },
+    "answer": "B",
+    "explanation": "In many African cultures (e.g. Nigeria, Ghana), starting with a warm and polite greeting is expected. Mirroring this warmth builds rapport.",
+    "skill": "Relational Tone & Warmth"
+  },
+  {
+    "id": 79,
+    "question": "A driver in Lagos writes: 'The rider didn't have cash and said they would transfer the money, but I haven't received it yet.' How do you assist?",
+    "scenario": "Lagos Cash/Transfer dispute",
+    "options": {
+      "A": "Tell the driver to search for the passenger and collect the money.",
+      "B": "Say: 'Hello. I understand this is frustrating. Let me look into this trip. We will verify the payment status and credit your driver wallet for the unpaid fare directly.'",
+      "C": "Deactivate the rider's account immediately without checking.",
+      "D": "Tell the driver that cash transfers are at their own risk."
+    },
+    "answer": "B",
+    "explanation": "Direct bank transfers are common in Nigeria when cash is low. If a transfer fails, support should verify the ride details and ensure the driver is compensated according to policy.",
+    "skill": "Driver Compensation"
+  },
+  {
+    "id": 80,
+    "question": "A passenger in Johannesburg says: 'My driver demanded that I pay extra cash for petrol because of the load shedding traffic.' What is the correct action?",
+    "scenario": "Load shedding cash extortion",
+    "options": {
+      "A": "Tell them to pay because load shedding is difficult for everyone.",
+      "B": "Apologize and explain that drivers must never demand extra cash. Refund the extra fee if they paid, and log a warning on the driver's profile.",
+      "C": "Tell them to report the driver to the traffic police.",
+      "D": "Ignore the report."
+    },
+    "answer": "B",
+    "explanation": "Load shedding in SA causes traffic delays, but drivers demanding extra cash violates policy. Empathize with the rider, refund, and report the driver.",
+    "skill": "Policy Violations"
+  },
+  {
+    "id": 81,
+    "question": "A customer in Nairobi named Jomo messages: 'I tried paying for the ride using M-Pesa but the transaction failed. The driver is refusing to let me leave the vehicle.' How do you handle this high-stakes situation?",
+    "scenario": "M-Pesa payment failure in Kenya",
+    "options": {
+      "A": "Tell the passenger to call the police themselves and close the chat.",
+      "B": "Say: 'I am sorry to hear this, Jomo. Please stay safe. I am contacting the driver immediately to resolve this and authorize the cash-out. Please tell the driver that Uber is resolving it now.'",
+      "C": "Tell them to wait for 24 hours for the transaction to clear.",
+      "D": "Explain that M-Pesa is a third-party app and not our problem."
+    },
+    "answer": "B",
+    "explanation": "Mobile money (like M-Pesa in Kenya) is a primary payment option. A failed transaction causing a dispute in the car requires immediate driver outreach and calming support.",
+    "skill": "High-Urgency Payment Resolution"
+  },
+  {
+    "id": 82,
+    "question": "A South African customer named Nnamdi writes: 'The driver took a route that felt very unsafe. I am shaken up.' How do you address their safety concern?",
+    "scenario": "Safety concern during route in SA",
+    "options": {
+      "A": "Explain that the driver was just avoiding traffic.",
+      "B": "Say: 'I am very sorry to hear this, Nnamdi. Your safety is our top priority. Let me review this route and pass this report directly to our dedicated Safety Team for investigation. Are you currently in a safe place?'",
+      "C": "Tell them to write a review of the route on Google Maps.",
+      "D": "Offer them a KSh 500 discount on their next ride and close the chat."
+    },
+    "answer": "B",
+    "explanation": "Safety concerns in South Africa must be treated with high empathy and immediate escalation to the Safety Team. Always check if the user is currently safe.",
+    "skill": "Safety Protocols"
+  },
+  {
+    "id": 83,
+    "question": "A Nigerian client named Kehinde starts their message with: 'Good day. I hope this find you well. I want to report a fare issue.' What cultural element is important here?",
+    "scenario": "African greeting etiquette",
+    "options": {
+      "A": "Greetings are wastes of time; ignore it and go straight to the refund.",
+      "B": "African customers value warm, respectful greetings and relational check-ins. You should reply: 'Good day, Kehinde. I hope you are doing well too. Let me help you with that fare issue right away.'",
+      "C": "Tell them not to send greetings because we have strict handling time metrics.",
+      "D": "Answer with a short 'Hi. What is the issue?'"
+    },
+    "answer": "B",
+    "explanation": "In many African cultures (e.g. Nigeria, Ghana), starting with a warm and polite greeting is expected. Mirroring this warmth builds rapport.",
+    "skill": "Relational Tone & Warmth"
+  },
+  {
+    "id": 84,
+    "question": "A driver in Lagos writes: 'The rider didn't have cash and said they would transfer the money, but I haven't received it yet.' How do you assist?",
+    "scenario": "Lagos Cash/Transfer dispute",
+    "options": {
+      "A": "Tell the driver to search for the passenger and collect the money.",
+      "B": "Say: 'Hello. I understand this is frustrating. Let me look into this trip. We will verify the payment status and credit your driver wallet for the unpaid fare directly.'",
+      "C": "Deactivate the rider's account immediately without checking.",
+      "D": "Tell the driver that cash transfers are at their own risk."
+    },
+    "answer": "B",
+    "explanation": "Direct bank transfers are common in Nigeria when cash is low. If a transfer fails, support should verify the ride details and ensure the driver is compensated according to policy.",
+    "skill": "Driver Compensation"
+  },
+  {
+    "id": 85,
+    "question": "A passenger in Johannesburg says: 'My driver demanded that I pay extra cash for petrol because of the load shedding traffic.' What is the correct action?",
+    "scenario": "Load shedding cash extortion",
+    "options": {
+      "A": "Tell them to pay because load shedding is difficult for everyone.",
+      "B": "Apologize and explain that drivers must never demand extra cash. Refund the extra fee if they paid, and log a warning on the driver's profile.",
+      "C": "Tell them to report the driver to the traffic police.",
+      "D": "Ignore the report."
+    },
+    "answer": "B",
+    "explanation": "Load shedding in SA causes traffic delays, but drivers demanding extra cash violates policy. Empathize with the rider, refund, and report the driver.",
+    "skill": "Policy Violations"
+  },
+  {
+    "id": 86,
+    "question": "A customer in Nairobi named Fatoumata messages: 'I tried paying for the ride using M-Pesa but the transaction failed. The driver is refusing to let me leave the vehicle.' How do you handle this high-stakes situation?",
+    "scenario": "M-Pesa payment failure in Kenya",
+    "options": {
+      "A": "Tell the passenger to call the police themselves and close the chat.",
+      "B": "Say: 'I am sorry to hear this, Fatoumata. Please stay safe. I am contacting the driver immediately to resolve this and authorize the cash-out. Please tell the driver that Uber is resolving it now.'",
+      "C": "Tell them to wait for 24 hours for the transaction to clear.",
+      "D": "Explain that M-Pesa is a third-party app and not our problem."
+    },
+    "answer": "B",
+    "explanation": "Mobile money (like M-Pesa in Kenya) is a primary payment option. A failed transaction causing a dispute in the car requires immediate driver outreach and calming support.",
+    "skill": "High-Urgency Payment Resolution"
+  },
+  {
+    "id": 87,
+    "question": "A South African customer named Fatoumata writes: 'The driver took a route that felt very unsafe. I am shaken up.' How do you address their safety concern?",
+    "scenario": "Safety concern during route in SA",
+    "options": {
+      "A": "Explain that the driver was just avoiding traffic.",
+      "B": "Say: 'I am very sorry to hear this, Fatoumata. Your safety is our top priority. Let me review this route and pass this report directly to our dedicated Safety Team for investigation. Are you currently in a safe place?'",
+      "C": "Tell them to write a review of the route on Google Maps.",
+      "D": "Offer them a KSh 500 discount on their next ride and close the chat."
+    },
+    "answer": "B",
+    "explanation": "Safety concerns in South Africa must be treated with high empathy and immediate escalation to the Safety Team. Always check if the user is currently safe.",
+    "skill": "Safety Protocols"
+  },
+  {
+    "id": 88,
+    "question": "A Nigerian client named Eshe starts their message with: 'Good day. I hope this find you well. I want to report a fare issue.' What cultural element is important here?",
+    "scenario": "African greeting etiquette",
+    "options": {
+      "A": "Greetings are wastes of time; ignore it and go straight to the refund.",
+      "B": "African customers value warm, respectful greetings and relational check-ins. You should reply: 'Good day, Eshe. I hope you are doing well too. Let me help you with that fare issue right away.'",
+      "C": "Tell them not to send greetings because we have strict handling time metrics.",
+      "D": "Answer with a short 'Hi. What is the issue?'"
+    },
+    "answer": "B",
+    "explanation": "In many African cultures (e.g. Nigeria, Ghana), starting with a warm and polite greeting is expected. Mirroring this warmth builds rapport.",
+    "skill": "Relational Tone & Warmth"
+  },
+  {
+    "id": 89,
+    "question": "A driver in Lagos writes: 'The rider didn't have cash and said they would transfer the money, but I haven't received it yet.' How do you assist?",
+    "scenario": "Lagos Cash/Transfer dispute",
+    "options": {
+      "A": "Tell the driver to search for the passenger and collect the money.",
+      "B": "Say: 'Hello. I understand this is frustrating. Let me look into this trip. We will verify the payment status and credit your driver wallet for the unpaid fare directly.'",
+      "C": "Deactivate the rider's account immediately without checking.",
+      "D": "Tell the driver that cash transfers are at their own risk."
+    },
+    "answer": "B",
+    "explanation": "Direct bank transfers are common in Nigeria when cash is low. If a transfer fails, support should verify the ride details and ensure the driver is compensated according to policy.",
+    "skill": "Driver Compensation"
+  },
+  {
+    "id": 90,
+    "question": "A passenger in Johannesburg says: 'My driver demanded that I pay extra cash for petrol because of the load shedding traffic.' What is the correct action?",
+    "scenario": "Load shedding cash extortion",
+    "options": {
+      "A": "Tell them to pay because load shedding is difficult for everyone.",
+      "B": "Apologize and explain that drivers must never demand extra cash. Refund the extra fee if they paid, and log a warning on the driver's profile.",
+      "C": "Tell them to report the driver to the traffic police.",
+      "D": "Ignore the report."
+    },
+    "answer": "B",
+    "explanation": "Load shedding in SA causes traffic delays, but drivers demanding extra cash violates policy. Empathize with the rider, refund, and report the driver.",
+    "skill": "Policy Violations"
+  },
+  {
+    "id": 91,
+    "question": "A customer in Nairobi named Jomo messages: 'I tried paying for the ride using M-Pesa but the transaction failed. The driver is refusing to let me leave the vehicle.' How do you handle this high-stakes situation?",
+    "scenario": "M-Pesa payment failure in Kenya",
+    "options": {
+      "A": "Tell the passenger to call the police themselves and close the chat.",
+      "B": "Say: 'I am sorry to hear this, Jomo. Please stay safe. I am contacting the driver immediately to resolve this and authorize the cash-out. Please tell the driver that Uber is resolving it now.'",
+      "C": "Tell them to wait for 24 hours for the transaction to clear.",
+      "D": "Explain that M-Pesa is a third-party app and not our problem."
+    },
+    "answer": "B",
+    "explanation": "Mobile money (like M-Pesa in Kenya) is a primary payment option. A failed transaction causing a dispute in the car requires immediate driver outreach and calming support.",
+    "skill": "High-Urgency Payment Resolution"
+  },
+  {
+    "id": 92,
+    "question": "A South African customer named Eshe writes: 'The driver took a route that felt very unsafe. I am shaken up.' How do you address their safety concern?",
+    "scenario": "Safety concern during route in SA",
+    "options": {
+      "A": "Explain that the driver was just avoiding traffic.",
+      "B": "Say: 'I am very sorry to hear this, Eshe. Your safety is our top priority. Let me review this route and pass this report directly to our dedicated Safety Team for investigation. Are you currently in a safe place?'",
+      "C": "Tell them to write a review of the route on Google Maps.",
+      "D": "Offer them a KSh 1200 discount on their next ride and close the chat."
+    },
+    "answer": "B",
+    "explanation": "Safety concerns in South Africa must be treated with high empathy and immediate escalation to the Safety Team. Always check if the user is currently safe.",
+    "skill": "Safety Protocols"
+  },
+  {
+    "id": 93,
+    "question": "A Nigerian client named Babajide starts their message with: 'Good day. I hope this find you well. I want to report a fare issue.' What cultural element is important here?",
+    "scenario": "African greeting etiquette",
+    "options": {
+      "A": "Greetings are wastes of time; ignore it and go straight to the refund.",
+      "B": "African customers value warm, respectful greetings and relational check-ins. You should reply: 'Good day, Babajide. I hope you are doing well too. Let me help you with that fare issue right away.'",
+      "C": "Tell them not to send greetings because we have strict handling time metrics.",
+      "D": "Answer with a short 'Hi. What is the issue?'"
+    },
+    "answer": "B",
+    "explanation": "In many African cultures (e.g. Nigeria, Ghana), starting with a warm and polite greeting is expected. Mirroring this warmth builds rapport.",
+    "skill": "Relational Tone & Warmth"
+  },
+  {
+    "id": 94,
+    "question": "A driver in Lagos writes: 'The rider didn't have cash and said they would transfer the money, but I haven't received it yet.' How do you assist?",
+    "scenario": "Lagos Cash/Transfer dispute",
+    "options": {
+      "A": "Tell the driver to search for the passenger and collect the money.",
+      "B": "Say: 'Hello. I understand this is frustrating. Let me look into this trip. We will verify the payment status and credit your driver wallet for the unpaid fare directly.'",
+      "C": "Deactivate the rider's account immediately without checking.",
+      "D": "Tell the driver that cash transfers are at their own risk."
+    },
+    "answer": "B",
+    "explanation": "Direct bank transfers are common in Nigeria when cash is low. If a transfer fails, support should verify the ride details and ensure the driver is compensated according to policy.",
+    "skill": "Driver Compensation"
+  },
+  {
+    "id": 95,
+    "question": "A passenger in Johannesburg says: 'My driver demanded that I pay extra cash for petrol because of the load shedding traffic.' What is the correct action?",
+    "scenario": "Load shedding cash extortion",
+    "options": {
+      "A": "Tell them to pay because load shedding is difficult for everyone.",
+      "B": "Apologize and explain that drivers must never demand extra cash. Refund the extra fee if they paid, and log a warning on the driver's profile.",
+      "C": "Tell them to report the driver to the traffic police.",
+      "D": "Ignore the report."
+    },
+    "answer": "B",
+    "explanation": "Load shedding in SA causes traffic delays, but drivers demanding extra cash violates policy. Empathize with the rider, refund, and report the driver.",
+    "skill": "Policy Violations"
+  },
+  {
+    "id": 96,
+    "question": "A customer in Nairobi named Lerato messages: 'I tried paying for the ride using M-Pesa but the transaction failed. The driver is refusing to let me leave the vehicle.' How do you handle this high-stakes situation?",
+    "scenario": "M-Pesa payment failure in Kenya",
+    "options": {
+      "A": "Tell the passenger to call the police themselves and close the chat.",
+      "B": "Say: 'I am sorry to hear this, Lerato. Please stay safe. I am contacting the driver immediately to resolve this and authorize the cash-out. Please tell the driver that Uber is resolving it now.'",
+      "C": "Tell them to wait for 24 hours for the transaction to clear.",
+      "D": "Explain that M-Pesa is a third-party app and not our problem."
+    },
+    "answer": "B",
+    "explanation": "Mobile money (like M-Pesa in Kenya) is a primary payment option. A failed transaction causing a dispute in the car requires immediate driver outreach and calming support.",
+    "skill": "High-Urgency Payment Resolution"
+  },
+  {
+    "id": 97,
+    "question": "A South African customer named Jomo writes: 'The driver took a route that felt very unsafe. I am shaken up.' How do you address their safety concern?",
+    "scenario": "Safety concern during route in SA",
+    "options": {
+      "A": "Explain that the driver was just avoiding traffic.",
+      "B": "Say: 'I am very sorry to hear this, Jomo. Your safety is our top priority. Let me review this route and pass this report directly to our dedicated Safety Team for investigation. Are you currently in a safe place?'",
+      "C": "Tell them to write a review of the route on Google Maps.",
+      "D": "Offer them a KSh 1200 discount on their next ride and close the chat."
+    },
+    "answer": "B",
+    "explanation": "Safety concerns in South Africa must be treated with high empathy and immediate escalation to the Safety Team. Always check if the user is currently safe.",
+    "skill": "Safety Protocols"
+  },
+  {
+    "id": 98,
+    "question": "A Nigerian client named Fatoumata starts their message with: 'Good day. I hope this find you well. I want to report a fare issue.' What cultural element is important here?",
+    "scenario": "African greeting etiquette",
+    "options": {
+      "A": "Greetings are wastes of time; ignore it and go straight to the refund.",
+      "B": "African customers value warm, respectful greetings and relational check-ins. You should reply: 'Good day, Fatoumata. I hope you are doing well too. Let me help you with that fare issue right away.'",
+      "C": "Tell them not to send greetings because we have strict handling time metrics.",
+      "D": "Answer with a short 'Hi. What is the issue?'"
+    },
+    "answer": "B",
+    "explanation": "In many African cultures (e.g. Nigeria, Ghana), starting with a warm and polite greeting is expected. Mirroring this warmth builds rapport.",
+    "skill": "Relational Tone & Warmth"
+  },
+  {
+    "id": 99,
+    "question": "A driver in Lagos writes: 'The rider didn't have cash and said they would transfer the money, but I haven't received it yet.' How do you assist?",
+    "scenario": "Lagos Cash/Transfer dispute",
+    "options": {
+      "A": "Tell the driver to search for the passenger and collect the money.",
+      "B": "Say: 'Hello. I understand this is frustrating. Let me look into this trip. We will verify the payment status and credit your driver wallet for the unpaid fare directly.'",
+      "C": "Deactivate the rider's account immediately without checking.",
+      "D": "Tell the driver that cash transfers are at their own risk."
+    },
+    "answer": "B",
+    "explanation": "Direct bank transfers are common in Nigeria when cash is low. If a transfer fails, support should verify the ride details and ensure the driver is compensated according to policy.",
+    "skill": "Driver Compensation"
+  },
+  {
+    "id": 100,
+    "question": "A passenger in Johannesburg says: 'My driver demanded that I pay extra cash for petrol because of the load shedding traffic.' What is the correct action?",
+    "scenario": "Load shedding cash extortion",
+    "options": {
+      "A": "Tell them to pay because load shedding is difficult for everyone.",
+      "B": "Apologize and explain that drivers must never demand extra cash. Refund the extra fee if they paid, and log a warning on the driver's profile.",
+      "C": "Tell them to report the driver to the traffic police.",
+      "D": "Ignore the report."
+    },
+    "answer": "B",
+    "explanation": "Load shedding in SA causes traffic delays, but drivers demanding extra cash violates policy. Empathize with the rider, refund, and report the driver.",
+    "skill": "Policy Violations"
+  },
+  {
+    "id": 101,
+    "question": "A customer in Nairobi named Chioma messages: 'I tried paying for the ride using M-Pesa but the transaction failed. The driver is refusing to let me leave the vehicle.' How do you handle this high-stakes situation?",
+    "scenario": "M-Pesa payment failure in Kenya",
+    "options": {
+      "A": "Tell the passenger to call the police themselves and close the chat.",
+      "B": "Say: 'I am sorry to hear this, Chioma. Please stay safe. I am contacting the driver immediately to resolve this and authorize the cash-out. Please tell the driver that Uber is resolving it now.'",
+      "C": "Tell them to wait for 24 hours for the transaction to clear.",
+      "D": "Explain that M-Pesa is a third-party app and not our problem."
+    },
+    "answer": "B",
+    "explanation": "Mobile money (like M-Pesa in Kenya) is a primary payment option. A failed transaction causing a dispute in the car requires immediate driver outreach and calming support.",
+    "skill": "High-Urgency Payment Resolution"
+  },
+  {
+    "id": 102,
+    "question": "A South African customer named Chioma writes: 'The driver took a route that felt very unsafe. I am shaken up.' How do you address their safety concern?",
+    "scenario": "Safety concern during route in SA",
+    "options": {
+      "A": "Explain that the driver was just avoiding traffic.",
+      "B": "Say: 'I am very sorry to hear this, Chioma. Your safety is our top priority. Let me review this route and pass this report directly to our dedicated Safety Team for investigation. Are you currently in a safe place?'",
+      "C": "Tell them to write a review of the route on Google Maps.",
+      "D": "Offer them a KSh 1200 discount on their next ride and close the chat."
+    },
+    "answer": "B",
+    "explanation": "Safety concerns in South Africa must be treated with high empathy and immediate escalation to the Safety Team. Always check if the user is currently safe.",
+    "skill": "Safety Protocols"
+  },
+  {
+    "id": 103,
+    "question": "A Nigerian client named Zola starts their message with: 'Good day. I hope this find you well. I want to report a fare issue.' What cultural element is important here?",
+    "scenario": "African greeting etiquette",
+    "options": {
+      "A": "Greetings are wastes of time; ignore it and go straight to the refund.",
+      "B": "African customers value warm, respectful greetings and relational check-ins. You should reply: 'Good day, Zola. I hope you are doing well too. Let me help you with that fare issue right away.'",
+      "C": "Tell them not to send greetings because we have strict handling time metrics.",
+      "D": "Answer with a short 'Hi. What is the issue?'"
+    },
+    "answer": "B",
+    "explanation": "In many African cultures (e.g. Nigeria, Ghana), starting with a warm and polite greeting is expected. Mirroring this warmth builds rapport.",
+    "skill": "Relational Tone & Warmth"
+  },
+  {
+    "id": 104,
+    "question": "A driver in Lagos writes: 'The rider didn't have cash and said they would transfer the money, but I haven't received it yet.' How do you assist?",
+    "scenario": "Lagos Cash/Transfer dispute",
+    "options": {
+      "A": "Tell the driver to search for the passenger and collect the money.",
+      "B": "Say: 'Hello. I understand this is frustrating. Let me look into this trip. We will verify the payment status and credit your driver wallet for the unpaid fare directly.'",
+      "C": "Deactivate the rider's account immediately without checking.",
+      "D": "Tell the driver that cash transfers are at their own risk."
+    },
+    "answer": "B",
+    "explanation": "Direct bank transfers are common in Nigeria when cash is low. If a transfer fails, support should verify the ride details and ensure the driver is compensated according to policy.",
+    "skill": "Driver Compensation"
+  },
+  {
+    "id": 105,
+    "question": "A passenger in Johannesburg says: 'My driver demanded that I pay extra cash for petrol because of the load shedding traffic.' What is the correct action?",
+    "scenario": "Load shedding cash extortion",
+    "options": {
+      "A": "Tell them to pay because load shedding is difficult for everyone.",
+      "B": "Apologize and explain that drivers must never demand extra cash. Refund the extra fee if they paid, and log a warning on the driver's profile.",
+      "C": "Tell them to report the driver to the traffic police.",
+      "D": "Ignore the report."
+    },
+    "answer": "B",
+    "explanation": "Load shedding in SA causes traffic delays, but drivers demanding extra cash violates policy. Empathize with the rider, refund, and report the driver.",
+    "skill": "Policy Violations"
+  },
+  {
+    "id": 106,
+    "question": "A customer in Nairobi named Tariq messages: 'I tried paying for the ride using M-Pesa but the transaction failed. The driver is refusing to let me leave the vehicle.' How do you handle this high-stakes situation?",
+    "scenario": "M-Pesa payment failure in Kenya",
+    "options": {
+      "A": "Tell the passenger to call the police themselves and close the chat.",
+      "B": "Say: 'I am sorry to hear this, Tariq. Please stay safe. I am contacting the driver immediately to resolve this and authorize the cash-out. Please tell the driver that Uber is resolving it now.'",
+      "C": "Tell them to wait for 24 hours for the transaction to clear.",
+      "D": "Explain that M-Pesa is a third-party app and not our problem."
+    },
+    "answer": "B",
+    "explanation": "Mobile money (like M-Pesa in Kenya) is a primary payment option. A failed transaction causing a dispute in the car requires immediate driver outreach and calming support.",
+    "skill": "High-Urgency Payment Resolution"
+  },
+  {
+    "id": 107,
+    "question": "A South African customer named Kofi writes: 'The driver took a route that felt very unsafe. I am shaken up.' How do you address their safety concern?",
+    "scenario": "Safety concern during route in SA",
+    "options": {
+      "A": "Explain that the driver was just avoiding traffic.",
+      "B": "Say: 'I am very sorry to hear this, Kofi. Your safety is our top priority. Let me review this route and pass this report directly to our dedicated Safety Team for investigation. Are you currently in a safe place?'",
+      "C": "Tell them to write a review of the route on Google Maps.",
+      "D": "Offer them a KSh 1200 discount on their next ride and close the chat."
+    },
+    "answer": "B",
+    "explanation": "Safety concerns in South Africa must be treated with high empathy and immediate escalation to the Safety Team. Always check if the user is currently safe.",
+    "skill": "Safety Protocols"
+  },
+  {
+    "id": 108,
+    "question": "A Nigerian client named Zola starts their message with: 'Good day. I hope this find you well. I want to report a fare issue.' What cultural element is important here?",
+    "scenario": "African greeting etiquette",
+    "options": {
+      "A": "Greetings are wastes of time; ignore it and go straight to the refund.",
+      "B": "African customers value warm, respectful greetings and relational check-ins. You should reply: 'Good day, Zola. I hope you are doing well too. Let me help you with that fare issue right away.'",
+      "C": "Tell them not to send greetings because we have strict handling time metrics.",
+      "D": "Answer with a short 'Hi. What is the issue?'"
+    },
+    "answer": "B",
+    "explanation": "In many African cultures (e.g. Nigeria, Ghana), starting with a warm and polite greeting is expected. Mirroring this warmth builds rapport.",
+    "skill": "Relational Tone & Warmth"
+  },
+  {
+    "id": 109,
+    "question": "A driver in Lagos writes: 'The rider didn't have cash and said they would transfer the money, but I haven't received it yet.' How do you assist?",
+    "scenario": "Lagos Cash/Transfer dispute",
+    "options": {
+      "A": "Tell the driver to search for the passenger and collect the money.",
+      "B": "Say: 'Hello. I understand this is frustrating. Let me look into this trip. We will verify the payment status and credit your driver wallet for the unpaid fare directly.'",
+      "C": "Deactivate the rider's account immediately without checking.",
+      "D": "Tell the driver that cash transfers are at their own risk."
+    },
+    "answer": "B",
+    "explanation": "Direct bank transfers are common in Nigeria when cash is low. If a transfer fails, support should verify the ride details and ensure the driver is compensated according to policy.",
+    "skill": "Driver Compensation"
+  },
+  {
+    "id": 110,
+    "question": "A passenger in Johannesburg says: 'My driver demanded that I pay extra cash for petrol because of the load shedding traffic.' What is the correct action?",
+    "scenario": "Load shedding cash extortion",
+    "options": {
+      "A": "Tell them to pay because load shedding is difficult for everyone.",
+      "B": "Apologize and explain that drivers must never demand extra cash. Refund the extra fee if they paid, and log a warning on the driver's profile.",
+      "C": "Tell them to report the driver to the traffic police.",
+      "D": "Ignore the report."
+    },
+    "answer": "B",
+    "explanation": "Load shedding in SA causes traffic delays, but drivers demanding extra cash violates policy. Empathize with the rider, refund, and report the driver.",
+    "skill": "Policy Violations"
+  },
+  {
+    "id": 111,
+    "question": "A customer in Nairobi named Babajide messages: 'I tried paying for the ride using M-Pesa but the transaction failed. The driver is refusing to let me leave the vehicle.' How do you handle this high-stakes situation?",
+    "scenario": "M-Pesa payment failure in Kenya",
+    "options": {
+      "A": "Tell the passenger to call the police themselves and close the chat.",
+      "B": "Say: 'I am sorry to hear this, Babajide. Please stay safe. I am contacting the driver immediately to resolve this and authorize the cash-out. Please tell the driver that Uber is resolving it now.'",
+      "C": "Tell them to wait for 24 hours for the transaction to clear.",
+      "D": "Explain that M-Pesa is a third-party app and not our problem."
+    },
+    "answer": "B",
+    "explanation": "Mobile money (like M-Pesa in Kenya) is a primary payment option. A failed transaction causing a dispute in the car requires immediate driver outreach and calming support.",
+    "skill": "High-Urgency Payment Resolution"
+  },
+  {
+    "id": 112,
+    "question": "A South African customer named Tariq writes: 'The driver took a route that felt very unsafe. I am shaken up.' How do you address their safety concern?",
+    "scenario": "Safety concern during route in SA",
+    "options": {
+      "A": "Explain that the driver was just avoiding traffic.",
+      "B": "Say: 'I am very sorry to hear this, Tariq. Your safety is our top priority. Let me review this route and pass this report directly to our dedicated Safety Team for investigation. Are you currently in a safe place?'",
+      "C": "Tell them to write a review of the route on Google Maps.",
+      "D": "Offer them a ₦4500 discount on their next ride and close the chat."
+    },
+    "answer": "B",
+    "explanation": "Safety concerns in South Africa must be treated with high empathy and immediate escalation to the Safety Team. Always check if the user is currently safe.",
+    "skill": "Safety Protocols"
+  },
+  {
+    "id": 113,
+    "question": "A Nigerian client named Sipho starts their message with: 'Good day. I hope this find you well. I want to report a fare issue.' What cultural element is important here?",
+    "scenario": "African greeting etiquette",
+    "options": {
+      "A": "Greetings are wastes of time; ignore it and go straight to the refund.",
+      "B": "African customers value warm, respectful greetings and relational check-ins. You should reply: 'Good day, Sipho. I hope you are doing well too. Let me help you with that fare issue right away.'",
+      "C": "Tell them not to send greetings because we have strict handling time metrics.",
+      "D": "Answer with a short 'Hi. What is the issue?'"
+    },
+    "answer": "B",
+    "explanation": "In many African cultures (e.g. Nigeria, Ghana), starting with a warm and polite greeting is expected. Mirroring this warmth builds rapport.",
+    "skill": "Relational Tone & Warmth"
+  },
+  {
+    "id": 114,
+    "question": "A driver in Lagos writes: 'The rider didn't have cash and said they would transfer the money, but I haven't received it yet.' How do you assist?",
+    "scenario": "Lagos Cash/Transfer dispute",
+    "options": {
+      "A": "Tell the driver to search for the passenger and collect the money.",
+      "B": "Say: 'Hello. I understand this is frustrating. Let me look into this trip. We will verify the payment status and credit your driver wallet for the unpaid fare directly.'",
+      "C": "Deactivate the rider's account immediately without checking.",
+      "D": "Tell the driver that cash transfers are at their own risk."
+    },
+    "answer": "B",
+    "explanation": "Direct bank transfers are common in Nigeria when cash is low. If a transfer fails, support should verify the ride details and ensure the driver is compensated according to policy.",
+    "skill": "Driver Compensation"
+  },
+  {
+    "id": 115,
+    "question": "A passenger in Johannesburg says: 'My driver demanded that I pay extra cash for petrol because of the load shedding traffic.' What is the correct action?",
+    "scenario": "Load shedding cash extortion",
+    "options": {
+      "A": "Tell them to pay because load shedding is difficult for everyone.",
+      "B": "Apologize and explain that drivers must never demand extra cash. Refund the extra fee if they paid, and log a warning on the driver's profile.",
+      "C": "Tell them to report the driver to the traffic police.",
+      "D": "Ignore the report."
+    },
+    "answer": "B",
+    "explanation": "Load shedding in SA causes traffic delays, but drivers demanding extra cash violates policy. Empathize with the rider, refund, and report the driver.",
+    "skill": "Policy Violations"
+  },
+  {
+    "id": 116,
+    "question": "A customer in Nairobi named Jomo messages: 'I tried paying for the ride using M-Pesa but the transaction failed. The driver is refusing to let me leave the vehicle.' How do you handle this high-stakes situation?",
+    "scenario": "M-Pesa payment failure in Kenya",
+    "options": {
+      "A": "Tell the passenger to call the police themselves and close the chat.",
+      "B": "Say: 'I am sorry to hear this, Jomo. Please stay safe. I am contacting the driver immediately to resolve this and authorize the cash-out. Please tell the driver that Uber is resolving it now.'",
+      "C": "Tell them to wait for 24 hours for the transaction to clear.",
+      "D": "Explain that M-Pesa is a third-party app and not our problem."
+    },
+    "answer": "B",
+    "explanation": "Mobile money (like M-Pesa in Kenya) is a primary payment option. A failed transaction causing a dispute in the car requires immediate driver outreach and calming support.",
+    "skill": "High-Urgency Payment Resolution"
+  },
+  {
+    "id": 117,
+    "question": "A South African customer named Lindiwe writes: 'The driver took a route that felt very unsafe. I am shaken up.' How do you address their safety concern?",
+    "scenario": "Safety concern during route in SA",
+    "options": {
+      "A": "Explain that the driver was just avoiding traffic.",
+      "B": "Say: 'I am very sorry to hear this, Lindiwe. Your safety is our top priority. Let me review this route and pass this report directly to our dedicated Safety Team for investigation. Are you currently in a safe place?'",
+      "C": "Tell them to write a review of the route on Google Maps.",
+      "D": "Offer them a ₦8000 discount on their next ride and close the chat."
+    },
+    "answer": "B",
+    "explanation": "Safety concerns in South Africa must be treated with high empathy and immediate escalation to the Safety Team. Always check if the user is currently safe.",
+    "skill": "Safety Protocols"
+  },
+  {
+    "id": 118,
+    "question": "A Nigerian client named Zola starts their message with: 'Good day. I hope this find you well. I want to report a fare issue.' What cultural element is important here?",
+    "scenario": "African greeting etiquette",
+    "options": {
+      "A": "Greetings are wastes of time; ignore it and go straight to the refund.",
+      "B": "African customers value warm, respectful greetings and relational check-ins. You should reply: 'Good day, Zola. I hope you are doing well too. Let me help you with that fare issue right away.'",
+      "C": "Tell them not to send greetings because we have strict handling time metrics.",
+      "D": "Answer with a short 'Hi. What is the issue?'"
+    },
+    "answer": "B",
+    "explanation": "In many African cultures (e.g. Nigeria, Ghana), starting with a warm and polite greeting is expected. Mirroring this warmth builds rapport.",
+    "skill": "Relational Tone & Warmth"
+  },
+  {
+    "id": 119,
+    "question": "A driver in Lagos writes: 'The rider didn't have cash and said they would transfer the money, but I haven't received it yet.' How do you assist?",
+    "scenario": "Lagos Cash/Transfer dispute",
+    "options": {
+      "A": "Tell the driver to search for the passenger and collect the money.",
+      "B": "Say: 'Hello. I understand this is frustrating. Let me look into this trip. We will verify the payment status and credit your driver wallet for the unpaid fare directly.'",
+      "C": "Deactivate the rider's account immediately without checking.",
+      "D": "Tell the driver that cash transfers are at their own risk."
+    },
+    "answer": "B",
+    "explanation": "Direct bank transfers are common in Nigeria when cash is low. If a transfer fails, support should verify the ride details and ensure the driver is compensated according to policy.",
+    "skill": "Driver Compensation"
+  },
+  {
+    "id": 120,
+    "question": "A passenger in Johannesburg says: 'My driver demanded that I pay extra cash for petrol because of the load shedding traffic.' What is the correct action?",
+    "scenario": "Load shedding cash extortion",
+    "options": {
+      "A": "Tell them to pay because load shedding is difficult for everyone.",
+      "B": "Apologize and explain that drivers must never demand extra cash. Refund the extra fee if they paid, and log a warning on the driver's profile.",
+      "C": "Tell them to report the driver to the traffic police.",
+      "D": "Ignore the report."
+    },
+    "answer": "B",
+    "explanation": "Load shedding in SA causes traffic delays, but drivers demanding extra cash violates policy. Empathize with the rider, refund, and report the driver.",
+    "skill": "Policy Violations"
+  },
+  {
+    "id": 121,
+    "question": "A customer in Nairobi named Sipho messages: 'I tried paying for the ride using M-Pesa but the transaction failed. The driver is refusing to let me leave the vehicle.' How do you handle this high-stakes situation?",
+    "scenario": "M-Pesa payment failure in Kenya",
+    "options": {
+      "A": "Tell the passenger to call the police themselves and close the chat.",
+      "B": "Say: 'I am sorry to hear this, Sipho. Please stay safe. I am contacting the driver immediately to resolve this and authorize the cash-out. Please tell the driver that Uber is resolving it now.'",
+      "C": "Tell them to wait for 24 hours for the transaction to clear.",
+      "D": "Explain that M-Pesa is a third-party app and not our problem."
+    },
+    "answer": "B",
+    "explanation": "Mobile money (like M-Pesa in Kenya) is a primary payment option. A failed transaction causing a dispute in the car requires immediate driver outreach and calming support.",
+    "skill": "High-Urgency Payment Resolution"
+  },
+  {
+    "id": 122,
+    "question": "A South African customer named Kehinde writes: 'The driver took a route that felt very unsafe. I am shaken up.' How do you address their safety concern?",
+    "scenario": "Safety concern during route in SA",
+    "options": {
+      "A": "Explain that the driver was just avoiding traffic.",
+      "B": "Say: 'I am very sorry to hear this, Kehinde. Your safety is our top priority. Let me review this route and pass this report directly to our dedicated Safety Team for investigation. Are you currently in a safe place?'",
+      "C": "Tell them to write a review of the route on Google Maps.",
+      "D": "Offer them a ₦4500 discount on their next ride and close the chat."
+    },
+    "answer": "B",
+    "explanation": "Safety concerns in South Africa must be treated with high empathy and immediate escalation to the Safety Team. Always check if the user is currently safe.",
+    "skill": "Safety Protocols"
+  },
+  {
+    "id": 123,
+    "question": "A Nigerian client named Lindiwe starts their message with: 'Good day. I hope this find you well. I want to report a fare issue.' What cultural element is important here?",
+    "scenario": "African greeting etiquette",
+    "options": {
+      "A": "Greetings are wastes of time; ignore it and go straight to the refund.",
+      "B": "African customers value warm, respectful greetings and relational check-ins. You should reply: 'Good day, Lindiwe. I hope you are doing well too. Let me help you with that fare issue right away.'",
+      "C": "Tell them not to send greetings because we have strict handling time metrics.",
+      "D": "Answer with a short 'Hi. What is the issue?'"
+    },
+    "answer": "B",
+    "explanation": "In many African cultures (e.g. Nigeria, Ghana), starting with a warm and polite greeting is expected. Mirroring this warmth builds rapport.",
+    "skill": "Relational Tone & Warmth"
+  },
+  {
+    "id": 124,
+    "question": "A driver in Lagos writes: 'The rider didn't have cash and said they would transfer the money, but I haven't received it yet.' How do you assist?",
+    "scenario": "Lagos Cash/Transfer dispute",
+    "options": {
+      "A": "Tell the driver to search for the passenger and collect the money.",
+      "B": "Say: 'Hello. I understand this is frustrating. Let me look into this trip. We will verify the payment status and credit your driver wallet for the unpaid fare directly.'",
+      "C": "Deactivate the rider's account immediately without checking.",
+      "D": "Tell the driver that cash transfers are at their own risk."
+    },
+    "answer": "B",
+    "explanation": "Direct bank transfers are common in Nigeria when cash is low. If a transfer fails, support should verify the ride details and ensure the driver is compensated according to policy.",
+    "skill": "Driver Compensation"
+  },
+  {
+    "id": 125,
+    "question": "A passenger in Johannesburg says: 'My driver demanded that I pay extra cash for petrol because of the load shedding traffic.' What is the correct action?",
+    "scenario": "Load shedding cash extortion",
+    "options": {
+      "A": "Tell them to pay because load shedding is difficult for everyone.",
+      "B": "Apologize and explain that drivers must never demand extra cash. Refund the extra fee if they paid, and log a warning on the driver's profile.",
+      "C": "Tell them to report the driver to the traffic police.",
+      "D": "Ignore the report."
+    },
+    "answer": "B",
+    "explanation": "Load shedding in SA causes traffic delays, but drivers demanding extra cash violates policy. Empathize with the rider, refund, and report the driver.",
+    "skill": "Policy Violations"
+  },
+  {
+    "id": 126,
+    "question": "A customer in Nairobi named Lindiwe messages: 'I tried paying for the ride using M-Pesa but the transaction failed. The driver is refusing to let me leave the vehicle.' How do you handle this high-stakes situation?",
+    "scenario": "M-Pesa payment failure in Kenya",
+    "options": {
+      "A": "Tell the passenger to call the police themselves and close the chat.",
+      "B": "Say: 'I am sorry to hear this, Lindiwe. Please stay safe. I am contacting the driver immediately to resolve this and authorize the cash-out. Please tell the driver that Uber is resolving it now.'",
+      "C": "Tell them to wait for 24 hours for the transaction to clear.",
+      "D": "Explain that M-Pesa is a third-party app and not our problem."
+    },
+    "answer": "B",
+    "explanation": "Mobile money (like M-Pesa in Kenya) is a primary payment option. A failed transaction causing a dispute in the car requires immediate driver outreach and calming support.",
+    "skill": "High-Urgency Payment Resolution"
+  },
+  {
+    "id": 127,
+    "question": "A South African customer named Kehinde writes: 'The driver took a route that felt very unsafe. I am shaken up.' How do you address their safety concern?",
+    "scenario": "Safety concern during route in SA",
+    "options": {
+      "A": "Explain that the driver was just avoiding traffic.",
+      "B": "Say: 'I am very sorry to hear this, Kehinde. Your safety is our top priority. Let me review this route and pass this report directly to our dedicated Safety Team for investigation. Are you currently in a safe place?'",
+      "C": "Tell them to write a review of the route on Google Maps.",
+      "D": "Offer them a KSh 1200 discount on their next ride and close the chat."
+    },
+    "answer": "B",
+    "explanation": "Safety concerns in South Africa must be treated with high empathy and immediate escalation to the Safety Team. Always check if the user is currently safe.",
+    "skill": "Safety Protocols"
+  },
+  {
+    "id": 128,
+    "question": "A Nigerian client named Lindiwe starts their message with: 'Good day. I hope this find you well. I want to report a fare issue.' What cultural element is important here?",
+    "scenario": "African greeting etiquette",
+    "options": {
+      "A": "Greetings are wastes of time; ignore it and go straight to the refund.",
+      "B": "African customers value warm, respectful greetings and relational check-ins. You should reply: 'Good day, Lindiwe. I hope you are doing well too. Let me help you with that fare issue right away.'",
+      "C": "Tell them not to send greetings because we have strict handling time metrics.",
+      "D": "Answer with a short 'Hi. What is the issue?'"
+    },
+    "answer": "B",
+    "explanation": "In many African cultures (e.g. Nigeria, Ghana), starting with a warm and polite greeting is expected. Mirroring this warmth builds rapport.",
+    "skill": "Relational Tone & Warmth"
+  },
+  {
+    "id": 129,
+    "question": "A driver in Lagos writes: 'The rider didn't have cash and said they would transfer the money, but I haven't received it yet.' How do you assist?",
+    "scenario": "Lagos Cash/Transfer dispute",
+    "options": {
+      "A": "Tell the driver to search for the passenger and collect the money.",
+      "B": "Say: 'Hello. I understand this is frustrating. Let me look into this trip. We will verify the payment status and credit your driver wallet for the unpaid fare directly.'",
+      "C": "Deactivate the rider's account immediately without checking.",
+      "D": "Tell the driver that cash transfers are at their own risk."
+    },
+    "answer": "B",
+    "explanation": "Direct bank transfers are common in Nigeria when cash is low. If a transfer fails, support should verify the ride details and ensure the driver is compensated according to policy.",
+    "skill": "Driver Compensation"
+  },
+  {
+    "id": 130,
+    "question": "A passenger in Johannesburg says: 'My driver demanded that I pay extra cash for petrol because of the load shedding traffic.' What is the correct action?",
+    "scenario": "Load shedding cash extortion",
+    "options": {
+      "A": "Tell them to pay because load shedding is difficult for everyone.",
+      "B": "Apologize and explain that drivers must never demand extra cash. Refund the extra fee if they paid, and log a warning on the driver's profile.",
+      "C": "Tell them to report the driver to the traffic police.",
+      "D": "Ignore the report."
+    },
+    "answer": "B",
+    "explanation": "Load shedding in SA causes traffic delays, but drivers demanding extra cash violates policy. Empathize with the rider, refund, and report the driver.",
+    "skill": "Policy Violations"
+  },
+  {
+    "id": 131,
+    "question": "A customer in Nairobi named Chioma messages: 'I tried paying for the ride using M-Pesa but the transaction failed. The driver is refusing to let me leave the vehicle.' How do you handle this high-stakes situation?",
+    "scenario": "M-Pesa payment failure in Kenya",
+    "options": {
+      "A": "Tell the passenger to call the police themselves and close the chat.",
+      "B": "Say: 'I am sorry to hear this, Chioma. Please stay safe. I am contacting the driver immediately to resolve this and authorize the cash-out. Please tell the driver that Uber is resolving it now.'",
+      "C": "Tell them to wait for 24 hours for the transaction to clear.",
+      "D": "Explain that M-Pesa is a third-party app and not our problem."
+    },
+    "answer": "B",
+    "explanation": "Mobile money (like M-Pesa in Kenya) is a primary payment option. A failed transaction causing a dispute in the car requires immediate driver outreach and calming support.",
+    "skill": "High-Urgency Payment Resolution"
+  },
+  {
+    "id": 132,
+    "question": "A South African customer named Lerato writes: 'The driver took a route that felt very unsafe. I am shaken up.' How do you address their safety concern?",
+    "scenario": "Safety concern during route in SA",
+    "options": {
+      "A": "Explain that the driver was just avoiding traffic.",
+      "B": "Say: 'I am very sorry to hear this, Lerato. Your safety is our top priority. Let me review this route and pass this report directly to our dedicated Safety Team for investigation. Are you currently in a safe place?'",
+      "C": "Tell them to write a review of the route on Google Maps.",
+      "D": "Offer them a KSh 500 discount on their next ride and close the chat."
+    },
+    "answer": "B",
+    "explanation": "Safety concerns in South Africa must be treated with high empathy and immediate escalation to the Safety Team. Always check if the user is currently safe.",
+    "skill": "Safety Protocols"
+  },
+  {
+    "id": 133,
+    "question": "A Nigerian client named Tariq starts their message with: 'Good day. I hope this find you well. I want to report a fare issue.' What cultural element is important here?",
+    "scenario": "African greeting etiquette",
+    "options": {
+      "A": "Greetings are wastes of time; ignore it and go straight to the refund.",
+      "B": "African customers value warm, respectful greetings and relational check-ins. You should reply: 'Good day, Tariq. I hope you are doing well too. Let me help you with that fare issue right away.'",
+      "C": "Tell them not to send greetings because we have strict handling time metrics.",
+      "D": "Answer with a short 'Hi. What is the issue?'"
+    },
+    "answer": "B",
+    "explanation": "In many African cultures (e.g. Nigeria, Ghana), starting with a warm and polite greeting is expected. Mirroring this warmth builds rapport.",
+    "skill": "Relational Tone & Warmth"
+  },
+  {
+    "id": 134,
+    "question": "A driver in Lagos writes: 'The rider didn't have cash and said they would transfer the money, but I haven't received it yet.' How do you assist?",
+    "scenario": "Lagos Cash/Transfer dispute",
+    "options": {
+      "A": "Tell the driver to search for the passenger and collect the money.",
+      "B": "Say: 'Hello. I understand this is frustrating. Let me look into this trip. We will verify the payment status and credit your driver wallet for the unpaid fare directly.'",
+      "C": "Deactivate the rider's account immediately without checking.",
+      "D": "Tell the driver that cash transfers are at their own risk."
+    },
+    "answer": "B",
+    "explanation": "Direct bank transfers are common in Nigeria when cash is low. If a transfer fails, support should verify the ride details and ensure the driver is compensated according to policy.",
+    "skill": "Driver Compensation"
+  },
+  {
+    "id": 135,
+    "question": "A passenger in Johannesburg says: 'My driver demanded that I pay extra cash for petrol because of the load shedding traffic.' What is the correct action?",
+    "scenario": "Load shedding cash extortion",
+    "options": {
+      "A": "Tell them to pay because load shedding is difficult for everyone.",
+      "B": "Apologize and explain that drivers must never demand extra cash. Refund the extra fee if they paid, and log a warning on the driver's profile.",
+      "C": "Tell them to report the driver to the traffic police.",
+      "D": "Ignore the report."
+    },
+    "answer": "B",
+    "explanation": "Load shedding in SA causes traffic delays, but drivers demanding extra cash violates policy. Empathize with the rider, refund, and report the driver.",
+    "skill": "Policy Violations"
+  },
+  {
+    "id": 136,
+    "question": "A customer in Nairobi named Babajide messages: 'I tried paying for the ride using M-Pesa but the transaction failed. The driver is refusing to let me leave the vehicle.' How do you handle this high-stakes situation?",
+    "scenario": "M-Pesa payment failure in Kenya",
+    "options": {
+      "A": "Tell the passenger to call the police themselves and close the chat.",
+      "B": "Say: 'I am sorry to hear this, Babajide. Please stay safe. I am contacting the driver immediately to resolve this and authorize the cash-out. Please tell the driver that Uber is resolving it now.'",
+      "C": "Tell them to wait for 24 hours for the transaction to clear.",
+      "D": "Explain that M-Pesa is a third-party app and not our problem."
+    },
+    "answer": "B",
+    "explanation": "Mobile money (like M-Pesa in Kenya) is a primary payment option. A failed transaction causing a dispute in the car requires immediate driver outreach and calming support.",
+    "skill": "High-Urgency Payment Resolution"
+  },
+  {
+    "id": 137,
+    "question": "A South African customer named Kehinde writes: 'The driver took a route that felt very unsafe. I am shaken up.' How do you address their safety concern?",
+    "scenario": "Safety concern during route in SA",
+    "options": {
+      "A": "Explain that the driver was just avoiding traffic.",
+      "B": "Say: 'I am very sorry to hear this, Kehinde. Your safety is our top priority. Let me review this route and pass this report directly to our dedicated Safety Team for investigation. Are you currently in a safe place?'",
+      "C": "Tell them to write a review of the route on Google Maps.",
+      "D": "Offer them a KSh 500 discount on their next ride and close the chat."
+    },
+    "answer": "B",
+    "explanation": "Safety concerns in South Africa must be treated with high empathy and immediate escalation to the Safety Team. Always check if the user is currently safe.",
+    "skill": "Safety Protocols"
+  },
+  {
+    "id": 138,
+    "question": "A Nigerian client named Lindiwe starts their message with: 'Good day. I hope this find you well. I want to report a fare issue.' What cultural element is important here?",
+    "scenario": "African greeting etiquette",
+    "options": {
+      "A": "Greetings are wastes of time; ignore it and go straight to the refund.",
+      "B": "African customers value warm, respectful greetings and relational check-ins. You should reply: 'Good day, Lindiwe. I hope you are doing well too. Let me help you with that fare issue right away.'",
+      "C": "Tell them not to send greetings because we have strict handling time metrics.",
+      "D": "Answer with a short 'Hi. What is the issue?'"
+    },
+    "answer": "B",
+    "explanation": "In many African cultures (e.g. Nigeria, Ghana), starting with a warm and polite greeting is expected. Mirroring this warmth builds rapport.",
+    "skill": "Relational Tone & Warmth"
+  },
+  {
+    "id": 139,
+    "question": "A driver in Lagos writes: 'The rider didn't have cash and said they would transfer the money, but I haven't received it yet.' How do you assist?",
+    "scenario": "Lagos Cash/Transfer dispute",
+    "options": {
+      "A": "Tell the driver to search for the passenger and collect the money.",
+      "B": "Say: 'Hello. I understand this is frustrating. Let me look into this trip. We will verify the payment status and credit your driver wallet for the unpaid fare directly.'",
+      "C": "Deactivate the rider's account immediately without checking.",
+      "D": "Tell the driver that cash transfers are at their own risk."
+    },
+    "answer": "B",
+    "explanation": "Direct bank transfers are common in Nigeria when cash is low. If a transfer fails, support should verify the ride details and ensure the driver is compensated according to policy.",
+    "skill": "Driver Compensation"
+  },
+  {
+    "id": 140,
+    "question": "A passenger in Johannesburg says: 'My driver demanded that I pay extra cash for petrol because of the load shedding traffic.' What is the correct action?",
+    "scenario": "Load shedding cash extortion",
+    "options": {
+      "A": "Tell them to pay because load shedding is difficult for everyone.",
+      "B": "Apologize and explain that drivers must never demand extra cash. Refund the extra fee if they paid, and log a warning on the driver's profile.",
+      "C": "Tell them to report the driver to the traffic police.",
+      "D": "Ignore the report."
+    },
+    "answer": "B",
+    "explanation": "Load shedding in SA causes traffic delays, but drivers demanding extra cash violates policy. Empathize with the rider, refund, and report the driver.",
+    "skill": "Policy Violations"
+  },
+  {
+    "id": 141,
+    "question": "A customer in Nairobi named Amina messages: 'I tried paying for the ride using M-Pesa but the transaction failed. The driver is refusing to let me leave the vehicle.' How do you handle this high-stakes situation?",
+    "scenario": "M-Pesa payment failure in Kenya",
+    "options": {
+      "A": "Tell the passenger to call the police themselves and close the chat.",
+      "B": "Say: 'I am sorry to hear this, Amina. Please stay safe. I am contacting the driver immediately to resolve this and authorize the cash-out. Please tell the driver that Uber is resolving it now.'",
+      "C": "Tell them to wait for 24 hours for the transaction to clear.",
+      "D": "Explain that M-Pesa is a third-party app and not our problem."
+    },
+    "answer": "B",
+    "explanation": "Mobile money (like M-Pesa in Kenya) is a primary payment option. A failed transaction causing a dispute in the car requires immediate driver outreach and calming support.",
+    "skill": "High-Urgency Payment Resolution"
+  },
+  {
+    "id": 142,
+    "question": "A South African customer named Tendai writes: 'The driver took a route that felt very unsafe. I am shaken up.' How do you address their safety concern?",
+    "scenario": "Safety concern during route in SA",
+    "options": {
+      "A": "Explain that the driver was just avoiding traffic.",
+      "B": "Say: 'I am very sorry to hear this, Tendai. Your safety is our top priority. Let me review this route and pass this report directly to our dedicated Safety Team for investigation. Are you currently in a safe place?'",
+      "C": "Tell them to write a review of the route on Google Maps.",
+      "D": "Offer them a ₦4500 discount on their next ride and close the chat."
+    },
+    "answer": "B",
+    "explanation": "Safety concerns in South Africa must be treated with high empathy and immediate escalation to the Safety Team. Always check if the user is currently safe.",
+    "skill": "Safety Protocols"
+  },
+  {
+    "id": 143,
+    "question": "A Nigerian client named Chidi starts their message with: 'Good day. I hope this find you well. I want to report a fare issue.' What cultural element is important here?",
+    "scenario": "African greeting etiquette",
+    "options": {
+      "A": "Greetings are wastes of time; ignore it and go straight to the refund.",
+      "B": "African customers value warm, respectful greetings and relational check-ins. You should reply: 'Good day, Chidi. I hope you are doing well too. Let me help you with that fare issue right away.'",
+      "C": "Tell them not to send greetings because we have strict handling time metrics.",
+      "D": "Answer with a short 'Hi. What is the issue?'"
+    },
+    "answer": "B",
+    "explanation": "In many African cultures (e.g. Nigeria, Ghana), starting with a warm and polite greeting is expected. Mirroring this warmth builds rapport.",
+    "skill": "Relational Tone & Warmth"
+  },
+  {
+    "id": 144,
+    "question": "A driver in Lagos writes: 'The rider didn't have cash and said they would transfer the money, but I haven't received it yet.' How do you assist?",
+    "scenario": "Lagos Cash/Transfer dispute",
+    "options": {
+      "A": "Tell the driver to search for the passenger and collect the money.",
+      "B": "Say: 'Hello. I understand this is frustrating. Let me look into this trip. We will verify the payment status and credit your driver wallet for the unpaid fare directly.'",
+      "C": "Deactivate the rider's account immediately without checking.",
+      "D": "Tell the driver that cash transfers are at their own risk."
+    },
+    "answer": "B",
+    "explanation": "Direct bank transfers are common in Nigeria when cash is low. If a transfer fails, support should verify the ride details and ensure the driver is compensated according to policy.",
+    "skill": "Driver Compensation"
+  },
+  {
+    "id": 145,
+    "question": "A passenger in Johannesburg says: 'My driver demanded that I pay extra cash for petrol because of the load shedding traffic.' What is the correct action?",
+    "scenario": "Load shedding cash extortion",
+    "options": {
+      "A": "Tell them to pay because load shedding is difficult for everyone.",
+      "B": "Apologize and explain that drivers must never demand extra cash. Refund the extra fee if they paid, and log a warning on the driver's profile.",
+      "C": "Tell them to report the driver to the traffic police.",
+      "D": "Ignore the report."
+    },
+    "answer": "B",
+    "explanation": "Load shedding in SA causes traffic delays, but drivers demanding extra cash violates policy. Empathize with the rider, refund, and report the driver.",
+    "skill": "Policy Violations"
+  },
+  {
+    "id": 146,
+    "question": "A customer in Nairobi named Tariq messages: 'I tried paying for the ride using M-Pesa but the transaction failed. The driver is refusing to let me leave the vehicle.' How do you handle this high-stakes situation?",
+    "scenario": "M-Pesa payment failure in Kenya",
+    "options": {
+      "A": "Tell the passenger to call the police themselves and close the chat.",
+      "B": "Say: 'I am sorry to hear this, Tariq. Please stay safe. I am contacting the driver immediately to resolve this and authorize the cash-out. Please tell the driver that Uber is resolving it now.'",
+      "C": "Tell them to wait for 24 hours for the transaction to clear.",
+      "D": "Explain that M-Pesa is a third-party app and not our problem."
+    },
+    "answer": "B",
+    "explanation": "Mobile money (like M-Pesa in Kenya) is a primary payment option. A failed transaction causing a dispute in the car requires immediate driver outreach and calming support.",
+    "skill": "High-Urgency Payment Resolution"
+  },
+  {
+    "id": 147,
+    "question": "A South African customer named Lerato writes: 'The driver took a route that felt very unsafe. I am shaken up.' How do you address their safety concern?",
+    "scenario": "Safety concern during route in SA",
+    "options": {
+      "A": "Explain that the driver was just avoiding traffic.",
+      "B": "Say: 'I am very sorry to hear this, Lerato. Your safety is our top priority. Let me review this route and pass this report directly to our dedicated Safety Team for investigation. Are you currently in a safe place?'",
+      "C": "Tell them to write a review of the route on Google Maps.",
+      "D": "Offer them a KSh 1200 discount on their next ride and close the chat."
+    },
+    "answer": "B",
+    "explanation": "Safety concerns in South Africa must be treated with high empathy and immediate escalation to the Safety Team. Always check if the user is currently safe.",
+    "skill": "Safety Protocols"
+  },
+  {
+    "id": 148,
+    "question": "A Nigerian client named Tendai starts their message with: 'Good day. I hope this find you well. I want to report a fare issue.' What cultural element is important here?",
+    "scenario": "African greeting etiquette",
+    "options": {
+      "A": "Greetings are wastes of time; ignore it and go straight to the refund.",
+      "B": "African customers value warm, respectful greetings and relational check-ins. You should reply: 'Good day, Tendai. I hope you are doing well too. Let me help you with that fare issue right away.'",
+      "C": "Tell them not to send greetings because we have strict handling time metrics.",
+      "D": "Answer with a short 'Hi. What is the issue?'"
+    },
+    "answer": "B",
+    "explanation": "In many African cultures (e.g. Nigeria, Ghana), starting with a warm and polite greeting is expected. Mirroring this warmth builds rapport.",
+    "skill": "Relational Tone & Warmth"
+  },
+  {
+    "id": 149,
+    "question": "A driver in Lagos writes: 'The rider didn't have cash and said they would transfer the money, but I haven't received it yet.' How do you assist?",
+    "scenario": "Lagos Cash/Transfer dispute",
+    "options": {
+      "A": "Tell the driver to search for the passenger and collect the money.",
+      "B": "Say: 'Hello. I understand this is frustrating. Let me look into this trip. We will verify the payment status and credit your driver wallet for the unpaid fare directly.'",
+      "C": "Deactivate the rider's account immediately without checking.",
+      "D": "Tell the driver that cash transfers are at their own risk."
+    },
+    "answer": "B",
+    "explanation": "Direct bank transfers are common in Nigeria when cash is low. If a transfer fails, support should verify the ride details and ensure the driver is compensated according to policy.",
+    "skill": "Driver Compensation"
+  },
+  {
+    "id": 150,
+    "question": "A passenger in Johannesburg says: 'My driver demanded that I pay extra cash for petrol because of the load shedding traffic.' What is the correct action?",
+    "scenario": "Load shedding cash extortion",
+    "options": {
+      "A": "Tell them to pay because load shedding is difficult for everyone.",
+      "B": "Apologize and explain that drivers must never demand extra cash. Refund the extra fee if they paid, and log a warning on the driver's profile.",
+      "C": "Tell them to report the driver to the traffic police.",
+      "D": "Ignore the report."
+    },
+    "answer": "B",
+    "explanation": "Load shedding in SA causes traffic delays, but drivers demanding extra cash violates policy. Empathize with the rider, refund, and report the driver.",
+    "skill": "Policy Violations"
+  },
+  {
+    "id": 151,
+    "question": "A customer in Nairobi named Lindiwe messages: 'I tried paying for the ride using M-Pesa but the transaction failed. The driver is refusing to let me leave the vehicle.' How do you handle this high-stakes situation?",
+    "scenario": "M-Pesa payment failure in Kenya",
+    "options": {
+      "A": "Tell the passenger to call the police themselves and close the chat.",
+      "B": "Say: 'I am sorry to hear this, Lindiwe. Please stay safe. I am contacting the driver immediately to resolve this and authorize the cash-out. Please tell the driver that Uber is resolving it now.'",
+      "C": "Tell them to wait for 24 hours for the transaction to clear.",
+      "D": "Explain that M-Pesa is a third-party app and not our problem."
+    },
+    "answer": "B",
+    "explanation": "Mobile money (like M-Pesa in Kenya) is a primary payment option. A failed transaction causing a dispute in the car requires immediate driver outreach and calming support.",
+    "skill": "High-Urgency Payment Resolution"
+  },
+  {
+    "id": 152,
+    "question": "A South African customer named Kehinde writes: 'The driver took a route that felt very unsafe. I am shaken up.' How do you address their safety concern?",
+    "scenario": "Safety concern during route in SA",
+    "options": {
+      "A": "Explain that the driver was just avoiding traffic.",
+      "B": "Say: 'I am very sorry to hear this, Kehinde. Your safety is our top priority. Let me review this route and pass this report directly to our dedicated Safety Team for investigation. Are you currently in a safe place?'",
+      "C": "Tell them to write a review of the route on Google Maps.",
+      "D": "Offer them a KSh 500 discount on their next ride and close the chat."
+    },
+    "answer": "B",
+    "explanation": "Safety concerns in South Africa must be treated with high empathy and immediate escalation to the Safety Team. Always check if the user is currently safe.",
+    "skill": "Safety Protocols"
+  },
+  {
+    "id": 153,
+    "question": "A Nigerian client named Kofi starts their message with: 'Good day. I hope this find you well. I want to report a fare issue.' What cultural element is important here?",
+    "scenario": "African greeting etiquette",
+    "options": {
+      "A": "Greetings are wastes of time; ignore it and go straight to the refund.",
+      "B": "African customers value warm, respectful greetings and relational check-ins. You should reply: 'Good day, Kofi. I hope you are doing well too. Let me help you with that fare issue right away.'",
+      "C": "Tell them not to send greetings because we have strict handling time metrics.",
+      "D": "Answer with a short 'Hi. What is the issue?'"
+    },
+    "answer": "B",
+    "explanation": "In many African cultures (e.g. Nigeria, Ghana), starting with a warm and polite greeting is expected. Mirroring this warmth builds rapport.",
+    "skill": "Relational Tone & Warmth"
+  },
+  {
+    "id": 154,
+    "question": "A driver in Lagos writes: 'The rider didn't have cash and said they would transfer the money, but I haven't received it yet.' How do you assist?",
+    "scenario": "Lagos Cash/Transfer dispute",
+    "options": {
+      "A": "Tell the driver to search for the passenger and collect the money.",
+      "B": "Say: 'Hello. I understand this is frustrating. Let me look into this trip. We will verify the payment status and credit your driver wallet for the unpaid fare directly.'",
+      "C": "Deactivate the rider's account immediately without checking.",
+      "D": "Tell the driver that cash transfers are at their own risk."
+    },
+    "answer": "B",
+    "explanation": "Direct bank transfers are common in Nigeria when cash is low. If a transfer fails, support should verify the ride details and ensure the driver is compensated according to policy.",
+    "skill": "Driver Compensation"
+  },
+  {
+    "id": 155,
+    "question": "A passenger in Johannesburg says: 'My driver demanded that I pay extra cash for petrol because of the load shedding traffic.' What is the correct action?",
+    "scenario": "Load shedding cash extortion",
+    "options": {
+      "A": "Tell them to pay because load shedding is difficult for everyone.",
+      "B": "Apologize and explain that drivers must never demand extra cash. Refund the extra fee if they paid, and log a warning on the driver's profile.",
+      "C": "Tell them to report the driver to the traffic police.",
+      "D": "Ignore the report."
+    },
+    "answer": "B",
+    "explanation": "Load shedding in SA causes traffic delays, but drivers demanding extra cash violates policy. Empathize with the rider, refund, and report the driver.",
+    "skill": "Policy Violations"
+  },
+  {
+    "id": 156,
+    "question": "A customer in Nairobi named Kofi messages: 'I tried paying for the ride using M-Pesa but the transaction failed. The driver is refusing to let me leave the vehicle.' How do you handle this high-stakes situation?",
+    "scenario": "M-Pesa payment failure in Kenya",
+    "options": {
+      "A": "Tell the passenger to call the police themselves and close the chat.",
+      "B": "Say: 'I am sorry to hear this, Kofi. Please stay safe. I am contacting the driver immediately to resolve this and authorize the cash-out. Please tell the driver that Uber is resolving it now.'",
+      "C": "Tell them to wait for 24 hours for the transaction to clear.",
+      "D": "Explain that M-Pesa is a third-party app and not our problem."
+    },
+    "answer": "B",
+    "explanation": "Mobile money (like M-Pesa in Kenya) is a primary payment option. A failed transaction causing a dispute in the car requires immediate driver outreach and calming support.",
+    "skill": "High-Urgency Payment Resolution"
+  },
+  {
+    "id": 157,
+    "question": "A South African customer named Babajide writes: 'The driver took a route that felt very unsafe. I am shaken up.' How do you address their safety concern?",
+    "scenario": "Safety concern during route in SA",
+    "options": {
+      "A": "Explain that the driver was just avoiding traffic.",
+      "B": "Say: 'I am very sorry to hear this, Babajide. Your safety is our top priority. Let me review this route and pass this report directly to our dedicated Safety Team for investigation. Are you currently in a safe place?'",
+      "C": "Tell them to write a review of the route on Google Maps.",
+      "D": "Offer them a ₦8000 discount on their next ride and close the chat."
+    },
+    "answer": "B",
+    "explanation": "Safety concerns in South Africa must be treated with high empathy and immediate escalation to the Safety Team. Always check if the user is currently safe.",
+    "skill": "Safety Protocols"
+  },
+  {
+    "id": 158,
+    "question": "A Nigerian client named Nnamdi starts their message with: 'Good day. I hope this find you well. I want to report a fare issue.' What cultural element is important here?",
+    "scenario": "African greeting etiquette",
+    "options": {
+      "A": "Greetings are wastes of time; ignore it and go straight to the refund.",
+      "B": "African customers value warm, respectful greetings and relational check-ins. You should reply: 'Good day, Nnamdi. I hope you are doing well too. Let me help you with that fare issue right away.'",
+      "C": "Tell them not to send greetings because we have strict handling time metrics.",
+      "D": "Answer with a short 'Hi. What is the issue?'"
+    },
+    "answer": "B",
+    "explanation": "In many African cultures (e.g. Nigeria, Ghana), starting with a warm and polite greeting is expected. Mirroring this warmth builds rapport.",
+    "skill": "Relational Tone & Warmth"
+  },
+  {
+    "id": 159,
+    "question": "A driver in Lagos writes: 'The rider didn't have cash and said they would transfer the money, but I haven't received it yet.' How do you assist?",
+    "scenario": "Lagos Cash/Transfer dispute",
+    "options": {
+      "A": "Tell the driver to search for the passenger and collect the money.",
+      "B": "Say: 'Hello. I understand this is frustrating. Let me look into this trip. We will verify the payment status and credit your driver wallet for the unpaid fare directly.'",
+      "C": "Deactivate the rider's account immediately without checking.",
+      "D": "Tell the driver that cash transfers are at their own risk."
+    },
+    "answer": "B",
+    "explanation": "Direct bank transfers are common in Nigeria when cash is low. If a transfer fails, support should verify the ride details and ensure the driver is compensated according to policy.",
+    "skill": "Driver Compensation"
+  },
+  {
+    "id": 160,
+    "question": "A passenger in Johannesburg says: 'My driver demanded that I pay extra cash for petrol because of the load shedding traffic.' What is the correct action?",
+    "scenario": "Load shedding cash extortion",
+    "options": {
+      "A": "Tell them to pay because load shedding is difficult for everyone.",
+      "B": "Apologize and explain that drivers must never demand extra cash. Refund the extra fee if they paid, and log a warning on the driver's profile.",
+      "C": "Tell them to report the driver to the traffic police.",
+      "D": "Ignore the report."
+    },
+    "answer": "B",
+    "explanation": "Load shedding in SA causes traffic delays, but drivers demanding extra cash violates policy. Empathize with the rider, refund, and report the driver.",
+    "skill": "Policy Violations"
+  },
+  {
+    "id": 161,
+    "question": "A customer in Nairobi named Kehinde messages: 'I tried paying for the ride using M-Pesa but the transaction failed. The driver is refusing to let me leave the vehicle.' How do you handle this high-stakes situation?",
+    "scenario": "M-Pesa payment failure in Kenya",
+    "options": {
+      "A": "Tell the passenger to call the police themselves and close the chat.",
+      "B": "Say: 'I am sorry to hear this, Kehinde. Please stay safe. I am contacting the driver immediately to resolve this and authorize the cash-out. Please tell the driver that Uber is resolving it now.'",
+      "C": "Tell them to wait for 24 hours for the transaction to clear.",
+      "D": "Explain that M-Pesa is a third-party app and not our problem."
+    },
+    "answer": "B",
+    "explanation": "Mobile money (like M-Pesa in Kenya) is a primary payment option. A failed transaction causing a dispute in the car requires immediate driver outreach and calming support.",
+    "skill": "High-Urgency Payment Resolution"
+  },
+  {
+    "id": 162,
+    "question": "A South African customer named Nnamdi writes: 'The driver took a route that felt very unsafe. I am shaken up.' How do you address their safety concern?",
+    "scenario": "Safety concern during route in SA",
+    "options": {
+      "A": "Explain that the driver was just avoiding traffic.",
+      "B": "Say: 'I am very sorry to hear this, Nnamdi. Your safety is our top priority. Let me review this route and pass this report directly to our dedicated Safety Team for investigation. Are you currently in a safe place?'",
+      "C": "Tell them to write a review of the route on Google Maps.",
+      "D": "Offer them a KSh 500 discount on their next ride and close the chat."
+    },
+    "answer": "B",
+    "explanation": "Safety concerns in South Africa must be treated with high empathy and immediate escalation to the Safety Team. Always check if the user is currently safe.",
+    "skill": "Safety Protocols"
+  },
+  {
+    "id": 163,
+    "question": "A Nigerian client named Amina starts their message with: 'Good day. I hope this find you well. I want to report a fare issue.' What cultural element is important here?",
+    "scenario": "African greeting etiquette",
+    "options": {
+      "A": "Greetings are wastes of time; ignore it and go straight to the refund.",
+      "B": "African customers value warm, respectful greetings and relational check-ins. You should reply: 'Good day, Amina. I hope you are doing well too. Let me help you with that fare issue right away.'",
+      "C": "Tell them not to send greetings because we have strict handling time metrics.",
+      "D": "Answer with a short 'Hi. What is the issue?'"
+    },
+    "answer": "B",
+    "explanation": "In many African cultures (e.g. Nigeria, Ghana), starting with a warm and polite greeting is expected. Mirroring this warmth builds rapport.",
+    "skill": "Relational Tone & Warmth"
+  },
+  {
+    "id": 164,
+    "question": "A driver in Lagos writes: 'The rider didn't have cash and said they would transfer the money, but I haven't received it yet.' How do you assist?",
+    "scenario": "Lagos Cash/Transfer dispute",
+    "options": {
+      "A": "Tell the driver to search for the passenger and collect the money.",
+      "B": "Say: 'Hello. I understand this is frustrating. Let me look into this trip. We will verify the payment status and credit your driver wallet for the unpaid fare directly.'",
+      "C": "Deactivate the rider's account immediately without checking.",
+      "D": "Tell the driver that cash transfers are at their own risk."
+    },
+    "answer": "B",
+    "explanation": "Direct bank transfers are common in Nigeria when cash is low. If a transfer fails, support should verify the ride details and ensure the driver is compensated according to policy.",
+    "skill": "Driver Compensation"
+  },
+  {
+    "id": 165,
+    "question": "A passenger in Johannesburg says: 'My driver demanded that I pay extra cash for petrol because of the load shedding traffic.' What is the correct action?",
+    "scenario": "Load shedding cash extortion",
+    "options": {
+      "A": "Tell them to pay because load shedding is difficult for everyone.",
+      "B": "Apologize and explain that drivers must never demand extra cash. Refund the extra fee if they paid, and log a warning on the driver's profile.",
+      "C": "Tell them to report the driver to the traffic police.",
+      "D": "Ignore the report."
+    },
+    "answer": "B",
+    "explanation": "Load shedding in SA causes traffic delays, but drivers demanding extra cash violates policy. Empathize with the rider, refund, and report the driver.",
+    "skill": "Policy Violations"
+  },
+  {
+    "id": 166,
+    "question": "A customer in Nairobi named Zola messages: 'I tried paying for the ride using M-Pesa but the transaction failed. The driver is refusing to let me leave the vehicle.' How do you handle this high-stakes situation?",
+    "scenario": "M-Pesa payment failure in Kenya",
+    "options": {
+      "A": "Tell the passenger to call the police themselves and close the chat.",
+      "B": "Say: 'I am sorry to hear this, Zola. Please stay safe. I am contacting the driver immediately to resolve this and authorize the cash-out. Please tell the driver that Uber is resolving it now.'",
+      "C": "Tell them to wait for 24 hours for the transaction to clear.",
+      "D": "Explain that M-Pesa is a third-party app and not our problem."
+    },
+    "answer": "B",
+    "explanation": "Mobile money (like M-Pesa in Kenya) is a primary payment option. A failed transaction causing a dispute in the car requires immediate driver outreach and calming support.",
+    "skill": "High-Urgency Payment Resolution"
+  },
+  {
+    "id": 167,
+    "question": "A South African customer named Babajide writes: 'The driver took a route that felt very unsafe. I am shaken up.' How do you address their safety concern?",
+    "scenario": "Safety concern during route in SA",
+    "options": {
+      "A": "Explain that the driver was just avoiding traffic.",
+      "B": "Say: 'I am very sorry to hear this, Babajide. Your safety is our top priority. Let me review this route and pass this report directly to our dedicated Safety Team for investigation. Are you currently in a safe place?'",
+      "C": "Tell them to write a review of the route on Google Maps.",
+      "D": "Offer them a R250 discount on their next ride and close the chat."
+    },
+    "answer": "B",
+    "explanation": "Safety concerns in South Africa must be treated with high empathy and immediate escalation to the Safety Team. Always check if the user is currently safe.",
+    "skill": "Safety Protocols"
+  },
+  {
+    "id": 168,
+    "question": "A Nigerian client named Lerato starts their message with: 'Good day. I hope this find you well. I want to report a fare issue.' What cultural element is important here?",
+    "scenario": "African greeting etiquette",
+    "options": {
+      "A": "Greetings are wastes of time; ignore it and go straight to the refund.",
+      "B": "African customers value warm, respectful greetings and relational check-ins. You should reply: 'Good day, Lerato. I hope you are doing well too. Let me help you with that fare issue right away.'",
+      "C": "Tell them not to send greetings because we have strict handling time metrics.",
+      "D": "Answer with a short 'Hi. What is the issue?'"
+    },
+    "answer": "B",
+    "explanation": "In many African cultures (e.g. Nigeria, Ghana), starting with a warm and polite greeting is expected. Mirroring this warmth builds rapport.",
+    "skill": "Relational Tone & Warmth"
+  },
+  {
+    "id": 169,
+    "question": "A driver in Lagos writes: 'The rider didn't have cash and said they would transfer the money, but I haven't received it yet.' How do you assist?",
+    "scenario": "Lagos Cash/Transfer dispute",
+    "options": {
+      "A": "Tell the driver to search for the passenger and collect the money.",
+      "B": "Say: 'Hello. I understand this is frustrating. Let me look into this trip. We will verify the payment status and credit your driver wallet for the unpaid fare directly.'",
+      "C": "Deactivate the rider's account immediately without checking.",
+      "D": "Tell the driver that cash transfers are at their own risk."
+    },
+    "answer": "B",
+    "explanation": "Direct bank transfers are common in Nigeria when cash is low. If a transfer fails, support should verify the ride details and ensure the driver is compensated according to policy.",
+    "skill": "Driver Compensation"
+  },
+  {
+    "id": 170,
+    "question": "A passenger in Johannesburg says: 'My driver demanded that I pay extra cash for petrol because of the load shedding traffic.' What is the correct action?",
+    "scenario": "Load shedding cash extortion",
+    "options": {
+      "A": "Tell them to pay because load shedding is difficult for everyone.",
+      "B": "Apologize and explain that drivers must never demand extra cash. Refund the extra fee if they paid, and log a warning on the driver's profile.",
+      "C": "Tell them to report the driver to the traffic police.",
+      "D": "Ignore the report."
+    },
+    "answer": "B",
+    "explanation": "Load shedding in SA causes traffic delays, but drivers demanding extra cash violates policy. Empathize with the rider, refund, and report the driver.",
+    "skill": "Policy Violations"
+  },
+  {
+    "id": 171,
+    "question": "A customer in Nairobi named Chidi messages: 'I tried paying for the ride using M-Pesa but the transaction failed. The driver is refusing to let me leave the vehicle.' How do you handle this high-stakes situation?",
+    "scenario": "M-Pesa payment failure in Kenya",
+    "options": {
+      "A": "Tell the passenger to call the police themselves and close the chat.",
+      "B": "Say: 'I am sorry to hear this, Chidi. Please stay safe. I am contacting the driver immediately to resolve this and authorize the cash-out. Please tell the driver that Uber is resolving it now.'",
+      "C": "Tell them to wait for 24 hours for the transaction to clear.",
+      "D": "Explain that M-Pesa is a third-party app and not our problem."
+    },
+    "answer": "B",
+    "explanation": "Mobile money (like M-Pesa in Kenya) is a primary payment option. A failed transaction causing a dispute in the car requires immediate driver outreach and calming support.",
+    "skill": "High-Urgency Payment Resolution"
+  },
+  {
+    "id": 172,
+    "question": "A South African customer named Babajide writes: 'The driver took a route that felt very unsafe. I am shaken up.' How do you address their safety concern?",
+    "scenario": "Safety concern during route in SA",
+    "options": {
+      "A": "Explain that the driver was just avoiding traffic.",
+      "B": "Say: 'I am very sorry to hear this, Babajide. Your safety is our top priority. Let me review this route and pass this report directly to our dedicated Safety Team for investigation. Are you currently in a safe place?'",
+      "C": "Tell them to write a review of the route on Google Maps.",
+      "D": "Offer them a ₦4500 discount on their next ride and close the chat."
+    },
+    "answer": "B",
+    "explanation": "Safety concerns in South Africa must be treated with high empathy and immediate escalation to the Safety Team. Always check if the user is currently safe.",
+    "skill": "Safety Protocols"
+  },
+  {
+    "id": 173,
+    "question": "A Nigerian client named Zola starts their message with: 'Good day. I hope this find you well. I want to report a fare issue.' What cultural element is important here?",
+    "scenario": "African greeting etiquette",
+    "options": {
+      "A": "Greetings are wastes of time; ignore it and go straight to the refund.",
+      "B": "African customers value warm, respectful greetings and relational check-ins. You should reply: 'Good day, Zola. I hope you are doing well too. Let me help you with that fare issue right away.'",
+      "C": "Tell them not to send greetings because we have strict handling time metrics.",
+      "D": "Answer with a short 'Hi. What is the issue?'"
+    },
+    "answer": "B",
+    "explanation": "In many African cultures (e.g. Nigeria, Ghana), starting with a warm and polite greeting is expected. Mirroring this warmth builds rapport.",
+    "skill": "Relational Tone & Warmth"
+  },
+  {
+    "id": 174,
+    "question": "A driver in Lagos writes: 'The rider didn't have cash and said they would transfer the money, but I haven't received it yet.' How do you assist?",
+    "scenario": "Lagos Cash/Transfer dispute",
+    "options": {
+      "A": "Tell the driver to search for the passenger and collect the money.",
+      "B": "Say: 'Hello. I understand this is frustrating. Let me look into this trip. We will verify the payment status and credit your driver wallet for the unpaid fare directly.'",
+      "C": "Deactivate the rider's account immediately without checking.",
+      "D": "Tell the driver that cash transfers are at their own risk."
+    },
+    "answer": "B",
+    "explanation": "Direct bank transfers are common in Nigeria when cash is low. If a transfer fails, support should verify the ride details and ensure the driver is compensated according to policy.",
+    "skill": "Driver Compensation"
+  },
+  {
+    "id": 175,
+    "question": "A passenger in Johannesburg says: 'My driver demanded that I pay extra cash for petrol because of the load shedding traffic.' What is the correct action?",
+    "scenario": "Load shedding cash extortion",
+    "options": {
+      "A": "Tell them to pay because load shedding is difficult for everyone.",
+      "B": "Apologize and explain that drivers must never demand extra cash. Refund the extra fee if they paid, and log a warning on the driver's profile.",
+      "C": "Tell them to report the driver to the traffic police.",
+      "D": "Ignore the report."
+    },
+    "answer": "B",
+    "explanation": "Load shedding in SA causes traffic delays, but drivers demanding extra cash violates policy. Empathize with the rider, refund, and report the driver.",
+    "skill": "Policy Violations"
+  },
+  {
+    "id": 176,
+    "question": "A customer in Nairobi named Chioma messages: 'I tried paying for the ride using M-Pesa but the transaction failed. The driver is refusing to let me leave the vehicle.' How do you handle this high-stakes situation?",
+    "scenario": "M-Pesa payment failure in Kenya",
+    "options": {
+      "A": "Tell the passenger to call the police themselves and close the chat.",
+      "B": "Say: 'I am sorry to hear this, Chioma. Please stay safe. I am contacting the driver immediately to resolve this and authorize the cash-out. Please tell the driver that Uber is resolving it now.'",
+      "C": "Tell them to wait for 24 hours for the transaction to clear.",
+      "D": "Explain that M-Pesa is a third-party app and not our problem."
+    },
+    "answer": "B",
+    "explanation": "Mobile money (like M-Pesa in Kenya) is a primary payment option. A failed transaction causing a dispute in the car requires immediate driver outreach and calming support.",
+    "skill": "High-Urgency Payment Resolution"
+  },
+  {
+    "id": 177,
+    "question": "A South African customer named Kehinde writes: 'The driver took a route that felt very unsafe. I am shaken up.' How do you address their safety concern?",
+    "scenario": "Safety concern during route in SA",
+    "options": {
+      "A": "Explain that the driver was just avoiding traffic.",
+      "B": "Say: 'I am very sorry to hear this, Kehinde. Your safety is our top priority. Let me review this route and pass this report directly to our dedicated Safety Team for investigation. Are you currently in a safe place?'",
+      "C": "Tell them to write a review of the route on Google Maps.",
+      "D": "Offer them a KSh 500 discount on their next ride and close the chat."
+    },
+    "answer": "B",
+    "explanation": "Safety concerns in South Africa must be treated with high empathy and immediate escalation to the Safety Team. Always check if the user is currently safe.",
+    "skill": "Safety Protocols"
+  },
+  {
+    "id": 178,
+    "question": "A Nigerian client named Fatoumata starts their message with: 'Good day. I hope this find you well. I want to report a fare issue.' What cultural element is important here?",
+    "scenario": "African greeting etiquette",
+    "options": {
+      "A": "Greetings are wastes of time; ignore it and go straight to the refund.",
+      "B": "African customers value warm, respectful greetings and relational check-ins. You should reply: 'Good day, Fatoumata. I hope you are doing well too. Let me help you with that fare issue right away.'",
+      "C": "Tell them not to send greetings because we have strict handling time metrics.",
+      "D": "Answer with a short 'Hi. What is the issue?'"
+    },
+    "answer": "B",
+    "explanation": "In many African cultures (e.g. Nigeria, Ghana), starting with a warm and polite greeting is expected. Mirroring this warmth builds rapport.",
+    "skill": "Relational Tone & Warmth"
+  },
+  {
+    "id": 179,
+    "question": "A driver in Lagos writes: 'The rider didn't have cash and said they would transfer the money, but I haven't received it yet.' How do you assist?",
+    "scenario": "Lagos Cash/Transfer dispute",
+    "options": {
+      "A": "Tell the driver to search for the passenger and collect the money.",
+      "B": "Say: 'Hello. I understand this is frustrating. Let me look into this trip. We will verify the payment status and credit your driver wallet for the unpaid fare directly.'",
+      "C": "Deactivate the rider's account immediately without checking.",
+      "D": "Tell the driver that cash transfers are at their own risk."
+    },
+    "answer": "B",
+    "explanation": "Direct bank transfers are common in Nigeria when cash is low. If a transfer fails, support should verify the ride details and ensure the driver is compensated according to policy.",
+    "skill": "Driver Compensation"
+  },
+  {
+    "id": 180,
+    "question": "A passenger in Johannesburg says: 'My driver demanded that I pay extra cash for petrol because of the load shedding traffic.' What is the correct action?",
+    "scenario": "Load shedding cash extortion",
+    "options": {
+      "A": "Tell them to pay because load shedding is difficult for everyone.",
+      "B": "Apologize and explain that drivers must never demand extra cash. Refund the extra fee if they paid, and log a warning on the driver's profile.",
+      "C": "Tell them to report the driver to the traffic police.",
+      "D": "Ignore the report."
+    },
+    "answer": "B",
+    "explanation": "Load shedding in SA causes traffic delays, but drivers demanding extra cash violates policy. Empathize with the rider, refund, and report the driver.",
+    "skill": "Policy Violations"
+  },
+  {
+    "id": 181,
+    "question": "A customer in Nairobi named Kehinde messages: 'I tried paying for the ride using M-Pesa but the transaction failed. The driver is refusing to let me leave the vehicle.' How do you handle this high-stakes situation?",
+    "scenario": "M-Pesa payment failure in Kenya",
+    "options": {
+      "A": "Tell the passenger to call the police themselves and close the chat.",
+      "B": "Say: 'I am sorry to hear this, Kehinde. Please stay safe. I am contacting the driver immediately to resolve this and authorize the cash-out. Please tell the driver that Uber is resolving it now.'",
+      "C": "Tell them to wait for 24 hours for the transaction to clear.",
+      "D": "Explain that M-Pesa is a third-party app and not our problem."
+    },
+    "answer": "B",
+    "explanation": "Mobile money (like M-Pesa in Kenya) is a primary payment option. A failed transaction causing a dispute in the car requires immediate driver outreach and calming support.",
+    "skill": "High-Urgency Payment Resolution"
+  },
+  {
+    "id": 182,
+    "question": "A South African customer named Chidi writes: 'The driver took a route that felt very unsafe. I am shaken up.' How do you address their safety concern?",
+    "scenario": "Safety concern during route in SA",
+    "options": {
+      "A": "Explain that the driver was just avoiding traffic.",
+      "B": "Say: 'I am very sorry to hear this, Chidi. Your safety is our top priority. Let me review this route and pass this report directly to our dedicated Safety Team for investigation. Are you currently in a safe place?'",
+      "C": "Tell them to write a review of the route on Google Maps.",
+      "D": "Offer them a ₦4500 discount on their next ride and close the chat."
+    },
+    "answer": "B",
+    "explanation": "Safety concerns in South Africa must be treated with high empathy and immediate escalation to the Safety Team. Always check if the user is currently safe.",
+    "skill": "Safety Protocols"
+  },
+  {
+    "id": 183,
+    "question": "A Nigerian client named Amina starts their message with: 'Good day. I hope this find you well. I want to report a fare issue.' What cultural element is important here?",
+    "scenario": "African greeting etiquette",
+    "options": {
+      "A": "Greetings are wastes of time; ignore it and go straight to the refund.",
+      "B": "African customers value warm, respectful greetings and relational check-ins. You should reply: 'Good day, Amina. I hope you are doing well too. Let me help you with that fare issue right away.'",
+      "C": "Tell them not to send greetings because we have strict handling time metrics.",
+      "D": "Answer with a short 'Hi. What is the issue?'"
+    },
+    "answer": "B",
+    "explanation": "In many African cultures (e.g. Nigeria, Ghana), starting with a warm and polite greeting is expected. Mirroring this warmth builds rapport.",
+    "skill": "Relational Tone & Warmth"
+  },
+  {
+    "id": 184,
+    "question": "A driver in Lagos writes: 'The rider didn't have cash and said they would transfer the money, but I haven't received it yet.' How do you assist?",
+    "scenario": "Lagos Cash/Transfer dispute",
+    "options": {
+      "A": "Tell the driver to search for the passenger and collect the money.",
+      "B": "Say: 'Hello. I understand this is frustrating. Let me look into this trip. We will verify the payment status and credit your driver wallet for the unpaid fare directly.'",
+      "C": "Deactivate the rider's account immediately without checking.",
+      "D": "Tell the driver that cash transfers are at their own risk."
+    },
+    "answer": "B",
+    "explanation": "Direct bank transfers are common in Nigeria when cash is low. If a transfer fails, support should verify the ride details and ensure the driver is compensated according to policy.",
+    "skill": "Driver Compensation"
+  },
+  {
+    "id": 185,
+    "question": "A passenger in Johannesburg says: 'My driver demanded that I pay extra cash for petrol because of the load shedding traffic.' What is the correct action?",
+    "scenario": "Load shedding cash extortion",
+    "options": {
+      "A": "Tell them to pay because load shedding is difficult for everyone.",
+      "B": "Apologize and explain that drivers must never demand extra cash. Refund the extra fee if they paid, and log a warning on the driver's profile.",
+      "C": "Tell them to report the driver to the traffic police.",
+      "D": "Ignore the report."
+    },
+    "answer": "B",
+    "explanation": "Load shedding in SA causes traffic delays, but drivers demanding extra cash violates policy. Empathize with the rider, refund, and report the driver.",
+    "skill": "Policy Violations"
+  },
+  {
+    "id": 186,
+    "question": "A customer in Nairobi named Zola messages: 'I tried paying for the ride using M-Pesa but the transaction failed. The driver is refusing to let me leave the vehicle.' How do you handle this high-stakes situation?",
+    "scenario": "M-Pesa payment failure in Kenya",
+    "options": {
+      "A": "Tell the passenger to call the police themselves and close the chat.",
+      "B": "Say: 'I am sorry to hear this, Zola. Please stay safe. I am contacting the driver immediately to resolve this and authorize the cash-out. Please tell the driver that Uber is resolving it now.'",
+      "C": "Tell them to wait for 24 hours for the transaction to clear.",
+      "D": "Explain that M-Pesa is a third-party app and not our problem."
+    },
+    "answer": "B",
+    "explanation": "Mobile money (like M-Pesa in Kenya) is a primary payment option. A failed transaction causing a dispute in the car requires immediate driver outreach and calming support.",
+    "skill": "High-Urgency Payment Resolution"
+  },
+  {
+    "id": 187,
+    "question": "A South African customer named Kofi writes: 'The driver took a route that felt very unsafe. I am shaken up.' How do you address their safety concern?",
+    "scenario": "Safety concern during route in SA",
+    "options": {
+      "A": "Explain that the driver was just avoiding traffic.",
+      "B": "Say: 'I am very sorry to hear this, Kofi. Your safety is our top priority. Let me review this route and pass this report directly to our dedicated Safety Team for investigation. Are you currently in a safe place?'",
+      "C": "Tell them to write a review of the route on Google Maps.",
+      "D": "Offer them a KSh 1200 discount on their next ride and close the chat."
+    },
+    "answer": "B",
+    "explanation": "Safety concerns in South Africa must be treated with high empathy and immediate escalation to the Safety Team. Always check if the user is currently safe.",
+    "skill": "Safety Protocols"
+  },
+  {
+    "id": 188,
+    "question": "A Nigerian client named Chioma starts their message with: 'Good day. I hope this find you well. I want to report a fare issue.' What cultural element is important here?",
+    "scenario": "African greeting etiquette",
+    "options": {
+      "A": "Greetings are wastes of time; ignore it and go straight to the refund.",
+      "B": "African customers value warm, respectful greetings and relational check-ins. You should reply: 'Good day, Chioma. I hope you are doing well too. Let me help you with that fare issue right away.'",
+      "C": "Tell them not to send greetings because we have strict handling time metrics.",
+      "D": "Answer with a short 'Hi. What is the issue?'"
+    },
+    "answer": "B",
+    "explanation": "In many African cultures (e.g. Nigeria, Ghana), starting with a warm and polite greeting is expected. Mirroring this warmth builds rapport.",
+    "skill": "Relational Tone & Warmth"
+  },
+  {
+    "id": 189,
+    "question": "A driver in Lagos writes: 'The rider didn't have cash and said they would transfer the money, but I haven't received it yet.' How do you assist?",
+    "scenario": "Lagos Cash/Transfer dispute",
+    "options": {
+      "A": "Tell the driver to search for the passenger and collect the money.",
+      "B": "Say: 'Hello. I understand this is frustrating. Let me look into this trip. We will verify the payment status and credit your driver wallet for the unpaid fare directly.'",
+      "C": "Deactivate the rider's account immediately without checking.",
+      "D": "Tell the driver that cash transfers are at their own risk."
+    },
+    "answer": "B",
+    "explanation": "Direct bank transfers are common in Nigeria when cash is low. If a transfer fails, support should verify the ride details and ensure the driver is compensated according to policy.",
+    "skill": "Driver Compensation"
+  },
+  {
+    "id": 190,
+    "question": "A passenger in Johannesburg says: 'My driver demanded that I pay extra cash for petrol because of the load shedding traffic.' What is the correct action?",
+    "scenario": "Load shedding cash extortion",
+    "options": {
+      "A": "Tell them to pay because load shedding is difficult for everyone.",
+      "B": "Apologize and explain that drivers must never demand extra cash. Refund the extra fee if they paid, and log a warning on the driver's profile.",
+      "C": "Tell them to report the driver to the traffic police.",
+      "D": "Ignore the report."
+    },
+    "answer": "B",
+    "explanation": "Load shedding in SA causes traffic delays, but drivers demanding extra cash violates policy. Empathize with the rider, refund, and report the driver.",
+    "skill": "Policy Violations"
+  },
+  {
+    "id": 191,
+    "question": "A customer in Nairobi named Chidi messages: 'I tried paying for the ride using M-Pesa but the transaction failed. The driver is refusing to let me leave the vehicle.' How do you handle this high-stakes situation?",
+    "scenario": "M-Pesa payment failure in Kenya",
+    "options": {
+      "A": "Tell the passenger to call the police themselves and close the chat.",
+      "B": "Say: 'I am sorry to hear this, Chidi. Please stay safe. I am contacting the driver immediately to resolve this and authorize the cash-out. Please tell the driver that Uber is resolving it now.'",
+      "C": "Tell them to wait for 24 hours for the transaction to clear.",
+      "D": "Explain that M-Pesa is a third-party app and not our problem."
+    },
+    "answer": "B",
+    "explanation": "Mobile money (like M-Pesa in Kenya) is a primary payment option. A failed transaction causing a dispute in the car requires immediate driver outreach and calming support.",
+    "skill": "High-Urgency Payment Resolution"
+  },
+  {
+    "id": 192,
+    "question": "A South African customer named Zola writes: 'The driver took a route that felt very unsafe. I am shaken up.' How do you address their safety concern?",
+    "scenario": "Safety concern during route in SA",
+    "options": {
+      "A": "Explain that the driver was just avoiding traffic.",
+      "B": "Say: 'I am very sorry to hear this, Zola. Your safety is our top priority. Let me review this route and pass this report directly to our dedicated Safety Team for investigation. Are you currently in a safe place?'",
+      "C": "Tell them to write a review of the route on Google Maps.",
+      "D": "Offer them a ₦8000 discount on their next ride and close the chat."
+    },
+    "answer": "B",
+    "explanation": "Safety concerns in South Africa must be treated with high empathy and immediate escalation to the Safety Team. Always check if the user is currently safe.",
+    "skill": "Safety Protocols"
+  },
+  {
+    "id": 193,
+    "question": "A Nigerian client named Chioma starts their message with: 'Good day. I hope this find you well. I want to report a fare issue.' What cultural element is important here?",
+    "scenario": "African greeting etiquette",
+    "options": {
+      "A": "Greetings are wastes of time; ignore it and go straight to the refund.",
+      "B": "African customers value warm, respectful greetings and relational check-ins. You should reply: 'Good day, Chioma. I hope you are doing well too. Let me help you with that fare issue right away.'",
+      "C": "Tell them not to send greetings because we have strict handling time metrics.",
+      "D": "Answer with a short 'Hi. What is the issue?'"
+    },
+    "answer": "B",
+    "explanation": "In many African cultures (e.g. Nigeria, Ghana), starting with a warm and polite greeting is expected. Mirroring this warmth builds rapport.",
+    "skill": "Relational Tone & Warmth"
+  },
+  {
+    "id": 194,
+    "question": "A driver in Lagos writes: 'The rider didn't have cash and said they would transfer the money, but I haven't received it yet.' How do you assist?",
+    "scenario": "Lagos Cash/Transfer dispute",
+    "options": {
+      "A": "Tell the driver to search for the passenger and collect the money.",
+      "B": "Say: 'Hello. I understand this is frustrating. Let me look into this trip. We will verify the payment status and credit your driver wallet for the unpaid fare directly.'",
+      "C": "Deactivate the rider's account immediately without checking.",
+      "D": "Tell the driver that cash transfers are at their own risk."
+    },
+    "answer": "B",
+    "explanation": "Direct bank transfers are common in Nigeria when cash is low. If a transfer fails, support should verify the ride details and ensure the driver is compensated according to policy.",
+    "skill": "Driver Compensation"
+  },
+  {
+    "id": 195,
+    "question": "A passenger in Johannesburg says: 'My driver demanded that I pay extra cash for petrol because of the load shedding traffic.' What is the correct action?",
+    "scenario": "Load shedding cash extortion",
+    "options": {
+      "A": "Tell them to pay because load shedding is difficult for everyone.",
+      "B": "Apologize and explain that drivers must never demand extra cash. Refund the extra fee if they paid, and log a warning on the driver's profile.",
+      "C": "Tell them to report the driver to the traffic police.",
+      "D": "Ignore the report."
+    },
+    "answer": "B",
+    "explanation": "Load shedding in SA causes traffic delays, but drivers demanding extra cash violates policy. Empathize with the rider, refund, and report the driver.",
+    "skill": "Policy Violations"
+  },
+  {
+    "id": 196,
+    "question": "A customer in Nairobi named Nnamdi messages: 'I tried paying for the ride using M-Pesa but the transaction failed. The driver is refusing to let me leave the vehicle.' How do you handle this high-stakes situation?",
+    "scenario": "M-Pesa payment failure in Kenya",
+    "options": {
+      "A": "Tell the passenger to call the police themselves and close the chat.",
+      "B": "Say: 'I am sorry to hear this, Nnamdi. Please stay safe. I am contacting the driver immediately to resolve this and authorize the cash-out. Please tell the driver that Uber is resolving it now.'",
+      "C": "Tell them to wait for 24 hours for the transaction to clear.",
+      "D": "Explain that M-Pesa is a third-party app and not our problem."
+    },
+    "answer": "B",
+    "explanation": "Mobile money (like M-Pesa in Kenya) is a primary payment option. A failed transaction causing a dispute in the car requires immediate driver outreach and calming support.",
+    "skill": "High-Urgency Payment Resolution"
+  },
+  {
+    "id": 197,
+    "question": "A South African customer named Kofi writes: 'The driver took a route that felt very unsafe. I am shaken up.' How do you address their safety concern?",
+    "scenario": "Safety concern during route in SA",
+    "options": {
+      "A": "Explain that the driver was just avoiding traffic.",
+      "B": "Say: 'I am very sorry to hear this, Kofi. Your safety is our top priority. Let me review this route and pass this report directly to our dedicated Safety Team for investigation. Are you currently in a safe place?'",
+      "C": "Tell them to write a review of the route on Google Maps.",
+      "D": "Offer them a ₦8000 discount on their next ride and close the chat."
+    },
+    "answer": "B",
+    "explanation": "Safety concerns in South Africa must be treated with high empathy and immediate escalation to the Safety Team. Always check if the user is currently safe.",
+    "skill": "Safety Protocols"
+  },
+  {
+    "id": 198,
+    "question": "A Nigerian client named Tendai starts their message with: 'Good day. I hope this find you well. I want to report a fare issue.' What cultural element is important here?",
+    "scenario": "African greeting etiquette",
+    "options": {
+      "A": "Greetings are wastes of time; ignore it and go straight to the refund.",
+      "B": "African customers value warm, respectful greetings and relational check-ins. You should reply: 'Good day, Tendai. I hope you are doing well too. Let me help you with that fare issue right away.'",
+      "C": "Tell them not to send greetings because we have strict handling time metrics.",
+      "D": "Answer with a short 'Hi. What is the issue?'"
+    },
+    "answer": "B",
+    "explanation": "In many African cultures (e.g. Nigeria, Ghana), starting with a warm and polite greeting is expected. Mirroring this warmth builds rapport.",
+    "skill": "Relational Tone & Warmth"
+  },
+  {
+    "id": 199,
+    "question": "A driver in Lagos writes: 'The rider didn't have cash and said they would transfer the money, but I haven't received it yet.' How do you assist?",
+    "scenario": "Lagos Cash/Transfer dispute",
+    "options": {
+      "A": "Tell the driver to search for the passenger and collect the money.",
+      "B": "Say: 'Hello. I understand this is frustrating. Let me look into this trip. We will verify the payment status and credit your driver wallet for the unpaid fare directly.'",
+      "C": "Deactivate the rider's account immediately without checking.",
+      "D": "Tell the driver that cash transfers are at their own risk."
+    },
+    "answer": "B",
+    "explanation": "Direct bank transfers are common in Nigeria when cash is low. If a transfer fails, support should verify the ride details and ensure the driver is compensated according to policy.",
+    "skill": "Driver Compensation"
+  },
+  {
+    "id": 200,
+    "question": "A passenger in Johannesburg says: 'My driver demanded that I pay extra cash for petrol because of the load shedding traffic.' What is the correct action?",
+    "scenario": "Load shedding cash extortion",
+    "options": {
+      "A": "Tell them to pay because load shedding is difficult for everyone.",
+      "B": "Apologize and explain that drivers must never demand extra cash. Refund the extra fee if they paid, and log a warning on the driver's profile.",
+      "C": "Tell them to report the driver to the traffic police.",
+      "D": "Ignore the report."
+    },
+    "answer": "B",
+    "explanation": "Load shedding in SA causes traffic delays, but drivers demanding extra cash violates policy. Empathize with the rider, refund, and report the driver.",
+    "skill": "Policy Violations"
+  }
+]

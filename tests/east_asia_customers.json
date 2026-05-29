@@ -1,0 +1,2802 @@
+[
+  {
+    "id": 1,
+    "question": "A Japanese customer named Chen writes: 'I apologize for causing any trouble, but the driver missed my pickup spot and I had to walk in the rain.' What is the best tone to respond with?",
+    "scenario": "Japanese customer politeness handling",
+    "options": {
+      "A": "Say: 'It's fine, at least you got your ride eventually.'",
+      "B": "Say: 'Thank you for your message. I am deeply sorry for the inconvenience and discomfort you experienced due to the missed pickup. We have refunded your fare as a gesture of goodwill.'",
+      "C": "Say: 'Why didn't you call the driver? It is your fault for not checking the GPS.'",
+      "D": "Say: 'Okay. I will refund you $10.00. Please rate us 5 stars.'"
+    },
+    "answer": "B",
+    "explanation": "East Asian customers, especially from Japan, appreciate deep politeness, formal apologies, and sincere gestures when their service expectations are not met.",
+    "skill": "Respectful Apology"
+  },
+  {
+    "id": 2,
+    "question": "An East Asian customer says: 'The driver was talking very loudly on his phone. It was slightly uncomfortable.' How do you address this complaint?",
+    "scenario": "Indirect complaint handling",
+    "options": {
+      "A": "Ignore it because 'slightly uncomfortable' means it is not a big issue.",
+      "B": "Acknowledge the feedback respectfully: 'Thank you for sharing your experience, Seo-yeon. We hold our drivers to high professional standards. I will pass your feedback to the review team to ensure a quiet environment.'",
+      "C": "Deactivate the driver's phone permissions.",
+      "D": "Tell the passenger they should have told the driver to shut up."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers often express dissatisfaction indirectly ('slightly uncomfortable' or 'a bit troubled'). Support agents must read between the lines and take complaints seriously.",
+    "skill": "Reading Indirect Signals"
+  },
+  {
+    "id": 3,
+    "question": "A customer in Seoul named Kenji has been charged a cancellation fee. They write: 'I arrived at the pin but the driver left. Please review this.' How should you decline a refund if the driver waited the full 5 minutes?",
+    "scenario": "Delivering negative news politely",
+    "options": {
+      "A": "Say: 'We cannot refund you. The driver waited 5 minutes. You were late.'",
+      "B": "Say: 'While I understand this is disappointing, Kenji, our system shows the driver waited at the pickup location for the required 5 minutes. To be fair to the driver's time, we are unable to refund this fee. Thank you for understanding.'",
+      "C": "Say: 'No refund. Rules are rules.'",
+      "D": "Say: 'Please check your watch. You were late.'"
+    },
+    "answer": "B",
+    "explanation": "When delivering negative news to East Asian clients, maintain high politeness, provide the reasoning clearly, and close with appreciation for their understanding to maintain harmony.",
+    "skill": "Polite Refusals"
+  },
+  {
+    "id": 4,
+    "question": "A customer from Singapore named Seo-yeon writes: 'The driver didn't want to follow my GPS route and went the long way, very sian.' What does 'sian' mean in Singlish?",
+    "scenario": "Singapore English understanding",
+    "options": {
+      "A": "Happy and excited.",
+      "B": "Bored, frustrated, or tired. You should check the route for fare inflation and apologize for the annoyance.",
+      "C": "Fast and efficient.",
+      "D": "Cheated by price."
+    },
+    "answer": "B",
+    "explanation": "'Sian' is a Singlish term expressing boredom, frustration, or exhaustion. Acknowledging this mood and validating their frustration is key.",
+    "skill": "Local Slang Comprehension"
+  },
+  {
+    "id": 5,
+    "question": "Why should you avoid using a customer's first name immediately in communication with traditional East Asian clients, unless they invite it?",
+    "scenario": "Cultural naming conventions",
+    "options": {
+      "A": "Because first names are secret in Asia.",
+      "B": "Using first names immediately can be perceived as overly familiar or disrespectful. Addressing them as Mr./Ms. [Last Name] is safer and highly professional.",
+      "C": "Because their names are too hard to pronounce.",
+      "D": "It doesn't matter, everyone prefers first names globally."
+    },
+    "answer": "B",
+    "explanation": "In many Asian cultures (Japan, South Korea, China), addressing someone by their first name on first contact can seem informal. Mr./Ms. or using full names respectfully is preferred.",
+    "skill": "Address Protocol"
+  },
+  {
+    "id": 6,
+    "question": "A customer from Tokyo writes: 'I left my briefcase in the vehicle. The driver is not picking up the phone. I am deeply concerned.' What is the best way to reassure them?",
+    "scenario": "High anxiety lost item",
+    "options": {
+      "A": "Tell them to wait. The driver will call when they are free.",
+      "B": "Say: 'I understand your concern, Seo-yeon. Please be assured that we will do our absolute best to contact the driver and secure your briefcase. I will keep you updated every step of the way.'",
+      "C": "Tell them to buy a replacement.",
+      "D": "Explain that we are not responsible for lost items."
+    },
+    "answer": "B",
+    "explanation": "Providing calm, structural reassurance and taking ownership of the search helps reduce the customer's anxiety and builds trust.",
+    "skill": "Reassurance & Trust"
+  },
+  {
+    "id": 7,
+    "question": "A Japanese customer named Yuki writes: 'I apologize for causing any trouble, but the driver missed my pickup spot and I had to walk in the rain.' What is the best tone to respond with?",
+    "scenario": "Japanese customer politeness handling",
+    "options": {
+      "A": "Say: 'It's fine, at least you got your ride eventually.'",
+      "B": "Say: 'Thank you for your message. I am deeply sorry for the inconvenience and discomfort you experienced due to the missed pickup. We have refunded your fare as a gesture of goodwill.'",
+      "C": "Say: 'Why didn't you call the driver? It is your fault for not checking the GPS.'",
+      "D": "Say: 'Okay. I will refund you $15.00. Please rate us 5 stars.'"
+    },
+    "answer": "B",
+    "explanation": "East Asian customers, especially from Japan, appreciate deep politeness, formal apologies, and sincere gestures when their service expectations are not met.",
+    "skill": "Respectful Apology"
+  },
+  {
+    "id": 8,
+    "question": "An East Asian customer says: 'The driver was talking very loudly on his phone. It was slightly uncomfortable.' How do you address this complaint?",
+    "scenario": "Indirect complaint handling",
+    "options": {
+      "A": "Ignore it because 'slightly uncomfortable' means it is not a big issue.",
+      "B": "Acknowledge the feedback respectfully: 'Thank you for sharing your experience, Seo-yeon. We hold our drivers to high professional standards. I will pass your feedback to the review team to ensure a quiet environment.'",
+      "C": "Deactivate the driver's phone permissions.",
+      "D": "Tell the passenger they should have told the driver to shut up."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers often express dissatisfaction indirectly ('slightly uncomfortable' or 'a bit troubled'). Support agents must read between the lines and take complaints seriously.",
+    "skill": "Reading Indirect Signals"
+  },
+  {
+    "id": 9,
+    "question": "A customer in Seoul named Yoon-ji has been charged a cancellation fee. They write: 'I arrived at the pin but the driver left. Please review this.' How should you decline a refund if the driver waited the full 5 minutes?",
+    "scenario": "Delivering negative news politely",
+    "options": {
+      "A": "Say: 'We cannot refund you. The driver waited 5 minutes. You were late.'",
+      "B": "Say: 'While I understand this is disappointing, Yoon-ji, our system shows the driver waited at the pickup location for the required 5 minutes. To be fair to the driver's time, we are unable to refund this fee. Thank you for understanding.'",
+      "C": "Say: 'No refund. Rules are rules.'",
+      "D": "Say: 'Please check your watch. You were late.'"
+    },
+    "answer": "B",
+    "explanation": "When delivering negative news to East Asian clients, maintain high politeness, provide the reasoning clearly, and close with appreciation for their understanding to maintain harmony.",
+    "skill": "Polite Refusals"
+  },
+  {
+    "id": 10,
+    "question": "A customer from Singapore named Li writes: 'The driver didn't want to follow my GPS route and went the long way, very sian.' What does 'sian' mean in Singlish?",
+    "scenario": "Singapore English understanding",
+    "options": {
+      "A": "Happy and excited.",
+      "B": "Bored, frustrated, or tired. You should check the route for fare inflation and apologize for the annoyance.",
+      "C": "Fast and efficient.",
+      "D": "Cheated by price."
+    },
+    "answer": "B",
+    "explanation": "'Sian' is a Singlish term expressing boredom, frustration, or exhaustion. Acknowledging this mood and validating their frustration is key.",
+    "skill": "Local Slang Comprehension"
+  },
+  {
+    "id": 11,
+    "question": "Why should you avoid using a customer's first name immediately in communication with traditional East Asian clients, unless they invite it?",
+    "scenario": "Cultural naming conventions",
+    "options": {
+      "A": "Because first names are secret in Asia.",
+      "B": "Using first names immediately can be perceived as overly familiar or disrespectful. Addressing them as Mr./Ms. [Last Name] is safer and highly professional.",
+      "C": "Because their names are too hard to pronounce.",
+      "D": "It doesn't matter, everyone prefers first names globally."
+    },
+    "answer": "B",
+    "explanation": "In many Asian cultures (Japan, South Korea, China), addressing someone by their first name on first contact can seem informal. Mr./Ms. or using full names respectfully is preferred.",
+    "skill": "Address Protocol"
+  },
+  {
+    "id": 12,
+    "question": "A customer from Tokyo writes: 'I left my briefcase in the vehicle. The driver is not picking up the phone. I am deeply concerned.' What is the best way to reassure them?",
+    "scenario": "High anxiety lost item",
+    "options": {
+      "A": "Tell them to wait. The driver will call when they are free.",
+      "B": "Say: 'I understand your concern, Yoon-ji. Please be assured that we will do our absolute best to contact the driver and secure your briefcase. I will keep you updated every step of the way.'",
+      "C": "Tell them to buy a replacement.",
+      "D": "Explain that we are not responsible for lost items."
+    },
+    "answer": "B",
+    "explanation": "Providing calm, structural reassurance and taking ownership of the search helps reduce the customer's anxiety and builds trust.",
+    "skill": "Reassurance & Trust"
+  },
+  {
+    "id": 13,
+    "question": "A Japanese customer named Sakura writes: 'I apologize for causing any trouble, but the driver missed my pickup spot and I had to walk in the rain.' What is the best tone to respond with?",
+    "scenario": "Japanese customer politeness handling",
+    "options": {
+      "A": "Say: 'It's fine, at least you got your ride eventually.'",
+      "B": "Say: 'Thank you for your message. I am deeply sorry for the inconvenience and discomfort you experienced due to the missed pickup. We have refunded your fare as a gesture of goodwill.'",
+      "C": "Say: 'Why didn't you call the driver? It is your fault for not checking the GPS.'",
+      "D": "Say: 'Okay. I will refund you $25.00. Please rate us 5 stars.'"
+    },
+    "answer": "B",
+    "explanation": "East Asian customers, especially from Japan, appreciate deep politeness, formal apologies, and sincere gestures when their service expectations are not met.",
+    "skill": "Respectful Apology"
+  },
+  {
+    "id": 14,
+    "question": "An East Asian customer says: 'The driver was talking very loudly on his phone. It was slightly uncomfortable.' How do you address this complaint?",
+    "scenario": "Indirect complaint handling",
+    "options": {
+      "A": "Ignore it because 'slightly uncomfortable' means it is not a big issue.",
+      "B": "Acknowledge the feedback respectfully: 'Thank you for sharing your experience, Mei. We hold our drivers to high professional standards. I will pass your feedback to the review team to ensure a quiet environment.'",
+      "C": "Deactivate the driver's phone permissions.",
+      "D": "Tell the passenger they should have told the driver to shut up."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers often express dissatisfaction indirectly ('slightly uncomfortable' or 'a bit troubled'). Support agents must read between the lines and take complaints seriously.",
+    "skill": "Reading Indirect Signals"
+  },
+  {
+    "id": 15,
+    "question": "A customer in Seoul named Kenji has been charged a cancellation fee. They write: 'I arrived at the pin but the driver left. Please review this.' How should you decline a refund if the driver waited the full 5 minutes?",
+    "scenario": "Delivering negative news politely",
+    "options": {
+      "A": "Say: 'We cannot refund you. The driver waited 5 minutes. You were late.'",
+      "B": "Say: 'While I understand this is disappointing, Kenji, our system shows the driver waited at the pickup location for the required 5 minutes. To be fair to the driver's time, we are unable to refund this fee. Thank you for understanding.'",
+      "C": "Say: 'No refund. Rules are rules.'",
+      "D": "Say: 'Please check your watch. You were late.'"
+    },
+    "answer": "B",
+    "explanation": "When delivering negative news to East Asian clients, maintain high politeness, provide the reasoning clearly, and close with appreciation for their understanding to maintain harmony.",
+    "skill": "Polite Refusals"
+  },
+  {
+    "id": 16,
+    "question": "A customer from Singapore named Hana writes: 'The driver didn't want to follow my GPS route and went the long way, very sian.' What does 'sian' mean in Singlish?",
+    "scenario": "Singapore English understanding",
+    "options": {
+      "A": "Happy and excited.",
+      "B": "Bored, frustrated, or tired. You should check the route for fare inflation and apologize for the annoyance.",
+      "C": "Fast and efficient.",
+      "D": "Cheated by price."
+    },
+    "answer": "B",
+    "explanation": "'Sian' is a Singlish term expressing boredom, frustration, or exhaustion. Acknowledging this mood and validating their frustration is key.",
+    "skill": "Local Slang Comprehension"
+  },
+  {
+    "id": 17,
+    "question": "Why should you avoid using a customer's first name immediately in communication with traditional East Asian clients, unless they invite it?",
+    "scenario": "Cultural naming conventions",
+    "options": {
+      "A": "Because first names are secret in Asia.",
+      "B": "Using first names immediately can be perceived as overly familiar or disrespectful. Addressing them as Mr./Ms. [Last Name] is safer and highly professional.",
+      "C": "Because their names are too hard to pronounce.",
+      "D": "It doesn't matter, everyone prefers first names globally."
+    },
+    "answer": "B",
+    "explanation": "In many Asian cultures (Japan, South Korea, China), addressing someone by their first name on first contact can seem informal. Mr./Ms. or using full names respectfully is preferred.",
+    "skill": "Address Protocol"
+  },
+  {
+    "id": 18,
+    "question": "A customer from Tokyo writes: 'I left my keys in the vehicle. The driver is not picking up the phone. I am deeply concerned.' What is the best way to reassure them?",
+    "scenario": "High anxiety lost item",
+    "options": {
+      "A": "Tell them to wait. The driver will call when they are free.",
+      "B": "Say: 'I understand your concern, Yoon-ji. Please be assured that we will do our absolute best to contact the driver and secure your keys. I will keep you updated every step of the way.'",
+      "C": "Tell them to buy a replacement.",
+      "D": "Explain that we are not responsible for lost items."
+    },
+    "answer": "B",
+    "explanation": "Providing calm, structural reassurance and taking ownership of the search helps reduce the customer's anxiety and builds trust.",
+    "skill": "Reassurance & Trust"
+  },
+  {
+    "id": 19,
+    "question": "A Japanese customer named Kenji writes: 'I apologize for causing any trouble, but the driver missed my pickup spot and I had to walk in the rain.' What is the best tone to respond with?",
+    "scenario": "Japanese customer politeness handling",
+    "options": {
+      "A": "Say: 'It's fine, at least you got your ride eventually.'",
+      "B": "Say: 'Thank you for your message. I am deeply sorry for the inconvenience and discomfort you experienced due to the missed pickup. We have refunded your fare as a gesture of goodwill.'",
+      "C": "Say: 'Why didn't you call the driver? It is your fault for not checking the GPS.'",
+      "D": "Say: 'Okay. I will refund you $75.00. Please rate us 5 stars.'"
+    },
+    "answer": "B",
+    "explanation": "East Asian customers, especially from Japan, appreciate deep politeness, formal apologies, and sincere gestures when their service expectations are not met.",
+    "skill": "Respectful Apology"
+  },
+  {
+    "id": 20,
+    "question": "An East Asian customer says: 'The driver was talking very loudly on his phone. It was slightly uncomfortable.' How do you address this complaint?",
+    "scenario": "Indirect complaint handling",
+    "options": {
+      "A": "Ignore it because 'slightly uncomfortable' means it is not a big issue.",
+      "B": "Acknowledge the feedback respectfully: 'Thank you for sharing your experience, Min-su. We hold our drivers to high professional standards. I will pass your feedback to the review team to ensure a quiet environment.'",
+      "C": "Deactivate the driver's phone permissions.",
+      "D": "Tell the passenger they should have told the driver to shut up."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers often express dissatisfaction indirectly ('slightly uncomfortable' or 'a bit troubled'). Support agents must read between the lines and take complaints seriously.",
+    "skill": "Reading Indirect Signals"
+  },
+  {
+    "id": 21,
+    "question": "A customer in Seoul named Hiroshi has been charged a cancellation fee. They write: 'I arrived at the pin but the driver left. Please review this.' How should you decline a refund if the driver waited the full 5 minutes?",
+    "scenario": "Delivering negative news politely",
+    "options": {
+      "A": "Say: 'We cannot refund you. The driver waited 5 minutes. You were late.'",
+      "B": "Say: 'While I understand this is disappointing, Hiroshi, our system shows the driver waited at the pickup location for the required 5 minutes. To be fair to the driver's time, we are unable to refund this fee. Thank you for understanding.'",
+      "C": "Say: 'No refund. Rules are rules.'",
+      "D": "Say: 'Please check your watch. You were late.'"
+    },
+    "answer": "B",
+    "explanation": "When delivering negative news to East Asian clients, maintain high politeness, provide the reasoning clearly, and close with appreciation for their understanding to maintain harmony.",
+    "skill": "Polite Refusals"
+  },
+  {
+    "id": 22,
+    "question": "A customer from Singapore named Min-su writes: 'The driver didn't want to follow my GPS route and went the long way, very sian.' What does 'sian' mean in Singlish?",
+    "scenario": "Singapore English understanding",
+    "options": {
+      "A": "Happy and excited.",
+      "B": "Bored, frustrated, or tired. You should check the route for fare inflation and apologize for the annoyance.",
+      "C": "Fast and efficient.",
+      "D": "Cheated by price."
+    },
+    "answer": "B",
+    "explanation": "'Sian' is a Singlish term expressing boredom, frustration, or exhaustion. Acknowledging this mood and validating their frustration is key.",
+    "skill": "Local Slang Comprehension"
+  },
+  {
+    "id": 23,
+    "question": "Why should you avoid using a customer's first name immediately in communication with traditional East Asian clients, unless they invite it?",
+    "scenario": "Cultural naming conventions",
+    "options": {
+      "A": "Because first names are secret in Asia.",
+      "B": "Using first names immediately can be perceived as overly familiar or disrespectful. Addressing them as Mr./Ms. [Last Name] is safer and highly professional.",
+      "C": "Because their names are too hard to pronounce.",
+      "D": "It doesn't matter, everyone prefers first names globally."
+    },
+    "answer": "B",
+    "explanation": "In many Asian cultures (Japan, South Korea, China), addressing someone by their first name on first contact can seem informal. Mr./Ms. or using full names respectfully is preferred.",
+    "skill": "Address Protocol"
+  },
+  {
+    "id": 24,
+    "question": "A customer from Tokyo writes: 'I left my passport in the vehicle. The driver is not picking up the phone. I am deeply concerned.' What is the best way to reassure them?",
+    "scenario": "High anxiety lost item",
+    "options": {
+      "A": "Tell them to wait. The driver will call when they are free.",
+      "B": "Say: 'I understand your concern, Seo-yeon. Please be assured that we will do our absolute best to contact the driver and secure your passport. I will keep you updated every step of the way.'",
+      "C": "Tell them to buy a replacement.",
+      "D": "Explain that we are not responsible for lost items."
+    },
+    "answer": "B",
+    "explanation": "Providing calm, structural reassurance and taking ownership of the search helps reduce the customer's anxiety and builds trust.",
+    "skill": "Reassurance & Trust"
+  },
+  {
+    "id": 25,
+    "question": "A Japanese customer named Wei writes: 'I apologize for causing any trouble, but the driver missed my pickup spot and I had to walk in the rain.' What is the best tone to respond with?",
+    "scenario": "Japanese customer politeness handling",
+    "options": {
+      "A": "Say: 'It's fine, at least you got your ride eventually.'",
+      "B": "Say: 'Thank you for your message. I am deeply sorry for the inconvenience and discomfort you experienced due to the missed pickup. We have refunded your fare as a gesture of goodwill.'",
+      "C": "Say: 'Why didn't you call the driver? It is your fault for not checking the GPS.'",
+      "D": "Say: 'Okay. I will refund you $75.00. Please rate us 5 stars.'"
+    },
+    "answer": "B",
+    "explanation": "East Asian customers, especially from Japan, appreciate deep politeness, formal apologies, and sincere gestures when their service expectations are not met.",
+    "skill": "Respectful Apology"
+  },
+  {
+    "id": 26,
+    "question": "An East Asian customer says: 'The driver was talking very loudly on his phone. It was slightly uncomfortable.' How do you address this complaint?",
+    "scenario": "Indirect complaint handling",
+    "options": {
+      "A": "Ignore it because 'slightly uncomfortable' means it is not a big issue.",
+      "B": "Acknowledge the feedback respectfully: 'Thank you for sharing your experience, Kaito. We hold our drivers to high professional standards. I will pass your feedback to the review team to ensure a quiet environment.'",
+      "C": "Deactivate the driver's phone permissions.",
+      "D": "Tell the passenger they should have told the driver to shut up."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers often express dissatisfaction indirectly ('slightly uncomfortable' or 'a bit troubled'). Support agents must read between the lines and take complaints seriously.",
+    "skill": "Reading Indirect Signals"
+  },
+  {
+    "id": 27,
+    "question": "A customer in Seoul named Min-su has been charged a cancellation fee. They write: 'I arrived at the pin but the driver left. Please review this.' How should you decline a refund if the driver waited the full 5 minutes?",
+    "scenario": "Delivering negative news politely",
+    "options": {
+      "A": "Say: 'We cannot refund you. The driver waited 5 minutes. You were late.'",
+      "B": "Say: 'While I understand this is disappointing, Min-su, our system shows the driver waited at the pickup location for the required 5 minutes. To be fair to the driver's time, we are unable to refund this fee. Thank you for understanding.'",
+      "C": "Say: 'No refund. Rules are rules.'",
+      "D": "Say: 'Please check your watch. You were late.'"
+    },
+    "answer": "B",
+    "explanation": "When delivering negative news to East Asian clients, maintain high politeness, provide the reasoning clearly, and close with appreciation for their understanding to maintain harmony.",
+    "skill": "Polite Refusals"
+  },
+  {
+    "id": 28,
+    "question": "A customer from Singapore named Chao writes: 'The driver didn't want to follow my GPS route and went the long way, very sian.' What does 'sian' mean in Singlish?",
+    "scenario": "Singapore English understanding",
+    "options": {
+      "A": "Happy and excited.",
+      "B": "Bored, frustrated, or tired. You should check the route for fare inflation and apologize for the annoyance.",
+      "C": "Fast and efficient.",
+      "D": "Cheated by price."
+    },
+    "answer": "B",
+    "explanation": "'Sian' is a Singlish term expressing boredom, frustration, or exhaustion. Acknowledging this mood and validating their frustration is key.",
+    "skill": "Local Slang Comprehension"
+  },
+  {
+    "id": 29,
+    "question": "Why should you avoid using a customer's first name immediately in communication with traditional East Asian clients, unless they invite it?",
+    "scenario": "Cultural naming conventions",
+    "options": {
+      "A": "Because first names are secret in Asia.",
+      "B": "Using first names immediately can be perceived as overly familiar or disrespectful. Addressing them as Mr./Ms. [Last Name] is safer and highly professional.",
+      "C": "Because their names are too hard to pronounce.",
+      "D": "It doesn't matter, everyone prefers first names globally."
+    },
+    "answer": "B",
+    "explanation": "In many Asian cultures (Japan, South Korea, China), addressing someone by their first name on first contact can seem informal. Mr./Ms. or using full names respectfully is preferred.",
+    "skill": "Address Protocol"
+  },
+  {
+    "id": 30,
+    "question": "A customer from Tokyo writes: 'I left my keys in the vehicle. The driver is not picking up the phone. I am deeply concerned.' What is the best way to reassure them?",
+    "scenario": "High anxiety lost item",
+    "options": {
+      "A": "Tell them to wait. The driver will call when they are free.",
+      "B": "Say: 'I understand your concern, Wei. Please be assured that we will do our absolute best to contact the driver and secure your keys. I will keep you updated every step of the way.'",
+      "C": "Tell them to buy a replacement.",
+      "D": "Explain that we are not responsible for lost items."
+    },
+    "answer": "B",
+    "explanation": "Providing calm, structural reassurance and taking ownership of the search helps reduce the customer's anxiety and builds trust.",
+    "skill": "Reassurance & Trust"
+  },
+  {
+    "id": 31,
+    "question": "A Japanese customer named Chao writes: 'I apologize for causing any trouble, but the driver missed my pickup spot and I had to walk in the rain.' What is the best tone to respond with?",
+    "scenario": "Japanese customer politeness handling",
+    "options": {
+      "A": "Say: 'It's fine, at least you got your ride eventually.'",
+      "B": "Say: 'Thank you for your message. I am deeply sorry for the inconvenience and discomfort you experienced due to the missed pickup. We have refunded your fare as a gesture of goodwill.'",
+      "C": "Say: 'Why didn't you call the driver? It is your fault for not checking the GPS.'",
+      "D": "Say: 'Okay. I will refund you $15.00. Please rate us 5 stars.'"
+    },
+    "answer": "B",
+    "explanation": "East Asian customers, especially from Japan, appreciate deep politeness, formal apologies, and sincere gestures when their service expectations are not met.",
+    "skill": "Respectful Apology"
+  },
+  {
+    "id": 32,
+    "question": "An East Asian customer says: 'The driver was talking very loudly on his phone. It was slightly uncomfortable.' How do you address this complaint?",
+    "scenario": "Indirect complaint handling",
+    "options": {
+      "A": "Ignore it because 'slightly uncomfortable' means it is not a big issue.",
+      "B": "Acknowledge the feedback respectfully: 'Thank you for sharing your experience, Wei. We hold our drivers to high professional standards. I will pass your feedback to the review team to ensure a quiet environment.'",
+      "C": "Deactivate the driver's phone permissions.",
+      "D": "Tell the passenger they should have told the driver to shut up."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers often express dissatisfaction indirectly ('slightly uncomfortable' or 'a bit troubled'). Support agents must read between the lines and take complaints seriously.",
+    "skill": "Reading Indirect Signals"
+  },
+  {
+    "id": 33,
+    "question": "A customer in Seoul named Hana has been charged a cancellation fee. They write: 'I arrived at the pin but the driver left. Please review this.' How should you decline a refund if the driver waited the full 5 minutes?",
+    "scenario": "Delivering negative news politely",
+    "options": {
+      "A": "Say: 'We cannot refund you. The driver waited 5 minutes. You were late.'",
+      "B": "Say: 'While I understand this is disappointing, Hana, our system shows the driver waited at the pickup location for the required 5 minutes. To be fair to the driver's time, we are unable to refund this fee. Thank you for understanding.'",
+      "C": "Say: 'No refund. Rules are rules.'",
+      "D": "Say: 'Please check your watch. You were late.'"
+    },
+    "answer": "B",
+    "explanation": "When delivering negative news to East Asian clients, maintain high politeness, provide the reasoning clearly, and close with appreciation for their understanding to maintain harmony.",
+    "skill": "Polite Refusals"
+  },
+  {
+    "id": 34,
+    "question": "A customer from Singapore named Sakura writes: 'The driver didn't want to follow my GPS route and went the long way, very sian.' What does 'sian' mean in Singlish?",
+    "scenario": "Singapore English understanding",
+    "options": {
+      "A": "Happy and excited.",
+      "B": "Bored, frustrated, or tired. You should check the route for fare inflation and apologize for the annoyance.",
+      "C": "Fast and efficient.",
+      "D": "Cheated by price."
+    },
+    "answer": "B",
+    "explanation": "'Sian' is a Singlish term expressing boredom, frustration, or exhaustion. Acknowledging this mood and validating their frustration is key.",
+    "skill": "Local Slang Comprehension"
+  },
+  {
+    "id": 35,
+    "question": "Why should you avoid using a customer's first name immediately in communication with traditional East Asian clients, unless they invite it?",
+    "scenario": "Cultural naming conventions",
+    "options": {
+      "A": "Because first names are secret in Asia.",
+      "B": "Using first names immediately can be perceived as overly familiar or disrespectful. Addressing them as Mr./Ms. [Last Name] is safer and highly professional.",
+      "C": "Because their names are too hard to pronounce.",
+      "D": "It doesn't matter, everyone prefers first names globally."
+    },
+    "answer": "B",
+    "explanation": "In many Asian cultures (Japan, South Korea, China), addressing someone by their first name on first contact can seem informal. Mr./Ms. or using full names respectfully is preferred.",
+    "skill": "Address Protocol"
+  },
+  {
+    "id": 36,
+    "question": "A customer from Tokyo writes: 'I left my backpack in the vehicle. The driver is not picking up the phone. I am deeply concerned.' What is the best way to reassure them?",
+    "scenario": "High anxiety lost item",
+    "options": {
+      "A": "Tell them to wait. The driver will call when they are free.",
+      "B": "Say: 'I understand your concern, Hiroshi. Please be assured that we will do our absolute best to contact the driver and secure your backpack. I will keep you updated every step of the way.'",
+      "C": "Tell them to buy a replacement.",
+      "D": "Explain that we are not responsible for lost items."
+    },
+    "answer": "B",
+    "explanation": "Providing calm, structural reassurance and taking ownership of the search helps reduce the customer's anxiety and builds trust.",
+    "skill": "Reassurance & Trust"
+  },
+  {
+    "id": 37,
+    "question": "A Japanese customer named Kenji writes: 'I apologize for causing any trouble, but the driver missed my pickup spot and I had to walk in the rain.' What is the best tone to respond with?",
+    "scenario": "Japanese customer politeness handling",
+    "options": {
+      "A": "Say: 'It's fine, at least you got your ride eventually.'",
+      "B": "Say: 'Thank you for your message. I am deeply sorry for the inconvenience and discomfort you experienced due to the missed pickup. We have refunded your fare as a gesture of goodwill.'",
+      "C": "Say: 'Why didn't you call the driver? It is your fault for not checking the GPS.'",
+      "D": "Say: 'Okay. I will refund you $5.00. Please rate us 5 stars.'"
+    },
+    "answer": "B",
+    "explanation": "East Asian customers, especially from Japan, appreciate deep politeness, formal apologies, and sincere gestures when their service expectations are not met.",
+    "skill": "Respectful Apology"
+  },
+  {
+    "id": 38,
+    "question": "An East Asian customer says: 'The driver was talking very loudly on his phone. It was slightly uncomfortable.' How do you address this complaint?",
+    "scenario": "Indirect complaint handling",
+    "options": {
+      "A": "Ignore it because 'slightly uncomfortable' means it is not a big issue.",
+      "B": "Acknowledge the feedback respectfully: 'Thank you for sharing your experience, Mei. We hold our drivers to high professional standards. I will pass your feedback to the review team to ensure a quiet environment.'",
+      "C": "Deactivate the driver's phone permissions.",
+      "D": "Tell the passenger they should have told the driver to shut up."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers often express dissatisfaction indirectly ('slightly uncomfortable' or 'a bit troubled'). Support agents must read between the lines and take complaints seriously.",
+    "skill": "Reading Indirect Signals"
+  },
+  {
+    "id": 39,
+    "question": "A customer in Seoul named Ji-won has been charged a cancellation fee. They write: 'I arrived at the pin but the driver left. Please review this.' How should you decline a refund if the driver waited the full 5 minutes?",
+    "scenario": "Delivering negative news politely",
+    "options": {
+      "A": "Say: 'We cannot refund you. The driver waited 5 minutes. You were late.'",
+      "B": "Say: 'While I understand this is disappointing, Ji-won, our system shows the driver waited at the pickup location for the required 5 minutes. To be fair to the driver's time, we are unable to refund this fee. Thank you for understanding.'",
+      "C": "Say: 'No refund. Rules are rules.'",
+      "D": "Say: 'Please check your watch. You were late.'"
+    },
+    "answer": "B",
+    "explanation": "When delivering negative news to East Asian clients, maintain high politeness, provide the reasoning clearly, and close with appreciation for their understanding to maintain harmony.",
+    "skill": "Polite Refusals"
+  },
+  {
+    "id": 40,
+    "question": "A customer from Singapore named Takahiro writes: 'The driver didn't want to follow my GPS route and went the long way, very sian.' What does 'sian' mean in Singlish?",
+    "scenario": "Singapore English understanding",
+    "options": {
+      "A": "Happy and excited.",
+      "B": "Bored, frustrated, or tired. You should check the route for fare inflation and apologize for the annoyance.",
+      "C": "Fast and efficient.",
+      "D": "Cheated by price."
+    },
+    "answer": "B",
+    "explanation": "'Sian' is a Singlish term expressing boredom, frustration, or exhaustion. Acknowledging this mood and validating their frustration is key.",
+    "skill": "Local Slang Comprehension"
+  },
+  {
+    "id": 41,
+    "question": "Why should you avoid using a customer's first name immediately in communication with traditional East Asian clients, unless they invite it?",
+    "scenario": "Cultural naming conventions",
+    "options": {
+      "A": "Because first names are secret in Asia.",
+      "B": "Using first names immediately can be perceived as overly familiar or disrespectful. Addressing them as Mr./Ms. [Last Name] is safer and highly professional.",
+      "C": "Because their names are too hard to pronounce.",
+      "D": "It doesn't matter, everyone prefers first names globally."
+    },
+    "answer": "B",
+    "explanation": "In many Asian cultures (Japan, South Korea, China), addressing someone by their first name on first contact can seem informal. Mr./Ms. or using full names respectfully is preferred.",
+    "skill": "Address Protocol"
+  },
+  {
+    "id": 42,
+    "question": "A customer from Tokyo writes: 'I left my wallet in the vehicle. The driver is not picking up the phone. I am deeply concerned.' What is the best way to reassure them?",
+    "scenario": "High anxiety lost item",
+    "options": {
+      "A": "Tell them to wait. The driver will call when they are free.",
+      "B": "Say: 'I understand your concern, Min-su. Please be assured that we will do our absolute best to contact the driver and secure your wallet. I will keep you updated every step of the way.'",
+      "C": "Tell them to buy a replacement.",
+      "D": "Explain that we are not responsible for lost items."
+    },
+    "answer": "B",
+    "explanation": "Providing calm, structural reassurance and taking ownership of the search helps reduce the customer's anxiety and builds trust.",
+    "skill": "Reassurance & Trust"
+  },
+  {
+    "id": 43,
+    "question": "A Japanese customer named Ji-won writes: 'I apologize for causing any trouble, but the driver missed my pickup spot and I had to walk in the rain.' What is the best tone to respond with?",
+    "scenario": "Japanese customer politeness handling",
+    "options": {
+      "A": "Say: 'It's fine, at least you got your ride eventually.'",
+      "B": "Say: 'Thank you for your message. I am deeply sorry for the inconvenience and discomfort you experienced due to the missed pickup. We have refunded your fare as a gesture of goodwill.'",
+      "C": "Say: 'Why didn't you call the driver? It is your fault for not checking the GPS.'",
+      "D": "Say: 'Okay. I will refund you $75.00. Please rate us 5 stars.'"
+    },
+    "answer": "B",
+    "explanation": "East Asian customers, especially from Japan, appreciate deep politeness, formal apologies, and sincere gestures when their service expectations are not met.",
+    "skill": "Respectful Apology"
+  },
+  {
+    "id": 44,
+    "question": "An East Asian customer says: 'The driver was talking very loudly on his phone. It was slightly uncomfortable.' How do you address this complaint?",
+    "scenario": "Indirect complaint handling",
+    "options": {
+      "A": "Ignore it because 'slightly uncomfortable' means it is not a big issue.",
+      "B": "Acknowledge the feedback respectfully: 'Thank you for sharing your experience, Chao. We hold our drivers to high professional standards. I will pass your feedback to the review team to ensure a quiet environment.'",
+      "C": "Deactivate the driver's phone permissions.",
+      "D": "Tell the passenger they should have told the driver to shut up."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers often express dissatisfaction indirectly ('slightly uncomfortable' or 'a bit troubled'). Support agents must read between the lines and take complaints seriously.",
+    "skill": "Reading Indirect Signals"
+  },
+  {
+    "id": 45,
+    "question": "A customer in Seoul named Seo-yeon has been charged a cancellation fee. They write: 'I arrived at the pin but the driver left. Please review this.' How should you decline a refund if the driver waited the full 5 minutes?",
+    "scenario": "Delivering negative news politely",
+    "options": {
+      "A": "Say: 'We cannot refund you. The driver waited 5 minutes. You were late.'",
+      "B": "Say: 'While I understand this is disappointing, Seo-yeon, our system shows the driver waited at the pickup location for the required 5 minutes. To be fair to the driver's time, we are unable to refund this fee. Thank you for understanding.'",
+      "C": "Say: 'No refund. Rules are rules.'",
+      "D": "Say: 'Please check your watch. You were late.'"
+    },
+    "answer": "B",
+    "explanation": "When delivering negative news to East Asian clients, maintain high politeness, provide the reasoning clearly, and close with appreciation for their understanding to maintain harmony.",
+    "skill": "Polite Refusals"
+  },
+  {
+    "id": 46,
+    "question": "A customer from Singapore named Ji-won writes: 'The driver didn't want to follow my GPS route and went the long way, very sian.' What does 'sian' mean in Singlish?",
+    "scenario": "Singapore English understanding",
+    "options": {
+      "A": "Happy and excited.",
+      "B": "Bored, frustrated, or tired. You should check the route for fare inflation and apologize for the annoyance.",
+      "C": "Fast and efficient.",
+      "D": "Cheated by price."
+    },
+    "answer": "B",
+    "explanation": "'Sian' is a Singlish term expressing boredom, frustration, or exhaustion. Acknowledging this mood and validating their frustration is key.",
+    "skill": "Local Slang Comprehension"
+  },
+  {
+    "id": 47,
+    "question": "Why should you avoid using a customer's first name immediately in communication with traditional East Asian clients, unless they invite it?",
+    "scenario": "Cultural naming conventions",
+    "options": {
+      "A": "Because first names are secret in Asia.",
+      "B": "Using first names immediately can be perceived as overly familiar or disrespectful. Addressing them as Mr./Ms. [Last Name] is safer and highly professional.",
+      "C": "Because their names are too hard to pronounce.",
+      "D": "It doesn't matter, everyone prefers first names globally."
+    },
+    "answer": "B",
+    "explanation": "In many Asian cultures (Japan, South Korea, China), addressing someone by their first name on first contact can seem informal. Mr./Ms. or using full names respectfully is preferred.",
+    "skill": "Address Protocol"
+  },
+  {
+    "id": 48,
+    "question": "A customer from Tokyo writes: 'I left my jacket in the vehicle. The driver is not picking up the phone. I am deeply concerned.' What is the best way to reassure them?",
+    "scenario": "High anxiety lost item",
+    "options": {
+      "A": "Tell them to wait. The driver will call when they are free.",
+      "B": "Say: 'I understand your concern, Kaito. Please be assured that we will do our absolute best to contact the driver and secure your jacket. I will keep you updated every step of the way.'",
+      "C": "Tell them to buy a replacement.",
+      "D": "Explain that we are not responsible for lost items."
+    },
+    "answer": "B",
+    "explanation": "Providing calm, structural reassurance and taking ownership of the search helps reduce the customer's anxiety and builds trust.",
+    "skill": "Reassurance & Trust"
+  },
+  {
+    "id": 49,
+    "question": "A Japanese customer named Yuki writes: 'I apologize for causing any trouble, but the driver missed my pickup spot and I had to walk in the rain.' What is the best tone to respond with?",
+    "scenario": "Japanese customer politeness handling",
+    "options": {
+      "A": "Say: 'It's fine, at least you got your ride eventually.'",
+      "B": "Say: 'Thank you for your message. I am deeply sorry for the inconvenience and discomfort you experienced due to the missed pickup. We have refunded your fare as a gesture of goodwill.'",
+      "C": "Say: 'Why didn't you call the driver? It is your fault for not checking the GPS.'",
+      "D": "Say: 'Okay. I will refund you $45.00. Please rate us 5 stars.'"
+    },
+    "answer": "B",
+    "explanation": "East Asian customers, especially from Japan, appreciate deep politeness, formal apologies, and sincere gestures when their service expectations are not met.",
+    "skill": "Respectful Apology"
+  },
+  {
+    "id": 50,
+    "question": "An East Asian customer says: 'The driver was talking very loudly on his phone. It was slightly uncomfortable.' How do you address this complaint?",
+    "scenario": "Indirect complaint handling",
+    "options": {
+      "A": "Ignore it because 'slightly uncomfortable' means it is not a big issue.",
+      "B": "Acknowledge the feedback respectfully: 'Thank you for sharing your experience, Sakura. We hold our drivers to high professional standards. I will pass your feedback to the review team to ensure a quiet environment.'",
+      "C": "Deactivate the driver's phone permissions.",
+      "D": "Tell the passenger they should have told the driver to shut up."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers often express dissatisfaction indirectly ('slightly uncomfortable' or 'a bit troubled'). Support agents must read between the lines and take complaints seriously.",
+    "skill": "Reading Indirect Signals"
+  },
+  {
+    "id": 51,
+    "question": "A customer in Seoul named Mei has been charged a cancellation fee. They write: 'I arrived at the pin but the driver left. Please review this.' How should you decline a refund if the driver waited the full 5 minutes?",
+    "scenario": "Delivering negative news politely",
+    "options": {
+      "A": "Say: 'We cannot refund you. The driver waited 5 minutes. You were late.'",
+      "B": "Say: 'While I understand this is disappointing, Mei, our system shows the driver waited at the pickup location for the required 5 minutes. To be fair to the driver's time, we are unable to refund this fee. Thank you for understanding.'",
+      "C": "Say: 'No refund. Rules are rules.'",
+      "D": "Say: 'Please check your watch. You were late.'"
+    },
+    "answer": "B",
+    "explanation": "When delivering negative news to East Asian clients, maintain high politeness, provide the reasoning clearly, and close with appreciation for their understanding to maintain harmony.",
+    "skill": "Polite Refusals"
+  },
+  {
+    "id": 52,
+    "question": "A customer from Singapore named Seo-yeon writes: 'The driver didn't want to follow my GPS route and went the long way, very sian.' What does 'sian' mean in Singlish?",
+    "scenario": "Singapore English understanding",
+    "options": {
+      "A": "Happy and excited.",
+      "B": "Bored, frustrated, or tired. You should check the route for fare inflation and apologize for the annoyance.",
+      "C": "Fast and efficient.",
+      "D": "Cheated by price."
+    },
+    "answer": "B",
+    "explanation": "'Sian' is a Singlish term expressing boredom, frustration, or exhaustion. Acknowledging this mood and validating their frustration is key.",
+    "skill": "Local Slang Comprehension"
+  },
+  {
+    "id": 53,
+    "question": "Why should you avoid using a customer's first name immediately in communication with traditional East Asian clients, unless they invite it?",
+    "scenario": "Cultural naming conventions",
+    "options": {
+      "A": "Because first names are secret in Asia.",
+      "B": "Using first names immediately can be perceived as overly familiar or disrespectful. Addressing them as Mr./Ms. [Last Name] is safer and highly professional.",
+      "C": "Because their names are too hard to pronounce.",
+      "D": "It doesn't matter, everyone prefers first names globally."
+    },
+    "answer": "B",
+    "explanation": "In many Asian cultures (Japan, South Korea, China), addressing someone by their first name on first contact can seem informal. Mr./Ms. or using full names respectfully is preferred.",
+    "skill": "Address Protocol"
+  },
+  {
+    "id": 54,
+    "question": "A customer from Tokyo writes: 'I left my backpack in the vehicle. The driver is not picking up the phone. I am deeply concerned.' What is the best way to reassure them?",
+    "scenario": "High anxiety lost item",
+    "options": {
+      "A": "Tell them to wait. The driver will call when they are free.",
+      "B": "Say: 'I understand your concern, Seo-yeon. Please be assured that we will do our absolute best to contact the driver and secure your backpack. I will keep you updated every step of the way.'",
+      "C": "Tell them to buy a replacement.",
+      "D": "Explain that we are not responsible for lost items."
+    },
+    "answer": "B",
+    "explanation": "Providing calm, structural reassurance and taking ownership of the search helps reduce the customer's anxiety and builds trust.",
+    "skill": "Reassurance & Trust"
+  },
+  {
+    "id": 55,
+    "question": "A Japanese customer named Takahiro writes: 'I apologize for causing any trouble, but the driver missed my pickup spot and I had to walk in the rain.' What is the best tone to respond with?",
+    "scenario": "Japanese customer politeness handling",
+    "options": {
+      "A": "Say: 'It's fine, at least you got your ride eventually.'",
+      "B": "Say: 'Thank you for your message. I am deeply sorry for the inconvenience and discomfort you experienced due to the missed pickup. We have refunded your fare as a gesture of goodwill.'",
+      "C": "Say: 'Why didn't you call the driver? It is your fault for not checking the GPS.'",
+      "D": "Say: 'Okay. I will refund you $25.00. Please rate us 5 stars.'"
+    },
+    "answer": "B",
+    "explanation": "East Asian customers, especially from Japan, appreciate deep politeness, formal apologies, and sincere gestures when their service expectations are not met.",
+    "skill": "Respectful Apology"
+  },
+  {
+    "id": 56,
+    "question": "An East Asian customer says: 'The driver was talking very loudly on his phone. It was slightly uncomfortable.' How do you address this complaint?",
+    "scenario": "Indirect complaint handling",
+    "options": {
+      "A": "Ignore it because 'slightly uncomfortable' means it is not a big issue.",
+      "B": "Acknowledge the feedback respectfully: 'Thank you for sharing your experience, Mei. We hold our drivers to high professional standards. I will pass your feedback to the review team to ensure a quiet environment.'",
+      "C": "Deactivate the driver's phone permissions.",
+      "D": "Tell the passenger they should have told the driver to shut up."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers often express dissatisfaction indirectly ('slightly uncomfortable' or 'a bit troubled'). Support agents must read between the lines and take complaints seriously.",
+    "skill": "Reading Indirect Signals"
+  },
+  {
+    "id": 57,
+    "question": "A customer in Seoul named Takahiro has been charged a cancellation fee. They write: 'I arrived at the pin but the driver left. Please review this.' How should you decline a refund if the driver waited the full 5 minutes?",
+    "scenario": "Delivering negative news politely",
+    "options": {
+      "A": "Say: 'We cannot refund you. The driver waited 5 minutes. You were late.'",
+      "B": "Say: 'While I understand this is disappointing, Takahiro, our system shows the driver waited at the pickup location for the required 5 minutes. To be fair to the driver's time, we are unable to refund this fee. Thank you for understanding.'",
+      "C": "Say: 'No refund. Rules are rules.'",
+      "D": "Say: 'Please check your watch. You were late.'"
+    },
+    "answer": "B",
+    "explanation": "When delivering negative news to East Asian clients, maintain high politeness, provide the reasoning clearly, and close with appreciation for their understanding to maintain harmony.",
+    "skill": "Polite Refusals"
+  },
+  {
+    "id": 58,
+    "question": "A customer from Singapore named Yoon-ji writes: 'The driver didn't want to follow my GPS route and went the long way, very sian.' What does 'sian' mean in Singlish?",
+    "scenario": "Singapore English understanding",
+    "options": {
+      "A": "Happy and excited.",
+      "B": "Bored, frustrated, or tired. You should check the route for fare inflation and apologize for the annoyance.",
+      "C": "Fast and efficient.",
+      "D": "Cheated by price."
+    },
+    "answer": "B",
+    "explanation": "'Sian' is a Singlish term expressing boredom, frustration, or exhaustion. Acknowledging this mood and validating their frustration is key.",
+    "skill": "Local Slang Comprehension"
+  },
+  {
+    "id": 59,
+    "question": "Why should you avoid using a customer's first name immediately in communication with traditional East Asian clients, unless they invite it?",
+    "scenario": "Cultural naming conventions",
+    "options": {
+      "A": "Because first names are secret in Asia.",
+      "B": "Using first names immediately can be perceived as overly familiar or disrespectful. Addressing them as Mr./Ms. [Last Name] is safer and highly professional.",
+      "C": "Because their names are too hard to pronounce.",
+      "D": "It doesn't matter, everyone prefers first names globally."
+    },
+    "answer": "B",
+    "explanation": "In many Asian cultures (Japan, South Korea, China), addressing someone by their first name on first contact can seem informal. Mr./Ms. or using full names respectfully is preferred.",
+    "skill": "Address Protocol"
+  },
+  {
+    "id": 60,
+    "question": "A customer from Tokyo writes: 'I left my iPhone in the vehicle. The driver is not picking up the phone. I am deeply concerned.' What is the best way to reassure them?",
+    "scenario": "High anxiety lost item",
+    "options": {
+      "A": "Tell them to wait. The driver will call when they are free.",
+      "B": "Say: 'I understand your concern, Mei. Please be assured that we will do our absolute best to contact the driver and secure your iPhone. I will keep you updated every step of the way.'",
+      "C": "Tell them to buy a replacement.",
+      "D": "Explain that we are not responsible for lost items."
+    },
+    "answer": "B",
+    "explanation": "Providing calm, structural reassurance and taking ownership of the search helps reduce the customer's anxiety and builds trust.",
+    "skill": "Reassurance & Trust"
+  },
+  {
+    "id": 61,
+    "question": "A Japanese customer named Min-su writes: 'I apologize for causing any trouble, but the driver missed my pickup spot and I had to walk in the rain.' What is the best tone to respond with?",
+    "scenario": "Japanese customer politeness handling",
+    "options": {
+      "A": "Say: 'It's fine, at least you got your ride eventually.'",
+      "B": "Say: 'Thank you for your message. I am deeply sorry for the inconvenience and discomfort you experienced due to the missed pickup. We have refunded your fare as a gesture of goodwill.'",
+      "C": "Say: 'Why didn't you call the driver? It is your fault for not checking the GPS.'",
+      "D": "Say: 'Okay. I will refund you $5.00. Please rate us 5 stars.'"
+    },
+    "answer": "B",
+    "explanation": "East Asian customers, especially from Japan, appreciate deep politeness, formal apologies, and sincere gestures when their service expectations are not met.",
+    "skill": "Respectful Apology"
+  },
+  {
+    "id": 62,
+    "question": "An East Asian customer says: 'The driver was talking very loudly on his phone. It was slightly uncomfortable.' How do you address this complaint?",
+    "scenario": "Indirect complaint handling",
+    "options": {
+      "A": "Ignore it because 'slightly uncomfortable' means it is not a big issue.",
+      "B": "Acknowledge the feedback respectfully: 'Thank you for sharing your experience, Takahiro. We hold our drivers to high professional standards. I will pass your feedback to the review team to ensure a quiet environment.'",
+      "C": "Deactivate the driver's phone permissions.",
+      "D": "Tell the passenger they should have told the driver to shut up."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers often express dissatisfaction indirectly ('slightly uncomfortable' or 'a bit troubled'). Support agents must read between the lines and take complaints seriously.",
+    "skill": "Reading Indirect Signals"
+  },
+  {
+    "id": 63,
+    "question": "A customer in Seoul named Kaito has been charged a cancellation fee. They write: 'I arrived at the pin but the driver left. Please review this.' How should you decline a refund if the driver waited the full 5 minutes?",
+    "scenario": "Delivering negative news politely",
+    "options": {
+      "A": "Say: 'We cannot refund you. The driver waited 5 minutes. You were late.'",
+      "B": "Say: 'While I understand this is disappointing, Kaito, our system shows the driver waited at the pickup location for the required 5 minutes. To be fair to the driver's time, we are unable to refund this fee. Thank you for understanding.'",
+      "C": "Say: 'No refund. Rules are rules.'",
+      "D": "Say: 'Please check your watch. You were late.'"
+    },
+    "answer": "B",
+    "explanation": "When delivering negative news to East Asian clients, maintain high politeness, provide the reasoning clearly, and close with appreciation for their understanding to maintain harmony.",
+    "skill": "Polite Refusals"
+  },
+  {
+    "id": 64,
+    "question": "A customer from Singapore named Kenji writes: 'The driver didn't want to follow my GPS route and went the long way, very sian.' What does 'sian' mean in Singlish?",
+    "scenario": "Singapore English understanding",
+    "options": {
+      "A": "Happy and excited.",
+      "B": "Bored, frustrated, or tired. You should check the route for fare inflation and apologize for the annoyance.",
+      "C": "Fast and efficient.",
+      "D": "Cheated by price."
+    },
+    "answer": "B",
+    "explanation": "'Sian' is a Singlish term expressing boredom, frustration, or exhaustion. Acknowledging this mood and validating their frustration is key.",
+    "skill": "Local Slang Comprehension"
+  },
+  {
+    "id": 65,
+    "question": "Why should you avoid using a customer's first name immediately in communication with traditional East Asian clients, unless they invite it?",
+    "scenario": "Cultural naming conventions",
+    "options": {
+      "A": "Because first names are secret in Asia.",
+      "B": "Using first names immediately can be perceived as overly familiar or disrespectful. Addressing them as Mr./Ms. [Last Name] is safer and highly professional.",
+      "C": "Because their names are too hard to pronounce.",
+      "D": "It doesn't matter, everyone prefers first names globally."
+    },
+    "answer": "B",
+    "explanation": "In many Asian cultures (Japan, South Korea, China), addressing someone by their first name on first contact can seem informal. Mr./Ms. or using full names respectfully is preferred.",
+    "skill": "Address Protocol"
+  },
+  {
+    "id": 66,
+    "question": "A customer from Tokyo writes: 'I left my jacket in the vehicle. The driver is not picking up the phone. I am deeply concerned.' What is the best way to reassure them?",
+    "scenario": "High anxiety lost item",
+    "options": {
+      "A": "Tell them to wait. The driver will call when they are free.",
+      "B": "Say: 'I understand your concern, Chen. Please be assured that we will do our absolute best to contact the driver and secure your jacket. I will keep you updated every step of the way.'",
+      "C": "Tell them to buy a replacement.",
+      "D": "Explain that we are not responsible for lost items."
+    },
+    "answer": "B",
+    "explanation": "Providing calm, structural reassurance and taking ownership of the search helps reduce the customer's anxiety and builds trust.",
+    "skill": "Reassurance & Trust"
+  },
+  {
+    "id": 67,
+    "question": "A Japanese customer named Hiroshi writes: 'I apologize for causing any trouble, but the driver missed my pickup spot and I had to walk in the rain.' What is the best tone to respond with?",
+    "scenario": "Japanese customer politeness handling",
+    "options": {
+      "A": "Say: 'It's fine, at least you got your ride eventually.'",
+      "B": "Say: 'Thank you for your message. I am deeply sorry for the inconvenience and discomfort you experienced due to the missed pickup. We have refunded your fare as a gesture of goodwill.'",
+      "C": "Say: 'Why didn't you call the driver? It is your fault for not checking the GPS.'",
+      "D": "Say: 'Okay. I will refund you $45.00. Please rate us 5 stars.'"
+    },
+    "answer": "B",
+    "explanation": "East Asian customers, especially from Japan, appreciate deep politeness, formal apologies, and sincere gestures when their service expectations are not met.",
+    "skill": "Respectful Apology"
+  },
+  {
+    "id": 68,
+    "question": "An East Asian customer says: 'The driver was talking very loudly on his phone. It was slightly uncomfortable.' How do you address this complaint?",
+    "scenario": "Indirect complaint handling",
+    "options": {
+      "A": "Ignore it because 'slightly uncomfortable' means it is not a big issue.",
+      "B": "Acknowledge the feedback respectfully: 'Thank you for sharing your experience, Wei. We hold our drivers to high professional standards. I will pass your feedback to the review team to ensure a quiet environment.'",
+      "C": "Deactivate the driver's phone permissions.",
+      "D": "Tell the passenger they should have told the driver to shut up."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers often express dissatisfaction indirectly ('slightly uncomfortable' or 'a bit troubled'). Support agents must read between the lines and take complaints seriously.",
+    "skill": "Reading Indirect Signals"
+  },
+  {
+    "id": 69,
+    "question": "A customer in Seoul named Li has been charged a cancellation fee. They write: 'I arrived at the pin but the driver left. Please review this.' How should you decline a refund if the driver waited the full 5 minutes?",
+    "scenario": "Delivering negative news politely",
+    "options": {
+      "A": "Say: 'We cannot refund you. The driver waited 5 minutes. You were late.'",
+      "B": "Say: 'While I understand this is disappointing, Li, our system shows the driver waited at the pickup location for the required 5 minutes. To be fair to the driver's time, we are unable to refund this fee. Thank you for understanding.'",
+      "C": "Say: 'No refund. Rules are rules.'",
+      "D": "Say: 'Please check your watch. You were late.'"
+    },
+    "answer": "B",
+    "explanation": "When delivering negative news to East Asian clients, maintain high politeness, provide the reasoning clearly, and close with appreciation for their understanding to maintain harmony.",
+    "skill": "Polite Refusals"
+  },
+  {
+    "id": 70,
+    "question": "A customer from Singapore named Hana writes: 'The driver didn't want to follow my GPS route and went the long way, very sian.' What does 'sian' mean in Singlish?",
+    "scenario": "Singapore English understanding",
+    "options": {
+      "A": "Happy and excited.",
+      "B": "Bored, frustrated, or tired. You should check the route for fare inflation and apologize for the annoyance.",
+      "C": "Fast and efficient.",
+      "D": "Cheated by price."
+    },
+    "answer": "B",
+    "explanation": "'Sian' is a Singlish term expressing boredom, frustration, or exhaustion. Acknowledging this mood and validating their frustration is key.",
+    "skill": "Local Slang Comprehension"
+  },
+  {
+    "id": 71,
+    "question": "Why should you avoid using a customer's first name immediately in communication with traditional East Asian clients, unless they invite it?",
+    "scenario": "Cultural naming conventions",
+    "options": {
+      "A": "Because first names are secret in Asia.",
+      "B": "Using first names immediately can be perceived as overly familiar or disrespectful. Addressing them as Mr./Ms. [Last Name] is safer and highly professional.",
+      "C": "Because their names are too hard to pronounce.",
+      "D": "It doesn't matter, everyone prefers first names globally."
+    },
+    "answer": "B",
+    "explanation": "In many Asian cultures (Japan, South Korea, China), addressing someone by their first name on first contact can seem informal. Mr./Ms. or using full names respectfully is preferred.",
+    "skill": "Address Protocol"
+  },
+  {
+    "id": 72,
+    "question": "A customer from Tokyo writes: 'I left my backpack in the vehicle. The driver is not picking up the phone. I am deeply concerned.' What is the best way to reassure them?",
+    "scenario": "High anxiety lost item",
+    "options": {
+      "A": "Tell them to wait. The driver will call when they are free.",
+      "B": "Say: 'I understand your concern, Hana. Please be assured that we will do our absolute best to contact the driver and secure your backpack. I will keep you updated every step of the way.'",
+      "C": "Tell them to buy a replacement.",
+      "D": "Explain that we are not responsible for lost items."
+    },
+    "answer": "B",
+    "explanation": "Providing calm, structural reassurance and taking ownership of the search helps reduce the customer's anxiety and builds trust.",
+    "skill": "Reassurance & Trust"
+  },
+  {
+    "id": 73,
+    "question": "A Japanese customer named Takahiro writes: 'I apologize for causing any trouble, but the driver missed my pickup spot and I had to walk in the rain.' What is the best tone to respond with?",
+    "scenario": "Japanese customer politeness handling",
+    "options": {
+      "A": "Say: 'It's fine, at least you got your ride eventually.'",
+      "B": "Say: 'Thank you for your message. I am deeply sorry for the inconvenience and discomfort you experienced due to the missed pickup. We have refunded your fare as a gesture of goodwill.'",
+      "C": "Say: 'Why didn't you call the driver? It is your fault for not checking the GPS.'",
+      "D": "Say: 'Okay. I will refund you $15.00. Please rate us 5 stars.'"
+    },
+    "answer": "B",
+    "explanation": "East Asian customers, especially from Japan, appreciate deep politeness, formal apologies, and sincere gestures when their service expectations are not met.",
+    "skill": "Respectful Apology"
+  },
+  {
+    "id": 74,
+    "question": "An East Asian customer says: 'The driver was talking very loudly on his phone. It was slightly uncomfortable.' How do you address this complaint?",
+    "scenario": "Indirect complaint handling",
+    "options": {
+      "A": "Ignore it because 'slightly uncomfortable' means it is not a big issue.",
+      "B": "Acknowledge the feedback respectfully: 'Thank you for sharing your experience, Takahiro. We hold our drivers to high professional standards. I will pass your feedback to the review team to ensure a quiet environment.'",
+      "C": "Deactivate the driver's phone permissions.",
+      "D": "Tell the passenger they should have told the driver to shut up."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers often express dissatisfaction indirectly ('slightly uncomfortable' or 'a bit troubled'). Support agents must read between the lines and take complaints seriously.",
+    "skill": "Reading Indirect Signals"
+  },
+  {
+    "id": 75,
+    "question": "A customer in Seoul named Li has been charged a cancellation fee. They write: 'I arrived at the pin but the driver left. Please review this.' How should you decline a refund if the driver waited the full 5 minutes?",
+    "scenario": "Delivering negative news politely",
+    "options": {
+      "A": "Say: 'We cannot refund you. The driver waited 5 minutes. You were late.'",
+      "B": "Say: 'While I understand this is disappointing, Li, our system shows the driver waited at the pickup location for the required 5 minutes. To be fair to the driver's time, we are unable to refund this fee. Thank you for understanding.'",
+      "C": "Say: 'No refund. Rules are rules.'",
+      "D": "Say: 'Please check your watch. You were late.'"
+    },
+    "answer": "B",
+    "explanation": "When delivering negative news to East Asian clients, maintain high politeness, provide the reasoning clearly, and close with appreciation for their understanding to maintain harmony.",
+    "skill": "Polite Refusals"
+  },
+  {
+    "id": 76,
+    "question": "A customer from Singapore named Yoon-ji writes: 'The driver didn't want to follow my GPS route and went the long way, very sian.' What does 'sian' mean in Singlish?",
+    "scenario": "Singapore English understanding",
+    "options": {
+      "A": "Happy and excited.",
+      "B": "Bored, frustrated, or tired. You should check the route for fare inflation and apologize for the annoyance.",
+      "C": "Fast and efficient.",
+      "D": "Cheated by price."
+    },
+    "answer": "B",
+    "explanation": "'Sian' is a Singlish term expressing boredom, frustration, or exhaustion. Acknowledging this mood and validating their frustration is key.",
+    "skill": "Local Slang Comprehension"
+  },
+  {
+    "id": 77,
+    "question": "Why should you avoid using a customer's first name immediately in communication with traditional East Asian clients, unless they invite it?",
+    "scenario": "Cultural naming conventions",
+    "options": {
+      "A": "Because first names are secret in Asia.",
+      "B": "Using first names immediately can be perceived as overly familiar or disrespectful. Addressing them as Mr./Ms. [Last Name] is safer and highly professional.",
+      "C": "Because their names are too hard to pronounce.",
+      "D": "It doesn't matter, everyone prefers first names globally."
+    },
+    "answer": "B",
+    "explanation": "In many Asian cultures (Japan, South Korea, China), addressing someone by their first name on first contact can seem informal. Mr./Ms. or using full names respectfully is preferred.",
+    "skill": "Address Protocol"
+  },
+  {
+    "id": 78,
+    "question": "A customer from Tokyo writes: 'I left my sunglasses in the vehicle. The driver is not picking up the phone. I am deeply concerned.' What is the best way to reassure them?",
+    "scenario": "High anxiety lost item",
+    "options": {
+      "A": "Tell them to wait. The driver will call when they are free.",
+      "B": "Say: 'I understand your concern, Min-su. Please be assured that we will do our absolute best to contact the driver and secure your sunglasses. I will keep you updated every step of the way.'",
+      "C": "Tell them to buy a replacement.",
+      "D": "Explain that we are not responsible for lost items."
+    },
+    "answer": "B",
+    "explanation": "Providing calm, structural reassurance and taking ownership of the search helps reduce the customer's anxiety and builds trust.",
+    "skill": "Reassurance & Trust"
+  },
+  {
+    "id": 79,
+    "question": "A Japanese customer named Sakura writes: 'I apologize for causing any trouble, but the driver missed my pickup spot and I had to walk in the rain.' What is the best tone to respond with?",
+    "scenario": "Japanese customer politeness handling",
+    "options": {
+      "A": "Say: 'It's fine, at least you got your ride eventually.'",
+      "B": "Say: 'Thank you for your message. I am deeply sorry for the inconvenience and discomfort you experienced due to the missed pickup. We have refunded your fare as a gesture of goodwill.'",
+      "C": "Say: 'Why didn't you call the driver? It is your fault for not checking the GPS.'",
+      "D": "Say: 'Okay. I will refund you $10.00. Please rate us 5 stars.'"
+    },
+    "answer": "B",
+    "explanation": "East Asian customers, especially from Japan, appreciate deep politeness, formal apologies, and sincere gestures when their service expectations are not met.",
+    "skill": "Respectful Apology"
+  },
+  {
+    "id": 80,
+    "question": "An East Asian customer says: 'The driver was talking very loudly on his phone. It was slightly uncomfortable.' How do you address this complaint?",
+    "scenario": "Indirect complaint handling",
+    "options": {
+      "A": "Ignore it because 'slightly uncomfortable' means it is not a big issue.",
+      "B": "Acknowledge the feedback respectfully: 'Thank you for sharing your experience, Kenji. We hold our drivers to high professional standards. I will pass your feedback to the review team to ensure a quiet environment.'",
+      "C": "Deactivate the driver's phone permissions.",
+      "D": "Tell the passenger they should have told the driver to shut up."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers often express dissatisfaction indirectly ('slightly uncomfortable' or 'a bit troubled'). Support agents must read between the lines and take complaints seriously.",
+    "skill": "Reading Indirect Signals"
+  },
+  {
+    "id": 81,
+    "question": "A customer in Seoul named Sakura has been charged a cancellation fee. They write: 'I arrived at the pin but the driver left. Please review this.' How should you decline a refund if the driver waited the full 5 minutes?",
+    "scenario": "Delivering negative news politely",
+    "options": {
+      "A": "Say: 'We cannot refund you. The driver waited 5 minutes. You were late.'",
+      "B": "Say: 'While I understand this is disappointing, Sakura, our system shows the driver waited at the pickup location for the required 5 minutes. To be fair to the driver's time, we are unable to refund this fee. Thank you for understanding.'",
+      "C": "Say: 'No refund. Rules are rules.'",
+      "D": "Say: 'Please check your watch. You were late.'"
+    },
+    "answer": "B",
+    "explanation": "When delivering negative news to East Asian clients, maintain high politeness, provide the reasoning clearly, and close with appreciation for their understanding to maintain harmony.",
+    "skill": "Polite Refusals"
+  },
+  {
+    "id": 82,
+    "question": "A customer from Singapore named Yoon-ji writes: 'The driver didn't want to follow my GPS route and went the long way, very sian.' What does 'sian' mean in Singlish?",
+    "scenario": "Singapore English understanding",
+    "options": {
+      "A": "Happy and excited.",
+      "B": "Bored, frustrated, or tired. You should check the route for fare inflation and apologize for the annoyance.",
+      "C": "Fast and efficient.",
+      "D": "Cheated by price."
+    },
+    "answer": "B",
+    "explanation": "'Sian' is a Singlish term expressing boredom, frustration, or exhaustion. Acknowledging this mood and validating their frustration is key.",
+    "skill": "Local Slang Comprehension"
+  },
+  {
+    "id": 83,
+    "question": "Why should you avoid using a customer's first name immediately in communication with traditional East Asian clients, unless they invite it?",
+    "scenario": "Cultural naming conventions",
+    "options": {
+      "A": "Because first names are secret in Asia.",
+      "B": "Using first names immediately can be perceived as overly familiar or disrespectful. Addressing them as Mr./Ms. [Last Name] is safer and highly professional.",
+      "C": "Because their names are too hard to pronounce.",
+      "D": "It doesn't matter, everyone prefers first names globally."
+    },
+    "answer": "B",
+    "explanation": "In many Asian cultures (Japan, South Korea, China), addressing someone by their first name on first contact can seem informal. Mr./Ms. or using full names respectfully is preferred.",
+    "skill": "Address Protocol"
+  },
+  {
+    "id": 84,
+    "question": "A customer from Tokyo writes: 'I left my iPhone in the vehicle. The driver is not picking up the phone. I am deeply concerned.' What is the best way to reassure them?",
+    "scenario": "High anxiety lost item",
+    "options": {
+      "A": "Tell them to wait. The driver will call when they are free.",
+      "B": "Say: 'I understand your concern, Hana. Please be assured that we will do our absolute best to contact the driver and secure your iPhone. I will keep you updated every step of the way.'",
+      "C": "Tell them to buy a replacement.",
+      "D": "Explain that we are not responsible for lost items."
+    },
+    "answer": "B",
+    "explanation": "Providing calm, structural reassurance and taking ownership of the search helps reduce the customer's anxiety and builds trust.",
+    "skill": "Reassurance & Trust"
+  },
+  {
+    "id": 85,
+    "question": "A Japanese customer named Li writes: 'I apologize for causing any trouble, but the driver missed my pickup spot and I had to walk in the rain.' What is the best tone to respond with?",
+    "scenario": "Japanese customer politeness handling",
+    "options": {
+      "A": "Say: 'It's fine, at least you got your ride eventually.'",
+      "B": "Say: 'Thank you for your message. I am deeply sorry for the inconvenience and discomfort you experienced due to the missed pickup. We have refunded your fare as a gesture of goodwill.'",
+      "C": "Say: 'Why didn't you call the driver? It is your fault for not checking the GPS.'",
+      "D": "Say: 'Okay. I will refund you $5.00. Please rate us 5 stars.'"
+    },
+    "answer": "B",
+    "explanation": "East Asian customers, especially from Japan, appreciate deep politeness, formal apologies, and sincere gestures when their service expectations are not met.",
+    "skill": "Respectful Apology"
+  },
+  {
+    "id": 86,
+    "question": "An East Asian customer says: 'The driver was talking very loudly on his phone. It was slightly uncomfortable.' How do you address this complaint?",
+    "scenario": "Indirect complaint handling",
+    "options": {
+      "A": "Ignore it because 'slightly uncomfortable' means it is not a big issue.",
+      "B": "Acknowledge the feedback respectfully: 'Thank you for sharing your experience, Chao. We hold our drivers to high professional standards. I will pass your feedback to the review team to ensure a quiet environment.'",
+      "C": "Deactivate the driver's phone permissions.",
+      "D": "Tell the passenger they should have told the driver to shut up."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers often express dissatisfaction indirectly ('slightly uncomfortable' or 'a bit troubled'). Support agents must read between the lines and take complaints seriously.",
+    "skill": "Reading Indirect Signals"
+  },
+  {
+    "id": 87,
+    "question": "A customer in Seoul named Yoon-ji has been charged a cancellation fee. They write: 'I arrived at the pin but the driver left. Please review this.' How should you decline a refund if the driver waited the full 5 minutes?",
+    "scenario": "Delivering negative news politely",
+    "options": {
+      "A": "Say: 'We cannot refund you. The driver waited 5 minutes. You were late.'",
+      "B": "Say: 'While I understand this is disappointing, Yoon-ji, our system shows the driver waited at the pickup location for the required 5 minutes. To be fair to the driver's time, we are unable to refund this fee. Thank you for understanding.'",
+      "C": "Say: 'No refund. Rules are rules.'",
+      "D": "Say: 'Please check your watch. You were late.'"
+    },
+    "answer": "B",
+    "explanation": "When delivering negative news to East Asian clients, maintain high politeness, provide the reasoning clearly, and close with appreciation for their understanding to maintain harmony.",
+    "skill": "Polite Refusals"
+  },
+  {
+    "id": 88,
+    "question": "A customer from Singapore named Ji-won writes: 'The driver didn't want to follow my GPS route and went the long way, very sian.' What does 'sian' mean in Singlish?",
+    "scenario": "Singapore English understanding",
+    "options": {
+      "A": "Happy and excited.",
+      "B": "Bored, frustrated, or tired. You should check the route for fare inflation and apologize for the annoyance.",
+      "C": "Fast and efficient.",
+      "D": "Cheated by price."
+    },
+    "answer": "B",
+    "explanation": "'Sian' is a Singlish term expressing boredom, frustration, or exhaustion. Acknowledging this mood and validating their frustration is key.",
+    "skill": "Local Slang Comprehension"
+  },
+  {
+    "id": 89,
+    "question": "Why should you avoid using a customer's first name immediately in communication with traditional East Asian clients, unless they invite it?",
+    "scenario": "Cultural naming conventions",
+    "options": {
+      "A": "Because first names are secret in Asia.",
+      "B": "Using first names immediately can be perceived as overly familiar or disrespectful. Addressing them as Mr./Ms. [Last Name] is safer and highly professional.",
+      "C": "Because their names are too hard to pronounce.",
+      "D": "It doesn't matter, everyone prefers first names globally."
+    },
+    "answer": "B",
+    "explanation": "In many Asian cultures (Japan, South Korea, China), addressing someone by their first name on first contact can seem informal. Mr./Ms. or using full names respectfully is preferred.",
+    "skill": "Address Protocol"
+  },
+  {
+    "id": 90,
+    "question": "A customer from Tokyo writes: 'I left my wallet in the vehicle. The driver is not picking up the phone. I am deeply concerned.' What is the best way to reassure them?",
+    "scenario": "High anxiety lost item",
+    "options": {
+      "A": "Tell them to wait. The driver will call when they are free.",
+      "B": "Say: 'I understand your concern, Li. Please be assured that we will do our absolute best to contact the driver and secure your wallet. I will keep you updated every step of the way.'",
+      "C": "Tell them to buy a replacement.",
+      "D": "Explain that we are not responsible for lost items."
+    },
+    "answer": "B",
+    "explanation": "Providing calm, structural reassurance and taking ownership of the search helps reduce the customer's anxiety and builds trust.",
+    "skill": "Reassurance & Trust"
+  },
+  {
+    "id": 91,
+    "question": "A Japanese customer named Kaito writes: 'I apologize for causing any trouble, but the driver missed my pickup spot and I had to walk in the rain.' What is the best tone to respond with?",
+    "scenario": "Japanese customer politeness handling",
+    "options": {
+      "A": "Say: 'It's fine, at least you got your ride eventually.'",
+      "B": "Say: 'Thank you for your message. I am deeply sorry for the inconvenience and discomfort you experienced due to the missed pickup. We have refunded your fare as a gesture of goodwill.'",
+      "C": "Say: 'Why didn't you call the driver? It is your fault for not checking the GPS.'",
+      "D": "Say: 'Okay. I will refund you $10.00. Please rate us 5 stars.'"
+    },
+    "answer": "B",
+    "explanation": "East Asian customers, especially from Japan, appreciate deep politeness, formal apologies, and sincere gestures when their service expectations are not met.",
+    "skill": "Respectful Apology"
+  },
+  {
+    "id": 92,
+    "question": "An East Asian customer says: 'The driver was talking very loudly on his phone. It was slightly uncomfortable.' How do you address this complaint?",
+    "scenario": "Indirect complaint handling",
+    "options": {
+      "A": "Ignore it because 'slightly uncomfortable' means it is not a big issue.",
+      "B": "Acknowledge the feedback respectfully: 'Thank you for sharing your experience, Mei. We hold our drivers to high professional standards. I will pass your feedback to the review team to ensure a quiet environment.'",
+      "C": "Deactivate the driver's phone permissions.",
+      "D": "Tell the passenger they should have told the driver to shut up."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers often express dissatisfaction indirectly ('slightly uncomfortable' or 'a bit troubled'). Support agents must read between the lines and take complaints seriously.",
+    "skill": "Reading Indirect Signals"
+  },
+  {
+    "id": 93,
+    "question": "A customer in Seoul named Chen has been charged a cancellation fee. They write: 'I arrived at the pin but the driver left. Please review this.' How should you decline a refund if the driver waited the full 5 minutes?",
+    "scenario": "Delivering negative news politely",
+    "options": {
+      "A": "Say: 'We cannot refund you. The driver waited 5 minutes. You were late.'",
+      "B": "Say: 'While I understand this is disappointing, Chen, our system shows the driver waited at the pickup location for the required 5 minutes. To be fair to the driver's time, we are unable to refund this fee. Thank you for understanding.'",
+      "C": "Say: 'No refund. Rules are rules.'",
+      "D": "Say: 'Please check your watch. You were late.'"
+    },
+    "answer": "B",
+    "explanation": "When delivering negative news to East Asian clients, maintain high politeness, provide the reasoning clearly, and close with appreciation for their understanding to maintain harmony.",
+    "skill": "Polite Refusals"
+  },
+  {
+    "id": 94,
+    "question": "A customer from Singapore named Seo-yeon writes: 'The driver didn't want to follow my GPS route and went the long way, very sian.' What does 'sian' mean in Singlish?",
+    "scenario": "Singapore English understanding",
+    "options": {
+      "A": "Happy and excited.",
+      "B": "Bored, frustrated, or tired. You should check the route for fare inflation and apologize for the annoyance.",
+      "C": "Fast and efficient.",
+      "D": "Cheated by price."
+    },
+    "answer": "B",
+    "explanation": "'Sian' is a Singlish term expressing boredom, frustration, or exhaustion. Acknowledging this mood and validating their frustration is key.",
+    "skill": "Local Slang Comprehension"
+  },
+  {
+    "id": 95,
+    "question": "Why should you avoid using a customer's first name immediately in communication with traditional East Asian clients, unless they invite it?",
+    "scenario": "Cultural naming conventions",
+    "options": {
+      "A": "Because first names are secret in Asia.",
+      "B": "Using first names immediately can be perceived as overly familiar or disrespectful. Addressing them as Mr./Ms. [Last Name] is safer and highly professional.",
+      "C": "Because their names are too hard to pronounce.",
+      "D": "It doesn't matter, everyone prefers first names globally."
+    },
+    "answer": "B",
+    "explanation": "In many Asian cultures (Japan, South Korea, China), addressing someone by their first name on first contact can seem informal. Mr./Ms. or using full names respectfully is preferred.",
+    "skill": "Address Protocol"
+  },
+  {
+    "id": 96,
+    "question": "A customer from Tokyo writes: 'I left my passport in the vehicle. The driver is not picking up the phone. I am deeply concerned.' What is the best way to reassure them?",
+    "scenario": "High anxiety lost item",
+    "options": {
+      "A": "Tell them to wait. The driver will call when they are free.",
+      "B": "Say: 'I understand your concern, Sakura. Please be assured that we will do our absolute best to contact the driver and secure your passport. I will keep you updated every step of the way.'",
+      "C": "Tell them to buy a replacement.",
+      "D": "Explain that we are not responsible for lost items."
+    },
+    "answer": "B",
+    "explanation": "Providing calm, structural reassurance and taking ownership of the search helps reduce the customer's anxiety and builds trust.",
+    "skill": "Reassurance & Trust"
+  },
+  {
+    "id": 97,
+    "question": "A Japanese customer named Kenji writes: 'I apologize for causing any trouble, but the driver missed my pickup spot and I had to walk in the rain.' What is the best tone to respond with?",
+    "scenario": "Japanese customer politeness handling",
+    "options": {
+      "A": "Say: 'It's fine, at least you got your ride eventually.'",
+      "B": "Say: 'Thank you for your message. I am deeply sorry for the inconvenience and discomfort you experienced due to the missed pickup. We have refunded your fare as a gesture of goodwill.'",
+      "C": "Say: 'Why didn't you call the driver? It is your fault for not checking the GPS.'",
+      "D": "Say: 'Okay. I will refund you $15.00. Please rate us 5 stars.'"
+    },
+    "answer": "B",
+    "explanation": "East Asian customers, especially from Japan, appreciate deep politeness, formal apologies, and sincere gestures when their service expectations are not met.",
+    "skill": "Respectful Apology"
+  },
+  {
+    "id": 98,
+    "question": "An East Asian customer says: 'The driver was talking very loudly on his phone. It was slightly uncomfortable.' How do you address this complaint?",
+    "scenario": "Indirect complaint handling",
+    "options": {
+      "A": "Ignore it because 'slightly uncomfortable' means it is not a big issue.",
+      "B": "Acknowledge the feedback respectfully: 'Thank you for sharing your experience, Seo-yeon. We hold our drivers to high professional standards. I will pass your feedback to the review team to ensure a quiet environment.'",
+      "C": "Deactivate the driver's phone permissions.",
+      "D": "Tell the passenger they should have told the driver to shut up."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers often express dissatisfaction indirectly ('slightly uncomfortable' or 'a bit troubled'). Support agents must read between the lines and take complaints seriously.",
+    "skill": "Reading Indirect Signals"
+  },
+  {
+    "id": 99,
+    "question": "A customer in Seoul named Sakura has been charged a cancellation fee. They write: 'I arrived at the pin but the driver left. Please review this.' How should you decline a refund if the driver waited the full 5 minutes?",
+    "scenario": "Delivering negative news politely",
+    "options": {
+      "A": "Say: 'We cannot refund you. The driver waited 5 minutes. You were late.'",
+      "B": "Say: 'While I understand this is disappointing, Sakura, our system shows the driver waited at the pickup location for the required 5 minutes. To be fair to the driver's time, we are unable to refund this fee. Thank you for understanding.'",
+      "C": "Say: 'No refund. Rules are rules.'",
+      "D": "Say: 'Please check your watch. You were late.'"
+    },
+    "answer": "B",
+    "explanation": "When delivering negative news to East Asian clients, maintain high politeness, provide the reasoning clearly, and close with appreciation for their understanding to maintain harmony.",
+    "skill": "Polite Refusals"
+  },
+  {
+    "id": 100,
+    "question": "A customer from Singapore named Chen writes: 'The driver didn't want to follow my GPS route and went the long way, very sian.' What does 'sian' mean in Singlish?",
+    "scenario": "Singapore English understanding",
+    "options": {
+      "A": "Happy and excited.",
+      "B": "Bored, frustrated, or tired. You should check the route for fare inflation and apologize for the annoyance.",
+      "C": "Fast and efficient.",
+      "D": "Cheated by price."
+    },
+    "answer": "B",
+    "explanation": "'Sian' is a Singlish term expressing boredom, frustration, or exhaustion. Acknowledging this mood and validating their frustration is key.",
+    "skill": "Local Slang Comprehension"
+  },
+  {
+    "id": 101,
+    "question": "Why should you avoid using a customer's first name immediately in communication with traditional East Asian clients, unless they invite it?",
+    "scenario": "Cultural naming conventions",
+    "options": {
+      "A": "Because first names are secret in Asia.",
+      "B": "Using first names immediately can be perceived as overly familiar or disrespectful. Addressing them as Mr./Ms. [Last Name] is safer and highly professional.",
+      "C": "Because their names are too hard to pronounce.",
+      "D": "It doesn't matter, everyone prefers first names globally."
+    },
+    "answer": "B",
+    "explanation": "In many Asian cultures (Japan, South Korea, China), addressing someone by their first name on first contact can seem informal. Mr./Ms. or using full names respectfully is preferred.",
+    "skill": "Address Protocol"
+  },
+  {
+    "id": 102,
+    "question": "A customer from Tokyo writes: 'I left my wallet in the vehicle. The driver is not picking up the phone. I am deeply concerned.' What is the best way to reassure them?",
+    "scenario": "High anxiety lost item",
+    "options": {
+      "A": "Tell them to wait. The driver will call when they are free.",
+      "B": "Say: 'I understand your concern, Mei. Please be assured that we will do our absolute best to contact the driver and secure your wallet. I will keep you updated every step of the way.'",
+      "C": "Tell them to buy a replacement.",
+      "D": "Explain that we are not responsible for lost items."
+    },
+    "answer": "B",
+    "explanation": "Providing calm, structural reassurance and taking ownership of the search helps reduce the customer's anxiety and builds trust.",
+    "skill": "Reassurance & Trust"
+  },
+  {
+    "id": 103,
+    "question": "A Japanese customer named Min-su writes: 'I apologize for causing any trouble, but the driver missed my pickup spot and I had to walk in the rain.' What is the best tone to respond with?",
+    "scenario": "Japanese customer politeness handling",
+    "options": {
+      "A": "Say: 'It's fine, at least you got your ride eventually.'",
+      "B": "Say: 'Thank you for your message. I am deeply sorry for the inconvenience and discomfort you experienced due to the missed pickup. We have refunded your fare as a gesture of goodwill.'",
+      "C": "Say: 'Why didn't you call the driver? It is your fault for not checking the GPS.'",
+      "D": "Say: 'Okay. I will refund you $10.00. Please rate us 5 stars.'"
+    },
+    "answer": "B",
+    "explanation": "East Asian customers, especially from Japan, appreciate deep politeness, formal apologies, and sincere gestures when their service expectations are not met.",
+    "skill": "Respectful Apology"
+  },
+  {
+    "id": 104,
+    "question": "An East Asian customer says: 'The driver was talking very loudly on his phone. It was slightly uncomfortable.' How do you address this complaint?",
+    "scenario": "Indirect complaint handling",
+    "options": {
+      "A": "Ignore it because 'slightly uncomfortable' means it is not a big issue.",
+      "B": "Acknowledge the feedback respectfully: 'Thank you for sharing your experience, Li. We hold our drivers to high professional standards. I will pass your feedback to the review team to ensure a quiet environment.'",
+      "C": "Deactivate the driver's phone permissions.",
+      "D": "Tell the passenger they should have told the driver to shut up."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers often express dissatisfaction indirectly ('slightly uncomfortable' or 'a bit troubled'). Support agents must read between the lines and take complaints seriously.",
+    "skill": "Reading Indirect Signals"
+  },
+  {
+    "id": 105,
+    "question": "A customer in Seoul named Hiroshi has been charged a cancellation fee. They write: 'I arrived at the pin but the driver left. Please review this.' How should you decline a refund if the driver waited the full 5 minutes?",
+    "scenario": "Delivering negative news politely",
+    "options": {
+      "A": "Say: 'We cannot refund you. The driver waited 5 minutes. You were late.'",
+      "B": "Say: 'While I understand this is disappointing, Hiroshi, our system shows the driver waited at the pickup location for the required 5 minutes. To be fair to the driver's time, we are unable to refund this fee. Thank you for understanding.'",
+      "C": "Say: 'No refund. Rules are rules.'",
+      "D": "Say: 'Please check your watch. You were late.'"
+    },
+    "answer": "B",
+    "explanation": "When delivering negative news to East Asian clients, maintain high politeness, provide the reasoning clearly, and close with appreciation for their understanding to maintain harmony.",
+    "skill": "Polite Refusals"
+  },
+  {
+    "id": 106,
+    "question": "A customer from Singapore named Chen writes: 'The driver didn't want to follow my GPS route and went the long way, very sian.' What does 'sian' mean in Singlish?",
+    "scenario": "Singapore English understanding",
+    "options": {
+      "A": "Happy and excited.",
+      "B": "Bored, frustrated, or tired. You should check the route for fare inflation and apologize for the annoyance.",
+      "C": "Fast and efficient.",
+      "D": "Cheated by price."
+    },
+    "answer": "B",
+    "explanation": "'Sian' is a Singlish term expressing boredom, frustration, or exhaustion. Acknowledging this mood and validating their frustration is key.",
+    "skill": "Local Slang Comprehension"
+  },
+  {
+    "id": 107,
+    "question": "Why should you avoid using a customer's first name immediately in communication with traditional East Asian clients, unless they invite it?",
+    "scenario": "Cultural naming conventions",
+    "options": {
+      "A": "Because first names are secret in Asia.",
+      "B": "Using first names immediately can be perceived as overly familiar or disrespectful. Addressing them as Mr./Ms. [Last Name] is safer and highly professional.",
+      "C": "Because their names are too hard to pronounce.",
+      "D": "It doesn't matter, everyone prefers first names globally."
+    },
+    "answer": "B",
+    "explanation": "In many Asian cultures (Japan, South Korea, China), addressing someone by their first name on first contact can seem informal. Mr./Ms. or using full names respectfully is preferred.",
+    "skill": "Address Protocol"
+  },
+  {
+    "id": 108,
+    "question": "A customer from Tokyo writes: 'I left my keys in the vehicle. The driver is not picking up the phone. I am deeply concerned.' What is the best way to reassure them?",
+    "scenario": "High anxiety lost item",
+    "options": {
+      "A": "Tell them to wait. The driver will call when they are free.",
+      "B": "Say: 'I understand your concern, Hiroshi. Please be assured that we will do our absolute best to contact the driver and secure your keys. I will keep you updated every step of the way.'",
+      "C": "Tell them to buy a replacement.",
+      "D": "Explain that we are not responsible for lost items."
+    },
+    "answer": "B",
+    "explanation": "Providing calm, structural reassurance and taking ownership of the search helps reduce the customer's anxiety and builds trust.",
+    "skill": "Reassurance & Trust"
+  },
+  {
+    "id": 109,
+    "question": "A Japanese customer named Min-su writes: 'I apologize for causing any trouble, but the driver missed my pickup spot and I had to walk in the rain.' What is the best tone to respond with?",
+    "scenario": "Japanese customer politeness handling",
+    "options": {
+      "A": "Say: 'It's fine, at least you got your ride eventually.'",
+      "B": "Say: 'Thank you for your message. I am deeply sorry for the inconvenience and discomfort you experienced due to the missed pickup. We have refunded your fare as a gesture of goodwill.'",
+      "C": "Say: 'Why didn't you call the driver? It is your fault for not checking the GPS.'",
+      "D": "Say: 'Okay. I will refund you $5.00. Please rate us 5 stars.'"
+    },
+    "answer": "B",
+    "explanation": "East Asian customers, especially from Japan, appreciate deep politeness, formal apologies, and sincere gestures when their service expectations are not met.",
+    "skill": "Respectful Apology"
+  },
+  {
+    "id": 110,
+    "question": "An East Asian customer says: 'The driver was talking very loudly on his phone. It was slightly uncomfortable.' How do you address this complaint?",
+    "scenario": "Indirect complaint handling",
+    "options": {
+      "A": "Ignore it because 'slightly uncomfortable' means it is not a big issue.",
+      "B": "Acknowledge the feedback respectfully: 'Thank you for sharing your experience, Sakura. We hold our drivers to high professional standards. I will pass your feedback to the review team to ensure a quiet environment.'",
+      "C": "Deactivate the driver's phone permissions.",
+      "D": "Tell the passenger they should have told the driver to shut up."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers often express dissatisfaction indirectly ('slightly uncomfortable' or 'a bit troubled'). Support agents must read between the lines and take complaints seriously.",
+    "skill": "Reading Indirect Signals"
+  },
+  {
+    "id": 111,
+    "question": "A customer in Seoul named Chao has been charged a cancellation fee. They write: 'I arrived at the pin but the driver left. Please review this.' How should you decline a refund if the driver waited the full 5 minutes?",
+    "scenario": "Delivering negative news politely",
+    "options": {
+      "A": "Say: 'We cannot refund you. The driver waited 5 minutes. You were late.'",
+      "B": "Say: 'While I understand this is disappointing, Chao, our system shows the driver waited at the pickup location for the required 5 minutes. To be fair to the driver's time, we are unable to refund this fee. Thank you for understanding.'",
+      "C": "Say: 'No refund. Rules are rules.'",
+      "D": "Say: 'Please check your watch. You were late.'"
+    },
+    "answer": "B",
+    "explanation": "When delivering negative news to East Asian clients, maintain high politeness, provide the reasoning clearly, and close with appreciation for their understanding to maintain harmony.",
+    "skill": "Polite Refusals"
+  },
+  {
+    "id": 112,
+    "question": "A customer from Singapore named Kenji writes: 'The driver didn't want to follow my GPS route and went the long way, very sian.' What does 'sian' mean in Singlish?",
+    "scenario": "Singapore English understanding",
+    "options": {
+      "A": "Happy and excited.",
+      "B": "Bored, frustrated, or tired. You should check the route for fare inflation and apologize for the annoyance.",
+      "C": "Fast and efficient.",
+      "D": "Cheated by price."
+    },
+    "answer": "B",
+    "explanation": "'Sian' is a Singlish term expressing boredom, frustration, or exhaustion. Acknowledging this mood and validating their frustration is key.",
+    "skill": "Local Slang Comprehension"
+  },
+  {
+    "id": 113,
+    "question": "Why should you avoid using a customer's first name immediately in communication with traditional East Asian clients, unless they invite it?",
+    "scenario": "Cultural naming conventions",
+    "options": {
+      "A": "Because first names are secret in Asia.",
+      "B": "Using first names immediately can be perceived as overly familiar or disrespectful. Addressing them as Mr./Ms. [Last Name] is safer and highly professional.",
+      "C": "Because their names are too hard to pronounce.",
+      "D": "It doesn't matter, everyone prefers first names globally."
+    },
+    "answer": "B",
+    "explanation": "In many Asian cultures (Japan, South Korea, China), addressing someone by their first name on first contact can seem informal. Mr./Ms. or using full names respectfully is preferred.",
+    "skill": "Address Protocol"
+  },
+  {
+    "id": 114,
+    "question": "A customer from Tokyo writes: 'I left my briefcase in the vehicle. The driver is not picking up the phone. I am deeply concerned.' What is the best way to reassure them?",
+    "scenario": "High anxiety lost item",
+    "options": {
+      "A": "Tell them to wait. The driver will call when they are free.",
+      "B": "Say: 'I understand your concern, Mei. Please be assured that we will do our absolute best to contact the driver and secure your briefcase. I will keep you updated every step of the way.'",
+      "C": "Tell them to buy a replacement.",
+      "D": "Explain that we are not responsible for lost items."
+    },
+    "answer": "B",
+    "explanation": "Providing calm, structural reassurance and taking ownership of the search helps reduce the customer's anxiety and builds trust.",
+    "skill": "Reassurance & Trust"
+  },
+  {
+    "id": 115,
+    "question": "A Japanese customer named Kenji writes: 'I apologize for causing any trouble, but the driver missed my pickup spot and I had to walk in the rain.' What is the best tone to respond with?",
+    "scenario": "Japanese customer politeness handling",
+    "options": {
+      "A": "Say: 'It's fine, at least you got your ride eventually.'",
+      "B": "Say: 'Thank you for your message. I am deeply sorry for the inconvenience and discomfort you experienced due to the missed pickup. We have refunded your fare as a gesture of goodwill.'",
+      "C": "Say: 'Why didn't you call the driver? It is your fault for not checking the GPS.'",
+      "D": "Say: 'Okay. I will refund you $15.00. Please rate us 5 stars.'"
+    },
+    "answer": "B",
+    "explanation": "East Asian customers, especially from Japan, appreciate deep politeness, formal apologies, and sincere gestures when their service expectations are not met.",
+    "skill": "Respectful Apology"
+  },
+  {
+    "id": 116,
+    "question": "An East Asian customer says: 'The driver was talking very loudly on his phone. It was slightly uncomfortable.' How do you address this complaint?",
+    "scenario": "Indirect complaint handling",
+    "options": {
+      "A": "Ignore it because 'slightly uncomfortable' means it is not a big issue.",
+      "B": "Acknowledge the feedback respectfully: 'Thank you for sharing your experience, Chen. We hold our drivers to high professional standards. I will pass your feedback to the review team to ensure a quiet environment.'",
+      "C": "Deactivate the driver's phone permissions.",
+      "D": "Tell the passenger they should have told the driver to shut up."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers often express dissatisfaction indirectly ('slightly uncomfortable' or 'a bit troubled'). Support agents must read between the lines and take complaints seriously.",
+    "skill": "Reading Indirect Signals"
+  },
+  {
+    "id": 117,
+    "question": "A customer in Seoul named Min-su has been charged a cancellation fee. They write: 'I arrived at the pin but the driver left. Please review this.' How should you decline a refund if the driver waited the full 5 minutes?",
+    "scenario": "Delivering negative news politely",
+    "options": {
+      "A": "Say: 'We cannot refund you. The driver waited 5 minutes. You were late.'",
+      "B": "Say: 'While I understand this is disappointing, Min-su, our system shows the driver waited at the pickup location for the required 5 minutes. To be fair to the driver's time, we are unable to refund this fee. Thank you for understanding.'",
+      "C": "Say: 'No refund. Rules are rules.'",
+      "D": "Say: 'Please check your watch. You were late.'"
+    },
+    "answer": "B",
+    "explanation": "When delivering negative news to East Asian clients, maintain high politeness, provide the reasoning clearly, and close with appreciation for their understanding to maintain harmony.",
+    "skill": "Polite Refusals"
+  },
+  {
+    "id": 118,
+    "question": "A customer from Singapore named Mei writes: 'The driver didn't want to follow my GPS route and went the long way, very sian.' What does 'sian' mean in Singlish?",
+    "scenario": "Singapore English understanding",
+    "options": {
+      "A": "Happy and excited.",
+      "B": "Bored, frustrated, or tired. You should check the route for fare inflation and apologize for the annoyance.",
+      "C": "Fast and efficient.",
+      "D": "Cheated by price."
+    },
+    "answer": "B",
+    "explanation": "'Sian' is a Singlish term expressing boredom, frustration, or exhaustion. Acknowledging this mood and validating their frustration is key.",
+    "skill": "Local Slang Comprehension"
+  },
+  {
+    "id": 119,
+    "question": "Why should you avoid using a customer's first name immediately in communication with traditional East Asian clients, unless they invite it?",
+    "scenario": "Cultural naming conventions",
+    "options": {
+      "A": "Because first names are secret in Asia.",
+      "B": "Using first names immediately can be perceived as overly familiar or disrespectful. Addressing them as Mr./Ms. [Last Name] is safer and highly professional.",
+      "C": "Because their names are too hard to pronounce.",
+      "D": "It doesn't matter, everyone prefers first names globally."
+    },
+    "answer": "B",
+    "explanation": "In many Asian cultures (Japan, South Korea, China), addressing someone by their first name on first contact can seem informal. Mr./Ms. or using full names respectfully is preferred.",
+    "skill": "Address Protocol"
+  },
+  {
+    "id": 120,
+    "question": "A customer from Tokyo writes: 'I left my wallet in the vehicle. The driver is not picking up the phone. I am deeply concerned.' What is the best way to reassure them?",
+    "scenario": "High anxiety lost item",
+    "options": {
+      "A": "Tell them to wait. The driver will call when they are free.",
+      "B": "Say: 'I understand your concern, Mei. Please be assured that we will do our absolute best to contact the driver and secure your wallet. I will keep you updated every step of the way.'",
+      "C": "Tell them to buy a replacement.",
+      "D": "Explain that we are not responsible for lost items."
+    },
+    "answer": "B",
+    "explanation": "Providing calm, structural reassurance and taking ownership of the search helps reduce the customer's anxiety and builds trust.",
+    "skill": "Reassurance & Trust"
+  },
+  {
+    "id": 121,
+    "question": "A customer from Johannesburg named Chao writes: 'I think there was a small error in my billing. It is not an issue, but I wanted to report it.' How do you react?",
+    "scenario": "Minor error reporting",
+    "options": {
+      "A": "Since they said 'not an issue', close the ticket immediately.",
+      "B": "Say: 'Thank you for your honesty and patience, Mr./Ms. {name}. Let me review the billing immediately. I will correct any discrepancy and send you the details.'",
+      "C": "Tell them that we don't fix small errors under $1.",
+      "D": "Ask them to submit a formal letter of complaint."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers appreciate thoroughness and honesty. Even minor reported errors should be addressed with full attention and respect.",
+    "skill": "Attention to Detail"
+  },
+  {
+    "id": 122,
+    "question": "A customer from Singapore named Sakura writes: 'I think there was a small error in my billing. It is not an issue, but I wanted to report it.' How do you react?",
+    "scenario": "Minor error reporting",
+    "options": {
+      "A": "Since they said 'not an issue', close the ticket immediately.",
+      "B": "Say: 'Thank you for your honesty and patience, Mr./Ms. {name}. Let me review the billing immediately. I will correct any discrepancy and send you the details.'",
+      "C": "Tell them that we don't fix small errors under $1.",
+      "D": "Ask them to submit a formal letter of complaint."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers appreciate thoroughness and honesty. Even minor reported errors should be addressed with full attention and respect.",
+    "skill": "Attention to Detail"
+  },
+  {
+    "id": 123,
+    "question": "A customer from Johannesburg named Wei writes: 'I think there was a small error in my billing. It is not an issue, but I wanted to report it.' How do you react?",
+    "scenario": "Minor error reporting",
+    "options": {
+      "A": "Since they said 'not an issue', close the ticket immediately.",
+      "B": "Say: 'Thank you for your honesty and patience, Mr./Ms. {name}. Let me review the billing immediately. I will correct any discrepancy and send you the details.'",
+      "C": "Tell them that we don't fix small errors under $1.",
+      "D": "Ask them to submit a formal letter of complaint."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers appreciate thoroughness and honesty. Even minor reported errors should be addressed with full attention and respect.",
+    "skill": "Attention to Detail"
+  },
+  {
+    "id": 124,
+    "question": "A customer from Singapore named Chen writes: 'I think there was a small error in my billing. It is not an issue, but I wanted to report it.' How do you react?",
+    "scenario": "Minor error reporting",
+    "options": {
+      "A": "Since they said 'not an issue', close the ticket immediately.",
+      "B": "Say: 'Thank you for your honesty and patience, Mr./Ms. {name}. Let me review the billing immediately. I will correct any discrepancy and send you the details.'",
+      "C": "Tell them that we don't fix small errors under $1.",
+      "D": "Ask them to submit a formal letter of complaint."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers appreciate thoroughness and honesty. Even minor reported errors should be addressed with full attention and respect.",
+    "skill": "Attention to Detail"
+  },
+  {
+    "id": 125,
+    "question": "A customer from Singapore named Ji-won writes: 'I think there was a small error in my billing. It is not an issue, but I wanted to report it.' How do you react?",
+    "scenario": "Minor error reporting",
+    "options": {
+      "A": "Since they said 'not an issue', close the ticket immediately.",
+      "B": "Say: 'Thank you for your honesty and patience, Mr./Ms. {name}. Let me review the billing immediately. I will correct any discrepancy and send you the details.'",
+      "C": "Tell them that we don't fix small errors under $1.",
+      "D": "Ask them to submit a formal letter of complaint."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers appreciate thoroughness and honesty. Even minor reported errors should be addressed with full attention and respect.",
+    "skill": "Attention to Detail"
+  },
+  {
+    "id": 126,
+    "question": "A customer from Johannesburg named Li writes: 'I think there was a small error in my billing. It is not an issue, but I wanted to report it.' How do you react?",
+    "scenario": "Minor error reporting",
+    "options": {
+      "A": "Since they said 'not an issue', close the ticket immediately.",
+      "B": "Say: 'Thank you for your honesty and patience, Mr./Ms. {name}. Let me review the billing immediately. I will correct any discrepancy and send you the details.'",
+      "C": "Tell them that we don't fix small errors under $1.",
+      "D": "Ask them to submit a formal letter of complaint."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers appreciate thoroughness and honesty. Even minor reported errors should be addressed with full attention and respect.",
+    "skill": "Attention to Detail"
+  },
+  {
+    "id": 127,
+    "question": "A customer from Singapore named Min-su writes: 'I think there was a small error in my billing. It is not an issue, but I wanted to report it.' How do you react?",
+    "scenario": "Minor error reporting",
+    "options": {
+      "A": "Since they said 'not an issue', close the ticket immediately.",
+      "B": "Say: 'Thank you for your honesty and patience, Mr./Ms. {name}. Let me review the billing immediately. I will correct any discrepancy and send you the details.'",
+      "C": "Tell them that we don't fix small errors under $1.",
+      "D": "Ask them to submit a formal letter of complaint."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers appreciate thoroughness and honesty. Even minor reported errors should be addressed with full attention and respect.",
+    "skill": "Attention to Detail"
+  },
+  {
+    "id": 128,
+    "question": "A customer from Singapore named Wei writes: 'I think there was a small error in my billing. It is not an issue, but I wanted to report it.' How do you react?",
+    "scenario": "Minor error reporting",
+    "options": {
+      "A": "Since they said 'not an issue', close the ticket immediately.",
+      "B": "Say: 'Thank you for your honesty and patience, Mr./Ms. {name}. Let me review the billing immediately. I will correct any discrepancy and send you the details.'",
+      "C": "Tell them that we don't fix small errors under $1.",
+      "D": "Ask them to submit a formal letter of complaint."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers appreciate thoroughness and honesty. Even minor reported errors should be addressed with full attention and respect.",
+    "skill": "Attention to Detail"
+  },
+  {
+    "id": 129,
+    "question": "A customer from Singapore named Chen writes: 'I think there was a small error in my billing. It is not an issue, but I wanted to report it.' How do you react?",
+    "scenario": "Minor error reporting",
+    "options": {
+      "A": "Since they said 'not an issue', close the ticket immediately.",
+      "B": "Say: 'Thank you for your honesty and patience, Mr./Ms. {name}. Let me review the billing immediately. I will correct any discrepancy and send you the details.'",
+      "C": "Tell them that we don't fix small errors under $1.",
+      "D": "Ask them to submit a formal letter of complaint."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers appreciate thoroughness and honesty. Even minor reported errors should be addressed with full attention and respect.",
+    "skill": "Attention to Detail"
+  },
+  {
+    "id": 130,
+    "question": "A customer from Singapore named Hana writes: 'I think there was a small error in my billing. It is not an issue, but I wanted to report it.' How do you react?",
+    "scenario": "Minor error reporting",
+    "options": {
+      "A": "Since they said 'not an issue', close the ticket immediately.",
+      "B": "Say: 'Thank you for your honesty and patience, Mr./Ms. {name}. Let me review the billing immediately. I will correct any discrepancy and send you the details.'",
+      "C": "Tell them that we don't fix small errors under $1.",
+      "D": "Ask them to submit a formal letter of complaint."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers appreciate thoroughness and honesty. Even minor reported errors should be addressed with full attention and respect.",
+    "skill": "Attention to Detail"
+  },
+  {
+    "id": 131,
+    "question": "A customer from Singapore named Seo-yeon writes: 'I think there was a small error in my billing. It is not an issue, but I wanted to report it.' How do you react?",
+    "scenario": "Minor error reporting",
+    "options": {
+      "A": "Since they said 'not an issue', close the ticket immediately.",
+      "B": "Say: 'Thank you for your honesty and patience, Mr./Ms. {name}. Let me review the billing immediately. I will correct any discrepancy and send you the details.'",
+      "C": "Tell them that we don't fix small errors under $1.",
+      "D": "Ask them to submit a formal letter of complaint."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers appreciate thoroughness and honesty. Even minor reported errors should be addressed with full attention and respect.",
+    "skill": "Attention to Detail"
+  },
+  {
+    "id": 132,
+    "question": "A customer from Singapore named Mei writes: 'I think there was a small error in my billing. It is not an issue, but I wanted to report it.' How do you react?",
+    "scenario": "Minor error reporting",
+    "options": {
+      "A": "Since they said 'not an issue', close the ticket immediately.",
+      "B": "Say: 'Thank you for your honesty and patience, Mr./Ms. {name}. Let me review the billing immediately. I will correct any discrepancy and send you the details.'",
+      "C": "Tell them that we don't fix small errors under $1.",
+      "D": "Ask them to submit a formal letter of complaint."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers appreciate thoroughness and honesty. Even minor reported errors should be addressed with full attention and respect.",
+    "skill": "Attention to Detail"
+  },
+  {
+    "id": 133,
+    "question": "A customer from Johannesburg named Mei writes: 'I think there was a small error in my billing. It is not an issue, but I wanted to report it.' How do you react?",
+    "scenario": "Minor error reporting",
+    "options": {
+      "A": "Since they said 'not an issue', close the ticket immediately.",
+      "B": "Say: 'Thank you for your honesty and patience, Mr./Ms. {name}. Let me review the billing immediately. I will correct any discrepancy and send you the details.'",
+      "C": "Tell them that we don't fix small errors under $1.",
+      "D": "Ask them to submit a formal letter of complaint."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers appreciate thoroughness and honesty. Even minor reported errors should be addressed with full attention and respect.",
+    "skill": "Attention to Detail"
+  },
+  {
+    "id": 134,
+    "question": "A customer from Johannesburg named Hana writes: 'I think there was a small error in my billing. It is not an issue, but I wanted to report it.' How do you react?",
+    "scenario": "Minor error reporting",
+    "options": {
+      "A": "Since they said 'not an issue', close the ticket immediately.",
+      "B": "Say: 'Thank you for your honesty and patience, Mr./Ms. {name}. Let me review the billing immediately. I will correct any discrepancy and send you the details.'",
+      "C": "Tell them that we don't fix small errors under $1.",
+      "D": "Ask them to submit a formal letter of complaint."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers appreciate thoroughness and honesty. Even minor reported errors should be addressed with full attention and respect.",
+    "skill": "Attention to Detail"
+  },
+  {
+    "id": 135,
+    "question": "A customer from Singapore named Hiroshi writes: 'I think there was a small error in my billing. It is not an issue, but I wanted to report it.' How do you react?",
+    "scenario": "Minor error reporting",
+    "options": {
+      "A": "Since they said 'not an issue', close the ticket immediately.",
+      "B": "Say: 'Thank you for your honesty and patience, Mr./Ms. {name}. Let me review the billing immediately. I will correct any discrepancy and send you the details.'",
+      "C": "Tell them that we don't fix small errors under $1.",
+      "D": "Ask them to submit a formal letter of complaint."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers appreciate thoroughness and honesty. Even minor reported errors should be addressed with full attention and respect.",
+    "skill": "Attention to Detail"
+  },
+  {
+    "id": 136,
+    "question": "A customer from Johannesburg named Ji-won writes: 'I think there was a small error in my billing. It is not an issue, but I wanted to report it.' How do you react?",
+    "scenario": "Minor error reporting",
+    "options": {
+      "A": "Since they said 'not an issue', close the ticket immediately.",
+      "B": "Say: 'Thank you for your honesty and patience, Mr./Ms. {name}. Let me review the billing immediately. I will correct any discrepancy and send you the details.'",
+      "C": "Tell them that we don't fix small errors under $1.",
+      "D": "Ask them to submit a formal letter of complaint."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers appreciate thoroughness and honesty. Even minor reported errors should be addressed with full attention and respect.",
+    "skill": "Attention to Detail"
+  },
+  {
+    "id": 137,
+    "question": "A customer from Johannesburg named Mei writes: 'I think there was a small error in my billing. It is not an issue, but I wanted to report it.' How do you react?",
+    "scenario": "Minor error reporting",
+    "options": {
+      "A": "Since they said 'not an issue', close the ticket immediately.",
+      "B": "Say: 'Thank you for your honesty and patience, Mr./Ms. {name}. Let me review the billing immediately. I will correct any discrepancy and send you the details.'",
+      "C": "Tell them that we don't fix small errors under $1.",
+      "D": "Ask them to submit a formal letter of complaint."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers appreciate thoroughness and honesty. Even minor reported errors should be addressed with full attention and respect.",
+    "skill": "Attention to Detail"
+  },
+  {
+    "id": 138,
+    "question": "A customer from Johannesburg named Ji-won writes: 'I think there was a small error in my billing. It is not an issue, but I wanted to report it.' How do you react?",
+    "scenario": "Minor error reporting",
+    "options": {
+      "A": "Since they said 'not an issue', close the ticket immediately.",
+      "B": "Say: 'Thank you for your honesty and patience, Mr./Ms. {name}. Let me review the billing immediately. I will correct any discrepancy and send you the details.'",
+      "C": "Tell them that we don't fix small errors under $1.",
+      "D": "Ask them to submit a formal letter of complaint."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers appreciate thoroughness and honesty. Even minor reported errors should be addressed with full attention and respect.",
+    "skill": "Attention to Detail"
+  },
+  {
+    "id": 139,
+    "question": "A customer from Johannesburg named Sakura writes: 'I think there was a small error in my billing. It is not an issue, but I wanted to report it.' How do you react?",
+    "scenario": "Minor error reporting",
+    "options": {
+      "A": "Since they said 'not an issue', close the ticket immediately.",
+      "B": "Say: 'Thank you for your honesty and patience, Mr./Ms. {name}. Let me review the billing immediately. I will correct any discrepancy and send you the details.'",
+      "C": "Tell them that we don't fix small errors under $1.",
+      "D": "Ask them to submit a formal letter of complaint."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers appreciate thoroughness and honesty. Even minor reported errors should be addressed with full attention and respect.",
+    "skill": "Attention to Detail"
+  },
+  {
+    "id": 140,
+    "question": "A customer from Johannesburg named Mei writes: 'I think there was a small error in my billing. It is not an issue, but I wanted to report it.' How do you react?",
+    "scenario": "Minor error reporting",
+    "options": {
+      "A": "Since they said 'not an issue', close the ticket immediately.",
+      "B": "Say: 'Thank you for your honesty and patience, Mr./Ms. {name}. Let me review the billing immediately. I will correct any discrepancy and send you the details.'",
+      "C": "Tell them that we don't fix small errors under $1.",
+      "D": "Ask them to submit a formal letter of complaint."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers appreciate thoroughness and honesty. Even minor reported errors should be addressed with full attention and respect.",
+    "skill": "Attention to Detail"
+  },
+  {
+    "id": 141,
+    "question": "A customer from Singapore named Wei writes: 'I think there was a small error in my billing. It is not an issue, but I wanted to report it.' How do you react?",
+    "scenario": "Minor error reporting",
+    "options": {
+      "A": "Since they said 'not an issue', close the ticket immediately.",
+      "B": "Say: 'Thank you for your honesty and patience, Mr./Ms. {name}. Let me review the billing immediately. I will correct any discrepancy and send you the details.'",
+      "C": "Tell them that we don't fix small errors under $1.",
+      "D": "Ask them to submit a formal letter of complaint."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers appreciate thoroughness and honesty. Even minor reported errors should be addressed with full attention and respect.",
+    "skill": "Attention to Detail"
+  },
+  {
+    "id": 142,
+    "question": "A customer from Singapore named Sakura writes: 'I think there was a small error in my billing. It is not an issue, but I wanted to report it.' How do you react?",
+    "scenario": "Minor error reporting",
+    "options": {
+      "A": "Since they said 'not an issue', close the ticket immediately.",
+      "B": "Say: 'Thank you for your honesty and patience, Mr./Ms. {name}. Let me review the billing immediately. I will correct any discrepancy and send you the details.'",
+      "C": "Tell them that we don't fix small errors under $1.",
+      "D": "Ask them to submit a formal letter of complaint."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers appreciate thoroughness and honesty. Even minor reported errors should be addressed with full attention and respect.",
+    "skill": "Attention to Detail"
+  },
+  {
+    "id": 143,
+    "question": "A customer from Johannesburg named Kenji writes: 'I think there was a small error in my billing. It is not an issue, but I wanted to report it.' How do you react?",
+    "scenario": "Minor error reporting",
+    "options": {
+      "A": "Since they said 'not an issue', close the ticket immediately.",
+      "B": "Say: 'Thank you for your honesty and patience, Mr./Ms. {name}. Let me review the billing immediately. I will correct any discrepancy and send you the details.'",
+      "C": "Tell them that we don't fix small errors under $1.",
+      "D": "Ask them to submit a formal letter of complaint."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers appreciate thoroughness and honesty. Even minor reported errors should be addressed with full attention and respect.",
+    "skill": "Attention to Detail"
+  },
+  {
+    "id": 144,
+    "question": "A customer from Singapore named Chao writes: 'I think there was a small error in my billing. It is not an issue, but I wanted to report it.' How do you react?",
+    "scenario": "Minor error reporting",
+    "options": {
+      "A": "Since they said 'not an issue', close the ticket immediately.",
+      "B": "Say: 'Thank you for your honesty and patience, Mr./Ms. {name}. Let me review the billing immediately. I will correct any discrepancy and send you the details.'",
+      "C": "Tell them that we don't fix small errors under $1.",
+      "D": "Ask them to submit a formal letter of complaint."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers appreciate thoroughness and honesty. Even minor reported errors should be addressed with full attention and respect.",
+    "skill": "Attention to Detail"
+  },
+  {
+    "id": 145,
+    "question": "A customer from Johannesburg named Chen writes: 'I think there was a small error in my billing. It is not an issue, but I wanted to report it.' How do you react?",
+    "scenario": "Minor error reporting",
+    "options": {
+      "A": "Since they said 'not an issue', close the ticket immediately.",
+      "B": "Say: 'Thank you for your honesty and patience, Mr./Ms. {name}. Let me review the billing immediately. I will correct any discrepancy and send you the details.'",
+      "C": "Tell them that we don't fix small errors under $1.",
+      "D": "Ask them to submit a formal letter of complaint."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers appreciate thoroughness and honesty. Even minor reported errors should be addressed with full attention and respect.",
+    "skill": "Attention to Detail"
+  },
+  {
+    "id": 146,
+    "question": "A customer from Johannesburg named Chen writes: 'I think there was a small error in my billing. It is not an issue, but I wanted to report it.' How do you react?",
+    "scenario": "Minor error reporting",
+    "options": {
+      "A": "Since they said 'not an issue', close the ticket immediately.",
+      "B": "Say: 'Thank you for your honesty and patience, Mr./Ms. {name}. Let me review the billing immediately. I will correct any discrepancy and send you the details.'",
+      "C": "Tell them that we don't fix small errors under $1.",
+      "D": "Ask them to submit a formal letter of complaint."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers appreciate thoroughness and honesty. Even minor reported errors should be addressed with full attention and respect.",
+    "skill": "Attention to Detail"
+  },
+  {
+    "id": 147,
+    "question": "A customer from Johannesburg named Chen writes: 'I think there was a small error in my billing. It is not an issue, but I wanted to report it.' How do you react?",
+    "scenario": "Minor error reporting",
+    "options": {
+      "A": "Since they said 'not an issue', close the ticket immediately.",
+      "B": "Say: 'Thank you for your honesty and patience, Mr./Ms. {name}. Let me review the billing immediately. I will correct any discrepancy and send you the details.'",
+      "C": "Tell them that we don't fix small errors under $1.",
+      "D": "Ask them to submit a formal letter of complaint."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers appreciate thoroughness and honesty. Even minor reported errors should be addressed with full attention and respect.",
+    "skill": "Attention to Detail"
+  },
+  {
+    "id": 148,
+    "question": "A customer from Johannesburg named Chao writes: 'I think there was a small error in my billing. It is not an issue, but I wanted to report it.' How do you react?",
+    "scenario": "Minor error reporting",
+    "options": {
+      "A": "Since they said 'not an issue', close the ticket immediately.",
+      "B": "Say: 'Thank you for your honesty and patience, Mr./Ms. {name}. Let me review the billing immediately. I will correct any discrepancy and send you the details.'",
+      "C": "Tell them that we don't fix small errors under $1.",
+      "D": "Ask them to submit a formal letter of complaint."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers appreciate thoroughness and honesty. Even minor reported errors should be addressed with full attention and respect.",
+    "skill": "Attention to Detail"
+  },
+  {
+    "id": 149,
+    "question": "A customer from Johannesburg named Mei writes: 'I think there was a small error in my billing. It is not an issue, but I wanted to report it.' How do you react?",
+    "scenario": "Minor error reporting",
+    "options": {
+      "A": "Since they said 'not an issue', close the ticket immediately.",
+      "B": "Say: 'Thank you for your honesty and patience, Mr./Ms. {name}. Let me review the billing immediately. I will correct any discrepancy and send you the details.'",
+      "C": "Tell them that we don't fix small errors under $1.",
+      "D": "Ask them to submit a formal letter of complaint."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers appreciate thoroughness and honesty. Even minor reported errors should be addressed with full attention and respect.",
+    "skill": "Attention to Detail"
+  },
+  {
+    "id": 150,
+    "question": "A customer from Johannesburg named Mei writes: 'I think there was a small error in my billing. It is not an issue, but I wanted to report it.' How do you react?",
+    "scenario": "Minor error reporting",
+    "options": {
+      "A": "Since they said 'not an issue', close the ticket immediately.",
+      "B": "Say: 'Thank you for your honesty and patience, Mr./Ms. {name}. Let me review the billing immediately. I will correct any discrepancy and send you the details.'",
+      "C": "Tell them that we don't fix small errors under $1.",
+      "D": "Ask them to submit a formal letter of complaint."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers appreciate thoroughness and honesty. Even minor reported errors should be addressed with full attention and respect.",
+    "skill": "Attention to Detail"
+  },
+  {
+    "id": 151,
+    "question": "A customer from Johannesburg named Kaito writes: 'I think there was a small error in my billing. It is not an issue, but I wanted to report it.' How do you react?",
+    "scenario": "Minor error reporting",
+    "options": {
+      "A": "Since they said 'not an issue', close the ticket immediately.",
+      "B": "Say: 'Thank you for your honesty and patience, Mr./Ms. {name}. Let me review the billing immediately. I will correct any discrepancy and send you the details.'",
+      "C": "Tell them that we don't fix small errors under $1.",
+      "D": "Ask them to submit a formal letter of complaint."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers appreciate thoroughness and honesty. Even minor reported errors should be addressed with full attention and respect.",
+    "skill": "Attention to Detail"
+  },
+  {
+    "id": 152,
+    "question": "A customer from Johannesburg named Chen writes: 'I think there was a small error in my billing. It is not an issue, but I wanted to report it.' How do you react?",
+    "scenario": "Minor error reporting",
+    "options": {
+      "A": "Since they said 'not an issue', close the ticket immediately.",
+      "B": "Say: 'Thank you for your honesty and patience, Mr./Ms. {name}. Let me review the billing immediately. I will correct any discrepancy and send you the details.'",
+      "C": "Tell them that we don't fix small errors under $1.",
+      "D": "Ask them to submit a formal letter of complaint."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers appreciate thoroughness and honesty. Even minor reported errors should be addressed with full attention and respect.",
+    "skill": "Attention to Detail"
+  },
+  {
+    "id": 153,
+    "question": "A customer from Johannesburg named Chen writes: 'I think there was a small error in my billing. It is not an issue, but I wanted to report it.' How do you react?",
+    "scenario": "Minor error reporting",
+    "options": {
+      "A": "Since they said 'not an issue', close the ticket immediately.",
+      "B": "Say: 'Thank you for your honesty and patience, Mr./Ms. {name}. Let me review the billing immediately. I will correct any discrepancy and send you the details.'",
+      "C": "Tell them that we don't fix small errors under $1.",
+      "D": "Ask them to submit a formal letter of complaint."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers appreciate thoroughness and honesty. Even minor reported errors should be addressed with full attention and respect.",
+    "skill": "Attention to Detail"
+  },
+  {
+    "id": 154,
+    "question": "A customer from Johannesburg named Sakura writes: 'I think there was a small error in my billing. It is not an issue, but I wanted to report it.' How do you react?",
+    "scenario": "Minor error reporting",
+    "options": {
+      "A": "Since they said 'not an issue', close the ticket immediately.",
+      "B": "Say: 'Thank you for your honesty and patience, Mr./Ms. {name}. Let me review the billing immediately. I will correct any discrepancy and send you the details.'",
+      "C": "Tell them that we don't fix small errors under $1.",
+      "D": "Ask them to submit a formal letter of complaint."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers appreciate thoroughness and honesty. Even minor reported errors should be addressed with full attention and respect.",
+    "skill": "Attention to Detail"
+  },
+  {
+    "id": 155,
+    "question": "A customer from Johannesburg named Ji-won writes: 'I think there was a small error in my billing. It is not an issue, but I wanted to report it.' How do you react?",
+    "scenario": "Minor error reporting",
+    "options": {
+      "A": "Since they said 'not an issue', close the ticket immediately.",
+      "B": "Say: 'Thank you for your honesty and patience, Mr./Ms. {name}. Let me review the billing immediately. I will correct any discrepancy and send you the details.'",
+      "C": "Tell them that we don't fix small errors under $1.",
+      "D": "Ask them to submit a formal letter of complaint."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers appreciate thoroughness and honesty. Even minor reported errors should be addressed with full attention and respect.",
+    "skill": "Attention to Detail"
+  },
+  {
+    "id": 156,
+    "question": "A customer from Singapore named Yuki writes: 'I think there was a small error in my billing. It is not an issue, but I wanted to report it.' How do you react?",
+    "scenario": "Minor error reporting",
+    "options": {
+      "A": "Since they said 'not an issue', close the ticket immediately.",
+      "B": "Say: 'Thank you for your honesty and patience, Mr./Ms. {name}. Let me review the billing immediately. I will correct any discrepancy and send you the details.'",
+      "C": "Tell them that we don't fix small errors under $1.",
+      "D": "Ask them to submit a formal letter of complaint."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers appreciate thoroughness and honesty. Even minor reported errors should be addressed with full attention and respect.",
+    "skill": "Attention to Detail"
+  },
+  {
+    "id": 157,
+    "question": "A customer from Singapore named Wei writes: 'I think there was a small error in my billing. It is not an issue, but I wanted to report it.' How do you react?",
+    "scenario": "Minor error reporting",
+    "options": {
+      "A": "Since they said 'not an issue', close the ticket immediately.",
+      "B": "Say: 'Thank you for your honesty and patience, Mr./Ms. {name}. Let me review the billing immediately. I will correct any discrepancy and send you the details.'",
+      "C": "Tell them that we don't fix small errors under $1.",
+      "D": "Ask them to submit a formal letter of complaint."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers appreciate thoroughness and honesty. Even minor reported errors should be addressed with full attention and respect.",
+    "skill": "Attention to Detail"
+  },
+  {
+    "id": 158,
+    "question": "A customer from Johannesburg named Wei writes: 'I think there was a small error in my billing. It is not an issue, but I wanted to report it.' How do you react?",
+    "scenario": "Minor error reporting",
+    "options": {
+      "A": "Since they said 'not an issue', close the ticket immediately.",
+      "B": "Say: 'Thank you for your honesty and patience, Mr./Ms. {name}. Let me review the billing immediately. I will correct any discrepancy and send you the details.'",
+      "C": "Tell them that we don't fix small errors under $1.",
+      "D": "Ask them to submit a formal letter of complaint."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers appreciate thoroughness and honesty. Even minor reported errors should be addressed with full attention and respect.",
+    "skill": "Attention to Detail"
+  },
+  {
+    "id": 159,
+    "question": "A customer from Johannesburg named Min-su writes: 'I think there was a small error in my billing. It is not an issue, but I wanted to report it.' How do you react?",
+    "scenario": "Minor error reporting",
+    "options": {
+      "A": "Since they said 'not an issue', close the ticket immediately.",
+      "B": "Say: 'Thank you for your honesty and patience, Mr./Ms. {name}. Let me review the billing immediately. I will correct any discrepancy and send you the details.'",
+      "C": "Tell them that we don't fix small errors under $1.",
+      "D": "Ask them to submit a formal letter of complaint."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers appreciate thoroughness and honesty. Even minor reported errors should be addressed with full attention and respect.",
+    "skill": "Attention to Detail"
+  },
+  {
+    "id": 160,
+    "question": "A customer from Johannesburg named Mei writes: 'I think there was a small error in my billing. It is not an issue, but I wanted to report it.' How do you react?",
+    "scenario": "Minor error reporting",
+    "options": {
+      "A": "Since they said 'not an issue', close the ticket immediately.",
+      "B": "Say: 'Thank you for your honesty and patience, Mr./Ms. {name}. Let me review the billing immediately. I will correct any discrepancy and send you the details.'",
+      "C": "Tell them that we don't fix small errors under $1.",
+      "D": "Ask them to submit a formal letter of complaint."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers appreciate thoroughness and honesty. Even minor reported errors should be addressed with full attention and respect.",
+    "skill": "Attention to Detail"
+  },
+  {
+    "id": 161,
+    "question": "A customer from Johannesburg named Yoon-ji writes: 'I think there was a small error in my billing. It is not an issue, but I wanted to report it.' How do you react?",
+    "scenario": "Minor error reporting",
+    "options": {
+      "A": "Since they said 'not an issue', close the ticket immediately.",
+      "B": "Say: 'Thank you for your honesty and patience, Mr./Ms. {name}. Let me review the billing immediately. I will correct any discrepancy and send you the details.'",
+      "C": "Tell them that we don't fix small errors under $1.",
+      "D": "Ask them to submit a formal letter of complaint."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers appreciate thoroughness and honesty. Even minor reported errors should be addressed with full attention and respect.",
+    "skill": "Attention to Detail"
+  },
+  {
+    "id": 162,
+    "question": "A customer from Johannesburg named Kenji writes: 'I think there was a small error in my billing. It is not an issue, but I wanted to report it.' How do you react?",
+    "scenario": "Minor error reporting",
+    "options": {
+      "A": "Since they said 'not an issue', close the ticket immediately.",
+      "B": "Say: 'Thank you for your honesty and patience, Mr./Ms. {name}. Let me review the billing immediately. I will correct any discrepancy and send you the details.'",
+      "C": "Tell them that we don't fix small errors under $1.",
+      "D": "Ask them to submit a formal letter of complaint."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers appreciate thoroughness and honesty. Even minor reported errors should be addressed with full attention and respect.",
+    "skill": "Attention to Detail"
+  },
+  {
+    "id": 163,
+    "question": "A customer from Singapore named Hiroshi writes: 'I think there was a small error in my billing. It is not an issue, but I wanted to report it.' How do you react?",
+    "scenario": "Minor error reporting",
+    "options": {
+      "A": "Since they said 'not an issue', close the ticket immediately.",
+      "B": "Say: 'Thank you for your honesty and patience, Mr./Ms. {name}. Let me review the billing immediately. I will correct any discrepancy and send you the details.'",
+      "C": "Tell them that we don't fix small errors under $1.",
+      "D": "Ask them to submit a formal letter of complaint."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers appreciate thoroughness and honesty. Even minor reported errors should be addressed with full attention and respect.",
+    "skill": "Attention to Detail"
+  },
+  {
+    "id": 164,
+    "question": "A customer from Singapore named Mei writes: 'I think there was a small error in my billing. It is not an issue, but I wanted to report it.' How do you react?",
+    "scenario": "Minor error reporting",
+    "options": {
+      "A": "Since they said 'not an issue', close the ticket immediately.",
+      "B": "Say: 'Thank you for your honesty and patience, Mr./Ms. {name}. Let me review the billing immediately. I will correct any discrepancy and send you the details.'",
+      "C": "Tell them that we don't fix small errors under $1.",
+      "D": "Ask them to submit a formal letter of complaint."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers appreciate thoroughness and honesty. Even minor reported errors should be addressed with full attention and respect.",
+    "skill": "Attention to Detail"
+  },
+  {
+    "id": 165,
+    "question": "A customer from Johannesburg named Chao writes: 'I think there was a small error in my billing. It is not an issue, but I wanted to report it.' How do you react?",
+    "scenario": "Minor error reporting",
+    "options": {
+      "A": "Since they said 'not an issue', close the ticket immediately.",
+      "B": "Say: 'Thank you for your honesty and patience, Mr./Ms. {name}. Let me review the billing immediately. I will correct any discrepancy and send you the details.'",
+      "C": "Tell them that we don't fix small errors under $1.",
+      "D": "Ask them to submit a formal letter of complaint."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers appreciate thoroughness and honesty. Even minor reported errors should be addressed with full attention and respect.",
+    "skill": "Attention to Detail"
+  },
+  {
+    "id": 166,
+    "question": "A customer from Johannesburg named Ji-won writes: 'I think there was a small error in my billing. It is not an issue, but I wanted to report it.' How do you react?",
+    "scenario": "Minor error reporting",
+    "options": {
+      "A": "Since they said 'not an issue', close the ticket immediately.",
+      "B": "Say: 'Thank you for your honesty and patience, Mr./Ms. {name}. Let me review the billing immediately. I will correct any discrepancy and send you the details.'",
+      "C": "Tell them that we don't fix small errors under $1.",
+      "D": "Ask them to submit a formal letter of complaint."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers appreciate thoroughness and honesty. Even minor reported errors should be addressed with full attention and respect.",
+    "skill": "Attention to Detail"
+  },
+  {
+    "id": 167,
+    "question": "A customer from Johannesburg named Ji-won writes: 'I think there was a small error in my billing. It is not an issue, but I wanted to report it.' How do you react?",
+    "scenario": "Minor error reporting",
+    "options": {
+      "A": "Since they said 'not an issue', close the ticket immediately.",
+      "B": "Say: 'Thank you for your honesty and patience, Mr./Ms. {name}. Let me review the billing immediately. I will correct any discrepancy and send you the details.'",
+      "C": "Tell them that we don't fix small errors under $1.",
+      "D": "Ask them to submit a formal letter of complaint."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers appreciate thoroughness and honesty. Even minor reported errors should be addressed with full attention and respect.",
+    "skill": "Attention to Detail"
+  },
+  {
+    "id": 168,
+    "question": "A customer from Singapore named Chao writes: 'I think there was a small error in my billing. It is not an issue, but I wanted to report it.' How do you react?",
+    "scenario": "Minor error reporting",
+    "options": {
+      "A": "Since they said 'not an issue', close the ticket immediately.",
+      "B": "Say: 'Thank you for your honesty and patience, Mr./Ms. {name}. Let me review the billing immediately. I will correct any discrepancy and send you the details.'",
+      "C": "Tell them that we don't fix small errors under $1.",
+      "D": "Ask them to submit a formal letter of complaint."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers appreciate thoroughness and honesty. Even minor reported errors should be addressed with full attention and respect.",
+    "skill": "Attention to Detail"
+  },
+  {
+    "id": 169,
+    "question": "A customer from Singapore named Kenji writes: 'I think there was a small error in my billing. It is not an issue, but I wanted to report it.' How do you react?",
+    "scenario": "Minor error reporting",
+    "options": {
+      "A": "Since they said 'not an issue', close the ticket immediately.",
+      "B": "Say: 'Thank you for your honesty and patience, Mr./Ms. {name}. Let me review the billing immediately. I will correct any discrepancy and send you the details.'",
+      "C": "Tell them that we don't fix small errors under $1.",
+      "D": "Ask them to submit a formal letter of complaint."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers appreciate thoroughness and honesty. Even minor reported errors should be addressed with full attention and respect.",
+    "skill": "Attention to Detail"
+  },
+  {
+    "id": 170,
+    "question": "A customer from Johannesburg named Ji-won writes: 'I think there was a small error in my billing. It is not an issue, but I wanted to report it.' How do you react?",
+    "scenario": "Minor error reporting",
+    "options": {
+      "A": "Since they said 'not an issue', close the ticket immediately.",
+      "B": "Say: 'Thank you for your honesty and patience, Mr./Ms. {name}. Let me review the billing immediately. I will correct any discrepancy and send you the details.'",
+      "C": "Tell them that we don't fix small errors under $1.",
+      "D": "Ask them to submit a formal letter of complaint."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers appreciate thoroughness and honesty. Even minor reported errors should be addressed with full attention and respect.",
+    "skill": "Attention to Detail"
+  },
+  {
+    "id": 171,
+    "question": "A customer from Johannesburg named Hana writes: 'I think there was a small error in my billing. It is not an issue, but I wanted to report it.' How do you react?",
+    "scenario": "Minor error reporting",
+    "options": {
+      "A": "Since they said 'not an issue', close the ticket immediately.",
+      "B": "Say: 'Thank you for your honesty and patience, Mr./Ms. {name}. Let me review the billing immediately. I will correct any discrepancy and send you the details.'",
+      "C": "Tell them that we don't fix small errors under $1.",
+      "D": "Ask them to submit a formal letter of complaint."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers appreciate thoroughness and honesty. Even minor reported errors should be addressed with full attention and respect.",
+    "skill": "Attention to Detail"
+  },
+  {
+    "id": 172,
+    "question": "A customer from Singapore named Seo-yeon writes: 'I think there was a small error in my billing. It is not an issue, but I wanted to report it.' How do you react?",
+    "scenario": "Minor error reporting",
+    "options": {
+      "A": "Since they said 'not an issue', close the ticket immediately.",
+      "B": "Say: 'Thank you for your honesty and patience, Mr./Ms. {name}. Let me review the billing immediately. I will correct any discrepancy and send you the details.'",
+      "C": "Tell them that we don't fix small errors under $1.",
+      "D": "Ask them to submit a formal letter of complaint."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers appreciate thoroughness and honesty. Even minor reported errors should be addressed with full attention and respect.",
+    "skill": "Attention to Detail"
+  },
+  {
+    "id": 173,
+    "question": "A customer from Singapore named Sakura writes: 'I think there was a small error in my billing. It is not an issue, but I wanted to report it.' How do you react?",
+    "scenario": "Minor error reporting",
+    "options": {
+      "A": "Since they said 'not an issue', close the ticket immediately.",
+      "B": "Say: 'Thank you for your honesty and patience, Mr./Ms. {name}. Let me review the billing immediately. I will correct any discrepancy and send you the details.'",
+      "C": "Tell them that we don't fix small errors under $1.",
+      "D": "Ask them to submit a formal letter of complaint."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers appreciate thoroughness and honesty. Even minor reported errors should be addressed with full attention and respect.",
+    "skill": "Attention to Detail"
+  },
+  {
+    "id": 174,
+    "question": "A customer from Johannesburg named Chao writes: 'I think there was a small error in my billing. It is not an issue, but I wanted to report it.' How do you react?",
+    "scenario": "Minor error reporting",
+    "options": {
+      "A": "Since they said 'not an issue', close the ticket immediately.",
+      "B": "Say: 'Thank you for your honesty and patience, Mr./Ms. {name}. Let me review the billing immediately. I will correct any discrepancy and send you the details.'",
+      "C": "Tell them that we don't fix small errors under $1.",
+      "D": "Ask them to submit a formal letter of complaint."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers appreciate thoroughness and honesty. Even minor reported errors should be addressed with full attention and respect.",
+    "skill": "Attention to Detail"
+  },
+  {
+    "id": 175,
+    "question": "A customer from Johannesburg named Hana writes: 'I think there was a small error in my billing. It is not an issue, but I wanted to report it.' How do you react?",
+    "scenario": "Minor error reporting",
+    "options": {
+      "A": "Since they said 'not an issue', close the ticket immediately.",
+      "B": "Say: 'Thank you for your honesty and patience, Mr./Ms. {name}. Let me review the billing immediately. I will correct any discrepancy and send you the details.'",
+      "C": "Tell them that we don't fix small errors under $1.",
+      "D": "Ask them to submit a formal letter of complaint."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers appreciate thoroughness and honesty. Even minor reported errors should be addressed with full attention and respect.",
+    "skill": "Attention to Detail"
+  },
+  {
+    "id": 176,
+    "question": "A customer from Singapore named Chao writes: 'I think there was a small error in my billing. It is not an issue, but I wanted to report it.' How do you react?",
+    "scenario": "Minor error reporting",
+    "options": {
+      "A": "Since they said 'not an issue', close the ticket immediately.",
+      "B": "Say: 'Thank you for your honesty and patience, Mr./Ms. {name}. Let me review the billing immediately. I will correct any discrepancy and send you the details.'",
+      "C": "Tell them that we don't fix small errors under $1.",
+      "D": "Ask them to submit a formal letter of complaint."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers appreciate thoroughness and honesty. Even minor reported errors should be addressed with full attention and respect.",
+    "skill": "Attention to Detail"
+  },
+  {
+    "id": 177,
+    "question": "A customer from Johannesburg named Kaito writes: 'I think there was a small error in my billing. It is not an issue, but I wanted to report it.' How do you react?",
+    "scenario": "Minor error reporting",
+    "options": {
+      "A": "Since they said 'not an issue', close the ticket immediately.",
+      "B": "Say: 'Thank you for your honesty and patience, Mr./Ms. {name}. Let me review the billing immediately. I will correct any discrepancy and send you the details.'",
+      "C": "Tell them that we don't fix small errors under $1.",
+      "D": "Ask them to submit a formal letter of complaint."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers appreciate thoroughness and honesty. Even minor reported errors should be addressed with full attention and respect.",
+    "skill": "Attention to Detail"
+  },
+  {
+    "id": 178,
+    "question": "A customer from Johannesburg named Wei writes: 'I think there was a small error in my billing. It is not an issue, but I wanted to report it.' How do you react?",
+    "scenario": "Minor error reporting",
+    "options": {
+      "A": "Since they said 'not an issue', close the ticket immediately.",
+      "B": "Say: 'Thank you for your honesty and patience, Mr./Ms. {name}. Let me review the billing immediately. I will correct any discrepancy and send you the details.'",
+      "C": "Tell them that we don't fix small errors under $1.",
+      "D": "Ask them to submit a formal letter of complaint."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers appreciate thoroughness and honesty. Even minor reported errors should be addressed with full attention and respect.",
+    "skill": "Attention to Detail"
+  },
+  {
+    "id": 179,
+    "question": "A customer from Singapore named Ji-won writes: 'I think there was a small error in my billing. It is not an issue, but I wanted to report it.' How do you react?",
+    "scenario": "Minor error reporting",
+    "options": {
+      "A": "Since they said 'not an issue', close the ticket immediately.",
+      "B": "Say: 'Thank you for your honesty and patience, Mr./Ms. {name}. Let me review the billing immediately. I will correct any discrepancy and send you the details.'",
+      "C": "Tell them that we don't fix small errors under $1.",
+      "D": "Ask them to submit a formal letter of complaint."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers appreciate thoroughness and honesty. Even minor reported errors should be addressed with full attention and respect.",
+    "skill": "Attention to Detail"
+  },
+  {
+    "id": 180,
+    "question": "A customer from Singapore named Takahiro writes: 'I think there was a small error in my billing. It is not an issue, but I wanted to report it.' How do you react?",
+    "scenario": "Minor error reporting",
+    "options": {
+      "A": "Since they said 'not an issue', close the ticket immediately.",
+      "B": "Say: 'Thank you for your honesty and patience, Mr./Ms. {name}. Let me review the billing immediately. I will correct any discrepancy and send you the details.'",
+      "C": "Tell them that we don't fix small errors under $1.",
+      "D": "Ask them to submit a formal letter of complaint."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers appreciate thoroughness and honesty. Even minor reported errors should be addressed with full attention and respect.",
+    "skill": "Attention to Detail"
+  },
+  {
+    "id": 181,
+    "question": "A customer from Singapore named Yoon-ji writes: 'I think there was a small error in my billing. It is not an issue, but I wanted to report it.' How do you react?",
+    "scenario": "Minor error reporting",
+    "options": {
+      "A": "Since they said 'not an issue', close the ticket immediately.",
+      "B": "Say: 'Thank you for your honesty and patience, Mr./Ms. {name}. Let me review the billing immediately. I will correct any discrepancy and send you the details.'",
+      "C": "Tell them that we don't fix small errors under $1.",
+      "D": "Ask them to submit a formal letter of complaint."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers appreciate thoroughness and honesty. Even minor reported errors should be addressed with full attention and respect.",
+    "skill": "Attention to Detail"
+  },
+  {
+    "id": 182,
+    "question": "A customer from Johannesburg named Sakura writes: 'I think there was a small error in my billing. It is not an issue, but I wanted to report it.' How do you react?",
+    "scenario": "Minor error reporting",
+    "options": {
+      "A": "Since they said 'not an issue', close the ticket immediately.",
+      "B": "Say: 'Thank you for your honesty and patience, Mr./Ms. {name}. Let me review the billing immediately. I will correct any discrepancy and send you the details.'",
+      "C": "Tell them that we don't fix small errors under $1.",
+      "D": "Ask them to submit a formal letter of complaint."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers appreciate thoroughness and honesty. Even minor reported errors should be addressed with full attention and respect.",
+    "skill": "Attention to Detail"
+  },
+  {
+    "id": 183,
+    "question": "A customer from Singapore named Seo-yeon writes: 'I think there was a small error in my billing. It is not an issue, but I wanted to report it.' How do you react?",
+    "scenario": "Minor error reporting",
+    "options": {
+      "A": "Since they said 'not an issue', close the ticket immediately.",
+      "B": "Say: 'Thank you for your honesty and patience, Mr./Ms. {name}. Let me review the billing immediately. I will correct any discrepancy and send you the details.'",
+      "C": "Tell them that we don't fix small errors under $1.",
+      "D": "Ask them to submit a formal letter of complaint."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers appreciate thoroughness and honesty. Even minor reported errors should be addressed with full attention and respect.",
+    "skill": "Attention to Detail"
+  },
+  {
+    "id": 184,
+    "question": "A customer from Singapore named Kaito writes: 'I think there was a small error in my billing. It is not an issue, but I wanted to report it.' How do you react?",
+    "scenario": "Minor error reporting",
+    "options": {
+      "A": "Since they said 'not an issue', close the ticket immediately.",
+      "B": "Say: 'Thank you for your honesty and patience, Mr./Ms. {name}. Let me review the billing immediately. I will correct any discrepancy and send you the details.'",
+      "C": "Tell them that we don't fix small errors under $1.",
+      "D": "Ask them to submit a formal letter of complaint."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers appreciate thoroughness and honesty. Even minor reported errors should be addressed with full attention and respect.",
+    "skill": "Attention to Detail"
+  },
+  {
+    "id": 185,
+    "question": "A customer from Johannesburg named Takahiro writes: 'I think there was a small error in my billing. It is not an issue, but I wanted to report it.' How do you react?",
+    "scenario": "Minor error reporting",
+    "options": {
+      "A": "Since they said 'not an issue', close the ticket immediately.",
+      "B": "Say: 'Thank you for your honesty and patience, Mr./Ms. {name}. Let me review the billing immediately. I will correct any discrepancy and send you the details.'",
+      "C": "Tell them that we don't fix small errors under $1.",
+      "D": "Ask them to submit a formal letter of complaint."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers appreciate thoroughness and honesty. Even minor reported errors should be addressed with full attention and respect.",
+    "skill": "Attention to Detail"
+  },
+  {
+    "id": 186,
+    "question": "A customer from Singapore named Takahiro writes: 'I think there was a small error in my billing. It is not an issue, but I wanted to report it.' How do you react?",
+    "scenario": "Minor error reporting",
+    "options": {
+      "A": "Since they said 'not an issue', close the ticket immediately.",
+      "B": "Say: 'Thank you for your honesty and patience, Mr./Ms. {name}. Let me review the billing immediately. I will correct any discrepancy and send you the details.'",
+      "C": "Tell them that we don't fix small errors under $1.",
+      "D": "Ask them to submit a formal letter of complaint."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers appreciate thoroughness and honesty. Even minor reported errors should be addressed with full attention and respect.",
+    "skill": "Attention to Detail"
+  },
+  {
+    "id": 187,
+    "question": "A customer from Johannesburg named Hiroshi writes: 'I think there was a small error in my billing. It is not an issue, but I wanted to report it.' How do you react?",
+    "scenario": "Minor error reporting",
+    "options": {
+      "A": "Since they said 'not an issue', close the ticket immediately.",
+      "B": "Say: 'Thank you for your honesty and patience, Mr./Ms. {name}. Let me review the billing immediately. I will correct any discrepancy and send you the details.'",
+      "C": "Tell them that we don't fix small errors under $1.",
+      "D": "Ask them to submit a formal letter of complaint."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers appreciate thoroughness and honesty. Even minor reported errors should be addressed with full attention and respect.",
+    "skill": "Attention to Detail"
+  },
+  {
+    "id": 188,
+    "question": "A customer from Singapore named Takahiro writes: 'I think there was a small error in my billing. It is not an issue, but I wanted to report it.' How do you react?",
+    "scenario": "Minor error reporting",
+    "options": {
+      "A": "Since they said 'not an issue', close the ticket immediately.",
+      "B": "Say: 'Thank you for your honesty and patience, Mr./Ms. {name}. Let me review the billing immediately. I will correct any discrepancy and send you the details.'",
+      "C": "Tell them that we don't fix small errors under $1.",
+      "D": "Ask them to submit a formal letter of complaint."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers appreciate thoroughness and honesty. Even minor reported errors should be addressed with full attention and respect.",
+    "skill": "Attention to Detail"
+  },
+  {
+    "id": 189,
+    "question": "A customer from Johannesburg named Wei writes: 'I think there was a small error in my billing. It is not an issue, but I wanted to report it.' How do you react?",
+    "scenario": "Minor error reporting",
+    "options": {
+      "A": "Since they said 'not an issue', close the ticket immediately.",
+      "B": "Say: 'Thank you for your honesty and patience, Mr./Ms. {name}. Let me review the billing immediately. I will correct any discrepancy and send you the details.'",
+      "C": "Tell them that we don't fix small errors under $1.",
+      "D": "Ask them to submit a formal letter of complaint."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers appreciate thoroughness and honesty. Even minor reported errors should be addressed with full attention and respect.",
+    "skill": "Attention to Detail"
+  },
+  {
+    "id": 190,
+    "question": "A customer from Singapore named Hana writes: 'I think there was a small error in my billing. It is not an issue, but I wanted to report it.' How do you react?",
+    "scenario": "Minor error reporting",
+    "options": {
+      "A": "Since they said 'not an issue', close the ticket immediately.",
+      "B": "Say: 'Thank you for your honesty and patience, Mr./Ms. {name}. Let me review the billing immediately. I will correct any discrepancy and send you the details.'",
+      "C": "Tell them that we don't fix small errors under $1.",
+      "D": "Ask them to submit a formal letter of complaint."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers appreciate thoroughness and honesty. Even minor reported errors should be addressed with full attention and respect.",
+    "skill": "Attention to Detail"
+  },
+  {
+    "id": 191,
+    "question": "A customer from Johannesburg named Seo-yeon writes: 'I think there was a small error in my billing. It is not an issue, but I wanted to report it.' How do you react?",
+    "scenario": "Minor error reporting",
+    "options": {
+      "A": "Since they said 'not an issue', close the ticket immediately.",
+      "B": "Say: 'Thank you for your honesty and patience, Mr./Ms. {name}. Let me review the billing immediately. I will correct any discrepancy and send you the details.'",
+      "C": "Tell them that we don't fix small errors under $1.",
+      "D": "Ask them to submit a formal letter of complaint."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers appreciate thoroughness and honesty. Even minor reported errors should be addressed with full attention and respect.",
+    "skill": "Attention to Detail"
+  },
+  {
+    "id": 192,
+    "question": "A customer from Johannesburg named Ji-won writes: 'I think there was a small error in my billing. It is not an issue, but I wanted to report it.' How do you react?",
+    "scenario": "Minor error reporting",
+    "options": {
+      "A": "Since they said 'not an issue', close the ticket immediately.",
+      "B": "Say: 'Thank you for your honesty and patience, Mr./Ms. {name}. Let me review the billing immediately. I will correct any discrepancy and send you the details.'",
+      "C": "Tell them that we don't fix small errors under $1.",
+      "D": "Ask them to submit a formal letter of complaint."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers appreciate thoroughness and honesty. Even minor reported errors should be addressed with full attention and respect.",
+    "skill": "Attention to Detail"
+  },
+  {
+    "id": 193,
+    "question": "A customer from Singapore named Chen writes: 'I think there was a small error in my billing. It is not an issue, but I wanted to report it.' How do you react?",
+    "scenario": "Minor error reporting",
+    "options": {
+      "A": "Since they said 'not an issue', close the ticket immediately.",
+      "B": "Say: 'Thank you for your honesty and patience, Mr./Ms. {name}. Let me review the billing immediately. I will correct any discrepancy and send you the details.'",
+      "C": "Tell them that we don't fix small errors under $1.",
+      "D": "Ask them to submit a formal letter of complaint."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers appreciate thoroughness and honesty. Even minor reported errors should be addressed with full attention and respect.",
+    "skill": "Attention to Detail"
+  },
+  {
+    "id": 194,
+    "question": "A customer from Johannesburg named Min-su writes: 'I think there was a small error in my billing. It is not an issue, but I wanted to report it.' How do you react?",
+    "scenario": "Minor error reporting",
+    "options": {
+      "A": "Since they said 'not an issue', close the ticket immediately.",
+      "B": "Say: 'Thank you for your honesty and patience, Mr./Ms. {name}. Let me review the billing immediately. I will correct any discrepancy and send you the details.'",
+      "C": "Tell them that we don't fix small errors under $1.",
+      "D": "Ask them to submit a formal letter of complaint."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers appreciate thoroughness and honesty. Even minor reported errors should be addressed with full attention and respect.",
+    "skill": "Attention to Detail"
+  },
+  {
+    "id": 195,
+    "question": "A customer from Johannesburg named Min-su writes: 'I think there was a small error in my billing. It is not an issue, but I wanted to report it.' How do you react?",
+    "scenario": "Minor error reporting",
+    "options": {
+      "A": "Since they said 'not an issue', close the ticket immediately.",
+      "B": "Say: 'Thank you for your honesty and patience, Mr./Ms. {name}. Let me review the billing immediately. I will correct any discrepancy and send you the details.'",
+      "C": "Tell them that we don't fix small errors under $1.",
+      "D": "Ask them to submit a formal letter of complaint."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers appreciate thoroughness and honesty. Even minor reported errors should be addressed with full attention and respect.",
+    "skill": "Attention to Detail"
+  },
+  {
+    "id": 196,
+    "question": "A customer from Singapore named Takahiro writes: 'I think there was a small error in my billing. It is not an issue, but I wanted to report it.' How do you react?",
+    "scenario": "Minor error reporting",
+    "options": {
+      "A": "Since they said 'not an issue', close the ticket immediately.",
+      "B": "Say: 'Thank you for your honesty and patience, Mr./Ms. {name}. Let me review the billing immediately. I will correct any discrepancy and send you the details.'",
+      "C": "Tell them that we don't fix small errors under $1.",
+      "D": "Ask them to submit a formal letter of complaint."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers appreciate thoroughness and honesty. Even minor reported errors should be addressed with full attention and respect.",
+    "skill": "Attention to Detail"
+  },
+  {
+    "id": 197,
+    "question": "A customer from Singapore named Ji-won writes: 'I think there was a small error in my billing. It is not an issue, but I wanted to report it.' How do you react?",
+    "scenario": "Minor error reporting",
+    "options": {
+      "A": "Since they said 'not an issue', close the ticket immediately.",
+      "B": "Say: 'Thank you for your honesty and patience, Mr./Ms. {name}. Let me review the billing immediately. I will correct any discrepancy and send you the details.'",
+      "C": "Tell them that we don't fix small errors under $1.",
+      "D": "Ask them to submit a formal letter of complaint."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers appreciate thoroughness and honesty. Even minor reported errors should be addressed with full attention and respect.",
+    "skill": "Attention to Detail"
+  },
+  {
+    "id": 198,
+    "question": "A customer from Singapore named Li writes: 'I think there was a small error in my billing. It is not an issue, but I wanted to report it.' How do you react?",
+    "scenario": "Minor error reporting",
+    "options": {
+      "A": "Since they said 'not an issue', close the ticket immediately.",
+      "B": "Say: 'Thank you for your honesty and patience, Mr./Ms. {name}. Let me review the billing immediately. I will correct any discrepancy and send you the details.'",
+      "C": "Tell them that we don't fix small errors under $1.",
+      "D": "Ask them to submit a formal letter of complaint."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers appreciate thoroughness and honesty. Even minor reported errors should be addressed with full attention and respect.",
+    "skill": "Attention to Detail"
+  },
+  {
+    "id": 199,
+    "question": "A customer from Singapore named Ji-won writes: 'I think there was a small error in my billing. It is not an issue, but I wanted to report it.' How do you react?",
+    "scenario": "Minor error reporting",
+    "options": {
+      "A": "Since they said 'not an issue', close the ticket immediately.",
+      "B": "Say: 'Thank you for your honesty and patience, Mr./Ms. {name}. Let me review the billing immediately. I will correct any discrepancy and send you the details.'",
+      "C": "Tell them that we don't fix small errors under $1.",
+      "D": "Ask them to submit a formal letter of complaint."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers appreciate thoroughness and honesty. Even minor reported errors should be addressed with full attention and respect.",
+    "skill": "Attention to Detail"
+  },
+  {
+    "id": 200,
+    "question": "A customer from Singapore named Li writes: 'I think there was a small error in my billing. It is not an issue, but I wanted to report it.' How do you react?",
+    "scenario": "Minor error reporting",
+    "options": {
+      "A": "Since they said 'not an issue', close the ticket immediately.",
+      "B": "Say: 'Thank you for your honesty and patience, Mr./Ms. {name}. Let me review the billing immediately. I will correct any discrepancy and send you the details.'",
+      "C": "Tell them that we don't fix small errors under $1.",
+      "D": "Ask them to submit a formal letter of complaint."
+    },
+    "answer": "B",
+    "explanation": "East Asian customers appreciate thoroughness and honesty. Even minor reported errors should be addressed with full attention and respect.",
+    "skill": "Attention to Detail"
+  }
+]
